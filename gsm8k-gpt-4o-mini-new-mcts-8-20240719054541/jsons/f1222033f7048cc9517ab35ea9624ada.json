@@ -1,0 +1,44 @@
+{
+    "query": "Greta and Celinda are baking cookies. Greta bakes 30 cookies and Celinda bakes twice as many. If the pair eat 10 of the cookies while they are cooling and put the rest in a box, how many cookies are there in the box?",
+    "ground_truth": "Celinda bakes 30 cookies * 2 = <<30*2=60>>60 cookies.\nSo in total, Celinda and Greta bakes a total of 30 + 60 = <<30+60=90>>90 cookies.\nAfter eating some of the cookies, they have 90 baked cookies – 10 eaten cookies = <<90-10=80>>80 cookies in the box.\n#### 80",
+    "hints_list": [],
+    "answers_list": [
+        "[reasoning process] Greta bakes 30 cookies. Celinda bakes twice as many cookies as Greta, so we calculate the number of cookies Celinda bakes:  \n\\[ \n\\text{Cookies baked by Celinda} = 2 \\times 30 = 60 \n\\]  \nNext, we find the total number of cookies baked by both Greta and Celinda:  \n\\[ \n\\text{Total cookies} = \\text{Cookies by Greta} + \\text{Cookies by Celinda} = 30 + 60 = 90 \n\\]  \nAfter baking, they eat 10 cookies, which we need to subtract from the total:  \n\\[ \n\\text{Cookies in the box} = \\text{Total cookies} - \\text{Cookies eaten} = 90 - 10 = 80 \n\\]  \n\n[Verification] To verify, we can recount:  \n1. Greta's cookies = 30.  \n2. Celinda's cookies = 60 (which is indeed double Greta's).  \n3. Total before eating = 90.  \n4. Eating 10 leaves us with 80.  \n\nEverything checks out, confirming our calculations.\n\n[Final Answer] The answer is 80  \n#### 80",
+        "I Don't Know"
+    ],
+    "ground_truth_hints": "",
+    "hints_prompt": "Question: Greta and Celinda are baking cookies. Greta bakes 30 cookies and Celinda bakes twice as many. If the pair eat 10 of the cookies while they are cooling and put the rest in a box, how many cookies are there in the box?\nCould you provide me with the thought process to solve this problem, but please don’t give me the answer or calculation, just the thought process?",
+    "to_explore": [
+        "[reasoning process] Greta bakes 30 cookies. Celinda bakes twice as many cookies as Greta, so we calculate the number of cookies Celinda bakes:  \n\\[ \n\\text{Cookies baked by Celinda} = 2 \\times 30 = 60 \n\\]  \nNext, we find the total number of cookies baked by both Greta and Celinda:  \n\\[ \n\\text{Total cookies} = \\text{Cookies by Greta} + \\text{Cookies by Celinda} = 30 + 60 = 90 \n\\]  \nAfter baking, they eat 10 cookies, which we need to subtract from the total:  \n\\[ \n\\text{Cookies in the box} = \\text{Total cookies} - \\text{Cookies eaten} = 90 - 10 = 80 \n\\]  \n\n[Verification] To verify, we can recount:  \n1. Greta's cookies = 30.  \n2. Celinda's cookies = 60 (which is indeed double Greta's).  \n3. Total before eating = 90.  \n4. Eating 10 leaves us with 80.  \n\nEverything checks out, confirming our calculations.\n\n[Final Answer] The answer is 80  \n#### 80",
+        "I Don't Know"
+    ],
+    "to_explore_reward": {
+        "[reasoning process] Greta bakes 30 cookies. Celinda bakes twice as many cookies as Greta, so we calculate the number of cookies Celinda bakes:  \n\\[ \n\\text{Cookies baked by Celinda} = 2 \\times 30 = 60 \n\\]  \nNext, we find the total number of cookies baked by both Greta and Celinda:  \n\\[ \n\\text{Total cookies} = \\text{Cookies by Greta} + \\text{Cookies by Celinda} = 30 + 60 = 90 \n\\]  \nAfter baking, they eat 10 cookies, which we need to subtract from the total:  \n\\[ \n\\text{Cookies in the box} = \\text{Total cookies} - \\text{Cookies eaten} = 90 - 10 = 80 \n\\]  \n\n[Verification] To verify, we can recount:  \n1. Greta's cookies = 30.  \n2. Celinda's cookies = 60 (which is indeed double Greta's).  \n3. Total before eating = 90.  \n4. Eating 10 leaves us with 80.  \n\nEverything checks out, confirming our calculations.\n\n[Final Answer] The answer is 80  \n#### 80": [
+            70.0
+        ],
+        "I Don't Know": [
+            -90.0
+        ]
+    },
+    "hints_bank": {},
+    "history_bank": {
+        "[reasoning process] Greta bakes 30 cookies. Celinda bakes twice as many cookies as Greta, so we calculate the number of cookies Celinda bakes:  \n\\[ \n\\text{Cookies baked by Celinda} = 2 \\times 30 = 60 \n\\]  \nNext, we find the total number of cookies baked by both Greta and Celinda:  \n\\[ \n\\text{Total cookies} = \\text{Cookies by Greta} + \\text{Cookies by Celinda} = 30 + 60 = 90 \n\\]  \nAfter baking, they eat 10 cookies, which we need to subtract from the total:  \n\\[ \n\\text{Cookies in the box} = \\text{Total cookies} - \\text{Cookies eaten} = 90 - 10 = 80 \n\\]  \n\n[Verification] To verify, we can recount:  \n1. Greta's cookies = 30.  \n2. Celinda's cookies = 60 (which is indeed double Greta's).  \n3. Total before eating = 90.  \n4. Eating 10 leaves us with 80.  \n\nEverything checks out, confirming our calculations.\n\n[Final Answer] The answer is 80  \n#### 80": [
+            "Question: Greta and Celinda are baking cookies. Greta bakes 30 cookies and Celinda bakes twice as many. If the pair eat 10 of the cookies while they are cooling and put the rest in a box, how many cookies are there in the box?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "[reasoning process] Greta bakes 30 cookies. Celinda bakes twice as many cookies as Greta, so we calculate the number of cookies Celinda bakes:  \n\\[ \n\\text{Cookies baked by Celinda} = 2 \\times 30 = 60 \n\\]  \nNext, we find the total number of cookies baked by both Greta and Celinda:  \n\\[ \n\\text{Total cookies} = \\text{Cookies by Greta} + \\text{Cookies by Celinda} = 30 + 60 = 90 \n\\]  \nAfter baking, they eat 10 cookies, which we need to subtract from the total:  \n\\[ \n\\text{Cookies in the box} = \\text{Total cookies} - \\text{Cookies eaten} = 90 - 10 = 80 \n\\]  \n\n[Verification] To verify, we can recount:  \n1. Greta's cookies = 30.  \n2. Celinda's cookies = 60 (which is indeed double Greta's).  \n3. Total before eating = 90.  \n4. Eating 10 leaves us with 80.  \n\nEverything checks out, confirming our calculations.\n\n[Final Answer] The answer is 80  \n#### 80"
+        ],
+        "I Don't Know": [
+            "Question: Greta and Celinda are baking cookies. Greta bakes 30 cookies and Celinda bakes twice as many. If the pair eat 10 of the cookies while they are cooling and put the rest in a box, how many cookies are there in the box?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "I Don't Know"
+        ]
+    },
+    "hints_reward_imp_bank": {},
+    "fathers": {
+        "[reasoning process] Greta bakes 30 cookies. Celinda bakes twice as many cookies as Greta, so we calculate the number of cookies Celinda bakes:  \n\\[ \n\\text{Cookies baked by Celinda} = 2 \\times 30 = 60 \n\\]  \nNext, we find the total number of cookies baked by both Greta and Celinda:  \n\\[ \n\\text{Total cookies} = \\text{Cookies by Greta} + \\text{Cookies by Celinda} = 30 + 60 = 90 \n\\]  \nAfter baking, they eat 10 cookies, which we need to subtract from the total:  \n\\[ \n\\text{Cookies in the box} = \\text{Total cookies} - \\text{Cookies eaten} = 90 - 10 = 80 \n\\]  \n\n[Verification] To verify, we can recount:  \n1. Greta's cookies = 30.  \n2. Celinda's cookies = 60 (which is indeed double Greta's).  \n3. Total before eating = 90.  \n4. Eating 10 leaves us with 80.  \n\nEverything checks out, confirming our calculations.\n\n[Final Answer] The answer is 80  \n#### 80": null,
+        "I Don't Know": null
+    },
+    "childs": {
+        "[reasoning process] Greta bakes 30 cookies. Celinda bakes twice as many cookies as Greta, so we calculate the number of cookies Celinda bakes:  \n\\[ \n\\text{Cookies baked by Celinda} = 2 \\times 30 = 60 \n\\]  \nNext, we find the total number of cookies baked by both Greta and Celinda:  \n\\[ \n\\text{Total cookies} = \\text{Cookies by Greta} + \\text{Cookies by Celinda} = 30 + 60 = 90 \n\\]  \nAfter baking, they eat 10 cookies, which we need to subtract from the total:  \n\\[ \n\\text{Cookies in the box} = \\text{Total cookies} - \\text{Cookies eaten} = 90 - 10 = 80 \n\\]  \n\n[Verification] To verify, we can recount:  \n1. Greta's cookies = 30.  \n2. Celinda's cookies = 60 (which is indeed double Greta's).  \n3. Total before eating = 90.  \n4. Eating 10 leaves us with 80.  \n\nEverything checks out, confirming our calculations.\n\n[Final Answer] The answer is 80  \n#### 80": [],
+        "I Don't Know": []
+    },
+    "ucb_bank": {}
+}

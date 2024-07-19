@@ -1,0 +1,44 @@
+{
+    "query": "There are 96 fourth-graders at Small Tree  School. 43 of them are girls. On Friday, 5 fourth-grade girls and 4 fourth-grade boys were absent. How many fourth grade boys were at Small Tree  School on Friday?",
+    "ground_truth": "Of the 96 fourth graders, 43 are girls, so 96 students - 43 girls = <<96-43=53>>53 boys.\nOn Friday there were 53 boys - 4 absent = <<53-4=49>>49 boys.\n#### 49",
+    "hints_list": [],
+    "answers_list": [
+        "[reasoning process]  \nFirst, we know that there are 96 fourth-graders in total. Among them, 43 are girls. To find the number of boys, we can subtract the number of girls from the total number of students:  \n96 (total students) - 43 (girls) = 53 boys.  \n\nNext, we need to determine how many boys were present on Friday. From the problem, we know that 5 girls and 4 boys were absent on that day. Since we already have the total number of boys, we can calculate the number of boys present by subtracting the number of boys who were absent from the total number of boys:  \n53 (total boys) - 4 (boys absent) = 49 boys present.  \n\n[Verification]  \nLet’s double-check our calculations.  \n1. Total students = 96.  \n2. Girls = 43, therefore boys = 96 - 43 = 53.  \n3. Absent boys = 4, thus present boys = 53 - 4 = 49.  \n\nAll checks confirm our calculations are correct.\n\n[Final Answer] The answer is 49  \n#### 49",
+        "I can't understand this question."
+    ],
+    "ground_truth_hints": "",
+    "hints_prompt": "Question: There are 96 fourth-graders at Small Tree  School. 43 of them are girls. On Friday, 5 fourth-grade girls and 4 fourth-grade boys were absent. How many fourth grade boys were at Small Tree  School on Friday?\nCould you provide me with the thought process to solve this problem, but please don’t give me the answer or calculation, just the thought process?",
+    "to_explore": [
+        "[reasoning process]  \nFirst, we know that there are 96 fourth-graders in total. Among them, 43 are girls. To find the number of boys, we can subtract the number of girls from the total number of students:  \n96 (total students) - 43 (girls) = 53 boys.  \n\nNext, we need to determine how many boys were present on Friday. From the problem, we know that 5 girls and 4 boys were absent on that day. Since we already have the total number of boys, we can calculate the number of boys present by subtracting the number of boys who were absent from the total number of boys:  \n53 (total boys) - 4 (boys absent) = 49 boys present.  \n\n[Verification]  \nLet’s double-check our calculations.  \n1. Total students = 96.  \n2. Girls = 43, therefore boys = 96 - 43 = 53.  \n3. Absent boys = 4, thus present boys = 53 - 4 = 49.  \n\nAll checks confirm our calculations are correct.\n\n[Final Answer] The answer is 49  \n#### 49",
+        "I can't understand this question."
+    ],
+    "to_explore_reward": {
+        "[reasoning process]  \nFirst, we know that there are 96 fourth-graders in total. Among them, 43 are girls. To find the number of boys, we can subtract the number of girls from the total number of students:  \n96 (total students) - 43 (girls) = 53 boys.  \n\nNext, we need to determine how many boys were present on Friday. From the problem, we know that 5 girls and 4 boys were absent on that day. Since we already have the total number of boys, we can calculate the number of boys present by subtracting the number of boys who were absent from the total number of boys:  \n53 (total boys) - 4 (boys absent) = 49 boys present.  \n\n[Verification]  \nLet’s double-check our calculations.  \n1. Total students = 96.  \n2. Girls = 43, therefore boys = 96 - 43 = 53.  \n3. Absent boys = 4, thus present boys = 53 - 4 = 49.  \n\nAll checks confirm our calculations are correct.\n\n[Final Answer] The answer is 49  \n#### 49": [
+            70.0
+        ],
+        "I can't understand this question.": [
+            -80.0
+        ]
+    },
+    "hints_bank": {},
+    "history_bank": {
+        "[reasoning process]  \nFirst, we know that there are 96 fourth-graders in total. Among them, 43 are girls. To find the number of boys, we can subtract the number of girls from the total number of students:  \n96 (total students) - 43 (girls) = 53 boys.  \n\nNext, we need to determine how many boys were present on Friday. From the problem, we know that 5 girls and 4 boys were absent on that day. Since we already have the total number of boys, we can calculate the number of boys present by subtracting the number of boys who were absent from the total number of boys:  \n53 (total boys) - 4 (boys absent) = 49 boys present.  \n\n[Verification]  \nLet’s double-check our calculations.  \n1. Total students = 96.  \n2. Girls = 43, therefore boys = 96 - 43 = 53.  \n3. Absent boys = 4, thus present boys = 53 - 4 = 49.  \n\nAll checks confirm our calculations are correct.\n\n[Final Answer] The answer is 49  \n#### 49": [
+            "Question: There are 96 fourth-graders at Small Tree  School. 43 of them are girls. On Friday, 5 fourth-grade girls and 4 fourth-grade boys were absent. How many fourth grade boys were at Small Tree  School on Friday?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "[reasoning process]  \nFirst, we know that there are 96 fourth-graders in total. Among them, 43 are girls. To find the number of boys, we can subtract the number of girls from the total number of students:  \n96 (total students) - 43 (girls) = 53 boys.  \n\nNext, we need to determine how many boys were present on Friday. From the problem, we know that 5 girls and 4 boys were absent on that day. Since we already have the total number of boys, we can calculate the number of boys present by subtracting the number of boys who were absent from the total number of boys:  \n53 (total boys) - 4 (boys absent) = 49 boys present.  \n\n[Verification]  \nLet’s double-check our calculations.  \n1. Total students = 96.  \n2. Girls = 43, therefore boys = 96 - 43 = 53.  \n3. Absent boys = 4, thus present boys = 53 - 4 = 49.  \n\nAll checks confirm our calculations are correct.\n\n[Final Answer] The answer is 49  \n#### 49"
+        ],
+        "I can't understand this question.": [
+            "Question: There are 96 fourth-graders at Small Tree  School. 43 of them are girls. On Friday, 5 fourth-grade girls and 4 fourth-grade boys were absent. How many fourth grade boys were at Small Tree  School on Friday?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "I can't understand this question."
+        ]
+    },
+    "hints_reward_imp_bank": {},
+    "fathers": {
+        "[reasoning process]  \nFirst, we know that there are 96 fourth-graders in total. Among them, 43 are girls. To find the number of boys, we can subtract the number of girls from the total number of students:  \n96 (total students) - 43 (girls) = 53 boys.  \n\nNext, we need to determine how many boys were present on Friday. From the problem, we know that 5 girls and 4 boys were absent on that day. Since we already have the total number of boys, we can calculate the number of boys present by subtracting the number of boys who were absent from the total number of boys:  \n53 (total boys) - 4 (boys absent) = 49 boys present.  \n\n[Verification]  \nLet’s double-check our calculations.  \n1. Total students = 96.  \n2. Girls = 43, therefore boys = 96 - 43 = 53.  \n3. Absent boys = 4, thus present boys = 53 - 4 = 49.  \n\nAll checks confirm our calculations are correct.\n\n[Final Answer] The answer is 49  \n#### 49": null,
+        "I can't understand this question.": null
+    },
+    "childs": {
+        "[reasoning process]  \nFirst, we know that there are 96 fourth-graders in total. Among them, 43 are girls. To find the number of boys, we can subtract the number of girls from the total number of students:  \n96 (total students) - 43 (girls) = 53 boys.  \n\nNext, we need to determine how many boys were present on Friday. From the problem, we know that 5 girls and 4 boys were absent on that day. Since we already have the total number of boys, we can calculate the number of boys present by subtracting the number of boys who were absent from the total number of boys:  \n53 (total boys) - 4 (boys absent) = 49 boys present.  \n\n[Verification]  \nLet’s double-check our calculations.  \n1. Total students = 96.  \n2. Girls = 43, therefore boys = 96 - 43 = 53.  \n3. Absent boys = 4, thus present boys = 53 - 4 = 49.  \n\nAll checks confirm our calculations are correct.\n\n[Final Answer] The answer is 49  \n#### 49": [],
+        "I can't understand this question.": []
+    },
+    "ucb_bank": {}
+}

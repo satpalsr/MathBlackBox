@@ -1,0 +1,44 @@
+{
+    "query": "Lani baked 55 cookies. She ate 5 five cookies and placed the rest equally into five jars. How many cookies were in each jar?",
+    "ground_truth": "There were 55 - 5 = <<55-5=50>>50 cookies left after she ate five cookies.\nTherefore, there were 50/5 = <<50/5=10>>10 cookies in each jar.\n#### 10",
+    "hints_list": [],
+    "answers_list": [
+        "[reasoning process] To find out how many cookies are in each jar, we start by determining how many cookies Lani has left after eating some. She baked a total of 55 cookies and ate 5 of them. We can calculate the number of cookies remaining by subtracting the number of cookies eaten from the total number of baked cookies: \n\n55 - 5 = 50 cookies remaining.\n\nNext, we need to distribute these 50 cookies equally into 5 jars. To find out how many cookies go into each jar, we can divide the total number of remaining cookies by the number of jars:\n\n50 ÷ 5 = 10 cookies per jar.\n\n[Verification] To verify, we can multiply the number of jars by the number of cookies per jar to check if it equals the total remaining cookies. \n\n5 jars * 10 cookies per jar = 50 cookies.\n\nSince this matches the number of cookies we calculated after Lani ate some, our solution is confirmed.\n\n[Final Answer] The answer is 10 cookies per jar. \\n#### 10",
+        "I don't know how to solve this question."
+    ],
+    "ground_truth_hints": "",
+    "hints_prompt": "Question: Lani baked 55 cookies. She ate 5 five cookies and placed the rest equally into five jars. How many cookies were in each jar?\nCould you provide me with the thought process to solve this problem, but please don’t give me the answer or calculation, just the thought process?",
+    "to_explore": [
+        "[reasoning process] To find out how many cookies are in each jar, we start by determining how many cookies Lani has left after eating some. She baked a total of 55 cookies and ate 5 of them. We can calculate the number of cookies remaining by subtracting the number of cookies eaten from the total number of baked cookies: \n\n55 - 5 = 50 cookies remaining.\n\nNext, we need to distribute these 50 cookies equally into 5 jars. To find out how many cookies go into each jar, we can divide the total number of remaining cookies by the number of jars:\n\n50 ÷ 5 = 10 cookies per jar.\n\n[Verification] To verify, we can multiply the number of jars by the number of cookies per jar to check if it equals the total remaining cookies. \n\n5 jars * 10 cookies per jar = 50 cookies.\n\nSince this matches the number of cookies we calculated after Lani ate some, our solution is confirmed.\n\n[Final Answer] The answer is 10 cookies per jar. \\n#### 10",
+        "I don't know how to solve this question."
+    ],
+    "to_explore_reward": {
+        "[reasoning process] To find out how many cookies are in each jar, we start by determining how many cookies Lani has left after eating some. She baked a total of 55 cookies and ate 5 of them. We can calculate the number of cookies remaining by subtracting the number of cookies eaten from the total number of baked cookies: \n\n55 - 5 = 50 cookies remaining.\n\nNext, we need to distribute these 50 cookies equally into 5 jars. To find out how many cookies go into each jar, we can divide the total number of remaining cookies by the number of jars:\n\n50 ÷ 5 = 10 cookies per jar.\n\n[Verification] To verify, we can multiply the number of jars by the number of cookies per jar to check if it equals the total remaining cookies. \n\n5 jars * 10 cookies per jar = 50 cookies.\n\nSince this matches the number of cookies we calculated after Lani ate some, our solution is confirmed.\n\n[Final Answer] The answer is 10 cookies per jar. \\n#### 10": [
+            70.0
+        ],
+        "I don't know how to solve this question.": [
+            -70.0
+        ]
+    },
+    "hints_bank": {},
+    "history_bank": {
+        "[reasoning process] To find out how many cookies are in each jar, we start by determining how many cookies Lani has left after eating some. She baked a total of 55 cookies and ate 5 of them. We can calculate the number of cookies remaining by subtracting the number of cookies eaten from the total number of baked cookies: \n\n55 - 5 = 50 cookies remaining.\n\nNext, we need to distribute these 50 cookies equally into 5 jars. To find out how many cookies go into each jar, we can divide the total number of remaining cookies by the number of jars:\n\n50 ÷ 5 = 10 cookies per jar.\n\n[Verification] To verify, we can multiply the number of jars by the number of cookies per jar to check if it equals the total remaining cookies. \n\n5 jars * 10 cookies per jar = 50 cookies.\n\nSince this matches the number of cookies we calculated after Lani ate some, our solution is confirmed.\n\n[Final Answer] The answer is 10 cookies per jar. \\n#### 10": [
+            "Question: Lani baked 55 cookies. She ate 5 five cookies and placed the rest equally into five jars. How many cookies were in each jar?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "[reasoning process] To find out how many cookies are in each jar, we start by determining how many cookies Lani has left after eating some. She baked a total of 55 cookies and ate 5 of them. We can calculate the number of cookies remaining by subtracting the number of cookies eaten from the total number of baked cookies: \n\n55 - 5 = 50 cookies remaining.\n\nNext, we need to distribute these 50 cookies equally into 5 jars. To find out how many cookies go into each jar, we can divide the total number of remaining cookies by the number of jars:\n\n50 ÷ 5 = 10 cookies per jar.\n\n[Verification] To verify, we can multiply the number of jars by the number of cookies per jar to check if it equals the total remaining cookies. \n\n5 jars * 10 cookies per jar = 50 cookies.\n\nSince this matches the number of cookies we calculated after Lani ate some, our solution is confirmed.\n\n[Final Answer] The answer is 10 cookies per jar. \\n#### 10"
+        ],
+        "I don't know how to solve this question.": [
+            "Question: Lani baked 55 cookies. She ate 5 five cookies and placed the rest equally into five jars. How many cookies were in each jar?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "I don't know how to solve this question."
+        ]
+    },
+    "hints_reward_imp_bank": {},
+    "fathers": {
+        "[reasoning process] To find out how many cookies are in each jar, we start by determining how many cookies Lani has left after eating some. She baked a total of 55 cookies and ate 5 of them. We can calculate the number of cookies remaining by subtracting the number of cookies eaten from the total number of baked cookies: \n\n55 - 5 = 50 cookies remaining.\n\nNext, we need to distribute these 50 cookies equally into 5 jars. To find out how many cookies go into each jar, we can divide the total number of remaining cookies by the number of jars:\n\n50 ÷ 5 = 10 cookies per jar.\n\n[Verification] To verify, we can multiply the number of jars by the number of cookies per jar to check if it equals the total remaining cookies. \n\n5 jars * 10 cookies per jar = 50 cookies.\n\nSince this matches the number of cookies we calculated after Lani ate some, our solution is confirmed.\n\n[Final Answer] The answer is 10 cookies per jar. \\n#### 10": null,
+        "I don't know how to solve this question.": null
+    },
+    "childs": {
+        "[reasoning process] To find out how many cookies are in each jar, we start by determining how many cookies Lani has left after eating some. She baked a total of 55 cookies and ate 5 of them. We can calculate the number of cookies remaining by subtracting the number of cookies eaten from the total number of baked cookies: \n\n55 - 5 = 50 cookies remaining.\n\nNext, we need to distribute these 50 cookies equally into 5 jars. To find out how many cookies go into each jar, we can divide the total number of remaining cookies by the number of jars:\n\n50 ÷ 5 = 10 cookies per jar.\n\n[Verification] To verify, we can multiply the number of jars by the number of cookies per jar to check if it equals the total remaining cookies. \n\n5 jars * 10 cookies per jar = 50 cookies.\n\nSince this matches the number of cookies we calculated after Lani ate some, our solution is confirmed.\n\n[Final Answer] The answer is 10 cookies per jar. \\n#### 10": [],
+        "I don't know how to solve this question.": []
+    },
+    "ucb_bank": {}
+}

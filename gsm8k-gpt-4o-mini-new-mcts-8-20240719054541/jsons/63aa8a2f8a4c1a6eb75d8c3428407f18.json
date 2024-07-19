@@ -1,0 +1,44 @@
+{
+    "query": "Jenna and her mother picked some apples from their apple farm. Jenna picked half as many apples as her mom. If her mom got 20 apples, how many apples did they both pick?",
+    "ground_truth": "If Jenna got half as many apples as her mom, then she got 1/2 * 20 apples = <<20*1/2=10>>10 apples\nTogether, they had 10 apples + 20 apples = <<10+20=30>>30 apples\n#### 30",
+    "hints_list": [],
+    "answers_list": [
+        "[reasoning process] To find out how many apples Jenna and her mom picked, we start by noting the information given: Jenna picked half as many apples as her mom. If her mom picked 20 apples, we can calculate how many apples Jenna picked. Since Jenna picked half of what her mom picked, we divide 20 by 2. This gives us 10 apples for Jenna. Now, we need to determine the total number of apples they both picked together. We do this by adding the number of apples Jenna picked to the number of apples her mom picked: 20 (mom's apples) + 10 (Jenna's apples) = 30 apples in total.\n\n[Verification] To ensure our calculation is correct: If Jenna picked half of her mom's 20 apples, then 20 divided by 2 equals 10 apples for Jenna. Adding these together, 20 + 10 equals 30 apples. This verifies our calculations are consistent and correct.\n\n[Final Answer] The answer is 30 \n#### 30",
+        "I can't understand this question."
+    ],
+    "ground_truth_hints": "",
+    "hints_prompt": "Question: Jenna and her mother picked some apples from their apple farm. Jenna picked half as many apples as her mom. If her mom got 20 apples, how many apples did they both pick?\nCould you provide me with the thought process to solve this problem, but please don’t give me the answer or calculation, just the thought process?",
+    "to_explore": [
+        "[reasoning process] To find out how many apples Jenna and her mom picked, we start by noting the information given: Jenna picked half as many apples as her mom. If her mom picked 20 apples, we can calculate how many apples Jenna picked. Since Jenna picked half of what her mom picked, we divide 20 by 2. This gives us 10 apples for Jenna. Now, we need to determine the total number of apples they both picked together. We do this by adding the number of apples Jenna picked to the number of apples her mom picked: 20 (mom's apples) + 10 (Jenna's apples) = 30 apples in total.\n\n[Verification] To ensure our calculation is correct: If Jenna picked half of her mom's 20 apples, then 20 divided by 2 equals 10 apples for Jenna. Adding these together, 20 + 10 equals 30 apples. This verifies our calculations are consistent and correct.\n\n[Final Answer] The answer is 30 \n#### 30",
+        "I can't understand this question."
+    ],
+    "to_explore_reward": {
+        "[reasoning process] To find out how many apples Jenna and her mom picked, we start by noting the information given: Jenna picked half as many apples as her mom. If her mom picked 20 apples, we can calculate how many apples Jenna picked. Since Jenna picked half of what her mom picked, we divide 20 by 2. This gives us 10 apples for Jenna. Now, we need to determine the total number of apples they both picked together. We do this by adding the number of apples Jenna picked to the number of apples her mom picked: 20 (mom's apples) + 10 (Jenna's apples) = 30 apples in total.\n\n[Verification] To ensure our calculation is correct: If Jenna picked half of her mom's 20 apples, then 20 divided by 2 equals 10 apples for Jenna. Adding these together, 20 + 10 equals 30 apples. This verifies our calculations are consistent and correct.\n\n[Final Answer] The answer is 30 \n#### 30": [
+            85.0
+        ],
+        "I can't understand this question.": [
+            -90.0
+        ]
+    },
+    "hints_bank": {},
+    "history_bank": {
+        "[reasoning process] To find out how many apples Jenna and her mom picked, we start by noting the information given: Jenna picked half as many apples as her mom. If her mom picked 20 apples, we can calculate how many apples Jenna picked. Since Jenna picked half of what her mom picked, we divide 20 by 2. This gives us 10 apples for Jenna. Now, we need to determine the total number of apples they both picked together. We do this by adding the number of apples Jenna picked to the number of apples her mom picked: 20 (mom's apples) + 10 (Jenna's apples) = 30 apples in total.\n\n[Verification] To ensure our calculation is correct: If Jenna picked half of her mom's 20 apples, then 20 divided by 2 equals 10 apples for Jenna. Adding these together, 20 + 10 equals 30 apples. This verifies our calculations are consistent and correct.\n\n[Final Answer] The answer is 30 \n#### 30": [
+            "Question: Jenna and her mother picked some apples from their apple farm. Jenna picked half as many apples as her mom. If her mom got 20 apples, how many apples did they both pick?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "[reasoning process] To find out how many apples Jenna and her mom picked, we start by noting the information given: Jenna picked half as many apples as her mom. If her mom picked 20 apples, we can calculate how many apples Jenna picked. Since Jenna picked half of what her mom picked, we divide 20 by 2. This gives us 10 apples for Jenna. Now, we need to determine the total number of apples they both picked together. We do this by adding the number of apples Jenna picked to the number of apples her mom picked: 20 (mom's apples) + 10 (Jenna's apples) = 30 apples in total.\n\n[Verification] To ensure our calculation is correct: If Jenna picked half of her mom's 20 apples, then 20 divided by 2 equals 10 apples for Jenna. Adding these together, 20 + 10 equals 30 apples. This verifies our calculations are consistent and correct.\n\n[Final Answer] The answer is 30 \n#### 30"
+        ],
+        "I can't understand this question.": [
+            "Question: Jenna and her mother picked some apples from their apple farm. Jenna picked half as many apples as her mom. If her mom got 20 apples, how many apples did they both pick?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "I can't understand this question."
+        ]
+    },
+    "hints_reward_imp_bank": {},
+    "fathers": {
+        "[reasoning process] To find out how many apples Jenna and her mom picked, we start by noting the information given: Jenna picked half as many apples as her mom. If her mom picked 20 apples, we can calculate how many apples Jenna picked. Since Jenna picked half of what her mom picked, we divide 20 by 2. This gives us 10 apples for Jenna. Now, we need to determine the total number of apples they both picked together. We do this by adding the number of apples Jenna picked to the number of apples her mom picked: 20 (mom's apples) + 10 (Jenna's apples) = 30 apples in total.\n\n[Verification] To ensure our calculation is correct: If Jenna picked half of her mom's 20 apples, then 20 divided by 2 equals 10 apples for Jenna. Adding these together, 20 + 10 equals 30 apples. This verifies our calculations are consistent and correct.\n\n[Final Answer] The answer is 30 \n#### 30": null,
+        "I can't understand this question.": null
+    },
+    "childs": {
+        "[reasoning process] To find out how many apples Jenna and her mom picked, we start by noting the information given: Jenna picked half as many apples as her mom. If her mom picked 20 apples, we can calculate how many apples Jenna picked. Since Jenna picked half of what her mom picked, we divide 20 by 2. This gives us 10 apples for Jenna. Now, we need to determine the total number of apples they both picked together. We do this by adding the number of apples Jenna picked to the number of apples her mom picked: 20 (mom's apples) + 10 (Jenna's apples) = 30 apples in total.\n\n[Verification] To ensure our calculation is correct: If Jenna picked half of her mom's 20 apples, then 20 divided by 2 equals 10 apples for Jenna. Adding these together, 20 + 10 equals 30 apples. This verifies our calculations are consistent and correct.\n\n[Final Answer] The answer is 30 \n#### 30": [],
+        "I can't understand this question.": []
+    },
+    "ucb_bank": {}
+}

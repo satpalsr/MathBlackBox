@@ -1,0 +1,44 @@
+{
+    "query": "In the city of Soda, there are exactly 23786 inhabitants. They include 8417 men and 9092 women. The rest of the population is made up of children. How many kids are there in Soda?",
+    "ground_truth": "The total number of adults is 8417 + 9092 = <<8417+9092=17509>>17509\nThus the number of children is 23786 - 17509 = <<23786-17509=6277>>6277\n#### 6277",
+    "hints_list": [],
+    "answers_list": [
+        "[reasoning process] To find the number of children in Soda, we need to start with the total population and subtract the number of men and women. \n\n1. Total inhabitants = 23786\n2. Number of men = 8417\n3. Number of women = 9092\n\nNext, we add the number of men and women together:\n- Total adults (men + women) = 8417 + 9092 = 17509\n\nNow, we will subtract the total number of adults from the total population to find the number of children:\n- Number of children = Total inhabitants - Total adults = 23786 - 17509 = 6277\n\n[Verification] We can verify our calculations:\n- Total men = 8417\n- Total women = 9092\n- Calculation of adults: 8417 + 9092 = 17509\n- Calculation for children: 23786 - 17509 = 6277\n\nBoth calculations are consistent and reaffirm the result.\n\n[Final Answer] The answer is 6277 \\n#### 6277",
+        "I can't help with this question."
+    ],
+    "ground_truth_hints": "",
+    "hints_prompt": "Question: In the city of Soda, there are exactly 23786 inhabitants. They include 8417 men and 9092 women. The rest of the population is made up of children. How many kids are there in Soda?\nCould you provide me with the thought process to solve this problem, but please don’t give me the answer or calculation, just the thought process?",
+    "to_explore": [
+        "[reasoning process] To find the number of children in Soda, we need to start with the total population and subtract the number of men and women. \n\n1. Total inhabitants = 23786\n2. Number of men = 8417\n3. Number of women = 9092\n\nNext, we add the number of men and women together:\n- Total adults (men + women) = 8417 + 9092 = 17509\n\nNow, we will subtract the total number of adults from the total population to find the number of children:\n- Number of children = Total inhabitants - Total adults = 23786 - 17509 = 6277\n\n[Verification] We can verify our calculations:\n- Total men = 8417\n- Total women = 9092\n- Calculation of adults: 8417 + 9092 = 17509\n- Calculation for children: 23786 - 17509 = 6277\n\nBoth calculations are consistent and reaffirm the result.\n\n[Final Answer] The answer is 6277 \\n#### 6277",
+        "I can't help with this question."
+    ],
+    "to_explore_reward": {
+        "[reasoning process] To find the number of children in Soda, we need to start with the total population and subtract the number of men and women. \n\n1. Total inhabitants = 23786\n2. Number of men = 8417\n3. Number of women = 9092\n\nNext, we add the number of men and women together:\n- Total adults (men + women) = 8417 + 9092 = 17509\n\nNow, we will subtract the total number of adults from the total population to find the number of children:\n- Number of children = Total inhabitants - Total adults = 23786 - 17509 = 6277\n\n[Verification] We can verify our calculations:\n- Total men = 8417\n- Total women = 9092\n- Calculation of adults: 8417 + 9092 = 17509\n- Calculation for children: 23786 - 17509 = 6277\n\nBoth calculations are consistent and reaffirm the result.\n\n[Final Answer] The answer is 6277 \\n#### 6277": [
+            75.0
+        ],
+        "I can't help with this question.": [
+            -80.0
+        ]
+    },
+    "hints_bank": {},
+    "history_bank": {
+        "[reasoning process] To find the number of children in Soda, we need to start with the total population and subtract the number of men and women. \n\n1. Total inhabitants = 23786\n2. Number of men = 8417\n3. Number of women = 9092\n\nNext, we add the number of men and women together:\n- Total adults (men + women) = 8417 + 9092 = 17509\n\nNow, we will subtract the total number of adults from the total population to find the number of children:\n- Number of children = Total inhabitants - Total adults = 23786 - 17509 = 6277\n\n[Verification] We can verify our calculations:\n- Total men = 8417\n- Total women = 9092\n- Calculation of adults: 8417 + 9092 = 17509\n- Calculation for children: 23786 - 17509 = 6277\n\nBoth calculations are consistent and reaffirm the result.\n\n[Final Answer] The answer is 6277 \\n#### 6277": [
+            "Question: In the city of Soda, there are exactly 23786 inhabitants. They include 8417 men and 9092 women. The rest of the population is made up of children. How many kids are there in Soda?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "[reasoning process] To find the number of children in Soda, we need to start with the total population and subtract the number of men and women. \n\n1. Total inhabitants = 23786\n2. Number of men = 8417\n3. Number of women = 9092\n\nNext, we add the number of men and women together:\n- Total adults (men + women) = 8417 + 9092 = 17509\n\nNow, we will subtract the total number of adults from the total population to find the number of children:\n- Number of children = Total inhabitants - Total adults = 23786 - 17509 = 6277\n\n[Verification] We can verify our calculations:\n- Total men = 8417\n- Total women = 9092\n- Calculation of adults: 8417 + 9092 = 17509\n- Calculation for children: 23786 - 17509 = 6277\n\nBoth calculations are consistent and reaffirm the result.\n\n[Final Answer] The answer is 6277 \\n#### 6277"
+        ],
+        "I can't help with this question.": [
+            "Question: In the city of Soda, there are exactly 23786 inhabitants. They include 8417 men and 9092 women. The rest of the population is made up of children. How many kids are there in Soda?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "I can't help with this question."
+        ]
+    },
+    "hints_reward_imp_bank": {},
+    "fathers": {
+        "[reasoning process] To find the number of children in Soda, we need to start with the total population and subtract the number of men and women. \n\n1. Total inhabitants = 23786\n2. Number of men = 8417\n3. Number of women = 9092\n\nNext, we add the number of men and women together:\n- Total adults (men + women) = 8417 + 9092 = 17509\n\nNow, we will subtract the total number of adults from the total population to find the number of children:\n- Number of children = Total inhabitants - Total adults = 23786 - 17509 = 6277\n\n[Verification] We can verify our calculations:\n- Total men = 8417\n- Total women = 9092\n- Calculation of adults: 8417 + 9092 = 17509\n- Calculation for children: 23786 - 17509 = 6277\n\nBoth calculations are consistent and reaffirm the result.\n\n[Final Answer] The answer is 6277 \\n#### 6277": null,
+        "I can't help with this question.": null
+    },
+    "childs": {
+        "[reasoning process] To find the number of children in Soda, we need to start with the total population and subtract the number of men and women. \n\n1. Total inhabitants = 23786\n2. Number of men = 8417\n3. Number of women = 9092\n\nNext, we add the number of men and women together:\n- Total adults (men + women) = 8417 + 9092 = 17509\n\nNow, we will subtract the total number of adults from the total population to find the number of children:\n- Number of children = Total inhabitants - Total adults = 23786 - 17509 = 6277\n\n[Verification] We can verify our calculations:\n- Total men = 8417\n- Total women = 9092\n- Calculation of adults: 8417 + 9092 = 17509\n- Calculation for children: 23786 - 17509 = 6277\n\nBoth calculations are consistent and reaffirm the result.\n\n[Final Answer] The answer is 6277 \\n#### 6277": [],
+        "I can't help with this question.": []
+    },
+    "ucb_bank": {}
+}

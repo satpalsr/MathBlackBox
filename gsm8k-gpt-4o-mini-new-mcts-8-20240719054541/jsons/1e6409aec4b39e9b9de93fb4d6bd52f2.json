@@ -1,0 +1,44 @@
+{
+    "query": "Nani is 8 years old. His brother is twice his age. Nani's sister is 25% younger than him. What is the total age of all three of the family members?",
+    "ground_truth": "Nani's brother is 8 * 2 = <<8*2=16>>16 years old.\nNani's sister is 25/100 * 8 = <<25/100*8=2>>2 years younger than he is.\nThat means she is 8 - 2 = <<8-2=6>>6 years old.\nIn total all mentioned family members, are 16 + 6 + 8 = <<16+6+8=30>>30 years old.\n#### 30",
+    "hints_list": [],
+    "answers_list": [
+        "[reasoning process]  \n1. Nani's age is given as 8 years old.  \n2. Nani's brother is twice his age, so we calculate his brother's age:  \n   Brother's age = 2 * Nani's age = 2 * 8 = 16 years old.  \n3. Nani's sister is 25% younger than Nani. To find her age, we first calculate 25% of Nani's age:  \n   25% of Nani's age = 0.25 * 8 = 2 years.  \n   Therefore, Nani's sister's age is:  \n   Sister's age = Nani's age - 25% of Nani's age = 8 - 2 = 6 years old.  \n4. Now, to find the total age of Nani, his brother, and his sister, we add their ages together:  \n   Total age = Nani's age + Brother's age + Sister's age = 8 + 16 + 6.\n\n[Verification]  \n- Nani: 8 years  \n- Brother: 16 years  \n- Sister: 6 years  \n- Total = 8 + 16 + 6 = 30 years. This checks out, as the individual ages add up correctly.\n\n[Final Answer] The answer is 30  \n#### 30",
+        "I don't know the answer to this question, sorry."
+    ],
+    "ground_truth_hints": "",
+    "hints_prompt": "Question: Nani is 8 years old. His brother is twice his age. Nani's sister is 25% younger than him. What is the total age of all three of the family members?\nCould you provide me with the thought process to solve this problem, but please don’t give me the answer or calculation, just the thought process?",
+    "to_explore": [
+        "[reasoning process]  \n1. Nani's age is given as 8 years old.  \n2. Nani's brother is twice his age, so we calculate his brother's age:  \n   Brother's age = 2 * Nani's age = 2 * 8 = 16 years old.  \n3. Nani's sister is 25% younger than Nani. To find her age, we first calculate 25% of Nani's age:  \n   25% of Nani's age = 0.25 * 8 = 2 years.  \n   Therefore, Nani's sister's age is:  \n   Sister's age = Nani's age - 25% of Nani's age = 8 - 2 = 6 years old.  \n4. Now, to find the total age of Nani, his brother, and his sister, we add their ages together:  \n   Total age = Nani's age + Brother's age + Sister's age = 8 + 16 + 6.\n\n[Verification]  \n- Nani: 8 years  \n- Brother: 16 years  \n- Sister: 6 years  \n- Total = 8 + 16 + 6 = 30 years. This checks out, as the individual ages add up correctly.\n\n[Final Answer] The answer is 30  \n#### 30",
+        "I don't know the answer to this question, sorry."
+    ],
+    "to_explore_reward": {
+        "[reasoning process]  \n1. Nani's age is given as 8 years old.  \n2. Nani's brother is twice his age, so we calculate his brother's age:  \n   Brother's age = 2 * Nani's age = 2 * 8 = 16 years old.  \n3. Nani's sister is 25% younger than Nani. To find her age, we first calculate 25% of Nani's age:  \n   25% of Nani's age = 0.25 * 8 = 2 years.  \n   Therefore, Nani's sister's age is:  \n   Sister's age = Nani's age - 25% of Nani's age = 8 - 2 = 6 years old.  \n4. Now, to find the total age of Nani, his brother, and his sister, we add their ages together:  \n   Total age = Nani's age + Brother's age + Sister's age = 8 + 16 + 6.\n\n[Verification]  \n- Nani: 8 years  \n- Brother: 16 years  \n- Sister: 6 years  \n- Total = 8 + 16 + 6 = 30 years. This checks out, as the individual ages add up correctly.\n\n[Final Answer] The answer is 30  \n#### 30": [
+            60.0
+        ],
+        "I don't know the answer to this question, sorry.": [
+            -85.0
+        ]
+    },
+    "hints_bank": {},
+    "history_bank": {
+        "[reasoning process]  \n1. Nani's age is given as 8 years old.  \n2. Nani's brother is twice his age, so we calculate his brother's age:  \n   Brother's age = 2 * Nani's age = 2 * 8 = 16 years old.  \n3. Nani's sister is 25% younger than Nani. To find her age, we first calculate 25% of Nani's age:  \n   25% of Nani's age = 0.25 * 8 = 2 years.  \n   Therefore, Nani's sister's age is:  \n   Sister's age = Nani's age - 25% of Nani's age = 8 - 2 = 6 years old.  \n4. Now, to find the total age of Nani, his brother, and his sister, we add their ages together:  \n   Total age = Nani's age + Brother's age + Sister's age = 8 + 16 + 6.\n\n[Verification]  \n- Nani: 8 years  \n- Brother: 16 years  \n- Sister: 6 years  \n- Total = 8 + 16 + 6 = 30 years. This checks out, as the individual ages add up correctly.\n\n[Final Answer] The answer is 30  \n#### 30": [
+            "Question: Nani is 8 years old. His brother is twice his age. Nani's sister is 25% younger than him. What is the total age of all three of the family members?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "[reasoning process]  \n1. Nani's age is given as 8 years old.  \n2. Nani's brother is twice his age, so we calculate his brother's age:  \n   Brother's age = 2 * Nani's age = 2 * 8 = 16 years old.  \n3. Nani's sister is 25% younger than Nani. To find her age, we first calculate 25% of Nani's age:  \n   25% of Nani's age = 0.25 * 8 = 2 years.  \n   Therefore, Nani's sister's age is:  \n   Sister's age = Nani's age - 25% of Nani's age = 8 - 2 = 6 years old.  \n4. Now, to find the total age of Nani, his brother, and his sister, we add their ages together:  \n   Total age = Nani's age + Brother's age + Sister's age = 8 + 16 + 6.\n\n[Verification]  \n- Nani: 8 years  \n- Brother: 16 years  \n- Sister: 6 years  \n- Total = 8 + 16 + 6 = 30 years. This checks out, as the individual ages add up correctly.\n\n[Final Answer] The answer is 30  \n#### 30"
+        ],
+        "I don't know the answer to this question, sorry.": [
+            "Question: Nani is 8 years old. His brother is twice his age. Nani's sister is 25% younger than him. What is the total age of all three of the family members?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "I don't know the answer to this question, sorry."
+        ]
+    },
+    "hints_reward_imp_bank": {},
+    "fathers": {
+        "[reasoning process]  \n1. Nani's age is given as 8 years old.  \n2. Nani's brother is twice his age, so we calculate his brother's age:  \n   Brother's age = 2 * Nani's age = 2 * 8 = 16 years old.  \n3. Nani's sister is 25% younger than Nani. To find her age, we first calculate 25% of Nani's age:  \n   25% of Nani's age = 0.25 * 8 = 2 years.  \n   Therefore, Nani's sister's age is:  \n   Sister's age = Nani's age - 25% of Nani's age = 8 - 2 = 6 years old.  \n4. Now, to find the total age of Nani, his brother, and his sister, we add their ages together:  \n   Total age = Nani's age + Brother's age + Sister's age = 8 + 16 + 6.\n\n[Verification]  \n- Nani: 8 years  \n- Brother: 16 years  \n- Sister: 6 years  \n- Total = 8 + 16 + 6 = 30 years. This checks out, as the individual ages add up correctly.\n\n[Final Answer] The answer is 30  \n#### 30": null,
+        "I don't know the answer to this question, sorry.": null
+    },
+    "childs": {
+        "[reasoning process]  \n1. Nani's age is given as 8 years old.  \n2. Nani's brother is twice his age, so we calculate his brother's age:  \n   Brother's age = 2 * Nani's age = 2 * 8 = 16 years old.  \n3. Nani's sister is 25% younger than Nani. To find her age, we first calculate 25% of Nani's age:  \n   25% of Nani's age = 0.25 * 8 = 2 years.  \n   Therefore, Nani's sister's age is:  \n   Sister's age = Nani's age - 25% of Nani's age = 8 - 2 = 6 years old.  \n4. Now, to find the total age of Nani, his brother, and his sister, we add their ages together:  \n   Total age = Nani's age + Brother's age + Sister's age = 8 + 16 + 6.\n\n[Verification]  \n- Nani: 8 years  \n- Brother: 16 years  \n- Sister: 6 years  \n- Total = 8 + 16 + 6 = 30 years. This checks out, as the individual ages add up correctly.\n\n[Final Answer] The answer is 30  \n#### 30": [],
+        "I don't know the answer to this question, sorry.": []
+    },
+    "ucb_bank": {}
+}

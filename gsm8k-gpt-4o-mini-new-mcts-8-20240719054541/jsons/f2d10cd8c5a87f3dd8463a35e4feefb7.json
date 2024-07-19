@@ -1,0 +1,44 @@
+{
+    "query": "A glass of milk is 8 ounces of milk.  John drinks 2 glasses of milk.  If milk has 3 calories per ounce how many calories did he consume?",
+    "ground_truth": "He drank 8*2=<<8*2=16>>16 ounces of milk\nSo he drank 16*3=<<16*3=48>>48 calories of milk\n#### 48",
+    "hints_list": [],
+    "answers_list": [
+        "[reasoning process] First, we need to find out how much milk John consumed. Since one glass of milk is 8 ounces, and John drinks 2 glasses, we can calculate the total amount of milk consumed by multiplying the number of glasses by the ounces per glass:\n\n2 glasses * 8 ounces/glass = 16 ounces of milk.\n\nNext, we know that milk has 3 calories per ounce. To find the total calories consumed, we multiply the total ounces of milk by the calories per ounce:\n\n16 ounces * 3 calories/ounce = 48 calories.\n\n[Verification] We calculated the total amount of milk consumed as 16 ounces and then multiplied that by the calorie content per ounce (3 calories), confirming that:\n\n16 ounces * 3 calories/ounce = 48 calories, which checks out.\n\n[Final Answer] The answer is 48 \\n#### 48",
+        "I don't know the answer to this question."
+    ],
+    "ground_truth_hints": "",
+    "hints_prompt": "Question: A glass of milk is 8 ounces of milk.  John drinks 2 glasses of milk.  If milk has 3 calories per ounce how many calories did he consume?\nCould you provide me with the thought process to solve this problem, but please don’t give me the answer or calculation, just the thought process?",
+    "to_explore": [
+        "[reasoning process] First, we need to find out how much milk John consumed. Since one glass of milk is 8 ounces, and John drinks 2 glasses, we can calculate the total amount of milk consumed by multiplying the number of glasses by the ounces per glass:\n\n2 glasses * 8 ounces/glass = 16 ounces of milk.\n\nNext, we know that milk has 3 calories per ounce. To find the total calories consumed, we multiply the total ounces of milk by the calories per ounce:\n\n16 ounces * 3 calories/ounce = 48 calories.\n\n[Verification] We calculated the total amount of milk consumed as 16 ounces and then multiplied that by the calorie content per ounce (3 calories), confirming that:\n\n16 ounces * 3 calories/ounce = 48 calories, which checks out.\n\n[Final Answer] The answer is 48 \\n#### 48",
+        "I don't know the answer to this question."
+    ],
+    "to_explore_reward": {
+        "[reasoning process] First, we need to find out how much milk John consumed. Since one glass of milk is 8 ounces, and John drinks 2 glasses, we can calculate the total amount of milk consumed by multiplying the number of glasses by the ounces per glass:\n\n2 glasses * 8 ounces/glass = 16 ounces of milk.\n\nNext, we know that milk has 3 calories per ounce. To find the total calories consumed, we multiply the total ounces of milk by the calories per ounce:\n\n16 ounces * 3 calories/ounce = 48 calories.\n\n[Verification] We calculated the total amount of milk consumed as 16 ounces and then multiplied that by the calorie content per ounce (3 calories), confirming that:\n\n16 ounces * 3 calories/ounce = 48 calories, which checks out.\n\n[Final Answer] The answer is 48 \\n#### 48": [
+            70.0
+        ],
+        "I don't know the answer to this question.": [
+            -100.0
+        ]
+    },
+    "hints_bank": {},
+    "history_bank": {
+        "[reasoning process] First, we need to find out how much milk John consumed. Since one glass of milk is 8 ounces, and John drinks 2 glasses, we can calculate the total amount of milk consumed by multiplying the number of glasses by the ounces per glass:\n\n2 glasses * 8 ounces/glass = 16 ounces of milk.\n\nNext, we know that milk has 3 calories per ounce. To find the total calories consumed, we multiply the total ounces of milk by the calories per ounce:\n\n16 ounces * 3 calories/ounce = 48 calories.\n\n[Verification] We calculated the total amount of milk consumed as 16 ounces and then multiplied that by the calorie content per ounce (3 calories), confirming that:\n\n16 ounces * 3 calories/ounce = 48 calories, which checks out.\n\n[Final Answer] The answer is 48 \\n#### 48": [
+            "Question: A glass of milk is 8 ounces of milk.  John drinks 2 glasses of milk.  If milk has 3 calories per ounce how many calories did he consume?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "[reasoning process] First, we need to find out how much milk John consumed. Since one glass of milk is 8 ounces, and John drinks 2 glasses, we can calculate the total amount of milk consumed by multiplying the number of glasses by the ounces per glass:\n\n2 glasses * 8 ounces/glass = 16 ounces of milk.\n\nNext, we know that milk has 3 calories per ounce. To find the total calories consumed, we multiply the total ounces of milk by the calories per ounce:\n\n16 ounces * 3 calories/ounce = 48 calories.\n\n[Verification] We calculated the total amount of milk consumed as 16 ounces and then multiplied that by the calorie content per ounce (3 calories), confirming that:\n\n16 ounces * 3 calories/ounce = 48 calories, which checks out.\n\n[Final Answer] The answer is 48 \\n#### 48"
+        ],
+        "I don't know the answer to this question.": [
+            "Question: A glass of milk is 8 ounces of milk.  John drinks 2 glasses of milk.  If milk has 3 calories per ounce how many calories did he consume?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "I don't know the answer to this question."
+        ]
+    },
+    "hints_reward_imp_bank": {},
+    "fathers": {
+        "[reasoning process] First, we need to find out how much milk John consumed. Since one glass of milk is 8 ounces, and John drinks 2 glasses, we can calculate the total amount of milk consumed by multiplying the number of glasses by the ounces per glass:\n\n2 glasses * 8 ounces/glass = 16 ounces of milk.\n\nNext, we know that milk has 3 calories per ounce. To find the total calories consumed, we multiply the total ounces of milk by the calories per ounce:\n\n16 ounces * 3 calories/ounce = 48 calories.\n\n[Verification] We calculated the total amount of milk consumed as 16 ounces and then multiplied that by the calorie content per ounce (3 calories), confirming that:\n\n16 ounces * 3 calories/ounce = 48 calories, which checks out.\n\n[Final Answer] The answer is 48 \\n#### 48": null,
+        "I don't know the answer to this question.": null
+    },
+    "childs": {
+        "[reasoning process] First, we need to find out how much milk John consumed. Since one glass of milk is 8 ounces, and John drinks 2 glasses, we can calculate the total amount of milk consumed by multiplying the number of glasses by the ounces per glass:\n\n2 glasses * 8 ounces/glass = 16 ounces of milk.\n\nNext, we know that milk has 3 calories per ounce. To find the total calories consumed, we multiply the total ounces of milk by the calories per ounce:\n\n16 ounces * 3 calories/ounce = 48 calories.\n\n[Verification] We calculated the total amount of milk consumed as 16 ounces and then multiplied that by the calorie content per ounce (3 calories), confirming that:\n\n16 ounces * 3 calories/ounce = 48 calories, which checks out.\n\n[Final Answer] The answer is 48 \\n#### 48": [],
+        "I don't know the answer to this question.": []
+    },
+    "ucb_bank": {}
+}

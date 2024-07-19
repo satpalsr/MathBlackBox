@@ -1,0 +1,44 @@
+{
+    "query": "Castle bought 3 boxes of Coco Crunch and 5 boxes of Fruit Loops this week. Last week she bought 4 boxes of cereal. How many more boxes of cereal did she buy this week than last week?",
+    "ground_truth": "Castle has 5 + 3 = <<5+3=8>>8 boxes of cereals this week.\nTherefore, Castle bought 8 - 4 = <<8-4=4>>4 more boxes of cereals this week than last week.\n#### 4",
+    "hints_list": [],
+    "answers_list": [
+        "[reasoning process] To find out how many more boxes of cereal Castle bought this week compared to last week, we first need to calculate the total number of boxes she bought this week. This week, Castle bought 3 boxes of Coco Crunch and 5 boxes of Fruit Loops. We can add these together: 3 + 5 = 8 boxes. \n\nLast week, she bought 4 boxes of cereal. Now, we will subtract the number of boxes she bought last week from the number of boxes she bought this week to find out how many more boxes she bought this week: 8 (this week) - 4 (last week) = 4 boxes.\n\n[Verification] To ensure our calculations are correct, we will review both weeks' purchases. This week, Castle bought a total of 8 boxes (3 Coco Crunch + 5 Fruit Loops) and last week she bought 4 boxes. When we subtract last week's total from this week's total (8 - 4), we again arrive at 4 boxes. Therefore, the calculations are verified.\n\n[Final Answer] The answer is 4 \\n#### 4",
+        "I don't know the answer to this question."
+    ],
+    "ground_truth_hints": "",
+    "hints_prompt": "Question: Castle bought 3 boxes of Coco Crunch and 5 boxes of Fruit Loops this week. Last week she bought 4 boxes of cereal. How many more boxes of cereal did she buy this week than last week?\nCould you provide me with the thought process to solve this problem, but please don’t give me the answer or calculation, just the thought process?",
+    "to_explore": [
+        "[reasoning process] To find out how many more boxes of cereal Castle bought this week compared to last week, we first need to calculate the total number of boxes she bought this week. This week, Castle bought 3 boxes of Coco Crunch and 5 boxes of Fruit Loops. We can add these together: 3 + 5 = 8 boxes. \n\nLast week, she bought 4 boxes of cereal. Now, we will subtract the number of boxes she bought last week from the number of boxes she bought this week to find out how many more boxes she bought this week: 8 (this week) - 4 (last week) = 4 boxes.\n\n[Verification] To ensure our calculations are correct, we will review both weeks' purchases. This week, Castle bought a total of 8 boxes (3 Coco Crunch + 5 Fruit Loops) and last week she bought 4 boxes. When we subtract last week's total from this week's total (8 - 4), we again arrive at 4 boxes. Therefore, the calculations are verified.\n\n[Final Answer] The answer is 4 \\n#### 4",
+        "I don't know the answer to this question."
+    ],
+    "to_explore_reward": {
+        "[reasoning process] To find out how many more boxes of cereal Castle bought this week compared to last week, we first need to calculate the total number of boxes she bought this week. This week, Castle bought 3 boxes of Coco Crunch and 5 boxes of Fruit Loops. We can add these together: 3 + 5 = 8 boxes. \n\nLast week, she bought 4 boxes of cereal. Now, we will subtract the number of boxes she bought last week from the number of boxes she bought this week to find out how many more boxes she bought this week: 8 (this week) - 4 (last week) = 4 boxes.\n\n[Verification] To ensure our calculations are correct, we will review both weeks' purchases. This week, Castle bought a total of 8 boxes (3 Coco Crunch + 5 Fruit Loops) and last week she bought 4 boxes. When we subtract last week's total from this week's total (8 - 4), we again arrive at 4 boxes. Therefore, the calculations are verified.\n\n[Final Answer] The answer is 4 \\n#### 4": [
+            65.0
+        ],
+        "I don't know the answer to this question.": [
+            -85.0
+        ]
+    },
+    "hints_bank": {},
+    "history_bank": {
+        "[reasoning process] To find out how many more boxes of cereal Castle bought this week compared to last week, we first need to calculate the total number of boxes she bought this week. This week, Castle bought 3 boxes of Coco Crunch and 5 boxes of Fruit Loops. We can add these together: 3 + 5 = 8 boxes. \n\nLast week, she bought 4 boxes of cereal. Now, we will subtract the number of boxes she bought last week from the number of boxes she bought this week to find out how many more boxes she bought this week: 8 (this week) - 4 (last week) = 4 boxes.\n\n[Verification] To ensure our calculations are correct, we will review both weeks' purchases. This week, Castle bought a total of 8 boxes (3 Coco Crunch + 5 Fruit Loops) and last week she bought 4 boxes. When we subtract last week's total from this week's total (8 - 4), we again arrive at 4 boxes. Therefore, the calculations are verified.\n\n[Final Answer] The answer is 4 \\n#### 4": [
+            "Question: Castle bought 3 boxes of Coco Crunch and 5 boxes of Fruit Loops this week. Last week she bought 4 boxes of cereal. How many more boxes of cereal did she buy this week than last week?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "[reasoning process] To find out how many more boxes of cereal Castle bought this week compared to last week, we first need to calculate the total number of boxes she bought this week. This week, Castle bought 3 boxes of Coco Crunch and 5 boxes of Fruit Loops. We can add these together: 3 + 5 = 8 boxes. \n\nLast week, she bought 4 boxes of cereal. Now, we will subtract the number of boxes she bought last week from the number of boxes she bought this week to find out how many more boxes she bought this week: 8 (this week) - 4 (last week) = 4 boxes.\n\n[Verification] To ensure our calculations are correct, we will review both weeks' purchases. This week, Castle bought a total of 8 boxes (3 Coco Crunch + 5 Fruit Loops) and last week she bought 4 boxes. When we subtract last week's total from this week's total (8 - 4), we again arrive at 4 boxes. Therefore, the calculations are verified.\n\n[Final Answer] The answer is 4 \\n#### 4"
+        ],
+        "I don't know the answer to this question.": [
+            "Question: Castle bought 3 boxes of Coco Crunch and 5 boxes of Fruit Loops this week. Last week she bought 4 boxes of cereal. How many more boxes of cereal did she buy this week than last week?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "I don't know the answer to this question."
+        ]
+    },
+    "hints_reward_imp_bank": {},
+    "fathers": {
+        "[reasoning process] To find out how many more boxes of cereal Castle bought this week compared to last week, we first need to calculate the total number of boxes she bought this week. This week, Castle bought 3 boxes of Coco Crunch and 5 boxes of Fruit Loops. We can add these together: 3 + 5 = 8 boxes. \n\nLast week, she bought 4 boxes of cereal. Now, we will subtract the number of boxes she bought last week from the number of boxes she bought this week to find out how many more boxes she bought this week: 8 (this week) - 4 (last week) = 4 boxes.\n\n[Verification] To ensure our calculations are correct, we will review both weeks' purchases. This week, Castle bought a total of 8 boxes (3 Coco Crunch + 5 Fruit Loops) and last week she bought 4 boxes. When we subtract last week's total from this week's total (8 - 4), we again arrive at 4 boxes. Therefore, the calculations are verified.\n\n[Final Answer] The answer is 4 \\n#### 4": null,
+        "I don't know the answer to this question.": null
+    },
+    "childs": {
+        "[reasoning process] To find out how many more boxes of cereal Castle bought this week compared to last week, we first need to calculate the total number of boxes she bought this week. This week, Castle bought 3 boxes of Coco Crunch and 5 boxes of Fruit Loops. We can add these together: 3 + 5 = 8 boxes. \n\nLast week, she bought 4 boxes of cereal. Now, we will subtract the number of boxes she bought last week from the number of boxes she bought this week to find out how many more boxes she bought this week: 8 (this week) - 4 (last week) = 4 boxes.\n\n[Verification] To ensure our calculations are correct, we will review both weeks' purchases. This week, Castle bought a total of 8 boxes (3 Coco Crunch + 5 Fruit Loops) and last week she bought 4 boxes. When we subtract last week's total from this week's total (8 - 4), we again arrive at 4 boxes. Therefore, the calculations are verified.\n\n[Final Answer] The answer is 4 \\n#### 4": [],
+        "I don't know the answer to this question.": []
+    },
+    "ucb_bank": {}
+}

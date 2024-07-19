@@ -1,0 +1,44 @@
+{
+    "query": "Lindsay is doing the laundry, and thinks she has missed some socks. There are 50 socks that need washing. If she washes 10 pairs of socks and 15 loose socks, how many socks has Lindsay missed?",
+    "ground_truth": "Splitting the pairs shows there were 10 pairs of socks * 2 socks/pair = <<10*2=20>>20 socks paired together.\nThis means she has washed a total of 20 paired socks + 15 loose socks = <<20+15=35>>35 socks.\nShe has therefore missed 50 socks – 35 socks = <<50-35=15>>15 socks.\n#### 15",
+    "hints_list": [],
+    "answers_list": [
+        "[reasoning process] \nLindsay has a total of 50 socks that need washing. A pair of socks consists of 2 socks. If she washes 10 pairs of socks, that accounts for:\n10 pairs * 2 socks/pair = 20 socks.\n\nIn addition to the pairs, she washes 15 loose socks. Therefore, the total number of socks she washed is:\n20 socks (from pairs) + 15 socks (loose) = 35 socks.\n\nTo find out how many socks Lindsay has missed, we subtract the number of socks she washed from the total number of socks:\n50 socks (total) - 35 socks (washed) = 15 socks.\n\n[Verification] \nWe can verify this by adding the socks she washed and the socks she thinks she missed:\n20 (pairs) + 15 (loose) + 15 (missed) should equal 50 socks.\n20 + 15 + 15 = 50, which checks out.\n\n[Final Answer] The answer is 15 \n#### 15",
+        "I don't know the answer to this question, sorry."
+    ],
+    "ground_truth_hints": "",
+    "hints_prompt": "Question: Lindsay is doing the laundry, and thinks she has missed some socks. There are 50 socks that need washing. If she washes 10 pairs of socks and 15 loose socks, how many socks has Lindsay missed?\nCould you provide me with the thought process to solve this problem, but please don’t give me the answer or calculation, just the thought process?",
+    "to_explore": [
+        "[reasoning process] \nLindsay has a total of 50 socks that need washing. A pair of socks consists of 2 socks. If she washes 10 pairs of socks, that accounts for:\n10 pairs * 2 socks/pair = 20 socks.\n\nIn addition to the pairs, she washes 15 loose socks. Therefore, the total number of socks she washed is:\n20 socks (from pairs) + 15 socks (loose) = 35 socks.\n\nTo find out how many socks Lindsay has missed, we subtract the number of socks she washed from the total number of socks:\n50 socks (total) - 35 socks (washed) = 15 socks.\n\n[Verification] \nWe can verify this by adding the socks she washed and the socks she thinks she missed:\n20 (pairs) + 15 (loose) + 15 (missed) should equal 50 socks.\n20 + 15 + 15 = 50, which checks out.\n\n[Final Answer] The answer is 15 \n#### 15",
+        "I don't know the answer to this question, sorry."
+    ],
+    "to_explore_reward": {
+        "[reasoning process] \nLindsay has a total of 50 socks that need washing. A pair of socks consists of 2 socks. If she washes 10 pairs of socks, that accounts for:\n10 pairs * 2 socks/pair = 20 socks.\n\nIn addition to the pairs, she washes 15 loose socks. Therefore, the total number of socks she washed is:\n20 socks (from pairs) + 15 socks (loose) = 35 socks.\n\nTo find out how many socks Lindsay has missed, we subtract the number of socks she washed from the total number of socks:\n50 socks (total) - 35 socks (washed) = 15 socks.\n\n[Verification] \nWe can verify this by adding the socks she washed and the socks she thinks she missed:\n20 (pairs) + 15 (loose) + 15 (missed) should equal 50 socks.\n20 + 15 + 15 = 50, which checks out.\n\n[Final Answer] The answer is 15 \n#### 15": [
+            75.0
+        ],
+        "I don't know the answer to this question, sorry.": [
+            -85.0
+        ]
+    },
+    "hints_bank": {},
+    "history_bank": {
+        "[reasoning process] \nLindsay has a total of 50 socks that need washing. A pair of socks consists of 2 socks. If she washes 10 pairs of socks, that accounts for:\n10 pairs * 2 socks/pair = 20 socks.\n\nIn addition to the pairs, she washes 15 loose socks. Therefore, the total number of socks she washed is:\n20 socks (from pairs) + 15 socks (loose) = 35 socks.\n\nTo find out how many socks Lindsay has missed, we subtract the number of socks she washed from the total number of socks:\n50 socks (total) - 35 socks (washed) = 15 socks.\n\n[Verification] \nWe can verify this by adding the socks she washed and the socks she thinks she missed:\n20 (pairs) + 15 (loose) + 15 (missed) should equal 50 socks.\n20 + 15 + 15 = 50, which checks out.\n\n[Final Answer] The answer is 15 \n#### 15": [
+            "Question: Lindsay is doing the laundry, and thinks she has missed some socks. There are 50 socks that need washing. If she washes 10 pairs of socks and 15 loose socks, how many socks has Lindsay missed?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "[reasoning process] \nLindsay has a total of 50 socks that need washing. A pair of socks consists of 2 socks. If she washes 10 pairs of socks, that accounts for:\n10 pairs * 2 socks/pair = 20 socks.\n\nIn addition to the pairs, she washes 15 loose socks. Therefore, the total number of socks she washed is:\n20 socks (from pairs) + 15 socks (loose) = 35 socks.\n\nTo find out how many socks Lindsay has missed, we subtract the number of socks she washed from the total number of socks:\n50 socks (total) - 35 socks (washed) = 15 socks.\n\n[Verification] \nWe can verify this by adding the socks she washed and the socks she thinks she missed:\n20 (pairs) + 15 (loose) + 15 (missed) should equal 50 socks.\n20 + 15 + 15 = 50, which checks out.\n\n[Final Answer] The answer is 15 \n#### 15"
+        ],
+        "I don't know the answer to this question, sorry.": [
+            "Question: Lindsay is doing the laundry, and thinks she has missed some socks. There are 50 socks that need washing. If she washes 10 pairs of socks and 15 loose socks, how many socks has Lindsay missed?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "I don't know the answer to this question, sorry."
+        ]
+    },
+    "hints_reward_imp_bank": {},
+    "fathers": {
+        "[reasoning process] \nLindsay has a total of 50 socks that need washing. A pair of socks consists of 2 socks. If she washes 10 pairs of socks, that accounts for:\n10 pairs * 2 socks/pair = 20 socks.\n\nIn addition to the pairs, she washes 15 loose socks. Therefore, the total number of socks she washed is:\n20 socks (from pairs) + 15 socks (loose) = 35 socks.\n\nTo find out how many socks Lindsay has missed, we subtract the number of socks she washed from the total number of socks:\n50 socks (total) - 35 socks (washed) = 15 socks.\n\n[Verification] \nWe can verify this by adding the socks she washed and the socks she thinks she missed:\n20 (pairs) + 15 (loose) + 15 (missed) should equal 50 socks.\n20 + 15 + 15 = 50, which checks out.\n\n[Final Answer] The answer is 15 \n#### 15": null,
+        "I don't know the answer to this question, sorry.": null
+    },
+    "childs": {
+        "[reasoning process] \nLindsay has a total of 50 socks that need washing. A pair of socks consists of 2 socks. If she washes 10 pairs of socks, that accounts for:\n10 pairs * 2 socks/pair = 20 socks.\n\nIn addition to the pairs, she washes 15 loose socks. Therefore, the total number of socks she washed is:\n20 socks (from pairs) + 15 socks (loose) = 35 socks.\n\nTo find out how many socks Lindsay has missed, we subtract the number of socks she washed from the total number of socks:\n50 socks (total) - 35 socks (washed) = 15 socks.\n\n[Verification] \nWe can verify this by adding the socks she washed and the socks she thinks she missed:\n20 (pairs) + 15 (loose) + 15 (missed) should equal 50 socks.\n20 + 15 + 15 = 50, which checks out.\n\n[Final Answer] The answer is 15 \n#### 15": [],
+        "I don't know the answer to this question, sorry.": []
+    },
+    "ucb_bank": {}
+}

@@ -1,0 +1,44 @@
+{
+    "query": "Alice is 7 years older than Beth, who is 5 years older than Erica. What is the difference between the ages of Alice and Erica, if Erica is 30 years old?",
+    "ground_truth": "Beth is 30+5 = <<30+5=35>>35 years old.\nAlice is 35+7 = <<35+7=42>>42 years old.\nThe difference between the ages of Alice and Erica is 42-30 = <<42-30=12>>12 years.\n#### 12",
+    "hints_list": [],
+    "answers_list": [
+        "[reasoning process]  \nLet's determine the ages of Alice and Beth based on Erica's age. We know that Erica is 30 years old.  \nBeth is 5 years older than Erica:  \nBeth's age = Erica's age + 5 = 30 + 5 = 35 years old.  \n\nNext, Alice is 7 years older than Beth:  \nAlice's age = Beth's age + 7 = 35 + 7 = 42 years old.  \n\nNow, we want to find the difference between Alice's age and Erica's age:  \nDifference = Alice's age - Erica's age = 42 - 30 = 12 years.  \n\n[Verification]  \nTo verify this, let's summarize the ages we calculated:  \n- Erica: 30 years  \n- Beth: 35 years (30 + 5)  \n- Alice: 42 years (35 + 7)  \n\nThe differences calculated:\n- Difference between Alice and Erica: 42 - 30 = 12 years.  \nThis confirms our calculation is accurate.\n\n[Final Answer] The answer is 12  \n#### 12",
+        "I don't know how to solve this question."
+    ],
+    "ground_truth_hints": "",
+    "hints_prompt": "Question: Alice is 7 years older than Beth, who is 5 years older than Erica. What is the difference between the ages of Alice and Erica, if Erica is 30 years old?\nCould you provide me with the thought process to solve this problem, but please don’t give me the answer or calculation, just the thought process?",
+    "to_explore": [
+        "[reasoning process]  \nLet's determine the ages of Alice and Beth based on Erica's age. We know that Erica is 30 years old.  \nBeth is 5 years older than Erica:  \nBeth's age = Erica's age + 5 = 30 + 5 = 35 years old.  \n\nNext, Alice is 7 years older than Beth:  \nAlice's age = Beth's age + 7 = 35 + 7 = 42 years old.  \n\nNow, we want to find the difference between Alice's age and Erica's age:  \nDifference = Alice's age - Erica's age = 42 - 30 = 12 years.  \n\n[Verification]  \nTo verify this, let's summarize the ages we calculated:  \n- Erica: 30 years  \n- Beth: 35 years (30 + 5)  \n- Alice: 42 years (35 + 7)  \n\nThe differences calculated:\n- Difference between Alice and Erica: 42 - 30 = 12 years.  \nThis confirms our calculation is accurate.\n\n[Final Answer] The answer is 12  \n#### 12",
+        "I don't know how to solve this question."
+    ],
+    "to_explore_reward": {
+        "[reasoning process]  \nLet's determine the ages of Alice and Beth based on Erica's age. We know that Erica is 30 years old.  \nBeth is 5 years older than Erica:  \nBeth's age = Erica's age + 5 = 30 + 5 = 35 years old.  \n\nNext, Alice is 7 years older than Beth:  \nAlice's age = Beth's age + 7 = 35 + 7 = 42 years old.  \n\nNow, we want to find the difference between Alice's age and Erica's age:  \nDifference = Alice's age - Erica's age = 42 - 30 = 12 years.  \n\n[Verification]  \nTo verify this, let's summarize the ages we calculated:  \n- Erica: 30 years  \n- Beth: 35 years (30 + 5)  \n- Alice: 42 years (35 + 7)  \n\nThe differences calculated:\n- Difference between Alice and Erica: 42 - 30 = 12 years.  \nThis confirms our calculation is accurate.\n\n[Final Answer] The answer is 12  \n#### 12": [
+            85.0
+        ],
+        "I don't know how to solve this question.": [
+            -80.0
+        ]
+    },
+    "hints_bank": {},
+    "history_bank": {
+        "[reasoning process]  \nLet's determine the ages of Alice and Beth based on Erica's age. We know that Erica is 30 years old.  \nBeth is 5 years older than Erica:  \nBeth's age = Erica's age + 5 = 30 + 5 = 35 years old.  \n\nNext, Alice is 7 years older than Beth:  \nAlice's age = Beth's age + 7 = 35 + 7 = 42 years old.  \n\nNow, we want to find the difference between Alice's age and Erica's age:  \nDifference = Alice's age - Erica's age = 42 - 30 = 12 years.  \n\n[Verification]  \nTo verify this, let's summarize the ages we calculated:  \n- Erica: 30 years  \n- Beth: 35 years (30 + 5)  \n- Alice: 42 years (35 + 7)  \n\nThe differences calculated:\n- Difference between Alice and Erica: 42 - 30 = 12 years.  \nThis confirms our calculation is accurate.\n\n[Final Answer] The answer is 12  \n#### 12": [
+            "Question: Alice is 7 years older than Beth, who is 5 years older than Erica. What is the difference between the ages of Alice and Erica, if Erica is 30 years old?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "[reasoning process]  \nLet's determine the ages of Alice and Beth based on Erica's age. We know that Erica is 30 years old.  \nBeth is 5 years older than Erica:  \nBeth's age = Erica's age + 5 = 30 + 5 = 35 years old.  \n\nNext, Alice is 7 years older than Beth:  \nAlice's age = Beth's age + 7 = 35 + 7 = 42 years old.  \n\nNow, we want to find the difference between Alice's age and Erica's age:  \nDifference = Alice's age - Erica's age = 42 - 30 = 12 years.  \n\n[Verification]  \nTo verify this, let's summarize the ages we calculated:  \n- Erica: 30 years  \n- Beth: 35 years (30 + 5)  \n- Alice: 42 years (35 + 7)  \n\nThe differences calculated:\n- Difference between Alice and Erica: 42 - 30 = 12 years.  \nThis confirms our calculation is accurate.\n\n[Final Answer] The answer is 12  \n#### 12"
+        ],
+        "I don't know how to solve this question.": [
+            "Question: Alice is 7 years older than Beth, who is 5 years older than Erica. What is the difference between the ages of Alice and Erica, if Erica is 30 years old?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "I don't know how to solve this question."
+        ]
+    },
+    "hints_reward_imp_bank": {},
+    "fathers": {
+        "[reasoning process]  \nLet's determine the ages of Alice and Beth based on Erica's age. We know that Erica is 30 years old.  \nBeth is 5 years older than Erica:  \nBeth's age = Erica's age + 5 = 30 + 5 = 35 years old.  \n\nNext, Alice is 7 years older than Beth:  \nAlice's age = Beth's age + 7 = 35 + 7 = 42 years old.  \n\nNow, we want to find the difference between Alice's age and Erica's age:  \nDifference = Alice's age - Erica's age = 42 - 30 = 12 years.  \n\n[Verification]  \nTo verify this, let's summarize the ages we calculated:  \n- Erica: 30 years  \n- Beth: 35 years (30 + 5)  \n- Alice: 42 years (35 + 7)  \n\nThe differences calculated:\n- Difference between Alice and Erica: 42 - 30 = 12 years.  \nThis confirms our calculation is accurate.\n\n[Final Answer] The answer is 12  \n#### 12": null,
+        "I don't know how to solve this question.": null
+    },
+    "childs": {
+        "[reasoning process]  \nLet's determine the ages of Alice and Beth based on Erica's age. We know that Erica is 30 years old.  \nBeth is 5 years older than Erica:  \nBeth's age = Erica's age + 5 = 30 + 5 = 35 years old.  \n\nNext, Alice is 7 years older than Beth:  \nAlice's age = Beth's age + 7 = 35 + 7 = 42 years old.  \n\nNow, we want to find the difference between Alice's age and Erica's age:  \nDifference = Alice's age - Erica's age = 42 - 30 = 12 years.  \n\n[Verification]  \nTo verify this, let's summarize the ages we calculated:  \n- Erica: 30 years  \n- Beth: 35 years (30 + 5)  \n- Alice: 42 years (35 + 7)  \n\nThe differences calculated:\n- Difference between Alice and Erica: 42 - 30 = 12 years.  \nThis confirms our calculation is accurate.\n\n[Final Answer] The answer is 12  \n#### 12": [],
+        "I don't know how to solve this question.": []
+    },
+    "ucb_bank": {}
+}

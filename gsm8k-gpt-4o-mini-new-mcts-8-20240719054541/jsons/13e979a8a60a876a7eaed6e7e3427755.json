@@ -1,0 +1,44 @@
+{
+    "query": "There are 6 girls in the park. If there are twice the number of boys in the park, how many kids are in the park?",
+    "ground_truth": "There are 6 girls x 2 boys/girl = <<6*2=12>>12 boys in the park.\nIn total there are 6 girls + 12 boys = <<6+12=18>>18 kids in the park\n#### 18",
+    "hints_list": [],
+    "answers_list": [
+        "[reasoning process] To find out how many kids are in the park, we first determine the number of boys. The problem states that there are 6 girls, and there are twice the number of boys compared to the girls. Therefore, we calculate the number of boys as follows:  \nNumber of boys = 2 * Number of girls  \nNumber of boys = 2 * 6 = 12 boys.  \nNext, we add the number of boys to the number of girls to find the total number of kids in the park:  \nTotal kids = Number of girls + Number of boys  \nTotal kids = 6 + 12 = 18 kids.\n\n[Verification] To verify our calculation:  \n- Girls: 6  \n- Boys: 12 (which is indeed twice the number of girls, as 2 * 6 = 12)  \n- Total kids = 6 (girls) + 12 (boys) = 18 kids.  \nAll calculations and relationships hold true.\n\n[Final Answer] The answer is 18  \n#### 18",
+        "I don't know the answer to this question."
+    ],
+    "ground_truth_hints": "",
+    "hints_prompt": "Question: There are 6 girls in the park. If there are twice the number of boys in the park, how many kids are in the park?\nCould you provide me with the thought process to solve this problem, but please don’t give me the answer or calculation, just the thought process?",
+    "to_explore": [
+        "[reasoning process] To find out how many kids are in the park, we first determine the number of boys. The problem states that there are 6 girls, and there are twice the number of boys compared to the girls. Therefore, we calculate the number of boys as follows:  \nNumber of boys = 2 * Number of girls  \nNumber of boys = 2 * 6 = 12 boys.  \nNext, we add the number of boys to the number of girls to find the total number of kids in the park:  \nTotal kids = Number of girls + Number of boys  \nTotal kids = 6 + 12 = 18 kids.\n\n[Verification] To verify our calculation:  \n- Girls: 6  \n- Boys: 12 (which is indeed twice the number of girls, as 2 * 6 = 12)  \n- Total kids = 6 (girls) + 12 (boys) = 18 kids.  \nAll calculations and relationships hold true.\n\n[Final Answer] The answer is 18  \n#### 18",
+        "I don't know the answer to this question."
+    ],
+    "to_explore_reward": {
+        "[reasoning process] To find out how many kids are in the park, we first determine the number of boys. The problem states that there are 6 girls, and there are twice the number of boys compared to the girls. Therefore, we calculate the number of boys as follows:  \nNumber of boys = 2 * Number of girls  \nNumber of boys = 2 * 6 = 12 boys.  \nNext, we add the number of boys to the number of girls to find the total number of kids in the park:  \nTotal kids = Number of girls + Number of boys  \nTotal kids = 6 + 12 = 18 kids.\n\n[Verification] To verify our calculation:  \n- Girls: 6  \n- Boys: 12 (which is indeed twice the number of girls, as 2 * 6 = 12)  \n- Total kids = 6 (girls) + 12 (boys) = 18 kids.  \nAll calculations and relationships hold true.\n\n[Final Answer] The answer is 18  \n#### 18": [
+            75.0
+        ],
+        "I don't know the answer to this question.": [
+            -90.0
+        ]
+    },
+    "hints_bank": {},
+    "history_bank": {
+        "[reasoning process] To find out how many kids are in the park, we first determine the number of boys. The problem states that there are 6 girls, and there are twice the number of boys compared to the girls. Therefore, we calculate the number of boys as follows:  \nNumber of boys = 2 * Number of girls  \nNumber of boys = 2 * 6 = 12 boys.  \nNext, we add the number of boys to the number of girls to find the total number of kids in the park:  \nTotal kids = Number of girls + Number of boys  \nTotal kids = 6 + 12 = 18 kids.\n\n[Verification] To verify our calculation:  \n- Girls: 6  \n- Boys: 12 (which is indeed twice the number of girls, as 2 * 6 = 12)  \n- Total kids = 6 (girls) + 12 (boys) = 18 kids.  \nAll calculations and relationships hold true.\n\n[Final Answer] The answer is 18  \n#### 18": [
+            "Question: There are 6 girls in the park. If there are twice the number of boys in the park, how many kids are in the park?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "[reasoning process] To find out how many kids are in the park, we first determine the number of boys. The problem states that there are 6 girls, and there are twice the number of boys compared to the girls. Therefore, we calculate the number of boys as follows:  \nNumber of boys = 2 * Number of girls  \nNumber of boys = 2 * 6 = 12 boys.  \nNext, we add the number of boys to the number of girls to find the total number of kids in the park:  \nTotal kids = Number of girls + Number of boys  \nTotal kids = 6 + 12 = 18 kids.\n\n[Verification] To verify our calculation:  \n- Girls: 6  \n- Boys: 12 (which is indeed twice the number of girls, as 2 * 6 = 12)  \n- Total kids = 6 (girls) + 12 (boys) = 18 kids.  \nAll calculations and relationships hold true.\n\n[Final Answer] The answer is 18  \n#### 18"
+        ],
+        "I don't know the answer to this question.": [
+            "Question: There are 6 girls in the park. If there are twice the number of boys in the park, how many kids are in the park?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "I don't know the answer to this question."
+        ]
+    },
+    "hints_reward_imp_bank": {},
+    "fathers": {
+        "[reasoning process] To find out how many kids are in the park, we first determine the number of boys. The problem states that there are 6 girls, and there are twice the number of boys compared to the girls. Therefore, we calculate the number of boys as follows:  \nNumber of boys = 2 * Number of girls  \nNumber of boys = 2 * 6 = 12 boys.  \nNext, we add the number of boys to the number of girls to find the total number of kids in the park:  \nTotal kids = Number of girls + Number of boys  \nTotal kids = 6 + 12 = 18 kids.\n\n[Verification] To verify our calculation:  \n- Girls: 6  \n- Boys: 12 (which is indeed twice the number of girls, as 2 * 6 = 12)  \n- Total kids = 6 (girls) + 12 (boys) = 18 kids.  \nAll calculations and relationships hold true.\n\n[Final Answer] The answer is 18  \n#### 18": null,
+        "I don't know the answer to this question.": null
+    },
+    "childs": {
+        "[reasoning process] To find out how many kids are in the park, we first determine the number of boys. The problem states that there are 6 girls, and there are twice the number of boys compared to the girls. Therefore, we calculate the number of boys as follows:  \nNumber of boys = 2 * Number of girls  \nNumber of boys = 2 * 6 = 12 boys.  \nNext, we add the number of boys to the number of girls to find the total number of kids in the park:  \nTotal kids = Number of girls + Number of boys  \nTotal kids = 6 + 12 = 18 kids.\n\n[Verification] To verify our calculation:  \n- Girls: 6  \n- Boys: 12 (which is indeed twice the number of girls, as 2 * 6 = 12)  \n- Total kids = 6 (girls) + 12 (boys) = 18 kids.  \nAll calculations and relationships hold true.\n\n[Final Answer] The answer is 18  \n#### 18": [],
+        "I don't know the answer to this question.": []
+    },
+    "ucb_bank": {}
+}

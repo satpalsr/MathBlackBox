@@ -1,0 +1,44 @@
+{
+    "query": "John goes to the market and buys 3 goats for $500 each and 2 cows for $1500 each.  How much money did he spend?",
+    "ground_truth": "The goats cost 3*500=$<<3*500=1500>>1500\nThe cows cost 2*1500=$<<2*1500=3000>>3000\nSo in total he spends 1500+3000=$<<1500+3000=4500>>4500\n#### 4500",
+    "hints_list": [],
+    "answers_list": [
+        "[reasoning process] To find out how much money John spent, we need to calculate the total cost of the goats and the cows separately and then add them together. John buys 3 goats, each costing $500, and 2 cows, each costing $1500.\n\nFirst, let's calculate the total cost of the goats:\n- Number of goats = 3\n- Cost per goat = $500\n- Total cost of goats = 3 goats * $500/goat = $1500\n\nNext, let's calculate the total cost of the cows:\n- Number of cows = 2\n- Cost per cow = $1500\n- Total cost of cows = 2 cows * $1500/cow = $3000\n\nNow, we add the total cost of the goats and the total cost of the cows to get the total expenditure:\n- Total cost = Total cost of goats + Total cost of cows = $1500 + $3000 = $4500\n\n[Verification] We will check the calculations:\n- For goats: 3 goats * $500 = $1500 → Correct.\n- For cows: 2 cows * $1500 = $3000 → Correct.\n- Total expenditure: $1500 + $3000 = $4500 → Correct.\n\nAll calculations are accurate.\n\n[Final Answer] The answer is 4500 \\n#### 4500",
+        "I Don't Know"
+    ],
+    "ground_truth_hints": "",
+    "hints_prompt": "Question: John goes to the market and buys 3 goats for $500 each and 2 cows for $1500 each.  How much money did he spend?\nCould you provide me with the thought process to solve this problem, but please don’t give me the answer or calculation, just the thought process?",
+    "to_explore": [
+        "[reasoning process] To find out how much money John spent, we need to calculate the total cost of the goats and the cows separately and then add them together. John buys 3 goats, each costing $500, and 2 cows, each costing $1500.\n\nFirst, let's calculate the total cost of the goats:\n- Number of goats = 3\n- Cost per goat = $500\n- Total cost of goats = 3 goats * $500/goat = $1500\n\nNext, let's calculate the total cost of the cows:\n- Number of cows = 2\n- Cost per cow = $1500\n- Total cost of cows = 2 cows * $1500/cow = $3000\n\nNow, we add the total cost of the goats and the total cost of the cows to get the total expenditure:\n- Total cost = Total cost of goats + Total cost of cows = $1500 + $3000 = $4500\n\n[Verification] We will check the calculations:\n- For goats: 3 goats * $500 = $1500 → Correct.\n- For cows: 2 cows * $1500 = $3000 → Correct.\n- Total expenditure: $1500 + $3000 = $4500 → Correct.\n\nAll calculations are accurate.\n\n[Final Answer] The answer is 4500 \\n#### 4500",
+        "I Don't Know"
+    ],
+    "to_explore_reward": {
+        "[reasoning process] To find out how much money John spent, we need to calculate the total cost of the goats and the cows separately and then add them together. John buys 3 goats, each costing $500, and 2 cows, each costing $1500.\n\nFirst, let's calculate the total cost of the goats:\n- Number of goats = 3\n- Cost per goat = $500\n- Total cost of goats = 3 goats * $500/goat = $1500\n\nNext, let's calculate the total cost of the cows:\n- Number of cows = 2\n- Cost per cow = $1500\n- Total cost of cows = 2 cows * $1500/cow = $3000\n\nNow, we add the total cost of the goats and the total cost of the cows to get the total expenditure:\n- Total cost = Total cost of goats + Total cost of cows = $1500 + $3000 = $4500\n\n[Verification] We will check the calculations:\n- For goats: 3 goats * $500 = $1500 → Correct.\n- For cows: 2 cows * $1500 = $3000 → Correct.\n- Total expenditure: $1500 + $3000 = $4500 → Correct.\n\nAll calculations are accurate.\n\n[Final Answer] The answer is 4500 \\n#### 4500": [
+            75.0
+        ],
+        "I Don't Know": [
+            -90.0
+        ]
+    },
+    "hints_bank": {},
+    "history_bank": {
+        "[reasoning process] To find out how much money John spent, we need to calculate the total cost of the goats and the cows separately and then add them together. John buys 3 goats, each costing $500, and 2 cows, each costing $1500.\n\nFirst, let's calculate the total cost of the goats:\n- Number of goats = 3\n- Cost per goat = $500\n- Total cost of goats = 3 goats * $500/goat = $1500\n\nNext, let's calculate the total cost of the cows:\n- Number of cows = 2\n- Cost per cow = $1500\n- Total cost of cows = 2 cows * $1500/cow = $3000\n\nNow, we add the total cost of the goats and the total cost of the cows to get the total expenditure:\n- Total cost = Total cost of goats + Total cost of cows = $1500 + $3000 = $4500\n\n[Verification] We will check the calculations:\n- For goats: 3 goats * $500 = $1500 → Correct.\n- For cows: 2 cows * $1500 = $3000 → Correct.\n- Total expenditure: $1500 + $3000 = $4500 → Correct.\n\nAll calculations are accurate.\n\n[Final Answer] The answer is 4500 \\n#### 4500": [
+            "Question: John goes to the market and buys 3 goats for $500 each and 2 cows for $1500 each.  How much money did he spend?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "[reasoning process] To find out how much money John spent, we need to calculate the total cost of the goats and the cows separately and then add them together. John buys 3 goats, each costing $500, and 2 cows, each costing $1500.\n\nFirst, let's calculate the total cost of the goats:\n- Number of goats = 3\n- Cost per goat = $500\n- Total cost of goats = 3 goats * $500/goat = $1500\n\nNext, let's calculate the total cost of the cows:\n- Number of cows = 2\n- Cost per cow = $1500\n- Total cost of cows = 2 cows * $1500/cow = $3000\n\nNow, we add the total cost of the goats and the total cost of the cows to get the total expenditure:\n- Total cost = Total cost of goats + Total cost of cows = $1500 + $3000 = $4500\n\n[Verification] We will check the calculations:\n- For goats: 3 goats * $500 = $1500 → Correct.\n- For cows: 2 cows * $1500 = $3000 → Correct.\n- Total expenditure: $1500 + $3000 = $4500 → Correct.\n\nAll calculations are accurate.\n\n[Final Answer] The answer is 4500 \\n#### 4500"
+        ],
+        "I Don't Know": [
+            "Question: John goes to the market and buys 3 goats for $500 each and 2 cows for $1500 each.  How much money did he spend?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "I Don't Know"
+        ]
+    },
+    "hints_reward_imp_bank": {},
+    "fathers": {
+        "[reasoning process] To find out how much money John spent, we need to calculate the total cost of the goats and the cows separately and then add them together. John buys 3 goats, each costing $500, and 2 cows, each costing $1500.\n\nFirst, let's calculate the total cost of the goats:\n- Number of goats = 3\n- Cost per goat = $500\n- Total cost of goats = 3 goats * $500/goat = $1500\n\nNext, let's calculate the total cost of the cows:\n- Number of cows = 2\n- Cost per cow = $1500\n- Total cost of cows = 2 cows * $1500/cow = $3000\n\nNow, we add the total cost of the goats and the total cost of the cows to get the total expenditure:\n- Total cost = Total cost of goats + Total cost of cows = $1500 + $3000 = $4500\n\n[Verification] We will check the calculations:\n- For goats: 3 goats * $500 = $1500 → Correct.\n- For cows: 2 cows * $1500 = $3000 → Correct.\n- Total expenditure: $1500 + $3000 = $4500 → Correct.\n\nAll calculations are accurate.\n\n[Final Answer] The answer is 4500 \\n#### 4500": null,
+        "I Don't Know": null
+    },
+    "childs": {
+        "[reasoning process] To find out how much money John spent, we need to calculate the total cost of the goats and the cows separately and then add them together. John buys 3 goats, each costing $500, and 2 cows, each costing $1500.\n\nFirst, let's calculate the total cost of the goats:\n- Number of goats = 3\n- Cost per goat = $500\n- Total cost of goats = 3 goats * $500/goat = $1500\n\nNext, let's calculate the total cost of the cows:\n- Number of cows = 2\n- Cost per cow = $1500\n- Total cost of cows = 2 cows * $1500/cow = $3000\n\nNow, we add the total cost of the goats and the total cost of the cows to get the total expenditure:\n- Total cost = Total cost of goats + Total cost of cows = $1500 + $3000 = $4500\n\n[Verification] We will check the calculations:\n- For goats: 3 goats * $500 = $1500 → Correct.\n- For cows: 2 cows * $1500 = $3000 → Correct.\n- Total expenditure: $1500 + $3000 = $4500 → Correct.\n\nAll calculations are accurate.\n\n[Final Answer] The answer is 4500 \\n#### 4500": [],
+        "I Don't Know": []
+    },
+    "ucb_bank": {}
+}

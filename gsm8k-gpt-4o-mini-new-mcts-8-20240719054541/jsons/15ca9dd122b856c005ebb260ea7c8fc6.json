@@ -1,0 +1,44 @@
+{
+    "query": "Mrs. Sherman made a dozen bread rolls for breakfast. After feeding her 6 children with one each, she broke each of the remaining rolls into 8 pieces and fed them to the chickens. How many pieces of rolls did she feed to the chickens?",
+    "ground_truth": "After feeding her children, Mrs. Sherman was left with 12 - 6 = <<12-6=6>>6 rolls\nShe fed 6 x 8 = <<6*8=48>>48 pieces of rolls to the chickens.\n#### 48",
+    "hints_list": [],
+    "answers_list": [
+        "[reasoning process] \nMrs. Sherman made a dozen bread rolls, which is equivalent to 12 rolls. She then fed her 6 children, each receiving one roll. After giving away 6 rolls, she has:\n\n12 rolls - 6 rolls = 6 rolls remaining.\n\nNow, Mrs. Sherman breaks each of the remaining 6 rolls into 8 pieces. The total number of pieces from the rolls is calculated by multiplying the number of remaining rolls by the number of pieces each roll is broken into:\n\n6 rolls * 8 pieces/roll = 48 pieces.\n\n[Verification]\nTo verify, we reconsider the distribution of the rolls:\n1. Total rolls: 12\n2. Rolls fed to children: 6\n3. Remaining rolls: 12 - 6 = 6\n4. Pieces from remaining rolls: 6 rolls * 8 pieces = 48 pieces.\n\nThe calculations are consistent, confirming the number of pieces fed to the chickens.\n\n[Final Answer] The answer is 48 pieces \\n#### 48",
+        "I don't know the answer to this question, sorry."
+    ],
+    "ground_truth_hints": "",
+    "hints_prompt": "Question: Mrs. Sherman made a dozen bread rolls for breakfast. After feeding her 6 children with one each, she broke each of the remaining rolls into 8 pieces and fed them to the chickens. How many pieces of rolls did she feed to the chickens?\nCould you provide me with the thought process to solve this problem, but please don’t give me the answer or calculation, just the thought process?",
+    "to_explore": [
+        "[reasoning process] \nMrs. Sherman made a dozen bread rolls, which is equivalent to 12 rolls. She then fed her 6 children, each receiving one roll. After giving away 6 rolls, she has:\n\n12 rolls - 6 rolls = 6 rolls remaining.\n\nNow, Mrs. Sherman breaks each of the remaining 6 rolls into 8 pieces. The total number of pieces from the rolls is calculated by multiplying the number of remaining rolls by the number of pieces each roll is broken into:\n\n6 rolls * 8 pieces/roll = 48 pieces.\n\n[Verification]\nTo verify, we reconsider the distribution of the rolls:\n1. Total rolls: 12\n2. Rolls fed to children: 6\n3. Remaining rolls: 12 - 6 = 6\n4. Pieces from remaining rolls: 6 rolls * 8 pieces = 48 pieces.\n\nThe calculations are consistent, confirming the number of pieces fed to the chickens.\n\n[Final Answer] The answer is 48 pieces \\n#### 48",
+        "I don't know the answer to this question, sorry."
+    ],
+    "to_explore_reward": {
+        "[reasoning process] \nMrs. Sherman made a dozen bread rolls, which is equivalent to 12 rolls. She then fed her 6 children, each receiving one roll. After giving away 6 rolls, she has:\n\n12 rolls - 6 rolls = 6 rolls remaining.\n\nNow, Mrs. Sherman breaks each of the remaining 6 rolls into 8 pieces. The total number of pieces from the rolls is calculated by multiplying the number of remaining rolls by the number of pieces each roll is broken into:\n\n6 rolls * 8 pieces/roll = 48 pieces.\n\n[Verification]\nTo verify, we reconsider the distribution of the rolls:\n1. Total rolls: 12\n2. Rolls fed to children: 6\n3. Remaining rolls: 12 - 6 = 6\n4. Pieces from remaining rolls: 6 rolls * 8 pieces = 48 pieces.\n\nThe calculations are consistent, confirming the number of pieces fed to the chickens.\n\n[Final Answer] The answer is 48 pieces \\n#### 48": [
+            70.0
+        ],
+        "I don't know the answer to this question, sorry.": [
+            -100.0
+        ]
+    },
+    "hints_bank": {},
+    "history_bank": {
+        "[reasoning process] \nMrs. Sherman made a dozen bread rolls, which is equivalent to 12 rolls. She then fed her 6 children, each receiving one roll. After giving away 6 rolls, she has:\n\n12 rolls - 6 rolls = 6 rolls remaining.\n\nNow, Mrs. Sherman breaks each of the remaining 6 rolls into 8 pieces. The total number of pieces from the rolls is calculated by multiplying the number of remaining rolls by the number of pieces each roll is broken into:\n\n6 rolls * 8 pieces/roll = 48 pieces.\n\n[Verification]\nTo verify, we reconsider the distribution of the rolls:\n1. Total rolls: 12\n2. Rolls fed to children: 6\n3. Remaining rolls: 12 - 6 = 6\n4. Pieces from remaining rolls: 6 rolls * 8 pieces = 48 pieces.\n\nThe calculations are consistent, confirming the number of pieces fed to the chickens.\n\n[Final Answer] The answer is 48 pieces \\n#### 48": [
+            "Question: Mrs. Sherman made a dozen bread rolls for breakfast. After feeding her 6 children with one each, she broke each of the remaining rolls into 8 pieces and fed them to the chickens. How many pieces of rolls did she feed to the chickens?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "[reasoning process] \nMrs. Sherman made a dozen bread rolls, which is equivalent to 12 rolls. She then fed her 6 children, each receiving one roll. After giving away 6 rolls, she has:\n\n12 rolls - 6 rolls = 6 rolls remaining.\n\nNow, Mrs. Sherman breaks each of the remaining 6 rolls into 8 pieces. The total number of pieces from the rolls is calculated by multiplying the number of remaining rolls by the number of pieces each roll is broken into:\n\n6 rolls * 8 pieces/roll = 48 pieces.\n\n[Verification]\nTo verify, we reconsider the distribution of the rolls:\n1. Total rolls: 12\n2. Rolls fed to children: 6\n3. Remaining rolls: 12 - 6 = 6\n4. Pieces from remaining rolls: 6 rolls * 8 pieces = 48 pieces.\n\nThe calculations are consistent, confirming the number of pieces fed to the chickens.\n\n[Final Answer] The answer is 48 pieces \\n#### 48"
+        ],
+        "I don't know the answer to this question, sorry.": [
+            "Question: Mrs. Sherman made a dozen bread rolls for breakfast. After feeding her 6 children with one each, she broke each of the remaining rolls into 8 pieces and fed them to the chickens. How many pieces of rolls did she feed to the chickens?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "I don't know the answer to this question, sorry."
+        ]
+    },
+    "hints_reward_imp_bank": {},
+    "fathers": {
+        "[reasoning process] \nMrs. Sherman made a dozen bread rolls, which is equivalent to 12 rolls. She then fed her 6 children, each receiving one roll. After giving away 6 rolls, she has:\n\n12 rolls - 6 rolls = 6 rolls remaining.\n\nNow, Mrs. Sherman breaks each of the remaining 6 rolls into 8 pieces. The total number of pieces from the rolls is calculated by multiplying the number of remaining rolls by the number of pieces each roll is broken into:\n\n6 rolls * 8 pieces/roll = 48 pieces.\n\n[Verification]\nTo verify, we reconsider the distribution of the rolls:\n1. Total rolls: 12\n2. Rolls fed to children: 6\n3. Remaining rolls: 12 - 6 = 6\n4. Pieces from remaining rolls: 6 rolls * 8 pieces = 48 pieces.\n\nThe calculations are consistent, confirming the number of pieces fed to the chickens.\n\n[Final Answer] The answer is 48 pieces \\n#### 48": null,
+        "I don't know the answer to this question, sorry.": null
+    },
+    "childs": {
+        "[reasoning process] \nMrs. Sherman made a dozen bread rolls, which is equivalent to 12 rolls. She then fed her 6 children, each receiving one roll. After giving away 6 rolls, she has:\n\n12 rolls - 6 rolls = 6 rolls remaining.\n\nNow, Mrs. Sherman breaks each of the remaining 6 rolls into 8 pieces. The total number of pieces from the rolls is calculated by multiplying the number of remaining rolls by the number of pieces each roll is broken into:\n\n6 rolls * 8 pieces/roll = 48 pieces.\n\n[Verification]\nTo verify, we reconsider the distribution of the rolls:\n1. Total rolls: 12\n2. Rolls fed to children: 6\n3. Remaining rolls: 12 - 6 = 6\n4. Pieces from remaining rolls: 6 rolls * 8 pieces = 48 pieces.\n\nThe calculations are consistent, confirming the number of pieces fed to the chickens.\n\n[Final Answer] The answer is 48 pieces \\n#### 48": [],
+        "I don't know the answer to this question, sorry.": []
+    },
+    "ucb_bank": {}
+}

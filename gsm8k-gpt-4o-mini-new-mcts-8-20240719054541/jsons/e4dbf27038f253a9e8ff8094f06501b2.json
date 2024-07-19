@@ -1,0 +1,44 @@
+{
+    "query": "Maddison has 5 boxes with 50 marbles in each box. Then she gets 20 marbles from her friend. How many marbles does she have now?",
+    "ground_truth": "Maddison has 5 x 50 = <<5*50=250>>250 marbles from her boxes.\nSo she has a total of 250 + 20 = <<250+20=270>>270 marbles now.\n#### 270",
+    "hints_list": [],
+    "answers_list": [
+        "[reasoning process] First, we need to find the total number of marbles Maddison has in the boxes. Since there are 5 boxes and each box contains 50 marbles, we calculate the total number of marbles in the boxes:\n\n5 boxes * 50 marbles/box = 250 marbles.\n\nNext, we consider the 20 marbles she received from her friend. To find the total number of marbles Maddison has now, we add the marbles from the boxes to the marbles she received:\n\n250 marbles + 20 marbles = 270 marbles.\n\n[Verification] We can verify the calculations step-by-step: \n1. Calculate the total in the boxes: \n   - 5 * 50 = 250.\n2. Add the marbles from her friend: \n   - 250 + 20 = 270.\n\nBoth steps give us the same result, confirming our calculations are correct.\n\n[Final Answer] The answer is 270  \n#### 270",
+        "I don't know the answer to this question."
+    ],
+    "ground_truth_hints": "",
+    "hints_prompt": "Question: Maddison has 5 boxes with 50 marbles in each box. Then she gets 20 marbles from her friend. How many marbles does she have now?\nCould you provide me with the thought process to solve this problem, but please don’t give me the answer or calculation, just the thought process?",
+    "to_explore": [
+        "[reasoning process] First, we need to find the total number of marbles Maddison has in the boxes. Since there are 5 boxes and each box contains 50 marbles, we calculate the total number of marbles in the boxes:\n\n5 boxes * 50 marbles/box = 250 marbles.\n\nNext, we consider the 20 marbles she received from her friend. To find the total number of marbles Maddison has now, we add the marbles from the boxes to the marbles she received:\n\n250 marbles + 20 marbles = 270 marbles.\n\n[Verification] We can verify the calculations step-by-step: \n1. Calculate the total in the boxes: \n   - 5 * 50 = 250.\n2. Add the marbles from her friend: \n   - 250 + 20 = 270.\n\nBoth steps give us the same result, confirming our calculations are correct.\n\n[Final Answer] The answer is 270  \n#### 270",
+        "I don't know the answer to this question."
+    ],
+    "to_explore_reward": {
+        "[reasoning process] First, we need to find the total number of marbles Maddison has in the boxes. Since there are 5 boxes and each box contains 50 marbles, we calculate the total number of marbles in the boxes:\n\n5 boxes * 50 marbles/box = 250 marbles.\n\nNext, we consider the 20 marbles she received from her friend. To find the total number of marbles Maddison has now, we add the marbles from the boxes to the marbles she received:\n\n250 marbles + 20 marbles = 270 marbles.\n\n[Verification] We can verify the calculations step-by-step: \n1. Calculate the total in the boxes: \n   - 5 * 50 = 250.\n2. Add the marbles from her friend: \n   - 250 + 20 = 270.\n\nBoth steps give us the same result, confirming our calculations are correct.\n\n[Final Answer] The answer is 270  \n#### 270": [
+            60.0
+        ],
+        "I don't know the answer to this question.": [
+            -85.0
+        ]
+    },
+    "hints_bank": {},
+    "history_bank": {
+        "[reasoning process] First, we need to find the total number of marbles Maddison has in the boxes. Since there are 5 boxes and each box contains 50 marbles, we calculate the total number of marbles in the boxes:\n\n5 boxes * 50 marbles/box = 250 marbles.\n\nNext, we consider the 20 marbles she received from her friend. To find the total number of marbles Maddison has now, we add the marbles from the boxes to the marbles she received:\n\n250 marbles + 20 marbles = 270 marbles.\n\n[Verification] We can verify the calculations step-by-step: \n1. Calculate the total in the boxes: \n   - 5 * 50 = 250.\n2. Add the marbles from her friend: \n   - 250 + 20 = 270.\n\nBoth steps give us the same result, confirming our calculations are correct.\n\n[Final Answer] The answer is 270  \n#### 270": [
+            "Question: Maddison has 5 boxes with 50 marbles in each box. Then she gets 20 marbles from her friend. How many marbles does she have now?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "[reasoning process] First, we need to find the total number of marbles Maddison has in the boxes. Since there are 5 boxes and each box contains 50 marbles, we calculate the total number of marbles in the boxes:\n\n5 boxes * 50 marbles/box = 250 marbles.\n\nNext, we consider the 20 marbles she received from her friend. To find the total number of marbles Maddison has now, we add the marbles from the boxes to the marbles she received:\n\n250 marbles + 20 marbles = 270 marbles.\n\n[Verification] We can verify the calculations step-by-step: \n1. Calculate the total in the boxes: \n   - 5 * 50 = 250.\n2. Add the marbles from her friend: \n   - 250 + 20 = 270.\n\nBoth steps give us the same result, confirming our calculations are correct.\n\n[Final Answer] The answer is 270  \n#### 270"
+        ],
+        "I don't know the answer to this question.": [
+            "Question: Maddison has 5 boxes with 50 marbles in each box. Then she gets 20 marbles from her friend. How many marbles does she have now?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "I don't know the answer to this question."
+        ]
+    },
+    "hints_reward_imp_bank": {},
+    "fathers": {
+        "[reasoning process] First, we need to find the total number of marbles Maddison has in the boxes. Since there are 5 boxes and each box contains 50 marbles, we calculate the total number of marbles in the boxes:\n\n5 boxes * 50 marbles/box = 250 marbles.\n\nNext, we consider the 20 marbles she received from her friend. To find the total number of marbles Maddison has now, we add the marbles from the boxes to the marbles she received:\n\n250 marbles + 20 marbles = 270 marbles.\n\n[Verification] We can verify the calculations step-by-step: \n1. Calculate the total in the boxes: \n   - 5 * 50 = 250.\n2. Add the marbles from her friend: \n   - 250 + 20 = 270.\n\nBoth steps give us the same result, confirming our calculations are correct.\n\n[Final Answer] The answer is 270  \n#### 270": null,
+        "I don't know the answer to this question.": null
+    },
+    "childs": {
+        "[reasoning process] First, we need to find the total number of marbles Maddison has in the boxes. Since there are 5 boxes and each box contains 50 marbles, we calculate the total number of marbles in the boxes:\n\n5 boxes * 50 marbles/box = 250 marbles.\n\nNext, we consider the 20 marbles she received from her friend. To find the total number of marbles Maddison has now, we add the marbles from the boxes to the marbles she received:\n\n250 marbles + 20 marbles = 270 marbles.\n\n[Verification] We can verify the calculations step-by-step: \n1. Calculate the total in the boxes: \n   - 5 * 50 = 250.\n2. Add the marbles from her friend: \n   - 250 + 20 = 270.\n\nBoth steps give us the same result, confirming our calculations are correct.\n\n[Final Answer] The answer is 270  \n#### 270": [],
+        "I don't know the answer to this question.": []
+    },
+    "ucb_bank": {}
+}

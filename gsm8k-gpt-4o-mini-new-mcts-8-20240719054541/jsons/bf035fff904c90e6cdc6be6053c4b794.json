@@ -1,0 +1,44 @@
+{
+    "query": "Andy plants 90 geraniums and 40 fewer petunias that geraniums. How many flowers does he plant total?",
+    "ground_truth": "First find the number of petunias Andy plants: 90 flowers - 40 = <<90-40=50>>50 flowers\nThen add the number of each kind of flower he plants to find the total number: 50 flowers + 90 flowers = <<50+90=140>>140 flowers\n#### 140",
+    "hints_list": [],
+    "answers_list": [
+        "[reasoning process] Andy plants 90 geraniums. Since he plants 40 fewer petunias than geraniums, we can calculate the number of petunias as follows: \n\nNumber of petunias = Number of geraniums - 40\nNumber of petunias = 90 - 40 = 50\n\nNow, to find the total number of flowers planted, we simply add the number of geraniums and petunias together:\n\nTotal flowers = Number of geraniums + Number of petunias\nTotal flowers = 90 + 50 = 140\n\n[Verification] To verify the calculation:\n- Geraniums = 90\n- Petunias = 90 - 40 = 50\n- Total = 90 + 50 = 140\n\nThe calculations are correct.\n\n[Final Answer] The answer is 140 \\n#### 140",
+        "I can't help with this question."
+    ],
+    "ground_truth_hints": "",
+    "hints_prompt": "Question: Andy plants 90 geraniums and 40 fewer petunias that geraniums. How many flowers does he plant total?\nCould you provide me with the thought process to solve this problem, but please don’t give me the answer or calculation, just the thought process?",
+    "to_explore": [
+        "[reasoning process] Andy plants 90 geraniums. Since he plants 40 fewer petunias than geraniums, we can calculate the number of petunias as follows: \n\nNumber of petunias = Number of geraniums - 40\nNumber of petunias = 90 - 40 = 50\n\nNow, to find the total number of flowers planted, we simply add the number of geraniums and petunias together:\n\nTotal flowers = Number of geraniums + Number of petunias\nTotal flowers = 90 + 50 = 140\n\n[Verification] To verify the calculation:\n- Geraniums = 90\n- Petunias = 90 - 40 = 50\n- Total = 90 + 50 = 140\n\nThe calculations are correct.\n\n[Final Answer] The answer is 140 \\n#### 140",
+        "I can't help with this question."
+    ],
+    "to_explore_reward": {
+        "[reasoning process] Andy plants 90 geraniums. Since he plants 40 fewer petunias than geraniums, we can calculate the number of petunias as follows: \n\nNumber of petunias = Number of geraniums - 40\nNumber of petunias = 90 - 40 = 50\n\nNow, to find the total number of flowers planted, we simply add the number of geraniums and petunias together:\n\nTotal flowers = Number of geraniums + Number of petunias\nTotal flowers = 90 + 50 = 140\n\n[Verification] To verify the calculation:\n- Geraniums = 90\n- Petunias = 90 - 40 = 50\n- Total = 90 + 50 = 140\n\nThe calculations are correct.\n\n[Final Answer] The answer is 140 \\n#### 140": [
+            70.0
+        ],
+        "I can't help with this question.": [
+            -100.0
+        ]
+    },
+    "hints_bank": {},
+    "history_bank": {
+        "[reasoning process] Andy plants 90 geraniums. Since he plants 40 fewer petunias than geraniums, we can calculate the number of petunias as follows: \n\nNumber of petunias = Number of geraniums - 40\nNumber of petunias = 90 - 40 = 50\n\nNow, to find the total number of flowers planted, we simply add the number of geraniums and petunias together:\n\nTotal flowers = Number of geraniums + Number of petunias\nTotal flowers = 90 + 50 = 140\n\n[Verification] To verify the calculation:\n- Geraniums = 90\n- Petunias = 90 - 40 = 50\n- Total = 90 + 50 = 140\n\nThe calculations are correct.\n\n[Final Answer] The answer is 140 \\n#### 140": [
+            "Question: Andy plants 90 geraniums and 40 fewer petunias that geraniums. How many flowers does he plant total?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "[reasoning process] Andy plants 90 geraniums. Since he plants 40 fewer petunias than geraniums, we can calculate the number of petunias as follows: \n\nNumber of petunias = Number of geraniums - 40\nNumber of petunias = 90 - 40 = 50\n\nNow, to find the total number of flowers planted, we simply add the number of geraniums and petunias together:\n\nTotal flowers = Number of geraniums + Number of petunias\nTotal flowers = 90 + 50 = 140\n\n[Verification] To verify the calculation:\n- Geraniums = 90\n- Petunias = 90 - 40 = 50\n- Total = 90 + 50 = 140\n\nThe calculations are correct.\n\n[Final Answer] The answer is 140 \\n#### 140"
+        ],
+        "I can't help with this question.": [
+            "Question: Andy plants 90 geraniums and 40 fewer petunias that geraniums. How many flowers does he plant total?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "I can't help with this question."
+        ]
+    },
+    "hints_reward_imp_bank": {},
+    "fathers": {
+        "[reasoning process] Andy plants 90 geraniums. Since he plants 40 fewer petunias than geraniums, we can calculate the number of petunias as follows: \n\nNumber of petunias = Number of geraniums - 40\nNumber of petunias = 90 - 40 = 50\n\nNow, to find the total number of flowers planted, we simply add the number of geraniums and petunias together:\n\nTotal flowers = Number of geraniums + Number of petunias\nTotal flowers = 90 + 50 = 140\n\n[Verification] To verify the calculation:\n- Geraniums = 90\n- Petunias = 90 - 40 = 50\n- Total = 90 + 50 = 140\n\nThe calculations are correct.\n\n[Final Answer] The answer is 140 \\n#### 140": null,
+        "I can't help with this question.": null
+    },
+    "childs": {
+        "[reasoning process] Andy plants 90 geraniums. Since he plants 40 fewer petunias than geraniums, we can calculate the number of petunias as follows: \n\nNumber of petunias = Number of geraniums - 40\nNumber of petunias = 90 - 40 = 50\n\nNow, to find the total number of flowers planted, we simply add the number of geraniums and petunias together:\n\nTotal flowers = Number of geraniums + Number of petunias\nTotal flowers = 90 + 50 = 140\n\n[Verification] To verify the calculation:\n- Geraniums = 90\n- Petunias = 90 - 40 = 50\n- Total = 90 + 50 = 140\n\nThe calculations are correct.\n\n[Final Answer] The answer is 140 \\n#### 140": [],
+        "I can't help with this question.": []
+    },
+    "ucb_bank": {}
+}

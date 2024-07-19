@@ -1,0 +1,44 @@
+{
+    "query": "Julie had $500. She spent 20% of it on clothes and then 25% of the remaining money on CDs. How much money did Julie have left?",
+    "ground_truth": "Julie spend $500 * 0.2 = $<<500*0.2=100>>100 for clothes.\nJulie then had $500 - $100 = $<<500-100=400>>400 left.\nShe spend $400 * 0.25 = $<<400*0.25=100>>100 on CDs.\nJulie had $400 - $100 = $<<400-100=300>>300 left.\n#### 300",
+    "hints_list": [],
+    "answers_list": [
+        "[reasoning process] First, we start with Julie's initial amount of money, which is $500. She spends 20% of this on clothes.\n\n1. Calculate 20% of $500:\n   \\[\n   0.20 \\times 500 = 100\n   \\]\n\n2. Subtract the amount spent on clothes from the initial amount:\n   \\[\n   500 - 100 = 400\n   \\]\n\nNow, Julie has $400 remaining.\n\nNext, she spends 25% of the remaining $400 on CDs.\n\n3. Calculate 25% of $400:\n   \\[\n   0.25 \\times 400 = 100\n   \\]\n\n4. Subtract the amount spent on CDs from the remaining amount:\n   \\[\n   400 - 100 = 300\n   \\]\n\nThus, after her purchases, Julie has $300 left.\n\n[Verification] \n- Initial amount: $500\n- Amount spent on clothes: 20% of $500 = $100, remaining: $500 - $100 = $400\n- Amount spent on CDs: 25% of $400 = $100, remaining: $400 - $100 = $300\n\nThe calculations are verified and consistent.\n\n[Final Answer] The answer is 300 \\n#### 300",
+        "I can't understand this question."
+    ],
+    "ground_truth_hints": "",
+    "hints_prompt": "Question: Julie had $500. She spent 20% of it on clothes and then 25% of the remaining money on CDs. How much money did Julie have left?\nCould you provide me with the thought process to solve this problem, but please don’t give me the answer or calculation, just the thought process?",
+    "to_explore": [
+        "[reasoning process] First, we start with Julie's initial amount of money, which is $500. She spends 20% of this on clothes.\n\n1. Calculate 20% of $500:\n   \\[\n   0.20 \\times 500 = 100\n   \\]\n\n2. Subtract the amount spent on clothes from the initial amount:\n   \\[\n   500 - 100 = 400\n   \\]\n\nNow, Julie has $400 remaining.\n\nNext, she spends 25% of the remaining $400 on CDs.\n\n3. Calculate 25% of $400:\n   \\[\n   0.25 \\times 400 = 100\n   \\]\n\n4. Subtract the amount spent on CDs from the remaining amount:\n   \\[\n   400 - 100 = 300\n   \\]\n\nThus, after her purchases, Julie has $300 left.\n\n[Verification] \n- Initial amount: $500\n- Amount spent on clothes: 20% of $500 = $100, remaining: $500 - $100 = $400\n- Amount spent on CDs: 25% of $400 = $100, remaining: $400 - $100 = $300\n\nThe calculations are verified and consistent.\n\n[Final Answer] The answer is 300 \\n#### 300",
+        "I can't understand this question."
+    ],
+    "to_explore_reward": {
+        "[reasoning process] First, we start with Julie's initial amount of money, which is $500. She spends 20% of this on clothes.\n\n1. Calculate 20% of $500:\n   \\[\n   0.20 \\times 500 = 100\n   \\]\n\n2. Subtract the amount spent on clothes from the initial amount:\n   \\[\n   500 - 100 = 400\n   \\]\n\nNow, Julie has $400 remaining.\n\nNext, she spends 25% of the remaining $400 on CDs.\n\n3. Calculate 25% of $400:\n   \\[\n   0.25 \\times 400 = 100\n   \\]\n\n4. Subtract the amount spent on CDs from the remaining amount:\n   \\[\n   400 - 100 = 300\n   \\]\n\nThus, after her purchases, Julie has $300 left.\n\n[Verification] \n- Initial amount: $500\n- Amount spent on clothes: 20% of $500 = $100, remaining: $500 - $100 = $400\n- Amount spent on CDs: 25% of $400 = $100, remaining: $400 - $100 = $300\n\nThe calculations are verified and consistent.\n\n[Final Answer] The answer is 300 \\n#### 300": [
+            75.0
+        ],
+        "I can't understand this question.": [
+            -100.0
+        ]
+    },
+    "hints_bank": {},
+    "history_bank": {
+        "[reasoning process] First, we start with Julie's initial amount of money, which is $500. She spends 20% of this on clothes.\n\n1. Calculate 20% of $500:\n   \\[\n   0.20 \\times 500 = 100\n   \\]\n\n2. Subtract the amount spent on clothes from the initial amount:\n   \\[\n   500 - 100 = 400\n   \\]\n\nNow, Julie has $400 remaining.\n\nNext, she spends 25% of the remaining $400 on CDs.\n\n3. Calculate 25% of $400:\n   \\[\n   0.25 \\times 400 = 100\n   \\]\n\n4. Subtract the amount spent on CDs from the remaining amount:\n   \\[\n   400 - 100 = 300\n   \\]\n\nThus, after her purchases, Julie has $300 left.\n\n[Verification] \n- Initial amount: $500\n- Amount spent on clothes: 20% of $500 = $100, remaining: $500 - $100 = $400\n- Amount spent on CDs: 25% of $400 = $100, remaining: $400 - $100 = $300\n\nThe calculations are verified and consistent.\n\n[Final Answer] The answer is 300 \\n#### 300": [
+            "Question: Julie had $500. She spent 20% of it on clothes and then 25% of the remaining money on CDs. How much money did Julie have left?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "[reasoning process] First, we start with Julie's initial amount of money, which is $500. She spends 20% of this on clothes.\n\n1. Calculate 20% of $500:\n   \\[\n   0.20 \\times 500 = 100\n   \\]\n\n2. Subtract the amount spent on clothes from the initial amount:\n   \\[\n   500 - 100 = 400\n   \\]\n\nNow, Julie has $400 remaining.\n\nNext, she spends 25% of the remaining $400 on CDs.\n\n3. Calculate 25% of $400:\n   \\[\n   0.25 \\times 400 = 100\n   \\]\n\n4. Subtract the amount spent on CDs from the remaining amount:\n   \\[\n   400 - 100 = 300\n   \\]\n\nThus, after her purchases, Julie has $300 left.\n\n[Verification] \n- Initial amount: $500\n- Amount spent on clothes: 20% of $500 = $100, remaining: $500 - $100 = $400\n- Amount spent on CDs: 25% of $400 = $100, remaining: $400 - $100 = $300\n\nThe calculations are verified and consistent.\n\n[Final Answer] The answer is 300 \\n#### 300"
+        ],
+        "I can't understand this question.": [
+            "Question: Julie had $500. She spent 20% of it on clothes and then 25% of the remaining money on CDs. How much money did Julie have left?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "I can't understand this question."
+        ]
+    },
+    "hints_reward_imp_bank": {},
+    "fathers": {
+        "[reasoning process] First, we start with Julie's initial amount of money, which is $500. She spends 20% of this on clothes.\n\n1. Calculate 20% of $500:\n   \\[\n   0.20 \\times 500 = 100\n   \\]\n\n2. Subtract the amount spent on clothes from the initial amount:\n   \\[\n   500 - 100 = 400\n   \\]\n\nNow, Julie has $400 remaining.\n\nNext, she spends 25% of the remaining $400 on CDs.\n\n3. Calculate 25% of $400:\n   \\[\n   0.25 \\times 400 = 100\n   \\]\n\n4. Subtract the amount spent on CDs from the remaining amount:\n   \\[\n   400 - 100 = 300\n   \\]\n\nThus, after her purchases, Julie has $300 left.\n\n[Verification] \n- Initial amount: $500\n- Amount spent on clothes: 20% of $500 = $100, remaining: $500 - $100 = $400\n- Amount spent on CDs: 25% of $400 = $100, remaining: $400 - $100 = $300\n\nThe calculations are verified and consistent.\n\n[Final Answer] The answer is 300 \\n#### 300": null,
+        "I can't understand this question.": null
+    },
+    "childs": {
+        "[reasoning process] First, we start with Julie's initial amount of money, which is $500. She spends 20% of this on clothes.\n\n1. Calculate 20% of $500:\n   \\[\n   0.20 \\times 500 = 100\n   \\]\n\n2. Subtract the amount spent on clothes from the initial amount:\n   \\[\n   500 - 100 = 400\n   \\]\n\nNow, Julie has $400 remaining.\n\nNext, she spends 25% of the remaining $400 on CDs.\n\n3. Calculate 25% of $400:\n   \\[\n   0.25 \\times 400 = 100\n   \\]\n\n4. Subtract the amount spent on CDs from the remaining amount:\n   \\[\n   400 - 100 = 300\n   \\]\n\nThus, after her purchases, Julie has $300 left.\n\n[Verification] \n- Initial amount: $500\n- Amount spent on clothes: 20% of $500 = $100, remaining: $500 - $100 = $400\n- Amount spent on CDs: 25% of $400 = $100, remaining: $400 - $100 = $300\n\nThe calculations are verified and consistent.\n\n[Final Answer] The answer is 300 \\n#### 300": [],
+        "I can't understand this question.": []
+    },
+    "ucb_bank": {}
+}

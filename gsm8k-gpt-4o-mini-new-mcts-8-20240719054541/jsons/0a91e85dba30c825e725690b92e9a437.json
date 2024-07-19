@@ -1,0 +1,44 @@
+{
+    "query": "John picks 4 bananas on Wednesday. Then he picks 6 bananas on Thursday. On Friday, he picks triple the number of bananas he did on Wednesday. How many bananas does John have?",
+    "ground_truth": "Combining Wednesday and Thursday, John has 4 bananas + 6 bananas = <<4+6=10>>10 bananas.\nOn Friday, he picks 3 * 4 bananas = <<3*4=12>>12 bananas.\nAltogether, John has 10 bananas + 12 bananas = <<10+12=22>>22 bananas.\n#### 22",
+    "hints_list": [],
+    "answers_list": [
+        "[reasoning process] John begins by picking 4 bananas on Wednesday. On Thursday, he picks 6 bananas. To find out how many bananas he collects on Friday, we need to calculate triple the number of bananas he picked on Wednesday. Hence, on Friday, he picks 3 times 4 bananas, which equals 12 bananas. To find the total number of bananas he has by the end of Friday, we will add the bananas picked on each day: 4 (Wednesday) + 6 (Thursday) + 12 (Friday).\n\nCalculating:  \n4 + 6 + 12 = 22\n\n[Verification] We consider each step:  \n- Bananas on Wednesday: 4  \n- Bananas on Thursday: 6  \n- Bananas on Friday: 3 times Wednesday's bananas = 3 × 4 = 12  \nNow, adding all the bananas together: 4 + 6 + 12 = 22, which confirms our previous total.\n\n[Final Answer] The answer is 22  \n#### 22",
+        "I can't help with this question."
+    ],
+    "ground_truth_hints": "",
+    "hints_prompt": "Question: John picks 4 bananas on Wednesday. Then he picks 6 bananas on Thursday. On Friday, he picks triple the number of bananas he did on Wednesday. How many bananas does John have?\nCould you provide me with the thought process to solve this problem, but please don’t give me the answer or calculation, just the thought process?",
+    "to_explore": [
+        "[reasoning process] John begins by picking 4 bananas on Wednesday. On Thursday, he picks 6 bananas. To find out how many bananas he collects on Friday, we need to calculate triple the number of bananas he picked on Wednesday. Hence, on Friday, he picks 3 times 4 bananas, which equals 12 bananas. To find the total number of bananas he has by the end of Friday, we will add the bananas picked on each day: 4 (Wednesday) + 6 (Thursday) + 12 (Friday).\n\nCalculating:  \n4 + 6 + 12 = 22\n\n[Verification] We consider each step:  \n- Bananas on Wednesday: 4  \n- Bananas on Thursday: 6  \n- Bananas on Friday: 3 times Wednesday's bananas = 3 × 4 = 12  \nNow, adding all the bananas together: 4 + 6 + 12 = 22, which confirms our previous total.\n\n[Final Answer] The answer is 22  \n#### 22",
+        "I can't help with this question."
+    ],
+    "to_explore_reward": {
+        "[reasoning process] John begins by picking 4 bananas on Wednesday. On Thursday, he picks 6 bananas. To find out how many bananas he collects on Friday, we need to calculate triple the number of bananas he picked on Wednesday. Hence, on Friday, he picks 3 times 4 bananas, which equals 12 bananas. To find the total number of bananas he has by the end of Friday, we will add the bananas picked on each day: 4 (Wednesday) + 6 (Thursday) + 12 (Friday).\n\nCalculating:  \n4 + 6 + 12 = 22\n\n[Verification] We consider each step:  \n- Bananas on Wednesday: 4  \n- Bananas on Thursday: 6  \n- Bananas on Friday: 3 times Wednesday's bananas = 3 × 4 = 12  \nNow, adding all the bananas together: 4 + 6 + 12 = 22, which confirms our previous total.\n\n[Final Answer] The answer is 22  \n#### 22": [
+            85.0
+        ],
+        "I can't help with this question.": [
+            -90.0
+        ]
+    },
+    "hints_bank": {},
+    "history_bank": {
+        "[reasoning process] John begins by picking 4 bananas on Wednesday. On Thursday, he picks 6 bananas. To find out how many bananas he collects on Friday, we need to calculate triple the number of bananas he picked on Wednesday. Hence, on Friday, he picks 3 times 4 bananas, which equals 12 bananas. To find the total number of bananas he has by the end of Friday, we will add the bananas picked on each day: 4 (Wednesday) + 6 (Thursday) + 12 (Friday).\n\nCalculating:  \n4 + 6 + 12 = 22\n\n[Verification] We consider each step:  \n- Bananas on Wednesday: 4  \n- Bananas on Thursday: 6  \n- Bananas on Friday: 3 times Wednesday's bananas = 3 × 4 = 12  \nNow, adding all the bananas together: 4 + 6 + 12 = 22, which confirms our previous total.\n\n[Final Answer] The answer is 22  \n#### 22": [
+            "Question: John picks 4 bananas on Wednesday. Then he picks 6 bananas on Thursday. On Friday, he picks triple the number of bananas he did on Wednesday. How many bananas does John have?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "[reasoning process] John begins by picking 4 bananas on Wednesday. On Thursday, he picks 6 bananas. To find out how many bananas he collects on Friday, we need to calculate triple the number of bananas he picked on Wednesday. Hence, on Friday, he picks 3 times 4 bananas, which equals 12 bananas. To find the total number of bananas he has by the end of Friday, we will add the bananas picked on each day: 4 (Wednesday) + 6 (Thursday) + 12 (Friday).\n\nCalculating:  \n4 + 6 + 12 = 22\n\n[Verification] We consider each step:  \n- Bananas on Wednesday: 4  \n- Bananas on Thursday: 6  \n- Bananas on Friday: 3 times Wednesday's bananas = 3 × 4 = 12  \nNow, adding all the bananas together: 4 + 6 + 12 = 22, which confirms our previous total.\n\n[Final Answer] The answer is 22  \n#### 22"
+        ],
+        "I can't help with this question.": [
+            "Question: John picks 4 bananas on Wednesday. Then he picks 6 bananas on Thursday. On Friday, he picks triple the number of bananas he did on Wednesday. How many bananas does John have?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "I can't help with this question."
+        ]
+    },
+    "hints_reward_imp_bank": {},
+    "fathers": {
+        "[reasoning process] John begins by picking 4 bananas on Wednesday. On Thursday, he picks 6 bananas. To find out how many bananas he collects on Friday, we need to calculate triple the number of bananas he picked on Wednesday. Hence, on Friday, he picks 3 times 4 bananas, which equals 12 bananas. To find the total number of bananas he has by the end of Friday, we will add the bananas picked on each day: 4 (Wednesday) + 6 (Thursday) + 12 (Friday).\n\nCalculating:  \n4 + 6 + 12 = 22\n\n[Verification] We consider each step:  \n- Bananas on Wednesday: 4  \n- Bananas on Thursday: 6  \n- Bananas on Friday: 3 times Wednesday's bananas = 3 × 4 = 12  \nNow, adding all the bananas together: 4 + 6 + 12 = 22, which confirms our previous total.\n\n[Final Answer] The answer is 22  \n#### 22": null,
+        "I can't help with this question.": null
+    },
+    "childs": {
+        "[reasoning process] John begins by picking 4 bananas on Wednesday. On Thursday, he picks 6 bananas. To find out how many bananas he collects on Friday, we need to calculate triple the number of bananas he picked on Wednesday. Hence, on Friday, he picks 3 times 4 bananas, which equals 12 bananas. To find the total number of bananas he has by the end of Friday, we will add the bananas picked on each day: 4 (Wednesday) + 6 (Thursday) + 12 (Friday).\n\nCalculating:  \n4 + 6 + 12 = 22\n\n[Verification] We consider each step:  \n- Bananas on Wednesday: 4  \n- Bananas on Thursday: 6  \n- Bananas on Friday: 3 times Wednesday's bananas = 3 × 4 = 12  \nNow, adding all the bananas together: 4 + 6 + 12 = 22, which confirms our previous total.\n\n[Final Answer] The answer is 22  \n#### 22": [],
+        "I can't help with this question.": []
+    },
+    "ucb_bank": {}
+}

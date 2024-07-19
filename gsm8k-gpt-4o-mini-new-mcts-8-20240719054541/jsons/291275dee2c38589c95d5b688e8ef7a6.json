@@ -1,0 +1,44 @@
+{
+    "query": "After transferring to a new school, Amy made 20 more friends than Lily. If Lily made 50 friends, how many friends do Lily and Amy have together?",
+    "ground_truth": "If Lily made 50 friends, Amy made 50+20 =<<50+20=70>>70 friends.\nTogether, they made 70+50 = <<70+50=120>>120 friends at the new school.\n#### 120",
+    "hints_list": [],
+    "answers_list": [
+        "[reasoning process] To find out how many friends Lily and Amy have together, we first need to establish how many friends each of them made. Lily made 50 friends. Since Amy made 20 more friends than Lily, we calculate Amy's number by adding 20 to Lily's total: \n\nAmy's friends = Lily's friends + 20 \n= 50 + 20 \n= 70 friends\n\nNow, we need to find the total number of friends they have together. We can do this by simply adding the number of friends each has:\n\nTotal friends = Lily's friends + Amy's friends \n= 50 + 70 \n= 120 friends\n\n[Verification] We verified Amy's friends by confirming the relationship where she has 20 more than Lily, which checks out since 50 + 20 = 70. Finally, adding the two totals together gives us 120, which is consistent.\n\n[Final Answer] The answer is 120 \\n#### 120",
+        "I Don't Know"
+    ],
+    "ground_truth_hints": "",
+    "hints_prompt": "Question: After transferring to a new school, Amy made 20 more friends than Lily. If Lily made 50 friends, how many friends do Lily and Amy have together?\nCould you provide me with the thought process to solve this problem, but please don’t give me the answer or calculation, just the thought process?",
+    "to_explore": [
+        "[reasoning process] To find out how many friends Lily and Amy have together, we first need to establish how many friends each of them made. Lily made 50 friends. Since Amy made 20 more friends than Lily, we calculate Amy's number by adding 20 to Lily's total: \n\nAmy's friends = Lily's friends + 20 \n= 50 + 20 \n= 70 friends\n\nNow, we need to find the total number of friends they have together. We can do this by simply adding the number of friends each has:\n\nTotal friends = Lily's friends + Amy's friends \n= 50 + 70 \n= 120 friends\n\n[Verification] We verified Amy's friends by confirming the relationship where she has 20 more than Lily, which checks out since 50 + 20 = 70. Finally, adding the two totals together gives us 120, which is consistent.\n\n[Final Answer] The answer is 120 \\n#### 120",
+        "I Don't Know"
+    ],
+    "to_explore_reward": {
+        "[reasoning process] To find out how many friends Lily and Amy have together, we first need to establish how many friends each of them made. Lily made 50 friends. Since Amy made 20 more friends than Lily, we calculate Amy's number by adding 20 to Lily's total: \n\nAmy's friends = Lily's friends + 20 \n= 50 + 20 \n= 70 friends\n\nNow, we need to find the total number of friends they have together. We can do this by simply adding the number of friends each has:\n\nTotal friends = Lily's friends + Amy's friends \n= 50 + 70 \n= 120 friends\n\n[Verification] We verified Amy's friends by confirming the relationship where she has 20 more than Lily, which checks out since 50 + 20 = 70. Finally, adding the two totals together gives us 120, which is consistent.\n\n[Final Answer] The answer is 120 \\n#### 120": [
+            80.0
+        ],
+        "I Don't Know": [
+            -90.0
+        ]
+    },
+    "hints_bank": {},
+    "history_bank": {
+        "[reasoning process] To find out how many friends Lily and Amy have together, we first need to establish how many friends each of them made. Lily made 50 friends. Since Amy made 20 more friends than Lily, we calculate Amy's number by adding 20 to Lily's total: \n\nAmy's friends = Lily's friends + 20 \n= 50 + 20 \n= 70 friends\n\nNow, we need to find the total number of friends they have together. We can do this by simply adding the number of friends each has:\n\nTotal friends = Lily's friends + Amy's friends \n= 50 + 70 \n= 120 friends\n\n[Verification] We verified Amy's friends by confirming the relationship where she has 20 more than Lily, which checks out since 50 + 20 = 70. Finally, adding the two totals together gives us 120, which is consistent.\n\n[Final Answer] The answer is 120 \\n#### 120": [
+            "Question: After transferring to a new school, Amy made 20 more friends than Lily. If Lily made 50 friends, how many friends do Lily and Amy have together?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "[reasoning process] To find out how many friends Lily and Amy have together, we first need to establish how many friends each of them made. Lily made 50 friends. Since Amy made 20 more friends than Lily, we calculate Amy's number by adding 20 to Lily's total: \n\nAmy's friends = Lily's friends + 20 \n= 50 + 20 \n= 70 friends\n\nNow, we need to find the total number of friends they have together. We can do this by simply adding the number of friends each has:\n\nTotal friends = Lily's friends + Amy's friends \n= 50 + 70 \n= 120 friends\n\n[Verification] We verified Amy's friends by confirming the relationship where she has 20 more than Lily, which checks out since 50 + 20 = 70. Finally, adding the two totals together gives us 120, which is consistent.\n\n[Final Answer] The answer is 120 \\n#### 120"
+        ],
+        "I Don't Know": [
+            "Question: After transferring to a new school, Amy made 20 more friends than Lily. If Lily made 50 friends, how many friends do Lily and Amy have together?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "I Don't Know"
+        ]
+    },
+    "hints_reward_imp_bank": {},
+    "fathers": {
+        "[reasoning process] To find out how many friends Lily and Amy have together, we first need to establish how many friends each of them made. Lily made 50 friends. Since Amy made 20 more friends than Lily, we calculate Amy's number by adding 20 to Lily's total: \n\nAmy's friends = Lily's friends + 20 \n= 50 + 20 \n= 70 friends\n\nNow, we need to find the total number of friends they have together. We can do this by simply adding the number of friends each has:\n\nTotal friends = Lily's friends + Amy's friends \n= 50 + 70 \n= 120 friends\n\n[Verification] We verified Amy's friends by confirming the relationship where she has 20 more than Lily, which checks out since 50 + 20 = 70. Finally, adding the two totals together gives us 120, which is consistent.\n\n[Final Answer] The answer is 120 \\n#### 120": null,
+        "I Don't Know": null
+    },
+    "childs": {
+        "[reasoning process] To find out how many friends Lily and Amy have together, we first need to establish how many friends each of them made. Lily made 50 friends. Since Amy made 20 more friends than Lily, we calculate Amy's number by adding 20 to Lily's total: \n\nAmy's friends = Lily's friends + 20 \n= 50 + 20 \n= 70 friends\n\nNow, we need to find the total number of friends they have together. We can do this by simply adding the number of friends each has:\n\nTotal friends = Lily's friends + Amy's friends \n= 50 + 70 \n= 120 friends\n\n[Verification] We verified Amy's friends by confirming the relationship where she has 20 more than Lily, which checks out since 50 + 20 = 70. Finally, adding the two totals together gives us 120, which is consistent.\n\n[Final Answer] The answer is 120 \\n#### 120": [],
+        "I Don't Know": []
+    },
+    "ucb_bank": {}
+}

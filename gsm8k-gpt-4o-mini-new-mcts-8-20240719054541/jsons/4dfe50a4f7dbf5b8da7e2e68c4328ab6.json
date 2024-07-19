@@ -1,0 +1,44 @@
+{
+    "query": "Paul needs 63 cupcakes for a birthday party happening on Saturday. He already has 8 chocolate cupcakes and 40 toffee cupcakes. How many more cupcakes should Paul buy?",
+    "ground_truth": "The total number of chocolate and toffee cupcakes is 8 + 40 = <<8+40=48>>48.\nPaul should buy 63 − 48 = <<63-48=15>>15 more cupcakes.\n#### 15",
+    "hints_list": [],
+    "answers_list": [
+        "[reasoning process] To determine how many more cupcakes Paul needs to buy, we first need to find out the total number of cupcakes he currently has. He has:\n\n- 8 chocolate cupcakes\n- 40 toffee cupcakes\n\nAdding these together gives us the total number of cupcakes Paul currently has:\n\n8 + 40 = 48 cupcakes.\n\nNext, we know that Paul needs a total of 63 cupcakes for the party. To find out how many more cupcakes he needs to buy, we subtract the number of cupcakes he currently has from the total he needs:\n\n63 - 48 = 15 cupcakes.\n\nPaul needs to buy 15 more cupcakes to reach the required total.\n\n[Verification] We can confirm this by checking the calculations again. Paul has 48 cupcakes now. If he buys 15 more, he will have:\n\n48 + 15 = 63 cupcakes.\n\nThis matches the total number he needs.\n\n[Final Answer] The answer is 15 \\n#### 15",
+        "I can't understand this question."
+    ],
+    "ground_truth_hints": "",
+    "hints_prompt": "Question: Paul needs 63 cupcakes for a birthday party happening on Saturday. He already has 8 chocolate cupcakes and 40 toffee cupcakes. How many more cupcakes should Paul buy?\nCould you provide me with the thought process to solve this problem, but please don’t give me the answer or calculation, just the thought process?",
+    "to_explore": [
+        "[reasoning process] To determine how many more cupcakes Paul needs to buy, we first need to find out the total number of cupcakes he currently has. He has:\n\n- 8 chocolate cupcakes\n- 40 toffee cupcakes\n\nAdding these together gives us the total number of cupcakes Paul currently has:\n\n8 + 40 = 48 cupcakes.\n\nNext, we know that Paul needs a total of 63 cupcakes for the party. To find out how many more cupcakes he needs to buy, we subtract the number of cupcakes he currently has from the total he needs:\n\n63 - 48 = 15 cupcakes.\n\nPaul needs to buy 15 more cupcakes to reach the required total.\n\n[Verification] We can confirm this by checking the calculations again. Paul has 48 cupcakes now. If he buys 15 more, he will have:\n\n48 + 15 = 63 cupcakes.\n\nThis matches the total number he needs.\n\n[Final Answer] The answer is 15 \\n#### 15",
+        "I can't understand this question."
+    ],
+    "to_explore_reward": {
+        "[reasoning process] To determine how many more cupcakes Paul needs to buy, we first need to find out the total number of cupcakes he currently has. He has:\n\n- 8 chocolate cupcakes\n- 40 toffee cupcakes\n\nAdding these together gives us the total number of cupcakes Paul currently has:\n\n8 + 40 = 48 cupcakes.\n\nNext, we know that Paul needs a total of 63 cupcakes for the party. To find out how many more cupcakes he needs to buy, we subtract the number of cupcakes he currently has from the total he needs:\n\n63 - 48 = 15 cupcakes.\n\nPaul needs to buy 15 more cupcakes to reach the required total.\n\n[Verification] We can confirm this by checking the calculations again. Paul has 48 cupcakes now. If he buys 15 more, he will have:\n\n48 + 15 = 63 cupcakes.\n\nThis matches the total number he needs.\n\n[Final Answer] The answer is 15 \\n#### 15": [
+            75.0
+        ],
+        "I can't understand this question.": [
+            -90.0
+        ]
+    },
+    "hints_bank": {},
+    "history_bank": {
+        "[reasoning process] To determine how many more cupcakes Paul needs to buy, we first need to find out the total number of cupcakes he currently has. He has:\n\n- 8 chocolate cupcakes\n- 40 toffee cupcakes\n\nAdding these together gives us the total number of cupcakes Paul currently has:\n\n8 + 40 = 48 cupcakes.\n\nNext, we know that Paul needs a total of 63 cupcakes for the party. To find out how many more cupcakes he needs to buy, we subtract the number of cupcakes he currently has from the total he needs:\n\n63 - 48 = 15 cupcakes.\n\nPaul needs to buy 15 more cupcakes to reach the required total.\n\n[Verification] We can confirm this by checking the calculations again. Paul has 48 cupcakes now. If he buys 15 more, he will have:\n\n48 + 15 = 63 cupcakes.\n\nThis matches the total number he needs.\n\n[Final Answer] The answer is 15 \\n#### 15": [
+            "Question: Paul needs 63 cupcakes for a birthday party happening on Saturday. He already has 8 chocolate cupcakes and 40 toffee cupcakes. How many more cupcakes should Paul buy?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "[reasoning process] To determine how many more cupcakes Paul needs to buy, we first need to find out the total number of cupcakes he currently has. He has:\n\n- 8 chocolate cupcakes\n- 40 toffee cupcakes\n\nAdding these together gives us the total number of cupcakes Paul currently has:\n\n8 + 40 = 48 cupcakes.\n\nNext, we know that Paul needs a total of 63 cupcakes for the party. To find out how many more cupcakes he needs to buy, we subtract the number of cupcakes he currently has from the total he needs:\n\n63 - 48 = 15 cupcakes.\n\nPaul needs to buy 15 more cupcakes to reach the required total.\n\n[Verification] We can confirm this by checking the calculations again. Paul has 48 cupcakes now. If he buys 15 more, he will have:\n\n48 + 15 = 63 cupcakes.\n\nThis matches the total number he needs.\n\n[Final Answer] The answer is 15 \\n#### 15"
+        ],
+        "I can't understand this question.": [
+            "Question: Paul needs 63 cupcakes for a birthday party happening on Saturday. He already has 8 chocolate cupcakes and 40 toffee cupcakes. How many more cupcakes should Paul buy?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "I can't understand this question."
+        ]
+    },
+    "hints_reward_imp_bank": {},
+    "fathers": {
+        "[reasoning process] To determine how many more cupcakes Paul needs to buy, we first need to find out the total number of cupcakes he currently has. He has:\n\n- 8 chocolate cupcakes\n- 40 toffee cupcakes\n\nAdding these together gives us the total number of cupcakes Paul currently has:\n\n8 + 40 = 48 cupcakes.\n\nNext, we know that Paul needs a total of 63 cupcakes for the party. To find out how many more cupcakes he needs to buy, we subtract the number of cupcakes he currently has from the total he needs:\n\n63 - 48 = 15 cupcakes.\n\nPaul needs to buy 15 more cupcakes to reach the required total.\n\n[Verification] We can confirm this by checking the calculations again. Paul has 48 cupcakes now. If he buys 15 more, he will have:\n\n48 + 15 = 63 cupcakes.\n\nThis matches the total number he needs.\n\n[Final Answer] The answer is 15 \\n#### 15": null,
+        "I can't understand this question.": null
+    },
+    "childs": {
+        "[reasoning process] To determine how many more cupcakes Paul needs to buy, we first need to find out the total number of cupcakes he currently has. He has:\n\n- 8 chocolate cupcakes\n- 40 toffee cupcakes\n\nAdding these together gives us the total number of cupcakes Paul currently has:\n\n8 + 40 = 48 cupcakes.\n\nNext, we know that Paul needs a total of 63 cupcakes for the party. To find out how many more cupcakes he needs to buy, we subtract the number of cupcakes he currently has from the total he needs:\n\n63 - 48 = 15 cupcakes.\n\nPaul needs to buy 15 more cupcakes to reach the required total.\n\n[Verification] We can confirm this by checking the calculations again. Paul has 48 cupcakes now. If he buys 15 more, he will have:\n\n48 + 15 = 63 cupcakes.\n\nThis matches the total number he needs.\n\n[Final Answer] The answer is 15 \\n#### 15": [],
+        "I can't understand this question.": []
+    },
+    "ucb_bank": {}
+}

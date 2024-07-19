@@ -1,0 +1,44 @@
+{
+    "query": "The Ben and Aggie Burrito Shop makes 125 chimichangas on Tuesdays, 125 chimichangas on Wednesdays and twice as many on Friday. How many chimichangas do they make on those three days?",
+    "ground_truth": "125*2 = <<125*2=250>>250 chimichangas are made on Friday.\nIn those three days 125+125+250 = <<125+125+250=500>>500 chimichangas are made.\n#### 500",
+    "hints_list": [],
+    "answers_list": [
+        "[reasoning process] First, we determine how many chimichangas are made on each day mentioned. On Tuesdays, the shop makes 125 chimichangas. The same amount is made on Wednesdays, which is also 125 chimichangas. For Fridays, they make twice as many as on the other days, so we calculate that as 2 times 125. Therefore, on Fridays, they make 250 chimichangas. Next, we add all the chimichangas together: 125 (Tuesday) + 125 (Wednesday) + 250 (Friday).\n\n[Verification] Let's perform the addition step by step:\n- Start with Tuesday: 125\n- Add Wednesday: 125 + 125 = 250\n- Now add Friday’s total: 250 + 250 = 500 \n\nSo the total chimichangas made over these three days is indeed correct. \n\n[Final Answer] The answer is 500 \\n#### 500",
+        "I don't know the answer to this question."
+    ],
+    "ground_truth_hints": "",
+    "hints_prompt": "Question: The Ben and Aggie Burrito Shop makes 125 chimichangas on Tuesdays, 125 chimichangas on Wednesdays and twice as many on Friday. How many chimichangas do they make on those three days?\nCould you provide me with the thought process to solve this problem, but please don’t give me the answer or calculation, just the thought process?",
+    "to_explore": [
+        "[reasoning process] First, we determine how many chimichangas are made on each day mentioned. On Tuesdays, the shop makes 125 chimichangas. The same amount is made on Wednesdays, which is also 125 chimichangas. For Fridays, they make twice as many as on the other days, so we calculate that as 2 times 125. Therefore, on Fridays, they make 250 chimichangas. Next, we add all the chimichangas together: 125 (Tuesday) + 125 (Wednesday) + 250 (Friday).\n\n[Verification] Let's perform the addition step by step:\n- Start with Tuesday: 125\n- Add Wednesday: 125 + 125 = 250\n- Now add Friday’s total: 250 + 250 = 500 \n\nSo the total chimichangas made over these three days is indeed correct. \n\n[Final Answer] The answer is 500 \\n#### 500",
+        "I don't know the answer to this question."
+    ],
+    "to_explore_reward": {
+        "[reasoning process] First, we determine how many chimichangas are made on each day mentioned. On Tuesdays, the shop makes 125 chimichangas. The same amount is made on Wednesdays, which is also 125 chimichangas. For Fridays, they make twice as many as on the other days, so we calculate that as 2 times 125. Therefore, on Fridays, they make 250 chimichangas. Next, we add all the chimichangas together: 125 (Tuesday) + 125 (Wednesday) + 250 (Friday).\n\n[Verification] Let's perform the addition step by step:\n- Start with Tuesday: 125\n- Add Wednesday: 125 + 125 = 250\n- Now add Friday’s total: 250 + 250 = 500 \n\nSo the total chimichangas made over these three days is indeed correct. \n\n[Final Answer] The answer is 500 \\n#### 500": [
+            75.0
+        ],
+        "I don't know the answer to this question.": [
+            -90.0
+        ]
+    },
+    "hints_bank": {},
+    "history_bank": {
+        "[reasoning process] First, we determine how many chimichangas are made on each day mentioned. On Tuesdays, the shop makes 125 chimichangas. The same amount is made on Wednesdays, which is also 125 chimichangas. For Fridays, they make twice as many as on the other days, so we calculate that as 2 times 125. Therefore, on Fridays, they make 250 chimichangas. Next, we add all the chimichangas together: 125 (Tuesday) + 125 (Wednesday) + 250 (Friday).\n\n[Verification] Let's perform the addition step by step:\n- Start with Tuesday: 125\n- Add Wednesday: 125 + 125 = 250\n- Now add Friday’s total: 250 + 250 = 500 \n\nSo the total chimichangas made over these three days is indeed correct. \n\n[Final Answer] The answer is 500 \\n#### 500": [
+            "Question: The Ben and Aggie Burrito Shop makes 125 chimichangas on Tuesdays, 125 chimichangas on Wednesdays and twice as many on Friday. How many chimichangas do they make on those three days?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "[reasoning process] First, we determine how many chimichangas are made on each day mentioned. On Tuesdays, the shop makes 125 chimichangas. The same amount is made on Wednesdays, which is also 125 chimichangas. For Fridays, they make twice as many as on the other days, so we calculate that as 2 times 125. Therefore, on Fridays, they make 250 chimichangas. Next, we add all the chimichangas together: 125 (Tuesday) + 125 (Wednesday) + 250 (Friday).\n\n[Verification] Let's perform the addition step by step:\n- Start with Tuesday: 125\n- Add Wednesday: 125 + 125 = 250\n- Now add Friday’s total: 250 + 250 = 500 \n\nSo the total chimichangas made over these three days is indeed correct. \n\n[Final Answer] The answer is 500 \\n#### 500"
+        ],
+        "I don't know the answer to this question.": [
+            "Question: The Ben and Aggie Burrito Shop makes 125 chimichangas on Tuesdays, 125 chimichangas on Wednesdays and twice as many on Friday. How many chimichangas do they make on those three days?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "I don't know the answer to this question."
+        ]
+    },
+    "hints_reward_imp_bank": {},
+    "fathers": {
+        "[reasoning process] First, we determine how many chimichangas are made on each day mentioned. On Tuesdays, the shop makes 125 chimichangas. The same amount is made on Wednesdays, which is also 125 chimichangas. For Fridays, they make twice as many as on the other days, so we calculate that as 2 times 125. Therefore, on Fridays, they make 250 chimichangas. Next, we add all the chimichangas together: 125 (Tuesday) + 125 (Wednesday) + 250 (Friday).\n\n[Verification] Let's perform the addition step by step:\n- Start with Tuesday: 125\n- Add Wednesday: 125 + 125 = 250\n- Now add Friday’s total: 250 + 250 = 500 \n\nSo the total chimichangas made over these three days is indeed correct. \n\n[Final Answer] The answer is 500 \\n#### 500": null,
+        "I don't know the answer to this question.": null
+    },
+    "childs": {
+        "[reasoning process] First, we determine how many chimichangas are made on each day mentioned. On Tuesdays, the shop makes 125 chimichangas. The same amount is made on Wednesdays, which is also 125 chimichangas. For Fridays, they make twice as many as on the other days, so we calculate that as 2 times 125. Therefore, on Fridays, they make 250 chimichangas. Next, we add all the chimichangas together: 125 (Tuesday) + 125 (Wednesday) + 250 (Friday).\n\n[Verification] Let's perform the addition step by step:\n- Start with Tuesday: 125\n- Add Wednesday: 125 + 125 = 250\n- Now add Friday’s total: 250 + 250 = 500 \n\nSo the total chimichangas made over these three days is indeed correct. \n\n[Final Answer] The answer is 500 \\n#### 500": [],
+        "I don't know the answer to this question.": []
+    },
+    "ucb_bank": {}
+}

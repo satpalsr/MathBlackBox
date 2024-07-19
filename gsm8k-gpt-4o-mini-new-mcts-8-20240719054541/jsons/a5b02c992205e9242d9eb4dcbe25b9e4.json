@@ -1,0 +1,44 @@
+{
+    "query": "A raspberry bush has 6 clusters of 20 fruit each and 67 individual fruit scattered across the bush. How many raspberries are there total?",
+    "ground_truth": "First find the number of fruit in clusters: 20 fruit/cluster * 6 clusters = <<20*6=120>>120 fruit\nThen add the number of individual fruit to find the total number of fruit: 120 fruit + 67 fruit = <<120+67=187>>187 fruit\n#### 187",
+    "hints_list": [],
+    "answers_list": [
+        "[reasoning process] \nTo find the total number of raspberries on the bush, we first calculate the number of raspberries in the clusters. Each cluster has 20 fruit and there are 6 clusters:\n\nNumber of raspberries in clusters = 6 clusters * 20 fruit/cluster = 120 fruit.\n\nNext, we add the individual fruit scattered across the bush:\n\nTotal raspberries = Number of raspberries in clusters + Number of individual fruit\nTotal raspberries = 120 fruit + 67 individual fruit = 187 fruit.\n\n[Verification]\nLet's double-check the calculations. First, confirm the number in the clusters:\n\n6 clusters * 20 fruit/cluster = 120 fruit (correct).\n\nNow, adding the individual fruit:\n\n120 fruit (from clusters) + 67 individual fruit = 187 fruit (correct).\n\nThus, our calculations are accurate.\n\n[Final Answer] The answer is 187 \n#### 187",
+        "I don't know the answer to this question, sorry."
+    ],
+    "ground_truth_hints": "",
+    "hints_prompt": "Question: A raspberry bush has 6 clusters of 20 fruit each and 67 individual fruit scattered across the bush. How many raspberries are there total?\nCould you provide me with the thought process to solve this problem, but please don’t give me the answer or calculation, just the thought process?",
+    "to_explore": [
+        "[reasoning process] \nTo find the total number of raspberries on the bush, we first calculate the number of raspberries in the clusters. Each cluster has 20 fruit and there are 6 clusters:\n\nNumber of raspberries in clusters = 6 clusters * 20 fruit/cluster = 120 fruit.\n\nNext, we add the individual fruit scattered across the bush:\n\nTotal raspberries = Number of raspberries in clusters + Number of individual fruit\nTotal raspberries = 120 fruit + 67 individual fruit = 187 fruit.\n\n[Verification]\nLet's double-check the calculations. First, confirm the number in the clusters:\n\n6 clusters * 20 fruit/cluster = 120 fruit (correct).\n\nNow, adding the individual fruit:\n\n120 fruit (from clusters) + 67 individual fruit = 187 fruit (correct).\n\nThus, our calculations are accurate.\n\n[Final Answer] The answer is 187 \n#### 187",
+        "I don't know the answer to this question, sorry."
+    ],
+    "to_explore_reward": {
+        "[reasoning process] \nTo find the total number of raspberries on the bush, we first calculate the number of raspberries in the clusters. Each cluster has 20 fruit and there are 6 clusters:\n\nNumber of raspberries in clusters = 6 clusters * 20 fruit/cluster = 120 fruit.\n\nNext, we add the individual fruit scattered across the bush:\n\nTotal raspberries = Number of raspberries in clusters + Number of individual fruit\nTotal raspberries = 120 fruit + 67 individual fruit = 187 fruit.\n\n[Verification]\nLet's double-check the calculations. First, confirm the number in the clusters:\n\n6 clusters * 20 fruit/cluster = 120 fruit (correct).\n\nNow, adding the individual fruit:\n\n120 fruit (from clusters) + 67 individual fruit = 187 fruit (correct).\n\nThus, our calculations are accurate.\n\n[Final Answer] The answer is 187 \n#### 187": [
+            85.0
+        ],
+        "I don't know the answer to this question, sorry.": [
+            -100.0
+        ]
+    },
+    "hints_bank": {},
+    "history_bank": {
+        "[reasoning process] \nTo find the total number of raspberries on the bush, we first calculate the number of raspberries in the clusters. Each cluster has 20 fruit and there are 6 clusters:\n\nNumber of raspberries in clusters = 6 clusters * 20 fruit/cluster = 120 fruit.\n\nNext, we add the individual fruit scattered across the bush:\n\nTotal raspberries = Number of raspberries in clusters + Number of individual fruit\nTotal raspberries = 120 fruit + 67 individual fruit = 187 fruit.\n\n[Verification]\nLet's double-check the calculations. First, confirm the number in the clusters:\n\n6 clusters * 20 fruit/cluster = 120 fruit (correct).\n\nNow, adding the individual fruit:\n\n120 fruit (from clusters) + 67 individual fruit = 187 fruit (correct).\n\nThus, our calculations are accurate.\n\n[Final Answer] The answer is 187 \n#### 187": [
+            "Question: A raspberry bush has 6 clusters of 20 fruit each and 67 individual fruit scattered across the bush. How many raspberries are there total?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "[reasoning process] \nTo find the total number of raspberries on the bush, we first calculate the number of raspberries in the clusters. Each cluster has 20 fruit and there are 6 clusters:\n\nNumber of raspberries in clusters = 6 clusters * 20 fruit/cluster = 120 fruit.\n\nNext, we add the individual fruit scattered across the bush:\n\nTotal raspberries = Number of raspberries in clusters + Number of individual fruit\nTotal raspberries = 120 fruit + 67 individual fruit = 187 fruit.\n\n[Verification]\nLet's double-check the calculations. First, confirm the number in the clusters:\n\n6 clusters * 20 fruit/cluster = 120 fruit (correct).\n\nNow, adding the individual fruit:\n\n120 fruit (from clusters) + 67 individual fruit = 187 fruit (correct).\n\nThus, our calculations are accurate.\n\n[Final Answer] The answer is 187 \n#### 187"
+        ],
+        "I don't know the answer to this question, sorry.": [
+            "Question: A raspberry bush has 6 clusters of 20 fruit each and 67 individual fruit scattered across the bush. How many raspberries are there total?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "I don't know the answer to this question, sorry."
+        ]
+    },
+    "hints_reward_imp_bank": {},
+    "fathers": {
+        "[reasoning process] \nTo find the total number of raspberries on the bush, we first calculate the number of raspberries in the clusters. Each cluster has 20 fruit and there are 6 clusters:\n\nNumber of raspberries in clusters = 6 clusters * 20 fruit/cluster = 120 fruit.\n\nNext, we add the individual fruit scattered across the bush:\n\nTotal raspberries = Number of raspberries in clusters + Number of individual fruit\nTotal raspberries = 120 fruit + 67 individual fruit = 187 fruit.\n\n[Verification]\nLet's double-check the calculations. First, confirm the number in the clusters:\n\n6 clusters * 20 fruit/cluster = 120 fruit (correct).\n\nNow, adding the individual fruit:\n\n120 fruit (from clusters) + 67 individual fruit = 187 fruit (correct).\n\nThus, our calculations are accurate.\n\n[Final Answer] The answer is 187 \n#### 187": null,
+        "I don't know the answer to this question, sorry.": null
+    },
+    "childs": {
+        "[reasoning process] \nTo find the total number of raspberries on the bush, we first calculate the number of raspberries in the clusters. Each cluster has 20 fruit and there are 6 clusters:\n\nNumber of raspberries in clusters = 6 clusters * 20 fruit/cluster = 120 fruit.\n\nNext, we add the individual fruit scattered across the bush:\n\nTotal raspberries = Number of raspberries in clusters + Number of individual fruit\nTotal raspberries = 120 fruit + 67 individual fruit = 187 fruit.\n\n[Verification]\nLet's double-check the calculations. First, confirm the number in the clusters:\n\n6 clusters * 20 fruit/cluster = 120 fruit (correct).\n\nNow, adding the individual fruit:\n\n120 fruit (from clusters) + 67 individual fruit = 187 fruit (correct).\n\nThus, our calculations are accurate.\n\n[Final Answer] The answer is 187 \n#### 187": [],
+        "I don't know the answer to this question, sorry.": []
+    },
+    "ucb_bank": {}
+}

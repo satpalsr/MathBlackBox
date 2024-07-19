@@ -1,0 +1,44 @@
+{
+    "query": "In a company of 50 employees, 20% of the employees are management.  Out of this 20%, only 30% oversee the entire company.  How many employees oversee the company?",
+    "ground_truth": "20% of 50 employees are part of management so that's .20*50 = <<.20*50=10>>10 employees\nOut of these 10 employees, only 30% oversee the entire company so 10*.30 = <<10*.3=3>>3 people oversee the company\n#### 3",
+    "hints_list": [],
+    "answers_list": [
+        "[reasoning process] First, we need to determine the total number of management employees in the company. Since 20% of the 50 employees are in management, we calculate this as follows:\n\nTotal management employees = 20% of 50 = 0.2 * 50 = 10 employees.\n\nNext, we need to find out how many of these management employees oversee the entire company. According to the problem, 30% of the management employees oversee the company. We calculate this as follows:\n\nNumber of employees overseeing the company = 30% of 10 = 0.3 * 10 = 3 employees.\n\n[Verification] We first established that there are 10 management employees based on the information provided. After that, we found that 30% of these 10 employees, which amounts to 3, oversee the entire company. This calculation is consistent with the values given in the problem, confirming our findings.\n\n[Final Answer] The answer is 3 \\n#### 3",
+        "I Don't Know"
+    ],
+    "ground_truth_hints": "",
+    "hints_prompt": "Question: In a company of 50 employees, 20% of the employees are management.  Out of this 20%, only 30% oversee the entire company.  How many employees oversee the company?\nCould you provide me with the thought process to solve this problem, but please don’t give me the answer or calculation, just the thought process?",
+    "to_explore": [
+        "[reasoning process] First, we need to determine the total number of management employees in the company. Since 20% of the 50 employees are in management, we calculate this as follows:\n\nTotal management employees = 20% of 50 = 0.2 * 50 = 10 employees.\n\nNext, we need to find out how many of these management employees oversee the entire company. According to the problem, 30% of the management employees oversee the company. We calculate this as follows:\n\nNumber of employees overseeing the company = 30% of 10 = 0.3 * 10 = 3 employees.\n\n[Verification] We first established that there are 10 management employees based on the information provided. After that, we found that 30% of these 10 employees, which amounts to 3, oversee the entire company. This calculation is consistent with the values given in the problem, confirming our findings.\n\n[Final Answer] The answer is 3 \\n#### 3",
+        "I Don't Know"
+    ],
+    "to_explore_reward": {
+        "[reasoning process] First, we need to determine the total number of management employees in the company. Since 20% of the 50 employees are in management, we calculate this as follows:\n\nTotal management employees = 20% of 50 = 0.2 * 50 = 10 employees.\n\nNext, we need to find out how many of these management employees oversee the entire company. According to the problem, 30% of the management employees oversee the company. We calculate this as follows:\n\nNumber of employees overseeing the company = 30% of 10 = 0.3 * 10 = 3 employees.\n\n[Verification] We first established that there are 10 management employees based on the information provided. After that, we found that 30% of these 10 employees, which amounts to 3, oversee the entire company. This calculation is consistent with the values given in the problem, confirming our findings.\n\n[Final Answer] The answer is 3 \\n#### 3": [
+            70.0
+        ],
+        "I Don't Know": [
+            -85.0
+        ]
+    },
+    "hints_bank": {},
+    "history_bank": {
+        "[reasoning process] First, we need to determine the total number of management employees in the company. Since 20% of the 50 employees are in management, we calculate this as follows:\n\nTotal management employees = 20% of 50 = 0.2 * 50 = 10 employees.\n\nNext, we need to find out how many of these management employees oversee the entire company. According to the problem, 30% of the management employees oversee the company. We calculate this as follows:\n\nNumber of employees overseeing the company = 30% of 10 = 0.3 * 10 = 3 employees.\n\n[Verification] We first established that there are 10 management employees based on the information provided. After that, we found that 30% of these 10 employees, which amounts to 3, oversee the entire company. This calculation is consistent with the values given in the problem, confirming our findings.\n\n[Final Answer] The answer is 3 \\n#### 3": [
+            "Question: In a company of 50 employees, 20% of the employees are management.  Out of this 20%, only 30% oversee the entire company.  How many employees oversee the company?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "[reasoning process] First, we need to determine the total number of management employees in the company. Since 20% of the 50 employees are in management, we calculate this as follows:\n\nTotal management employees = 20% of 50 = 0.2 * 50 = 10 employees.\n\nNext, we need to find out how many of these management employees oversee the entire company. According to the problem, 30% of the management employees oversee the company. We calculate this as follows:\n\nNumber of employees overseeing the company = 30% of 10 = 0.3 * 10 = 3 employees.\n\n[Verification] We first established that there are 10 management employees based on the information provided. After that, we found that 30% of these 10 employees, which amounts to 3, oversee the entire company. This calculation is consistent with the values given in the problem, confirming our findings.\n\n[Final Answer] The answer is 3 \\n#### 3"
+        ],
+        "I Don't Know": [
+            "Question: In a company of 50 employees, 20% of the employees are management.  Out of this 20%, only 30% oversee the entire company.  How many employees oversee the company?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "I Don't Know"
+        ]
+    },
+    "hints_reward_imp_bank": {},
+    "fathers": {
+        "[reasoning process] First, we need to determine the total number of management employees in the company. Since 20% of the 50 employees are in management, we calculate this as follows:\n\nTotal management employees = 20% of 50 = 0.2 * 50 = 10 employees.\n\nNext, we need to find out how many of these management employees oversee the entire company. According to the problem, 30% of the management employees oversee the company. We calculate this as follows:\n\nNumber of employees overseeing the company = 30% of 10 = 0.3 * 10 = 3 employees.\n\n[Verification] We first established that there are 10 management employees based on the information provided. After that, we found that 30% of these 10 employees, which amounts to 3, oversee the entire company. This calculation is consistent with the values given in the problem, confirming our findings.\n\n[Final Answer] The answer is 3 \\n#### 3": null,
+        "I Don't Know": null
+    },
+    "childs": {
+        "[reasoning process] First, we need to determine the total number of management employees in the company. Since 20% of the 50 employees are in management, we calculate this as follows:\n\nTotal management employees = 20% of 50 = 0.2 * 50 = 10 employees.\n\nNext, we need to find out how many of these management employees oversee the entire company. According to the problem, 30% of the management employees oversee the company. We calculate this as follows:\n\nNumber of employees overseeing the company = 30% of 10 = 0.3 * 10 = 3 employees.\n\n[Verification] We first established that there are 10 management employees based on the information provided. After that, we found that 30% of these 10 employees, which amounts to 3, oversee the entire company. This calculation is consistent with the values given in the problem, confirming our findings.\n\n[Final Answer] The answer is 3 \\n#### 3": [],
+        "I Don't Know": []
+    },
+    "ucb_bank": {}
+}

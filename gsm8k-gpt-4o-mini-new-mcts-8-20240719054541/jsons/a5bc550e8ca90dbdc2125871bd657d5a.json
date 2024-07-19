@@ -1,0 +1,44 @@
+{
+    "query": "Edgar eats 18 pretzels a day. If his brother eats 1/2 as many, how many does his brother eat in a week?",
+    "ground_truth": "His brother eats 9 pretzels a day because 18 / 2 = <<18/2=9>>9\nHis brother eats 63 in a week because 9 x 7 = <<9*7=63>>63\n#### 63",
+    "hints_list": [],
+    "answers_list": [
+        "[reasoning process]  \nFirst, we need to determine how many pretzels Edgar's brother eats in one day. Since Edgar eats 18 pretzels a day and his brother eats half as many, we calculate:\n\nBrother's daily intake = 1/2 of Edgar's daily intake = 1/2 * 18 = 9 pretzels.\n\nNext, we will calculate how many pretzels his brother eats in a week. There are 7 days in a week, so we multiply his daily intake by 7:\n\nBrother's weekly intake = Brother's daily intake * 7 = 9 * 7 = 63 pretzels.\n\n[Verification]  \nTo verify our calculations, we can go through the steps again:  \n1. Half of 18 pretzels is indeed 9 pretzels.  \n2. Multiplying 9 pretzels by 7 days gives us 63 pretzels.  \nBoth calculations are correct.  \n\n[Final Answer] The answer is 63  \n#### 63",
+        "I Don't Know"
+    ],
+    "ground_truth_hints": "",
+    "hints_prompt": "Question: Edgar eats 18 pretzels a day. If his brother eats 1/2 as many, how many does his brother eat in a week?\nCould you provide me with the thought process to solve this problem, but please don’t give me the answer or calculation, just the thought process?",
+    "to_explore": [
+        "[reasoning process]  \nFirst, we need to determine how many pretzels Edgar's brother eats in one day. Since Edgar eats 18 pretzels a day and his brother eats half as many, we calculate:\n\nBrother's daily intake = 1/2 of Edgar's daily intake = 1/2 * 18 = 9 pretzels.\n\nNext, we will calculate how many pretzels his brother eats in a week. There are 7 days in a week, so we multiply his daily intake by 7:\n\nBrother's weekly intake = Brother's daily intake * 7 = 9 * 7 = 63 pretzels.\n\n[Verification]  \nTo verify our calculations, we can go through the steps again:  \n1. Half of 18 pretzels is indeed 9 pretzels.  \n2. Multiplying 9 pretzels by 7 days gives us 63 pretzels.  \nBoth calculations are correct.  \n\n[Final Answer] The answer is 63  \n#### 63",
+        "I Don't Know"
+    ],
+    "to_explore_reward": {
+        "[reasoning process]  \nFirst, we need to determine how many pretzels Edgar's brother eats in one day. Since Edgar eats 18 pretzels a day and his brother eats half as many, we calculate:\n\nBrother's daily intake = 1/2 of Edgar's daily intake = 1/2 * 18 = 9 pretzels.\n\nNext, we will calculate how many pretzels his brother eats in a week. There are 7 days in a week, so we multiply his daily intake by 7:\n\nBrother's weekly intake = Brother's daily intake * 7 = 9 * 7 = 63 pretzels.\n\n[Verification]  \nTo verify our calculations, we can go through the steps again:  \n1. Half of 18 pretzels is indeed 9 pretzels.  \n2. Multiplying 9 pretzels by 7 days gives us 63 pretzels.  \nBoth calculations are correct.  \n\n[Final Answer] The answer is 63  \n#### 63": [
+            75.0
+        ],
+        "I Don't Know": [
+            -75.0
+        ]
+    },
+    "hints_bank": {},
+    "history_bank": {
+        "[reasoning process]  \nFirst, we need to determine how many pretzels Edgar's brother eats in one day. Since Edgar eats 18 pretzels a day and his brother eats half as many, we calculate:\n\nBrother's daily intake = 1/2 of Edgar's daily intake = 1/2 * 18 = 9 pretzels.\n\nNext, we will calculate how many pretzels his brother eats in a week. There are 7 days in a week, so we multiply his daily intake by 7:\n\nBrother's weekly intake = Brother's daily intake * 7 = 9 * 7 = 63 pretzels.\n\n[Verification]  \nTo verify our calculations, we can go through the steps again:  \n1. Half of 18 pretzels is indeed 9 pretzels.  \n2. Multiplying 9 pretzels by 7 days gives us 63 pretzels.  \nBoth calculations are correct.  \n\n[Final Answer] The answer is 63  \n#### 63": [
+            "Question: Edgar eats 18 pretzels a day. If his brother eats 1/2 as many, how many does his brother eat in a week?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "[reasoning process]  \nFirst, we need to determine how many pretzels Edgar's brother eats in one day. Since Edgar eats 18 pretzels a day and his brother eats half as many, we calculate:\n\nBrother's daily intake = 1/2 of Edgar's daily intake = 1/2 * 18 = 9 pretzels.\n\nNext, we will calculate how many pretzels his brother eats in a week. There are 7 days in a week, so we multiply his daily intake by 7:\n\nBrother's weekly intake = Brother's daily intake * 7 = 9 * 7 = 63 pretzels.\n\n[Verification]  \nTo verify our calculations, we can go through the steps again:  \n1. Half of 18 pretzels is indeed 9 pretzels.  \n2. Multiplying 9 pretzels by 7 days gives us 63 pretzels.  \nBoth calculations are correct.  \n\n[Final Answer] The answer is 63  \n#### 63"
+        ],
+        "I Don't Know": [
+            "Question: Edgar eats 18 pretzels a day. If his brother eats 1/2 as many, how many does his brother eat in a week?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "I Don't Know"
+        ]
+    },
+    "hints_reward_imp_bank": {},
+    "fathers": {
+        "[reasoning process]  \nFirst, we need to determine how many pretzels Edgar's brother eats in one day. Since Edgar eats 18 pretzels a day and his brother eats half as many, we calculate:\n\nBrother's daily intake = 1/2 of Edgar's daily intake = 1/2 * 18 = 9 pretzels.\n\nNext, we will calculate how many pretzels his brother eats in a week. There are 7 days in a week, so we multiply his daily intake by 7:\n\nBrother's weekly intake = Brother's daily intake * 7 = 9 * 7 = 63 pretzels.\n\n[Verification]  \nTo verify our calculations, we can go through the steps again:  \n1. Half of 18 pretzels is indeed 9 pretzels.  \n2. Multiplying 9 pretzels by 7 days gives us 63 pretzels.  \nBoth calculations are correct.  \n\n[Final Answer] The answer is 63  \n#### 63": null,
+        "I Don't Know": null
+    },
+    "childs": {
+        "[reasoning process]  \nFirst, we need to determine how many pretzels Edgar's brother eats in one day. Since Edgar eats 18 pretzels a day and his brother eats half as many, we calculate:\n\nBrother's daily intake = 1/2 of Edgar's daily intake = 1/2 * 18 = 9 pretzels.\n\nNext, we will calculate how many pretzels his brother eats in a week. There are 7 days in a week, so we multiply his daily intake by 7:\n\nBrother's weekly intake = Brother's daily intake * 7 = 9 * 7 = 63 pretzels.\n\n[Verification]  \nTo verify our calculations, we can go through the steps again:  \n1. Half of 18 pretzels is indeed 9 pretzels.  \n2. Multiplying 9 pretzels by 7 days gives us 63 pretzels.  \nBoth calculations are correct.  \n\n[Final Answer] The answer is 63  \n#### 63": [],
+        "I Don't Know": []
+    },
+    "ucb_bank": {}
+}

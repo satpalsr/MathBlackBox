@@ -1,0 +1,44 @@
+{
+    "query": "Mia and Emma are currently 16 years apart in age. If Mia, who is younger than Emma, is 40 years old, what's the average of their ages?",
+    "ground_truth": "If Mia is 40 years old, Emma is 40+16 = <<40+16=56>>56 years old.\nThe sum of their ages is 56+40 = <<56+40=96>>96 years\nThe average age of the two is 96/2 = <<96/2=48>>48 years\n#### 48",
+    "hints_list": [],
+    "answers_list": [
+        "[reasoning process]\n1. We know that Mia is currently 40 years old and that she is younger than Emma.\n2. Since Mia and Emma are 16 years apart in age, we can calculate Emma's age by adding 16 to Mia's age.\n3. Therefore, Emma's age = Mia's age + 16 = 40 + 16 = 56 years.\n4. Now, we have Mia's age as 40 years and Emma's age as 56 years.\n5. Next, to find the average of their ages, we add both of their ages together and divide by 2.\n6. The sum of their ages = 40 + 56 = 96.\n7. The average age = 96 / 2 = 48.\n\n[Verification]\n- We confirmed that Mia is 40 and Emma is 56, which gives a difference of 16 years.\n- The calculation for the average was performed correctly by summing the ages and dividing by 2.\n\n[Final Answer] The answer is 48 \\n#### 48",
+        "I can't understand this question."
+    ],
+    "ground_truth_hints": "",
+    "hints_prompt": "Question: Mia and Emma are currently 16 years apart in age. If Mia, who is younger than Emma, is 40 years old, what's the average of their ages?\nCould you provide me with the thought process to solve this problem, but please don’t give me the answer or calculation, just the thought process?",
+    "to_explore": [
+        "[reasoning process]\n1. We know that Mia is currently 40 years old and that she is younger than Emma.\n2. Since Mia and Emma are 16 years apart in age, we can calculate Emma's age by adding 16 to Mia's age.\n3. Therefore, Emma's age = Mia's age + 16 = 40 + 16 = 56 years.\n4. Now, we have Mia's age as 40 years and Emma's age as 56 years.\n5. Next, to find the average of their ages, we add both of their ages together and divide by 2.\n6. The sum of their ages = 40 + 56 = 96.\n7. The average age = 96 / 2 = 48.\n\n[Verification]\n- We confirmed that Mia is 40 and Emma is 56, which gives a difference of 16 years.\n- The calculation for the average was performed correctly by summing the ages and dividing by 2.\n\n[Final Answer] The answer is 48 \\n#### 48",
+        "I can't understand this question."
+    ],
+    "to_explore_reward": {
+        "[reasoning process]\n1. We know that Mia is currently 40 years old and that she is younger than Emma.\n2. Since Mia and Emma are 16 years apart in age, we can calculate Emma's age by adding 16 to Mia's age.\n3. Therefore, Emma's age = Mia's age + 16 = 40 + 16 = 56 years.\n4. Now, we have Mia's age as 40 years and Emma's age as 56 years.\n5. Next, to find the average of their ages, we add both of their ages together and divide by 2.\n6. The sum of their ages = 40 + 56 = 96.\n7. The average age = 96 / 2 = 48.\n\n[Verification]\n- We confirmed that Mia is 40 and Emma is 56, which gives a difference of 16 years.\n- The calculation for the average was performed correctly by summing the ages and dividing by 2.\n\n[Final Answer] The answer is 48 \\n#### 48": [
+            75.0
+        ],
+        "I can't understand this question.": [
+            -80.0
+        ]
+    },
+    "hints_bank": {},
+    "history_bank": {
+        "[reasoning process]\n1. We know that Mia is currently 40 years old and that she is younger than Emma.\n2. Since Mia and Emma are 16 years apart in age, we can calculate Emma's age by adding 16 to Mia's age.\n3. Therefore, Emma's age = Mia's age + 16 = 40 + 16 = 56 years.\n4. Now, we have Mia's age as 40 years and Emma's age as 56 years.\n5. Next, to find the average of their ages, we add both of their ages together and divide by 2.\n6. The sum of their ages = 40 + 56 = 96.\n7. The average age = 96 / 2 = 48.\n\n[Verification]\n- We confirmed that Mia is 40 and Emma is 56, which gives a difference of 16 years.\n- The calculation for the average was performed correctly by summing the ages and dividing by 2.\n\n[Final Answer] The answer is 48 \\n#### 48": [
+            "Question: Mia and Emma are currently 16 years apart in age. If Mia, who is younger than Emma, is 40 years old, what's the average of their ages?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "[reasoning process]\n1. We know that Mia is currently 40 years old and that she is younger than Emma.\n2. Since Mia and Emma are 16 years apart in age, we can calculate Emma's age by adding 16 to Mia's age.\n3. Therefore, Emma's age = Mia's age + 16 = 40 + 16 = 56 years.\n4. Now, we have Mia's age as 40 years and Emma's age as 56 years.\n5. Next, to find the average of their ages, we add both of their ages together and divide by 2.\n6. The sum of their ages = 40 + 56 = 96.\n7. The average age = 96 / 2 = 48.\n\n[Verification]\n- We confirmed that Mia is 40 and Emma is 56, which gives a difference of 16 years.\n- The calculation for the average was performed correctly by summing the ages and dividing by 2.\n\n[Final Answer] The answer is 48 \\n#### 48"
+        ],
+        "I can't understand this question.": [
+            "Question: Mia and Emma are currently 16 years apart in age. If Mia, who is younger than Emma, is 40 years old, what's the average of their ages?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "I can't understand this question."
+        ]
+    },
+    "hints_reward_imp_bank": {},
+    "fathers": {
+        "[reasoning process]\n1. We know that Mia is currently 40 years old and that she is younger than Emma.\n2. Since Mia and Emma are 16 years apart in age, we can calculate Emma's age by adding 16 to Mia's age.\n3. Therefore, Emma's age = Mia's age + 16 = 40 + 16 = 56 years.\n4. Now, we have Mia's age as 40 years and Emma's age as 56 years.\n5. Next, to find the average of their ages, we add both of their ages together and divide by 2.\n6. The sum of their ages = 40 + 56 = 96.\n7. The average age = 96 / 2 = 48.\n\n[Verification]\n- We confirmed that Mia is 40 and Emma is 56, which gives a difference of 16 years.\n- The calculation for the average was performed correctly by summing the ages and dividing by 2.\n\n[Final Answer] The answer is 48 \\n#### 48": null,
+        "I can't understand this question.": null
+    },
+    "childs": {
+        "[reasoning process]\n1. We know that Mia is currently 40 years old and that she is younger than Emma.\n2. Since Mia and Emma are 16 years apart in age, we can calculate Emma's age by adding 16 to Mia's age.\n3. Therefore, Emma's age = Mia's age + 16 = 40 + 16 = 56 years.\n4. Now, we have Mia's age as 40 years and Emma's age as 56 years.\n5. Next, to find the average of their ages, we add both of their ages together and divide by 2.\n6. The sum of their ages = 40 + 56 = 96.\n7. The average age = 96 / 2 = 48.\n\n[Verification]\n- We confirmed that Mia is 40 and Emma is 56, which gives a difference of 16 years.\n- The calculation for the average was performed correctly by summing the ages and dividing by 2.\n\n[Final Answer] The answer is 48 \\n#### 48": [],
+        "I can't understand this question.": []
+    },
+    "ucb_bank": {}
+}

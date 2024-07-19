@@ -1,0 +1,44 @@
+{
+    "query": "Marissa bought a ball at the store for $20. If she had $80 on her and used the rest of the money to buy her brother Jimmy, candy bars sold at $5 each, how many candy bars did Marissa buy for Jimmy?",
+    "ground_truth": "If Marissa had $80 on her and used $20 to buy a ball, she remained with $80-$20=$<<80-20=60>>60\nIf she used the rest of the money to buy candy bars for her brother sold ad $5 each, she bought $60/$5=<<60/5=12>>12 candy bars.\n#### 12",
+    "hints_list": [],
+    "answers_list": [
+        "[reasoning process] Marissa initially has $80. After buying a ball for $20, we need to find out how much money she has left. We subtract the cost of the ball from her total amount: \n\n$80 - $20 = $60.\n\nNow, Marissa uses the remaining $60 to buy candy bars that cost $5 each. To find out how many candy bars she can buy, we divide the amount of money left by the price of each candy bar:\n\n$60 ÷ $5 = 12.\n\nSo, Marissa can buy 12 candy bars for Jimmy.\n\n[Verification] Let's verify the calculations step by step:\n1. Starting amount: $80.\n2. Cost of the ball: $20.\n3. Money remaining after the purchase: $80 - $20 = $60.\n4. Price per candy bar: $5.\n5. Number of candy bars: $60 ÷ $5 = 12.\n\nThe calculations are correct, confirming that Marissa uses her remaining money wisely.\n\n[Final Answer] The answer is 12 \\n#### 12",
+        "I don't know the answer to this question."
+    ],
+    "ground_truth_hints": "",
+    "hints_prompt": "Question: Marissa bought a ball at the store for $20. If she had $80 on her and used the rest of the money to buy her brother Jimmy, candy bars sold at $5 each, how many candy bars did Marissa buy for Jimmy?\nCould you provide me with the thought process to solve this problem, but please don’t give me the answer or calculation, just the thought process?",
+    "to_explore": [
+        "[reasoning process] Marissa initially has $80. After buying a ball for $20, we need to find out how much money she has left. We subtract the cost of the ball from her total amount: \n\n$80 - $20 = $60.\n\nNow, Marissa uses the remaining $60 to buy candy bars that cost $5 each. To find out how many candy bars she can buy, we divide the amount of money left by the price of each candy bar:\n\n$60 ÷ $5 = 12.\n\nSo, Marissa can buy 12 candy bars for Jimmy.\n\n[Verification] Let's verify the calculations step by step:\n1. Starting amount: $80.\n2. Cost of the ball: $20.\n3. Money remaining after the purchase: $80 - $20 = $60.\n4. Price per candy bar: $5.\n5. Number of candy bars: $60 ÷ $5 = 12.\n\nThe calculations are correct, confirming that Marissa uses her remaining money wisely.\n\n[Final Answer] The answer is 12 \\n#### 12",
+        "I don't know the answer to this question."
+    ],
+    "to_explore_reward": {
+        "[reasoning process] Marissa initially has $80. After buying a ball for $20, we need to find out how much money she has left. We subtract the cost of the ball from her total amount: \n\n$80 - $20 = $60.\n\nNow, Marissa uses the remaining $60 to buy candy bars that cost $5 each. To find out how many candy bars she can buy, we divide the amount of money left by the price of each candy bar:\n\n$60 ÷ $5 = 12.\n\nSo, Marissa can buy 12 candy bars for Jimmy.\n\n[Verification] Let's verify the calculations step by step:\n1. Starting amount: $80.\n2. Cost of the ball: $20.\n3. Money remaining after the purchase: $80 - $20 = $60.\n4. Price per candy bar: $5.\n5. Number of candy bars: $60 ÷ $5 = 12.\n\nThe calculations are correct, confirming that Marissa uses her remaining money wisely.\n\n[Final Answer] The answer is 12 \\n#### 12": [
+            60.0
+        ],
+        "I don't know the answer to this question.": [
+            -90.0
+        ]
+    },
+    "hints_bank": {},
+    "history_bank": {
+        "[reasoning process] Marissa initially has $80. After buying a ball for $20, we need to find out how much money she has left. We subtract the cost of the ball from her total amount: \n\n$80 - $20 = $60.\n\nNow, Marissa uses the remaining $60 to buy candy bars that cost $5 each. To find out how many candy bars she can buy, we divide the amount of money left by the price of each candy bar:\n\n$60 ÷ $5 = 12.\n\nSo, Marissa can buy 12 candy bars for Jimmy.\n\n[Verification] Let's verify the calculations step by step:\n1. Starting amount: $80.\n2. Cost of the ball: $20.\n3. Money remaining after the purchase: $80 - $20 = $60.\n4. Price per candy bar: $5.\n5. Number of candy bars: $60 ÷ $5 = 12.\n\nThe calculations are correct, confirming that Marissa uses her remaining money wisely.\n\n[Final Answer] The answer is 12 \\n#### 12": [
+            "Question: Marissa bought a ball at the store for $20. If she had $80 on her and used the rest of the money to buy her brother Jimmy, candy bars sold at $5 each, how many candy bars did Marissa buy for Jimmy?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "[reasoning process] Marissa initially has $80. After buying a ball for $20, we need to find out how much money she has left. We subtract the cost of the ball from her total amount: \n\n$80 - $20 = $60.\n\nNow, Marissa uses the remaining $60 to buy candy bars that cost $5 each. To find out how many candy bars she can buy, we divide the amount of money left by the price of each candy bar:\n\n$60 ÷ $5 = 12.\n\nSo, Marissa can buy 12 candy bars for Jimmy.\n\n[Verification] Let's verify the calculations step by step:\n1. Starting amount: $80.\n2. Cost of the ball: $20.\n3. Money remaining after the purchase: $80 - $20 = $60.\n4. Price per candy bar: $5.\n5. Number of candy bars: $60 ÷ $5 = 12.\n\nThe calculations are correct, confirming that Marissa uses her remaining money wisely.\n\n[Final Answer] The answer is 12 \\n#### 12"
+        ],
+        "I don't know the answer to this question.": [
+            "Question: Marissa bought a ball at the store for $20. If she had $80 on her and used the rest of the money to buy her brother Jimmy, candy bars sold at $5 each, how many candy bars did Marissa buy for Jimmy?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "I don't know the answer to this question."
+        ]
+    },
+    "hints_reward_imp_bank": {},
+    "fathers": {
+        "[reasoning process] Marissa initially has $80. After buying a ball for $20, we need to find out how much money she has left. We subtract the cost of the ball from her total amount: \n\n$80 - $20 = $60.\n\nNow, Marissa uses the remaining $60 to buy candy bars that cost $5 each. To find out how many candy bars she can buy, we divide the amount of money left by the price of each candy bar:\n\n$60 ÷ $5 = 12.\n\nSo, Marissa can buy 12 candy bars for Jimmy.\n\n[Verification] Let's verify the calculations step by step:\n1. Starting amount: $80.\n2. Cost of the ball: $20.\n3. Money remaining after the purchase: $80 - $20 = $60.\n4. Price per candy bar: $5.\n5. Number of candy bars: $60 ÷ $5 = 12.\n\nThe calculations are correct, confirming that Marissa uses her remaining money wisely.\n\n[Final Answer] The answer is 12 \\n#### 12": null,
+        "I don't know the answer to this question.": null
+    },
+    "childs": {
+        "[reasoning process] Marissa initially has $80. After buying a ball for $20, we need to find out how much money she has left. We subtract the cost of the ball from her total amount: \n\n$80 - $20 = $60.\n\nNow, Marissa uses the remaining $60 to buy candy bars that cost $5 each. To find out how many candy bars she can buy, we divide the amount of money left by the price of each candy bar:\n\n$60 ÷ $5 = 12.\n\nSo, Marissa can buy 12 candy bars for Jimmy.\n\n[Verification] Let's verify the calculations step by step:\n1. Starting amount: $80.\n2. Cost of the ball: $20.\n3. Money remaining after the purchase: $80 - $20 = $60.\n4. Price per candy bar: $5.\n5. Number of candy bars: $60 ÷ $5 = 12.\n\nThe calculations are correct, confirming that Marissa uses her remaining money wisely.\n\n[Final Answer] The answer is 12 \\n#### 12": [],
+        "I don't know the answer to this question.": []
+    },
+    "ucb_bank": {}
+}

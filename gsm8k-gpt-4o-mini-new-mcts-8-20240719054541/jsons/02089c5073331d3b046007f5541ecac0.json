@@ -1,0 +1,44 @@
+{
+    "query": "Mico and Marco wanted to get to know each other. They realized that the sum of their ages is 20. What will be the sum of their ages in 10 years?",
+    "ground_truth": "There will be an additional 10 (for Mico) + 10 9for Marco) = <<10+10=20>>20 to Mico and Marco's current sum of ages in 10 years.\nTherefore, the sum of their ages in 10 years is 20 + 20 = <<20+20=40>>40.\n#### 40",
+    "hints_list": [],
+    "answers_list": [
+        "[reasoning process] Let's denote Mico's age as M and Marco's age as R. According to the problem, we have the equation:\n\nM + R = 20.\n\nIn ten years, Mico's age will be M + 10 and Marco's age will be R + 10. Therefore, the sum of their ages in ten years will be:\n\n(M + 10) + (R + 10) = M + R + 20.\n\nSince we already know that M + R = 20, we can substitute this value into the equation:\n\nM + R + 20 = 20 + 20 = 40.\n\nThus, the sum of their ages in ten years will be 40.\n\n[Verification] We can verify this by considering their current ages. Let's say Mico is 10 years old and Marco is 10 years old (M + R = 20). In ten years, Mico will be 20 and Marco will also be 20, so the sum would be 20 + 20 = 40. This matches our previous calculation. \n\n[Final Answer] The answer is 40 \\n#### 40",
+        "I Don't Know"
+    ],
+    "ground_truth_hints": "",
+    "hints_prompt": "Question: Mico and Marco wanted to get to know each other. They realized that the sum of their ages is 20. What will be the sum of their ages in 10 years?\nCould you provide me with the thought process to solve this problem, but please don’t give me the answer or calculation, just the thought process?",
+    "to_explore": [
+        "[reasoning process] Let's denote Mico's age as M and Marco's age as R. According to the problem, we have the equation:\n\nM + R = 20.\n\nIn ten years, Mico's age will be M + 10 and Marco's age will be R + 10. Therefore, the sum of their ages in ten years will be:\n\n(M + 10) + (R + 10) = M + R + 20.\n\nSince we already know that M + R = 20, we can substitute this value into the equation:\n\nM + R + 20 = 20 + 20 = 40.\n\nThus, the sum of their ages in ten years will be 40.\n\n[Verification] We can verify this by considering their current ages. Let's say Mico is 10 years old and Marco is 10 years old (M + R = 20). In ten years, Mico will be 20 and Marco will also be 20, so the sum would be 20 + 20 = 40. This matches our previous calculation. \n\n[Final Answer] The answer is 40 \\n#### 40",
+        "I Don't Know"
+    ],
+    "to_explore_reward": {
+        "[reasoning process] Let's denote Mico's age as M and Marco's age as R. According to the problem, we have the equation:\n\nM + R = 20.\n\nIn ten years, Mico's age will be M + 10 and Marco's age will be R + 10. Therefore, the sum of their ages in ten years will be:\n\n(M + 10) + (R + 10) = M + R + 20.\n\nSince we already know that M + R = 20, we can substitute this value into the equation:\n\nM + R + 20 = 20 + 20 = 40.\n\nThus, the sum of their ages in ten years will be 40.\n\n[Verification] We can verify this by considering their current ages. Let's say Mico is 10 years old and Marco is 10 years old (M + R = 20). In ten years, Mico will be 20 and Marco will also be 20, so the sum would be 20 + 20 = 40. This matches our previous calculation. \n\n[Final Answer] The answer is 40 \\n#### 40": [
+            75.0
+        ],
+        "I Don't Know": [
+            -80.0
+        ]
+    },
+    "hints_bank": {},
+    "history_bank": {
+        "[reasoning process] Let's denote Mico's age as M and Marco's age as R. According to the problem, we have the equation:\n\nM + R = 20.\n\nIn ten years, Mico's age will be M + 10 and Marco's age will be R + 10. Therefore, the sum of their ages in ten years will be:\n\n(M + 10) + (R + 10) = M + R + 20.\n\nSince we already know that M + R = 20, we can substitute this value into the equation:\n\nM + R + 20 = 20 + 20 = 40.\n\nThus, the sum of their ages in ten years will be 40.\n\n[Verification] We can verify this by considering their current ages. Let's say Mico is 10 years old and Marco is 10 years old (M + R = 20). In ten years, Mico will be 20 and Marco will also be 20, so the sum would be 20 + 20 = 40. This matches our previous calculation. \n\n[Final Answer] The answer is 40 \\n#### 40": [
+            "Question: Mico and Marco wanted to get to know each other. They realized that the sum of their ages is 20. What will be the sum of their ages in 10 years?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "[reasoning process] Let's denote Mico's age as M and Marco's age as R. According to the problem, we have the equation:\n\nM + R = 20.\n\nIn ten years, Mico's age will be M + 10 and Marco's age will be R + 10. Therefore, the sum of their ages in ten years will be:\n\n(M + 10) + (R + 10) = M + R + 20.\n\nSince we already know that M + R = 20, we can substitute this value into the equation:\n\nM + R + 20 = 20 + 20 = 40.\n\nThus, the sum of their ages in ten years will be 40.\n\n[Verification] We can verify this by considering their current ages. Let's say Mico is 10 years old and Marco is 10 years old (M + R = 20). In ten years, Mico will be 20 and Marco will also be 20, so the sum would be 20 + 20 = 40. This matches our previous calculation. \n\n[Final Answer] The answer is 40 \\n#### 40"
+        ],
+        "I Don't Know": [
+            "Question: Mico and Marco wanted to get to know each other. They realized that the sum of their ages is 20. What will be the sum of their ages in 10 years?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "I Don't Know"
+        ]
+    },
+    "hints_reward_imp_bank": {},
+    "fathers": {
+        "[reasoning process] Let's denote Mico's age as M and Marco's age as R. According to the problem, we have the equation:\n\nM + R = 20.\n\nIn ten years, Mico's age will be M + 10 and Marco's age will be R + 10. Therefore, the sum of their ages in ten years will be:\n\n(M + 10) + (R + 10) = M + R + 20.\n\nSince we already know that M + R = 20, we can substitute this value into the equation:\n\nM + R + 20 = 20 + 20 = 40.\n\nThus, the sum of their ages in ten years will be 40.\n\n[Verification] We can verify this by considering their current ages. Let's say Mico is 10 years old and Marco is 10 years old (M + R = 20). In ten years, Mico will be 20 and Marco will also be 20, so the sum would be 20 + 20 = 40. This matches our previous calculation. \n\n[Final Answer] The answer is 40 \\n#### 40": null,
+        "I Don't Know": null
+    },
+    "childs": {
+        "[reasoning process] Let's denote Mico's age as M and Marco's age as R. According to the problem, we have the equation:\n\nM + R = 20.\n\nIn ten years, Mico's age will be M + 10 and Marco's age will be R + 10. Therefore, the sum of their ages in ten years will be:\n\n(M + 10) + (R + 10) = M + R + 20.\n\nSince we already know that M + R = 20, we can substitute this value into the equation:\n\nM + R + 20 = 20 + 20 = 40.\n\nThus, the sum of their ages in ten years will be 40.\n\n[Verification] We can verify this by considering their current ages. Let's say Mico is 10 years old and Marco is 10 years old (M + R = 20). In ten years, Mico will be 20 and Marco will also be 20, so the sum would be 20 + 20 = 40. This matches our previous calculation. \n\n[Final Answer] The answer is 40 \\n#### 40": [],
+        "I Don't Know": []
+    },
+    "ucb_bank": {}
+}

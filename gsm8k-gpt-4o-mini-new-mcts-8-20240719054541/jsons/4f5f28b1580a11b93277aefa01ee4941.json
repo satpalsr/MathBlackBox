@@ -1,0 +1,44 @@
+{
+    "query": "Argo has 200 toys. He gives 40 toys to Alyssa, 80 to Bonnie, and 30 to Nicky. How many toys does Argo have now?",
+    "ground_truth": "After Argo gives 40 toys to Alyssa, he remains with 200-40 =<<200-40=160>>160\nArgo also gives 80 Bonnie 80 toys and remains with 160-80 = 80 toys\nIf he also gave Nicky 30 toys, the number of toys Arge remains with is 80-30 = <<80-30=50>>50.\n#### 50",
+    "hints_list": [],
+    "answers_list": [
+        "[reasoning process] Argo initially has 200 toys. He gives away a total of toys calculated as follows:  \n- To Alyssa: 40 toys  \n- To Bonnie: 80 toys  \n- To Nicky: 30 toys  \n\nFirst, we need to add the number of toys given away:  \n40 (Alyssa) + 80 (Bonnie) + 30 (Nicky) = 150 toys given away.  \n\nNext, we subtract the total number of toys given away from the initial amount Argo had:  \n200 (initial toys) - 150 (toys given away) = 50 toys left.\n\n[Verification]  \n- Check the total toys given: 40 + 80 + 30 = 150 (correct).  \n- Check the remaining toys: 200 - 150 = 50 (correct).  \n\n[Final Answer] The answer is 50  \n#### 50",
+        "I can't help with this question."
+    ],
+    "ground_truth_hints": "",
+    "hints_prompt": "Question: Argo has 200 toys. He gives 40 toys to Alyssa, 80 to Bonnie, and 30 to Nicky. How many toys does Argo have now?\nCould you provide me with the thought process to solve this problem, but please don’t give me the answer or calculation, just the thought process?",
+    "to_explore": [
+        "[reasoning process] Argo initially has 200 toys. He gives away a total of toys calculated as follows:  \n- To Alyssa: 40 toys  \n- To Bonnie: 80 toys  \n- To Nicky: 30 toys  \n\nFirst, we need to add the number of toys given away:  \n40 (Alyssa) + 80 (Bonnie) + 30 (Nicky) = 150 toys given away.  \n\nNext, we subtract the total number of toys given away from the initial amount Argo had:  \n200 (initial toys) - 150 (toys given away) = 50 toys left.\n\n[Verification]  \n- Check the total toys given: 40 + 80 + 30 = 150 (correct).  \n- Check the remaining toys: 200 - 150 = 50 (correct).  \n\n[Final Answer] The answer is 50  \n#### 50",
+        "I can't help with this question."
+    ],
+    "to_explore_reward": {
+        "[reasoning process] Argo initially has 200 toys. He gives away a total of toys calculated as follows:  \n- To Alyssa: 40 toys  \n- To Bonnie: 80 toys  \n- To Nicky: 30 toys  \n\nFirst, we need to add the number of toys given away:  \n40 (Alyssa) + 80 (Bonnie) + 30 (Nicky) = 150 toys given away.  \n\nNext, we subtract the total number of toys given away from the initial amount Argo had:  \n200 (initial toys) - 150 (toys given away) = 50 toys left.\n\n[Verification]  \n- Check the total toys given: 40 + 80 + 30 = 150 (correct).  \n- Check the remaining toys: 200 - 150 = 50 (correct).  \n\n[Final Answer] The answer is 50  \n#### 50": [
+            70.0
+        ],
+        "I can't help with this question.": [
+            -100.0
+        ]
+    },
+    "hints_bank": {},
+    "history_bank": {
+        "[reasoning process] Argo initially has 200 toys. He gives away a total of toys calculated as follows:  \n- To Alyssa: 40 toys  \n- To Bonnie: 80 toys  \n- To Nicky: 30 toys  \n\nFirst, we need to add the number of toys given away:  \n40 (Alyssa) + 80 (Bonnie) + 30 (Nicky) = 150 toys given away.  \n\nNext, we subtract the total number of toys given away from the initial amount Argo had:  \n200 (initial toys) - 150 (toys given away) = 50 toys left.\n\n[Verification]  \n- Check the total toys given: 40 + 80 + 30 = 150 (correct).  \n- Check the remaining toys: 200 - 150 = 50 (correct).  \n\n[Final Answer] The answer is 50  \n#### 50": [
+            "Question: Argo has 200 toys. He gives 40 toys to Alyssa, 80 to Bonnie, and 30 to Nicky. How many toys does Argo have now?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "[reasoning process] Argo initially has 200 toys. He gives away a total of toys calculated as follows:  \n- To Alyssa: 40 toys  \n- To Bonnie: 80 toys  \n- To Nicky: 30 toys  \n\nFirst, we need to add the number of toys given away:  \n40 (Alyssa) + 80 (Bonnie) + 30 (Nicky) = 150 toys given away.  \n\nNext, we subtract the total number of toys given away from the initial amount Argo had:  \n200 (initial toys) - 150 (toys given away) = 50 toys left.\n\n[Verification]  \n- Check the total toys given: 40 + 80 + 30 = 150 (correct).  \n- Check the remaining toys: 200 - 150 = 50 (correct).  \n\n[Final Answer] The answer is 50  \n#### 50"
+        ],
+        "I can't help with this question.": [
+            "Question: Argo has 200 toys. He gives 40 toys to Alyssa, 80 to Bonnie, and 30 to Nicky. How many toys does Argo have now?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "I can't help with this question."
+        ]
+    },
+    "hints_reward_imp_bank": {},
+    "fathers": {
+        "[reasoning process] Argo initially has 200 toys. He gives away a total of toys calculated as follows:  \n- To Alyssa: 40 toys  \n- To Bonnie: 80 toys  \n- To Nicky: 30 toys  \n\nFirst, we need to add the number of toys given away:  \n40 (Alyssa) + 80 (Bonnie) + 30 (Nicky) = 150 toys given away.  \n\nNext, we subtract the total number of toys given away from the initial amount Argo had:  \n200 (initial toys) - 150 (toys given away) = 50 toys left.\n\n[Verification]  \n- Check the total toys given: 40 + 80 + 30 = 150 (correct).  \n- Check the remaining toys: 200 - 150 = 50 (correct).  \n\n[Final Answer] The answer is 50  \n#### 50": null,
+        "I can't help with this question.": null
+    },
+    "childs": {
+        "[reasoning process] Argo initially has 200 toys. He gives away a total of toys calculated as follows:  \n- To Alyssa: 40 toys  \n- To Bonnie: 80 toys  \n- To Nicky: 30 toys  \n\nFirst, we need to add the number of toys given away:  \n40 (Alyssa) + 80 (Bonnie) + 30 (Nicky) = 150 toys given away.  \n\nNext, we subtract the total number of toys given away from the initial amount Argo had:  \n200 (initial toys) - 150 (toys given away) = 50 toys left.\n\n[Verification]  \n- Check the total toys given: 40 + 80 + 30 = 150 (correct).  \n- Check the remaining toys: 200 - 150 = 50 (correct).  \n\n[Final Answer] The answer is 50  \n#### 50": [],
+        "I can't help with this question.": []
+    },
+    "ucb_bank": {}
+}

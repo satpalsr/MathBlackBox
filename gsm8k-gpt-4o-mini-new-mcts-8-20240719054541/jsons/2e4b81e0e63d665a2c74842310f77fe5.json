@@ -1,0 +1,44 @@
+{
+    "query": "Steve is 60 years old. His wife is 4 years older than him. Their son is currently half as old as his mom and their son's wife is 3 years younger than her husband. How old is Steve's son's wife?",
+    "ground_truth": "Steve's wife is 60+4=<<60+4=64>>64 years old.\nSteve's son is 64/2=<<64/2=32>>32 years old.\nHis wife is 32-3=<<32-3=29>>29 years old.\n#### 29",
+    "hints_list": [],
+    "answers_list": [
+        "[reasoning process] First, let's determine Steve's age and his wife's age. Since Steve is 60, his wife, being 4 years older than him, is 60 + 4 = 64 years old. Next, we can find out their son's age. The son is currently half as old as his mother, so we divide her age by 2: 64 / 2 = 32 years old. Now, we need to find the age of Steve's son's wife. We know that Steve's son's wife is 3 years younger than her husband. Therefore, we subtract 3 from the son's age: 32 - 3 = 29 years old. \n\n[Verification] Let's verify the ages we calculated. Steve is 60, his wife is 64, their son is 32, and his wife is 29. All relationships described in the problem hold true: Steve's wife is indeed 4 years older, the son is half the age of his mother, and the son's wife is 3 years younger than him.\n\n[Final Answer] The answer is 29 \\n#### 29",
+        "I don't know how to solve this question."
+    ],
+    "ground_truth_hints": "",
+    "hints_prompt": "Question: Steve is 60 years old. His wife is 4 years older than him. Their son is currently half as old as his mom and their son's wife is 3 years younger than her husband. How old is Steve's son's wife?\nCould you provide me with the thought process to solve this problem, but please don’t give me the answer or calculation, just the thought process?",
+    "to_explore": [
+        "[reasoning process] First, let's determine Steve's age and his wife's age. Since Steve is 60, his wife, being 4 years older than him, is 60 + 4 = 64 years old. Next, we can find out their son's age. The son is currently half as old as his mother, so we divide her age by 2: 64 / 2 = 32 years old. Now, we need to find the age of Steve's son's wife. We know that Steve's son's wife is 3 years younger than her husband. Therefore, we subtract 3 from the son's age: 32 - 3 = 29 years old. \n\n[Verification] Let's verify the ages we calculated. Steve is 60, his wife is 64, their son is 32, and his wife is 29. All relationships described in the problem hold true: Steve's wife is indeed 4 years older, the son is half the age of his mother, and the son's wife is 3 years younger than him.\n\n[Final Answer] The answer is 29 \\n#### 29",
+        "I don't know how to solve this question."
+    ],
+    "to_explore_reward": {
+        "[reasoning process] First, let's determine Steve's age and his wife's age. Since Steve is 60, his wife, being 4 years older than him, is 60 + 4 = 64 years old. Next, we can find out their son's age. The son is currently half as old as his mother, so we divide her age by 2: 64 / 2 = 32 years old. Now, we need to find the age of Steve's son's wife. We know that Steve's son's wife is 3 years younger than her husband. Therefore, we subtract 3 from the son's age: 32 - 3 = 29 years old. \n\n[Verification] Let's verify the ages we calculated. Steve is 60, his wife is 64, their son is 32, and his wife is 29. All relationships described in the problem hold true: Steve's wife is indeed 4 years older, the son is half the age of his mother, and the son's wife is 3 years younger than him.\n\n[Final Answer] The answer is 29 \\n#### 29": [
+            60.0
+        ],
+        "I don't know how to solve this question.": [
+            -85.0
+        ]
+    },
+    "hints_bank": {},
+    "history_bank": {
+        "[reasoning process] First, let's determine Steve's age and his wife's age. Since Steve is 60, his wife, being 4 years older than him, is 60 + 4 = 64 years old. Next, we can find out their son's age. The son is currently half as old as his mother, so we divide her age by 2: 64 / 2 = 32 years old. Now, we need to find the age of Steve's son's wife. We know that Steve's son's wife is 3 years younger than her husband. Therefore, we subtract 3 from the son's age: 32 - 3 = 29 years old. \n\n[Verification] Let's verify the ages we calculated. Steve is 60, his wife is 64, their son is 32, and his wife is 29. All relationships described in the problem hold true: Steve's wife is indeed 4 years older, the son is half the age of his mother, and the son's wife is 3 years younger than him.\n\n[Final Answer] The answer is 29 \\n#### 29": [
+            "Question: Steve is 60 years old. His wife is 4 years older than him. Their son is currently half as old as his mom and their son's wife is 3 years younger than her husband. How old is Steve's son's wife?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "[reasoning process] First, let's determine Steve's age and his wife's age. Since Steve is 60, his wife, being 4 years older than him, is 60 + 4 = 64 years old. Next, we can find out their son's age. The son is currently half as old as his mother, so we divide her age by 2: 64 / 2 = 32 years old. Now, we need to find the age of Steve's son's wife. We know that Steve's son's wife is 3 years younger than her husband. Therefore, we subtract 3 from the son's age: 32 - 3 = 29 years old. \n\n[Verification] Let's verify the ages we calculated. Steve is 60, his wife is 64, their son is 32, and his wife is 29. All relationships described in the problem hold true: Steve's wife is indeed 4 years older, the son is half the age of his mother, and the son's wife is 3 years younger than him.\n\n[Final Answer] The answer is 29 \\n#### 29"
+        ],
+        "I don't know how to solve this question.": [
+            "Question: Steve is 60 years old. His wife is 4 years older than him. Their son is currently half as old as his mom and their son's wife is 3 years younger than her husband. How old is Steve's son's wife?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "I don't know how to solve this question."
+        ]
+    },
+    "hints_reward_imp_bank": {},
+    "fathers": {
+        "[reasoning process] First, let's determine Steve's age and his wife's age. Since Steve is 60, his wife, being 4 years older than him, is 60 + 4 = 64 years old. Next, we can find out their son's age. The son is currently half as old as his mother, so we divide her age by 2: 64 / 2 = 32 years old. Now, we need to find the age of Steve's son's wife. We know that Steve's son's wife is 3 years younger than her husband. Therefore, we subtract 3 from the son's age: 32 - 3 = 29 years old. \n\n[Verification] Let's verify the ages we calculated. Steve is 60, his wife is 64, their son is 32, and his wife is 29. All relationships described in the problem hold true: Steve's wife is indeed 4 years older, the son is half the age of his mother, and the son's wife is 3 years younger than him.\n\n[Final Answer] The answer is 29 \\n#### 29": null,
+        "I don't know how to solve this question.": null
+    },
+    "childs": {
+        "[reasoning process] First, let's determine Steve's age and his wife's age. Since Steve is 60, his wife, being 4 years older than him, is 60 + 4 = 64 years old. Next, we can find out their son's age. The son is currently half as old as his mother, so we divide her age by 2: 64 / 2 = 32 years old. Now, we need to find the age of Steve's son's wife. We know that Steve's son's wife is 3 years younger than her husband. Therefore, we subtract 3 from the son's age: 32 - 3 = 29 years old. \n\n[Verification] Let's verify the ages we calculated. Steve is 60, his wife is 64, their son is 32, and his wife is 29. All relationships described in the problem hold true: Steve's wife is indeed 4 years older, the son is half the age of his mother, and the son's wife is 3 years younger than him.\n\n[Final Answer] The answer is 29 \\n#### 29": [],
+        "I don't know how to solve this question.": []
+    },
+    "ucb_bank": {}
+}

@@ -1,0 +1,44 @@
+{
+    "query": "Frankie and Binkie went bowling together.  Frankie's score was 15 better more than twice as high as Binkie's. If Binkie bowled a score of 90, what was Frankie's score?",
+    "ground_truth": "Twice Binkie's score is 2*90=<<2*90=180>>180.\nFifteen more than twice Binkie's score is 180+15=<<180+15=195>>195.\n#### 195",
+    "hints_list": [],
+    "answers_list": [
+        "[reasoning process]  \nLet's denote Binkie's score as \\( B \\) and Frankie's score as \\( F \\). According to the problem, we know that Binkie's score is \\( B = 90 \\). The relationship described between Frankie's score and Binkie's score is given by the equation:\n\n\\[ \nF = 2B + 15 \n\\]\n\nNow, substituting \\( B \\) with 90:\n\n\\[ \nF = 2(90) + 15 \n\\]\n\nCalculating \\( 2(90) \\):\n\n\\[ \n2(90) = 180 \n\\]\n\nNow, we add 15 to this result:\n\n\\[ \nF = 180 + 15 \n\\]\n\nCalculating this gives:\n\n\\[ \nF = 195 \n\\]\n\nSo, Frankie's score is 195.\n\n[Verification]  \nTo verify, we check our initial relation: Frankie's score should indeed be 15 more than twice Binkie's score. Calculating twice Binkie's score:\n\n\\[ \n2B = 2(90) = 180 \n\\]\n\nNow, adding 15 to this:\n\n\\[ \n180 + 15 = 195 \n\\]\n\nThis confirms that our calculations are correct.\n\n[Final Answer] The answer is 195  \n#### 195",
+        "I don't know the answer to this question, sorry."
+    ],
+    "ground_truth_hints": "",
+    "hints_prompt": "Question: Frankie and Binkie went bowling together.  Frankie's score was 15 better more than twice as high as Binkie's. If Binkie bowled a score of 90, what was Frankie's score?\nCould you provide me with the thought process to solve this problem, but please don’t give me the answer or calculation, just the thought process?",
+    "to_explore": [
+        "[reasoning process]  \nLet's denote Binkie's score as \\( B \\) and Frankie's score as \\( F \\). According to the problem, we know that Binkie's score is \\( B = 90 \\). The relationship described between Frankie's score and Binkie's score is given by the equation:\n\n\\[ \nF = 2B + 15 \n\\]\n\nNow, substituting \\( B \\) with 90:\n\n\\[ \nF = 2(90) + 15 \n\\]\n\nCalculating \\( 2(90) \\):\n\n\\[ \n2(90) = 180 \n\\]\n\nNow, we add 15 to this result:\n\n\\[ \nF = 180 + 15 \n\\]\n\nCalculating this gives:\n\n\\[ \nF = 195 \n\\]\n\nSo, Frankie's score is 195.\n\n[Verification]  \nTo verify, we check our initial relation: Frankie's score should indeed be 15 more than twice Binkie's score. Calculating twice Binkie's score:\n\n\\[ \n2B = 2(90) = 180 \n\\]\n\nNow, adding 15 to this:\n\n\\[ \n180 + 15 = 195 \n\\]\n\nThis confirms that our calculations are correct.\n\n[Final Answer] The answer is 195  \n#### 195",
+        "I don't know the answer to this question, sorry."
+    ],
+    "to_explore_reward": {
+        "[reasoning process]  \nLet's denote Binkie's score as \\( B \\) and Frankie's score as \\( F \\). According to the problem, we know that Binkie's score is \\( B = 90 \\). The relationship described between Frankie's score and Binkie's score is given by the equation:\n\n\\[ \nF = 2B + 15 \n\\]\n\nNow, substituting \\( B \\) with 90:\n\n\\[ \nF = 2(90) + 15 \n\\]\n\nCalculating \\( 2(90) \\):\n\n\\[ \n2(90) = 180 \n\\]\n\nNow, we add 15 to this result:\n\n\\[ \nF = 180 + 15 \n\\]\n\nCalculating this gives:\n\n\\[ \nF = 195 \n\\]\n\nSo, Frankie's score is 195.\n\n[Verification]  \nTo verify, we check our initial relation: Frankie's score should indeed be 15 more than twice Binkie's score. Calculating twice Binkie's score:\n\n\\[ \n2B = 2(90) = 180 \n\\]\n\nNow, adding 15 to this:\n\n\\[ \n180 + 15 = 195 \n\\]\n\nThis confirms that our calculations are correct.\n\n[Final Answer] The answer is 195  \n#### 195": [
+            90.0
+        ],
+        "I don't know the answer to this question, sorry.": [
+            -90.0
+        ]
+    },
+    "hints_bank": {},
+    "history_bank": {
+        "[reasoning process]  \nLet's denote Binkie's score as \\( B \\) and Frankie's score as \\( F \\). According to the problem, we know that Binkie's score is \\( B = 90 \\). The relationship described between Frankie's score and Binkie's score is given by the equation:\n\n\\[ \nF = 2B + 15 \n\\]\n\nNow, substituting \\( B \\) with 90:\n\n\\[ \nF = 2(90) + 15 \n\\]\n\nCalculating \\( 2(90) \\):\n\n\\[ \n2(90) = 180 \n\\]\n\nNow, we add 15 to this result:\n\n\\[ \nF = 180 + 15 \n\\]\n\nCalculating this gives:\n\n\\[ \nF = 195 \n\\]\n\nSo, Frankie's score is 195.\n\n[Verification]  \nTo verify, we check our initial relation: Frankie's score should indeed be 15 more than twice Binkie's score. Calculating twice Binkie's score:\n\n\\[ \n2B = 2(90) = 180 \n\\]\n\nNow, adding 15 to this:\n\n\\[ \n180 + 15 = 195 \n\\]\n\nThis confirms that our calculations are correct.\n\n[Final Answer] The answer is 195  \n#### 195": [
+            "Question: Frankie and Binkie went bowling together.  Frankie's score was 15 better more than twice as high as Binkie's. If Binkie bowled a score of 90, what was Frankie's score?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "[reasoning process]  \nLet's denote Binkie's score as \\( B \\) and Frankie's score as \\( F \\). According to the problem, we know that Binkie's score is \\( B = 90 \\). The relationship described between Frankie's score and Binkie's score is given by the equation:\n\n\\[ \nF = 2B + 15 \n\\]\n\nNow, substituting \\( B \\) with 90:\n\n\\[ \nF = 2(90) + 15 \n\\]\n\nCalculating \\( 2(90) \\):\n\n\\[ \n2(90) = 180 \n\\]\n\nNow, we add 15 to this result:\n\n\\[ \nF = 180 + 15 \n\\]\n\nCalculating this gives:\n\n\\[ \nF = 195 \n\\]\n\nSo, Frankie's score is 195.\n\n[Verification]  \nTo verify, we check our initial relation: Frankie's score should indeed be 15 more than twice Binkie's score. Calculating twice Binkie's score:\n\n\\[ \n2B = 2(90) = 180 \n\\]\n\nNow, adding 15 to this:\n\n\\[ \n180 + 15 = 195 \n\\]\n\nThis confirms that our calculations are correct.\n\n[Final Answer] The answer is 195  \n#### 195"
+        ],
+        "I don't know the answer to this question, sorry.": [
+            "Question: Frankie and Binkie went bowling together.  Frankie's score was 15 better more than twice as high as Binkie's. If Binkie bowled a score of 90, what was Frankie's score?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "I don't know the answer to this question, sorry."
+        ]
+    },
+    "hints_reward_imp_bank": {},
+    "fathers": {
+        "[reasoning process]  \nLet's denote Binkie's score as \\( B \\) and Frankie's score as \\( F \\). According to the problem, we know that Binkie's score is \\( B = 90 \\). The relationship described between Frankie's score and Binkie's score is given by the equation:\n\n\\[ \nF = 2B + 15 \n\\]\n\nNow, substituting \\( B \\) with 90:\n\n\\[ \nF = 2(90) + 15 \n\\]\n\nCalculating \\( 2(90) \\):\n\n\\[ \n2(90) = 180 \n\\]\n\nNow, we add 15 to this result:\n\n\\[ \nF = 180 + 15 \n\\]\n\nCalculating this gives:\n\n\\[ \nF = 195 \n\\]\n\nSo, Frankie's score is 195.\n\n[Verification]  \nTo verify, we check our initial relation: Frankie's score should indeed be 15 more than twice Binkie's score. Calculating twice Binkie's score:\n\n\\[ \n2B = 2(90) = 180 \n\\]\n\nNow, adding 15 to this:\n\n\\[ \n180 + 15 = 195 \n\\]\n\nThis confirms that our calculations are correct.\n\n[Final Answer] The answer is 195  \n#### 195": null,
+        "I don't know the answer to this question, sorry.": null
+    },
+    "childs": {
+        "[reasoning process]  \nLet's denote Binkie's score as \\( B \\) and Frankie's score as \\( F \\). According to the problem, we know that Binkie's score is \\( B = 90 \\). The relationship described between Frankie's score and Binkie's score is given by the equation:\n\n\\[ \nF = 2B + 15 \n\\]\n\nNow, substituting \\( B \\) with 90:\n\n\\[ \nF = 2(90) + 15 \n\\]\n\nCalculating \\( 2(90) \\):\n\n\\[ \n2(90) = 180 \n\\]\n\nNow, we add 15 to this result:\n\n\\[ \nF = 180 + 15 \n\\]\n\nCalculating this gives:\n\n\\[ \nF = 195 \n\\]\n\nSo, Frankie's score is 195.\n\n[Verification]  \nTo verify, we check our initial relation: Frankie's score should indeed be 15 more than twice Binkie's score. Calculating twice Binkie's score:\n\n\\[ \n2B = 2(90) = 180 \n\\]\n\nNow, adding 15 to this:\n\n\\[ \n180 + 15 = 195 \n\\]\n\nThis confirms that our calculations are correct.\n\n[Final Answer] The answer is 195  \n#### 195": [],
+        "I don't know the answer to this question, sorry.": []
+    },
+    "ucb_bank": {}
+}

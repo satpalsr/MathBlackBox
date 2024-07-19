@@ -1,0 +1,44 @@
+{
+    "query": "Given a 7-day week, how much does Alex charge for 2 weeks of tutoring if she charges $12 per day?",
+    "ground_truth": "A week has 7 days, therefore 2 weeks have 2*7= <<2*7=14>>14 days\nIf Alex charges $12 per day, then in $14 days she would charge $12*14 = $<<12*14=168>>168\n#### 168",
+    "hints_list": [],
+    "answers_list": [
+        "[reasoning process] First, we need to find out how many days are in 2 weeks. Since there are 7 days in a week, we can multiply the number of weeks by the number of days in a week: \n\n2 weeks * 7 days/week = 14 days.\n\nNext, we need to calculate the total amount Alex charges for 14 days of tutoring. Since she charges $12 per day, we will multiply the number of days by her daily charge:\n\n14 days * $12/day = $168.\n\n[Verification] Let’s double-check the calculations: \n- Confirm the number of days in 2 weeks: 2 * 7 = 14 days (correct).\n- Confirm the cost for 14 days: 14 * $12 = $168 (correct). \n\nAll calculations are accurate.\n\n[Final Answer] The answer is 168 \\n#### 168",
+        "I don't know the answer to this question, sorry."
+    ],
+    "ground_truth_hints": "",
+    "hints_prompt": "Question: Given a 7-day week, how much does Alex charge for 2 weeks of tutoring if she charges $12 per day?\nCould you provide me with the thought process to solve this problem, but please don’t give me the answer or calculation, just the thought process?",
+    "to_explore": [
+        "[reasoning process] First, we need to find out how many days are in 2 weeks. Since there are 7 days in a week, we can multiply the number of weeks by the number of days in a week: \n\n2 weeks * 7 days/week = 14 days.\n\nNext, we need to calculate the total amount Alex charges for 14 days of tutoring. Since she charges $12 per day, we will multiply the number of days by her daily charge:\n\n14 days * $12/day = $168.\n\n[Verification] Let’s double-check the calculations: \n- Confirm the number of days in 2 weeks: 2 * 7 = 14 days (correct).\n- Confirm the cost for 14 days: 14 * $12 = $168 (correct). \n\nAll calculations are accurate.\n\n[Final Answer] The answer is 168 \\n#### 168",
+        "I don't know the answer to this question, sorry."
+    ],
+    "to_explore_reward": {
+        "[reasoning process] First, we need to find out how many days are in 2 weeks. Since there are 7 days in a week, we can multiply the number of weeks by the number of days in a week: \n\n2 weeks * 7 days/week = 14 days.\n\nNext, we need to calculate the total amount Alex charges for 14 days of tutoring. Since she charges $12 per day, we will multiply the number of days by her daily charge:\n\n14 days * $12/day = $168.\n\n[Verification] Let’s double-check the calculations: \n- Confirm the number of days in 2 weeks: 2 * 7 = 14 days (correct).\n- Confirm the cost for 14 days: 14 * $12 = $168 (correct). \n\nAll calculations are accurate.\n\n[Final Answer] The answer is 168 \\n#### 168": [
+            70.0
+        ],
+        "I don't know the answer to this question, sorry.": [
+            -85.0
+        ]
+    },
+    "hints_bank": {},
+    "history_bank": {
+        "[reasoning process] First, we need to find out how many days are in 2 weeks. Since there are 7 days in a week, we can multiply the number of weeks by the number of days in a week: \n\n2 weeks * 7 days/week = 14 days.\n\nNext, we need to calculate the total amount Alex charges for 14 days of tutoring. Since she charges $12 per day, we will multiply the number of days by her daily charge:\n\n14 days * $12/day = $168.\n\n[Verification] Let’s double-check the calculations: \n- Confirm the number of days in 2 weeks: 2 * 7 = 14 days (correct).\n- Confirm the cost for 14 days: 14 * $12 = $168 (correct). \n\nAll calculations are accurate.\n\n[Final Answer] The answer is 168 \\n#### 168": [
+            "Question: Given a 7-day week, how much does Alex charge for 2 weeks of tutoring if she charges $12 per day?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "[reasoning process] First, we need to find out how many days are in 2 weeks. Since there are 7 days in a week, we can multiply the number of weeks by the number of days in a week: \n\n2 weeks * 7 days/week = 14 days.\n\nNext, we need to calculate the total amount Alex charges for 14 days of tutoring. Since she charges $12 per day, we will multiply the number of days by her daily charge:\n\n14 days * $12/day = $168.\n\n[Verification] Let’s double-check the calculations: \n- Confirm the number of days in 2 weeks: 2 * 7 = 14 days (correct).\n- Confirm the cost for 14 days: 14 * $12 = $168 (correct). \n\nAll calculations are accurate.\n\n[Final Answer] The answer is 168 \\n#### 168"
+        ],
+        "I don't know the answer to this question, sorry.": [
+            "Question: Given a 7-day week, how much does Alex charge for 2 weeks of tutoring if she charges $12 per day?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "I don't know the answer to this question, sorry."
+        ]
+    },
+    "hints_reward_imp_bank": {},
+    "fathers": {
+        "[reasoning process] First, we need to find out how many days are in 2 weeks. Since there are 7 days in a week, we can multiply the number of weeks by the number of days in a week: \n\n2 weeks * 7 days/week = 14 days.\n\nNext, we need to calculate the total amount Alex charges for 14 days of tutoring. Since she charges $12 per day, we will multiply the number of days by her daily charge:\n\n14 days * $12/day = $168.\n\n[Verification] Let’s double-check the calculations: \n- Confirm the number of days in 2 weeks: 2 * 7 = 14 days (correct).\n- Confirm the cost for 14 days: 14 * $12 = $168 (correct). \n\nAll calculations are accurate.\n\n[Final Answer] The answer is 168 \\n#### 168": null,
+        "I don't know the answer to this question, sorry.": null
+    },
+    "childs": {
+        "[reasoning process] First, we need to find out how many days are in 2 weeks. Since there are 7 days in a week, we can multiply the number of weeks by the number of days in a week: \n\n2 weeks * 7 days/week = 14 days.\n\nNext, we need to calculate the total amount Alex charges for 14 days of tutoring. Since she charges $12 per day, we will multiply the number of days by her daily charge:\n\n14 days * $12/day = $168.\n\n[Verification] Let’s double-check the calculations: \n- Confirm the number of days in 2 weeks: 2 * 7 = 14 days (correct).\n- Confirm the cost for 14 days: 14 * $12 = $168 (correct). \n\nAll calculations are accurate.\n\n[Final Answer] The answer is 168 \\n#### 168": [],
+        "I don't know the answer to this question, sorry.": []
+    },
+    "ucb_bank": {}
+}

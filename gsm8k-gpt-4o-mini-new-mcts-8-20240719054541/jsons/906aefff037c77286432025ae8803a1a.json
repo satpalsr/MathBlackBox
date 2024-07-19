@@ -1,0 +1,44 @@
+{
+    "query": "Jean has 30 lollipops. Jean eats 2 of the lollipops. With the remaining lollipops, Jean wants to package 2 lollipops in one bag. How many bags can Jean fill?",
+    "ground_truth": "Jean has 30 - 2 = <<30-2=28>>28 lollipops\nJean can fill up 28 / 2 = <<28/2=14>>14 bags with lollipops\n#### 14",
+    "hints_list": [],
+    "answers_list": [
+        "[reasoning process]  \nJean starts with 30 lollipops and eats 2 of them. Therefore, the number of lollipops remaining is calculated as follows:  \n30 lollipops - 2 lollipops = 28 lollipops remaining.  \n\nJean wants to package these remaining lollipops into bags containing 2 lollipops each. To find out how many bags Jean can fill, we divide the number of remaining lollipops by the number of lollipops per bag:  \n28 lollipops ÷ 2 lollipops/bag = 14 bags.  \n\n[Verification]  \nTo verify, we can multiply the number of bags by the number of lollipops per bag to check if it equals the number of remaining lollipops:  \n14 bags × 2 lollipops/bag = 28 lollipops, which matches the number of remaining lollipops.  \n\n[Final Answer] The answer is 14  \n#### 14",
+        "I don't know the answer to this question, sorry."
+    ],
+    "ground_truth_hints": "",
+    "hints_prompt": "Question: Jean has 30 lollipops. Jean eats 2 of the lollipops. With the remaining lollipops, Jean wants to package 2 lollipops in one bag. How many bags can Jean fill?\nCould you provide me with the thought process to solve this problem, but please don’t give me the answer or calculation, just the thought process?",
+    "to_explore": [
+        "[reasoning process]  \nJean starts with 30 lollipops and eats 2 of them. Therefore, the number of lollipops remaining is calculated as follows:  \n30 lollipops - 2 lollipops = 28 lollipops remaining.  \n\nJean wants to package these remaining lollipops into bags containing 2 lollipops each. To find out how many bags Jean can fill, we divide the number of remaining lollipops by the number of lollipops per bag:  \n28 lollipops ÷ 2 lollipops/bag = 14 bags.  \n\n[Verification]  \nTo verify, we can multiply the number of bags by the number of lollipops per bag to check if it equals the number of remaining lollipops:  \n14 bags × 2 lollipops/bag = 28 lollipops, which matches the number of remaining lollipops.  \n\n[Final Answer] The answer is 14  \n#### 14",
+        "I don't know the answer to this question, sorry."
+    ],
+    "to_explore_reward": {
+        "[reasoning process]  \nJean starts with 30 lollipops and eats 2 of them. Therefore, the number of lollipops remaining is calculated as follows:  \n30 lollipops - 2 lollipops = 28 lollipops remaining.  \n\nJean wants to package these remaining lollipops into bags containing 2 lollipops each. To find out how many bags Jean can fill, we divide the number of remaining lollipops by the number of lollipops per bag:  \n28 lollipops ÷ 2 lollipops/bag = 14 bags.  \n\n[Verification]  \nTo verify, we can multiply the number of bags by the number of lollipops per bag to check if it equals the number of remaining lollipops:  \n14 bags × 2 lollipops/bag = 28 lollipops, which matches the number of remaining lollipops.  \n\n[Final Answer] The answer is 14  \n#### 14": [
+            85.0
+        ],
+        "I don't know the answer to this question, sorry.": [
+            -85.0
+        ]
+    },
+    "hints_bank": {},
+    "history_bank": {
+        "[reasoning process]  \nJean starts with 30 lollipops and eats 2 of them. Therefore, the number of lollipops remaining is calculated as follows:  \n30 lollipops - 2 lollipops = 28 lollipops remaining.  \n\nJean wants to package these remaining lollipops into bags containing 2 lollipops each. To find out how many bags Jean can fill, we divide the number of remaining lollipops by the number of lollipops per bag:  \n28 lollipops ÷ 2 lollipops/bag = 14 bags.  \n\n[Verification]  \nTo verify, we can multiply the number of bags by the number of lollipops per bag to check if it equals the number of remaining lollipops:  \n14 bags × 2 lollipops/bag = 28 lollipops, which matches the number of remaining lollipops.  \n\n[Final Answer] The answer is 14  \n#### 14": [
+            "Question: Jean has 30 lollipops. Jean eats 2 of the lollipops. With the remaining lollipops, Jean wants to package 2 lollipops in one bag. How many bags can Jean fill?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "[reasoning process]  \nJean starts with 30 lollipops and eats 2 of them. Therefore, the number of lollipops remaining is calculated as follows:  \n30 lollipops - 2 lollipops = 28 lollipops remaining.  \n\nJean wants to package these remaining lollipops into bags containing 2 lollipops each. To find out how many bags Jean can fill, we divide the number of remaining lollipops by the number of lollipops per bag:  \n28 lollipops ÷ 2 lollipops/bag = 14 bags.  \n\n[Verification]  \nTo verify, we can multiply the number of bags by the number of lollipops per bag to check if it equals the number of remaining lollipops:  \n14 bags × 2 lollipops/bag = 28 lollipops, which matches the number of remaining lollipops.  \n\n[Final Answer] The answer is 14  \n#### 14"
+        ],
+        "I don't know the answer to this question, sorry.": [
+            "Question: Jean has 30 lollipops. Jean eats 2 of the lollipops. With the remaining lollipops, Jean wants to package 2 lollipops in one bag. How many bags can Jean fill?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "I don't know the answer to this question, sorry."
+        ]
+    },
+    "hints_reward_imp_bank": {},
+    "fathers": {
+        "[reasoning process]  \nJean starts with 30 lollipops and eats 2 of them. Therefore, the number of lollipops remaining is calculated as follows:  \n30 lollipops - 2 lollipops = 28 lollipops remaining.  \n\nJean wants to package these remaining lollipops into bags containing 2 lollipops each. To find out how many bags Jean can fill, we divide the number of remaining lollipops by the number of lollipops per bag:  \n28 lollipops ÷ 2 lollipops/bag = 14 bags.  \n\n[Verification]  \nTo verify, we can multiply the number of bags by the number of lollipops per bag to check if it equals the number of remaining lollipops:  \n14 bags × 2 lollipops/bag = 28 lollipops, which matches the number of remaining lollipops.  \n\n[Final Answer] The answer is 14  \n#### 14": null,
+        "I don't know the answer to this question, sorry.": null
+    },
+    "childs": {
+        "[reasoning process]  \nJean starts with 30 lollipops and eats 2 of them. Therefore, the number of lollipops remaining is calculated as follows:  \n30 lollipops - 2 lollipops = 28 lollipops remaining.  \n\nJean wants to package these remaining lollipops into bags containing 2 lollipops each. To find out how many bags Jean can fill, we divide the number of remaining lollipops by the number of lollipops per bag:  \n28 lollipops ÷ 2 lollipops/bag = 14 bags.  \n\n[Verification]  \nTo verify, we can multiply the number of bags by the number of lollipops per bag to check if it equals the number of remaining lollipops:  \n14 bags × 2 lollipops/bag = 28 lollipops, which matches the number of remaining lollipops.  \n\n[Final Answer] The answer is 14  \n#### 14": [],
+        "I don't know the answer to this question, sorry.": []
+    },
+    "ucb_bank": {}
+}

@@ -1,0 +1,44 @@
+{
+    "query": "Pierson scored 278 points in one game of bowling. Nikita scored 11 more than half as many as Pierson. How many points did Pierson and Nikita have in total?",
+    "ground_truth": "Pierson = <<278=278>>278 points\nNikita = (1/2) 278 + 11 = 150 points\n278 + 150 = <<278+150=428>>428 points\nTogether, Pierson and Nikita scored 428 points.\n#### 428",
+    "hints_list": [],
+    "answers_list": [
+        "[reasoning process] \nTo solve the problem, we first need to determine how many points Nikita scored. We know that Pierson scored 278 points. Nikita's score is described as \"11 more than half as many as Pierson.\" \n\n1. Calculate half of Pierson's score:\n   \\[\n   \\frac{278}{2} = 139\n   \\]\n\n2. Add 11 to this half:\n   \\[\n   139 + 11 = 150\n   \\]\n\nSo, Nikita scored 150 points.\n\nNext, we find the total score of Pierson and Nikita combined by adding their scores together:\n\\[\n278 + 150 = 428\n\\]\n\n[Verification] \nTo verify, we can double-check each step:\n- Half of 278 is indeed 139.\n- Adding 11 to 139 gives us 150 for Nikita's score.\n- Finally, summing 278 and 150 should produce the total score of 428. \n\nAll calculations confirm the findings.\n\n[Final Answer] The answer is 428 \\n#### 428",
+        "I can't understand this question."
+    ],
+    "ground_truth_hints": "",
+    "hints_prompt": "Question: Pierson scored 278 points in one game of bowling. Nikita scored 11 more than half as many as Pierson. How many points did Pierson and Nikita have in total?\nCould you provide me with the thought process to solve this problem, but please don’t give me the answer or calculation, just the thought process?",
+    "to_explore": [
+        "[reasoning process] \nTo solve the problem, we first need to determine how many points Nikita scored. We know that Pierson scored 278 points. Nikita's score is described as \"11 more than half as many as Pierson.\" \n\n1. Calculate half of Pierson's score:\n   \\[\n   \\frac{278}{2} = 139\n   \\]\n\n2. Add 11 to this half:\n   \\[\n   139 + 11 = 150\n   \\]\n\nSo, Nikita scored 150 points.\n\nNext, we find the total score of Pierson and Nikita combined by adding their scores together:\n\\[\n278 + 150 = 428\n\\]\n\n[Verification] \nTo verify, we can double-check each step:\n- Half of 278 is indeed 139.\n- Adding 11 to 139 gives us 150 for Nikita's score.\n- Finally, summing 278 and 150 should produce the total score of 428. \n\nAll calculations confirm the findings.\n\n[Final Answer] The answer is 428 \\n#### 428",
+        "I can't understand this question."
+    ],
+    "to_explore_reward": {
+        "[reasoning process] \nTo solve the problem, we first need to determine how many points Nikita scored. We know that Pierson scored 278 points. Nikita's score is described as \"11 more than half as many as Pierson.\" \n\n1. Calculate half of Pierson's score:\n   \\[\n   \\frac{278}{2} = 139\n   \\]\n\n2. Add 11 to this half:\n   \\[\n   139 + 11 = 150\n   \\]\n\nSo, Nikita scored 150 points.\n\nNext, we find the total score of Pierson and Nikita combined by adding their scores together:\n\\[\n278 + 150 = 428\n\\]\n\n[Verification] \nTo verify, we can double-check each step:\n- Half of 278 is indeed 139.\n- Adding 11 to 139 gives us 150 for Nikita's score.\n- Finally, summing 278 and 150 should produce the total score of 428. \n\nAll calculations confirm the findings.\n\n[Final Answer] The answer is 428 \\n#### 428": [
+            85.0
+        ],
+        "I can't understand this question.": [
+            -85.0
+        ]
+    },
+    "hints_bank": {},
+    "history_bank": {
+        "[reasoning process] \nTo solve the problem, we first need to determine how many points Nikita scored. We know that Pierson scored 278 points. Nikita's score is described as \"11 more than half as many as Pierson.\" \n\n1. Calculate half of Pierson's score:\n   \\[\n   \\frac{278}{2} = 139\n   \\]\n\n2. Add 11 to this half:\n   \\[\n   139 + 11 = 150\n   \\]\n\nSo, Nikita scored 150 points.\n\nNext, we find the total score of Pierson and Nikita combined by adding their scores together:\n\\[\n278 + 150 = 428\n\\]\n\n[Verification] \nTo verify, we can double-check each step:\n- Half of 278 is indeed 139.\n- Adding 11 to 139 gives us 150 for Nikita's score.\n- Finally, summing 278 and 150 should produce the total score of 428. \n\nAll calculations confirm the findings.\n\n[Final Answer] The answer is 428 \\n#### 428": [
+            "Question: Pierson scored 278 points in one game of bowling. Nikita scored 11 more than half as many as Pierson. How many points did Pierson and Nikita have in total?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "[reasoning process] \nTo solve the problem, we first need to determine how many points Nikita scored. We know that Pierson scored 278 points. Nikita's score is described as \"11 more than half as many as Pierson.\" \n\n1. Calculate half of Pierson's score:\n   \\[\n   \\frac{278}{2} = 139\n   \\]\n\n2. Add 11 to this half:\n   \\[\n   139 + 11 = 150\n   \\]\n\nSo, Nikita scored 150 points.\n\nNext, we find the total score of Pierson and Nikita combined by adding their scores together:\n\\[\n278 + 150 = 428\n\\]\n\n[Verification] \nTo verify, we can double-check each step:\n- Half of 278 is indeed 139.\n- Adding 11 to 139 gives us 150 for Nikita's score.\n- Finally, summing 278 and 150 should produce the total score of 428. \n\nAll calculations confirm the findings.\n\n[Final Answer] The answer is 428 \\n#### 428"
+        ],
+        "I can't understand this question.": [
+            "Question: Pierson scored 278 points in one game of bowling. Nikita scored 11 more than half as many as Pierson. How many points did Pierson and Nikita have in total?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "I can't understand this question."
+        ]
+    },
+    "hints_reward_imp_bank": {},
+    "fathers": {
+        "[reasoning process] \nTo solve the problem, we first need to determine how many points Nikita scored. We know that Pierson scored 278 points. Nikita's score is described as \"11 more than half as many as Pierson.\" \n\n1. Calculate half of Pierson's score:\n   \\[\n   \\frac{278}{2} = 139\n   \\]\n\n2. Add 11 to this half:\n   \\[\n   139 + 11 = 150\n   \\]\n\nSo, Nikita scored 150 points.\n\nNext, we find the total score of Pierson and Nikita combined by adding their scores together:\n\\[\n278 + 150 = 428\n\\]\n\n[Verification] \nTo verify, we can double-check each step:\n- Half of 278 is indeed 139.\n- Adding 11 to 139 gives us 150 for Nikita's score.\n- Finally, summing 278 and 150 should produce the total score of 428. \n\nAll calculations confirm the findings.\n\n[Final Answer] The answer is 428 \\n#### 428": null,
+        "I can't understand this question.": null
+    },
+    "childs": {
+        "[reasoning process] \nTo solve the problem, we first need to determine how many points Nikita scored. We know that Pierson scored 278 points. Nikita's score is described as \"11 more than half as many as Pierson.\" \n\n1. Calculate half of Pierson's score:\n   \\[\n   \\frac{278}{2} = 139\n   \\]\n\n2. Add 11 to this half:\n   \\[\n   139 + 11 = 150\n   \\]\n\nSo, Nikita scored 150 points.\n\nNext, we find the total score of Pierson and Nikita combined by adding their scores together:\n\\[\n278 + 150 = 428\n\\]\n\n[Verification] \nTo verify, we can double-check each step:\n- Half of 278 is indeed 139.\n- Adding 11 to 139 gives us 150 for Nikita's score.\n- Finally, summing 278 and 150 should produce the total score of 428. \n\nAll calculations confirm the findings.\n\n[Final Answer] The answer is 428 \\n#### 428": [],
+        "I can't understand this question.": []
+    },
+    "ucb_bank": {}
+}

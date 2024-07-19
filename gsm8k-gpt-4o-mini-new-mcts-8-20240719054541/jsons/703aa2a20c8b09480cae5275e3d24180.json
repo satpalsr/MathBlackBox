@@ -1,0 +1,44 @@
+{
+    "query": "Raymond had $21. Then he saved $11 from his allowance and spent $5 on a comic book and $19 on a puzzle. How much money does Raymond have left?",
+    "ground_truth": "Raymond started with $21 + $11 = $<<21+11=32>>32.\nRaymond then spent $5 + $19 = $<<5+19=24>>24.\nRaymond now has $32 - $24 = $<<32-24=8>>8 left.\n#### 8",
+    "hints_list": [],
+    "answers_list": [
+        "[reasoning process] \nRaymond initially has $21. He saves an additional $11 from his allowance, which increases his total amount of money. \n\nFirst, we calculate his new total after saving:\n\\[\n21 + 11 = 32\n\\]\n\nNext, we account for his expenditures. He spends $5 on a comic book and $19 on a puzzle. We add these two amounts together to find the total amount spent:\n\\[\n5 + 19 = 24\n\\]\n\nNow, we subtract the total spending from his current total amount:\n\\[\n32 - 24 = 8\n\\]\n\nSo, after saving and spending, Raymond has $8 left.\n\n[Verification] \nLet's confirm the calculations step-by-step:\n1. Starting amount: $21\n2. Amount saved: $11\n3. New total after saving: $21 + $11 = $32\n4. Amount spent on comic book: $5\n5. Amount spent on puzzle: $19\n6. Total spent: $5 + $19 = $24\n7. Amount left: $32 - $24 = $8\n\nAll calculations are consistent and correct.\n\n[Final Answer] The answer is 8 \\n#### 8",
+        "I don't know the answer to this question."
+    ],
+    "ground_truth_hints": "",
+    "hints_prompt": "Question: Raymond had $21. Then he saved $11 from his allowance and spent $5 on a comic book and $19 on a puzzle. How much money does Raymond have left?\nCould you provide me with the thought process to solve this problem, but please don’t give me the answer or calculation, just the thought process?",
+    "to_explore": [
+        "[reasoning process] \nRaymond initially has $21. He saves an additional $11 from his allowance, which increases his total amount of money. \n\nFirst, we calculate his new total after saving:\n\\[\n21 + 11 = 32\n\\]\n\nNext, we account for his expenditures. He spends $5 on a comic book and $19 on a puzzle. We add these two amounts together to find the total amount spent:\n\\[\n5 + 19 = 24\n\\]\n\nNow, we subtract the total spending from his current total amount:\n\\[\n32 - 24 = 8\n\\]\n\nSo, after saving and spending, Raymond has $8 left.\n\n[Verification] \nLet's confirm the calculations step-by-step:\n1. Starting amount: $21\n2. Amount saved: $11\n3. New total after saving: $21 + $11 = $32\n4. Amount spent on comic book: $5\n5. Amount spent on puzzle: $19\n6. Total spent: $5 + $19 = $24\n7. Amount left: $32 - $24 = $8\n\nAll calculations are consistent and correct.\n\n[Final Answer] The answer is 8 \\n#### 8",
+        "I don't know the answer to this question."
+    ],
+    "to_explore_reward": {
+        "[reasoning process] \nRaymond initially has $21. He saves an additional $11 from his allowance, which increases his total amount of money. \n\nFirst, we calculate his new total after saving:\n\\[\n21 + 11 = 32\n\\]\n\nNext, we account for his expenditures. He spends $5 on a comic book and $19 on a puzzle. We add these two amounts together to find the total amount spent:\n\\[\n5 + 19 = 24\n\\]\n\nNow, we subtract the total spending from his current total amount:\n\\[\n32 - 24 = 8\n\\]\n\nSo, after saving and spending, Raymond has $8 left.\n\n[Verification] \nLet's confirm the calculations step-by-step:\n1. Starting amount: $21\n2. Amount saved: $11\n3. New total after saving: $21 + $11 = $32\n4. Amount spent on comic book: $5\n5. Amount spent on puzzle: $19\n6. Total spent: $5 + $19 = $24\n7. Amount left: $32 - $24 = $8\n\nAll calculations are consistent and correct.\n\n[Final Answer] The answer is 8 \\n#### 8": [
+            75.0
+        ],
+        "I don't know the answer to this question.": [
+            -85.0
+        ]
+    },
+    "hints_bank": {},
+    "history_bank": {
+        "[reasoning process] \nRaymond initially has $21. He saves an additional $11 from his allowance, which increases his total amount of money. \n\nFirst, we calculate his new total after saving:\n\\[\n21 + 11 = 32\n\\]\n\nNext, we account for his expenditures. He spends $5 on a comic book and $19 on a puzzle. We add these two amounts together to find the total amount spent:\n\\[\n5 + 19 = 24\n\\]\n\nNow, we subtract the total spending from his current total amount:\n\\[\n32 - 24 = 8\n\\]\n\nSo, after saving and spending, Raymond has $8 left.\n\n[Verification] \nLet's confirm the calculations step-by-step:\n1. Starting amount: $21\n2. Amount saved: $11\n3. New total after saving: $21 + $11 = $32\n4. Amount spent on comic book: $5\n5. Amount spent on puzzle: $19\n6. Total spent: $5 + $19 = $24\n7. Amount left: $32 - $24 = $8\n\nAll calculations are consistent and correct.\n\n[Final Answer] The answer is 8 \\n#### 8": [
+            "Question: Raymond had $21. Then he saved $11 from his allowance and spent $5 on a comic book and $19 on a puzzle. How much money does Raymond have left?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "[reasoning process] \nRaymond initially has $21. He saves an additional $11 from his allowance, which increases his total amount of money. \n\nFirst, we calculate his new total after saving:\n\\[\n21 + 11 = 32\n\\]\n\nNext, we account for his expenditures. He spends $5 on a comic book and $19 on a puzzle. We add these two amounts together to find the total amount spent:\n\\[\n5 + 19 = 24\n\\]\n\nNow, we subtract the total spending from his current total amount:\n\\[\n32 - 24 = 8\n\\]\n\nSo, after saving and spending, Raymond has $8 left.\n\n[Verification] \nLet's confirm the calculations step-by-step:\n1. Starting amount: $21\n2. Amount saved: $11\n3. New total after saving: $21 + $11 = $32\n4. Amount spent on comic book: $5\n5. Amount spent on puzzle: $19\n6. Total spent: $5 + $19 = $24\n7. Amount left: $32 - $24 = $8\n\nAll calculations are consistent and correct.\n\n[Final Answer] The answer is 8 \\n#### 8"
+        ],
+        "I don't know the answer to this question.": [
+            "Question: Raymond had $21. Then he saved $11 from his allowance and spent $5 on a comic book and $19 on a puzzle. How much money does Raymond have left?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "I don't know the answer to this question."
+        ]
+    },
+    "hints_reward_imp_bank": {},
+    "fathers": {
+        "[reasoning process] \nRaymond initially has $21. He saves an additional $11 from his allowance, which increases his total amount of money. \n\nFirst, we calculate his new total after saving:\n\\[\n21 + 11 = 32\n\\]\n\nNext, we account for his expenditures. He spends $5 on a comic book and $19 on a puzzle. We add these two amounts together to find the total amount spent:\n\\[\n5 + 19 = 24\n\\]\n\nNow, we subtract the total spending from his current total amount:\n\\[\n32 - 24 = 8\n\\]\n\nSo, after saving and spending, Raymond has $8 left.\n\n[Verification] \nLet's confirm the calculations step-by-step:\n1. Starting amount: $21\n2. Amount saved: $11\n3. New total after saving: $21 + $11 = $32\n4. Amount spent on comic book: $5\n5. Amount spent on puzzle: $19\n6. Total spent: $5 + $19 = $24\n7. Amount left: $32 - $24 = $8\n\nAll calculations are consistent and correct.\n\n[Final Answer] The answer is 8 \\n#### 8": null,
+        "I don't know the answer to this question.": null
+    },
+    "childs": {
+        "[reasoning process] \nRaymond initially has $21. He saves an additional $11 from his allowance, which increases his total amount of money. \n\nFirst, we calculate his new total after saving:\n\\[\n21 + 11 = 32\n\\]\n\nNext, we account for his expenditures. He spends $5 on a comic book and $19 on a puzzle. We add these two amounts together to find the total amount spent:\n\\[\n5 + 19 = 24\n\\]\n\nNow, we subtract the total spending from his current total amount:\n\\[\n32 - 24 = 8\n\\]\n\nSo, after saving and spending, Raymond has $8 left.\n\n[Verification] \nLet's confirm the calculations step-by-step:\n1. Starting amount: $21\n2. Amount saved: $11\n3. New total after saving: $21 + $11 = $32\n4. Amount spent on comic book: $5\n5. Amount spent on puzzle: $19\n6. Total spent: $5 + $19 = $24\n7. Amount left: $32 - $24 = $8\n\nAll calculations are consistent and correct.\n\n[Final Answer] The answer is 8 \\n#### 8": [],
+        "I don't know the answer to this question.": []
+    },
+    "ucb_bank": {}
+}

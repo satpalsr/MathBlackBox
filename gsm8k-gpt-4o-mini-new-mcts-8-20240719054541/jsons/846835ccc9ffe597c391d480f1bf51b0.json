@@ -1,0 +1,44 @@
+{
+    "query": "Sarah went to buy books from the store and spent $300 on the books. If each book was $15 and she gave an equal number of books to her 4 kids, how many books did each child get?",
+    "ground_truth": "Since she spent $300 on the books and each book's cost was $15, she bought $300/$15= <<300/15=20>>20 books.\nIf Sarah gave an equal number of books to each of her children, each kid received 20/4 = <<20/4=5>>5 books.\n#### 5",
+    "hints_list": [],
+    "answers_list": [
+        "[reasoning process]  \nFirst, we need to determine how many books Sarah bought with her $300. Each book costs $15, so we can find the total number of books by dividing the total money spent by the price per book:\n\n\\[\n\\text{Total books} = \\frac{300}{15} = 20 \\text{ books}\n\\]\n\nNext, Sarah has 4 kids and she gives an equal number of books to each child. To find out how many books each child receives, we divide the total number of books by the number of children:\n\n\\[\n\\text{Books per child} = \\frac{20}{4} = 5 \\text{ books}\n\\]\n\n[Verification]  \nTo verify, we can check if distributing 5 books to each of the 4 kids accounts for all 20 books:\n\n\\[\n5 \\text{ books/child} \\times 4 \\text{ children} = 20 \\text{ books}\n\\]\n\nSince the total equals the number of books Sarah bought, the distribution is correct.\n\n[Final Answer] The answer is 5  \n#### 5",
+        "I don't know how to solve this question."
+    ],
+    "ground_truth_hints": "",
+    "hints_prompt": "Question: Sarah went to buy books from the store and spent $300 on the books. If each book was $15 and she gave an equal number of books to her 4 kids, how many books did each child get?\nCould you provide me with the thought process to solve this problem, but please don’t give me the answer or calculation, just the thought process?",
+    "to_explore": [
+        "[reasoning process]  \nFirst, we need to determine how many books Sarah bought with her $300. Each book costs $15, so we can find the total number of books by dividing the total money spent by the price per book:\n\n\\[\n\\text{Total books} = \\frac{300}{15} = 20 \\text{ books}\n\\]\n\nNext, Sarah has 4 kids and she gives an equal number of books to each child. To find out how many books each child receives, we divide the total number of books by the number of children:\n\n\\[\n\\text{Books per child} = \\frac{20}{4} = 5 \\text{ books}\n\\]\n\n[Verification]  \nTo verify, we can check if distributing 5 books to each of the 4 kids accounts for all 20 books:\n\n\\[\n5 \\text{ books/child} \\times 4 \\text{ children} = 20 \\text{ books}\n\\]\n\nSince the total equals the number of books Sarah bought, the distribution is correct.\n\n[Final Answer] The answer is 5  \n#### 5",
+        "I don't know how to solve this question."
+    ],
+    "to_explore_reward": {
+        "[reasoning process]  \nFirst, we need to determine how many books Sarah bought with her $300. Each book costs $15, so we can find the total number of books by dividing the total money spent by the price per book:\n\n\\[\n\\text{Total books} = \\frac{300}{15} = 20 \\text{ books}\n\\]\n\nNext, Sarah has 4 kids and she gives an equal number of books to each child. To find out how many books each child receives, we divide the total number of books by the number of children:\n\n\\[\n\\text{Books per child} = \\frac{20}{4} = 5 \\text{ books}\n\\]\n\n[Verification]  \nTo verify, we can check if distributing 5 books to each of the 4 kids accounts for all 20 books:\n\n\\[\n5 \\text{ books/child} \\times 4 \\text{ children} = 20 \\text{ books}\n\\]\n\nSince the total equals the number of books Sarah bought, the distribution is correct.\n\n[Final Answer] The answer is 5  \n#### 5": [
+            60.0
+        ],
+        "I don't know how to solve this question.": [
+            -95.0
+        ]
+    },
+    "hints_bank": {},
+    "history_bank": {
+        "[reasoning process]  \nFirst, we need to determine how many books Sarah bought with her $300. Each book costs $15, so we can find the total number of books by dividing the total money spent by the price per book:\n\n\\[\n\\text{Total books} = \\frac{300}{15} = 20 \\text{ books}\n\\]\n\nNext, Sarah has 4 kids and she gives an equal number of books to each child. To find out how many books each child receives, we divide the total number of books by the number of children:\n\n\\[\n\\text{Books per child} = \\frac{20}{4} = 5 \\text{ books}\n\\]\n\n[Verification]  \nTo verify, we can check if distributing 5 books to each of the 4 kids accounts for all 20 books:\n\n\\[\n5 \\text{ books/child} \\times 4 \\text{ children} = 20 \\text{ books}\n\\]\n\nSince the total equals the number of books Sarah bought, the distribution is correct.\n\n[Final Answer] The answer is 5  \n#### 5": [
+            "Question: Sarah went to buy books from the store and spent $300 on the books. If each book was $15 and she gave an equal number of books to her 4 kids, how many books did each child get?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "[reasoning process]  \nFirst, we need to determine how many books Sarah bought with her $300. Each book costs $15, so we can find the total number of books by dividing the total money spent by the price per book:\n\n\\[\n\\text{Total books} = \\frac{300}{15} = 20 \\text{ books}\n\\]\n\nNext, Sarah has 4 kids and she gives an equal number of books to each child. To find out how many books each child receives, we divide the total number of books by the number of children:\n\n\\[\n\\text{Books per child} = \\frac{20}{4} = 5 \\text{ books}\n\\]\n\n[Verification]  \nTo verify, we can check if distributing 5 books to each of the 4 kids accounts for all 20 books:\n\n\\[\n5 \\text{ books/child} \\times 4 \\text{ children} = 20 \\text{ books}\n\\]\n\nSince the total equals the number of books Sarah bought, the distribution is correct.\n\n[Final Answer] The answer is 5  \n#### 5"
+        ],
+        "I don't know how to solve this question.": [
+            "Question: Sarah went to buy books from the store and spent $300 on the books. If each book was $15 and she gave an equal number of books to her 4 kids, how many books did each child get?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "I don't know how to solve this question."
+        ]
+    },
+    "hints_reward_imp_bank": {},
+    "fathers": {
+        "[reasoning process]  \nFirst, we need to determine how many books Sarah bought with her $300. Each book costs $15, so we can find the total number of books by dividing the total money spent by the price per book:\n\n\\[\n\\text{Total books} = \\frac{300}{15} = 20 \\text{ books}\n\\]\n\nNext, Sarah has 4 kids and she gives an equal number of books to each child. To find out how many books each child receives, we divide the total number of books by the number of children:\n\n\\[\n\\text{Books per child} = \\frac{20}{4} = 5 \\text{ books}\n\\]\n\n[Verification]  \nTo verify, we can check if distributing 5 books to each of the 4 kids accounts for all 20 books:\n\n\\[\n5 \\text{ books/child} \\times 4 \\text{ children} = 20 \\text{ books}\n\\]\n\nSince the total equals the number of books Sarah bought, the distribution is correct.\n\n[Final Answer] The answer is 5  \n#### 5": null,
+        "I don't know how to solve this question.": null
+    },
+    "childs": {
+        "[reasoning process]  \nFirst, we need to determine how many books Sarah bought with her $300. Each book costs $15, so we can find the total number of books by dividing the total money spent by the price per book:\n\n\\[\n\\text{Total books} = \\frac{300}{15} = 20 \\text{ books}\n\\]\n\nNext, Sarah has 4 kids and she gives an equal number of books to each child. To find out how many books each child receives, we divide the total number of books by the number of children:\n\n\\[\n\\text{Books per child} = \\frac{20}{4} = 5 \\text{ books}\n\\]\n\n[Verification]  \nTo verify, we can check if distributing 5 books to each of the 4 kids accounts for all 20 books:\n\n\\[\n5 \\text{ books/child} \\times 4 \\text{ children} = 20 \\text{ books}\n\\]\n\nSince the total equals the number of books Sarah bought, the distribution is correct.\n\n[Final Answer] The answer is 5  \n#### 5": [],
+        "I don't know how to solve this question.": []
+    },
+    "ucb_bank": {}
+}

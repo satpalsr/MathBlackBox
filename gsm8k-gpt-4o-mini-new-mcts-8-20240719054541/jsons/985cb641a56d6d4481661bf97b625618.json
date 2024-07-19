@@ -1,0 +1,44 @@
+{
+    "query": "Charlie had 10 stickers. He bought 21 stickers from a store in the mall and got 23 stickers for his birthday. Then Charlie gave 9 of the stickers to his sister and used 28 to decorate a greeting card. How many stickers does Charlie have left?",
+    "ground_truth": "The total number of stickers is 10 + 21 + 23 = <<10+21+23=54>>54.\nThe number of stickers given away and used on the greeting card is 9 + 28 = <<9+28=37>>37.\nCharlie has 54 − 37 = 17 stickers left.\n#### 17",
+    "hints_list": [],
+    "answers_list": [
+        "[reasoning process] \nFirst, let's calculate the total number of stickers Charlie has at the beginning. He starts with 10 stickers. \n\nNext, he buys 21 stickers:\n10 + 21 = 31 stickers.\n\nThen, he receives 23 stickers for his birthday:\n31 + 23 = 54 stickers.\n\nAfter that, Charlie gives 9 stickers to his sister:\n54 - 9 = 45 stickers.\n\nFinally, he uses 28 stickers to decorate a greeting card:\n45 - 28 = 17 stickers.\n\nSo, at the end of this process, Charlie has 17 stickers left.\n\n[Verification] \nLet's double-check the calculations step by step:\n1. Start: 10 stickers.\n2. Buy: 10 + 21 = 31 stickers.\n3. Birthday: 31 + 23 = 54 stickers.\n4. Sister: 54 - 9 = 45 stickers.\n5. Greeting card: 45 - 28 = 17 stickers.\n\nAll calculations confirm that the final number of stickers Charlie has is indeed correct.\n\n[Final Answer] The answer is 17 \n#### 17",
+        "I Don't Know"
+    ],
+    "ground_truth_hints": "",
+    "hints_prompt": "Question: Charlie had 10 stickers. He bought 21 stickers from a store in the mall and got 23 stickers for his birthday. Then Charlie gave 9 of the stickers to his sister and used 28 to decorate a greeting card. How many stickers does Charlie have left?\nCould you provide me with the thought process to solve this problem, but please don’t give me the answer or calculation, just the thought process?",
+    "to_explore": [
+        "[reasoning process] \nFirst, let's calculate the total number of stickers Charlie has at the beginning. He starts with 10 stickers. \n\nNext, he buys 21 stickers:\n10 + 21 = 31 stickers.\n\nThen, he receives 23 stickers for his birthday:\n31 + 23 = 54 stickers.\n\nAfter that, Charlie gives 9 stickers to his sister:\n54 - 9 = 45 stickers.\n\nFinally, he uses 28 stickers to decorate a greeting card:\n45 - 28 = 17 stickers.\n\nSo, at the end of this process, Charlie has 17 stickers left.\n\n[Verification] \nLet's double-check the calculations step by step:\n1. Start: 10 stickers.\n2. Buy: 10 + 21 = 31 stickers.\n3. Birthday: 31 + 23 = 54 stickers.\n4. Sister: 54 - 9 = 45 stickers.\n5. Greeting card: 45 - 28 = 17 stickers.\n\nAll calculations confirm that the final number of stickers Charlie has is indeed correct.\n\n[Final Answer] The answer is 17 \n#### 17",
+        "I Don't Know"
+    ],
+    "to_explore_reward": {
+        "[reasoning process] \nFirst, let's calculate the total number of stickers Charlie has at the beginning. He starts with 10 stickers. \n\nNext, he buys 21 stickers:\n10 + 21 = 31 stickers.\n\nThen, he receives 23 stickers for his birthday:\n31 + 23 = 54 stickers.\n\nAfter that, Charlie gives 9 stickers to his sister:\n54 - 9 = 45 stickers.\n\nFinally, he uses 28 stickers to decorate a greeting card:\n45 - 28 = 17 stickers.\n\nSo, at the end of this process, Charlie has 17 stickers left.\n\n[Verification] \nLet's double-check the calculations step by step:\n1. Start: 10 stickers.\n2. Buy: 10 + 21 = 31 stickers.\n3. Birthday: 31 + 23 = 54 stickers.\n4. Sister: 54 - 9 = 45 stickers.\n5. Greeting card: 45 - 28 = 17 stickers.\n\nAll calculations confirm that the final number of stickers Charlie has is indeed correct.\n\n[Final Answer] The answer is 17 \n#### 17": [
+            75.0
+        ],
+        "I Don't Know": [
+            -85.0
+        ]
+    },
+    "hints_bank": {},
+    "history_bank": {
+        "[reasoning process] \nFirst, let's calculate the total number of stickers Charlie has at the beginning. He starts with 10 stickers. \n\nNext, he buys 21 stickers:\n10 + 21 = 31 stickers.\n\nThen, he receives 23 stickers for his birthday:\n31 + 23 = 54 stickers.\n\nAfter that, Charlie gives 9 stickers to his sister:\n54 - 9 = 45 stickers.\n\nFinally, he uses 28 stickers to decorate a greeting card:\n45 - 28 = 17 stickers.\n\nSo, at the end of this process, Charlie has 17 stickers left.\n\n[Verification] \nLet's double-check the calculations step by step:\n1. Start: 10 stickers.\n2. Buy: 10 + 21 = 31 stickers.\n3. Birthday: 31 + 23 = 54 stickers.\n4. Sister: 54 - 9 = 45 stickers.\n5. Greeting card: 45 - 28 = 17 stickers.\n\nAll calculations confirm that the final number of stickers Charlie has is indeed correct.\n\n[Final Answer] The answer is 17 \n#### 17": [
+            "Question: Charlie had 10 stickers. He bought 21 stickers from a store in the mall and got 23 stickers for his birthday. Then Charlie gave 9 of the stickers to his sister and used 28 to decorate a greeting card. How many stickers does Charlie have left?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "[reasoning process] \nFirst, let's calculate the total number of stickers Charlie has at the beginning. He starts with 10 stickers. \n\nNext, he buys 21 stickers:\n10 + 21 = 31 stickers.\n\nThen, he receives 23 stickers for his birthday:\n31 + 23 = 54 stickers.\n\nAfter that, Charlie gives 9 stickers to his sister:\n54 - 9 = 45 stickers.\n\nFinally, he uses 28 stickers to decorate a greeting card:\n45 - 28 = 17 stickers.\n\nSo, at the end of this process, Charlie has 17 stickers left.\n\n[Verification] \nLet's double-check the calculations step by step:\n1. Start: 10 stickers.\n2. Buy: 10 + 21 = 31 stickers.\n3. Birthday: 31 + 23 = 54 stickers.\n4. Sister: 54 - 9 = 45 stickers.\n5. Greeting card: 45 - 28 = 17 stickers.\n\nAll calculations confirm that the final number of stickers Charlie has is indeed correct.\n\n[Final Answer] The answer is 17 \n#### 17"
+        ],
+        "I Don't Know": [
+            "Question: Charlie had 10 stickers. He bought 21 stickers from a store in the mall and got 23 stickers for his birthday. Then Charlie gave 9 of the stickers to his sister and used 28 to decorate a greeting card. How many stickers does Charlie have left?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "I Don't Know"
+        ]
+    },
+    "hints_reward_imp_bank": {},
+    "fathers": {
+        "[reasoning process] \nFirst, let's calculate the total number of stickers Charlie has at the beginning. He starts with 10 stickers. \n\nNext, he buys 21 stickers:\n10 + 21 = 31 stickers.\n\nThen, he receives 23 stickers for his birthday:\n31 + 23 = 54 stickers.\n\nAfter that, Charlie gives 9 stickers to his sister:\n54 - 9 = 45 stickers.\n\nFinally, he uses 28 stickers to decorate a greeting card:\n45 - 28 = 17 stickers.\n\nSo, at the end of this process, Charlie has 17 stickers left.\n\n[Verification] \nLet's double-check the calculations step by step:\n1. Start: 10 stickers.\n2. Buy: 10 + 21 = 31 stickers.\n3. Birthday: 31 + 23 = 54 stickers.\n4. Sister: 54 - 9 = 45 stickers.\n5. Greeting card: 45 - 28 = 17 stickers.\n\nAll calculations confirm that the final number of stickers Charlie has is indeed correct.\n\n[Final Answer] The answer is 17 \n#### 17": null,
+        "I Don't Know": null
+    },
+    "childs": {
+        "[reasoning process] \nFirst, let's calculate the total number of stickers Charlie has at the beginning. He starts with 10 stickers. \n\nNext, he buys 21 stickers:\n10 + 21 = 31 stickers.\n\nThen, he receives 23 stickers for his birthday:\n31 + 23 = 54 stickers.\n\nAfter that, Charlie gives 9 stickers to his sister:\n54 - 9 = 45 stickers.\n\nFinally, he uses 28 stickers to decorate a greeting card:\n45 - 28 = 17 stickers.\n\nSo, at the end of this process, Charlie has 17 stickers left.\n\n[Verification] \nLet's double-check the calculations step by step:\n1. Start: 10 stickers.\n2. Buy: 10 + 21 = 31 stickers.\n3. Birthday: 31 + 23 = 54 stickers.\n4. Sister: 54 - 9 = 45 stickers.\n5. Greeting card: 45 - 28 = 17 stickers.\n\nAll calculations confirm that the final number of stickers Charlie has is indeed correct.\n\n[Final Answer] The answer is 17 \n#### 17": [],
+        "I Don't Know": []
+    },
+    "ucb_bank": {}
+}

@@ -1,0 +1,44 @@
+{
+    "query": "Anna is trying to buy books for her local library. She had a budget of $16, and she has already spent $4. She also bought 2 books today, and both books cost her the same amount of money. If Anna has $2 left in her budget, how much did each of the books cost?",
+    "ground_truth": "Anna had already spent some money, so she started the day with $16 – $4 = $<<16-4=12>>12.\nShe has money left in the budget, so she spent a total of $12 – $2 = $<<12-2=10>>10 on the books.\nTherefore each book cost her $10 / 2 = $<<10/2=5>>5.\n#### 5",
+    "hints_list": [],
+    "answers_list": [
+        "[reasoning process] First, we start with Anna's initial budget of $16. She has already spent $4 on something else, which leaves her with $16 - $4 = $12. Next, Anna has $2 left in her budget after buying the books. This means she spent $12 - $2 = $10 on the two books. Since both books cost the same amount, we can denote the price of each book as x. Therefore, we can set up the equation: 2x = $10. To find the value of x, we divide by 2: x = $10 / 2 = $5. Thus, each book costs $5.\n\n[Verification] Let's check our calculations. If each book costs $5, then buying 2 books would cost 2 × $5 = $10. Adding the $4 Anna already spent gives us a total expenditure of $10 + $4 = $14. Since she started with $16 and now has $2 left, this is consistent because $16 - $14 = $2.\n\n[Final Answer] The answer is $5 \\n#### $5",
+        "I don't know the answer to this question."
+    ],
+    "ground_truth_hints": "",
+    "hints_prompt": "Question: Anna is trying to buy books for her local library. She had a budget of $16, and she has already spent $4. She also bought 2 books today, and both books cost her the same amount of money. If Anna has $2 left in her budget, how much did each of the books cost?\nCould you provide me with the thought process to solve this problem, but please don’t give me the answer or calculation, just the thought process?",
+    "to_explore": [
+        "[reasoning process] First, we start with Anna's initial budget of $16. She has already spent $4 on something else, which leaves her with $16 - $4 = $12. Next, Anna has $2 left in her budget after buying the books. This means she spent $12 - $2 = $10 on the two books. Since both books cost the same amount, we can denote the price of each book as x. Therefore, we can set up the equation: 2x = $10. To find the value of x, we divide by 2: x = $10 / 2 = $5. Thus, each book costs $5.\n\n[Verification] Let's check our calculations. If each book costs $5, then buying 2 books would cost 2 × $5 = $10. Adding the $4 Anna already spent gives us a total expenditure of $10 + $4 = $14. Since she started with $16 and now has $2 left, this is consistent because $16 - $14 = $2.\n\n[Final Answer] The answer is $5 \\n#### $5",
+        "I don't know the answer to this question."
+    ],
+    "to_explore_reward": {
+        "[reasoning process] First, we start with Anna's initial budget of $16. She has already spent $4 on something else, which leaves her with $16 - $4 = $12. Next, Anna has $2 left in her budget after buying the books. This means she spent $12 - $2 = $10 on the two books. Since both books cost the same amount, we can denote the price of each book as x. Therefore, we can set up the equation: 2x = $10. To find the value of x, we divide by 2: x = $10 / 2 = $5. Thus, each book costs $5.\n\n[Verification] Let's check our calculations. If each book costs $5, then buying 2 books would cost 2 × $5 = $10. Adding the $4 Anna already spent gives us a total expenditure of $10 + $4 = $14. Since she started with $16 and now has $2 left, this is consistent because $16 - $14 = $2.\n\n[Final Answer] The answer is $5 \\n#### $5": [
+            80.0
+        ],
+        "I don't know the answer to this question.": [
+            -100.0
+        ]
+    },
+    "hints_bank": {},
+    "history_bank": {
+        "[reasoning process] First, we start with Anna's initial budget of $16. She has already spent $4 on something else, which leaves her with $16 - $4 = $12. Next, Anna has $2 left in her budget after buying the books. This means she spent $12 - $2 = $10 on the two books. Since both books cost the same amount, we can denote the price of each book as x. Therefore, we can set up the equation: 2x = $10. To find the value of x, we divide by 2: x = $10 / 2 = $5. Thus, each book costs $5.\n\n[Verification] Let's check our calculations. If each book costs $5, then buying 2 books would cost 2 × $5 = $10. Adding the $4 Anna already spent gives us a total expenditure of $10 + $4 = $14. Since she started with $16 and now has $2 left, this is consistent because $16 - $14 = $2.\n\n[Final Answer] The answer is $5 \\n#### $5": [
+            "Question: Anna is trying to buy books for her local library. She had a budget of $16, and she has already spent $4. She also bought 2 books today, and both books cost her the same amount of money. If Anna has $2 left in her budget, how much did each of the books cost?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "[reasoning process] First, we start with Anna's initial budget of $16. She has already spent $4 on something else, which leaves her with $16 - $4 = $12. Next, Anna has $2 left in her budget after buying the books. This means she spent $12 - $2 = $10 on the two books. Since both books cost the same amount, we can denote the price of each book as x. Therefore, we can set up the equation: 2x = $10. To find the value of x, we divide by 2: x = $10 / 2 = $5. Thus, each book costs $5.\n\n[Verification] Let's check our calculations. If each book costs $5, then buying 2 books would cost 2 × $5 = $10. Adding the $4 Anna already spent gives us a total expenditure of $10 + $4 = $14. Since she started with $16 and now has $2 left, this is consistent because $16 - $14 = $2.\n\n[Final Answer] The answer is $5 \\n#### $5"
+        ],
+        "I don't know the answer to this question.": [
+            "Question: Anna is trying to buy books for her local library. She had a budget of $16, and she has already spent $4. She also bought 2 books today, and both books cost her the same amount of money. If Anna has $2 left in her budget, how much did each of the books cost?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "I don't know the answer to this question."
+        ]
+    },
+    "hints_reward_imp_bank": {},
+    "fathers": {
+        "[reasoning process] First, we start with Anna's initial budget of $16. She has already spent $4 on something else, which leaves her with $16 - $4 = $12. Next, Anna has $2 left in her budget after buying the books. This means she spent $12 - $2 = $10 on the two books. Since both books cost the same amount, we can denote the price of each book as x. Therefore, we can set up the equation: 2x = $10. To find the value of x, we divide by 2: x = $10 / 2 = $5. Thus, each book costs $5.\n\n[Verification] Let's check our calculations. If each book costs $5, then buying 2 books would cost 2 × $5 = $10. Adding the $4 Anna already spent gives us a total expenditure of $10 + $4 = $14. Since she started with $16 and now has $2 left, this is consistent because $16 - $14 = $2.\n\n[Final Answer] The answer is $5 \\n#### $5": null,
+        "I don't know the answer to this question.": null
+    },
+    "childs": {
+        "[reasoning process] First, we start with Anna's initial budget of $16. She has already spent $4 on something else, which leaves her with $16 - $4 = $12. Next, Anna has $2 left in her budget after buying the books. This means she spent $12 - $2 = $10 on the two books. Since both books cost the same amount, we can denote the price of each book as x. Therefore, we can set up the equation: 2x = $10. To find the value of x, we divide by 2: x = $10 / 2 = $5. Thus, each book costs $5.\n\n[Verification] Let's check our calculations. If each book costs $5, then buying 2 books would cost 2 × $5 = $10. Adding the $4 Anna already spent gives us a total expenditure of $10 + $4 = $14. Since she started with $16 and now has $2 left, this is consistent because $16 - $14 = $2.\n\n[Final Answer] The answer is $5 \\n#### $5": [],
+        "I don't know the answer to this question.": []
+    },
+    "ucb_bank": {}
+}

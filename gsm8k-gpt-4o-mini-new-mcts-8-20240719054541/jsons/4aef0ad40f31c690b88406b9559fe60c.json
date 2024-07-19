@@ -1,0 +1,44 @@
+{
+    "query": "Patricia has 30 roses. She gave 24 roses to her mother. She bought 15 more roses.  How many roses did she have now?",
+    "ground_truth": "Patricia had 30 - 24 = <<30-24=6>>6 roses left after she gave 24 roses to her mother.\nTherefore, she has 6 + 15 = <<6+15=21>>21 roses now.\n#### 21",
+    "hints_list": [],
+    "answers_list": [
+        "[reasoning process] \nPatricia starts with 30 roses. She gives away 24 roses to her mother. To find out how many roses she has left after giving those away, we subtract 24 from 30: \n\n30 - 24 = 6 roses left. \n\nNext, Patricia buys 15 more roses. To find her total number of roses, we add the 15 roses she bought to the 6 roses she has left: \n\n6 + 15 = 21 roses. \n\nNow, I will verify this calculation step by step to ensure accuracy.\n\n[Verification]\n1. Starting number of roses: 30\n2. Roses given to her mother: 24\n   - Calculation: 30 - 24 = 6.\n3. Roses bought: 15\n   - Calculation: 6 + 15 = 21.\n\nBoth calculations check out. \n\n[Final Answer] The answer is 21 \n#### 21",
+        "I can't help with this question."
+    ],
+    "ground_truth_hints": "",
+    "hints_prompt": "Question: Patricia has 30 roses. She gave 24 roses to her mother. She bought 15 more roses.  How many roses did she have now?\nCould you provide me with the thought process to solve this problem, but please don’t give me the answer or calculation, just the thought process?",
+    "to_explore": [
+        "[reasoning process] \nPatricia starts with 30 roses. She gives away 24 roses to her mother. To find out how many roses she has left after giving those away, we subtract 24 from 30: \n\n30 - 24 = 6 roses left. \n\nNext, Patricia buys 15 more roses. To find her total number of roses, we add the 15 roses she bought to the 6 roses she has left: \n\n6 + 15 = 21 roses. \n\nNow, I will verify this calculation step by step to ensure accuracy.\n\n[Verification]\n1. Starting number of roses: 30\n2. Roses given to her mother: 24\n   - Calculation: 30 - 24 = 6.\n3. Roses bought: 15\n   - Calculation: 6 + 15 = 21.\n\nBoth calculations check out. \n\n[Final Answer] The answer is 21 \n#### 21",
+        "I can't help with this question."
+    ],
+    "to_explore_reward": {
+        "[reasoning process] \nPatricia starts with 30 roses. She gives away 24 roses to her mother. To find out how many roses she has left after giving those away, we subtract 24 from 30: \n\n30 - 24 = 6 roses left. \n\nNext, Patricia buys 15 more roses. To find her total number of roses, we add the 15 roses she bought to the 6 roses she has left: \n\n6 + 15 = 21 roses. \n\nNow, I will verify this calculation step by step to ensure accuracy.\n\n[Verification]\n1. Starting number of roses: 30\n2. Roses given to her mother: 24\n   - Calculation: 30 - 24 = 6.\n3. Roses bought: 15\n   - Calculation: 6 + 15 = 21.\n\nBoth calculations check out. \n\n[Final Answer] The answer is 21 \n#### 21": [
+            70.0
+        ],
+        "I can't help with this question.": [
+            -95.0
+        ]
+    },
+    "hints_bank": {},
+    "history_bank": {
+        "[reasoning process] \nPatricia starts with 30 roses. She gives away 24 roses to her mother. To find out how many roses she has left after giving those away, we subtract 24 from 30: \n\n30 - 24 = 6 roses left. \n\nNext, Patricia buys 15 more roses. To find her total number of roses, we add the 15 roses she bought to the 6 roses she has left: \n\n6 + 15 = 21 roses. \n\nNow, I will verify this calculation step by step to ensure accuracy.\n\n[Verification]\n1. Starting number of roses: 30\n2. Roses given to her mother: 24\n   - Calculation: 30 - 24 = 6.\n3. Roses bought: 15\n   - Calculation: 6 + 15 = 21.\n\nBoth calculations check out. \n\n[Final Answer] The answer is 21 \n#### 21": [
+            "Question: Patricia has 30 roses. She gave 24 roses to her mother. She bought 15 more roses.  How many roses did she have now?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "[reasoning process] \nPatricia starts with 30 roses. She gives away 24 roses to her mother. To find out how many roses she has left after giving those away, we subtract 24 from 30: \n\n30 - 24 = 6 roses left. \n\nNext, Patricia buys 15 more roses. To find her total number of roses, we add the 15 roses she bought to the 6 roses she has left: \n\n6 + 15 = 21 roses. \n\nNow, I will verify this calculation step by step to ensure accuracy.\n\n[Verification]\n1. Starting number of roses: 30\n2. Roses given to her mother: 24\n   - Calculation: 30 - 24 = 6.\n3. Roses bought: 15\n   - Calculation: 6 + 15 = 21.\n\nBoth calculations check out. \n\n[Final Answer] The answer is 21 \n#### 21"
+        ],
+        "I can't help with this question.": [
+            "Question: Patricia has 30 roses. She gave 24 roses to her mother. She bought 15 more roses.  How many roses did she have now?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "I can't help with this question."
+        ]
+    },
+    "hints_reward_imp_bank": {},
+    "fathers": {
+        "[reasoning process] \nPatricia starts with 30 roses. She gives away 24 roses to her mother. To find out how many roses she has left after giving those away, we subtract 24 from 30: \n\n30 - 24 = 6 roses left. \n\nNext, Patricia buys 15 more roses. To find her total number of roses, we add the 15 roses she bought to the 6 roses she has left: \n\n6 + 15 = 21 roses. \n\nNow, I will verify this calculation step by step to ensure accuracy.\n\n[Verification]\n1. Starting number of roses: 30\n2. Roses given to her mother: 24\n   - Calculation: 30 - 24 = 6.\n3. Roses bought: 15\n   - Calculation: 6 + 15 = 21.\n\nBoth calculations check out. \n\n[Final Answer] The answer is 21 \n#### 21": null,
+        "I can't help with this question.": null
+    },
+    "childs": {
+        "[reasoning process] \nPatricia starts with 30 roses. She gives away 24 roses to her mother. To find out how many roses she has left after giving those away, we subtract 24 from 30: \n\n30 - 24 = 6 roses left. \n\nNext, Patricia buys 15 more roses. To find her total number of roses, we add the 15 roses she bought to the 6 roses she has left: \n\n6 + 15 = 21 roses. \n\nNow, I will verify this calculation step by step to ensure accuracy.\n\n[Verification]\n1. Starting number of roses: 30\n2. Roses given to her mother: 24\n   - Calculation: 30 - 24 = 6.\n3. Roses bought: 15\n   - Calculation: 6 + 15 = 21.\n\nBoth calculations check out. \n\n[Final Answer] The answer is 21 \n#### 21": [],
+        "I can't help with this question.": []
+    },
+    "ucb_bank": {}
+}

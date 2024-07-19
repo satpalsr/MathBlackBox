@@ -1,0 +1,44 @@
+{
+    "query": "There are 220 castles in Scotland.  40 percent of them are ruins, and half of the ruined castles are unmanned.  How many unmanned ruined castles are there in Scotland?",
+    "ground_truth": "Ruins:220(.40)=88\nUnmanned:88/2=<<88/2=44>>44 castles\n#### 44",
+    "hints_list": [],
+    "answers_list": [
+        "[reasoning process] To determine how many unmanned ruined castles there are in Scotland, we can follow these steps:\n\n1. First, calculate how many castles are ruins. Since there are 220 castles in total, and 40 percent of them are ruins, we calculate:\n   \\[\n   \\text{Number of ruined castles} = 220 \\times 0.40 = 88\n   \\]\n\n2. Next, we need to find out how many of these ruined castles are unmanned. We know that half of the ruined castles are unmanned. Therefore, we calculate:\n   \\[\n   \\text{Number of unmanned ruined castles} = 88 \\times 0.50 = 44\n   \\]\n\n[Verification] We initially calculated the number of ruined castles as 88 by taking 40 percent of 220. We then correctly found that half of those ruined castles amounts to 44 unmanned castles. Each step checks out when breaking the problem down into manageable parts, confirming the calculations were done correctly.\n\n[Final Answer] The answer is 44 \\n#### 44",
+        "I don't know how to solve this question."
+    ],
+    "ground_truth_hints": "",
+    "hints_prompt": "Question: There are 220 castles in Scotland.  40 percent of them are ruins, and half of the ruined castles are unmanned.  How many unmanned ruined castles are there in Scotland?\nCould you provide me with the thought process to solve this problem, but please don’t give me the answer or calculation, just the thought process?",
+    "to_explore": [
+        "[reasoning process] To determine how many unmanned ruined castles there are in Scotland, we can follow these steps:\n\n1. First, calculate how many castles are ruins. Since there are 220 castles in total, and 40 percent of them are ruins, we calculate:\n   \\[\n   \\text{Number of ruined castles} = 220 \\times 0.40 = 88\n   \\]\n\n2. Next, we need to find out how many of these ruined castles are unmanned. We know that half of the ruined castles are unmanned. Therefore, we calculate:\n   \\[\n   \\text{Number of unmanned ruined castles} = 88 \\times 0.50 = 44\n   \\]\n\n[Verification] We initially calculated the number of ruined castles as 88 by taking 40 percent of 220. We then correctly found that half of those ruined castles amounts to 44 unmanned castles. Each step checks out when breaking the problem down into manageable parts, confirming the calculations were done correctly.\n\n[Final Answer] The answer is 44 \\n#### 44",
+        "I don't know how to solve this question."
+    ],
+    "to_explore_reward": {
+        "[reasoning process] To determine how many unmanned ruined castles there are in Scotland, we can follow these steps:\n\n1. First, calculate how many castles are ruins. Since there are 220 castles in total, and 40 percent of them are ruins, we calculate:\n   \\[\n   \\text{Number of ruined castles} = 220 \\times 0.40 = 88\n   \\]\n\n2. Next, we need to find out how many of these ruined castles are unmanned. We know that half of the ruined castles are unmanned. Therefore, we calculate:\n   \\[\n   \\text{Number of unmanned ruined castles} = 88 \\times 0.50 = 44\n   \\]\n\n[Verification] We initially calculated the number of ruined castles as 88 by taking 40 percent of 220. We then correctly found that half of those ruined castles amounts to 44 unmanned castles. Each step checks out when breaking the problem down into manageable parts, confirming the calculations were done correctly.\n\n[Final Answer] The answer is 44 \\n#### 44": [
+            60.0
+        ],
+        "I don't know how to solve this question.": [
+            -90.0
+        ]
+    },
+    "hints_bank": {},
+    "history_bank": {
+        "[reasoning process] To determine how many unmanned ruined castles there are in Scotland, we can follow these steps:\n\n1. First, calculate how many castles are ruins. Since there are 220 castles in total, and 40 percent of them are ruins, we calculate:\n   \\[\n   \\text{Number of ruined castles} = 220 \\times 0.40 = 88\n   \\]\n\n2. Next, we need to find out how many of these ruined castles are unmanned. We know that half of the ruined castles are unmanned. Therefore, we calculate:\n   \\[\n   \\text{Number of unmanned ruined castles} = 88 \\times 0.50 = 44\n   \\]\n\n[Verification] We initially calculated the number of ruined castles as 88 by taking 40 percent of 220. We then correctly found that half of those ruined castles amounts to 44 unmanned castles. Each step checks out when breaking the problem down into manageable parts, confirming the calculations were done correctly.\n\n[Final Answer] The answer is 44 \\n#### 44": [
+            "Question: There are 220 castles in Scotland.  40 percent of them are ruins, and half of the ruined castles are unmanned.  How many unmanned ruined castles are there in Scotland?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "[reasoning process] To determine how many unmanned ruined castles there are in Scotland, we can follow these steps:\n\n1. First, calculate how many castles are ruins. Since there are 220 castles in total, and 40 percent of them are ruins, we calculate:\n   \\[\n   \\text{Number of ruined castles} = 220 \\times 0.40 = 88\n   \\]\n\n2. Next, we need to find out how many of these ruined castles are unmanned. We know that half of the ruined castles are unmanned. Therefore, we calculate:\n   \\[\n   \\text{Number of unmanned ruined castles} = 88 \\times 0.50 = 44\n   \\]\n\n[Verification] We initially calculated the number of ruined castles as 88 by taking 40 percent of 220. We then correctly found that half of those ruined castles amounts to 44 unmanned castles. Each step checks out when breaking the problem down into manageable parts, confirming the calculations were done correctly.\n\n[Final Answer] The answer is 44 \\n#### 44"
+        ],
+        "I don't know how to solve this question.": [
+            "Question: There are 220 castles in Scotland.  40 percent of them are ruins, and half of the ruined castles are unmanned.  How many unmanned ruined castles are there in Scotland?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "I don't know how to solve this question."
+        ]
+    },
+    "hints_reward_imp_bank": {},
+    "fathers": {
+        "[reasoning process] To determine how many unmanned ruined castles there are in Scotland, we can follow these steps:\n\n1. First, calculate how many castles are ruins. Since there are 220 castles in total, and 40 percent of them are ruins, we calculate:\n   \\[\n   \\text{Number of ruined castles} = 220 \\times 0.40 = 88\n   \\]\n\n2. Next, we need to find out how many of these ruined castles are unmanned. We know that half of the ruined castles are unmanned. Therefore, we calculate:\n   \\[\n   \\text{Number of unmanned ruined castles} = 88 \\times 0.50 = 44\n   \\]\n\n[Verification] We initially calculated the number of ruined castles as 88 by taking 40 percent of 220. We then correctly found that half of those ruined castles amounts to 44 unmanned castles. Each step checks out when breaking the problem down into manageable parts, confirming the calculations were done correctly.\n\n[Final Answer] The answer is 44 \\n#### 44": null,
+        "I don't know how to solve this question.": null
+    },
+    "childs": {
+        "[reasoning process] To determine how many unmanned ruined castles there are in Scotland, we can follow these steps:\n\n1. First, calculate how many castles are ruins. Since there are 220 castles in total, and 40 percent of them are ruins, we calculate:\n   \\[\n   \\text{Number of ruined castles} = 220 \\times 0.40 = 88\n   \\]\n\n2. Next, we need to find out how many of these ruined castles are unmanned. We know that half of the ruined castles are unmanned. Therefore, we calculate:\n   \\[\n   \\text{Number of unmanned ruined castles} = 88 \\times 0.50 = 44\n   \\]\n\n[Verification] We initially calculated the number of ruined castles as 88 by taking 40 percent of 220. We then correctly found that half of those ruined castles amounts to 44 unmanned castles. Each step checks out when breaking the problem down into manageable parts, confirming the calculations were done correctly.\n\n[Final Answer] The answer is 44 \\n#### 44": [],
+        "I don't know how to solve this question.": []
+    },
+    "ucb_bank": {}
+}

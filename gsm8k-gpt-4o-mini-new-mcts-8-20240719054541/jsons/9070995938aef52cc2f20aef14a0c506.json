@@ -1,0 +1,44 @@
+{
+    "query": "Some people got on a bus at the terminal. At the first bus stop, 5 more people got in. Then at the second bus stop, 7 people got down and 8 more got in. If there were a total of 20 people heading to the third stop, how many people got on the bus at the terminal?",
+    "ground_truth": "There were 20 - 8 = <<20-8=12>>12 people on the bus before 8 people got in at the second stop.\nThere were a total of 12 + 7 =<<12+7=19>>19 people at the second stop before 7 people went down.\nSo, 19 - 5 = <<19-5=14>>14 people got on the bus at the terminal.\n#### 14",
+    "hints_list": [],
+    "answers_list": [
+        "[reasoning process]\nLet's denote \\( x \\) as the number of people who got on the bus at the terminal.\n\nInitially, there are \\( x \\) people on the bus. \n\nAt the first bus stop, 5 more people get on the bus:\n\\[\nx + 5\n\\]\n\nAt the second bus stop, 7 people get down and 8 get in:\n\\[\n(x + 5) - 7 + 8 = x + 6\n\\]\n\nNow, it is given that there are a total of 20 people heading to the third stop, so we can set up the equation:\n\\[\nx + 6 = 20\n\\]\n\nTo find \\( x \\), we solve the equation:\n\\[\nx = 20 - 6 = 14\n\\]\n\nSo, 14 people got on the bus at the terminal.\n\n[Verification]\nStarting with 14 people on the bus:\n- First stop: 14 + 5 = 19\n- Second stop: 19 - 7 + 8 = 20\n\nSince the calculation leads us to 20 people at the third stop, the values are consistent.\n\n[Final Answer] The answer is 14 \\n#### 14",
+        "I don't know how to solve this question."
+    ],
+    "ground_truth_hints": "",
+    "hints_prompt": "Question: Some people got on a bus at the terminal. At the first bus stop, 5 more people got in. Then at the second bus stop, 7 people got down and 8 more got in. If there were a total of 20 people heading to the third stop, how many people got on the bus at the terminal?\nCould you provide me with the thought process to solve this problem, but please don’t give me the answer or calculation, just the thought process?",
+    "to_explore": [
+        "[reasoning process]\nLet's denote \\( x \\) as the number of people who got on the bus at the terminal.\n\nInitially, there are \\( x \\) people on the bus. \n\nAt the first bus stop, 5 more people get on the bus:\n\\[\nx + 5\n\\]\n\nAt the second bus stop, 7 people get down and 8 get in:\n\\[\n(x + 5) - 7 + 8 = x + 6\n\\]\n\nNow, it is given that there are a total of 20 people heading to the third stop, so we can set up the equation:\n\\[\nx + 6 = 20\n\\]\n\nTo find \\( x \\), we solve the equation:\n\\[\nx = 20 - 6 = 14\n\\]\n\nSo, 14 people got on the bus at the terminal.\n\n[Verification]\nStarting with 14 people on the bus:\n- First stop: 14 + 5 = 19\n- Second stop: 19 - 7 + 8 = 20\n\nSince the calculation leads us to 20 people at the third stop, the values are consistent.\n\n[Final Answer] The answer is 14 \\n#### 14",
+        "I don't know how to solve this question."
+    ],
+    "to_explore_reward": {
+        "[reasoning process]\nLet's denote \\( x \\) as the number of people who got on the bus at the terminal.\n\nInitially, there are \\( x \\) people on the bus. \n\nAt the first bus stop, 5 more people get on the bus:\n\\[\nx + 5\n\\]\n\nAt the second bus stop, 7 people get down and 8 get in:\n\\[\n(x + 5) - 7 + 8 = x + 6\n\\]\n\nNow, it is given that there are a total of 20 people heading to the third stop, so we can set up the equation:\n\\[\nx + 6 = 20\n\\]\n\nTo find \\( x \\), we solve the equation:\n\\[\nx = 20 - 6 = 14\n\\]\n\nSo, 14 people got on the bus at the terminal.\n\n[Verification]\nStarting with 14 people on the bus:\n- First stop: 14 + 5 = 19\n- Second stop: 19 - 7 + 8 = 20\n\nSince the calculation leads us to 20 people at the third stop, the values are consistent.\n\n[Final Answer] The answer is 14 \\n#### 14": [
+            70.0
+        ],
+        "I don't know how to solve this question.": [
+            -90.0
+        ]
+    },
+    "hints_bank": {},
+    "history_bank": {
+        "[reasoning process]\nLet's denote \\( x \\) as the number of people who got on the bus at the terminal.\n\nInitially, there are \\( x \\) people on the bus. \n\nAt the first bus stop, 5 more people get on the bus:\n\\[\nx + 5\n\\]\n\nAt the second bus stop, 7 people get down and 8 get in:\n\\[\n(x + 5) - 7 + 8 = x + 6\n\\]\n\nNow, it is given that there are a total of 20 people heading to the third stop, so we can set up the equation:\n\\[\nx + 6 = 20\n\\]\n\nTo find \\( x \\), we solve the equation:\n\\[\nx = 20 - 6 = 14\n\\]\n\nSo, 14 people got on the bus at the terminal.\n\n[Verification]\nStarting with 14 people on the bus:\n- First stop: 14 + 5 = 19\n- Second stop: 19 - 7 + 8 = 20\n\nSince the calculation leads us to 20 people at the third stop, the values are consistent.\n\n[Final Answer] The answer is 14 \\n#### 14": [
+            "Question: Some people got on a bus at the terminal. At the first bus stop, 5 more people got in. Then at the second bus stop, 7 people got down and 8 more got in. If there were a total of 20 people heading to the third stop, how many people got on the bus at the terminal?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "[reasoning process]\nLet's denote \\( x \\) as the number of people who got on the bus at the terminal.\n\nInitially, there are \\( x \\) people on the bus. \n\nAt the first bus stop, 5 more people get on the bus:\n\\[\nx + 5\n\\]\n\nAt the second bus stop, 7 people get down and 8 get in:\n\\[\n(x + 5) - 7 + 8 = x + 6\n\\]\n\nNow, it is given that there are a total of 20 people heading to the third stop, so we can set up the equation:\n\\[\nx + 6 = 20\n\\]\n\nTo find \\( x \\), we solve the equation:\n\\[\nx = 20 - 6 = 14\n\\]\n\nSo, 14 people got on the bus at the terminal.\n\n[Verification]\nStarting with 14 people on the bus:\n- First stop: 14 + 5 = 19\n- Second stop: 19 - 7 + 8 = 20\n\nSince the calculation leads us to 20 people at the third stop, the values are consistent.\n\n[Final Answer] The answer is 14 \\n#### 14"
+        ],
+        "I don't know how to solve this question.": [
+            "Question: Some people got on a bus at the terminal. At the first bus stop, 5 more people got in. Then at the second bus stop, 7 people got down and 8 more got in. If there were a total of 20 people heading to the third stop, how many people got on the bus at the terminal?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "I don't know how to solve this question."
+        ]
+    },
+    "hints_reward_imp_bank": {},
+    "fathers": {
+        "[reasoning process]\nLet's denote \\( x \\) as the number of people who got on the bus at the terminal.\n\nInitially, there are \\( x \\) people on the bus. \n\nAt the first bus stop, 5 more people get on the bus:\n\\[\nx + 5\n\\]\n\nAt the second bus stop, 7 people get down and 8 get in:\n\\[\n(x + 5) - 7 + 8 = x + 6\n\\]\n\nNow, it is given that there are a total of 20 people heading to the third stop, so we can set up the equation:\n\\[\nx + 6 = 20\n\\]\n\nTo find \\( x \\), we solve the equation:\n\\[\nx = 20 - 6 = 14\n\\]\n\nSo, 14 people got on the bus at the terminal.\n\n[Verification]\nStarting with 14 people on the bus:\n- First stop: 14 + 5 = 19\n- Second stop: 19 - 7 + 8 = 20\n\nSince the calculation leads us to 20 people at the third stop, the values are consistent.\n\n[Final Answer] The answer is 14 \\n#### 14": null,
+        "I don't know how to solve this question.": null
+    },
+    "childs": {
+        "[reasoning process]\nLet's denote \\( x \\) as the number of people who got on the bus at the terminal.\n\nInitially, there are \\( x \\) people on the bus. \n\nAt the first bus stop, 5 more people get on the bus:\n\\[\nx + 5\n\\]\n\nAt the second bus stop, 7 people get down and 8 get in:\n\\[\n(x + 5) - 7 + 8 = x + 6\n\\]\n\nNow, it is given that there are a total of 20 people heading to the third stop, so we can set up the equation:\n\\[\nx + 6 = 20\n\\]\n\nTo find \\( x \\), we solve the equation:\n\\[\nx = 20 - 6 = 14\n\\]\n\nSo, 14 people got on the bus at the terminal.\n\n[Verification]\nStarting with 14 people on the bus:\n- First stop: 14 + 5 = 19\n- Second stop: 19 - 7 + 8 = 20\n\nSince the calculation leads us to 20 people at the third stop, the values are consistent.\n\n[Final Answer] The answer is 14 \\n#### 14": [],
+        "I don't know how to solve this question.": []
+    },
+    "ucb_bank": {}
+}

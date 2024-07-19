@@ -1,0 +1,44 @@
+{
+    "query": "Sally buys one small pizza at $8 and one family-size pizza that costs 3 times as much as the small pizza. How much does she spend in all?",
+    "ground_truth": "The cost of the family-size pizza is 3 x $8 = $<<3*8=24>>24.\nTherefore, Sally spends $8 + $24 = $<<8+24=32>>32 in all.\n#### 32",
+    "hints_list": [],
+    "answers_list": [
+        "[reasoning process] First, we need to determine the cost of each pizza. The small pizza costs $8. The family-size pizza costs 3 times the price of the small pizza. So, we calculate the cost of the family-size pizza as follows: \n\nFamily-size pizza cost = 3 × small pizza cost\nFamily-size pizza cost = 3 × $8 = $24.\n\nNow, we can find the total cost by adding the cost of both pizzas:\n\nTotal cost = small pizza cost + family-size pizza cost\nTotal cost = $8 + $24 = $32.\n\n[Verification] We can verify the calculations: \n- The small pizza is confirmed at $8.\n- The family-size pizza, calculated as 3 times $8, comes out to $24. \n- Adding these amounts together ($8 + $24) gives us $32, which checks out.\n\nFinally, all steps are validated, and we confirm that the total amount Sally spends is indeed correct.\n\n[Final Answer] The answer is 32 \\n#### 32",
+        "I Don't Know"
+    ],
+    "ground_truth_hints": "",
+    "hints_prompt": "Question: Sally buys one small pizza at $8 and one family-size pizza that costs 3 times as much as the small pizza. How much does she spend in all?\nCould you provide me with the thought process to solve this problem, but please don’t give me the answer or calculation, just the thought process?",
+    "to_explore": [
+        "[reasoning process] First, we need to determine the cost of each pizza. The small pizza costs $8. The family-size pizza costs 3 times the price of the small pizza. So, we calculate the cost of the family-size pizza as follows: \n\nFamily-size pizza cost = 3 × small pizza cost\nFamily-size pizza cost = 3 × $8 = $24.\n\nNow, we can find the total cost by adding the cost of both pizzas:\n\nTotal cost = small pizza cost + family-size pizza cost\nTotal cost = $8 + $24 = $32.\n\n[Verification] We can verify the calculations: \n- The small pizza is confirmed at $8.\n- The family-size pizza, calculated as 3 times $8, comes out to $24. \n- Adding these amounts together ($8 + $24) gives us $32, which checks out.\n\nFinally, all steps are validated, and we confirm that the total amount Sally spends is indeed correct.\n\n[Final Answer] The answer is 32 \\n#### 32",
+        "I Don't Know"
+    ],
+    "to_explore_reward": {
+        "[reasoning process] First, we need to determine the cost of each pizza. The small pizza costs $8. The family-size pizza costs 3 times the price of the small pizza. So, we calculate the cost of the family-size pizza as follows: \n\nFamily-size pizza cost = 3 × small pizza cost\nFamily-size pizza cost = 3 × $8 = $24.\n\nNow, we can find the total cost by adding the cost of both pizzas:\n\nTotal cost = small pizza cost + family-size pizza cost\nTotal cost = $8 + $24 = $32.\n\n[Verification] We can verify the calculations: \n- The small pizza is confirmed at $8.\n- The family-size pizza, calculated as 3 times $8, comes out to $24. \n- Adding these amounts together ($8 + $24) gives us $32, which checks out.\n\nFinally, all steps are validated, and we confirm that the total amount Sally spends is indeed correct.\n\n[Final Answer] The answer is 32 \\n#### 32": [
+            60.0
+        ],
+        "I Don't Know": [
+            -80.0
+        ]
+    },
+    "hints_bank": {},
+    "history_bank": {
+        "[reasoning process] First, we need to determine the cost of each pizza. The small pizza costs $8. The family-size pizza costs 3 times the price of the small pizza. So, we calculate the cost of the family-size pizza as follows: \n\nFamily-size pizza cost = 3 × small pizza cost\nFamily-size pizza cost = 3 × $8 = $24.\n\nNow, we can find the total cost by adding the cost of both pizzas:\n\nTotal cost = small pizza cost + family-size pizza cost\nTotal cost = $8 + $24 = $32.\n\n[Verification] We can verify the calculations: \n- The small pizza is confirmed at $8.\n- The family-size pizza, calculated as 3 times $8, comes out to $24. \n- Adding these amounts together ($8 + $24) gives us $32, which checks out.\n\nFinally, all steps are validated, and we confirm that the total amount Sally spends is indeed correct.\n\n[Final Answer] The answer is 32 \\n#### 32": [
+            "Question: Sally buys one small pizza at $8 and one family-size pizza that costs 3 times as much as the small pizza. How much does she spend in all?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "[reasoning process] First, we need to determine the cost of each pizza. The small pizza costs $8. The family-size pizza costs 3 times the price of the small pizza. So, we calculate the cost of the family-size pizza as follows: \n\nFamily-size pizza cost = 3 × small pizza cost\nFamily-size pizza cost = 3 × $8 = $24.\n\nNow, we can find the total cost by adding the cost of both pizzas:\n\nTotal cost = small pizza cost + family-size pizza cost\nTotal cost = $8 + $24 = $32.\n\n[Verification] We can verify the calculations: \n- The small pizza is confirmed at $8.\n- The family-size pizza, calculated as 3 times $8, comes out to $24. \n- Adding these amounts together ($8 + $24) gives us $32, which checks out.\n\nFinally, all steps are validated, and we confirm that the total amount Sally spends is indeed correct.\n\n[Final Answer] The answer is 32 \\n#### 32"
+        ],
+        "I Don't Know": [
+            "Question: Sally buys one small pizza at $8 and one family-size pizza that costs 3 times as much as the small pizza. How much does she spend in all?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "I Don't Know"
+        ]
+    },
+    "hints_reward_imp_bank": {},
+    "fathers": {
+        "[reasoning process] First, we need to determine the cost of each pizza. The small pizza costs $8. The family-size pizza costs 3 times the price of the small pizza. So, we calculate the cost of the family-size pizza as follows: \n\nFamily-size pizza cost = 3 × small pizza cost\nFamily-size pizza cost = 3 × $8 = $24.\n\nNow, we can find the total cost by adding the cost of both pizzas:\n\nTotal cost = small pizza cost + family-size pizza cost\nTotal cost = $8 + $24 = $32.\n\n[Verification] We can verify the calculations: \n- The small pizza is confirmed at $8.\n- The family-size pizza, calculated as 3 times $8, comes out to $24. \n- Adding these amounts together ($8 + $24) gives us $32, which checks out.\n\nFinally, all steps are validated, and we confirm that the total amount Sally spends is indeed correct.\n\n[Final Answer] The answer is 32 \\n#### 32": null,
+        "I Don't Know": null
+    },
+    "childs": {
+        "[reasoning process] First, we need to determine the cost of each pizza. The small pizza costs $8. The family-size pizza costs 3 times the price of the small pizza. So, we calculate the cost of the family-size pizza as follows: \n\nFamily-size pizza cost = 3 × small pizza cost\nFamily-size pizza cost = 3 × $8 = $24.\n\nNow, we can find the total cost by adding the cost of both pizzas:\n\nTotal cost = small pizza cost + family-size pizza cost\nTotal cost = $8 + $24 = $32.\n\n[Verification] We can verify the calculations: \n- The small pizza is confirmed at $8.\n- The family-size pizza, calculated as 3 times $8, comes out to $24. \n- Adding these amounts together ($8 + $24) gives us $32, which checks out.\n\nFinally, all steps are validated, and we confirm that the total amount Sally spends is indeed correct.\n\n[Final Answer] The answer is 32 \\n#### 32": [],
+        "I Don't Know": []
+    },
+    "ucb_bank": {}
+}

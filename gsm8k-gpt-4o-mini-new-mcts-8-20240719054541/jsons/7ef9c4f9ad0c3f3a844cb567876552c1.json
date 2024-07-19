@@ -1,0 +1,44 @@
+{
+    "query": "Jack had $100. Sophia gave him 1/5 of her $100. How many dollars does Jack have now?",
+    "ground_truth": "Sophia gave 100 * 1/5 =<<100*1/5=20>>20 $ to Jack.\nJack now has 100 + 20 = <<100+20=120>>120$\n#### 120",
+    "hints_list": [],
+    "answers_list": [
+        "[reasoning process] Jack initially had $100. Sophia gave him 1/5 of her $100. To find out how much that is, we calculate 1/5 of 100, which is 100 / 5 = $20. We then add this amount to Jack's initial amount: $100 + $20 = $120.\n\n[Verification] We check the calculations: Jack started with $100. The amount given by Sophia is confirmed as $20 (1/5 of $100). Adding these amounts gives $120, maintaining consistency in our calculations.\n\n[Final Answer] The answer is 120 \\n#### 120",
+        "I don't know the answer to this question."
+    ],
+    "ground_truth_hints": "",
+    "hints_prompt": "Question: Jack had $100. Sophia gave him 1/5 of her $100. How many dollars does Jack have now?\nCould you provide me with the thought process to solve this problem, but please don’t give me the answer or calculation, just the thought process?",
+    "to_explore": [
+        "[reasoning process] Jack initially had $100. Sophia gave him 1/5 of her $100. To find out how much that is, we calculate 1/5 of 100, which is 100 / 5 = $20. We then add this amount to Jack's initial amount: $100 + $20 = $120.\n\n[Verification] We check the calculations: Jack started with $100. The amount given by Sophia is confirmed as $20 (1/5 of $100). Adding these amounts gives $120, maintaining consistency in our calculations.\n\n[Final Answer] The answer is 120 \\n#### 120",
+        "I don't know the answer to this question."
+    ],
+    "to_explore_reward": {
+        "[reasoning process] Jack initially had $100. Sophia gave him 1/5 of her $100. To find out how much that is, we calculate 1/5 of 100, which is 100 / 5 = $20. We then add this amount to Jack's initial amount: $100 + $20 = $120.\n\n[Verification] We check the calculations: Jack started with $100. The amount given by Sophia is confirmed as $20 (1/5 of $100). Adding these amounts gives $120, maintaining consistency in our calculations.\n\n[Final Answer] The answer is 120 \\n#### 120": [
+            70.0
+        ],
+        "I don't know the answer to this question.": [
+            -90.0
+        ]
+    },
+    "hints_bank": {},
+    "history_bank": {
+        "[reasoning process] Jack initially had $100. Sophia gave him 1/5 of her $100. To find out how much that is, we calculate 1/5 of 100, which is 100 / 5 = $20. We then add this amount to Jack's initial amount: $100 + $20 = $120.\n\n[Verification] We check the calculations: Jack started with $100. The amount given by Sophia is confirmed as $20 (1/5 of $100). Adding these amounts gives $120, maintaining consistency in our calculations.\n\n[Final Answer] The answer is 120 \\n#### 120": [
+            "Question: Jack had $100. Sophia gave him 1/5 of her $100. How many dollars does Jack have now?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "[reasoning process] Jack initially had $100. Sophia gave him 1/5 of her $100. To find out how much that is, we calculate 1/5 of 100, which is 100 / 5 = $20. We then add this amount to Jack's initial amount: $100 + $20 = $120.\n\n[Verification] We check the calculations: Jack started with $100. The amount given by Sophia is confirmed as $20 (1/5 of $100). Adding these amounts gives $120, maintaining consistency in our calculations.\n\n[Final Answer] The answer is 120 \\n#### 120"
+        ],
+        "I don't know the answer to this question.": [
+            "Question: Jack had $100. Sophia gave him 1/5 of her $100. How many dollars does Jack have now?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "I don't know the answer to this question."
+        ]
+    },
+    "hints_reward_imp_bank": {},
+    "fathers": {
+        "[reasoning process] Jack initially had $100. Sophia gave him 1/5 of her $100. To find out how much that is, we calculate 1/5 of 100, which is 100 / 5 = $20. We then add this amount to Jack's initial amount: $100 + $20 = $120.\n\n[Verification] We check the calculations: Jack started with $100. The amount given by Sophia is confirmed as $20 (1/5 of $100). Adding these amounts gives $120, maintaining consistency in our calculations.\n\n[Final Answer] The answer is 120 \\n#### 120": null,
+        "I don't know the answer to this question.": null
+    },
+    "childs": {
+        "[reasoning process] Jack initially had $100. Sophia gave him 1/5 of her $100. To find out how much that is, we calculate 1/5 of 100, which is 100 / 5 = $20. We then add this amount to Jack's initial amount: $100 + $20 = $120.\n\n[Verification] We check the calculations: Jack started with $100. The amount given by Sophia is confirmed as $20 (1/5 of $100). Adding these amounts gives $120, maintaining consistency in our calculations.\n\n[Final Answer] The answer is 120 \\n#### 120": [],
+        "I don't know the answer to this question.": []
+    },
+    "ucb_bank": {}
+}

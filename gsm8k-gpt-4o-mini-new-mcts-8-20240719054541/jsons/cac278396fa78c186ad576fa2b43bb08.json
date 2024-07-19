@@ -1,0 +1,44 @@
+{
+    "query": "Kylie and Robert enjoy going to the beach to collect shells. On Monday, Kylie collects 5 more shells than Robert, who collects 20 shells. On Tuesday, Kylie collects 2 times more shells than she did on Monday. How many shells does Kylie collect on Tuesday?",
+    "ground_truth": "On Monday, Kylie collects 20 + 5 = <<20+5=25>>25 shells\nOn Tuesday, Kylie collects 25 * 2 = <<25*2=50>>50 shells\n#### 50",
+    "hints_list": [],
+    "answers_list": [
+        "[reasoning process] Let's first determine how many shells Kylie collects on Monday. We know that Robert collects 20 shells, and Kylie collects 5 more than Robert. Therefore, on Monday, Kylie collects 20 + 5 = 25 shells. \n\nOn Tuesday, it is stated that Kylie collects 2 times more shells than she did on Monday. Since we already found out that Kylie collected 25 shells on Monday, we can calculate her collection on Tuesday as follows: 2 * 25 = 50 shells.\n\n[Verification] To verify, we check the calculations: \n1. Robert's shells on Monday: 20 shells. \n2. Kylie's shells on Monday: 20 + 5 = 25 shells (This matches our original calculation).\n3. Kylie's shells on Tuesday: 2 * 25 = 50 shells (This also checks out).\n\nSince all calculations have been validated, we can conclude that the answer is correct.\n\n[Final Answer] The answer is 50 shells \\n#### 50",
+        "I can't help with this question."
+    ],
+    "ground_truth_hints": "",
+    "hints_prompt": "Question: Kylie and Robert enjoy going to the beach to collect shells. On Monday, Kylie collects 5 more shells than Robert, who collects 20 shells. On Tuesday, Kylie collects 2 times more shells than she did on Monday. How many shells does Kylie collect on Tuesday?\nCould you provide me with the thought process to solve this problem, but please don’t give me the answer or calculation, just the thought process?",
+    "to_explore": [
+        "[reasoning process] Let's first determine how many shells Kylie collects on Monday. We know that Robert collects 20 shells, and Kylie collects 5 more than Robert. Therefore, on Monday, Kylie collects 20 + 5 = 25 shells. \n\nOn Tuesday, it is stated that Kylie collects 2 times more shells than she did on Monday. Since we already found out that Kylie collected 25 shells on Monday, we can calculate her collection on Tuesday as follows: 2 * 25 = 50 shells.\n\n[Verification] To verify, we check the calculations: \n1. Robert's shells on Monday: 20 shells. \n2. Kylie's shells on Monday: 20 + 5 = 25 shells (This matches our original calculation).\n3. Kylie's shells on Tuesday: 2 * 25 = 50 shells (This also checks out).\n\nSince all calculations have been validated, we can conclude that the answer is correct.\n\n[Final Answer] The answer is 50 shells \\n#### 50",
+        "I can't help with this question."
+    ],
+    "to_explore_reward": {
+        "[reasoning process] Let's first determine how many shells Kylie collects on Monday. We know that Robert collects 20 shells, and Kylie collects 5 more than Robert. Therefore, on Monday, Kylie collects 20 + 5 = 25 shells. \n\nOn Tuesday, it is stated that Kylie collects 2 times more shells than she did on Monday. Since we already found out that Kylie collected 25 shells on Monday, we can calculate her collection on Tuesday as follows: 2 * 25 = 50 shells.\n\n[Verification] To verify, we check the calculations: \n1. Robert's shells on Monday: 20 shells. \n2. Kylie's shells on Monday: 20 + 5 = 25 shells (This matches our original calculation).\n3. Kylie's shells on Tuesday: 2 * 25 = 50 shells (This also checks out).\n\nSince all calculations have been validated, we can conclude that the answer is correct.\n\n[Final Answer] The answer is 50 shells \\n#### 50": [
+            -30.0
+        ],
+        "I can't help with this question.": [
+            -85.0
+        ]
+    },
+    "hints_bank": {},
+    "history_bank": {
+        "[reasoning process] Let's first determine how many shells Kylie collects on Monday. We know that Robert collects 20 shells, and Kylie collects 5 more than Robert. Therefore, on Monday, Kylie collects 20 + 5 = 25 shells. \n\nOn Tuesday, it is stated that Kylie collects 2 times more shells than she did on Monday. Since we already found out that Kylie collected 25 shells on Monday, we can calculate her collection on Tuesday as follows: 2 * 25 = 50 shells.\n\n[Verification] To verify, we check the calculations: \n1. Robert's shells on Monday: 20 shells. \n2. Kylie's shells on Monday: 20 + 5 = 25 shells (This matches our original calculation).\n3. Kylie's shells on Tuesday: 2 * 25 = 50 shells (This also checks out).\n\nSince all calculations have been validated, we can conclude that the answer is correct.\n\n[Final Answer] The answer is 50 shells \\n#### 50": [
+            "Question: Kylie and Robert enjoy going to the beach to collect shells. On Monday, Kylie collects 5 more shells than Robert, who collects 20 shells. On Tuesday, Kylie collects 2 times more shells than she did on Monday. How many shells does Kylie collect on Tuesday?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "[reasoning process] Let's first determine how many shells Kylie collects on Monday. We know that Robert collects 20 shells, and Kylie collects 5 more than Robert. Therefore, on Monday, Kylie collects 20 + 5 = 25 shells. \n\nOn Tuesday, it is stated that Kylie collects 2 times more shells than she did on Monday. Since we already found out that Kylie collected 25 shells on Monday, we can calculate her collection on Tuesday as follows: 2 * 25 = 50 shells.\n\n[Verification] To verify, we check the calculations: \n1. Robert's shells on Monday: 20 shells. \n2. Kylie's shells on Monday: 20 + 5 = 25 shells (This matches our original calculation).\n3. Kylie's shells on Tuesday: 2 * 25 = 50 shells (This also checks out).\n\nSince all calculations have been validated, we can conclude that the answer is correct.\n\n[Final Answer] The answer is 50 shells \\n#### 50"
+        ],
+        "I can't help with this question.": [
+            "Question: Kylie and Robert enjoy going to the beach to collect shells. On Monday, Kylie collects 5 more shells than Robert, who collects 20 shells. On Tuesday, Kylie collects 2 times more shells than she did on Monday. How many shells does Kylie collect on Tuesday?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "I can't help with this question."
+        ]
+    },
+    "hints_reward_imp_bank": {},
+    "fathers": {
+        "[reasoning process] Let's first determine how many shells Kylie collects on Monday. We know that Robert collects 20 shells, and Kylie collects 5 more than Robert. Therefore, on Monday, Kylie collects 20 + 5 = 25 shells. \n\nOn Tuesday, it is stated that Kylie collects 2 times more shells than she did on Monday. Since we already found out that Kylie collected 25 shells on Monday, we can calculate her collection on Tuesday as follows: 2 * 25 = 50 shells.\n\n[Verification] To verify, we check the calculations: \n1. Robert's shells on Monday: 20 shells. \n2. Kylie's shells on Monday: 20 + 5 = 25 shells (This matches our original calculation).\n3. Kylie's shells on Tuesday: 2 * 25 = 50 shells (This also checks out).\n\nSince all calculations have been validated, we can conclude that the answer is correct.\n\n[Final Answer] The answer is 50 shells \\n#### 50": null,
+        "I can't help with this question.": null
+    },
+    "childs": {
+        "[reasoning process] Let's first determine how many shells Kylie collects on Monday. We know that Robert collects 20 shells, and Kylie collects 5 more than Robert. Therefore, on Monday, Kylie collects 20 + 5 = 25 shells. \n\nOn Tuesday, it is stated that Kylie collects 2 times more shells than she did on Monday. Since we already found out that Kylie collected 25 shells on Monday, we can calculate her collection on Tuesday as follows: 2 * 25 = 50 shells.\n\n[Verification] To verify, we check the calculations: \n1. Robert's shells on Monday: 20 shells. \n2. Kylie's shells on Monday: 20 + 5 = 25 shells (This matches our original calculation).\n3. Kylie's shells on Tuesday: 2 * 25 = 50 shells (This also checks out).\n\nSince all calculations have been validated, we can conclude that the answer is correct.\n\n[Final Answer] The answer is 50 shells \\n#### 50": [],
+        "I can't help with this question.": []
+    },
+    "ucb_bank": {}
+}

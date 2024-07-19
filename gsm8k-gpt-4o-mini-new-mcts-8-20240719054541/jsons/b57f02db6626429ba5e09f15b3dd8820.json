@@ -1,0 +1,44 @@
+{
+    "query": "Rory makes a cake that weighs 20 ounces. She cuts into 8 pieces. Rory and her mom each have a piece. How much does the remaining cake weigh?",
+    "ground_truth": "Each piece of Rory’s cake weighs 20 ounces / 8 pieces = <<20/8=2.5>>2.5 ounces.\nIf Rory and her mom each have a slice, they will have eaten 2.5 ounces + 2.5 ounces = <<2.5+2.5=5>>5 ounces.\nThe rest of the cake weighs 20 ounces – 5 ounces = <<20-5=15>>15 ounces.\n#### 15",
+    "hints_list": [],
+    "answers_list": [
+        "[reasoning process] Rory makes a cake that weighs 20 ounces and cuts it into 8 pieces. This means each piece of the cake weighs \\( \\frac{20 \\text{ ounces}}{8} = 2.5 \\text{ ounces} \\). Since Rory and her mom each take one piece, they together consume 2 pieces of cake. Thus, they eat \\( 2 \\times 2.5 \\text{ ounces} = 5 \\text{ ounces} \\). The remaining weight of the cake would then be \\( 20 \\text{ ounces} - 5 \\text{ ounces} = 15 \\text{ ounces} \\).\n\n[Verification] To verify the calculation: \n1. Total weight of the cake is 20 ounces.\n2. Each piece weighs 2.5 ounces.\n3. Rory and her mom take 2 pieces, which weighs \\( 2 \\times 2.5 = 5 \\) ounces.\n4. Remaining weight is \\( 20 - 5 = 15 \\) ounces.\n\nThis confirms the calculations are correct.\n\n[Final Answer] The answer is 15 ounces \\n#### 15 ounces",
+        "I don't know how to solve this question."
+    ],
+    "ground_truth_hints": "",
+    "hints_prompt": "Question: Rory makes a cake that weighs 20 ounces. She cuts into 8 pieces. Rory and her mom each have a piece. How much does the remaining cake weigh?\nCould you provide me with the thought process to solve this problem, but please don’t give me the answer or calculation, just the thought process?",
+    "to_explore": [
+        "[reasoning process] Rory makes a cake that weighs 20 ounces and cuts it into 8 pieces. This means each piece of the cake weighs \\( \\frac{20 \\text{ ounces}}{8} = 2.5 \\text{ ounces} \\). Since Rory and her mom each take one piece, they together consume 2 pieces of cake. Thus, they eat \\( 2 \\times 2.5 \\text{ ounces} = 5 \\text{ ounces} \\). The remaining weight of the cake would then be \\( 20 \\text{ ounces} - 5 \\text{ ounces} = 15 \\text{ ounces} \\).\n\n[Verification] To verify the calculation: \n1. Total weight of the cake is 20 ounces.\n2. Each piece weighs 2.5 ounces.\n3. Rory and her mom take 2 pieces, which weighs \\( 2 \\times 2.5 = 5 \\) ounces.\n4. Remaining weight is \\( 20 - 5 = 15 \\) ounces.\n\nThis confirms the calculations are correct.\n\n[Final Answer] The answer is 15 ounces \\n#### 15 ounces",
+        "I don't know how to solve this question."
+    ],
+    "to_explore_reward": {
+        "[reasoning process] Rory makes a cake that weighs 20 ounces and cuts it into 8 pieces. This means each piece of the cake weighs \\( \\frac{20 \\text{ ounces}}{8} = 2.5 \\text{ ounces} \\). Since Rory and her mom each take one piece, they together consume 2 pieces of cake. Thus, they eat \\( 2 \\times 2.5 \\text{ ounces} = 5 \\text{ ounces} \\). The remaining weight of the cake would then be \\( 20 \\text{ ounces} - 5 \\text{ ounces} = 15 \\text{ ounces} \\).\n\n[Verification] To verify the calculation: \n1. Total weight of the cake is 20 ounces.\n2. Each piece weighs 2.5 ounces.\n3. Rory and her mom take 2 pieces, which weighs \\( 2 \\times 2.5 = 5 \\) ounces.\n4. Remaining weight is \\( 20 - 5 = 15 \\) ounces.\n\nThis confirms the calculations are correct.\n\n[Final Answer] The answer is 15 ounces \\n#### 15 ounces": [
+            75.0
+        ],
+        "I don't know how to solve this question.": [
+            -95.0
+        ]
+    },
+    "hints_bank": {},
+    "history_bank": {
+        "[reasoning process] Rory makes a cake that weighs 20 ounces and cuts it into 8 pieces. This means each piece of the cake weighs \\( \\frac{20 \\text{ ounces}}{8} = 2.5 \\text{ ounces} \\). Since Rory and her mom each take one piece, they together consume 2 pieces of cake. Thus, they eat \\( 2 \\times 2.5 \\text{ ounces} = 5 \\text{ ounces} \\). The remaining weight of the cake would then be \\( 20 \\text{ ounces} - 5 \\text{ ounces} = 15 \\text{ ounces} \\).\n\n[Verification] To verify the calculation: \n1. Total weight of the cake is 20 ounces.\n2. Each piece weighs 2.5 ounces.\n3. Rory and her mom take 2 pieces, which weighs \\( 2 \\times 2.5 = 5 \\) ounces.\n4. Remaining weight is \\( 20 - 5 = 15 \\) ounces.\n\nThis confirms the calculations are correct.\n\n[Final Answer] The answer is 15 ounces \\n#### 15 ounces": [
+            "Question: Rory makes a cake that weighs 20 ounces. She cuts into 8 pieces. Rory and her mom each have a piece. How much does the remaining cake weigh?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "[reasoning process] Rory makes a cake that weighs 20 ounces and cuts it into 8 pieces. This means each piece of the cake weighs \\( \\frac{20 \\text{ ounces}}{8} = 2.5 \\text{ ounces} \\). Since Rory and her mom each take one piece, they together consume 2 pieces of cake. Thus, they eat \\( 2 \\times 2.5 \\text{ ounces} = 5 \\text{ ounces} \\). The remaining weight of the cake would then be \\( 20 \\text{ ounces} - 5 \\text{ ounces} = 15 \\text{ ounces} \\).\n\n[Verification] To verify the calculation: \n1. Total weight of the cake is 20 ounces.\n2. Each piece weighs 2.5 ounces.\n3. Rory and her mom take 2 pieces, which weighs \\( 2 \\times 2.5 = 5 \\) ounces.\n4. Remaining weight is \\( 20 - 5 = 15 \\) ounces.\n\nThis confirms the calculations are correct.\n\n[Final Answer] The answer is 15 ounces \\n#### 15 ounces"
+        ],
+        "I don't know how to solve this question.": [
+            "Question: Rory makes a cake that weighs 20 ounces. She cuts into 8 pieces. Rory and her mom each have a piece. How much does the remaining cake weigh?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "I don't know how to solve this question."
+        ]
+    },
+    "hints_reward_imp_bank": {},
+    "fathers": {
+        "[reasoning process] Rory makes a cake that weighs 20 ounces and cuts it into 8 pieces. This means each piece of the cake weighs \\( \\frac{20 \\text{ ounces}}{8} = 2.5 \\text{ ounces} \\). Since Rory and her mom each take one piece, they together consume 2 pieces of cake. Thus, they eat \\( 2 \\times 2.5 \\text{ ounces} = 5 \\text{ ounces} \\). The remaining weight of the cake would then be \\( 20 \\text{ ounces} - 5 \\text{ ounces} = 15 \\text{ ounces} \\).\n\n[Verification] To verify the calculation: \n1. Total weight of the cake is 20 ounces.\n2. Each piece weighs 2.5 ounces.\n3. Rory and her mom take 2 pieces, which weighs \\( 2 \\times 2.5 = 5 \\) ounces.\n4. Remaining weight is \\( 20 - 5 = 15 \\) ounces.\n\nThis confirms the calculations are correct.\n\n[Final Answer] The answer is 15 ounces \\n#### 15 ounces": null,
+        "I don't know how to solve this question.": null
+    },
+    "childs": {
+        "[reasoning process] Rory makes a cake that weighs 20 ounces and cuts it into 8 pieces. This means each piece of the cake weighs \\( \\frac{20 \\text{ ounces}}{8} = 2.5 \\text{ ounces} \\). Since Rory and her mom each take one piece, they together consume 2 pieces of cake. Thus, they eat \\( 2 \\times 2.5 \\text{ ounces} = 5 \\text{ ounces} \\). The remaining weight of the cake would then be \\( 20 \\text{ ounces} - 5 \\text{ ounces} = 15 \\text{ ounces} \\).\n\n[Verification] To verify the calculation: \n1. Total weight of the cake is 20 ounces.\n2. Each piece weighs 2.5 ounces.\n3. Rory and her mom take 2 pieces, which weighs \\( 2 \\times 2.5 = 5 \\) ounces.\n4. Remaining weight is \\( 20 - 5 = 15 \\) ounces.\n\nThis confirms the calculations are correct.\n\n[Final Answer] The answer is 15 ounces \\n#### 15 ounces": [],
+        "I don't know how to solve this question.": []
+    },
+    "ucb_bank": {}
+}

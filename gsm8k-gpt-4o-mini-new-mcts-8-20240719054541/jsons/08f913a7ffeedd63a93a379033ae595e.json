@@ -1,0 +1,44 @@
+{
+    "query": "Jeff is 10 years older than his younger sister, Martha. Martha, on the other hand, is 4 years younger than her boyfriend, Mike. If Mike is 24 years old, how old is Jeff?",
+    "ground_truth": "Martha is 24 - 4 = <<24-4=20>>20 years old.\nJeff is 20 + 10 =<<20+10=30>>30 years old.\n#### 30",
+    "hints_list": [],
+    "answers_list": [
+        "[reasoning process] Let's determine the ages step by step. We know that Mike is 24 years old. Since Martha is 4 years younger than Mike, we can find her age by subtracting 4 from Mike's age:\nMartha's age = Mike's age - 4 = 24 - 4 = 20 years old.\n\nNext, we know that Jeff is 10 years older than Martha. Therefore, we can find Jeff's age by adding 10 to Martha's age:\nJeff's age = Martha's age + 10 = 20 + 10 = 30 years old.\n\n[Verification] To ensure the calculations are correct: \n1. Mike is 24 years old, so Martha, being 4 years younger, is indeed 20 years old.\n2. Jeff is 10 years older than Martha, so if Martha is 20, then Jeff being 30 aligns with the given relationships.\n\n[Final Answer] The answer is 30 \\n#### 30",
+        "I can't understand this question."
+    ],
+    "ground_truth_hints": "",
+    "hints_prompt": "Question: Jeff is 10 years older than his younger sister, Martha. Martha, on the other hand, is 4 years younger than her boyfriend, Mike. If Mike is 24 years old, how old is Jeff?\nCould you provide me with the thought process to solve this problem, but please don’t give me the answer or calculation, just the thought process?",
+    "to_explore": [
+        "[reasoning process] Let's determine the ages step by step. We know that Mike is 24 years old. Since Martha is 4 years younger than Mike, we can find her age by subtracting 4 from Mike's age:\nMartha's age = Mike's age - 4 = 24 - 4 = 20 years old.\n\nNext, we know that Jeff is 10 years older than Martha. Therefore, we can find Jeff's age by adding 10 to Martha's age:\nJeff's age = Martha's age + 10 = 20 + 10 = 30 years old.\n\n[Verification] To ensure the calculations are correct: \n1. Mike is 24 years old, so Martha, being 4 years younger, is indeed 20 years old.\n2. Jeff is 10 years older than Martha, so if Martha is 20, then Jeff being 30 aligns with the given relationships.\n\n[Final Answer] The answer is 30 \\n#### 30",
+        "I can't understand this question."
+    ],
+    "to_explore_reward": {
+        "[reasoning process] Let's determine the ages step by step. We know that Mike is 24 years old. Since Martha is 4 years younger than Mike, we can find her age by subtracting 4 from Mike's age:\nMartha's age = Mike's age - 4 = 24 - 4 = 20 years old.\n\nNext, we know that Jeff is 10 years older than Martha. Therefore, we can find Jeff's age by adding 10 to Martha's age:\nJeff's age = Martha's age + 10 = 20 + 10 = 30 years old.\n\n[Verification] To ensure the calculations are correct: \n1. Mike is 24 years old, so Martha, being 4 years younger, is indeed 20 years old.\n2. Jeff is 10 years older than Martha, so if Martha is 20, then Jeff being 30 aligns with the given relationships.\n\n[Final Answer] The answer is 30 \\n#### 30": [
+            85.0
+        ],
+        "I can't understand this question.": [
+            -90.0
+        ]
+    },
+    "hints_bank": {},
+    "history_bank": {
+        "[reasoning process] Let's determine the ages step by step. We know that Mike is 24 years old. Since Martha is 4 years younger than Mike, we can find her age by subtracting 4 from Mike's age:\nMartha's age = Mike's age - 4 = 24 - 4 = 20 years old.\n\nNext, we know that Jeff is 10 years older than Martha. Therefore, we can find Jeff's age by adding 10 to Martha's age:\nJeff's age = Martha's age + 10 = 20 + 10 = 30 years old.\n\n[Verification] To ensure the calculations are correct: \n1. Mike is 24 years old, so Martha, being 4 years younger, is indeed 20 years old.\n2. Jeff is 10 years older than Martha, so if Martha is 20, then Jeff being 30 aligns with the given relationships.\n\n[Final Answer] The answer is 30 \\n#### 30": [
+            "Question: Jeff is 10 years older than his younger sister, Martha. Martha, on the other hand, is 4 years younger than her boyfriend, Mike. If Mike is 24 years old, how old is Jeff?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "[reasoning process] Let's determine the ages step by step. We know that Mike is 24 years old. Since Martha is 4 years younger than Mike, we can find her age by subtracting 4 from Mike's age:\nMartha's age = Mike's age - 4 = 24 - 4 = 20 years old.\n\nNext, we know that Jeff is 10 years older than Martha. Therefore, we can find Jeff's age by adding 10 to Martha's age:\nJeff's age = Martha's age + 10 = 20 + 10 = 30 years old.\n\n[Verification] To ensure the calculations are correct: \n1. Mike is 24 years old, so Martha, being 4 years younger, is indeed 20 years old.\n2. Jeff is 10 years older than Martha, so if Martha is 20, then Jeff being 30 aligns with the given relationships.\n\n[Final Answer] The answer is 30 \\n#### 30"
+        ],
+        "I can't understand this question.": [
+            "Question: Jeff is 10 years older than his younger sister, Martha. Martha, on the other hand, is 4 years younger than her boyfriend, Mike. If Mike is 24 years old, how old is Jeff?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "I can't understand this question."
+        ]
+    },
+    "hints_reward_imp_bank": {},
+    "fathers": {
+        "[reasoning process] Let's determine the ages step by step. We know that Mike is 24 years old. Since Martha is 4 years younger than Mike, we can find her age by subtracting 4 from Mike's age:\nMartha's age = Mike's age - 4 = 24 - 4 = 20 years old.\n\nNext, we know that Jeff is 10 years older than Martha. Therefore, we can find Jeff's age by adding 10 to Martha's age:\nJeff's age = Martha's age + 10 = 20 + 10 = 30 years old.\n\n[Verification] To ensure the calculations are correct: \n1. Mike is 24 years old, so Martha, being 4 years younger, is indeed 20 years old.\n2. Jeff is 10 years older than Martha, so if Martha is 20, then Jeff being 30 aligns with the given relationships.\n\n[Final Answer] The answer is 30 \\n#### 30": null,
+        "I can't understand this question.": null
+    },
+    "childs": {
+        "[reasoning process] Let's determine the ages step by step. We know that Mike is 24 years old. Since Martha is 4 years younger than Mike, we can find her age by subtracting 4 from Mike's age:\nMartha's age = Mike's age - 4 = 24 - 4 = 20 years old.\n\nNext, we know that Jeff is 10 years older than Martha. Therefore, we can find Jeff's age by adding 10 to Martha's age:\nJeff's age = Martha's age + 10 = 20 + 10 = 30 years old.\n\n[Verification] To ensure the calculations are correct: \n1. Mike is 24 years old, so Martha, being 4 years younger, is indeed 20 years old.\n2. Jeff is 10 years older than Martha, so if Martha is 20, then Jeff being 30 aligns with the given relationships.\n\n[Final Answer] The answer is 30 \\n#### 30": [],
+        "I can't understand this question.": []
+    },
+    "ucb_bank": {}
+}

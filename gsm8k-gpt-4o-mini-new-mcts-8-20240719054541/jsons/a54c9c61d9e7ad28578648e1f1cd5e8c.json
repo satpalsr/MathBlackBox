@@ -1,0 +1,44 @@
+{
+    "query": "Josh runs a car shop and services 3 cars a day.  He is open every day of the week except Sunday and Wednesday.  He gets paid $4 per car.  How much does he make in 2 weeks?",
+    "ground_truth": "He runs 7-2=<<7-2=5>>5 days a week\nThat means he serves 5*3=<<5*3=15>>15 cars a week\nSo he makes 15*4=$<<15*4=60>>60 a week\nSo he makes 60*2=$<<60*2=120>>120 in 2 weeks\n#### 120",
+    "hints_list": [],
+    "answers_list": [
+        "[reasoning process] First, we need to determine how many days Josh works in a week. He is open every day except Sunday and Wednesday, which means he works on 5 days: Monday, Tuesday, Thursday, Friday, and Saturday. In 2 weeks, he will work 5 days per week multiplied by 2 weeks, which equals 10 days. Next, we know that he services 3 cars a day. Therefore, in 10 days, he services 3 cars per day multiplied by 10 days, which equals 30 cars. Since he gets paid $4 per car, we multiply the total number of cars by the payment per car: 30 cars multiplied by $4 equals $120.\n\n[Verification] \n- Days worked per week: 7 total days - 2 closed days (Sunday and Wednesday) = 5 working days.\n- Total working days in 2 weeks: 5 working days/week * 2 weeks = 10 days.\n- Number of cars serviced: 3 cars/day * 10 days = 30 cars.\n- Total earnings: 30 cars * $4/car = $120.\n\n[Final Answer] The answer is 120 \\n#### 120",
+        "I don't know the answer to this question, sorry."
+    ],
+    "ground_truth_hints": "",
+    "hints_prompt": "Question: Josh runs a car shop and services 3 cars a day.  He is open every day of the week except Sunday and Wednesday.  He gets paid $4 per car.  How much does he make in 2 weeks?\nCould you provide me with the thought process to solve this problem, but please don’t give me the answer or calculation, just the thought process?",
+    "to_explore": [
+        "[reasoning process] First, we need to determine how many days Josh works in a week. He is open every day except Sunday and Wednesday, which means he works on 5 days: Monday, Tuesday, Thursday, Friday, and Saturday. In 2 weeks, he will work 5 days per week multiplied by 2 weeks, which equals 10 days. Next, we know that he services 3 cars a day. Therefore, in 10 days, he services 3 cars per day multiplied by 10 days, which equals 30 cars. Since he gets paid $4 per car, we multiply the total number of cars by the payment per car: 30 cars multiplied by $4 equals $120.\n\n[Verification] \n- Days worked per week: 7 total days - 2 closed days (Sunday and Wednesday) = 5 working days.\n- Total working days in 2 weeks: 5 working days/week * 2 weeks = 10 days.\n- Number of cars serviced: 3 cars/day * 10 days = 30 cars.\n- Total earnings: 30 cars * $4/car = $120.\n\n[Final Answer] The answer is 120 \\n#### 120",
+        "I don't know the answer to this question, sorry."
+    ],
+    "to_explore_reward": {
+        "[reasoning process] First, we need to determine how many days Josh works in a week. He is open every day except Sunday and Wednesday, which means he works on 5 days: Monday, Tuesday, Thursday, Friday, and Saturday. In 2 weeks, he will work 5 days per week multiplied by 2 weeks, which equals 10 days. Next, we know that he services 3 cars a day. Therefore, in 10 days, he services 3 cars per day multiplied by 10 days, which equals 30 cars. Since he gets paid $4 per car, we multiply the total number of cars by the payment per car: 30 cars multiplied by $4 equals $120.\n\n[Verification] \n- Days worked per week: 7 total days - 2 closed days (Sunday and Wednesday) = 5 working days.\n- Total working days in 2 weeks: 5 working days/week * 2 weeks = 10 days.\n- Number of cars serviced: 3 cars/day * 10 days = 30 cars.\n- Total earnings: 30 cars * $4/car = $120.\n\n[Final Answer] The answer is 120 \\n#### 120": [
+            75.0
+        ],
+        "I don't know the answer to this question, sorry.": [
+            -100.0
+        ]
+    },
+    "hints_bank": {},
+    "history_bank": {
+        "[reasoning process] First, we need to determine how many days Josh works in a week. He is open every day except Sunday and Wednesday, which means he works on 5 days: Monday, Tuesday, Thursday, Friday, and Saturday. In 2 weeks, he will work 5 days per week multiplied by 2 weeks, which equals 10 days. Next, we know that he services 3 cars a day. Therefore, in 10 days, he services 3 cars per day multiplied by 10 days, which equals 30 cars. Since he gets paid $4 per car, we multiply the total number of cars by the payment per car: 30 cars multiplied by $4 equals $120.\n\n[Verification] \n- Days worked per week: 7 total days - 2 closed days (Sunday and Wednesday) = 5 working days.\n- Total working days in 2 weeks: 5 working days/week * 2 weeks = 10 days.\n- Number of cars serviced: 3 cars/day * 10 days = 30 cars.\n- Total earnings: 30 cars * $4/car = $120.\n\n[Final Answer] The answer is 120 \\n#### 120": [
+            "Question: Josh runs a car shop and services 3 cars a day.  He is open every day of the week except Sunday and Wednesday.  He gets paid $4 per car.  How much does he make in 2 weeks?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "[reasoning process] First, we need to determine how many days Josh works in a week. He is open every day except Sunday and Wednesday, which means he works on 5 days: Monday, Tuesday, Thursday, Friday, and Saturday. In 2 weeks, he will work 5 days per week multiplied by 2 weeks, which equals 10 days. Next, we know that he services 3 cars a day. Therefore, in 10 days, he services 3 cars per day multiplied by 10 days, which equals 30 cars. Since he gets paid $4 per car, we multiply the total number of cars by the payment per car: 30 cars multiplied by $4 equals $120.\n\n[Verification] \n- Days worked per week: 7 total days - 2 closed days (Sunday and Wednesday) = 5 working days.\n- Total working days in 2 weeks: 5 working days/week * 2 weeks = 10 days.\n- Number of cars serviced: 3 cars/day * 10 days = 30 cars.\n- Total earnings: 30 cars * $4/car = $120.\n\n[Final Answer] The answer is 120 \\n#### 120"
+        ],
+        "I don't know the answer to this question, sorry.": [
+            "Question: Josh runs a car shop and services 3 cars a day.  He is open every day of the week except Sunday and Wednesday.  He gets paid $4 per car.  How much does he make in 2 weeks?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "I don't know the answer to this question, sorry."
+        ]
+    },
+    "hints_reward_imp_bank": {},
+    "fathers": {
+        "[reasoning process] First, we need to determine how many days Josh works in a week. He is open every day except Sunday and Wednesday, which means he works on 5 days: Monday, Tuesday, Thursday, Friday, and Saturday. In 2 weeks, he will work 5 days per week multiplied by 2 weeks, which equals 10 days. Next, we know that he services 3 cars a day. Therefore, in 10 days, he services 3 cars per day multiplied by 10 days, which equals 30 cars. Since he gets paid $4 per car, we multiply the total number of cars by the payment per car: 30 cars multiplied by $4 equals $120.\n\n[Verification] \n- Days worked per week: 7 total days - 2 closed days (Sunday and Wednesday) = 5 working days.\n- Total working days in 2 weeks: 5 working days/week * 2 weeks = 10 days.\n- Number of cars serviced: 3 cars/day * 10 days = 30 cars.\n- Total earnings: 30 cars * $4/car = $120.\n\n[Final Answer] The answer is 120 \\n#### 120": null,
+        "I don't know the answer to this question, sorry.": null
+    },
+    "childs": {
+        "[reasoning process] First, we need to determine how many days Josh works in a week. He is open every day except Sunday and Wednesday, which means he works on 5 days: Monday, Tuesday, Thursday, Friday, and Saturday. In 2 weeks, he will work 5 days per week multiplied by 2 weeks, which equals 10 days. Next, we know that he services 3 cars a day. Therefore, in 10 days, he services 3 cars per day multiplied by 10 days, which equals 30 cars. Since he gets paid $4 per car, we multiply the total number of cars by the payment per car: 30 cars multiplied by $4 equals $120.\n\n[Verification] \n- Days worked per week: 7 total days - 2 closed days (Sunday and Wednesday) = 5 working days.\n- Total working days in 2 weeks: 5 working days/week * 2 weeks = 10 days.\n- Number of cars serviced: 3 cars/day * 10 days = 30 cars.\n- Total earnings: 30 cars * $4/car = $120.\n\n[Final Answer] The answer is 120 \\n#### 120": [],
+        "I don't know the answer to this question, sorry.": []
+    },
+    "ucb_bank": {}
+}

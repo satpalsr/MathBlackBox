@@ -1,0 +1,44 @@
+{
+    "query": "A bus travels 60 miles per hour for 5 hours. A car travels 30 miles per hour for 8 hours. How much farther did the bus go than the car, in miles?",
+    "ground_truth": "The bus traveled 60 miles per hour * 5 hours = <<60*5=300>>300 miles.\nThe car traveled 30 miles per hour * 8 hours = <<30*8=240>>240 miles.\nSo, the bus went 300 - 240 = <<300-240=60>>60 miles farther than the car.\n#### 60",
+    "hints_list": [],
+    "answers_list": [
+        "[reasoning process] To determine how much farther the bus went than the car, we first need to calculate the distance each vehicle traveled.\n\n1. For the bus:\n   - Speed = 60 miles per hour\n   - Time = 5 hours\n   - Distance = Speed × Time = 60 miles/hour × 5 hours = 300 miles\n\n2. For the car:\n   - Speed = 30 miles per hour\n   - Time = 8 hours\n   - Distance = Speed × Time = 30 miles/hour × 8 hours = 240 miles\n\nNow that we have the distances, we can find out how much farther the bus traveled than the car:\n- Distance difference = Distance of bus - Distance of car = 300 miles - 240 miles = 60 miles\n\n[Verification] We calculated the bus's distance as 300 miles by multiplying its speed and time correctly. For the car, we found it to be 240 miles using the same method. The difference calculated between the two distances was also verified as correct.\n\n[Final Answer] The answer is 60 \\n#### 60",
+        "I Don't Know"
+    ],
+    "ground_truth_hints": "",
+    "hints_prompt": "Question: A bus travels 60 miles per hour for 5 hours. A car travels 30 miles per hour for 8 hours. How much farther did the bus go than the car, in miles?\nCould you provide me with the thought process to solve this problem, but please don’t give me the answer or calculation, just the thought process?",
+    "to_explore": [
+        "[reasoning process] To determine how much farther the bus went than the car, we first need to calculate the distance each vehicle traveled.\n\n1. For the bus:\n   - Speed = 60 miles per hour\n   - Time = 5 hours\n   - Distance = Speed × Time = 60 miles/hour × 5 hours = 300 miles\n\n2. For the car:\n   - Speed = 30 miles per hour\n   - Time = 8 hours\n   - Distance = Speed × Time = 30 miles/hour × 8 hours = 240 miles\n\nNow that we have the distances, we can find out how much farther the bus traveled than the car:\n- Distance difference = Distance of bus - Distance of car = 300 miles - 240 miles = 60 miles\n\n[Verification] We calculated the bus's distance as 300 miles by multiplying its speed and time correctly. For the car, we found it to be 240 miles using the same method. The difference calculated between the two distances was also verified as correct.\n\n[Final Answer] The answer is 60 \\n#### 60",
+        "I Don't Know"
+    ],
+    "to_explore_reward": {
+        "[reasoning process] To determine how much farther the bus went than the car, we first need to calculate the distance each vehicle traveled.\n\n1. For the bus:\n   - Speed = 60 miles per hour\n   - Time = 5 hours\n   - Distance = Speed × Time = 60 miles/hour × 5 hours = 300 miles\n\n2. For the car:\n   - Speed = 30 miles per hour\n   - Time = 8 hours\n   - Distance = Speed × Time = 30 miles/hour × 8 hours = 240 miles\n\nNow that we have the distances, we can find out how much farther the bus traveled than the car:\n- Distance difference = Distance of bus - Distance of car = 300 miles - 240 miles = 60 miles\n\n[Verification] We calculated the bus's distance as 300 miles by multiplying its speed and time correctly. For the car, we found it to be 240 miles using the same method. The difference calculated between the two distances was also verified as correct.\n\n[Final Answer] The answer is 60 \\n#### 60": [
+            -15.0
+        ],
+        "I Don't Know": [
+            -90.0
+        ]
+    },
+    "hints_bank": {},
+    "history_bank": {
+        "[reasoning process] To determine how much farther the bus went than the car, we first need to calculate the distance each vehicle traveled.\n\n1. For the bus:\n   - Speed = 60 miles per hour\n   - Time = 5 hours\n   - Distance = Speed × Time = 60 miles/hour × 5 hours = 300 miles\n\n2. For the car:\n   - Speed = 30 miles per hour\n   - Time = 8 hours\n   - Distance = Speed × Time = 30 miles/hour × 8 hours = 240 miles\n\nNow that we have the distances, we can find out how much farther the bus traveled than the car:\n- Distance difference = Distance of bus - Distance of car = 300 miles - 240 miles = 60 miles\n\n[Verification] We calculated the bus's distance as 300 miles by multiplying its speed and time correctly. For the car, we found it to be 240 miles using the same method. The difference calculated between the two distances was also verified as correct.\n\n[Final Answer] The answer is 60 \\n#### 60": [
+            "Question: A bus travels 60 miles per hour for 5 hours. A car travels 30 miles per hour for 8 hours. How much farther did the bus go than the car, in miles?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "[reasoning process] To determine how much farther the bus went than the car, we first need to calculate the distance each vehicle traveled.\n\n1. For the bus:\n   - Speed = 60 miles per hour\n   - Time = 5 hours\n   - Distance = Speed × Time = 60 miles/hour × 5 hours = 300 miles\n\n2. For the car:\n   - Speed = 30 miles per hour\n   - Time = 8 hours\n   - Distance = Speed × Time = 30 miles/hour × 8 hours = 240 miles\n\nNow that we have the distances, we can find out how much farther the bus traveled than the car:\n- Distance difference = Distance of bus - Distance of car = 300 miles - 240 miles = 60 miles\n\n[Verification] We calculated the bus's distance as 300 miles by multiplying its speed and time correctly. For the car, we found it to be 240 miles using the same method. The difference calculated between the two distances was also verified as correct.\n\n[Final Answer] The answer is 60 \\n#### 60"
+        ],
+        "I Don't Know": [
+            "Question: A bus travels 60 miles per hour for 5 hours. A car travels 30 miles per hour for 8 hours. How much farther did the bus go than the car, in miles?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "I Don't Know"
+        ]
+    },
+    "hints_reward_imp_bank": {},
+    "fathers": {
+        "[reasoning process] To determine how much farther the bus went than the car, we first need to calculate the distance each vehicle traveled.\n\n1. For the bus:\n   - Speed = 60 miles per hour\n   - Time = 5 hours\n   - Distance = Speed × Time = 60 miles/hour × 5 hours = 300 miles\n\n2. For the car:\n   - Speed = 30 miles per hour\n   - Time = 8 hours\n   - Distance = Speed × Time = 30 miles/hour × 8 hours = 240 miles\n\nNow that we have the distances, we can find out how much farther the bus traveled than the car:\n- Distance difference = Distance of bus - Distance of car = 300 miles - 240 miles = 60 miles\n\n[Verification] We calculated the bus's distance as 300 miles by multiplying its speed and time correctly. For the car, we found it to be 240 miles using the same method. The difference calculated between the two distances was also verified as correct.\n\n[Final Answer] The answer is 60 \\n#### 60": null,
+        "I Don't Know": null
+    },
+    "childs": {
+        "[reasoning process] To determine how much farther the bus went than the car, we first need to calculate the distance each vehicle traveled.\n\n1. For the bus:\n   - Speed = 60 miles per hour\n   - Time = 5 hours\n   - Distance = Speed × Time = 60 miles/hour × 5 hours = 300 miles\n\n2. For the car:\n   - Speed = 30 miles per hour\n   - Time = 8 hours\n   - Distance = Speed × Time = 30 miles/hour × 8 hours = 240 miles\n\nNow that we have the distances, we can find out how much farther the bus traveled than the car:\n- Distance difference = Distance of bus - Distance of car = 300 miles - 240 miles = 60 miles\n\n[Verification] We calculated the bus's distance as 300 miles by multiplying its speed and time correctly. For the car, we found it to be 240 miles using the same method. The difference calculated between the two distances was also verified as correct.\n\n[Final Answer] The answer is 60 \\n#### 60": [],
+        "I Don't Know": []
+    },
+    "ucb_bank": {}
+}

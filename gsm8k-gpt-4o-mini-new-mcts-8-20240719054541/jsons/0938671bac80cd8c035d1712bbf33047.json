@@ -1,0 +1,44 @@
+{
+    "query": "Howard spends $8 dollars at the arcade on Monday. On Tuesday, he spends twice as much at the arcade as he did on Monday. On Wednesday, he spends 4 times as much at the arcade as he spent on Tuesday. If he originally had $100, how much money does he have left?",
+    "ground_truth": "On Tuesday, he spends $8 * 2 = $<<8*2=16>>16.\nOn Wednesday, he spends $16 * 4 = $<<16*4=64>>64.\nIn total he spent $8 + $16 + $64 = $<<8+16+64=88>>88 at the arcade.\nHe has $100 - $88 = $<<100-88=12>>12 left.\n#### 12",
+    "hints_list": [],
+    "answers_list": [
+        "[reasoning process]\n1. On Monday, Howard spends $8 at the arcade. \n2. On Tuesday, he spends twice as much as on Monday, which is: \n   \\[\n   2 \\times 8 = 16 \\text{ dollars}\n   \\]\n3. On Wednesday, he spends 4 times as much as he spent on Tuesday, which is: \n   \\[\n   4 \\times 16 = 64 \\text{ dollars}\n   \\]\n4. Now, we calculate the total amount he has spent over the three days:\n   \\[\n   \\text{Total Spent} = 8 + 16 + 64 = 88 \\text{ dollars}\n   \\]\n5. Initially, Howard had $100. After his expenditures, the amount of money he has left is:\n   \\[\n   100 - 88 = 12 \\text{ dollars}\n   \\]\n\n[Verification]\n- On Monday: $8 spent.\n- On Tuesday: $16 spent (which is 2 × $8).\n- On Wednesday: $64 spent (which is 4 × $16).\n- Total spent confirmed: $8 + $16 + $64 = $88.\n- Remaining money confirmed: $100 - $88 = $12.\n\n[Final Answer] The answer is 12 \\n#### 12",
+        "I can't help with this question."
+    ],
+    "ground_truth_hints": "",
+    "hints_prompt": "Question: Howard spends $8 dollars at the arcade on Monday. On Tuesday, he spends twice as much at the arcade as he did on Monday. On Wednesday, he spends 4 times as much at the arcade as he spent on Tuesday. If he originally had $100, how much money does he have left?\nCould you provide me with the thought process to solve this problem, but please don’t give me the answer or calculation, just the thought process?",
+    "to_explore": [
+        "[reasoning process]\n1. On Monday, Howard spends $8 at the arcade. \n2. On Tuesday, he spends twice as much as on Monday, which is: \n   \\[\n   2 \\times 8 = 16 \\text{ dollars}\n   \\]\n3. On Wednesday, he spends 4 times as much as he spent on Tuesday, which is: \n   \\[\n   4 \\times 16 = 64 \\text{ dollars}\n   \\]\n4. Now, we calculate the total amount he has spent over the three days:\n   \\[\n   \\text{Total Spent} = 8 + 16 + 64 = 88 \\text{ dollars}\n   \\]\n5. Initially, Howard had $100. After his expenditures, the amount of money he has left is:\n   \\[\n   100 - 88 = 12 \\text{ dollars}\n   \\]\n\n[Verification]\n- On Monday: $8 spent.\n- On Tuesday: $16 spent (which is 2 × $8).\n- On Wednesday: $64 spent (which is 4 × $16).\n- Total spent confirmed: $8 + $16 + $64 = $88.\n- Remaining money confirmed: $100 - $88 = $12.\n\n[Final Answer] The answer is 12 \\n#### 12",
+        "I can't help with this question."
+    ],
+    "to_explore_reward": {
+        "[reasoning process]\n1. On Monday, Howard spends $8 at the arcade. \n2. On Tuesday, he spends twice as much as on Monday, which is: \n   \\[\n   2 \\times 8 = 16 \\text{ dollars}\n   \\]\n3. On Wednesday, he spends 4 times as much as he spent on Tuesday, which is: \n   \\[\n   4 \\times 16 = 64 \\text{ dollars}\n   \\]\n4. Now, we calculate the total amount he has spent over the three days:\n   \\[\n   \\text{Total Spent} = 8 + 16 + 64 = 88 \\text{ dollars}\n   \\]\n5. Initially, Howard had $100. After his expenditures, the amount of money he has left is:\n   \\[\n   100 - 88 = 12 \\text{ dollars}\n   \\]\n\n[Verification]\n- On Monday: $8 spent.\n- On Tuesday: $16 spent (which is 2 × $8).\n- On Wednesday: $64 spent (which is 4 × $16).\n- Total spent confirmed: $8 + $16 + $64 = $88.\n- Remaining money confirmed: $100 - $88 = $12.\n\n[Final Answer] The answer is 12 \\n#### 12": [
+            85.0
+        ],
+        "I can't help with this question.": [
+            -100.0
+        ]
+    },
+    "hints_bank": {},
+    "history_bank": {
+        "[reasoning process]\n1. On Monday, Howard spends $8 at the arcade. \n2. On Tuesday, he spends twice as much as on Monday, which is: \n   \\[\n   2 \\times 8 = 16 \\text{ dollars}\n   \\]\n3. On Wednesday, he spends 4 times as much as he spent on Tuesday, which is: \n   \\[\n   4 \\times 16 = 64 \\text{ dollars}\n   \\]\n4. Now, we calculate the total amount he has spent over the three days:\n   \\[\n   \\text{Total Spent} = 8 + 16 + 64 = 88 \\text{ dollars}\n   \\]\n5. Initially, Howard had $100. After his expenditures, the amount of money he has left is:\n   \\[\n   100 - 88 = 12 \\text{ dollars}\n   \\]\n\n[Verification]\n- On Monday: $8 spent.\n- On Tuesday: $16 spent (which is 2 × $8).\n- On Wednesday: $64 spent (which is 4 × $16).\n- Total spent confirmed: $8 + $16 + $64 = $88.\n- Remaining money confirmed: $100 - $88 = $12.\n\n[Final Answer] The answer is 12 \\n#### 12": [
+            "Question: Howard spends $8 dollars at the arcade on Monday. On Tuesday, he spends twice as much at the arcade as he did on Monday. On Wednesday, he spends 4 times as much at the arcade as he spent on Tuesday. If he originally had $100, how much money does he have left?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "[reasoning process]\n1. On Monday, Howard spends $8 at the arcade. \n2. On Tuesday, he spends twice as much as on Monday, which is: \n   \\[\n   2 \\times 8 = 16 \\text{ dollars}\n   \\]\n3. On Wednesday, he spends 4 times as much as he spent on Tuesday, which is: \n   \\[\n   4 \\times 16 = 64 \\text{ dollars}\n   \\]\n4. Now, we calculate the total amount he has spent over the three days:\n   \\[\n   \\text{Total Spent} = 8 + 16 + 64 = 88 \\text{ dollars}\n   \\]\n5. Initially, Howard had $100. After his expenditures, the amount of money he has left is:\n   \\[\n   100 - 88 = 12 \\text{ dollars}\n   \\]\n\n[Verification]\n- On Monday: $8 spent.\n- On Tuesday: $16 spent (which is 2 × $8).\n- On Wednesday: $64 spent (which is 4 × $16).\n- Total spent confirmed: $8 + $16 + $64 = $88.\n- Remaining money confirmed: $100 - $88 = $12.\n\n[Final Answer] The answer is 12 \\n#### 12"
+        ],
+        "I can't help with this question.": [
+            "Question: Howard spends $8 dollars at the arcade on Monday. On Tuesday, he spends twice as much at the arcade as he did on Monday. On Wednesday, he spends 4 times as much at the arcade as he spent on Tuesday. If he originally had $100, how much money does he have left?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "I can't help with this question."
+        ]
+    },
+    "hints_reward_imp_bank": {},
+    "fathers": {
+        "[reasoning process]\n1. On Monday, Howard spends $8 at the arcade. \n2. On Tuesday, he spends twice as much as on Monday, which is: \n   \\[\n   2 \\times 8 = 16 \\text{ dollars}\n   \\]\n3. On Wednesday, he spends 4 times as much as he spent on Tuesday, which is: \n   \\[\n   4 \\times 16 = 64 \\text{ dollars}\n   \\]\n4. Now, we calculate the total amount he has spent over the three days:\n   \\[\n   \\text{Total Spent} = 8 + 16 + 64 = 88 \\text{ dollars}\n   \\]\n5. Initially, Howard had $100. After his expenditures, the amount of money he has left is:\n   \\[\n   100 - 88 = 12 \\text{ dollars}\n   \\]\n\n[Verification]\n- On Monday: $8 spent.\n- On Tuesday: $16 spent (which is 2 × $8).\n- On Wednesday: $64 spent (which is 4 × $16).\n- Total spent confirmed: $8 + $16 + $64 = $88.\n- Remaining money confirmed: $100 - $88 = $12.\n\n[Final Answer] The answer is 12 \\n#### 12": null,
+        "I can't help with this question.": null
+    },
+    "childs": {
+        "[reasoning process]\n1. On Monday, Howard spends $8 at the arcade. \n2. On Tuesday, he spends twice as much as on Monday, which is: \n   \\[\n   2 \\times 8 = 16 \\text{ dollars}\n   \\]\n3. On Wednesday, he spends 4 times as much as he spent on Tuesday, which is: \n   \\[\n   4 \\times 16 = 64 \\text{ dollars}\n   \\]\n4. Now, we calculate the total amount he has spent over the three days:\n   \\[\n   \\text{Total Spent} = 8 + 16 + 64 = 88 \\text{ dollars}\n   \\]\n5. Initially, Howard had $100. After his expenditures, the amount of money he has left is:\n   \\[\n   100 - 88 = 12 \\text{ dollars}\n   \\]\n\n[Verification]\n- On Monday: $8 spent.\n- On Tuesday: $16 spent (which is 2 × $8).\n- On Wednesday: $64 spent (which is 4 × $16).\n- Total spent confirmed: $8 + $16 + $64 = $88.\n- Remaining money confirmed: $100 - $88 = $12.\n\n[Final Answer] The answer is 12 \\n#### 12": [],
+        "I can't help with this question.": []
+    },
+    "ucb_bank": {}
+}

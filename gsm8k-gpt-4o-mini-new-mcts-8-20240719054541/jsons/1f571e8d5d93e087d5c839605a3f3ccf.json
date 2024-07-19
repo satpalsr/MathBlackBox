@@ -1,0 +1,44 @@
+{
+    "query": "Shondra has 7 fewer plants than Toni. Toni has 60% more plants than Frederick. If Frederick has 10 plants, how many plants does Shondra have?",
+    "ground_truth": "Toni has 10 * 0.60 = <<10*0.60=6>>6 more plants than Frederick\nToni has a total of 10 + 6 = <<10+6=16>>16 plants\nShondra has 16 - 7 = <<16-7=9>>9 plants.\n#### 9",
+    "hints_list": [],
+    "answers_list": [
+        "[reasoning process]  \nFirst, we start with the number of plants Frederick has, which is given as 10. \n\nNext, we need to find out how many plants Toni has. We know that Toni has 60% more plants than Frederick. To find this, we calculate 60% of Frederick's plants:  \n60% of 10 = 0.6 * 10 = 6 plants. \n\nNow, we add this to the number of plants Frederick has to find Toni's total:  \nToni's plants = Frederick's plants + 60% of Frederick's plants  \nToni's plants = 10 + 6 = 16 plants. \n\nNow that we have Toni's total, we can find out how many plants Shondra has. It is stated that Shondra has 7 fewer plants than Toni:  \nShondra's plants = Toni's plants - 7  \nShondra's plants = 16 - 7 = 9 plants. \n\n[Verification]  \nLet’s verify the calculations:  \n- Frederick has 10 plants.  \n- 60% of 10 is indeed 6, so Toni has 10 + 6 = 16 plants.  \n- Shondra has 16 - 7 = 9 plants.  \nAll calculations check out.\n\n[Final Answer] The answer is 9  \n#### 9",
+        "I Don't Know"
+    ],
+    "ground_truth_hints": "",
+    "hints_prompt": "Question: Shondra has 7 fewer plants than Toni. Toni has 60% more plants than Frederick. If Frederick has 10 plants, how many plants does Shondra have?\nCould you provide me with the thought process to solve this problem, but please don’t give me the answer or calculation, just the thought process?",
+    "to_explore": [
+        "[reasoning process]  \nFirst, we start with the number of plants Frederick has, which is given as 10. \n\nNext, we need to find out how many plants Toni has. We know that Toni has 60% more plants than Frederick. To find this, we calculate 60% of Frederick's plants:  \n60% of 10 = 0.6 * 10 = 6 plants. \n\nNow, we add this to the number of plants Frederick has to find Toni's total:  \nToni's plants = Frederick's plants + 60% of Frederick's plants  \nToni's plants = 10 + 6 = 16 plants. \n\nNow that we have Toni's total, we can find out how many plants Shondra has. It is stated that Shondra has 7 fewer plants than Toni:  \nShondra's plants = Toni's plants - 7  \nShondra's plants = 16 - 7 = 9 plants. \n\n[Verification]  \nLet’s verify the calculations:  \n- Frederick has 10 plants.  \n- 60% of 10 is indeed 6, so Toni has 10 + 6 = 16 plants.  \n- Shondra has 16 - 7 = 9 plants.  \nAll calculations check out.\n\n[Final Answer] The answer is 9  \n#### 9",
+        "I Don't Know"
+    ],
+    "to_explore_reward": {
+        "[reasoning process]  \nFirst, we start with the number of plants Frederick has, which is given as 10. \n\nNext, we need to find out how many plants Toni has. We know that Toni has 60% more plants than Frederick. To find this, we calculate 60% of Frederick's plants:  \n60% of 10 = 0.6 * 10 = 6 plants. \n\nNow, we add this to the number of plants Frederick has to find Toni's total:  \nToni's plants = Frederick's plants + 60% of Frederick's plants  \nToni's plants = 10 + 6 = 16 plants. \n\nNow that we have Toni's total, we can find out how many plants Shondra has. It is stated that Shondra has 7 fewer plants than Toni:  \nShondra's plants = Toni's plants - 7  \nShondra's plants = 16 - 7 = 9 plants. \n\n[Verification]  \nLet’s verify the calculations:  \n- Frederick has 10 plants.  \n- 60% of 10 is indeed 6, so Toni has 10 + 6 = 16 plants.  \n- Shondra has 16 - 7 = 9 plants.  \nAll calculations check out.\n\n[Final Answer] The answer is 9  \n#### 9": [
+            75.0
+        ],
+        "I Don't Know": [
+            -100.0
+        ]
+    },
+    "hints_bank": {},
+    "history_bank": {
+        "[reasoning process]  \nFirst, we start with the number of plants Frederick has, which is given as 10. \n\nNext, we need to find out how many plants Toni has. We know that Toni has 60% more plants than Frederick. To find this, we calculate 60% of Frederick's plants:  \n60% of 10 = 0.6 * 10 = 6 plants. \n\nNow, we add this to the number of plants Frederick has to find Toni's total:  \nToni's plants = Frederick's plants + 60% of Frederick's plants  \nToni's plants = 10 + 6 = 16 plants. \n\nNow that we have Toni's total, we can find out how many plants Shondra has. It is stated that Shondra has 7 fewer plants than Toni:  \nShondra's plants = Toni's plants - 7  \nShondra's plants = 16 - 7 = 9 plants. \n\n[Verification]  \nLet’s verify the calculations:  \n- Frederick has 10 plants.  \n- 60% of 10 is indeed 6, so Toni has 10 + 6 = 16 plants.  \n- Shondra has 16 - 7 = 9 plants.  \nAll calculations check out.\n\n[Final Answer] The answer is 9  \n#### 9": [
+            "Question: Shondra has 7 fewer plants than Toni. Toni has 60% more plants than Frederick. If Frederick has 10 plants, how many plants does Shondra have?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "[reasoning process]  \nFirst, we start with the number of plants Frederick has, which is given as 10. \n\nNext, we need to find out how many plants Toni has. We know that Toni has 60% more plants than Frederick. To find this, we calculate 60% of Frederick's plants:  \n60% of 10 = 0.6 * 10 = 6 plants. \n\nNow, we add this to the number of plants Frederick has to find Toni's total:  \nToni's plants = Frederick's plants + 60% of Frederick's plants  \nToni's plants = 10 + 6 = 16 plants. \n\nNow that we have Toni's total, we can find out how many plants Shondra has. It is stated that Shondra has 7 fewer plants than Toni:  \nShondra's plants = Toni's plants - 7  \nShondra's plants = 16 - 7 = 9 plants. \n\n[Verification]  \nLet’s verify the calculations:  \n- Frederick has 10 plants.  \n- 60% of 10 is indeed 6, so Toni has 10 + 6 = 16 plants.  \n- Shondra has 16 - 7 = 9 plants.  \nAll calculations check out.\n\n[Final Answer] The answer is 9  \n#### 9"
+        ],
+        "I Don't Know": [
+            "Question: Shondra has 7 fewer plants than Toni. Toni has 60% more plants than Frederick. If Frederick has 10 plants, how many plants does Shondra have?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "I Don't Know"
+        ]
+    },
+    "hints_reward_imp_bank": {},
+    "fathers": {
+        "[reasoning process]  \nFirst, we start with the number of plants Frederick has, which is given as 10. \n\nNext, we need to find out how many plants Toni has. We know that Toni has 60% more plants than Frederick. To find this, we calculate 60% of Frederick's plants:  \n60% of 10 = 0.6 * 10 = 6 plants. \n\nNow, we add this to the number of plants Frederick has to find Toni's total:  \nToni's plants = Frederick's plants + 60% of Frederick's plants  \nToni's plants = 10 + 6 = 16 plants. \n\nNow that we have Toni's total, we can find out how many plants Shondra has. It is stated that Shondra has 7 fewer plants than Toni:  \nShondra's plants = Toni's plants - 7  \nShondra's plants = 16 - 7 = 9 plants. \n\n[Verification]  \nLet’s verify the calculations:  \n- Frederick has 10 plants.  \n- 60% of 10 is indeed 6, so Toni has 10 + 6 = 16 plants.  \n- Shondra has 16 - 7 = 9 plants.  \nAll calculations check out.\n\n[Final Answer] The answer is 9  \n#### 9": null,
+        "I Don't Know": null
+    },
+    "childs": {
+        "[reasoning process]  \nFirst, we start with the number of plants Frederick has, which is given as 10. \n\nNext, we need to find out how many plants Toni has. We know that Toni has 60% more plants than Frederick. To find this, we calculate 60% of Frederick's plants:  \n60% of 10 = 0.6 * 10 = 6 plants. \n\nNow, we add this to the number of plants Frederick has to find Toni's total:  \nToni's plants = Frederick's plants + 60% of Frederick's plants  \nToni's plants = 10 + 6 = 16 plants. \n\nNow that we have Toni's total, we can find out how many plants Shondra has. It is stated that Shondra has 7 fewer plants than Toni:  \nShondra's plants = Toni's plants - 7  \nShondra's plants = 16 - 7 = 9 plants. \n\n[Verification]  \nLet’s verify the calculations:  \n- Frederick has 10 plants.  \n- 60% of 10 is indeed 6, so Toni has 10 + 6 = 16 plants.  \n- Shondra has 16 - 7 = 9 plants.  \nAll calculations check out.\n\n[Final Answer] The answer is 9  \n#### 9": [],
+        "I Don't Know": []
+    },
+    "ucb_bank": {}
+}

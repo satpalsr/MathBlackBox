@@ -1,0 +1,44 @@
+{
+    "query": "Ali had $21. Leila gave him half of her $100. How much does Ali have now?",
+    "ground_truth": "Leila gave 100/2 = $<<100/2=50>>50 to Ali.\nAli now has $21+ $50 = $<<21+50=71>>71.\n#### 71",
+    "hints_list": [],
+    "answers_list": [
+        "[reasoning process]  \n1. Initially, Ali has $21.  \n2. Leila has $100 and she decides to give half of her amount to Ali. Half of $100 is $50 (since 100 divided by 2 equals 50).  \n3. So, Leila gives Ali $50.  \n4. Now, to find out how much Ali has after receiving the money from Leila, we add the $50 to the $21 he already has:  \n   \\[ \n   21 + 50 = 71 \n   \\]  \n5. Therefore, after receiving the money, Ali will have $71.\n\n[Verification]  \n- Starting amount for Ali: $21  \n- Amount given by Leila: $50 (half of her $100)  \n- Total for Ali after receiving the money:  \n   \\[ \n   21 + 50 = 71 \n   \\]  \nThis confirms that the calculations are correct.\n\n[Final Answer] The answer is 71  \n#### 71",
+        "I Don't Know"
+    ],
+    "ground_truth_hints": "",
+    "hints_prompt": "Question: Ali had $21. Leila gave him half of her $100. How much does Ali have now?\nCould you provide me with the thought process to solve this problem, but please don’t give me the answer or calculation, just the thought process?",
+    "to_explore": [
+        "[reasoning process]  \n1. Initially, Ali has $21.  \n2. Leila has $100 and she decides to give half of her amount to Ali. Half of $100 is $50 (since 100 divided by 2 equals 50).  \n3. So, Leila gives Ali $50.  \n4. Now, to find out how much Ali has after receiving the money from Leila, we add the $50 to the $21 he already has:  \n   \\[ \n   21 + 50 = 71 \n   \\]  \n5. Therefore, after receiving the money, Ali will have $71.\n\n[Verification]  \n- Starting amount for Ali: $21  \n- Amount given by Leila: $50 (half of her $100)  \n- Total for Ali after receiving the money:  \n   \\[ \n   21 + 50 = 71 \n   \\]  \nThis confirms that the calculations are correct.\n\n[Final Answer] The answer is 71  \n#### 71",
+        "I Don't Know"
+    ],
+    "to_explore_reward": {
+        "[reasoning process]  \n1. Initially, Ali has $21.  \n2. Leila has $100 and she decides to give half of her amount to Ali. Half of $100 is $50 (since 100 divided by 2 equals 50).  \n3. So, Leila gives Ali $50.  \n4. Now, to find out how much Ali has after receiving the money from Leila, we add the $50 to the $21 he already has:  \n   \\[ \n   21 + 50 = 71 \n   \\]  \n5. Therefore, after receiving the money, Ali will have $71.\n\n[Verification]  \n- Starting amount for Ali: $21  \n- Amount given by Leila: $50 (half of her $100)  \n- Total for Ali after receiving the money:  \n   \\[ \n   21 + 50 = 71 \n   \\]  \nThis confirms that the calculations are correct.\n\n[Final Answer] The answer is 71  \n#### 71": [
+            75.0
+        ],
+        "I Don't Know": [
+            -95.0
+        ]
+    },
+    "hints_bank": {},
+    "history_bank": {
+        "[reasoning process]  \n1. Initially, Ali has $21.  \n2. Leila has $100 and she decides to give half of her amount to Ali. Half of $100 is $50 (since 100 divided by 2 equals 50).  \n3. So, Leila gives Ali $50.  \n4. Now, to find out how much Ali has after receiving the money from Leila, we add the $50 to the $21 he already has:  \n   \\[ \n   21 + 50 = 71 \n   \\]  \n5. Therefore, after receiving the money, Ali will have $71.\n\n[Verification]  \n- Starting amount for Ali: $21  \n- Amount given by Leila: $50 (half of her $100)  \n- Total for Ali after receiving the money:  \n   \\[ \n   21 + 50 = 71 \n   \\]  \nThis confirms that the calculations are correct.\n\n[Final Answer] The answer is 71  \n#### 71": [
+            "Question: Ali had $21. Leila gave him half of her $100. How much does Ali have now?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "[reasoning process]  \n1. Initially, Ali has $21.  \n2. Leila has $100 and she decides to give half of her amount to Ali. Half of $100 is $50 (since 100 divided by 2 equals 50).  \n3. So, Leila gives Ali $50.  \n4. Now, to find out how much Ali has after receiving the money from Leila, we add the $50 to the $21 he already has:  \n   \\[ \n   21 + 50 = 71 \n   \\]  \n5. Therefore, after receiving the money, Ali will have $71.\n\n[Verification]  \n- Starting amount for Ali: $21  \n- Amount given by Leila: $50 (half of her $100)  \n- Total for Ali after receiving the money:  \n   \\[ \n   21 + 50 = 71 \n   \\]  \nThis confirms that the calculations are correct.\n\n[Final Answer] The answer is 71  \n#### 71"
+        ],
+        "I Don't Know": [
+            "Question: Ali had $21. Leila gave him half of her $100. How much does Ali have now?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "I Don't Know"
+        ]
+    },
+    "hints_reward_imp_bank": {},
+    "fathers": {
+        "[reasoning process]  \n1. Initially, Ali has $21.  \n2. Leila has $100 and she decides to give half of her amount to Ali. Half of $100 is $50 (since 100 divided by 2 equals 50).  \n3. So, Leila gives Ali $50.  \n4. Now, to find out how much Ali has after receiving the money from Leila, we add the $50 to the $21 he already has:  \n   \\[ \n   21 + 50 = 71 \n   \\]  \n5. Therefore, after receiving the money, Ali will have $71.\n\n[Verification]  \n- Starting amount for Ali: $21  \n- Amount given by Leila: $50 (half of her $100)  \n- Total for Ali after receiving the money:  \n   \\[ \n   21 + 50 = 71 \n   \\]  \nThis confirms that the calculations are correct.\n\n[Final Answer] The answer is 71  \n#### 71": null,
+        "I Don't Know": null
+    },
+    "childs": {
+        "[reasoning process]  \n1. Initially, Ali has $21.  \n2. Leila has $100 and she decides to give half of her amount to Ali. Half of $100 is $50 (since 100 divided by 2 equals 50).  \n3. So, Leila gives Ali $50.  \n4. Now, to find out how much Ali has after receiving the money from Leila, we add the $50 to the $21 he already has:  \n   \\[ \n   21 + 50 = 71 \n   \\]  \n5. Therefore, after receiving the money, Ali will have $71.\n\n[Verification]  \n- Starting amount for Ali: $21  \n- Amount given by Leila: $50 (half of her $100)  \n- Total for Ali after receiving the money:  \n   \\[ \n   21 + 50 = 71 \n   \\]  \nThis confirms that the calculations are correct.\n\n[Final Answer] The answer is 71  \n#### 71": [],
+        "I Don't Know": []
+    },
+    "ucb_bank": {}
+}

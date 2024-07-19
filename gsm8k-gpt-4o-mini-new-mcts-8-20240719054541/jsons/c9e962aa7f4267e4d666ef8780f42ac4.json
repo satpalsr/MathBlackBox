@@ -1,0 +1,44 @@
+{
+    "query": "Erin has 7 lollipops. Her mother gives Erin another 10 lollipops. If Erin gives 3 of her lollipops to Ella, how many lollipops does she have left?",
+    "ground_truth": "Erin has 7 + 10 = <<7+10=17>>17 lollipops\nAfter she gives 3 lollipops to Ella she has 17 - 3 = <<17-3=14>>14 lollipops.\n#### 14",
+    "hints_list": [],
+    "answers_list": [
+        "[reasoning process] Erin initially has 7 lollipops. Her mother gives her an additional 10 lollipops. To find the total number of lollipops Erin has after receiving the lollipops from her mother, we add the two amounts together: \n\n7 (initial lollipops) + 10 (lollipops from her mother) = 17 lollipops.\n\nNext, Erin gives 3 lollipops to Ella. To determine how many lollipops Erin has left, we subtract the 3 lollipops given away from her total:\n\n17 (total lollipops) - 3 (lollipops given to Ella) = 14 lollipops.\n\nTherefore, Erin has 14 lollipops remaining.\n\n[Verification] To verify the calculations: \n1. Start with 7 lollipops.\n2. Add 10 lollipops from her mother to get 17.\n3. Subtract 3 lollipops given to Ella, resulting in 14 lollipops left. \nThe calculations are consistent and correct.\n\n[Final Answer] The answer is 14 \n#### 14",
+        "I don't know the answer to this question, sorry."
+    ],
+    "ground_truth_hints": "",
+    "hints_prompt": "Question: Erin has 7 lollipops. Her mother gives Erin another 10 lollipops. If Erin gives 3 of her lollipops to Ella, how many lollipops does she have left?\nCould you provide me with the thought process to solve this problem, but please don’t give me the answer or calculation, just the thought process?",
+    "to_explore": [
+        "[reasoning process] Erin initially has 7 lollipops. Her mother gives her an additional 10 lollipops. To find the total number of lollipops Erin has after receiving the lollipops from her mother, we add the two amounts together: \n\n7 (initial lollipops) + 10 (lollipops from her mother) = 17 lollipops.\n\nNext, Erin gives 3 lollipops to Ella. To determine how many lollipops Erin has left, we subtract the 3 lollipops given away from her total:\n\n17 (total lollipops) - 3 (lollipops given to Ella) = 14 lollipops.\n\nTherefore, Erin has 14 lollipops remaining.\n\n[Verification] To verify the calculations: \n1. Start with 7 lollipops.\n2. Add 10 lollipops from her mother to get 17.\n3. Subtract 3 lollipops given to Ella, resulting in 14 lollipops left. \nThe calculations are consistent and correct.\n\n[Final Answer] The answer is 14 \n#### 14",
+        "I don't know the answer to this question, sorry."
+    ],
+    "to_explore_reward": {
+        "[reasoning process] Erin initially has 7 lollipops. Her mother gives her an additional 10 lollipops. To find the total number of lollipops Erin has after receiving the lollipops from her mother, we add the two amounts together: \n\n7 (initial lollipops) + 10 (lollipops from her mother) = 17 lollipops.\n\nNext, Erin gives 3 lollipops to Ella. To determine how many lollipops Erin has left, we subtract the 3 lollipops given away from her total:\n\n17 (total lollipops) - 3 (lollipops given to Ella) = 14 lollipops.\n\nTherefore, Erin has 14 lollipops remaining.\n\n[Verification] To verify the calculations: \n1. Start with 7 lollipops.\n2. Add 10 lollipops from her mother to get 17.\n3. Subtract 3 lollipops given to Ella, resulting in 14 lollipops left. \nThe calculations are consistent and correct.\n\n[Final Answer] The answer is 14 \n#### 14": [
+            75.0
+        ],
+        "I don't know the answer to this question, sorry.": [
+            -90.0
+        ]
+    },
+    "hints_bank": {},
+    "history_bank": {
+        "[reasoning process] Erin initially has 7 lollipops. Her mother gives her an additional 10 lollipops. To find the total number of lollipops Erin has after receiving the lollipops from her mother, we add the two amounts together: \n\n7 (initial lollipops) + 10 (lollipops from her mother) = 17 lollipops.\n\nNext, Erin gives 3 lollipops to Ella. To determine how many lollipops Erin has left, we subtract the 3 lollipops given away from her total:\n\n17 (total lollipops) - 3 (lollipops given to Ella) = 14 lollipops.\n\nTherefore, Erin has 14 lollipops remaining.\n\n[Verification] To verify the calculations: \n1. Start with 7 lollipops.\n2. Add 10 lollipops from her mother to get 17.\n3. Subtract 3 lollipops given to Ella, resulting in 14 lollipops left. \nThe calculations are consistent and correct.\n\n[Final Answer] The answer is 14 \n#### 14": [
+            "Question: Erin has 7 lollipops. Her mother gives Erin another 10 lollipops. If Erin gives 3 of her lollipops to Ella, how many lollipops does she have left?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "[reasoning process] Erin initially has 7 lollipops. Her mother gives her an additional 10 lollipops. To find the total number of lollipops Erin has after receiving the lollipops from her mother, we add the two amounts together: \n\n7 (initial lollipops) + 10 (lollipops from her mother) = 17 lollipops.\n\nNext, Erin gives 3 lollipops to Ella. To determine how many lollipops Erin has left, we subtract the 3 lollipops given away from her total:\n\n17 (total lollipops) - 3 (lollipops given to Ella) = 14 lollipops.\n\nTherefore, Erin has 14 lollipops remaining.\n\n[Verification] To verify the calculations: \n1. Start with 7 lollipops.\n2. Add 10 lollipops from her mother to get 17.\n3. Subtract 3 lollipops given to Ella, resulting in 14 lollipops left. \nThe calculations are consistent and correct.\n\n[Final Answer] The answer is 14 \n#### 14"
+        ],
+        "I don't know the answer to this question, sorry.": [
+            "Question: Erin has 7 lollipops. Her mother gives Erin another 10 lollipops. If Erin gives 3 of her lollipops to Ella, how many lollipops does she have left?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "I don't know the answer to this question, sorry."
+        ]
+    },
+    "hints_reward_imp_bank": {},
+    "fathers": {
+        "[reasoning process] Erin initially has 7 lollipops. Her mother gives her an additional 10 lollipops. To find the total number of lollipops Erin has after receiving the lollipops from her mother, we add the two amounts together: \n\n7 (initial lollipops) + 10 (lollipops from her mother) = 17 lollipops.\n\nNext, Erin gives 3 lollipops to Ella. To determine how many lollipops Erin has left, we subtract the 3 lollipops given away from her total:\n\n17 (total lollipops) - 3 (lollipops given to Ella) = 14 lollipops.\n\nTherefore, Erin has 14 lollipops remaining.\n\n[Verification] To verify the calculations: \n1. Start with 7 lollipops.\n2. Add 10 lollipops from her mother to get 17.\n3. Subtract 3 lollipops given to Ella, resulting in 14 lollipops left. \nThe calculations are consistent and correct.\n\n[Final Answer] The answer is 14 \n#### 14": null,
+        "I don't know the answer to this question, sorry.": null
+    },
+    "childs": {
+        "[reasoning process] Erin initially has 7 lollipops. Her mother gives her an additional 10 lollipops. To find the total number of lollipops Erin has after receiving the lollipops from her mother, we add the two amounts together: \n\n7 (initial lollipops) + 10 (lollipops from her mother) = 17 lollipops.\n\nNext, Erin gives 3 lollipops to Ella. To determine how many lollipops Erin has left, we subtract the 3 lollipops given away from her total:\n\n17 (total lollipops) - 3 (lollipops given to Ella) = 14 lollipops.\n\nTherefore, Erin has 14 lollipops remaining.\n\n[Verification] To verify the calculations: \n1. Start with 7 lollipops.\n2. Add 10 lollipops from her mother to get 17.\n3. Subtract 3 lollipops given to Ella, resulting in 14 lollipops left. \nThe calculations are consistent and correct.\n\n[Final Answer] The answer is 14 \n#### 14": [],
+        "I don't know the answer to this question, sorry.": []
+    },
+    "ucb_bank": {}
+}

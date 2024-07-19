@@ -1,0 +1,44 @@
+{
+    "query": "While walking down the street with his 3 younger siblings, Greg found $20. To be fair to his siblings, he decided to split the money equally. How much money did each of them get?",
+    "ground_truth": "Greg and his 3 siblings equal 3 people + 1 person = <<3+1=4>>4 people.\nThe 20 dollars were divided equally, so each of them received $20 / 4 people = <<20/4=5>>5 dollars/person\n#### 5",
+    "hints_list": [],
+    "answers_list": [
+        "[reasoning process] \nGreg found $20 and he has 3 younger siblings. To determine how much money each of them gets, we first need to find the total number of people sharing the money. Greg is one person, and with his 3 siblings, that makes a total of 4 people. \n\nNext, we divide the total amount of money, which is $20, by the number of people, 4:\n\n20 ÷ 4 = 5.\n\nThis means that each person receives $5.\n\n[Verification]\nTo verify the calculation, we can multiply the amount each person receives by the number of people. If each of the 4 people receives $5, we can check:\n\n5 * 4 = 20.\n\nSince this matches the original amount of money found ($20), the calculation is confirmed to be correct.\n\n[Final Answer] The answer is 5 \\n#### 5",
+        "I don't know the answer to this question, sorry."
+    ],
+    "ground_truth_hints": "",
+    "hints_prompt": "Question: While walking down the street with his 3 younger siblings, Greg found $20. To be fair to his siblings, he decided to split the money equally. How much money did each of them get?\nCould you provide me with the thought process to solve this problem, but please don’t give me the answer or calculation, just the thought process?",
+    "to_explore": [
+        "[reasoning process] \nGreg found $20 and he has 3 younger siblings. To determine how much money each of them gets, we first need to find the total number of people sharing the money. Greg is one person, and with his 3 siblings, that makes a total of 4 people. \n\nNext, we divide the total amount of money, which is $20, by the number of people, 4:\n\n20 ÷ 4 = 5.\n\nThis means that each person receives $5.\n\n[Verification]\nTo verify the calculation, we can multiply the amount each person receives by the number of people. If each of the 4 people receives $5, we can check:\n\n5 * 4 = 20.\n\nSince this matches the original amount of money found ($20), the calculation is confirmed to be correct.\n\n[Final Answer] The answer is 5 \\n#### 5",
+        "I don't know the answer to this question, sorry."
+    ],
+    "to_explore_reward": {
+        "[reasoning process] \nGreg found $20 and he has 3 younger siblings. To determine how much money each of them gets, we first need to find the total number of people sharing the money. Greg is one person, and with his 3 siblings, that makes a total of 4 people. \n\nNext, we divide the total amount of money, which is $20, by the number of people, 4:\n\n20 ÷ 4 = 5.\n\nThis means that each person receives $5.\n\n[Verification]\nTo verify the calculation, we can multiply the amount each person receives by the number of people. If each of the 4 people receives $5, we can check:\n\n5 * 4 = 20.\n\nSince this matches the original amount of money found ($20), the calculation is confirmed to be correct.\n\n[Final Answer] The answer is 5 \\n#### 5": [
+            65.0
+        ],
+        "I don't know the answer to this question, sorry.": [
+            -80.0
+        ]
+    },
+    "hints_bank": {},
+    "history_bank": {
+        "[reasoning process] \nGreg found $20 and he has 3 younger siblings. To determine how much money each of them gets, we first need to find the total number of people sharing the money. Greg is one person, and with his 3 siblings, that makes a total of 4 people. \n\nNext, we divide the total amount of money, which is $20, by the number of people, 4:\n\n20 ÷ 4 = 5.\n\nThis means that each person receives $5.\n\n[Verification]\nTo verify the calculation, we can multiply the amount each person receives by the number of people. If each of the 4 people receives $5, we can check:\n\n5 * 4 = 20.\n\nSince this matches the original amount of money found ($20), the calculation is confirmed to be correct.\n\n[Final Answer] The answer is 5 \\n#### 5": [
+            "Question: While walking down the street with his 3 younger siblings, Greg found $20. To be fair to his siblings, he decided to split the money equally. How much money did each of them get?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "[reasoning process] \nGreg found $20 and he has 3 younger siblings. To determine how much money each of them gets, we first need to find the total number of people sharing the money. Greg is one person, and with his 3 siblings, that makes a total of 4 people. \n\nNext, we divide the total amount of money, which is $20, by the number of people, 4:\n\n20 ÷ 4 = 5.\n\nThis means that each person receives $5.\n\n[Verification]\nTo verify the calculation, we can multiply the amount each person receives by the number of people. If each of the 4 people receives $5, we can check:\n\n5 * 4 = 20.\n\nSince this matches the original amount of money found ($20), the calculation is confirmed to be correct.\n\n[Final Answer] The answer is 5 \\n#### 5"
+        ],
+        "I don't know the answer to this question, sorry.": [
+            "Question: While walking down the street with his 3 younger siblings, Greg found $20. To be fair to his siblings, he decided to split the money equally. How much money did each of them get?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "I don't know the answer to this question, sorry."
+        ]
+    },
+    "hints_reward_imp_bank": {},
+    "fathers": {
+        "[reasoning process] \nGreg found $20 and he has 3 younger siblings. To determine how much money each of them gets, we first need to find the total number of people sharing the money. Greg is one person, and with his 3 siblings, that makes a total of 4 people. \n\nNext, we divide the total amount of money, which is $20, by the number of people, 4:\n\n20 ÷ 4 = 5.\n\nThis means that each person receives $5.\n\n[Verification]\nTo verify the calculation, we can multiply the amount each person receives by the number of people. If each of the 4 people receives $5, we can check:\n\n5 * 4 = 20.\n\nSince this matches the original amount of money found ($20), the calculation is confirmed to be correct.\n\n[Final Answer] The answer is 5 \\n#### 5": null,
+        "I don't know the answer to this question, sorry.": null
+    },
+    "childs": {
+        "[reasoning process] \nGreg found $20 and he has 3 younger siblings. To determine how much money each of them gets, we first need to find the total number of people sharing the money. Greg is one person, and with his 3 siblings, that makes a total of 4 people. \n\nNext, we divide the total amount of money, which is $20, by the number of people, 4:\n\n20 ÷ 4 = 5.\n\nThis means that each person receives $5.\n\n[Verification]\nTo verify the calculation, we can multiply the amount each person receives by the number of people. If each of the 4 people receives $5, we can check:\n\n5 * 4 = 20.\n\nSince this matches the original amount of money found ($20), the calculation is confirmed to be correct.\n\n[Final Answer] The answer is 5 \\n#### 5": [],
+        "I don't know the answer to this question, sorry.": []
+    },
+    "ucb_bank": {}
+}

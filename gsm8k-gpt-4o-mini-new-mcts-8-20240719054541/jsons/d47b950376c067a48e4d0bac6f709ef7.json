@@ -1,0 +1,44 @@
+{
+    "query": "Jerry is twice as old as he was 5 years ago. How old will Jerry be in 3 years?",
+    "ground_truth": "We know that Jerry's Age/2 = Jerry's Age - 5\nTherefore Jerry's Age = 2 Jerry's age - 10\nTherefore -Jerry's Age = - 10\nTherefore Jerry's Age = <<10=10>>10\nIn three years Jerry will be 13 because 10 + 3 = <<10+3=13>>13\n#### 13",
+    "hints_list": [],
+    "answers_list": [
+        "[reasoning process] To solve the problem, we first need to establish Jerry's current age using the information provided. Currently, we know that Jerry's current age (let's denote it as J) is twice the age he was 5 years ago. Five years ago, Jerry's age was (J - 5).\n\nAccording to the information:\nJ = 2 * (J - 5)\n\nNow we can simplify this equation:\nJ = 2J - 10\n\nNext, we can rearrange this to find J:\n10 = 2J - J\n10 = J\n\nThus, Jerry is currently 10 years old. Now, we need to find out how old he will be in 3 years:\n10 + 3 = 13.\n\n[Verification] Let's verify this calculation. If Jerry is 10 years old now, 5 years ago, he would have been 5 years old. The statement claims that Jerry's current age should be twice what it was 5 years ago. Indeed, 2 * 5 = 10, which matches our calculated current age of 10. Therefore, the verification holds true.\n\n[Final Answer] The answer is 13 \\n#### 13",
+        "I Don't Know"
+    ],
+    "ground_truth_hints": "",
+    "hints_prompt": "Question: Jerry is twice as old as he was 5 years ago. How old will Jerry be in 3 years?\nCould you provide me with the thought process to solve this problem, but please don’t give me the answer or calculation, just the thought process?",
+    "to_explore": [
+        "[reasoning process] To solve the problem, we first need to establish Jerry's current age using the information provided. Currently, we know that Jerry's current age (let's denote it as J) is twice the age he was 5 years ago. Five years ago, Jerry's age was (J - 5).\n\nAccording to the information:\nJ = 2 * (J - 5)\n\nNow we can simplify this equation:\nJ = 2J - 10\n\nNext, we can rearrange this to find J:\n10 = 2J - J\n10 = J\n\nThus, Jerry is currently 10 years old. Now, we need to find out how old he will be in 3 years:\n10 + 3 = 13.\n\n[Verification] Let's verify this calculation. If Jerry is 10 years old now, 5 years ago, he would have been 5 years old. The statement claims that Jerry's current age should be twice what it was 5 years ago. Indeed, 2 * 5 = 10, which matches our calculated current age of 10. Therefore, the verification holds true.\n\n[Final Answer] The answer is 13 \\n#### 13",
+        "I Don't Know"
+    ],
+    "to_explore_reward": {
+        "[reasoning process] To solve the problem, we first need to establish Jerry's current age using the information provided. Currently, we know that Jerry's current age (let's denote it as J) is twice the age he was 5 years ago. Five years ago, Jerry's age was (J - 5).\n\nAccording to the information:\nJ = 2 * (J - 5)\n\nNow we can simplify this equation:\nJ = 2J - 10\n\nNext, we can rearrange this to find J:\n10 = 2J - J\n10 = J\n\nThus, Jerry is currently 10 years old. Now, we need to find out how old he will be in 3 years:\n10 + 3 = 13.\n\n[Verification] Let's verify this calculation. If Jerry is 10 years old now, 5 years ago, he would have been 5 years old. The statement claims that Jerry's current age should be twice what it was 5 years ago. Indeed, 2 * 5 = 10, which matches our calculated current age of 10. Therefore, the verification holds true.\n\n[Final Answer] The answer is 13 \\n#### 13": [
+            65.0
+        ],
+        "I Don't Know": [
+            -95.0
+        ]
+    },
+    "hints_bank": {},
+    "history_bank": {
+        "[reasoning process] To solve the problem, we first need to establish Jerry's current age using the information provided. Currently, we know that Jerry's current age (let's denote it as J) is twice the age he was 5 years ago. Five years ago, Jerry's age was (J - 5).\n\nAccording to the information:\nJ = 2 * (J - 5)\n\nNow we can simplify this equation:\nJ = 2J - 10\n\nNext, we can rearrange this to find J:\n10 = 2J - J\n10 = J\n\nThus, Jerry is currently 10 years old. Now, we need to find out how old he will be in 3 years:\n10 + 3 = 13.\n\n[Verification] Let's verify this calculation. If Jerry is 10 years old now, 5 years ago, he would have been 5 years old. The statement claims that Jerry's current age should be twice what it was 5 years ago. Indeed, 2 * 5 = 10, which matches our calculated current age of 10. Therefore, the verification holds true.\n\n[Final Answer] The answer is 13 \\n#### 13": [
+            "Question: Jerry is twice as old as he was 5 years ago. How old will Jerry be in 3 years?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "[reasoning process] To solve the problem, we first need to establish Jerry's current age using the information provided. Currently, we know that Jerry's current age (let's denote it as J) is twice the age he was 5 years ago. Five years ago, Jerry's age was (J - 5).\n\nAccording to the information:\nJ = 2 * (J - 5)\n\nNow we can simplify this equation:\nJ = 2J - 10\n\nNext, we can rearrange this to find J:\n10 = 2J - J\n10 = J\n\nThus, Jerry is currently 10 years old. Now, we need to find out how old he will be in 3 years:\n10 + 3 = 13.\n\n[Verification] Let's verify this calculation. If Jerry is 10 years old now, 5 years ago, he would have been 5 years old. The statement claims that Jerry's current age should be twice what it was 5 years ago. Indeed, 2 * 5 = 10, which matches our calculated current age of 10. Therefore, the verification holds true.\n\n[Final Answer] The answer is 13 \\n#### 13"
+        ],
+        "I Don't Know": [
+            "Question: Jerry is twice as old as he was 5 years ago. How old will Jerry be in 3 years?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "I Don't Know"
+        ]
+    },
+    "hints_reward_imp_bank": {},
+    "fathers": {
+        "[reasoning process] To solve the problem, we first need to establish Jerry's current age using the information provided. Currently, we know that Jerry's current age (let's denote it as J) is twice the age he was 5 years ago. Five years ago, Jerry's age was (J - 5).\n\nAccording to the information:\nJ = 2 * (J - 5)\n\nNow we can simplify this equation:\nJ = 2J - 10\n\nNext, we can rearrange this to find J:\n10 = 2J - J\n10 = J\n\nThus, Jerry is currently 10 years old. Now, we need to find out how old he will be in 3 years:\n10 + 3 = 13.\n\n[Verification] Let's verify this calculation. If Jerry is 10 years old now, 5 years ago, he would have been 5 years old. The statement claims that Jerry's current age should be twice what it was 5 years ago. Indeed, 2 * 5 = 10, which matches our calculated current age of 10. Therefore, the verification holds true.\n\n[Final Answer] The answer is 13 \\n#### 13": null,
+        "I Don't Know": null
+    },
+    "childs": {
+        "[reasoning process] To solve the problem, we first need to establish Jerry's current age using the information provided. Currently, we know that Jerry's current age (let's denote it as J) is twice the age he was 5 years ago. Five years ago, Jerry's age was (J - 5).\n\nAccording to the information:\nJ = 2 * (J - 5)\n\nNow we can simplify this equation:\nJ = 2J - 10\n\nNext, we can rearrange this to find J:\n10 = 2J - J\n10 = J\n\nThus, Jerry is currently 10 years old. Now, we need to find out how old he will be in 3 years:\n10 + 3 = 13.\n\n[Verification] Let's verify this calculation. If Jerry is 10 years old now, 5 years ago, he would have been 5 years old. The statement claims that Jerry's current age should be twice what it was 5 years ago. Indeed, 2 * 5 = 10, which matches our calculated current age of 10. Therefore, the verification holds true.\n\n[Final Answer] The answer is 13 \\n#### 13": [],
+        "I Don't Know": []
+    },
+    "ucb_bank": {}
+}

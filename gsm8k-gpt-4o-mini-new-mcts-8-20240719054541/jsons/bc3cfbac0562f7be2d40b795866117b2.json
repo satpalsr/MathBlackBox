@@ -1,0 +1,44 @@
+{
+    "query": "Gerald works at a daycare that pays him $30 every day. He worked for an entire week and spent a total of $100. How much does he have left?",
+    "ground_truth": "He earns $30 daily for a week (7 days) for a total earnings of $30*7 = $<<30*7=210>>210\nHe spent $100 leaving him with $210-$100 = $110\n#### 110",
+    "hints_list": [],
+    "answers_list": [
+        "[reasoning process] Gerald earns $30 each day he works at the daycare. Assuming he works 7 days a week, we can calculate his total earnings for the week. \n\nTotal earnings = Daily pay × Number of days worked  \nTotal earnings = $30 × 7 = $210\n\nNext, we know he spent a total of $100 during the week. To find out how much money he has left after his expenses, we subtract his total spending from his total earnings. \n\nAmount left = Total earnings - Total spending  \nAmount left = $210 - $100 = $110\n\n[Verification] We will verify the calculations:  \n1. Daily pay: $30  \n2. Number of days worked: 7  \n   So, Total earnings = $30 × 7 = $210 (correct).\n3. Total spending was $100.  \n4. Amount left = $210 - $100 = $110 (correct).\n\nThus, the calculations hold and the logic is sound. \n\n[Final Answer] The answer is 110  \n#### 110",
+        "I don't know the answer to this question."
+    ],
+    "ground_truth_hints": "",
+    "hints_prompt": "Question: Gerald works at a daycare that pays him $30 every day. He worked for an entire week and spent a total of $100. How much does he have left?\nCould you provide me with the thought process to solve this problem, but please don’t give me the answer or calculation, just the thought process?",
+    "to_explore": [
+        "[reasoning process] Gerald earns $30 each day he works at the daycare. Assuming he works 7 days a week, we can calculate his total earnings for the week. \n\nTotal earnings = Daily pay × Number of days worked  \nTotal earnings = $30 × 7 = $210\n\nNext, we know he spent a total of $100 during the week. To find out how much money he has left after his expenses, we subtract his total spending from his total earnings. \n\nAmount left = Total earnings - Total spending  \nAmount left = $210 - $100 = $110\n\n[Verification] We will verify the calculations:  \n1. Daily pay: $30  \n2. Number of days worked: 7  \n   So, Total earnings = $30 × 7 = $210 (correct).\n3. Total spending was $100.  \n4. Amount left = $210 - $100 = $110 (correct).\n\nThus, the calculations hold and the logic is sound. \n\n[Final Answer] The answer is 110  \n#### 110",
+        "I don't know the answer to this question."
+    ],
+    "to_explore_reward": {
+        "[reasoning process] Gerald earns $30 each day he works at the daycare. Assuming he works 7 days a week, we can calculate his total earnings for the week. \n\nTotal earnings = Daily pay × Number of days worked  \nTotal earnings = $30 × 7 = $210\n\nNext, we know he spent a total of $100 during the week. To find out how much money he has left after his expenses, we subtract his total spending from his total earnings. \n\nAmount left = Total earnings - Total spending  \nAmount left = $210 - $100 = $110\n\n[Verification] We will verify the calculations:  \n1. Daily pay: $30  \n2. Number of days worked: 7  \n   So, Total earnings = $30 × 7 = $210 (correct).\n3. Total spending was $100.  \n4. Amount left = $210 - $100 = $110 (correct).\n\nThus, the calculations hold and the logic is sound. \n\n[Final Answer] The answer is 110  \n#### 110": [
+            -40.0
+        ],
+        "I don't know the answer to this question.": [
+            -80.0
+        ]
+    },
+    "hints_bank": {},
+    "history_bank": {
+        "[reasoning process] Gerald earns $30 each day he works at the daycare. Assuming he works 7 days a week, we can calculate his total earnings for the week. \n\nTotal earnings = Daily pay × Number of days worked  \nTotal earnings = $30 × 7 = $210\n\nNext, we know he spent a total of $100 during the week. To find out how much money he has left after his expenses, we subtract his total spending from his total earnings. \n\nAmount left = Total earnings - Total spending  \nAmount left = $210 - $100 = $110\n\n[Verification] We will verify the calculations:  \n1. Daily pay: $30  \n2. Number of days worked: 7  \n   So, Total earnings = $30 × 7 = $210 (correct).\n3. Total spending was $100.  \n4. Amount left = $210 - $100 = $110 (correct).\n\nThus, the calculations hold and the logic is sound. \n\n[Final Answer] The answer is 110  \n#### 110": [
+            "Question: Gerald works at a daycare that pays him $30 every day. He worked for an entire week and spent a total of $100. How much does he have left?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "[reasoning process] Gerald earns $30 each day he works at the daycare. Assuming he works 7 days a week, we can calculate his total earnings for the week. \n\nTotal earnings = Daily pay × Number of days worked  \nTotal earnings = $30 × 7 = $210\n\nNext, we know he spent a total of $100 during the week. To find out how much money he has left after his expenses, we subtract his total spending from his total earnings. \n\nAmount left = Total earnings - Total spending  \nAmount left = $210 - $100 = $110\n\n[Verification] We will verify the calculations:  \n1. Daily pay: $30  \n2. Number of days worked: 7  \n   So, Total earnings = $30 × 7 = $210 (correct).\n3. Total spending was $100.  \n4. Amount left = $210 - $100 = $110 (correct).\n\nThus, the calculations hold and the logic is sound. \n\n[Final Answer] The answer is 110  \n#### 110"
+        ],
+        "I don't know the answer to this question.": [
+            "Question: Gerald works at a daycare that pays him $30 every day. He worked for an entire week and spent a total of $100. How much does he have left?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "I don't know the answer to this question."
+        ]
+    },
+    "hints_reward_imp_bank": {},
+    "fathers": {
+        "[reasoning process] Gerald earns $30 each day he works at the daycare. Assuming he works 7 days a week, we can calculate his total earnings for the week. \n\nTotal earnings = Daily pay × Number of days worked  \nTotal earnings = $30 × 7 = $210\n\nNext, we know he spent a total of $100 during the week. To find out how much money he has left after his expenses, we subtract his total spending from his total earnings. \n\nAmount left = Total earnings - Total spending  \nAmount left = $210 - $100 = $110\n\n[Verification] We will verify the calculations:  \n1. Daily pay: $30  \n2. Number of days worked: 7  \n   So, Total earnings = $30 × 7 = $210 (correct).\n3. Total spending was $100.  \n4. Amount left = $210 - $100 = $110 (correct).\n\nThus, the calculations hold and the logic is sound. \n\n[Final Answer] The answer is 110  \n#### 110": null,
+        "I don't know the answer to this question.": null
+    },
+    "childs": {
+        "[reasoning process] Gerald earns $30 each day he works at the daycare. Assuming he works 7 days a week, we can calculate his total earnings for the week. \n\nTotal earnings = Daily pay × Number of days worked  \nTotal earnings = $30 × 7 = $210\n\nNext, we know he spent a total of $100 during the week. To find out how much money he has left after his expenses, we subtract his total spending from his total earnings. \n\nAmount left = Total earnings - Total spending  \nAmount left = $210 - $100 = $110\n\n[Verification] We will verify the calculations:  \n1. Daily pay: $30  \n2. Number of days worked: 7  \n   So, Total earnings = $30 × 7 = $210 (correct).\n3. Total spending was $100.  \n4. Amount left = $210 - $100 = $110 (correct).\n\nThus, the calculations hold and the logic is sound. \n\n[Final Answer] The answer is 110  \n#### 110": [],
+        "I don't know the answer to this question.": []
+    },
+    "ucb_bank": {}
+}

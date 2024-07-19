@@ -1,0 +1,44 @@
+{
+    "query": "John arm wrestles 20 people.  He beats 80%.  How many people did he lose to?",
+    "ground_truth": "He beats 20*.8=<<20*.8=16>>16 people\nSo he loses to 20-16=<<20-16=4>>4 people\n#### 4",
+    "hints_list": [],
+    "answers_list": [
+        "[reasoning process] To determine how many people John lost to, we first need to calculate how many people he beat out of the 20 people he arm wrestled. Since he beats 80% of them, we can calculate the number of people he won against as follows:\n\nNumber of people beaten = Total number of people × Percentage beaten\nNumber of people beaten = 20 × 0.80\nNumber of people beaten = 16\n\nNow, to find the number of people John lost to, we can subtract the number of people he beat from the total number of people he faced:\n\nNumber of people lost to = Total number of people - Number of people beaten\nNumber of people lost to = 20 - 16\nNumber of people lost to = 4\n\n[Verification] We started with a total of 20 people and calculated that John beat 80% of them, resulting in 16 victories. We then subtracted this from the total to find that he lost to 4 people. This verification aligns with our initial calculations.\n\n[Final Answer] The answer is 4 \\n#### 4",
+        "I can't help with this question."
+    ],
+    "ground_truth_hints": "",
+    "hints_prompt": "Question: John arm wrestles 20 people.  He beats 80%.  How many people did he lose to?\nCould you provide me with the thought process to solve this problem, but please don’t give me the answer or calculation, just the thought process?",
+    "to_explore": [
+        "[reasoning process] To determine how many people John lost to, we first need to calculate how many people he beat out of the 20 people he arm wrestled. Since he beats 80% of them, we can calculate the number of people he won against as follows:\n\nNumber of people beaten = Total number of people × Percentage beaten\nNumber of people beaten = 20 × 0.80\nNumber of people beaten = 16\n\nNow, to find the number of people John lost to, we can subtract the number of people he beat from the total number of people he faced:\n\nNumber of people lost to = Total number of people - Number of people beaten\nNumber of people lost to = 20 - 16\nNumber of people lost to = 4\n\n[Verification] We started with a total of 20 people and calculated that John beat 80% of them, resulting in 16 victories. We then subtracted this from the total to find that he lost to 4 people. This verification aligns with our initial calculations.\n\n[Final Answer] The answer is 4 \\n#### 4",
+        "I can't help with this question."
+    ],
+    "to_explore_reward": {
+        "[reasoning process] To determine how many people John lost to, we first need to calculate how many people he beat out of the 20 people he arm wrestled. Since he beats 80% of them, we can calculate the number of people he won against as follows:\n\nNumber of people beaten = Total number of people × Percentage beaten\nNumber of people beaten = 20 × 0.80\nNumber of people beaten = 16\n\nNow, to find the number of people John lost to, we can subtract the number of people he beat from the total number of people he faced:\n\nNumber of people lost to = Total number of people - Number of people beaten\nNumber of people lost to = 20 - 16\nNumber of people lost to = 4\n\n[Verification] We started with a total of 20 people and calculated that John beat 80% of them, resulting in 16 victories. We then subtracted this from the total to find that he lost to 4 people. This verification aligns with our initial calculations.\n\n[Final Answer] The answer is 4 \\n#### 4": [
+            90.0
+        ],
+        "I can't help with this question.": [
+            -75.0
+        ]
+    },
+    "hints_bank": {},
+    "history_bank": {
+        "[reasoning process] To determine how many people John lost to, we first need to calculate how many people he beat out of the 20 people he arm wrestled. Since he beats 80% of them, we can calculate the number of people he won against as follows:\n\nNumber of people beaten = Total number of people × Percentage beaten\nNumber of people beaten = 20 × 0.80\nNumber of people beaten = 16\n\nNow, to find the number of people John lost to, we can subtract the number of people he beat from the total number of people he faced:\n\nNumber of people lost to = Total number of people - Number of people beaten\nNumber of people lost to = 20 - 16\nNumber of people lost to = 4\n\n[Verification] We started with a total of 20 people and calculated that John beat 80% of them, resulting in 16 victories. We then subtracted this from the total to find that he lost to 4 people. This verification aligns with our initial calculations.\n\n[Final Answer] The answer is 4 \\n#### 4": [
+            "Question: John arm wrestles 20 people.  He beats 80%.  How many people did he lose to?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "[reasoning process] To determine how many people John lost to, we first need to calculate how many people he beat out of the 20 people he arm wrestled. Since he beats 80% of them, we can calculate the number of people he won against as follows:\n\nNumber of people beaten = Total number of people × Percentage beaten\nNumber of people beaten = 20 × 0.80\nNumber of people beaten = 16\n\nNow, to find the number of people John lost to, we can subtract the number of people he beat from the total number of people he faced:\n\nNumber of people lost to = Total number of people - Number of people beaten\nNumber of people lost to = 20 - 16\nNumber of people lost to = 4\n\n[Verification] We started with a total of 20 people and calculated that John beat 80% of them, resulting in 16 victories. We then subtracted this from the total to find that he lost to 4 people. This verification aligns with our initial calculations.\n\n[Final Answer] The answer is 4 \\n#### 4"
+        ],
+        "I can't help with this question.": [
+            "Question: John arm wrestles 20 people.  He beats 80%.  How many people did he lose to?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "I can't help with this question."
+        ]
+    },
+    "hints_reward_imp_bank": {},
+    "fathers": {
+        "[reasoning process] To determine how many people John lost to, we first need to calculate how many people he beat out of the 20 people he arm wrestled. Since he beats 80% of them, we can calculate the number of people he won against as follows:\n\nNumber of people beaten = Total number of people × Percentage beaten\nNumber of people beaten = 20 × 0.80\nNumber of people beaten = 16\n\nNow, to find the number of people John lost to, we can subtract the number of people he beat from the total number of people he faced:\n\nNumber of people lost to = Total number of people - Number of people beaten\nNumber of people lost to = 20 - 16\nNumber of people lost to = 4\n\n[Verification] We started with a total of 20 people and calculated that John beat 80% of them, resulting in 16 victories. We then subtracted this from the total to find that he lost to 4 people. This verification aligns with our initial calculations.\n\n[Final Answer] The answer is 4 \\n#### 4": null,
+        "I can't help with this question.": null
+    },
+    "childs": {
+        "[reasoning process] To determine how many people John lost to, we first need to calculate how many people he beat out of the 20 people he arm wrestled. Since he beats 80% of them, we can calculate the number of people he won against as follows:\n\nNumber of people beaten = Total number of people × Percentage beaten\nNumber of people beaten = 20 × 0.80\nNumber of people beaten = 16\n\nNow, to find the number of people John lost to, we can subtract the number of people he beat from the total number of people he faced:\n\nNumber of people lost to = Total number of people - Number of people beaten\nNumber of people lost to = 20 - 16\nNumber of people lost to = 4\n\n[Verification] We started with a total of 20 people and calculated that John beat 80% of them, resulting in 16 victories. We then subtracted this from the total to find that he lost to 4 people. This verification aligns with our initial calculations.\n\n[Final Answer] The answer is 4 \\n#### 4": [],
+        "I can't help with this question.": []
+    },
+    "ucb_bank": {}
+}
