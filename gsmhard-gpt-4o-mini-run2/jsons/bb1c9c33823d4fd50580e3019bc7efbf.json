@@ -1,0 +1,44 @@
+{
+    "query": "Finn watches 11 tadpoles swimming in the pond.  Suddenly he sees 9305284 of them come out of hiding from under a lily pad ,then he sees 2 of them hide under a rock.  How many tadpoles can Finn see in the pond now?",
+    "ground_truth": "9305293.0",
+    "hints_list": [],
+    "answers_list": [
+        "[reasoning process] Finn initially sees 11 tadpoles in the pond. Then, 9305284 tadpoles come out from hiding, which means we add that number to the initial count. After that, 2 tadpoles hide under a rock, which means we need to subtract that number from the total. \n\nSo, we can break it down as follows:\n1. Start with 11 tadpoles.\n2. Add 9305284 tadpoles to that: \\( 11 + 9305284 = 9305295 \\).\n3. Subtract the 2 tadpoles that hide under the rock: \\( 9305295 - 2 = 9305293 \\).\n\n[Verification] To confirm:\n- The initial count of tadpoles is 11.\n- Adding the 9305284 tadpoles gives us 9305295.\n- Subtracting the 2 that hide gives us 9305293.\n\nEverything checks out correctly.\n\n[Final Answer] The answer is 9305293 \\n#### 9305293",
+        "I don't know the answer to this question."
+    ],
+    "ground_truth_hints": "",
+    "hints_prompt": "Question: Finn watches 11 tadpoles swimming in the pond.  Suddenly he sees 9305284 of them come out of hiding from under a lily pad ,then he sees 2 of them hide under a rock.  How many tadpoles can Finn see in the pond now?\nCould you provide me with the thought process to solve this problem, but please don’t give me the answer or calculation, just the thought process?",
+    "to_explore": [
+        "[reasoning process] Finn initially sees 11 tadpoles in the pond. Then, 9305284 tadpoles come out from hiding, which means we add that number to the initial count. After that, 2 tadpoles hide under a rock, which means we need to subtract that number from the total. \n\nSo, we can break it down as follows:\n1. Start with 11 tadpoles.\n2. Add 9305284 tadpoles to that: \\( 11 + 9305284 = 9305295 \\).\n3. Subtract the 2 tadpoles that hide under the rock: \\( 9305295 - 2 = 9305293 \\).\n\n[Verification] To confirm:\n- The initial count of tadpoles is 11.\n- Adding the 9305284 tadpoles gives us 9305295.\n- Subtracting the 2 that hide gives us 9305293.\n\nEverything checks out correctly.\n\n[Final Answer] The answer is 9305293 \\n#### 9305293",
+        "I don't know the answer to this question."
+    ],
+    "to_explore_reward": {
+        "[reasoning process] Finn initially sees 11 tadpoles in the pond. Then, 9305284 tadpoles come out from hiding, which means we add that number to the initial count. After that, 2 tadpoles hide under a rock, which means we need to subtract that number from the total. \n\nSo, we can break it down as follows:\n1. Start with 11 tadpoles.\n2. Add 9305284 tadpoles to that: \\( 11 + 9305284 = 9305295 \\).\n3. Subtract the 2 tadpoles that hide under the rock: \\( 9305295 - 2 = 9305293 \\).\n\n[Verification] To confirm:\n- The initial count of tadpoles is 11.\n- Adding the 9305284 tadpoles gives us 9305295.\n- Subtracting the 2 that hide gives us 9305293.\n\nEverything checks out correctly.\n\n[Final Answer] The answer is 9305293 \\n#### 9305293": [
+            60.0
+        ],
+        "I don't know the answer to this question.": [
+            -90.0
+        ]
+    },
+    "hints_bank": {},
+    "history_bank": {
+        "[reasoning process] Finn initially sees 11 tadpoles in the pond. Then, 9305284 tadpoles come out from hiding, which means we add that number to the initial count. After that, 2 tadpoles hide under a rock, which means we need to subtract that number from the total. \n\nSo, we can break it down as follows:\n1. Start with 11 tadpoles.\n2. Add 9305284 tadpoles to that: \\( 11 + 9305284 = 9305295 \\).\n3. Subtract the 2 tadpoles that hide under the rock: \\( 9305295 - 2 = 9305293 \\).\n\n[Verification] To confirm:\n- The initial count of tadpoles is 11.\n- Adding the 9305284 tadpoles gives us 9305295.\n- Subtracting the 2 that hide gives us 9305293.\n\nEverything checks out correctly.\n\n[Final Answer] The answer is 9305293 \\n#### 9305293": [
+            "Question: Finn watches 11 tadpoles swimming in the pond.  Suddenly he sees 9305284 of them come out of hiding from under a lily pad ,then he sees 2 of them hide under a rock.  How many tadpoles can Finn see in the pond now?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "[reasoning process] Finn initially sees 11 tadpoles in the pond. Then, 9305284 tadpoles come out from hiding, which means we add that number to the initial count. After that, 2 tadpoles hide under a rock, which means we need to subtract that number from the total. \n\nSo, we can break it down as follows:\n1. Start with 11 tadpoles.\n2. Add 9305284 tadpoles to that: \\( 11 + 9305284 = 9305295 \\).\n3. Subtract the 2 tadpoles that hide under the rock: \\( 9305295 - 2 = 9305293 \\).\n\n[Verification] To confirm:\n- The initial count of tadpoles is 11.\n- Adding the 9305284 tadpoles gives us 9305295.\n- Subtracting the 2 that hide gives us 9305293.\n\nEverything checks out correctly.\n\n[Final Answer] The answer is 9305293 \\n#### 9305293"
+        ],
+        "I don't know the answer to this question.": [
+            "Question: Finn watches 11 tadpoles swimming in the pond.  Suddenly he sees 9305284 of them come out of hiding from under a lily pad ,then he sees 2 of them hide under a rock.  How many tadpoles can Finn see in the pond now?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "I don't know the answer to this question."
+        ]
+    },
+    "hints_reward_imp_bank": {},
+    "fathers": {
+        "[reasoning process] Finn initially sees 11 tadpoles in the pond. Then, 9305284 tadpoles come out from hiding, which means we add that number to the initial count. After that, 2 tadpoles hide under a rock, which means we need to subtract that number from the total. \n\nSo, we can break it down as follows:\n1. Start with 11 tadpoles.\n2. Add 9305284 tadpoles to that: \\( 11 + 9305284 = 9305295 \\).\n3. Subtract the 2 tadpoles that hide under the rock: \\( 9305295 - 2 = 9305293 \\).\n\n[Verification] To confirm:\n- The initial count of tadpoles is 11.\n- Adding the 9305284 tadpoles gives us 9305295.\n- Subtracting the 2 that hide gives us 9305293.\n\nEverything checks out correctly.\n\n[Final Answer] The answer is 9305293 \\n#### 9305293": null,
+        "I don't know the answer to this question.": null
+    },
+    "childs": {
+        "[reasoning process] Finn initially sees 11 tadpoles in the pond. Then, 9305284 tadpoles come out from hiding, which means we add that number to the initial count. After that, 2 tadpoles hide under a rock, which means we need to subtract that number from the total. \n\nSo, we can break it down as follows:\n1. Start with 11 tadpoles.\n2. Add 9305284 tadpoles to that: \\( 11 + 9305284 = 9305295 \\).\n3. Subtract the 2 tadpoles that hide under the rock: \\( 9305295 - 2 = 9305293 \\).\n\n[Verification] To confirm:\n- The initial count of tadpoles is 11.\n- Adding the 9305284 tadpoles gives us 9305295.\n- Subtracting the 2 that hide gives us 9305293.\n\nEverything checks out correctly.\n\n[Final Answer] The answer is 9305293 \\n#### 9305293": [],
+        "I don't know the answer to this question.": []
+    },
+    "ucb_bank": {}
+}

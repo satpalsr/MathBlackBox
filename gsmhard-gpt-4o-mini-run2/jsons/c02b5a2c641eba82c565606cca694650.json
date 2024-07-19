@@ -1,0 +1,44 @@
+{
+    "query": "Chenny is 10 years old. Alyana is 4 years younger than Chenny. How old is Anne if she is 2 years older than Alyana?",
+    "ground_truth": "8.0",
+    "hints_list": [],
+    "answers_list": [
+        "[reasoning process] \nFirst, we need to determine Alyana's age. Since Chenny is 10 years old and Alyana is 4 years younger than Chenny, we calculate Alyana's age as follows:\n\nAlyana's age = Chenny's age - 4 years = 10 years - 4 years = 6 years.\n\nNext, we need to find Anne's age, knowing that she is 2 years older than Alyana. We calculate Anne's age as follows:\n\nAnne's age = Alyana's age + 2 years = 6 years + 2 years = 8 years.\n\n[Verification] \nLet's verify the ages:\n- Chenny is 10 years old.\n- Alyana, being 4 years younger than Chenny, is indeed 6 years old.\n- Anne, being 2 years older than Alyana, is correctly calculated as 8 years old.\n\nAll calculations are consistent and correct.\n\n[Final Answer] The answer is 8 \\n#### 8",
+        "I can't help with this question."
+    ],
+    "ground_truth_hints": "",
+    "hints_prompt": "Question: Chenny is 10 years old. Alyana is 4 years younger than Chenny. How old is Anne if she is 2 years older than Alyana?\nCould you provide me with the thought process to solve this problem, but please don’t give me the answer or calculation, just the thought process?",
+    "to_explore": [
+        "[reasoning process] \nFirst, we need to determine Alyana's age. Since Chenny is 10 years old and Alyana is 4 years younger than Chenny, we calculate Alyana's age as follows:\n\nAlyana's age = Chenny's age - 4 years = 10 years - 4 years = 6 years.\n\nNext, we need to find Anne's age, knowing that she is 2 years older than Alyana. We calculate Anne's age as follows:\n\nAnne's age = Alyana's age + 2 years = 6 years + 2 years = 8 years.\n\n[Verification] \nLet's verify the ages:\n- Chenny is 10 years old.\n- Alyana, being 4 years younger than Chenny, is indeed 6 years old.\n- Anne, being 2 years older than Alyana, is correctly calculated as 8 years old.\n\nAll calculations are consistent and correct.\n\n[Final Answer] The answer is 8 \\n#### 8",
+        "I can't help with this question."
+    ],
+    "to_explore_reward": {
+        "[reasoning process] \nFirst, we need to determine Alyana's age. Since Chenny is 10 years old and Alyana is 4 years younger than Chenny, we calculate Alyana's age as follows:\n\nAlyana's age = Chenny's age - 4 years = 10 years - 4 years = 6 years.\n\nNext, we need to find Anne's age, knowing that she is 2 years older than Alyana. We calculate Anne's age as follows:\n\nAnne's age = Alyana's age + 2 years = 6 years + 2 years = 8 years.\n\n[Verification] \nLet's verify the ages:\n- Chenny is 10 years old.\n- Alyana, being 4 years younger than Chenny, is indeed 6 years old.\n- Anne, being 2 years older than Alyana, is correctly calculated as 8 years old.\n\nAll calculations are consistent and correct.\n\n[Final Answer] The answer is 8 \\n#### 8": [
+            70.0
+        ],
+        "I can't help with this question.": [
+            -75.0
+        ]
+    },
+    "hints_bank": {},
+    "history_bank": {
+        "[reasoning process] \nFirst, we need to determine Alyana's age. Since Chenny is 10 years old and Alyana is 4 years younger than Chenny, we calculate Alyana's age as follows:\n\nAlyana's age = Chenny's age - 4 years = 10 years - 4 years = 6 years.\n\nNext, we need to find Anne's age, knowing that she is 2 years older than Alyana. We calculate Anne's age as follows:\n\nAnne's age = Alyana's age + 2 years = 6 years + 2 years = 8 years.\n\n[Verification] \nLet's verify the ages:\n- Chenny is 10 years old.\n- Alyana, being 4 years younger than Chenny, is indeed 6 years old.\n- Anne, being 2 years older than Alyana, is correctly calculated as 8 years old.\n\nAll calculations are consistent and correct.\n\n[Final Answer] The answer is 8 \\n#### 8": [
+            "Question: Chenny is 10 years old. Alyana is 4 years younger than Chenny. How old is Anne if she is 2 years older than Alyana?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "[reasoning process] \nFirst, we need to determine Alyana's age. Since Chenny is 10 years old and Alyana is 4 years younger than Chenny, we calculate Alyana's age as follows:\n\nAlyana's age = Chenny's age - 4 years = 10 years - 4 years = 6 years.\n\nNext, we need to find Anne's age, knowing that she is 2 years older than Alyana. We calculate Anne's age as follows:\n\nAnne's age = Alyana's age + 2 years = 6 years + 2 years = 8 years.\n\n[Verification] \nLet's verify the ages:\n- Chenny is 10 years old.\n- Alyana, being 4 years younger than Chenny, is indeed 6 years old.\n- Anne, being 2 years older than Alyana, is correctly calculated as 8 years old.\n\nAll calculations are consistent and correct.\n\n[Final Answer] The answer is 8 \\n#### 8"
+        ],
+        "I can't help with this question.": [
+            "Question: Chenny is 10 years old. Alyana is 4 years younger than Chenny. How old is Anne if she is 2 years older than Alyana?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "I can't help with this question."
+        ]
+    },
+    "hints_reward_imp_bank": {},
+    "fathers": {
+        "[reasoning process] \nFirst, we need to determine Alyana's age. Since Chenny is 10 years old and Alyana is 4 years younger than Chenny, we calculate Alyana's age as follows:\n\nAlyana's age = Chenny's age - 4 years = 10 years - 4 years = 6 years.\n\nNext, we need to find Anne's age, knowing that she is 2 years older than Alyana. We calculate Anne's age as follows:\n\nAnne's age = Alyana's age + 2 years = 6 years + 2 years = 8 years.\n\n[Verification] \nLet's verify the ages:\n- Chenny is 10 years old.\n- Alyana, being 4 years younger than Chenny, is indeed 6 years old.\n- Anne, being 2 years older than Alyana, is correctly calculated as 8 years old.\n\nAll calculations are consistent and correct.\n\n[Final Answer] The answer is 8 \\n#### 8": null,
+        "I can't help with this question.": null
+    },
+    "childs": {
+        "[reasoning process] \nFirst, we need to determine Alyana's age. Since Chenny is 10 years old and Alyana is 4 years younger than Chenny, we calculate Alyana's age as follows:\n\nAlyana's age = Chenny's age - 4 years = 10 years - 4 years = 6 years.\n\nNext, we need to find Anne's age, knowing that she is 2 years older than Alyana. We calculate Anne's age as follows:\n\nAnne's age = Alyana's age + 2 years = 6 years + 2 years = 8 years.\n\n[Verification] \nLet's verify the ages:\n- Chenny is 10 years old.\n- Alyana, being 4 years younger than Chenny, is indeed 6 years old.\n- Anne, being 2 years older than Alyana, is correctly calculated as 8 years old.\n\nAll calculations are consistent and correct.\n\n[Final Answer] The answer is 8 \\n#### 8": [],
+        "I can't help with this question.": []
+    },
+    "ucb_bank": {}
+}

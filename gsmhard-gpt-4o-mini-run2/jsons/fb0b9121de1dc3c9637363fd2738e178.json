@@ -1,0 +1,44 @@
+{
+    "query": "Kelian has two recipes for preparing dishes, one having 20 instructions and the second one having twice as many instructions as the first one. How many instructions does Kelian have to read to prepare the two dishes?",
+    "ground_truth": "60.0",
+    "hints_list": [],
+    "answers_list": [
+        "[reasoning process] The first recipe has 20 instructions. The second recipe has twice as many instructions as the first one. Therefore, to find the number of instructions in the second recipe, we can calculate: \\(20 \\times 2 = 40\\) instructions. Now, we need to find the total number of instructions that Kelian has to read to prepare both dishes. To do this, we add the instructions from both recipes: \\(20 + 40 = 60\\).\n\n[Verification] We have confirmed that the first recipe has 20 instructions. For the second recipe, since it has twice the number of instructions as the first recipe, we calculated it as \\(20 \\times 2\\), which is indeed 40 instructions. Adding them together yields \\(20 + 40 = 60\\). \n\n[Final Answer] The answer is 60 \\n#### 60",
+        "I don't know the answer to this question."
+    ],
+    "ground_truth_hints": "",
+    "hints_prompt": "Question: Kelian has two recipes for preparing dishes, one having 20 instructions and the second one having twice as many instructions as the first one. How many instructions does Kelian have to read to prepare the two dishes?\nCould you provide me with the thought process to solve this problem, but please don’t give me the answer or calculation, just the thought process?",
+    "to_explore": [
+        "[reasoning process] The first recipe has 20 instructions. The second recipe has twice as many instructions as the first one. Therefore, to find the number of instructions in the second recipe, we can calculate: \\(20 \\times 2 = 40\\) instructions. Now, we need to find the total number of instructions that Kelian has to read to prepare both dishes. To do this, we add the instructions from both recipes: \\(20 + 40 = 60\\).\n\n[Verification] We have confirmed that the first recipe has 20 instructions. For the second recipe, since it has twice the number of instructions as the first recipe, we calculated it as \\(20 \\times 2\\), which is indeed 40 instructions. Adding them together yields \\(20 + 40 = 60\\). \n\n[Final Answer] The answer is 60 \\n#### 60",
+        "I don't know the answer to this question."
+    ],
+    "to_explore_reward": {
+        "[reasoning process] The first recipe has 20 instructions. The second recipe has twice as many instructions as the first one. Therefore, to find the number of instructions in the second recipe, we can calculate: \\(20 \\times 2 = 40\\) instructions. Now, we need to find the total number of instructions that Kelian has to read to prepare both dishes. To do this, we add the instructions from both recipes: \\(20 + 40 = 60\\).\n\n[Verification] We have confirmed that the first recipe has 20 instructions. For the second recipe, since it has twice the number of instructions as the first recipe, we calculated it as \\(20 \\times 2\\), which is indeed 40 instructions. Adding them together yields \\(20 + 40 = 60\\). \n\n[Final Answer] The answer is 60 \\n#### 60": [
+            75.0
+        ],
+        "I don't know the answer to this question.": [
+            -90.0
+        ]
+    },
+    "hints_bank": {},
+    "history_bank": {
+        "[reasoning process] The first recipe has 20 instructions. The second recipe has twice as many instructions as the first one. Therefore, to find the number of instructions in the second recipe, we can calculate: \\(20 \\times 2 = 40\\) instructions. Now, we need to find the total number of instructions that Kelian has to read to prepare both dishes. To do this, we add the instructions from both recipes: \\(20 + 40 = 60\\).\n\n[Verification] We have confirmed that the first recipe has 20 instructions. For the second recipe, since it has twice the number of instructions as the first recipe, we calculated it as \\(20 \\times 2\\), which is indeed 40 instructions. Adding them together yields \\(20 + 40 = 60\\). \n\n[Final Answer] The answer is 60 \\n#### 60": [
+            "Question: Kelian has two recipes for preparing dishes, one having 20 instructions and the second one having twice as many instructions as the first one. How many instructions does Kelian have to read to prepare the two dishes?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "[reasoning process] The first recipe has 20 instructions. The second recipe has twice as many instructions as the first one. Therefore, to find the number of instructions in the second recipe, we can calculate: \\(20 \\times 2 = 40\\) instructions. Now, we need to find the total number of instructions that Kelian has to read to prepare both dishes. To do this, we add the instructions from both recipes: \\(20 + 40 = 60\\).\n\n[Verification] We have confirmed that the first recipe has 20 instructions. For the second recipe, since it has twice the number of instructions as the first recipe, we calculated it as \\(20 \\times 2\\), which is indeed 40 instructions. Adding them together yields \\(20 + 40 = 60\\). \n\n[Final Answer] The answer is 60 \\n#### 60"
+        ],
+        "I don't know the answer to this question.": [
+            "Question: Kelian has two recipes for preparing dishes, one having 20 instructions and the second one having twice as many instructions as the first one. How many instructions does Kelian have to read to prepare the two dishes?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "I don't know the answer to this question."
+        ]
+    },
+    "hints_reward_imp_bank": {},
+    "fathers": {
+        "[reasoning process] The first recipe has 20 instructions. The second recipe has twice as many instructions as the first one. Therefore, to find the number of instructions in the second recipe, we can calculate: \\(20 \\times 2 = 40\\) instructions. Now, we need to find the total number of instructions that Kelian has to read to prepare both dishes. To do this, we add the instructions from both recipes: \\(20 + 40 = 60\\).\n\n[Verification] We have confirmed that the first recipe has 20 instructions. For the second recipe, since it has twice the number of instructions as the first recipe, we calculated it as \\(20 \\times 2\\), which is indeed 40 instructions. Adding them together yields \\(20 + 40 = 60\\). \n\n[Final Answer] The answer is 60 \\n#### 60": null,
+        "I don't know the answer to this question.": null
+    },
+    "childs": {
+        "[reasoning process] The first recipe has 20 instructions. The second recipe has twice as many instructions as the first one. Therefore, to find the number of instructions in the second recipe, we can calculate: \\(20 \\times 2 = 40\\) instructions. Now, we need to find the total number of instructions that Kelian has to read to prepare both dishes. To do this, we add the instructions from both recipes: \\(20 + 40 = 60\\).\n\n[Verification] We have confirmed that the first recipe has 20 instructions. For the second recipe, since it has twice the number of instructions as the first recipe, we calculated it as \\(20 \\times 2\\), which is indeed 40 instructions. Adding them together yields \\(20 + 40 = 60\\). \n\n[Final Answer] The answer is 60 \\n#### 60": [],
+        "I don't know the answer to this question.": []
+    },
+    "ucb_bank": {}
+}

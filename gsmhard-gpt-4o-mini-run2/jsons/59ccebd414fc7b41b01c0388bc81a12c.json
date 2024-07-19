@@ -1,0 +1,44 @@
+{
+    "query": "Ali had $8300329. Leila gave him half of her $100. How much does Ali have now?",
+    "ground_truth": "8300379.0",
+    "hints_list": [],
+    "answers_list": [
+        "[reasoning process] \nAli initially has $8300329. Leila gives him half of her $100. First, we need to find out how much half of $100 is. \n\nCalculating half of $100:  \n\\[\n\\text{half of } 100 = \\frac{100}{2} = 50\n\\]\nSo, Leila gives Ali $50. \n\nNext, we add this amount to Ali's current total:  \n\\[\n\\text{Total for Ali} = 8300329 + 50\n\\] \nCalculating that gives:  \n\\[\n8300329 + 50 = 8300379\n\\]\n\n[Verification] \nWe started with Ali's initial amount of $8300329, added the $50 from Leila, and confirmed the calculation as follows:\n\\[\n8300329 + 50 = 8300379\n\\]\nThus, the addition is verified.\n\n[Final Answer] The answer is 8300379  \n#### 8300379",
+        "I Don't Know"
+    ],
+    "ground_truth_hints": "",
+    "hints_prompt": "Question: Ali had $8300329. Leila gave him half of her $100. How much does Ali have now?\nCould you provide me with the thought process to solve this problem, but please don’t give me the answer or calculation, just the thought process?",
+    "to_explore": [
+        "[reasoning process] \nAli initially has $8300329. Leila gives him half of her $100. First, we need to find out how much half of $100 is. \n\nCalculating half of $100:  \n\\[\n\\text{half of } 100 = \\frac{100}{2} = 50\n\\]\nSo, Leila gives Ali $50. \n\nNext, we add this amount to Ali's current total:  \n\\[\n\\text{Total for Ali} = 8300329 + 50\n\\] \nCalculating that gives:  \n\\[\n8300329 + 50 = 8300379\n\\]\n\n[Verification] \nWe started with Ali's initial amount of $8300329, added the $50 from Leila, and confirmed the calculation as follows:\n\\[\n8300329 + 50 = 8300379\n\\]\nThus, the addition is verified.\n\n[Final Answer] The answer is 8300379  \n#### 8300379",
+        "I Don't Know"
+    ],
+    "to_explore_reward": {
+        "[reasoning process] \nAli initially has $8300329. Leila gives him half of her $100. First, we need to find out how much half of $100 is. \n\nCalculating half of $100:  \n\\[\n\\text{half of } 100 = \\frac{100}{2} = 50\n\\]\nSo, Leila gives Ali $50. \n\nNext, we add this amount to Ali's current total:  \n\\[\n\\text{Total for Ali} = 8300329 + 50\n\\] \nCalculating that gives:  \n\\[\n8300329 + 50 = 8300379\n\\]\n\n[Verification] \nWe started with Ali's initial amount of $8300329, added the $50 from Leila, and confirmed the calculation as follows:\n\\[\n8300329 + 50 = 8300379\n\\]\nThus, the addition is verified.\n\n[Final Answer] The answer is 8300379  \n#### 8300379": [
+            70.0
+        ],
+        "I Don't Know": [
+            -100.0
+        ]
+    },
+    "hints_bank": {},
+    "history_bank": {
+        "[reasoning process] \nAli initially has $8300329. Leila gives him half of her $100. First, we need to find out how much half of $100 is. \n\nCalculating half of $100:  \n\\[\n\\text{half of } 100 = \\frac{100}{2} = 50\n\\]\nSo, Leila gives Ali $50. \n\nNext, we add this amount to Ali's current total:  \n\\[\n\\text{Total for Ali} = 8300329 + 50\n\\] \nCalculating that gives:  \n\\[\n8300329 + 50 = 8300379\n\\]\n\n[Verification] \nWe started with Ali's initial amount of $8300329, added the $50 from Leila, and confirmed the calculation as follows:\n\\[\n8300329 + 50 = 8300379\n\\]\nThus, the addition is verified.\n\n[Final Answer] The answer is 8300379  \n#### 8300379": [
+            "Question: Ali had $8300329. Leila gave him half of her $100. How much does Ali have now?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "[reasoning process] \nAli initially has $8300329. Leila gives him half of her $100. First, we need to find out how much half of $100 is. \n\nCalculating half of $100:  \n\\[\n\\text{half of } 100 = \\frac{100}{2} = 50\n\\]\nSo, Leila gives Ali $50. \n\nNext, we add this amount to Ali's current total:  \n\\[\n\\text{Total for Ali} = 8300329 + 50\n\\] \nCalculating that gives:  \n\\[\n8300329 + 50 = 8300379\n\\]\n\n[Verification] \nWe started with Ali's initial amount of $8300329, added the $50 from Leila, and confirmed the calculation as follows:\n\\[\n8300329 + 50 = 8300379\n\\]\nThus, the addition is verified.\n\n[Final Answer] The answer is 8300379  \n#### 8300379"
+        ],
+        "I Don't Know": [
+            "Question: Ali had $8300329. Leila gave him half of her $100. How much does Ali have now?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "I Don't Know"
+        ]
+    },
+    "hints_reward_imp_bank": {},
+    "fathers": {
+        "[reasoning process] \nAli initially has $8300329. Leila gives him half of her $100. First, we need to find out how much half of $100 is. \n\nCalculating half of $100:  \n\\[\n\\text{half of } 100 = \\frac{100}{2} = 50\n\\]\nSo, Leila gives Ali $50. \n\nNext, we add this amount to Ali's current total:  \n\\[\n\\text{Total for Ali} = 8300329 + 50\n\\] \nCalculating that gives:  \n\\[\n8300329 + 50 = 8300379\n\\]\n\n[Verification] \nWe started with Ali's initial amount of $8300329, added the $50 from Leila, and confirmed the calculation as follows:\n\\[\n8300329 + 50 = 8300379\n\\]\nThus, the addition is verified.\n\n[Final Answer] The answer is 8300379  \n#### 8300379": null,
+        "I Don't Know": null
+    },
+    "childs": {
+        "[reasoning process] \nAli initially has $8300329. Leila gives him half of her $100. First, we need to find out how much half of $100 is. \n\nCalculating half of $100:  \n\\[\n\\text{half of } 100 = \\frac{100}{2} = 50\n\\]\nSo, Leila gives Ali $50. \n\nNext, we add this amount to Ali's current total:  \n\\[\n\\text{Total for Ali} = 8300329 + 50\n\\] \nCalculating that gives:  \n\\[\n8300329 + 50 = 8300379\n\\]\n\n[Verification] \nWe started with Ali's initial amount of $8300329, added the $50 from Leila, and confirmed the calculation as follows:\n\\[\n8300329 + 50 = 8300379\n\\]\nThus, the addition is verified.\n\n[Final Answer] The answer is 8300379  \n#### 8300379": [],
+        "I Don't Know": []
+    },
+    "ucb_bank": {}
+}

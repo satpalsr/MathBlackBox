@@ -1,0 +1,44 @@
+{
+    "query": "Bruce works for 5 hours on Tuesday. On Wednesday he works twice the time he works on Tuesday. On Thursday he works 2 hours less than the time he works on Wednesday. How many hours does Bruce work in all these three days?",
+    "ground_truth": "23.0",
+    "hints_list": [],
+    "answers_list": [
+        "[reasoning process] Let’s first calculate how many hours Bruce worked on each day:\n\n1. **Tuesday**: Bruce works for **5 hours**.\n2. **Wednesday**: He works twice the time he worked on Tuesday, which is \\( 2 \\times 5 = 10 \\) hours.\n3. **Thursday**: He works 2 hours less than he worked on Wednesday, so that would be \\( 10 - 2 = 8 \\) hours.\n\nNow, we will sum up the hours worked over the three days:\n- Hours on Tuesday: **5**\n- Hours on Wednesday: **10**\n- Hours on Thursday: **8**\n\nTotal hours worked = \\( 5 + 10 + 8 = 23 \\) hours.\n\n[Verification] Now let’s verify our calculations step by step:\n- Tuesday: 5 hours (correct).\n- Wednesday: Twice Tuesday = \\( 2 \\times 5 = 10 \\) hours (correct).\n- Thursday: Wednesday hours minus 2 = \\( 10 - 2 = 8 \\) hours (correct).\n- Total: \\( 5 + 10 + 8 = 23 \\) hours (correct).\n\nAll calculations check out.\n\n[Final Answer] The answer is 23 \\n#### 23",
+        "I Don't Know"
+    ],
+    "ground_truth_hints": "",
+    "hints_prompt": "Question: Bruce works for 5 hours on Tuesday. On Wednesday he works twice the time he works on Tuesday. On Thursday he works 2 hours less than the time he works on Wednesday. How many hours does Bruce work in all these three days?\nCould you provide me with the thought process to solve this problem, but please don’t give me the answer or calculation, just the thought process?",
+    "to_explore": [
+        "[reasoning process] Let’s first calculate how many hours Bruce worked on each day:\n\n1. **Tuesday**: Bruce works for **5 hours**.\n2. **Wednesday**: He works twice the time he worked on Tuesday, which is \\( 2 \\times 5 = 10 \\) hours.\n3. **Thursday**: He works 2 hours less than he worked on Wednesday, so that would be \\( 10 - 2 = 8 \\) hours.\n\nNow, we will sum up the hours worked over the three days:\n- Hours on Tuesday: **5**\n- Hours on Wednesday: **10**\n- Hours on Thursday: **8**\n\nTotal hours worked = \\( 5 + 10 + 8 = 23 \\) hours.\n\n[Verification] Now let’s verify our calculations step by step:\n- Tuesday: 5 hours (correct).\n- Wednesday: Twice Tuesday = \\( 2 \\times 5 = 10 \\) hours (correct).\n- Thursday: Wednesday hours minus 2 = \\( 10 - 2 = 8 \\) hours (correct).\n- Total: \\( 5 + 10 + 8 = 23 \\) hours (correct).\n\nAll calculations check out.\n\n[Final Answer] The answer is 23 \\n#### 23",
+        "I Don't Know"
+    ],
+    "to_explore_reward": {
+        "[reasoning process] Let’s first calculate how many hours Bruce worked on each day:\n\n1. **Tuesday**: Bruce works for **5 hours**.\n2. **Wednesday**: He works twice the time he worked on Tuesday, which is \\( 2 \\times 5 = 10 \\) hours.\n3. **Thursday**: He works 2 hours less than he worked on Wednesday, so that would be \\( 10 - 2 = 8 \\) hours.\n\nNow, we will sum up the hours worked over the three days:\n- Hours on Tuesday: **5**\n- Hours on Wednesday: **10**\n- Hours on Thursday: **8**\n\nTotal hours worked = \\( 5 + 10 + 8 = 23 \\) hours.\n\n[Verification] Now let’s verify our calculations step by step:\n- Tuesday: 5 hours (correct).\n- Wednesday: Twice Tuesday = \\( 2 \\times 5 = 10 \\) hours (correct).\n- Thursday: Wednesday hours minus 2 = \\( 10 - 2 = 8 \\) hours (correct).\n- Total: \\( 5 + 10 + 8 = 23 \\) hours (correct).\n\nAll calculations check out.\n\n[Final Answer] The answer is 23 \\n#### 23": [
+            85.0
+        ],
+        "I Don't Know": [
+            -95.0
+        ]
+    },
+    "hints_bank": {},
+    "history_bank": {
+        "[reasoning process] Let’s first calculate how many hours Bruce worked on each day:\n\n1. **Tuesday**: Bruce works for **5 hours**.\n2. **Wednesday**: He works twice the time he worked on Tuesday, which is \\( 2 \\times 5 = 10 \\) hours.\n3. **Thursday**: He works 2 hours less than he worked on Wednesday, so that would be \\( 10 - 2 = 8 \\) hours.\n\nNow, we will sum up the hours worked over the three days:\n- Hours on Tuesday: **5**\n- Hours on Wednesday: **10**\n- Hours on Thursday: **8**\n\nTotal hours worked = \\( 5 + 10 + 8 = 23 \\) hours.\n\n[Verification] Now let’s verify our calculations step by step:\n- Tuesday: 5 hours (correct).\n- Wednesday: Twice Tuesday = \\( 2 \\times 5 = 10 \\) hours (correct).\n- Thursday: Wednesday hours minus 2 = \\( 10 - 2 = 8 \\) hours (correct).\n- Total: \\( 5 + 10 + 8 = 23 \\) hours (correct).\n\nAll calculations check out.\n\n[Final Answer] The answer is 23 \\n#### 23": [
+            "Question: Bruce works for 5 hours on Tuesday. On Wednesday he works twice the time he works on Tuesday. On Thursday he works 2 hours less than the time he works on Wednesday. How many hours does Bruce work in all these three days?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "[reasoning process] Let’s first calculate how many hours Bruce worked on each day:\n\n1. **Tuesday**: Bruce works for **5 hours**.\n2. **Wednesday**: He works twice the time he worked on Tuesday, which is \\( 2 \\times 5 = 10 \\) hours.\n3. **Thursday**: He works 2 hours less than he worked on Wednesday, so that would be \\( 10 - 2 = 8 \\) hours.\n\nNow, we will sum up the hours worked over the three days:\n- Hours on Tuesday: **5**\n- Hours on Wednesday: **10**\n- Hours on Thursday: **8**\n\nTotal hours worked = \\( 5 + 10 + 8 = 23 \\) hours.\n\n[Verification] Now let’s verify our calculations step by step:\n- Tuesday: 5 hours (correct).\n- Wednesday: Twice Tuesday = \\( 2 \\times 5 = 10 \\) hours (correct).\n- Thursday: Wednesday hours minus 2 = \\( 10 - 2 = 8 \\) hours (correct).\n- Total: \\( 5 + 10 + 8 = 23 \\) hours (correct).\n\nAll calculations check out.\n\n[Final Answer] The answer is 23 \\n#### 23"
+        ],
+        "I Don't Know": [
+            "Question: Bruce works for 5 hours on Tuesday. On Wednesday he works twice the time he works on Tuesday. On Thursday he works 2 hours less than the time he works on Wednesday. How many hours does Bruce work in all these three days?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "I Don't Know"
+        ]
+    },
+    "hints_reward_imp_bank": {},
+    "fathers": {
+        "[reasoning process] Let’s first calculate how many hours Bruce worked on each day:\n\n1. **Tuesday**: Bruce works for **5 hours**.\n2. **Wednesday**: He works twice the time he worked on Tuesday, which is \\( 2 \\times 5 = 10 \\) hours.\n3. **Thursday**: He works 2 hours less than he worked on Wednesday, so that would be \\( 10 - 2 = 8 \\) hours.\n\nNow, we will sum up the hours worked over the three days:\n- Hours on Tuesday: **5**\n- Hours on Wednesday: **10**\n- Hours on Thursday: **8**\n\nTotal hours worked = \\( 5 + 10 + 8 = 23 \\) hours.\n\n[Verification] Now let’s verify our calculations step by step:\n- Tuesday: 5 hours (correct).\n- Wednesday: Twice Tuesday = \\( 2 \\times 5 = 10 \\) hours (correct).\n- Thursday: Wednesday hours minus 2 = \\( 10 - 2 = 8 \\) hours (correct).\n- Total: \\( 5 + 10 + 8 = 23 \\) hours (correct).\n\nAll calculations check out.\n\n[Final Answer] The answer is 23 \\n#### 23": null,
+        "I Don't Know": null
+    },
+    "childs": {
+        "[reasoning process] Let’s first calculate how many hours Bruce worked on each day:\n\n1. **Tuesday**: Bruce works for **5 hours**.\n2. **Wednesday**: He works twice the time he worked on Tuesday, which is \\( 2 \\times 5 = 10 \\) hours.\n3. **Thursday**: He works 2 hours less than he worked on Wednesday, so that would be \\( 10 - 2 = 8 \\) hours.\n\nNow, we will sum up the hours worked over the three days:\n- Hours on Tuesday: **5**\n- Hours on Wednesday: **10**\n- Hours on Thursday: **8**\n\nTotal hours worked = \\( 5 + 10 + 8 = 23 \\) hours.\n\n[Verification] Now let’s verify our calculations step by step:\n- Tuesday: 5 hours (correct).\n- Wednesday: Twice Tuesday = \\( 2 \\times 5 = 10 \\) hours (correct).\n- Thursday: Wednesday hours minus 2 = \\( 10 - 2 = 8 \\) hours (correct).\n- Total: \\( 5 + 10 + 8 = 23 \\) hours (correct).\n\nAll calculations check out.\n\n[Final Answer] The answer is 23 \\n#### 23": [],
+        "I Don't Know": []
+    },
+    "ucb_bank": {}
+}

@@ -1,0 +1,44 @@
+{
+    "query": "Pancho walks 20 miles a day. Except on weekends when he walks 10 miles. How many miles does he walk in a week?",
+    "ground_truth": "120.0",
+    "hints_list": [],
+    "answers_list": [
+        "[reasoning process] Let's break down the number of miles Pancho walks in a week. Monday to Friday, he walks 20 miles a day. That accounts for 5 days of walking. On Saturday and Sunday, he walks 10 miles each day. So for the weekend, that's 2 days of walking.\n\nFirst, we calculate the total distance for the weekdays:\n- For 5 days at 20 miles per day: \n  5 days × 20 miles/day = 100 miles.\n\nNext, we calculate the total distance for the weekend:\n- For 2 days at 10 miles per day:\n  2 days × 10 miles/day = 20 miles.\n\nNow, we combine the weekday and weekend walking distances:\n- Total walking distance in a week = 100 miles (weekdays) + 20 miles (weekend) = 120 miles.\n\n[Verification] We can double-check the calculations:\n- Weekday walking: 20 miles × 5 days = 100 miles.\n- Weekend walking: 10 miles × 2 days = 20 miles.\n- Total: 100 miles + 20 miles = 120 miles.\n\nEverything checks out correctly.\n\n[Final Answer] The answer is 120 miles \\n#### 120 miles",
+        "I don't know the answer to this question, sorry."
+    ],
+    "ground_truth_hints": "",
+    "hints_prompt": "Question: Pancho walks 20 miles a day. Except on weekends when he walks 10 miles. How many miles does he walk in a week?\nCould you provide me with the thought process to solve this problem, but please don’t give me the answer or calculation, just the thought process?",
+    "to_explore": [
+        "[reasoning process] Let's break down the number of miles Pancho walks in a week. Monday to Friday, he walks 20 miles a day. That accounts for 5 days of walking. On Saturday and Sunday, he walks 10 miles each day. So for the weekend, that's 2 days of walking.\n\nFirst, we calculate the total distance for the weekdays:\n- For 5 days at 20 miles per day: \n  5 days × 20 miles/day = 100 miles.\n\nNext, we calculate the total distance for the weekend:\n- For 2 days at 10 miles per day:\n  2 days × 10 miles/day = 20 miles.\n\nNow, we combine the weekday and weekend walking distances:\n- Total walking distance in a week = 100 miles (weekdays) + 20 miles (weekend) = 120 miles.\n\n[Verification] We can double-check the calculations:\n- Weekday walking: 20 miles × 5 days = 100 miles.\n- Weekend walking: 10 miles × 2 days = 20 miles.\n- Total: 100 miles + 20 miles = 120 miles.\n\nEverything checks out correctly.\n\n[Final Answer] The answer is 120 miles \\n#### 120 miles",
+        "I don't know the answer to this question, sorry."
+    ],
+    "to_explore_reward": {
+        "[reasoning process] Let's break down the number of miles Pancho walks in a week. Monday to Friday, he walks 20 miles a day. That accounts for 5 days of walking. On Saturday and Sunday, he walks 10 miles each day. So for the weekend, that's 2 days of walking.\n\nFirst, we calculate the total distance for the weekdays:\n- For 5 days at 20 miles per day: \n  5 days × 20 miles/day = 100 miles.\n\nNext, we calculate the total distance for the weekend:\n- For 2 days at 10 miles per day:\n  2 days × 10 miles/day = 20 miles.\n\nNow, we combine the weekday and weekend walking distances:\n- Total walking distance in a week = 100 miles (weekdays) + 20 miles (weekend) = 120 miles.\n\n[Verification] We can double-check the calculations:\n- Weekday walking: 20 miles × 5 days = 100 miles.\n- Weekend walking: 10 miles × 2 days = 20 miles.\n- Total: 100 miles + 20 miles = 120 miles.\n\nEverything checks out correctly.\n\n[Final Answer] The answer is 120 miles \\n#### 120 miles": [
+            70.0
+        ],
+        "I don't know the answer to this question, sorry.": [
+            -90.0
+        ]
+    },
+    "hints_bank": {},
+    "history_bank": {
+        "[reasoning process] Let's break down the number of miles Pancho walks in a week. Monday to Friday, he walks 20 miles a day. That accounts for 5 days of walking. On Saturday and Sunday, he walks 10 miles each day. So for the weekend, that's 2 days of walking.\n\nFirst, we calculate the total distance for the weekdays:\n- For 5 days at 20 miles per day: \n  5 days × 20 miles/day = 100 miles.\n\nNext, we calculate the total distance for the weekend:\n- For 2 days at 10 miles per day:\n  2 days × 10 miles/day = 20 miles.\n\nNow, we combine the weekday and weekend walking distances:\n- Total walking distance in a week = 100 miles (weekdays) + 20 miles (weekend) = 120 miles.\n\n[Verification] We can double-check the calculations:\n- Weekday walking: 20 miles × 5 days = 100 miles.\n- Weekend walking: 10 miles × 2 days = 20 miles.\n- Total: 100 miles + 20 miles = 120 miles.\n\nEverything checks out correctly.\n\n[Final Answer] The answer is 120 miles \\n#### 120 miles": [
+            "Question: Pancho walks 20 miles a day. Except on weekends when he walks 10 miles. How many miles does he walk in a week?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "[reasoning process] Let's break down the number of miles Pancho walks in a week. Monday to Friday, he walks 20 miles a day. That accounts for 5 days of walking. On Saturday and Sunday, he walks 10 miles each day. So for the weekend, that's 2 days of walking.\n\nFirst, we calculate the total distance for the weekdays:\n- For 5 days at 20 miles per day: \n  5 days × 20 miles/day = 100 miles.\n\nNext, we calculate the total distance for the weekend:\n- For 2 days at 10 miles per day:\n  2 days × 10 miles/day = 20 miles.\n\nNow, we combine the weekday and weekend walking distances:\n- Total walking distance in a week = 100 miles (weekdays) + 20 miles (weekend) = 120 miles.\n\n[Verification] We can double-check the calculations:\n- Weekday walking: 20 miles × 5 days = 100 miles.\n- Weekend walking: 10 miles × 2 days = 20 miles.\n- Total: 100 miles + 20 miles = 120 miles.\n\nEverything checks out correctly.\n\n[Final Answer] The answer is 120 miles \\n#### 120 miles"
+        ],
+        "I don't know the answer to this question, sorry.": [
+            "Question: Pancho walks 20 miles a day. Except on weekends when he walks 10 miles. How many miles does he walk in a week?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "I don't know the answer to this question, sorry."
+        ]
+    },
+    "hints_reward_imp_bank": {},
+    "fathers": {
+        "[reasoning process] Let's break down the number of miles Pancho walks in a week. Monday to Friday, he walks 20 miles a day. That accounts for 5 days of walking. On Saturday and Sunday, he walks 10 miles each day. So for the weekend, that's 2 days of walking.\n\nFirst, we calculate the total distance for the weekdays:\n- For 5 days at 20 miles per day: \n  5 days × 20 miles/day = 100 miles.\n\nNext, we calculate the total distance for the weekend:\n- For 2 days at 10 miles per day:\n  2 days × 10 miles/day = 20 miles.\n\nNow, we combine the weekday and weekend walking distances:\n- Total walking distance in a week = 100 miles (weekdays) + 20 miles (weekend) = 120 miles.\n\n[Verification] We can double-check the calculations:\n- Weekday walking: 20 miles × 5 days = 100 miles.\n- Weekend walking: 10 miles × 2 days = 20 miles.\n- Total: 100 miles + 20 miles = 120 miles.\n\nEverything checks out correctly.\n\n[Final Answer] The answer is 120 miles \\n#### 120 miles": null,
+        "I don't know the answer to this question, sorry.": null
+    },
+    "childs": {
+        "[reasoning process] Let's break down the number of miles Pancho walks in a week. Monday to Friday, he walks 20 miles a day. That accounts for 5 days of walking. On Saturday and Sunday, he walks 10 miles each day. So for the weekend, that's 2 days of walking.\n\nFirst, we calculate the total distance for the weekdays:\n- For 5 days at 20 miles per day: \n  5 days × 20 miles/day = 100 miles.\n\nNext, we calculate the total distance for the weekend:\n- For 2 days at 10 miles per day:\n  2 days × 10 miles/day = 20 miles.\n\nNow, we combine the weekday and weekend walking distances:\n- Total walking distance in a week = 100 miles (weekdays) + 20 miles (weekend) = 120 miles.\n\n[Verification] We can double-check the calculations:\n- Weekday walking: 20 miles × 5 days = 100 miles.\n- Weekend walking: 10 miles × 2 days = 20 miles.\n- Total: 100 miles + 20 miles = 120 miles.\n\nEverything checks out correctly.\n\n[Final Answer] The answer is 120 miles \\n#### 120 miles": [],
+        "I don't know the answer to this question, sorry.": []
+    },
+    "ucb_bank": {}
+}

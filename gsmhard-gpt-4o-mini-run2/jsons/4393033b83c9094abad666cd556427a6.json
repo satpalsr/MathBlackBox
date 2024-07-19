@@ -1,0 +1,44 @@
+{
+    "query": "To have the car for the weekend, Wilson's report card needs to show that he received 80 or higher in his math class.  His math grade is calculated by the average of 5 test scores.  On those tests, he received: 65, 94, 81, 86 and 74.  What is his current math grade?",
+    "ground_truth": "80.0",
+    "hints_list": [],
+    "answers_list": [
+        "[reasoning process] To find Wilson's current math grade, we need to calculate the average of his 5 test scores. The formula for the average is the sum of all scores divided by the number of scores. Wilson's test scores are: 65, 94, 81, 86, and 74. \n\nFirst, let's calculate the sum of the scores:\n65 + 94 + 81 + 86 + 74 = 400\n\nNext, we divide this sum by the number of tests, which is 5:\n400 ÷ 5 = 80\n\nSo, Wilson's current math grade is 80.\n\n[Verification] We can double-check the sum of the test scores:\n- 65 + 94 = 159\n- 159 + 81 = 240\n- 240 + 86 = 326\n- 326 + 74 = 400 \n\nThe sum is indeed 400. Then, we verify the average:\n400 ÷ 5 = 80. Thus, the calculation is correct.\n\n[Final Answer] The answer is 80 \\n#### 80",
+        "I can't understand this question."
+    ],
+    "ground_truth_hints": "",
+    "hints_prompt": "Question: To have the car for the weekend, Wilson's report card needs to show that he received 80 or higher in his math class.  His math grade is calculated by the average of 5 test scores.  On those tests, he received: 65, 94, 81, 86 and 74.  What is his current math grade?\nCould you provide me with the thought process to solve this problem, but please don’t give me the answer or calculation, just the thought process?",
+    "to_explore": [
+        "[reasoning process] To find Wilson's current math grade, we need to calculate the average of his 5 test scores. The formula for the average is the sum of all scores divided by the number of scores. Wilson's test scores are: 65, 94, 81, 86, and 74. \n\nFirst, let's calculate the sum of the scores:\n65 + 94 + 81 + 86 + 74 = 400\n\nNext, we divide this sum by the number of tests, which is 5:\n400 ÷ 5 = 80\n\nSo, Wilson's current math grade is 80.\n\n[Verification] We can double-check the sum of the test scores:\n- 65 + 94 = 159\n- 159 + 81 = 240\n- 240 + 86 = 326\n- 326 + 74 = 400 \n\nThe sum is indeed 400. Then, we verify the average:\n400 ÷ 5 = 80. Thus, the calculation is correct.\n\n[Final Answer] The answer is 80 \\n#### 80",
+        "I can't understand this question."
+    ],
+    "to_explore_reward": {
+        "[reasoning process] To find Wilson's current math grade, we need to calculate the average of his 5 test scores. The formula for the average is the sum of all scores divided by the number of scores. Wilson's test scores are: 65, 94, 81, 86, and 74. \n\nFirst, let's calculate the sum of the scores:\n65 + 94 + 81 + 86 + 74 = 400\n\nNext, we divide this sum by the number of tests, which is 5:\n400 ÷ 5 = 80\n\nSo, Wilson's current math grade is 80.\n\n[Verification] We can double-check the sum of the test scores:\n- 65 + 94 = 159\n- 159 + 81 = 240\n- 240 + 86 = 326\n- 326 + 74 = 400 \n\nThe sum is indeed 400. Then, we verify the average:\n400 ÷ 5 = 80. Thus, the calculation is correct.\n\n[Final Answer] The answer is 80 \\n#### 80": [
+            60.0
+        ],
+        "I can't understand this question.": [
+            -95.0
+        ]
+    },
+    "hints_bank": {},
+    "history_bank": {
+        "[reasoning process] To find Wilson's current math grade, we need to calculate the average of his 5 test scores. The formula for the average is the sum of all scores divided by the number of scores. Wilson's test scores are: 65, 94, 81, 86, and 74. \n\nFirst, let's calculate the sum of the scores:\n65 + 94 + 81 + 86 + 74 = 400\n\nNext, we divide this sum by the number of tests, which is 5:\n400 ÷ 5 = 80\n\nSo, Wilson's current math grade is 80.\n\n[Verification] We can double-check the sum of the test scores:\n- 65 + 94 = 159\n- 159 + 81 = 240\n- 240 + 86 = 326\n- 326 + 74 = 400 \n\nThe sum is indeed 400. Then, we verify the average:\n400 ÷ 5 = 80. Thus, the calculation is correct.\n\n[Final Answer] The answer is 80 \\n#### 80": [
+            "Question: To have the car for the weekend, Wilson's report card needs to show that he received 80 or higher in his math class.  His math grade is calculated by the average of 5 test scores.  On those tests, he received: 65, 94, 81, 86 and 74.  What is his current math grade?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "[reasoning process] To find Wilson's current math grade, we need to calculate the average of his 5 test scores. The formula for the average is the sum of all scores divided by the number of scores. Wilson's test scores are: 65, 94, 81, 86, and 74. \n\nFirst, let's calculate the sum of the scores:\n65 + 94 + 81 + 86 + 74 = 400\n\nNext, we divide this sum by the number of tests, which is 5:\n400 ÷ 5 = 80\n\nSo, Wilson's current math grade is 80.\n\n[Verification] We can double-check the sum of the test scores:\n- 65 + 94 = 159\n- 159 + 81 = 240\n- 240 + 86 = 326\n- 326 + 74 = 400 \n\nThe sum is indeed 400. Then, we verify the average:\n400 ÷ 5 = 80. Thus, the calculation is correct.\n\n[Final Answer] The answer is 80 \\n#### 80"
+        ],
+        "I can't understand this question.": [
+            "Question: To have the car for the weekend, Wilson's report card needs to show that he received 80 or higher in his math class.  His math grade is calculated by the average of 5 test scores.  On those tests, he received: 65, 94, 81, 86 and 74.  What is his current math grade?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "I can't understand this question."
+        ]
+    },
+    "hints_reward_imp_bank": {},
+    "fathers": {
+        "[reasoning process] To find Wilson's current math grade, we need to calculate the average of his 5 test scores. The formula for the average is the sum of all scores divided by the number of scores. Wilson's test scores are: 65, 94, 81, 86, and 74. \n\nFirst, let's calculate the sum of the scores:\n65 + 94 + 81 + 86 + 74 = 400\n\nNext, we divide this sum by the number of tests, which is 5:\n400 ÷ 5 = 80\n\nSo, Wilson's current math grade is 80.\n\n[Verification] We can double-check the sum of the test scores:\n- 65 + 94 = 159\n- 159 + 81 = 240\n- 240 + 86 = 326\n- 326 + 74 = 400 \n\nThe sum is indeed 400. Then, we verify the average:\n400 ÷ 5 = 80. Thus, the calculation is correct.\n\n[Final Answer] The answer is 80 \\n#### 80": null,
+        "I can't understand this question.": null
+    },
+    "childs": {
+        "[reasoning process] To find Wilson's current math grade, we need to calculate the average of his 5 test scores. The formula for the average is the sum of all scores divided by the number of scores. Wilson's test scores are: 65, 94, 81, 86, and 74. \n\nFirst, let's calculate the sum of the scores:\n65 + 94 + 81 + 86 + 74 = 400\n\nNext, we divide this sum by the number of tests, which is 5:\n400 ÷ 5 = 80\n\nSo, Wilson's current math grade is 80.\n\n[Verification] We can double-check the sum of the test scores:\n- 65 + 94 = 159\n- 159 + 81 = 240\n- 240 + 86 = 326\n- 326 + 74 = 400 \n\nThe sum is indeed 400. Then, we verify the average:\n400 ÷ 5 = 80. Thus, the calculation is correct.\n\n[Final Answer] The answer is 80 \\n#### 80": [],
+        "I can't understand this question.": []
+    },
+    "ucb_bank": {}
+}

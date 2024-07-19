@@ -1,0 +1,44 @@
+{
+    "query": "Becky, Jake, and Silvia shared 2008462 pizzas. Each pizza had 8 slices. Becky ate 3 more slices than Jake did. Silvia ate twice as many slices than Jake did. If Becky ate 10 slices, how many total slices did they eat?",
+    "ground_truth": "31.0",
+    "hints_list": [],
+    "answers_list": [
+        "[reasoning process] Let's define the number of slices that Jake ate as \\( J \\). According to the problem, we know:\n\n1. Becky ate 3 more slices than Jake: \\( B = J + 3 \\)\n2. Silvia ate twice as many slices as Jake: \\( S = 2J \\)\n3. We are given that Becky ate 10 slices: \\( B = 10 \\)\n\nUsing the information that Becky ate 10 slices, we can set up the equation from the first point:\n\\[\n10 = J + 3\n\\]\nWe can solve for \\( J \\):\n\\[\nJ = 10 - 3 = 7\n\\]\n\nNow we can find out how many slices Silvia ate using the second point:\n\\[\nS = 2J = 2 \\times 7 = 14\n\\]\n\nNow we can calculate the total slices they all ate:\n\\[\n\\text{Total slices} = B + J + S = 10 + 7 + 14 = 31\n\\]\n\n[Verification] To verify:\n- Jake = 7 slices\n- Becky = 10 slices\n- Silvia = 14 slices\n\nAdding them together:\n\\[\n7 + 10 + 14 = 31\n\\]\nThis matches our previous total.\n\n[Final Answer] The answer is 31 \\n#### 31",
+        "I Don't Know"
+    ],
+    "ground_truth_hints": "",
+    "hints_prompt": "Question: Becky, Jake, and Silvia shared 2008462 pizzas. Each pizza had 8 slices. Becky ate 3 more slices than Jake did. Silvia ate twice as many slices than Jake did. If Becky ate 10 slices, how many total slices did they eat?\nCould you provide me with the thought process to solve this problem, but please don’t give me the answer or calculation, just the thought process?",
+    "to_explore": [
+        "[reasoning process] Let's define the number of slices that Jake ate as \\( J \\). According to the problem, we know:\n\n1. Becky ate 3 more slices than Jake: \\( B = J + 3 \\)\n2. Silvia ate twice as many slices as Jake: \\( S = 2J \\)\n3. We are given that Becky ate 10 slices: \\( B = 10 \\)\n\nUsing the information that Becky ate 10 slices, we can set up the equation from the first point:\n\\[\n10 = J + 3\n\\]\nWe can solve for \\( J \\):\n\\[\nJ = 10 - 3 = 7\n\\]\n\nNow we can find out how many slices Silvia ate using the second point:\n\\[\nS = 2J = 2 \\times 7 = 14\n\\]\n\nNow we can calculate the total slices they all ate:\n\\[\n\\text{Total slices} = B + J + S = 10 + 7 + 14 = 31\n\\]\n\n[Verification] To verify:\n- Jake = 7 slices\n- Becky = 10 slices\n- Silvia = 14 slices\n\nAdding them together:\n\\[\n7 + 10 + 14 = 31\n\\]\nThis matches our previous total.\n\n[Final Answer] The answer is 31 \\n#### 31",
+        "I Don't Know"
+    ],
+    "to_explore_reward": {
+        "[reasoning process] Let's define the number of slices that Jake ate as \\( J \\). According to the problem, we know:\n\n1. Becky ate 3 more slices than Jake: \\( B = J + 3 \\)\n2. Silvia ate twice as many slices as Jake: \\( S = 2J \\)\n3. We are given that Becky ate 10 slices: \\( B = 10 \\)\n\nUsing the information that Becky ate 10 slices, we can set up the equation from the first point:\n\\[\n10 = J + 3\n\\]\nWe can solve for \\( J \\):\n\\[\nJ = 10 - 3 = 7\n\\]\n\nNow we can find out how many slices Silvia ate using the second point:\n\\[\nS = 2J = 2 \\times 7 = 14\n\\]\n\nNow we can calculate the total slices they all ate:\n\\[\n\\text{Total slices} = B + J + S = 10 + 7 + 14 = 31\n\\]\n\n[Verification] To verify:\n- Jake = 7 slices\n- Becky = 10 slices\n- Silvia = 14 slices\n\nAdding them together:\n\\[\n7 + 10 + 14 = 31\n\\]\nThis matches our previous total.\n\n[Final Answer] The answer is 31 \\n#### 31": [
+            75.0
+        ],
+        "I Don't Know": [
+            -90.0
+        ]
+    },
+    "hints_bank": {},
+    "history_bank": {
+        "[reasoning process] Let's define the number of slices that Jake ate as \\( J \\). According to the problem, we know:\n\n1. Becky ate 3 more slices than Jake: \\( B = J + 3 \\)\n2. Silvia ate twice as many slices as Jake: \\( S = 2J \\)\n3. We are given that Becky ate 10 slices: \\( B = 10 \\)\n\nUsing the information that Becky ate 10 slices, we can set up the equation from the first point:\n\\[\n10 = J + 3\n\\]\nWe can solve for \\( J \\):\n\\[\nJ = 10 - 3 = 7\n\\]\n\nNow we can find out how many slices Silvia ate using the second point:\n\\[\nS = 2J = 2 \\times 7 = 14\n\\]\n\nNow we can calculate the total slices they all ate:\n\\[\n\\text{Total slices} = B + J + S = 10 + 7 + 14 = 31\n\\]\n\n[Verification] To verify:\n- Jake = 7 slices\n- Becky = 10 slices\n- Silvia = 14 slices\n\nAdding them together:\n\\[\n7 + 10 + 14 = 31\n\\]\nThis matches our previous total.\n\n[Final Answer] The answer is 31 \\n#### 31": [
+            "Question: Becky, Jake, and Silvia shared 2008462 pizzas. Each pizza had 8 slices. Becky ate 3 more slices than Jake did. Silvia ate twice as many slices than Jake did. If Becky ate 10 slices, how many total slices did they eat?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "[reasoning process] Let's define the number of slices that Jake ate as \\( J \\). According to the problem, we know:\n\n1. Becky ate 3 more slices than Jake: \\( B = J + 3 \\)\n2. Silvia ate twice as many slices as Jake: \\( S = 2J \\)\n3. We are given that Becky ate 10 slices: \\( B = 10 \\)\n\nUsing the information that Becky ate 10 slices, we can set up the equation from the first point:\n\\[\n10 = J + 3\n\\]\nWe can solve for \\( J \\):\n\\[\nJ = 10 - 3 = 7\n\\]\n\nNow we can find out how many slices Silvia ate using the second point:\n\\[\nS = 2J = 2 \\times 7 = 14\n\\]\n\nNow we can calculate the total slices they all ate:\n\\[\n\\text{Total slices} = B + J + S = 10 + 7 + 14 = 31\n\\]\n\n[Verification] To verify:\n- Jake = 7 slices\n- Becky = 10 slices\n- Silvia = 14 slices\n\nAdding them together:\n\\[\n7 + 10 + 14 = 31\n\\]\nThis matches our previous total.\n\n[Final Answer] The answer is 31 \\n#### 31"
+        ],
+        "I Don't Know": [
+            "Question: Becky, Jake, and Silvia shared 2008462 pizzas. Each pizza had 8 slices. Becky ate 3 more slices than Jake did. Silvia ate twice as many slices than Jake did. If Becky ate 10 slices, how many total slices did they eat?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "I Don't Know"
+        ]
+    },
+    "hints_reward_imp_bank": {},
+    "fathers": {
+        "[reasoning process] Let's define the number of slices that Jake ate as \\( J \\). According to the problem, we know:\n\n1. Becky ate 3 more slices than Jake: \\( B = J + 3 \\)\n2. Silvia ate twice as many slices as Jake: \\( S = 2J \\)\n3. We are given that Becky ate 10 slices: \\( B = 10 \\)\n\nUsing the information that Becky ate 10 slices, we can set up the equation from the first point:\n\\[\n10 = J + 3\n\\]\nWe can solve for \\( J \\):\n\\[\nJ = 10 - 3 = 7\n\\]\n\nNow we can find out how many slices Silvia ate using the second point:\n\\[\nS = 2J = 2 \\times 7 = 14\n\\]\n\nNow we can calculate the total slices they all ate:\n\\[\n\\text{Total slices} = B + J + S = 10 + 7 + 14 = 31\n\\]\n\n[Verification] To verify:\n- Jake = 7 slices\n- Becky = 10 slices\n- Silvia = 14 slices\n\nAdding them together:\n\\[\n7 + 10 + 14 = 31\n\\]\nThis matches our previous total.\n\n[Final Answer] The answer is 31 \\n#### 31": null,
+        "I Don't Know": null
+    },
+    "childs": {
+        "[reasoning process] Let's define the number of slices that Jake ate as \\( J \\). According to the problem, we know:\n\n1. Becky ate 3 more slices than Jake: \\( B = J + 3 \\)\n2. Silvia ate twice as many slices as Jake: \\( S = 2J \\)\n3. We are given that Becky ate 10 slices: \\( B = 10 \\)\n\nUsing the information that Becky ate 10 slices, we can set up the equation from the first point:\n\\[\n10 = J + 3\n\\]\nWe can solve for \\( J \\):\n\\[\nJ = 10 - 3 = 7\n\\]\n\nNow we can find out how many slices Silvia ate using the second point:\n\\[\nS = 2J = 2 \\times 7 = 14\n\\]\n\nNow we can calculate the total slices they all ate:\n\\[\n\\text{Total slices} = B + J + S = 10 + 7 + 14 = 31\n\\]\n\n[Verification] To verify:\n- Jake = 7 slices\n- Becky = 10 slices\n- Silvia = 14 slices\n\nAdding them together:\n\\[\n7 + 10 + 14 = 31\n\\]\nThis matches our previous total.\n\n[Final Answer] The answer is 31 \\n#### 31": [],
+        "I Don't Know": []
+    },
+    "ucb_bank": {}
+}

@@ -1,0 +1,44 @@
+{
+    "query": "On Tuesday, Peter wants to exercise for twice the amount of time he did on Monday and Sunday combined. On Sunday he exercised for 23 minutes. On Monday he exercised for 16 minutes. How many minutes does he have to exercise on Tuesday to reach his goal?",
+    "ground_truth": "78.0",
+    "hints_list": [],
+    "answers_list": [
+        "[reasoning process] Let's first determine how long Peter exercised on Sunday and Monday together. On Sunday, he exercised for 23 minutes and on Monday for 16 minutes. \n\nTo find the total time he exercised on those two days, we add the two times together:\nTotal time on Sunday and Monday = 23 minutes + 16 minutes = 39 minutes.\n\nNow, for Tuesday, Peter wants to exercise for twice the amount of time he did on Sunday and Monday combined. Therefore, we will multiply the total time by 2:\nTime to exercise on Tuesday = 2 × 39 minutes = 78 minutes.\n\n[Verification] To verify our calculations:\n1. Sum of exercises on Sunday and Monday: 23 + 16 = 39 minutes.\n2. Twice that amount for Tuesday: 39 × 2 = 78 minutes.\n\nBoth calculations confirm that the time Peter needs to exercise on Tuesday is indeed 78 minutes.\n\n[Final Answer] The answer is 78  \n#### 78",
+        "I don't know the answer to this question, sorry."
+    ],
+    "ground_truth_hints": "",
+    "hints_prompt": "Question: On Tuesday, Peter wants to exercise for twice the amount of time he did on Monday and Sunday combined. On Sunday he exercised for 23 minutes. On Monday he exercised for 16 minutes. How many minutes does he have to exercise on Tuesday to reach his goal?\nCould you provide me with the thought process to solve this problem, but please don’t give me the answer or calculation, just the thought process?",
+    "to_explore": [
+        "[reasoning process] Let's first determine how long Peter exercised on Sunday and Monday together. On Sunday, he exercised for 23 minutes and on Monday for 16 minutes. \n\nTo find the total time he exercised on those two days, we add the two times together:\nTotal time on Sunday and Monday = 23 minutes + 16 minutes = 39 minutes.\n\nNow, for Tuesday, Peter wants to exercise for twice the amount of time he did on Sunday and Monday combined. Therefore, we will multiply the total time by 2:\nTime to exercise on Tuesday = 2 × 39 minutes = 78 minutes.\n\n[Verification] To verify our calculations:\n1. Sum of exercises on Sunday and Monday: 23 + 16 = 39 minutes.\n2. Twice that amount for Tuesday: 39 × 2 = 78 minutes.\n\nBoth calculations confirm that the time Peter needs to exercise on Tuesday is indeed 78 minutes.\n\n[Final Answer] The answer is 78  \n#### 78",
+        "I don't know the answer to this question, sorry."
+    ],
+    "to_explore_reward": {
+        "[reasoning process] Let's first determine how long Peter exercised on Sunday and Monday together. On Sunday, he exercised for 23 minutes and on Monday for 16 minutes. \n\nTo find the total time he exercised on those two days, we add the two times together:\nTotal time on Sunday and Monday = 23 minutes + 16 minutes = 39 minutes.\n\nNow, for Tuesday, Peter wants to exercise for twice the amount of time he did on Sunday and Monday combined. Therefore, we will multiply the total time by 2:\nTime to exercise on Tuesday = 2 × 39 minutes = 78 minutes.\n\n[Verification] To verify our calculations:\n1. Sum of exercises on Sunday and Monday: 23 + 16 = 39 minutes.\n2. Twice that amount for Tuesday: 39 × 2 = 78 minutes.\n\nBoth calculations confirm that the time Peter needs to exercise on Tuesday is indeed 78 minutes.\n\n[Final Answer] The answer is 78  \n#### 78": [
+            60.0
+        ],
+        "I don't know the answer to this question, sorry.": [
+            -100.0
+        ]
+    },
+    "hints_bank": {},
+    "history_bank": {
+        "[reasoning process] Let's first determine how long Peter exercised on Sunday and Monday together. On Sunday, he exercised for 23 minutes and on Monday for 16 minutes. \n\nTo find the total time he exercised on those two days, we add the two times together:\nTotal time on Sunday and Monday = 23 minutes + 16 minutes = 39 minutes.\n\nNow, for Tuesday, Peter wants to exercise for twice the amount of time he did on Sunday and Monday combined. Therefore, we will multiply the total time by 2:\nTime to exercise on Tuesday = 2 × 39 minutes = 78 minutes.\n\n[Verification] To verify our calculations:\n1. Sum of exercises on Sunday and Monday: 23 + 16 = 39 minutes.\n2. Twice that amount for Tuesday: 39 × 2 = 78 minutes.\n\nBoth calculations confirm that the time Peter needs to exercise on Tuesday is indeed 78 minutes.\n\n[Final Answer] The answer is 78  \n#### 78": [
+            "Question: On Tuesday, Peter wants to exercise for twice the amount of time he did on Monday and Sunday combined. On Sunday he exercised for 23 minutes. On Monday he exercised for 16 minutes. How many minutes does he have to exercise on Tuesday to reach his goal?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "[reasoning process] Let's first determine how long Peter exercised on Sunday and Monday together. On Sunday, he exercised for 23 minutes and on Monday for 16 minutes. \n\nTo find the total time he exercised on those two days, we add the two times together:\nTotal time on Sunday and Monday = 23 minutes + 16 minutes = 39 minutes.\n\nNow, for Tuesday, Peter wants to exercise for twice the amount of time he did on Sunday and Monday combined. Therefore, we will multiply the total time by 2:\nTime to exercise on Tuesday = 2 × 39 minutes = 78 minutes.\n\n[Verification] To verify our calculations:\n1. Sum of exercises on Sunday and Monday: 23 + 16 = 39 minutes.\n2. Twice that amount for Tuesday: 39 × 2 = 78 minutes.\n\nBoth calculations confirm that the time Peter needs to exercise on Tuesday is indeed 78 minutes.\n\n[Final Answer] The answer is 78  \n#### 78"
+        ],
+        "I don't know the answer to this question, sorry.": [
+            "Question: On Tuesday, Peter wants to exercise for twice the amount of time he did on Monday and Sunday combined. On Sunday he exercised for 23 minutes. On Monday he exercised for 16 minutes. How many minutes does he have to exercise on Tuesday to reach his goal?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "I don't know the answer to this question, sorry."
+        ]
+    },
+    "hints_reward_imp_bank": {},
+    "fathers": {
+        "[reasoning process] Let's first determine how long Peter exercised on Sunday and Monday together. On Sunday, he exercised for 23 minutes and on Monday for 16 minutes. \n\nTo find the total time he exercised on those two days, we add the two times together:\nTotal time on Sunday and Monday = 23 minutes + 16 minutes = 39 minutes.\n\nNow, for Tuesday, Peter wants to exercise for twice the amount of time he did on Sunday and Monday combined. Therefore, we will multiply the total time by 2:\nTime to exercise on Tuesday = 2 × 39 minutes = 78 minutes.\n\n[Verification] To verify our calculations:\n1. Sum of exercises on Sunday and Monday: 23 + 16 = 39 minutes.\n2. Twice that amount for Tuesday: 39 × 2 = 78 minutes.\n\nBoth calculations confirm that the time Peter needs to exercise on Tuesday is indeed 78 minutes.\n\n[Final Answer] The answer is 78  \n#### 78": null,
+        "I don't know the answer to this question, sorry.": null
+    },
+    "childs": {
+        "[reasoning process] Let's first determine how long Peter exercised on Sunday and Monday together. On Sunday, he exercised for 23 minutes and on Monday for 16 minutes. \n\nTo find the total time he exercised on those two days, we add the two times together:\nTotal time on Sunday and Monday = 23 minutes + 16 minutes = 39 minutes.\n\nNow, for Tuesday, Peter wants to exercise for twice the amount of time he did on Sunday and Monday combined. Therefore, we will multiply the total time by 2:\nTime to exercise on Tuesday = 2 × 39 minutes = 78 minutes.\n\n[Verification] To verify our calculations:\n1. Sum of exercises on Sunday and Monday: 23 + 16 = 39 minutes.\n2. Twice that amount for Tuesday: 39 × 2 = 78 minutes.\n\nBoth calculations confirm that the time Peter needs to exercise on Tuesday is indeed 78 minutes.\n\n[Final Answer] The answer is 78  \n#### 78": [],
+        "I don't know the answer to this question, sorry.": []
+    },
+    "ucb_bank": {}
+}

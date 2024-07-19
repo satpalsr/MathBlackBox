@@ -1,0 +1,44 @@
+{
+    "query": "Martha has been collecting shells since she turned 5 years old, every month she collects one shell. By her 10th birthday, how many shells will Martha have collected?",
+    "ground_truth": "60.0",
+    "hints_list": [],
+    "answers_list": [
+        "[reasoning process] Martha started collecting shells at the age of 5 and continued to do so every month. By her 10th birthday, she would have turned 10. To calculate the total number of shells she collected, we need to find out how many months passed between her 5th birthday and her 10th birthday. \n\nFrom age 5 to age 10, there are 5 years. Each year has 12 months, so we multiply the number of years by the number of months in a year: \n\n5 years * 12 months/year = 60 months. \n\nSince she collects 1 shell each month, we can now determine the total number of shells she collected:\n\n60 months * 1 shell/month = 60 shells.\n\n[Verification] To verify, we can list the collection period: Martha collects shells from her 5th birthday until just before her 10th birthday, which indeed encompasses 60 months. Since she collects one shell each month without interruption, there is no risk of miscounting.\n\n[Final Answer] The answer is 60 \\n#### 60",
+        "I don't know the answer to this question, sorry."
+    ],
+    "ground_truth_hints": "",
+    "hints_prompt": "Question: Martha has been collecting shells since she turned 5 years old, every month she collects one shell. By her 10th birthday, how many shells will Martha have collected?\nCould you provide me with the thought process to solve this problem, but please don’t give me the answer or calculation, just the thought process?",
+    "to_explore": [
+        "[reasoning process] Martha started collecting shells at the age of 5 and continued to do so every month. By her 10th birthday, she would have turned 10. To calculate the total number of shells she collected, we need to find out how many months passed between her 5th birthday and her 10th birthday. \n\nFrom age 5 to age 10, there are 5 years. Each year has 12 months, so we multiply the number of years by the number of months in a year: \n\n5 years * 12 months/year = 60 months. \n\nSince she collects 1 shell each month, we can now determine the total number of shells she collected:\n\n60 months * 1 shell/month = 60 shells.\n\n[Verification] To verify, we can list the collection period: Martha collects shells from her 5th birthday until just before her 10th birthday, which indeed encompasses 60 months. Since she collects one shell each month without interruption, there is no risk of miscounting.\n\n[Final Answer] The answer is 60 \\n#### 60",
+        "I don't know the answer to this question, sorry."
+    ],
+    "to_explore_reward": {
+        "[reasoning process] Martha started collecting shells at the age of 5 and continued to do so every month. By her 10th birthday, she would have turned 10. To calculate the total number of shells she collected, we need to find out how many months passed between her 5th birthday and her 10th birthday. \n\nFrom age 5 to age 10, there are 5 years. Each year has 12 months, so we multiply the number of years by the number of months in a year: \n\n5 years * 12 months/year = 60 months. \n\nSince she collects 1 shell each month, we can now determine the total number of shells she collected:\n\n60 months * 1 shell/month = 60 shells.\n\n[Verification] To verify, we can list the collection period: Martha collects shells from her 5th birthday until just before her 10th birthday, which indeed encompasses 60 months. Since she collects one shell each month without interruption, there is no risk of miscounting.\n\n[Final Answer] The answer is 60 \\n#### 60": [
+            70.0
+        ],
+        "I don't know the answer to this question, sorry.": [
+            -90.0
+        ]
+    },
+    "hints_bank": {},
+    "history_bank": {
+        "[reasoning process] Martha started collecting shells at the age of 5 and continued to do so every month. By her 10th birthday, she would have turned 10. To calculate the total number of shells she collected, we need to find out how many months passed between her 5th birthday and her 10th birthday. \n\nFrom age 5 to age 10, there are 5 years. Each year has 12 months, so we multiply the number of years by the number of months in a year: \n\n5 years * 12 months/year = 60 months. \n\nSince she collects 1 shell each month, we can now determine the total number of shells she collected:\n\n60 months * 1 shell/month = 60 shells.\n\n[Verification] To verify, we can list the collection period: Martha collects shells from her 5th birthday until just before her 10th birthday, which indeed encompasses 60 months. Since she collects one shell each month without interruption, there is no risk of miscounting.\n\n[Final Answer] The answer is 60 \\n#### 60": [
+            "Question: Martha has been collecting shells since she turned 5 years old, every month she collects one shell. By her 10th birthday, how many shells will Martha have collected?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "[reasoning process] Martha started collecting shells at the age of 5 and continued to do so every month. By her 10th birthday, she would have turned 10. To calculate the total number of shells she collected, we need to find out how many months passed between her 5th birthday and her 10th birthday. \n\nFrom age 5 to age 10, there are 5 years. Each year has 12 months, so we multiply the number of years by the number of months in a year: \n\n5 years * 12 months/year = 60 months. \n\nSince she collects 1 shell each month, we can now determine the total number of shells she collected:\n\n60 months * 1 shell/month = 60 shells.\n\n[Verification] To verify, we can list the collection period: Martha collects shells from her 5th birthday until just before her 10th birthday, which indeed encompasses 60 months. Since she collects one shell each month without interruption, there is no risk of miscounting.\n\n[Final Answer] The answer is 60 \\n#### 60"
+        ],
+        "I don't know the answer to this question, sorry.": [
+            "Question: Martha has been collecting shells since she turned 5 years old, every month she collects one shell. By her 10th birthday, how many shells will Martha have collected?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "I don't know the answer to this question, sorry."
+        ]
+    },
+    "hints_reward_imp_bank": {},
+    "fathers": {
+        "[reasoning process] Martha started collecting shells at the age of 5 and continued to do so every month. By her 10th birthday, she would have turned 10. To calculate the total number of shells she collected, we need to find out how many months passed between her 5th birthday and her 10th birthday. \n\nFrom age 5 to age 10, there are 5 years. Each year has 12 months, so we multiply the number of years by the number of months in a year: \n\n5 years * 12 months/year = 60 months. \n\nSince she collects 1 shell each month, we can now determine the total number of shells she collected:\n\n60 months * 1 shell/month = 60 shells.\n\n[Verification] To verify, we can list the collection period: Martha collects shells from her 5th birthday until just before her 10th birthday, which indeed encompasses 60 months. Since she collects one shell each month without interruption, there is no risk of miscounting.\n\n[Final Answer] The answer is 60 \\n#### 60": null,
+        "I don't know the answer to this question, sorry.": null
+    },
+    "childs": {
+        "[reasoning process] Martha started collecting shells at the age of 5 and continued to do so every month. By her 10th birthday, she would have turned 10. To calculate the total number of shells she collected, we need to find out how many months passed between her 5th birthday and her 10th birthday. \n\nFrom age 5 to age 10, there are 5 years. Each year has 12 months, so we multiply the number of years by the number of months in a year: \n\n5 years * 12 months/year = 60 months. \n\nSince she collects 1 shell each month, we can now determine the total number of shells she collected:\n\n60 months * 1 shell/month = 60 shells.\n\n[Verification] To verify, we can list the collection period: Martha collects shells from her 5th birthday until just before her 10th birthday, which indeed encompasses 60 months. Since she collects one shell each month without interruption, there is no risk of miscounting.\n\n[Final Answer] The answer is 60 \\n#### 60": [],
+        "I don't know the answer to this question, sorry.": []
+    },
+    "ucb_bank": {}
+}

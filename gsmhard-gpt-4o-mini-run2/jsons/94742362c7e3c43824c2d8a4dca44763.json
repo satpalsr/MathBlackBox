@@ -1,0 +1,44 @@
+{
+    "query": "Brett is 14 years old. In four years his sister Angela will be three times as old as he is now. How old is Angela right now?",
+    "ground_truth": "38.0",
+    "hints_list": [],
+    "answers_list": [
+        "[reasoning process] \nBrett is currently 14 years old. In four years, he will be 14 + 4 = 18 years old. According to the problem, at that time, Angela will be three times as old as Brett is right now. Brett's current age is 14, so three times his current age is 3 * 14 = 42. Therefore, Angela will be 42 years old in four years. To find Angela's current age, we subtract 4 from 42: 42 - 4 = 38.\n\n[Verification] \nTo verify, let's check the ages in four years. Brett will be 18 years old, and Angela will be 42 years old. If we calculate three times Brett's current age, we get 3 * 14 = 42, which confirms that in four years Angela will indeed be three times Brett's current age.\n\n[Final Answer] The answer is 38 \\n#### 38",
+        "I don't know the answer to this question, sorry."
+    ],
+    "ground_truth_hints": "",
+    "hints_prompt": "Question: Brett is 14 years old. In four years his sister Angela will be three times as old as he is now. How old is Angela right now?\nCould you provide me with the thought process to solve this problem, but please don’t give me the answer or calculation, just the thought process?",
+    "to_explore": [
+        "[reasoning process] \nBrett is currently 14 years old. In four years, he will be 14 + 4 = 18 years old. According to the problem, at that time, Angela will be three times as old as Brett is right now. Brett's current age is 14, so three times his current age is 3 * 14 = 42. Therefore, Angela will be 42 years old in four years. To find Angela's current age, we subtract 4 from 42: 42 - 4 = 38.\n\n[Verification] \nTo verify, let's check the ages in four years. Brett will be 18 years old, and Angela will be 42 years old. If we calculate three times Brett's current age, we get 3 * 14 = 42, which confirms that in four years Angela will indeed be three times Brett's current age.\n\n[Final Answer] The answer is 38 \\n#### 38",
+        "I don't know the answer to this question, sorry."
+    ],
+    "to_explore_reward": {
+        "[reasoning process] \nBrett is currently 14 years old. In four years, he will be 14 + 4 = 18 years old. According to the problem, at that time, Angela will be three times as old as Brett is right now. Brett's current age is 14, so three times his current age is 3 * 14 = 42. Therefore, Angela will be 42 years old in four years. To find Angela's current age, we subtract 4 from 42: 42 - 4 = 38.\n\n[Verification] \nTo verify, let's check the ages in four years. Brett will be 18 years old, and Angela will be 42 years old. If we calculate three times Brett's current age, we get 3 * 14 = 42, which confirms that in four years Angela will indeed be three times Brett's current age.\n\n[Final Answer] The answer is 38 \\n#### 38": [
+            -40.0
+        ],
+        "I don't know the answer to this question, sorry.": [
+            -95.0
+        ]
+    },
+    "hints_bank": {},
+    "history_bank": {
+        "[reasoning process] \nBrett is currently 14 years old. In four years, he will be 14 + 4 = 18 years old. According to the problem, at that time, Angela will be three times as old as Brett is right now. Brett's current age is 14, so three times his current age is 3 * 14 = 42. Therefore, Angela will be 42 years old in four years. To find Angela's current age, we subtract 4 from 42: 42 - 4 = 38.\n\n[Verification] \nTo verify, let's check the ages in four years. Brett will be 18 years old, and Angela will be 42 years old. If we calculate three times Brett's current age, we get 3 * 14 = 42, which confirms that in four years Angela will indeed be three times Brett's current age.\n\n[Final Answer] The answer is 38 \\n#### 38": [
+            "Question: Brett is 14 years old. In four years his sister Angela will be three times as old as he is now. How old is Angela right now?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "[reasoning process] \nBrett is currently 14 years old. In four years, he will be 14 + 4 = 18 years old. According to the problem, at that time, Angela will be three times as old as Brett is right now. Brett's current age is 14, so three times his current age is 3 * 14 = 42. Therefore, Angela will be 42 years old in four years. To find Angela's current age, we subtract 4 from 42: 42 - 4 = 38.\n\n[Verification] \nTo verify, let's check the ages in four years. Brett will be 18 years old, and Angela will be 42 years old. If we calculate three times Brett's current age, we get 3 * 14 = 42, which confirms that in four years Angela will indeed be three times Brett's current age.\n\n[Final Answer] The answer is 38 \\n#### 38"
+        ],
+        "I don't know the answer to this question, sorry.": [
+            "Question: Brett is 14 years old. In four years his sister Angela will be three times as old as he is now. How old is Angela right now?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "I don't know the answer to this question, sorry."
+        ]
+    },
+    "hints_reward_imp_bank": {},
+    "fathers": {
+        "[reasoning process] \nBrett is currently 14 years old. In four years, he will be 14 + 4 = 18 years old. According to the problem, at that time, Angela will be three times as old as Brett is right now. Brett's current age is 14, so three times his current age is 3 * 14 = 42. Therefore, Angela will be 42 years old in four years. To find Angela's current age, we subtract 4 from 42: 42 - 4 = 38.\n\n[Verification] \nTo verify, let's check the ages in four years. Brett will be 18 years old, and Angela will be 42 years old. If we calculate three times Brett's current age, we get 3 * 14 = 42, which confirms that in four years Angela will indeed be three times Brett's current age.\n\n[Final Answer] The answer is 38 \\n#### 38": null,
+        "I don't know the answer to this question, sorry.": null
+    },
+    "childs": {
+        "[reasoning process] \nBrett is currently 14 years old. In four years, he will be 14 + 4 = 18 years old. According to the problem, at that time, Angela will be three times as old as Brett is right now. Brett's current age is 14, so three times his current age is 3 * 14 = 42. Therefore, Angela will be 42 years old in four years. To find Angela's current age, we subtract 4 from 42: 42 - 4 = 38.\n\n[Verification] \nTo verify, let's check the ages in four years. Brett will be 18 years old, and Angela will be 42 years old. If we calculate three times Brett's current age, we get 3 * 14 = 42, which confirms that in four years Angela will indeed be three times Brett's current age.\n\n[Final Answer] The answer is 38 \\n#### 38": [],
+        "I don't know the answer to this question, sorry.": []
+    },
+    "ucb_bank": {}
+}

@@ -1,0 +1,44 @@
+{
+    "query": "Erin has 7 lollipops. Her mother gives Erin another 5639306 lollipops. If Erin gives 3 of her lollipops to Ella, how many lollipops does she have left?",
+    "ground_truth": "5639310.0",
+    "hints_list": [],
+    "answers_list": [
+        "[reasoning process] \nFirst, we find out how many lollipops Erin has after receiving more from her mother. She starts with 7 lollipops and receives an additional 5639306 lollipops. \n\nCalculating that gives:\n7 + 5639306 = 5639313 lollipops.\n\nNext, Erin gives 3 lollipops to Ella. So we need to subtract the 3 lollipops from the total she has after receiving from her mother. \n\nCalculating that gives:\n5639313 - 3 = 5639310 lollipops remaining.\n\n[Verification] \nTo ensure the calculations are correct:\n- Starting amount: 7 lollipops\n- Amount received: 5639306 lollipops\n- Total after receiving: 7 + 5639306 = 5639313\n- Amount given to Ella: 3 lollipops\n- Remaining amount: 5639313 - 3 = 5639310\n\nThe calculations are confirmed to be correct.\n\n[Final Answer] The answer is 5639310 \\n#### 5639310",
+        "I don't know how to solve this question."
+    ],
+    "ground_truth_hints": "",
+    "hints_prompt": "Question: Erin has 7 lollipops. Her mother gives Erin another 5639306 lollipops. If Erin gives 3 of her lollipops to Ella, how many lollipops does she have left?\nCould you provide me with the thought process to solve this problem, but please don’t give me the answer or calculation, just the thought process?",
+    "to_explore": [
+        "[reasoning process] \nFirst, we find out how many lollipops Erin has after receiving more from her mother. She starts with 7 lollipops and receives an additional 5639306 lollipops. \n\nCalculating that gives:\n7 + 5639306 = 5639313 lollipops.\n\nNext, Erin gives 3 lollipops to Ella. So we need to subtract the 3 lollipops from the total she has after receiving from her mother. \n\nCalculating that gives:\n5639313 - 3 = 5639310 lollipops remaining.\n\n[Verification] \nTo ensure the calculations are correct:\n- Starting amount: 7 lollipops\n- Amount received: 5639306 lollipops\n- Total after receiving: 7 + 5639306 = 5639313\n- Amount given to Ella: 3 lollipops\n- Remaining amount: 5639313 - 3 = 5639310\n\nThe calculations are confirmed to be correct.\n\n[Final Answer] The answer is 5639310 \\n#### 5639310",
+        "I don't know how to solve this question."
+    ],
+    "to_explore_reward": {
+        "[reasoning process] \nFirst, we find out how many lollipops Erin has after receiving more from her mother. She starts with 7 lollipops and receives an additional 5639306 lollipops. \n\nCalculating that gives:\n7 + 5639306 = 5639313 lollipops.\n\nNext, Erin gives 3 lollipops to Ella. So we need to subtract the 3 lollipops from the total she has after receiving from her mother. \n\nCalculating that gives:\n5639313 - 3 = 5639310 lollipops remaining.\n\n[Verification] \nTo ensure the calculations are correct:\n- Starting amount: 7 lollipops\n- Amount received: 5639306 lollipops\n- Total after receiving: 7 + 5639306 = 5639313\n- Amount given to Ella: 3 lollipops\n- Remaining amount: 5639313 - 3 = 5639310\n\nThe calculations are confirmed to be correct.\n\n[Final Answer] The answer is 5639310 \\n#### 5639310": [
+            -15.0
+        ],
+        "I don't know how to solve this question.": [
+            -90.0
+        ]
+    },
+    "hints_bank": {},
+    "history_bank": {
+        "[reasoning process] \nFirst, we find out how many lollipops Erin has after receiving more from her mother. She starts with 7 lollipops and receives an additional 5639306 lollipops. \n\nCalculating that gives:\n7 + 5639306 = 5639313 lollipops.\n\nNext, Erin gives 3 lollipops to Ella. So we need to subtract the 3 lollipops from the total she has after receiving from her mother. \n\nCalculating that gives:\n5639313 - 3 = 5639310 lollipops remaining.\n\n[Verification] \nTo ensure the calculations are correct:\n- Starting amount: 7 lollipops\n- Amount received: 5639306 lollipops\n- Total after receiving: 7 + 5639306 = 5639313\n- Amount given to Ella: 3 lollipops\n- Remaining amount: 5639313 - 3 = 5639310\n\nThe calculations are confirmed to be correct.\n\n[Final Answer] The answer is 5639310 \\n#### 5639310": [
+            "Question: Erin has 7 lollipops. Her mother gives Erin another 5639306 lollipops. If Erin gives 3 of her lollipops to Ella, how many lollipops does she have left?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "[reasoning process] \nFirst, we find out how many lollipops Erin has after receiving more from her mother. She starts with 7 lollipops and receives an additional 5639306 lollipops. \n\nCalculating that gives:\n7 + 5639306 = 5639313 lollipops.\n\nNext, Erin gives 3 lollipops to Ella. So we need to subtract the 3 lollipops from the total she has after receiving from her mother. \n\nCalculating that gives:\n5639313 - 3 = 5639310 lollipops remaining.\n\n[Verification] \nTo ensure the calculations are correct:\n- Starting amount: 7 lollipops\n- Amount received: 5639306 lollipops\n- Total after receiving: 7 + 5639306 = 5639313\n- Amount given to Ella: 3 lollipops\n- Remaining amount: 5639313 - 3 = 5639310\n\nThe calculations are confirmed to be correct.\n\n[Final Answer] The answer is 5639310 \\n#### 5639310"
+        ],
+        "I don't know how to solve this question.": [
+            "Question: Erin has 7 lollipops. Her mother gives Erin another 5639306 lollipops. If Erin gives 3 of her lollipops to Ella, how many lollipops does she have left?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "I don't know how to solve this question."
+        ]
+    },
+    "hints_reward_imp_bank": {},
+    "fathers": {
+        "[reasoning process] \nFirst, we find out how many lollipops Erin has after receiving more from her mother. She starts with 7 lollipops and receives an additional 5639306 lollipops. \n\nCalculating that gives:\n7 + 5639306 = 5639313 lollipops.\n\nNext, Erin gives 3 lollipops to Ella. So we need to subtract the 3 lollipops from the total she has after receiving from her mother. \n\nCalculating that gives:\n5639313 - 3 = 5639310 lollipops remaining.\n\n[Verification] \nTo ensure the calculations are correct:\n- Starting amount: 7 lollipops\n- Amount received: 5639306 lollipops\n- Total after receiving: 7 + 5639306 = 5639313\n- Amount given to Ella: 3 lollipops\n- Remaining amount: 5639313 - 3 = 5639310\n\nThe calculations are confirmed to be correct.\n\n[Final Answer] The answer is 5639310 \\n#### 5639310": null,
+        "I don't know how to solve this question.": null
+    },
+    "childs": {
+        "[reasoning process] \nFirst, we find out how many lollipops Erin has after receiving more from her mother. She starts with 7 lollipops and receives an additional 5639306 lollipops. \n\nCalculating that gives:\n7 + 5639306 = 5639313 lollipops.\n\nNext, Erin gives 3 lollipops to Ella. So we need to subtract the 3 lollipops from the total she has after receiving from her mother. \n\nCalculating that gives:\n5639313 - 3 = 5639310 lollipops remaining.\n\n[Verification] \nTo ensure the calculations are correct:\n- Starting amount: 7 lollipops\n- Amount received: 5639306 lollipops\n- Total after receiving: 7 + 5639306 = 5639313\n- Amount given to Ella: 3 lollipops\n- Remaining amount: 5639313 - 3 = 5639310\n\nThe calculations are confirmed to be correct.\n\n[Final Answer] The answer is 5639310 \\n#### 5639310": [],
+        "I don't know how to solve this question.": []
+    },
+    "ucb_bank": {}
+}

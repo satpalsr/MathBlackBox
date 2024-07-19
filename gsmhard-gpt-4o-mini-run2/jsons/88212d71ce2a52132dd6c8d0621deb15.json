@@ -1,0 +1,44 @@
+{
+    "query": "Jon's car needs a tune-up every 1000 miles.  He drives 100 miles a day for a 30 day month.  How many tune-ups does he need in that time?",
+    "ground_truth": "3.0",
+    "hints_list": [],
+    "answers_list": [
+        "[reasoning process] First, we need to find out how many total miles Jon drives in a 30-day month. Since he drives 100 miles each day, we can calculate the total by multiplying the daily mileage by the number of days in the month:\n\nTotal miles driven = Daily miles * Number of days = 100 miles/day * 30 days = 3000 miles.\n\nNext, we need to determine how many tune-ups Jon needs based on the 1000-mile interval. We can find this by dividing the total miles driven by the mileage required for each tune-up:\n\nNumber of tune-ups = Total miles driven / Miles per tune-up = 3000 miles / 1000 miles/tune-up = 3 tune-ups.\n\n[Verification] To verify, we can look at the total driving distance again and see how many full 1000-mile segments fit into 3000 miles. Jon would need a tune-up after 1000 miles, another after 2000 miles, and yet another after 3000 miles. Thus, he needs a total of 3 tune-ups in this month. \n\n[Final Answer] The answer is 3 tune-ups. \\n#### 3",
+        "I Don't Know"
+    ],
+    "ground_truth_hints": "",
+    "hints_prompt": "Question: Jon's car needs a tune-up every 1000 miles.  He drives 100 miles a day for a 30 day month.  How many tune-ups does he need in that time?\nCould you provide me with the thought process to solve this problem, but please don’t give me the answer or calculation, just the thought process?",
+    "to_explore": [
+        "[reasoning process] First, we need to find out how many total miles Jon drives in a 30-day month. Since he drives 100 miles each day, we can calculate the total by multiplying the daily mileage by the number of days in the month:\n\nTotal miles driven = Daily miles * Number of days = 100 miles/day * 30 days = 3000 miles.\n\nNext, we need to determine how many tune-ups Jon needs based on the 1000-mile interval. We can find this by dividing the total miles driven by the mileage required for each tune-up:\n\nNumber of tune-ups = Total miles driven / Miles per tune-up = 3000 miles / 1000 miles/tune-up = 3 tune-ups.\n\n[Verification] To verify, we can look at the total driving distance again and see how many full 1000-mile segments fit into 3000 miles. Jon would need a tune-up after 1000 miles, another after 2000 miles, and yet another after 3000 miles. Thus, he needs a total of 3 tune-ups in this month. \n\n[Final Answer] The answer is 3 tune-ups. \\n#### 3",
+        "I Don't Know"
+    ],
+    "to_explore_reward": {
+        "[reasoning process] First, we need to find out how many total miles Jon drives in a 30-day month. Since he drives 100 miles each day, we can calculate the total by multiplying the daily mileage by the number of days in the month:\n\nTotal miles driven = Daily miles * Number of days = 100 miles/day * 30 days = 3000 miles.\n\nNext, we need to determine how many tune-ups Jon needs based on the 1000-mile interval. We can find this by dividing the total miles driven by the mileage required for each tune-up:\n\nNumber of tune-ups = Total miles driven / Miles per tune-up = 3000 miles / 1000 miles/tune-up = 3 tune-ups.\n\n[Verification] To verify, we can look at the total driving distance again and see how many full 1000-mile segments fit into 3000 miles. Jon would need a tune-up after 1000 miles, another after 2000 miles, and yet another after 3000 miles. Thus, he needs a total of 3 tune-ups in this month. \n\n[Final Answer] The answer is 3 tune-ups. \\n#### 3": [
+            75.0
+        ],
+        "I Don't Know": [
+            -85.0
+        ]
+    },
+    "hints_bank": {},
+    "history_bank": {
+        "[reasoning process] First, we need to find out how many total miles Jon drives in a 30-day month. Since he drives 100 miles each day, we can calculate the total by multiplying the daily mileage by the number of days in the month:\n\nTotal miles driven = Daily miles * Number of days = 100 miles/day * 30 days = 3000 miles.\n\nNext, we need to determine how many tune-ups Jon needs based on the 1000-mile interval. We can find this by dividing the total miles driven by the mileage required for each tune-up:\n\nNumber of tune-ups = Total miles driven / Miles per tune-up = 3000 miles / 1000 miles/tune-up = 3 tune-ups.\n\n[Verification] To verify, we can look at the total driving distance again and see how many full 1000-mile segments fit into 3000 miles. Jon would need a tune-up after 1000 miles, another after 2000 miles, and yet another after 3000 miles. Thus, he needs a total of 3 tune-ups in this month. \n\n[Final Answer] The answer is 3 tune-ups. \\n#### 3": [
+            "Question: Jon's car needs a tune-up every 1000 miles.  He drives 100 miles a day for a 30 day month.  How many tune-ups does he need in that time?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "[reasoning process] First, we need to find out how many total miles Jon drives in a 30-day month. Since he drives 100 miles each day, we can calculate the total by multiplying the daily mileage by the number of days in the month:\n\nTotal miles driven = Daily miles * Number of days = 100 miles/day * 30 days = 3000 miles.\n\nNext, we need to determine how many tune-ups Jon needs based on the 1000-mile interval. We can find this by dividing the total miles driven by the mileage required for each tune-up:\n\nNumber of tune-ups = Total miles driven / Miles per tune-up = 3000 miles / 1000 miles/tune-up = 3 tune-ups.\n\n[Verification] To verify, we can look at the total driving distance again and see how many full 1000-mile segments fit into 3000 miles. Jon would need a tune-up after 1000 miles, another after 2000 miles, and yet another after 3000 miles. Thus, he needs a total of 3 tune-ups in this month. \n\n[Final Answer] The answer is 3 tune-ups. \\n#### 3"
+        ],
+        "I Don't Know": [
+            "Question: Jon's car needs a tune-up every 1000 miles.  He drives 100 miles a day for a 30 day month.  How many tune-ups does he need in that time?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "I Don't Know"
+        ]
+    },
+    "hints_reward_imp_bank": {},
+    "fathers": {
+        "[reasoning process] First, we need to find out how many total miles Jon drives in a 30-day month. Since he drives 100 miles each day, we can calculate the total by multiplying the daily mileage by the number of days in the month:\n\nTotal miles driven = Daily miles * Number of days = 100 miles/day * 30 days = 3000 miles.\n\nNext, we need to determine how many tune-ups Jon needs based on the 1000-mile interval. We can find this by dividing the total miles driven by the mileage required for each tune-up:\n\nNumber of tune-ups = Total miles driven / Miles per tune-up = 3000 miles / 1000 miles/tune-up = 3 tune-ups.\n\n[Verification] To verify, we can look at the total driving distance again and see how many full 1000-mile segments fit into 3000 miles. Jon would need a tune-up after 1000 miles, another after 2000 miles, and yet another after 3000 miles. Thus, he needs a total of 3 tune-ups in this month. \n\n[Final Answer] The answer is 3 tune-ups. \\n#### 3": null,
+        "I Don't Know": null
+    },
+    "childs": {
+        "[reasoning process] First, we need to find out how many total miles Jon drives in a 30-day month. Since he drives 100 miles each day, we can calculate the total by multiplying the daily mileage by the number of days in the month:\n\nTotal miles driven = Daily miles * Number of days = 100 miles/day * 30 days = 3000 miles.\n\nNext, we need to determine how many tune-ups Jon needs based on the 1000-mile interval. We can find this by dividing the total miles driven by the mileage required for each tune-up:\n\nNumber of tune-ups = Total miles driven / Miles per tune-up = 3000 miles / 1000 miles/tune-up = 3 tune-ups.\n\n[Verification] To verify, we can look at the total driving distance again and see how many full 1000-mile segments fit into 3000 miles. Jon would need a tune-up after 1000 miles, another after 2000 miles, and yet another after 3000 miles. Thus, he needs a total of 3 tune-ups in this month. \n\n[Final Answer] The answer is 3 tune-ups. \\n#### 3": [],
+        "I Don't Know": []
+    },
+    "ucb_bank": {}
+}

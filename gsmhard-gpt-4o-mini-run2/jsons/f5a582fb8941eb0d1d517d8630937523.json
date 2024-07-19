@@ -1,0 +1,44 @@
+{
+    "query": "Chatty prepared three dozen eggs for her four children's Easter activity. Assuming each child gets the same number of eggs, how many eggs does each child receive?",
+    "ground_truth": "9.0",
+    "hints_list": [],
+    "answers_list": [
+        "[reasoning process] Chatty has prepared three dozen eggs. Since there are 12 eggs in a dozen, we first calculate the total number of eggs:\n\n3 dozen eggs = 3 * 12 = 36 eggs.\n\nNext, we need to divide the total number of eggs by the number of children, which is 4:\n\n36 eggs ÷ 4 children = 9 eggs per child.\n\n[Verification] To verify, we can multiply the number of eggs each child receives by the number of children to ensure it equals the total number of eggs:\n\n9 eggs/child * 4 children = 36 eggs.\n\nSince our multiplication gives us back the total number of eggs, our division was correct.\n\n[Final Answer] The answer is 9 eggs per child. \\n#### 9",
+        "I can't understand this question."
+    ],
+    "ground_truth_hints": "",
+    "hints_prompt": "Question: Chatty prepared three dozen eggs for her four children's Easter activity. Assuming each child gets the same number of eggs, how many eggs does each child receive?\nCould you provide me with the thought process to solve this problem, but please don’t give me the answer or calculation, just the thought process?",
+    "to_explore": [
+        "[reasoning process] Chatty has prepared three dozen eggs. Since there are 12 eggs in a dozen, we first calculate the total number of eggs:\n\n3 dozen eggs = 3 * 12 = 36 eggs.\n\nNext, we need to divide the total number of eggs by the number of children, which is 4:\n\n36 eggs ÷ 4 children = 9 eggs per child.\n\n[Verification] To verify, we can multiply the number of eggs each child receives by the number of children to ensure it equals the total number of eggs:\n\n9 eggs/child * 4 children = 36 eggs.\n\nSince our multiplication gives us back the total number of eggs, our division was correct.\n\n[Final Answer] The answer is 9 eggs per child. \\n#### 9",
+        "I can't understand this question."
+    ],
+    "to_explore_reward": {
+        "[reasoning process] Chatty has prepared three dozen eggs. Since there are 12 eggs in a dozen, we first calculate the total number of eggs:\n\n3 dozen eggs = 3 * 12 = 36 eggs.\n\nNext, we need to divide the total number of eggs by the number of children, which is 4:\n\n36 eggs ÷ 4 children = 9 eggs per child.\n\n[Verification] To verify, we can multiply the number of eggs each child receives by the number of children to ensure it equals the total number of eggs:\n\n9 eggs/child * 4 children = 36 eggs.\n\nSince our multiplication gives us back the total number of eggs, our division was correct.\n\n[Final Answer] The answer is 9 eggs per child. \\n#### 9": [
+            70.0
+        ],
+        "I can't understand this question.": [
+            -85.0
+        ]
+    },
+    "hints_bank": {},
+    "history_bank": {
+        "[reasoning process] Chatty has prepared three dozen eggs. Since there are 12 eggs in a dozen, we first calculate the total number of eggs:\n\n3 dozen eggs = 3 * 12 = 36 eggs.\n\nNext, we need to divide the total number of eggs by the number of children, which is 4:\n\n36 eggs ÷ 4 children = 9 eggs per child.\n\n[Verification] To verify, we can multiply the number of eggs each child receives by the number of children to ensure it equals the total number of eggs:\n\n9 eggs/child * 4 children = 36 eggs.\n\nSince our multiplication gives us back the total number of eggs, our division was correct.\n\n[Final Answer] The answer is 9 eggs per child. \\n#### 9": [
+            "Question: Chatty prepared three dozen eggs for her four children's Easter activity. Assuming each child gets the same number of eggs, how many eggs does each child receive?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "[reasoning process] Chatty has prepared three dozen eggs. Since there are 12 eggs in a dozen, we first calculate the total number of eggs:\n\n3 dozen eggs = 3 * 12 = 36 eggs.\n\nNext, we need to divide the total number of eggs by the number of children, which is 4:\n\n36 eggs ÷ 4 children = 9 eggs per child.\n\n[Verification] To verify, we can multiply the number of eggs each child receives by the number of children to ensure it equals the total number of eggs:\n\n9 eggs/child * 4 children = 36 eggs.\n\nSince our multiplication gives us back the total number of eggs, our division was correct.\n\n[Final Answer] The answer is 9 eggs per child. \\n#### 9"
+        ],
+        "I can't understand this question.": [
+            "Question: Chatty prepared three dozen eggs for her four children's Easter activity. Assuming each child gets the same number of eggs, how many eggs does each child receive?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "I can't understand this question."
+        ]
+    },
+    "hints_reward_imp_bank": {},
+    "fathers": {
+        "[reasoning process] Chatty has prepared three dozen eggs. Since there are 12 eggs in a dozen, we first calculate the total number of eggs:\n\n3 dozen eggs = 3 * 12 = 36 eggs.\n\nNext, we need to divide the total number of eggs by the number of children, which is 4:\n\n36 eggs ÷ 4 children = 9 eggs per child.\n\n[Verification] To verify, we can multiply the number of eggs each child receives by the number of children to ensure it equals the total number of eggs:\n\n9 eggs/child * 4 children = 36 eggs.\n\nSince our multiplication gives us back the total number of eggs, our division was correct.\n\n[Final Answer] The answer is 9 eggs per child. \\n#### 9": null,
+        "I can't understand this question.": null
+    },
+    "childs": {
+        "[reasoning process] Chatty has prepared three dozen eggs. Since there are 12 eggs in a dozen, we first calculate the total number of eggs:\n\n3 dozen eggs = 3 * 12 = 36 eggs.\n\nNext, we need to divide the total number of eggs by the number of children, which is 4:\n\n36 eggs ÷ 4 children = 9 eggs per child.\n\n[Verification] To verify, we can multiply the number of eggs each child receives by the number of children to ensure it equals the total number of eggs:\n\n9 eggs/child * 4 children = 36 eggs.\n\nSince our multiplication gives us back the total number of eggs, our division was correct.\n\n[Final Answer] The answer is 9 eggs per child. \\n#### 9": [],
+        "I can't understand this question.": []
+    },
+    "ucb_bank": {}
+}

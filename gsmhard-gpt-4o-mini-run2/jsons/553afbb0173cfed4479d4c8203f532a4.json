@@ -1,0 +1,44 @@
+{
+    "query": "Geb is 10 less than half the age of Haley. If Haley is 26 years old, how old is Geb?",
+    "ground_truth": "3.0",
+    "hints_list": [],
+    "answers_list": [
+        "[reasoning process] To find Geb's age, we first need to determine half of Haley's age. Since Haley is 26 years old, we calculate half of that:\n\n\\[ \\text{Half of Haley's age} = \\frac{26}{2} = 13 \\]\n\nNext, we know that Geb is 10 years less than this amount, so we subtract 10 from 13:\n\n\\[ \\text{Geb's age} = 13 - 10 = 3 \\]\n\nNow, we have found Geb's age to be 3 years old.\n\n[Verification] Let's verify our calculation by checking:\n1. Calculate half of Haley's age: \\( 26 / 2 = 13 \\)\n2. Now subtract 10: \\( 13 - 10 = 3 \\)\n\nBoth steps confirm that Geb’s age is indeed calculated correctly.\n\n[Final Answer] The answer is 3 \\n#### 3",
+        "I can't understand this question."
+    ],
+    "ground_truth_hints": "",
+    "hints_prompt": "Question: Geb is 10 less than half the age of Haley. If Haley is 26 years old, how old is Geb?\nCould you provide me with the thought process to solve this problem, but please don’t give me the answer or calculation, just the thought process?",
+    "to_explore": [
+        "[reasoning process] To find Geb's age, we first need to determine half of Haley's age. Since Haley is 26 years old, we calculate half of that:\n\n\\[ \\text{Half of Haley's age} = \\frac{26}{2} = 13 \\]\n\nNext, we know that Geb is 10 years less than this amount, so we subtract 10 from 13:\n\n\\[ \\text{Geb's age} = 13 - 10 = 3 \\]\n\nNow, we have found Geb's age to be 3 years old.\n\n[Verification] Let's verify our calculation by checking:\n1. Calculate half of Haley's age: \\( 26 / 2 = 13 \\)\n2. Now subtract 10: \\( 13 - 10 = 3 \\)\n\nBoth steps confirm that Geb’s age is indeed calculated correctly.\n\n[Final Answer] The answer is 3 \\n#### 3",
+        "I can't understand this question."
+    ],
+    "to_explore_reward": {
+        "[reasoning process] To find Geb's age, we first need to determine half of Haley's age. Since Haley is 26 years old, we calculate half of that:\n\n\\[ \\text{Half of Haley's age} = \\frac{26}{2} = 13 \\]\n\nNext, we know that Geb is 10 years less than this amount, so we subtract 10 from 13:\n\n\\[ \\text{Geb's age} = 13 - 10 = 3 \\]\n\nNow, we have found Geb's age to be 3 years old.\n\n[Verification] Let's verify our calculation by checking:\n1. Calculate half of Haley's age: \\( 26 / 2 = 13 \\)\n2. Now subtract 10: \\( 13 - 10 = 3 \\)\n\nBoth steps confirm that Geb’s age is indeed calculated correctly.\n\n[Final Answer] The answer is 3 \\n#### 3": [
+            70.0
+        ],
+        "I can't understand this question.": [
+            -85.0
+        ]
+    },
+    "hints_bank": {},
+    "history_bank": {
+        "[reasoning process] To find Geb's age, we first need to determine half of Haley's age. Since Haley is 26 years old, we calculate half of that:\n\n\\[ \\text{Half of Haley's age} = \\frac{26}{2} = 13 \\]\n\nNext, we know that Geb is 10 years less than this amount, so we subtract 10 from 13:\n\n\\[ \\text{Geb's age} = 13 - 10 = 3 \\]\n\nNow, we have found Geb's age to be 3 years old.\n\n[Verification] Let's verify our calculation by checking:\n1. Calculate half of Haley's age: \\( 26 / 2 = 13 \\)\n2. Now subtract 10: \\( 13 - 10 = 3 \\)\n\nBoth steps confirm that Geb’s age is indeed calculated correctly.\n\n[Final Answer] The answer is 3 \\n#### 3": [
+            "Question: Geb is 10 less than half the age of Haley. If Haley is 26 years old, how old is Geb?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "[reasoning process] To find Geb's age, we first need to determine half of Haley's age. Since Haley is 26 years old, we calculate half of that:\n\n\\[ \\text{Half of Haley's age} = \\frac{26}{2} = 13 \\]\n\nNext, we know that Geb is 10 years less than this amount, so we subtract 10 from 13:\n\n\\[ \\text{Geb's age} = 13 - 10 = 3 \\]\n\nNow, we have found Geb's age to be 3 years old.\n\n[Verification] Let's verify our calculation by checking:\n1. Calculate half of Haley's age: \\( 26 / 2 = 13 \\)\n2. Now subtract 10: \\( 13 - 10 = 3 \\)\n\nBoth steps confirm that Geb’s age is indeed calculated correctly.\n\n[Final Answer] The answer is 3 \\n#### 3"
+        ],
+        "I can't understand this question.": [
+            "Question: Geb is 10 less than half the age of Haley. If Haley is 26 years old, how old is Geb?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "I can't understand this question."
+        ]
+    },
+    "hints_reward_imp_bank": {},
+    "fathers": {
+        "[reasoning process] To find Geb's age, we first need to determine half of Haley's age. Since Haley is 26 years old, we calculate half of that:\n\n\\[ \\text{Half of Haley's age} = \\frac{26}{2} = 13 \\]\n\nNext, we know that Geb is 10 years less than this amount, so we subtract 10 from 13:\n\n\\[ \\text{Geb's age} = 13 - 10 = 3 \\]\n\nNow, we have found Geb's age to be 3 years old.\n\n[Verification] Let's verify our calculation by checking:\n1. Calculate half of Haley's age: \\( 26 / 2 = 13 \\)\n2. Now subtract 10: \\( 13 - 10 = 3 \\)\n\nBoth steps confirm that Geb’s age is indeed calculated correctly.\n\n[Final Answer] The answer is 3 \\n#### 3": null,
+        "I can't understand this question.": null
+    },
+    "childs": {
+        "[reasoning process] To find Geb's age, we first need to determine half of Haley's age. Since Haley is 26 years old, we calculate half of that:\n\n\\[ \\text{Half of Haley's age} = \\frac{26}{2} = 13 \\]\n\nNext, we know that Geb is 10 years less than this amount, so we subtract 10 from 13:\n\n\\[ \\text{Geb's age} = 13 - 10 = 3 \\]\n\nNow, we have found Geb's age to be 3 years old.\n\n[Verification] Let's verify our calculation by checking:\n1. Calculate half of Haley's age: \\( 26 / 2 = 13 \\)\n2. Now subtract 10: \\( 13 - 10 = 3 \\)\n\nBoth steps confirm that Geb’s age is indeed calculated correctly.\n\n[Final Answer] The answer is 3 \\n#### 3": [],
+        "I can't understand this question.": []
+    },
+    "ucb_bank": {}
+}

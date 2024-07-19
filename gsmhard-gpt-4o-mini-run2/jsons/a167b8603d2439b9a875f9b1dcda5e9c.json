@@ -1,0 +1,44 @@
+{
+    "query": "A bakery has 40 less than seven times as many loaves of bread as Sam had last Friday. If Sam had seventy loaves of bread last Friday, how many loaves of bread does the bakery have?",
+    "ground_truth": "450.0",
+    "hints_list": [],
+    "answers_list": [
+        "[reasoning process] First, we need to determine how many loaves of bread Sam had last Friday, which is given as 70. Next, we calculate seven times the number of loaves Sam had. This is calculated as follows: \n\n7 times 70 = 490 loaves.\n\nNow, the bakery has 40 less than this amount. Therefore, we subtract 40 from 490:\n\n490 - 40 = 450 loaves.\n\nSo, the bakery has 450 loaves of bread.\n\n[Verification] To ensure our calculations are correct, let's review the steps: \n1. Calculate seven times Sam's loaves: 7 * 70 = 490.\n2. Subtract 40 from 490: 490 - 40 = 450. \n\nBoth steps confirm that our answer is consistent and correct.\n\n[Final Answer] The answer is 450 \\n#### 450",
+        "I don't know the answer to this question."
+    ],
+    "ground_truth_hints": "",
+    "hints_prompt": "Question: A bakery has 40 less than seven times as many loaves of bread as Sam had last Friday. If Sam had seventy loaves of bread last Friday, how many loaves of bread does the bakery have?\nCould you provide me with the thought process to solve this problem, but please don’t give me the answer or calculation, just the thought process?",
+    "to_explore": [
+        "[reasoning process] First, we need to determine how many loaves of bread Sam had last Friday, which is given as 70. Next, we calculate seven times the number of loaves Sam had. This is calculated as follows: \n\n7 times 70 = 490 loaves.\n\nNow, the bakery has 40 less than this amount. Therefore, we subtract 40 from 490:\n\n490 - 40 = 450 loaves.\n\nSo, the bakery has 450 loaves of bread.\n\n[Verification] To ensure our calculations are correct, let's review the steps: \n1. Calculate seven times Sam's loaves: 7 * 70 = 490.\n2. Subtract 40 from 490: 490 - 40 = 450. \n\nBoth steps confirm that our answer is consistent and correct.\n\n[Final Answer] The answer is 450 \\n#### 450",
+        "I don't know the answer to this question."
+    ],
+    "to_explore_reward": {
+        "[reasoning process] First, we need to determine how many loaves of bread Sam had last Friday, which is given as 70. Next, we calculate seven times the number of loaves Sam had. This is calculated as follows: \n\n7 times 70 = 490 loaves.\n\nNow, the bakery has 40 less than this amount. Therefore, we subtract 40 from 490:\n\n490 - 40 = 450 loaves.\n\nSo, the bakery has 450 loaves of bread.\n\n[Verification] To ensure our calculations are correct, let's review the steps: \n1. Calculate seven times Sam's loaves: 7 * 70 = 490.\n2. Subtract 40 from 490: 490 - 40 = 450. \n\nBoth steps confirm that our answer is consistent and correct.\n\n[Final Answer] The answer is 450 \\n#### 450": [
+            70.0
+        ],
+        "I don't know the answer to this question.": [
+            -100.0
+        ]
+    },
+    "hints_bank": {},
+    "history_bank": {
+        "[reasoning process] First, we need to determine how many loaves of bread Sam had last Friday, which is given as 70. Next, we calculate seven times the number of loaves Sam had. This is calculated as follows: \n\n7 times 70 = 490 loaves.\n\nNow, the bakery has 40 less than this amount. Therefore, we subtract 40 from 490:\n\n490 - 40 = 450 loaves.\n\nSo, the bakery has 450 loaves of bread.\n\n[Verification] To ensure our calculations are correct, let's review the steps: \n1. Calculate seven times Sam's loaves: 7 * 70 = 490.\n2. Subtract 40 from 490: 490 - 40 = 450. \n\nBoth steps confirm that our answer is consistent and correct.\n\n[Final Answer] The answer is 450 \\n#### 450": [
+            "Question: A bakery has 40 less than seven times as many loaves of bread as Sam had last Friday. If Sam had seventy loaves of bread last Friday, how many loaves of bread does the bakery have?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "[reasoning process] First, we need to determine how many loaves of bread Sam had last Friday, which is given as 70. Next, we calculate seven times the number of loaves Sam had. This is calculated as follows: \n\n7 times 70 = 490 loaves.\n\nNow, the bakery has 40 less than this amount. Therefore, we subtract 40 from 490:\n\n490 - 40 = 450 loaves.\n\nSo, the bakery has 450 loaves of bread.\n\n[Verification] To ensure our calculations are correct, let's review the steps: \n1. Calculate seven times Sam's loaves: 7 * 70 = 490.\n2. Subtract 40 from 490: 490 - 40 = 450. \n\nBoth steps confirm that our answer is consistent and correct.\n\n[Final Answer] The answer is 450 \\n#### 450"
+        ],
+        "I don't know the answer to this question.": [
+            "Question: A bakery has 40 less than seven times as many loaves of bread as Sam had last Friday. If Sam had seventy loaves of bread last Friday, how many loaves of bread does the bakery have?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "I don't know the answer to this question."
+        ]
+    },
+    "hints_reward_imp_bank": {},
+    "fathers": {
+        "[reasoning process] First, we need to determine how many loaves of bread Sam had last Friday, which is given as 70. Next, we calculate seven times the number of loaves Sam had. This is calculated as follows: \n\n7 times 70 = 490 loaves.\n\nNow, the bakery has 40 less than this amount. Therefore, we subtract 40 from 490:\n\n490 - 40 = 450 loaves.\n\nSo, the bakery has 450 loaves of bread.\n\n[Verification] To ensure our calculations are correct, let's review the steps: \n1. Calculate seven times Sam's loaves: 7 * 70 = 490.\n2. Subtract 40 from 490: 490 - 40 = 450. \n\nBoth steps confirm that our answer is consistent and correct.\n\n[Final Answer] The answer is 450 \\n#### 450": null,
+        "I don't know the answer to this question.": null
+    },
+    "childs": {
+        "[reasoning process] First, we need to determine how many loaves of bread Sam had last Friday, which is given as 70. Next, we calculate seven times the number of loaves Sam had. This is calculated as follows: \n\n7 times 70 = 490 loaves.\n\nNow, the bakery has 40 less than this amount. Therefore, we subtract 40 from 490:\n\n490 - 40 = 450 loaves.\n\nSo, the bakery has 450 loaves of bread.\n\n[Verification] To ensure our calculations are correct, let's review the steps: \n1. Calculate seven times Sam's loaves: 7 * 70 = 490.\n2. Subtract 40 from 490: 490 - 40 = 450. \n\nBoth steps confirm that our answer is consistent and correct.\n\n[Final Answer] The answer is 450 \\n#### 450": [],
+        "I don't know the answer to this question.": []
+    },
+    "ucb_bank": {}
+}

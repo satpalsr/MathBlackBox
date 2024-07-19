@@ -1,0 +1,44 @@
+{
+    "query": "Sam ran 3 miles on Monday, Wednesday and Friday.  On Tuesday and Thursday, Sam ran 5 miles.  How many miles did Sam run this week?",
+    "ground_truth": "19.0",
+    "hints_list": [],
+    "answers_list": [
+        "[reasoning process] To find out how many miles Sam ran this week, we need to calculate the total for each day of running. On Monday, Wednesday, and Friday, Sam ran 3 miles each day. Therefore, for these three days, we multiply 3 miles by 3 days:\n\n3 miles/day * 3 days = 9 miles\n\nOn Tuesday and Thursday, Sam ran 5 miles each day. For these two days, we multiply 5 miles by 2 days:\n\n5 miles/day * 2 days = 10 miles\n\nNow, we add the total miles from both sets of days together:\n\nTotal miles = miles from Monday, Wednesday, Friday + miles from Tuesday, Thursday\nTotal miles = 9 miles + 10 miles = 19 miles\n\n[Verification] Let’s break it down one more time to ensure accuracy: \n- Monday: 3 miles\n- Tuesday: 5 miles\n- Wednesday: 3 miles\n- Thursday: 5 miles\n- Friday: 3 miles\n\nAdding these gives us:\n3 + 5 + 3 + 5 + 3 = 19 miles\n\nBoth methods confirm that Sam ran a total of 19 miles this week.\n\n[Final Answer] The answer is 19 \\n#### 19",
+        "I don't know the answer to this question, sorry."
+    ],
+    "ground_truth_hints": "",
+    "hints_prompt": "Question: Sam ran 3 miles on Monday, Wednesday and Friday.  On Tuesday and Thursday, Sam ran 5 miles.  How many miles did Sam run this week?\nCould you provide me with the thought process to solve this problem, but please don’t give me the answer or calculation, just the thought process?",
+    "to_explore": [
+        "[reasoning process] To find out how many miles Sam ran this week, we need to calculate the total for each day of running. On Monday, Wednesday, and Friday, Sam ran 3 miles each day. Therefore, for these three days, we multiply 3 miles by 3 days:\n\n3 miles/day * 3 days = 9 miles\n\nOn Tuesday and Thursday, Sam ran 5 miles each day. For these two days, we multiply 5 miles by 2 days:\n\n5 miles/day * 2 days = 10 miles\n\nNow, we add the total miles from both sets of days together:\n\nTotal miles = miles from Monday, Wednesday, Friday + miles from Tuesday, Thursday\nTotal miles = 9 miles + 10 miles = 19 miles\n\n[Verification] Let’s break it down one more time to ensure accuracy: \n- Monday: 3 miles\n- Tuesday: 5 miles\n- Wednesday: 3 miles\n- Thursday: 5 miles\n- Friday: 3 miles\n\nAdding these gives us:\n3 + 5 + 3 + 5 + 3 = 19 miles\n\nBoth methods confirm that Sam ran a total of 19 miles this week.\n\n[Final Answer] The answer is 19 \\n#### 19",
+        "I don't know the answer to this question, sorry."
+    ],
+    "to_explore_reward": {
+        "[reasoning process] To find out how many miles Sam ran this week, we need to calculate the total for each day of running. On Monday, Wednesday, and Friday, Sam ran 3 miles each day. Therefore, for these three days, we multiply 3 miles by 3 days:\n\n3 miles/day * 3 days = 9 miles\n\nOn Tuesday and Thursday, Sam ran 5 miles each day. For these two days, we multiply 5 miles by 2 days:\n\n5 miles/day * 2 days = 10 miles\n\nNow, we add the total miles from both sets of days together:\n\nTotal miles = miles from Monday, Wednesday, Friday + miles from Tuesday, Thursday\nTotal miles = 9 miles + 10 miles = 19 miles\n\n[Verification] Let’s break it down one more time to ensure accuracy: \n- Monday: 3 miles\n- Tuesday: 5 miles\n- Wednesday: 3 miles\n- Thursday: 5 miles\n- Friday: 3 miles\n\nAdding these gives us:\n3 + 5 + 3 + 5 + 3 = 19 miles\n\nBoth methods confirm that Sam ran a total of 19 miles this week.\n\n[Final Answer] The answer is 19 \\n#### 19": [
+            60.0
+        ],
+        "I don't know the answer to this question, sorry.": [
+            -85.0
+        ]
+    },
+    "hints_bank": {},
+    "history_bank": {
+        "[reasoning process] To find out how many miles Sam ran this week, we need to calculate the total for each day of running. On Monday, Wednesday, and Friday, Sam ran 3 miles each day. Therefore, for these three days, we multiply 3 miles by 3 days:\n\n3 miles/day * 3 days = 9 miles\n\nOn Tuesday and Thursday, Sam ran 5 miles each day. For these two days, we multiply 5 miles by 2 days:\n\n5 miles/day * 2 days = 10 miles\n\nNow, we add the total miles from both sets of days together:\n\nTotal miles = miles from Monday, Wednesday, Friday + miles from Tuesday, Thursday\nTotal miles = 9 miles + 10 miles = 19 miles\n\n[Verification] Let’s break it down one more time to ensure accuracy: \n- Monday: 3 miles\n- Tuesday: 5 miles\n- Wednesday: 3 miles\n- Thursday: 5 miles\n- Friday: 3 miles\n\nAdding these gives us:\n3 + 5 + 3 + 5 + 3 = 19 miles\n\nBoth methods confirm that Sam ran a total of 19 miles this week.\n\n[Final Answer] The answer is 19 \\n#### 19": [
+            "Question: Sam ran 3 miles on Monday, Wednesday and Friday.  On Tuesday and Thursday, Sam ran 5 miles.  How many miles did Sam run this week?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "[reasoning process] To find out how many miles Sam ran this week, we need to calculate the total for each day of running. On Monday, Wednesday, and Friday, Sam ran 3 miles each day. Therefore, for these three days, we multiply 3 miles by 3 days:\n\n3 miles/day * 3 days = 9 miles\n\nOn Tuesday and Thursday, Sam ran 5 miles each day. For these two days, we multiply 5 miles by 2 days:\n\n5 miles/day * 2 days = 10 miles\n\nNow, we add the total miles from both sets of days together:\n\nTotal miles = miles from Monday, Wednesday, Friday + miles from Tuesday, Thursday\nTotal miles = 9 miles + 10 miles = 19 miles\n\n[Verification] Let’s break it down one more time to ensure accuracy: \n- Monday: 3 miles\n- Tuesday: 5 miles\n- Wednesday: 3 miles\n- Thursday: 5 miles\n- Friday: 3 miles\n\nAdding these gives us:\n3 + 5 + 3 + 5 + 3 = 19 miles\n\nBoth methods confirm that Sam ran a total of 19 miles this week.\n\n[Final Answer] The answer is 19 \\n#### 19"
+        ],
+        "I don't know the answer to this question, sorry.": [
+            "Question: Sam ran 3 miles on Monday, Wednesday and Friday.  On Tuesday and Thursday, Sam ran 5 miles.  How many miles did Sam run this week?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "I don't know the answer to this question, sorry."
+        ]
+    },
+    "hints_reward_imp_bank": {},
+    "fathers": {
+        "[reasoning process] To find out how many miles Sam ran this week, we need to calculate the total for each day of running. On Monday, Wednesday, and Friday, Sam ran 3 miles each day. Therefore, for these three days, we multiply 3 miles by 3 days:\n\n3 miles/day * 3 days = 9 miles\n\nOn Tuesday and Thursday, Sam ran 5 miles each day. For these two days, we multiply 5 miles by 2 days:\n\n5 miles/day * 2 days = 10 miles\n\nNow, we add the total miles from both sets of days together:\n\nTotal miles = miles from Monday, Wednesday, Friday + miles from Tuesday, Thursday\nTotal miles = 9 miles + 10 miles = 19 miles\n\n[Verification] Let’s break it down one more time to ensure accuracy: \n- Monday: 3 miles\n- Tuesday: 5 miles\n- Wednesday: 3 miles\n- Thursday: 5 miles\n- Friday: 3 miles\n\nAdding these gives us:\n3 + 5 + 3 + 5 + 3 = 19 miles\n\nBoth methods confirm that Sam ran a total of 19 miles this week.\n\n[Final Answer] The answer is 19 \\n#### 19": null,
+        "I don't know the answer to this question, sorry.": null
+    },
+    "childs": {
+        "[reasoning process] To find out how many miles Sam ran this week, we need to calculate the total for each day of running. On Monday, Wednesday, and Friday, Sam ran 3 miles each day. Therefore, for these three days, we multiply 3 miles by 3 days:\n\n3 miles/day * 3 days = 9 miles\n\nOn Tuesday and Thursday, Sam ran 5 miles each day. For these two days, we multiply 5 miles by 2 days:\n\n5 miles/day * 2 days = 10 miles\n\nNow, we add the total miles from both sets of days together:\n\nTotal miles = miles from Monday, Wednesday, Friday + miles from Tuesday, Thursday\nTotal miles = 9 miles + 10 miles = 19 miles\n\n[Verification] Let’s break it down one more time to ensure accuracy: \n- Monday: 3 miles\n- Tuesday: 5 miles\n- Wednesday: 3 miles\n- Thursday: 5 miles\n- Friday: 3 miles\n\nAdding these gives us:\n3 + 5 + 3 + 5 + 3 = 19 miles\n\nBoth methods confirm that Sam ran a total of 19 miles this week.\n\n[Final Answer] The answer is 19 \\n#### 19": [],
+        "I don't know the answer to this question, sorry.": []
+    },
+    "ucb_bank": {}
+}

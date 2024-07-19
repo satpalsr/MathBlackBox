@@ -1,0 +1,44 @@
+{
+    "query": "Patricia has 2844773 roses. She gave 24 roses to her mother. She bought 15 more roses.  How many roses did she have now?",
+    "ground_truth": "2844764.0",
+    "hints_list": [],
+    "answers_list": [
+        "[reasoning process] To find out how many roses Patricia has now, we will start with the initial number of roses she has, which is 2,844,773. Next, we account for the roses she gave to her mother by subtracting 24 from her total. Then, we will add the 15 roses she bought. \n\n1. Initial roses: 2,844,773\n2. Roses given to mother: 24\n3. Roses bought: 15\n\nWe will calculate:\n- First, subtract 24 from 2,844,773:\n  2,844,773 - 24 = 2,844,749\n\n- Next, add 15 to the result:\n  2,844,749 + 15 = 2,844,764\n\nNow we have the total number of roses Patricia has after giving away some and buying more.\n\n[Verification] \nTo verify our calculations:\n- Start with 2,844,773, subtract 24:\n  2,844,773 - 24 = 2,844,749 (this is correct).\n- Then add 15:\n  2,844,749 + 15 = 2,844,764 (this is also correct).\n\nBoth steps check out, confirming that our calculations are accurate.\n\n[Final Answer] The answer is 2844764 \\n#### 2844764",
+        "I Don't Know"
+    ],
+    "ground_truth_hints": "",
+    "hints_prompt": "Question: Patricia has 2844773 roses. She gave 24 roses to her mother. She bought 15 more roses.  How many roses did she have now?\nCould you provide me with the thought process to solve this problem, but please don’t give me the answer or calculation, just the thought process?",
+    "to_explore": [
+        "[reasoning process] To find out how many roses Patricia has now, we will start with the initial number of roses she has, which is 2,844,773. Next, we account for the roses she gave to her mother by subtracting 24 from her total. Then, we will add the 15 roses she bought. \n\n1. Initial roses: 2,844,773\n2. Roses given to mother: 24\n3. Roses bought: 15\n\nWe will calculate:\n- First, subtract 24 from 2,844,773:\n  2,844,773 - 24 = 2,844,749\n\n- Next, add 15 to the result:\n  2,844,749 + 15 = 2,844,764\n\nNow we have the total number of roses Patricia has after giving away some and buying more.\n\n[Verification] \nTo verify our calculations:\n- Start with 2,844,773, subtract 24:\n  2,844,773 - 24 = 2,844,749 (this is correct).\n- Then add 15:\n  2,844,749 + 15 = 2,844,764 (this is also correct).\n\nBoth steps check out, confirming that our calculations are accurate.\n\n[Final Answer] The answer is 2844764 \\n#### 2844764",
+        "I Don't Know"
+    ],
+    "to_explore_reward": {
+        "[reasoning process] To find out how many roses Patricia has now, we will start with the initial number of roses she has, which is 2,844,773. Next, we account for the roses she gave to her mother by subtracting 24 from her total. Then, we will add the 15 roses she bought. \n\n1. Initial roses: 2,844,773\n2. Roses given to mother: 24\n3. Roses bought: 15\n\nWe will calculate:\n- First, subtract 24 from 2,844,773:\n  2,844,773 - 24 = 2,844,749\n\n- Next, add 15 to the result:\n  2,844,749 + 15 = 2,844,764\n\nNow we have the total number of roses Patricia has after giving away some and buying more.\n\n[Verification] \nTo verify our calculations:\n- Start with 2,844,773, subtract 24:\n  2,844,773 - 24 = 2,844,749 (this is correct).\n- Then add 15:\n  2,844,749 + 15 = 2,844,764 (this is also correct).\n\nBoth steps check out, confirming that our calculations are accurate.\n\n[Final Answer] The answer is 2844764 \\n#### 2844764": [
+            -70.0
+        ],
+        "I Don't Know": [
+            -80.0
+        ]
+    },
+    "hints_bank": {},
+    "history_bank": {
+        "[reasoning process] To find out how many roses Patricia has now, we will start with the initial number of roses she has, which is 2,844,773. Next, we account for the roses she gave to her mother by subtracting 24 from her total. Then, we will add the 15 roses she bought. \n\n1. Initial roses: 2,844,773\n2. Roses given to mother: 24\n3. Roses bought: 15\n\nWe will calculate:\n- First, subtract 24 from 2,844,773:\n  2,844,773 - 24 = 2,844,749\n\n- Next, add 15 to the result:\n  2,844,749 + 15 = 2,844,764\n\nNow we have the total number of roses Patricia has after giving away some and buying more.\n\n[Verification] \nTo verify our calculations:\n- Start with 2,844,773, subtract 24:\n  2,844,773 - 24 = 2,844,749 (this is correct).\n- Then add 15:\n  2,844,749 + 15 = 2,844,764 (this is also correct).\n\nBoth steps check out, confirming that our calculations are accurate.\n\n[Final Answer] The answer is 2844764 \\n#### 2844764": [
+            "Question: Patricia has 2844773 roses. She gave 24 roses to her mother. She bought 15 more roses.  How many roses did she have now?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "[reasoning process] To find out how many roses Patricia has now, we will start with the initial number of roses she has, which is 2,844,773. Next, we account for the roses she gave to her mother by subtracting 24 from her total. Then, we will add the 15 roses she bought. \n\n1. Initial roses: 2,844,773\n2. Roses given to mother: 24\n3. Roses bought: 15\n\nWe will calculate:\n- First, subtract 24 from 2,844,773:\n  2,844,773 - 24 = 2,844,749\n\n- Next, add 15 to the result:\n  2,844,749 + 15 = 2,844,764\n\nNow we have the total number of roses Patricia has after giving away some and buying more.\n\n[Verification] \nTo verify our calculations:\n- Start with 2,844,773, subtract 24:\n  2,844,773 - 24 = 2,844,749 (this is correct).\n- Then add 15:\n  2,844,749 + 15 = 2,844,764 (this is also correct).\n\nBoth steps check out, confirming that our calculations are accurate.\n\n[Final Answer] The answer is 2844764 \\n#### 2844764"
+        ],
+        "I Don't Know": [
+            "Question: Patricia has 2844773 roses. She gave 24 roses to her mother. She bought 15 more roses.  How many roses did she have now?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "I Don't Know"
+        ]
+    },
+    "hints_reward_imp_bank": {},
+    "fathers": {
+        "[reasoning process] To find out how many roses Patricia has now, we will start with the initial number of roses she has, which is 2,844,773. Next, we account for the roses she gave to her mother by subtracting 24 from her total. Then, we will add the 15 roses she bought. \n\n1. Initial roses: 2,844,773\n2. Roses given to mother: 24\n3. Roses bought: 15\n\nWe will calculate:\n- First, subtract 24 from 2,844,773:\n  2,844,773 - 24 = 2,844,749\n\n- Next, add 15 to the result:\n  2,844,749 + 15 = 2,844,764\n\nNow we have the total number of roses Patricia has after giving away some and buying more.\n\n[Verification] \nTo verify our calculations:\n- Start with 2,844,773, subtract 24:\n  2,844,773 - 24 = 2,844,749 (this is correct).\n- Then add 15:\n  2,844,749 + 15 = 2,844,764 (this is also correct).\n\nBoth steps check out, confirming that our calculations are accurate.\n\n[Final Answer] The answer is 2844764 \\n#### 2844764": null,
+        "I Don't Know": null
+    },
+    "childs": {
+        "[reasoning process] To find out how many roses Patricia has now, we will start with the initial number of roses she has, which is 2,844,773. Next, we account for the roses she gave to her mother by subtracting 24 from her total. Then, we will add the 15 roses she bought. \n\n1. Initial roses: 2,844,773\n2. Roses given to mother: 24\n3. Roses bought: 15\n\nWe will calculate:\n- First, subtract 24 from 2,844,773:\n  2,844,773 - 24 = 2,844,749\n\n- Next, add 15 to the result:\n  2,844,749 + 15 = 2,844,764\n\nNow we have the total number of roses Patricia has after giving away some and buying more.\n\n[Verification] \nTo verify our calculations:\n- Start with 2,844,773, subtract 24:\n  2,844,773 - 24 = 2,844,749 (this is correct).\n- Then add 15:\n  2,844,749 + 15 = 2,844,764 (this is also correct).\n\nBoth steps check out, confirming that our calculations are accurate.\n\n[Final Answer] The answer is 2844764 \\n#### 2844764": [],
+        "I Don't Know": []
+    },
+    "ucb_bank": {}
+}

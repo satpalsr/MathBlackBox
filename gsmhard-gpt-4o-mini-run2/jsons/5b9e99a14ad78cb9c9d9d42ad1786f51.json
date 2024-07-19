@@ -1,0 +1,44 @@
+{
+    "query": "If Ann is 9 years old and her brother is twice her age, how old will her brother be in 3 years?",
+    "ground_truth": "21.0",
+    "hints_list": [],
+    "answers_list": [
+        "[reasoning process] Ann is currently 9 years old, and her brother is twice her age. Therefore, her brother's current age is 2 times 9, which is 18 years old. In 3 years, both Ann and her brother will age by 3 years. Ann will be 9 + 3 = 12 years old, and her brother will be 18 + 3 = 21 years old. \n\n[Verification] To verify, we can check the ages: Ann is 9 years old now, and her brother's age calculation stands at 18 years old. Adding 3 years to his age gives us 21 years. Therefore, this confirms our calculations.\n\n[Final Answer] The answer is 21 \\n#### 21",
+        "I can't understand this question."
+    ],
+    "ground_truth_hints": "",
+    "hints_prompt": "Question: If Ann is 9 years old and her brother is twice her age, how old will her brother be in 3 years?\nCould you provide me with the thought process to solve this problem, but please don’t give me the answer or calculation, just the thought process?",
+    "to_explore": [
+        "[reasoning process] Ann is currently 9 years old, and her brother is twice her age. Therefore, her brother's current age is 2 times 9, which is 18 years old. In 3 years, both Ann and her brother will age by 3 years. Ann will be 9 + 3 = 12 years old, and her brother will be 18 + 3 = 21 years old. \n\n[Verification] To verify, we can check the ages: Ann is 9 years old now, and her brother's age calculation stands at 18 years old. Adding 3 years to his age gives us 21 years. Therefore, this confirms our calculations.\n\n[Final Answer] The answer is 21 \\n#### 21",
+        "I can't understand this question."
+    ],
+    "to_explore_reward": {
+        "[reasoning process] Ann is currently 9 years old, and her brother is twice her age. Therefore, her brother's current age is 2 times 9, which is 18 years old. In 3 years, both Ann and her brother will age by 3 years. Ann will be 9 + 3 = 12 years old, and her brother will be 18 + 3 = 21 years old. \n\n[Verification] To verify, we can check the ages: Ann is 9 years old now, and her brother's age calculation stands at 18 years old. Adding 3 years to his age gives us 21 years. Therefore, this confirms our calculations.\n\n[Final Answer] The answer is 21 \\n#### 21": [
+            -35.0
+        ],
+        "I can't understand this question.": [
+            -90.0
+        ]
+    },
+    "hints_bank": {},
+    "history_bank": {
+        "[reasoning process] Ann is currently 9 years old, and her brother is twice her age. Therefore, her brother's current age is 2 times 9, which is 18 years old. In 3 years, both Ann and her brother will age by 3 years. Ann will be 9 + 3 = 12 years old, and her brother will be 18 + 3 = 21 years old. \n\n[Verification] To verify, we can check the ages: Ann is 9 years old now, and her brother's age calculation stands at 18 years old. Adding 3 years to his age gives us 21 years. Therefore, this confirms our calculations.\n\n[Final Answer] The answer is 21 \\n#### 21": [
+            "Question: If Ann is 9 years old and her brother is twice her age, how old will her brother be in 3 years?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "[reasoning process] Ann is currently 9 years old, and her brother is twice her age. Therefore, her brother's current age is 2 times 9, which is 18 years old. In 3 years, both Ann and her brother will age by 3 years. Ann will be 9 + 3 = 12 years old, and her brother will be 18 + 3 = 21 years old. \n\n[Verification] To verify, we can check the ages: Ann is 9 years old now, and her brother's age calculation stands at 18 years old. Adding 3 years to his age gives us 21 years. Therefore, this confirms our calculations.\n\n[Final Answer] The answer is 21 \\n#### 21"
+        ],
+        "I can't understand this question.": [
+            "Question: If Ann is 9 years old and her brother is twice her age, how old will her brother be in 3 years?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "I can't understand this question."
+        ]
+    },
+    "hints_reward_imp_bank": {},
+    "fathers": {
+        "[reasoning process] Ann is currently 9 years old, and her brother is twice her age. Therefore, her brother's current age is 2 times 9, which is 18 years old. In 3 years, both Ann and her brother will age by 3 years. Ann will be 9 + 3 = 12 years old, and her brother will be 18 + 3 = 21 years old. \n\n[Verification] To verify, we can check the ages: Ann is 9 years old now, and her brother's age calculation stands at 18 years old. Adding 3 years to his age gives us 21 years. Therefore, this confirms our calculations.\n\n[Final Answer] The answer is 21 \\n#### 21": null,
+        "I can't understand this question.": null
+    },
+    "childs": {
+        "[reasoning process] Ann is currently 9 years old, and her brother is twice her age. Therefore, her brother's current age is 2 times 9, which is 18 years old. In 3 years, both Ann and her brother will age by 3 years. Ann will be 9 + 3 = 12 years old, and her brother will be 18 + 3 = 21 years old. \n\n[Verification] To verify, we can check the ages: Ann is 9 years old now, and her brother's age calculation stands at 18 years old. Adding 3 years to his age gives us 21 years. Therefore, this confirms our calculations.\n\n[Final Answer] The answer is 21 \\n#### 21": [],
+        "I can't understand this question.": []
+    },
+    "ucb_bank": {}
+}

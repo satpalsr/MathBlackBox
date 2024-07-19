@@ -1,0 +1,44 @@
+{
+    "query": "A company spends $27480 on advertising for a year, and then spends a third of that amount on advertising for another year.  What's the total amount the company spent on advertising for the two years?",
+    "ground_truth": "36640.0",
+    "hints_list": [],
+    "answers_list": [
+        "[reasoning process] To find the total amount spent on advertising over two years, we first note that the company spends $27,480 in the first year. In the second year, they spend a third of the first year's amount. To calculate the amount spent in the second year, we find one-third of $27,480. We can do this by dividing $27,480 by 3. Then, we add the amounts spent in both years to get the total.\n\n1. Amount spent in the first year: $27,480\n2. Amount spent in the second year: $27,480 ÷ 3 = $9,160\n3. Total amount spent over two years: $27,480 + $9,160\n\nNow we compute that:\n\n- Total amount spent = $27,480 + $9,160 = $36,640\n\n[Verification] We can verify this by recalculating the second year's spending. Dividing $27,480 by 3 gives us $9,160, confirming our calculation is correct. Adding $27,480 and $9,160 also correctly gives us $36,640.\n\n[Final Answer] The answer is $36,640 \\n#### 36640",
+        "I Don't Know"
+    ],
+    "ground_truth_hints": "",
+    "hints_prompt": "Question: A company spends $27480 on advertising for a year, and then spends a third of that amount on advertising for another year.  What's the total amount the company spent on advertising for the two years?\nCould you provide me with the thought process to solve this problem, but please don’t give me the answer or calculation, just the thought process?",
+    "to_explore": [
+        "[reasoning process] To find the total amount spent on advertising over two years, we first note that the company spends $27,480 in the first year. In the second year, they spend a third of the first year's amount. To calculate the amount spent in the second year, we find one-third of $27,480. We can do this by dividing $27,480 by 3. Then, we add the amounts spent in both years to get the total.\n\n1. Amount spent in the first year: $27,480\n2. Amount spent in the second year: $27,480 ÷ 3 = $9,160\n3. Total amount spent over two years: $27,480 + $9,160\n\nNow we compute that:\n\n- Total amount spent = $27,480 + $9,160 = $36,640\n\n[Verification] We can verify this by recalculating the second year's spending. Dividing $27,480 by 3 gives us $9,160, confirming our calculation is correct. Adding $27,480 and $9,160 also correctly gives us $36,640.\n\n[Final Answer] The answer is $36,640 \\n#### 36640",
+        "I Don't Know"
+    ],
+    "to_explore_reward": {
+        "[reasoning process] To find the total amount spent on advertising over two years, we first note that the company spends $27,480 in the first year. In the second year, they spend a third of the first year's amount. To calculate the amount spent in the second year, we find one-third of $27,480. We can do this by dividing $27,480 by 3. Then, we add the amounts spent in both years to get the total.\n\n1. Amount spent in the first year: $27,480\n2. Amount spent in the second year: $27,480 ÷ 3 = $9,160\n3. Total amount spent over two years: $27,480 + $9,160\n\nNow we compute that:\n\n- Total amount spent = $27,480 + $9,160 = $36,640\n\n[Verification] We can verify this by recalculating the second year's spending. Dividing $27,480 by 3 gives us $9,160, confirming our calculation is correct. Adding $27,480 and $9,160 also correctly gives us $36,640.\n\n[Final Answer] The answer is $36,640 \\n#### 36640": [
+            75.0
+        ],
+        "I Don't Know": [
+            -90.0
+        ]
+    },
+    "hints_bank": {},
+    "history_bank": {
+        "[reasoning process] To find the total amount spent on advertising over two years, we first note that the company spends $27,480 in the first year. In the second year, they spend a third of the first year's amount. To calculate the amount spent in the second year, we find one-third of $27,480. We can do this by dividing $27,480 by 3. Then, we add the amounts spent in both years to get the total.\n\n1. Amount spent in the first year: $27,480\n2. Amount spent in the second year: $27,480 ÷ 3 = $9,160\n3. Total amount spent over two years: $27,480 + $9,160\n\nNow we compute that:\n\n- Total amount spent = $27,480 + $9,160 = $36,640\n\n[Verification] We can verify this by recalculating the second year's spending. Dividing $27,480 by 3 gives us $9,160, confirming our calculation is correct. Adding $27,480 and $9,160 also correctly gives us $36,640.\n\n[Final Answer] The answer is $36,640 \\n#### 36640": [
+            "Question: A company spends $27480 on advertising for a year, and then spends a third of that amount on advertising for another year.  What's the total amount the company spent on advertising for the two years?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "[reasoning process] To find the total amount spent on advertising over two years, we first note that the company spends $27,480 in the first year. In the second year, they spend a third of the first year's amount. To calculate the amount spent in the second year, we find one-third of $27,480. We can do this by dividing $27,480 by 3. Then, we add the amounts spent in both years to get the total.\n\n1. Amount spent in the first year: $27,480\n2. Amount spent in the second year: $27,480 ÷ 3 = $9,160\n3. Total amount spent over two years: $27,480 + $9,160\n\nNow we compute that:\n\n- Total amount spent = $27,480 + $9,160 = $36,640\n\n[Verification] We can verify this by recalculating the second year's spending. Dividing $27,480 by 3 gives us $9,160, confirming our calculation is correct. Adding $27,480 and $9,160 also correctly gives us $36,640.\n\n[Final Answer] The answer is $36,640 \\n#### 36640"
+        ],
+        "I Don't Know": [
+            "Question: A company spends $27480 on advertising for a year, and then spends a third of that amount on advertising for another year.  What's the total amount the company spent on advertising for the two years?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "I Don't Know"
+        ]
+    },
+    "hints_reward_imp_bank": {},
+    "fathers": {
+        "[reasoning process] To find the total amount spent on advertising over two years, we first note that the company spends $27,480 in the first year. In the second year, they spend a third of the first year's amount. To calculate the amount spent in the second year, we find one-third of $27,480. We can do this by dividing $27,480 by 3. Then, we add the amounts spent in both years to get the total.\n\n1. Amount spent in the first year: $27,480\n2. Amount spent in the second year: $27,480 ÷ 3 = $9,160\n3. Total amount spent over two years: $27,480 + $9,160\n\nNow we compute that:\n\n- Total amount spent = $27,480 + $9,160 = $36,640\n\n[Verification] We can verify this by recalculating the second year's spending. Dividing $27,480 by 3 gives us $9,160, confirming our calculation is correct. Adding $27,480 and $9,160 also correctly gives us $36,640.\n\n[Final Answer] The answer is $36,640 \\n#### 36640": null,
+        "I Don't Know": null
+    },
+    "childs": {
+        "[reasoning process] To find the total amount spent on advertising over two years, we first note that the company spends $27,480 in the first year. In the second year, they spend a third of the first year's amount. To calculate the amount spent in the second year, we find one-third of $27,480. We can do this by dividing $27,480 by 3. Then, we add the amounts spent in both years to get the total.\n\n1. Amount spent in the first year: $27,480\n2. Amount spent in the second year: $27,480 ÷ 3 = $9,160\n3. Total amount spent over two years: $27,480 + $9,160\n\nNow we compute that:\n\n- Total amount spent = $27,480 + $9,160 = $36,640\n\n[Verification] We can verify this by recalculating the second year's spending. Dividing $27,480 by 3 gives us $9,160, confirming our calculation is correct. Adding $27,480 and $9,160 also correctly gives us $36,640.\n\n[Final Answer] The answer is $36,640 \\n#### 36640": [],
+        "I Don't Know": []
+    },
+    "ucb_bank": {}
+}

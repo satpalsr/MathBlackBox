@@ -1,0 +1,44 @@
+{
+    "query": "It rained 2 inches on Monday and is expected to rain 1 more inch than twice of Monday’s total on Tuesday. How many inches of rain will there be on Tuesday?",
+    "ground_truth": "5.0",
+    "hints_list": [],
+    "answers_list": [
+        "[reasoning process] First, we note that it rained 2 inches on Monday. The problem states that the expected rain for Tuesday will be \"1 more inch than twice of Monday’s total.\" To find this, we first calculate twice the amount of rain from Monday. So, twice Monday’s total is 2 inches * 2 = 4 inches. Then, we need to add 1 inch to this amount, which gives us 4 inches + 1 inch = 5 inches of rain expected on Tuesday.\n\n[Verification] To verify, we break it down once more: Monday’s rain was 2 inches. Twice this amount is indeed 4 inches (i.e., 2 * 2 = 4). Adding 1 inch gives us 4 + 1 = 5 inches for Tuesday. All calculations check out correctly.\n\n[Final Answer] The answer is 5 \\n#### 5",
+        "I don't know how to solve this question."
+    ],
+    "ground_truth_hints": "",
+    "hints_prompt": "Question: It rained 2 inches on Monday and is expected to rain 1 more inch than twice of Monday’s total on Tuesday. How many inches of rain will there be on Tuesday?\nCould you provide me with the thought process to solve this problem, but please don’t give me the answer or calculation, just the thought process?",
+    "to_explore": [
+        "[reasoning process] First, we note that it rained 2 inches on Monday. The problem states that the expected rain for Tuesday will be \"1 more inch than twice of Monday’s total.\" To find this, we first calculate twice the amount of rain from Monday. So, twice Monday’s total is 2 inches * 2 = 4 inches. Then, we need to add 1 inch to this amount, which gives us 4 inches + 1 inch = 5 inches of rain expected on Tuesday.\n\n[Verification] To verify, we break it down once more: Monday’s rain was 2 inches. Twice this amount is indeed 4 inches (i.e., 2 * 2 = 4). Adding 1 inch gives us 4 + 1 = 5 inches for Tuesday. All calculations check out correctly.\n\n[Final Answer] The answer is 5 \\n#### 5",
+        "I don't know how to solve this question."
+    ],
+    "to_explore_reward": {
+        "[reasoning process] First, we note that it rained 2 inches on Monday. The problem states that the expected rain for Tuesday will be \"1 more inch than twice of Monday’s total.\" To find this, we first calculate twice the amount of rain from Monday. So, twice Monday’s total is 2 inches * 2 = 4 inches. Then, we need to add 1 inch to this amount, which gives us 4 inches + 1 inch = 5 inches of rain expected on Tuesday.\n\n[Verification] To verify, we break it down once more: Monday’s rain was 2 inches. Twice this amount is indeed 4 inches (i.e., 2 * 2 = 4). Adding 1 inch gives us 4 + 1 = 5 inches for Tuesday. All calculations check out correctly.\n\n[Final Answer] The answer is 5 \\n#### 5": [
+            75.0
+        ],
+        "I don't know how to solve this question.": [
+            -95.0
+        ]
+    },
+    "hints_bank": {},
+    "history_bank": {
+        "[reasoning process] First, we note that it rained 2 inches on Monday. The problem states that the expected rain for Tuesday will be \"1 more inch than twice of Monday’s total.\" To find this, we first calculate twice the amount of rain from Monday. So, twice Monday’s total is 2 inches * 2 = 4 inches. Then, we need to add 1 inch to this amount, which gives us 4 inches + 1 inch = 5 inches of rain expected on Tuesday.\n\n[Verification] To verify, we break it down once more: Monday’s rain was 2 inches. Twice this amount is indeed 4 inches (i.e., 2 * 2 = 4). Adding 1 inch gives us 4 + 1 = 5 inches for Tuesday. All calculations check out correctly.\n\n[Final Answer] The answer is 5 \\n#### 5": [
+            "Question: It rained 2 inches on Monday and is expected to rain 1 more inch than twice of Monday’s total on Tuesday. How many inches of rain will there be on Tuesday?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "[reasoning process] First, we note that it rained 2 inches on Monday. The problem states that the expected rain for Tuesday will be \"1 more inch than twice of Monday’s total.\" To find this, we first calculate twice the amount of rain from Monday. So, twice Monday’s total is 2 inches * 2 = 4 inches. Then, we need to add 1 inch to this amount, which gives us 4 inches + 1 inch = 5 inches of rain expected on Tuesday.\n\n[Verification] To verify, we break it down once more: Monday’s rain was 2 inches. Twice this amount is indeed 4 inches (i.e., 2 * 2 = 4). Adding 1 inch gives us 4 + 1 = 5 inches for Tuesday. All calculations check out correctly.\n\n[Final Answer] The answer is 5 \\n#### 5"
+        ],
+        "I don't know how to solve this question.": [
+            "Question: It rained 2 inches on Monday and is expected to rain 1 more inch than twice of Monday’s total on Tuesday. How many inches of rain will there be on Tuesday?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "I don't know how to solve this question."
+        ]
+    },
+    "hints_reward_imp_bank": {},
+    "fathers": {
+        "[reasoning process] First, we note that it rained 2 inches on Monday. The problem states that the expected rain for Tuesday will be \"1 more inch than twice of Monday’s total.\" To find this, we first calculate twice the amount of rain from Monday. So, twice Monday’s total is 2 inches * 2 = 4 inches. Then, we need to add 1 inch to this amount, which gives us 4 inches + 1 inch = 5 inches of rain expected on Tuesday.\n\n[Verification] To verify, we break it down once more: Monday’s rain was 2 inches. Twice this amount is indeed 4 inches (i.e., 2 * 2 = 4). Adding 1 inch gives us 4 + 1 = 5 inches for Tuesday. All calculations check out correctly.\n\n[Final Answer] The answer is 5 \\n#### 5": null,
+        "I don't know how to solve this question.": null
+    },
+    "childs": {
+        "[reasoning process] First, we note that it rained 2 inches on Monday. The problem states that the expected rain for Tuesday will be \"1 more inch than twice of Monday’s total.\" To find this, we first calculate twice the amount of rain from Monday. So, twice Monday’s total is 2 inches * 2 = 4 inches. Then, we need to add 1 inch to this amount, which gives us 4 inches + 1 inch = 5 inches of rain expected on Tuesday.\n\n[Verification] To verify, we break it down once more: Monday’s rain was 2 inches. Twice this amount is indeed 4 inches (i.e., 2 * 2 = 4). Adding 1 inch gives us 4 + 1 = 5 inches for Tuesday. All calculations check out correctly.\n\n[Final Answer] The answer is 5 \\n#### 5": [],
+        "I don't know how to solve this question.": []
+    },
+    "ucb_bank": {}
+}

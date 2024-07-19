@@ -1,0 +1,44 @@
+{
+    "query": "John buys 2 pairs of shoes for each of his 3 children.  They cost $8553000 each.  How much did he pay?",
+    "ground_truth": "51318000.0",
+    "hints_list": [],
+    "answers_list": [
+        "[reasoning process] First, we need to determine how many pairs of shoes John buys in total. He buys 2 pairs for each of his 3 children, so the total number of pairs is calculated as follows: \n\n2 pairs/child × 3 children = 6 pairs.\n\nNext, we find the total cost of these pairs of shoes. Each pair costs $8,553,000, so we multiply the number of pairs by the cost per pair:\n\nTotal cost = 6 pairs × $8,553,000/pair.\n\nNow we need to perform the multiplication to find the total cost. \n\n[Verification] \n\n6 × 8,553,000 = 51,318,000.\n\nSo, the total cost that John paid for the shoes is $51,318,000.\n\n[Final Answer] The answer is 51318000 \\n#### 51318000",
+        "I don't know the answer to this question."
+    ],
+    "ground_truth_hints": "",
+    "hints_prompt": "Question: John buys 2 pairs of shoes for each of his 3 children.  They cost $8553000 each.  How much did he pay?\nCould you provide me with the thought process to solve this problem, but please don’t give me the answer or calculation, just the thought process?",
+    "to_explore": [
+        "[reasoning process] First, we need to determine how many pairs of shoes John buys in total. He buys 2 pairs for each of his 3 children, so the total number of pairs is calculated as follows: \n\n2 pairs/child × 3 children = 6 pairs.\n\nNext, we find the total cost of these pairs of shoes. Each pair costs $8,553,000, so we multiply the number of pairs by the cost per pair:\n\nTotal cost = 6 pairs × $8,553,000/pair.\n\nNow we need to perform the multiplication to find the total cost. \n\n[Verification] \n\n6 × 8,553,000 = 51,318,000.\n\nSo, the total cost that John paid for the shoes is $51,318,000.\n\n[Final Answer] The answer is 51318000 \\n#### 51318000",
+        "I don't know the answer to this question."
+    ],
+    "to_explore_reward": {
+        "[reasoning process] First, we need to determine how many pairs of shoes John buys in total. He buys 2 pairs for each of his 3 children, so the total number of pairs is calculated as follows: \n\n2 pairs/child × 3 children = 6 pairs.\n\nNext, we find the total cost of these pairs of shoes. Each pair costs $8,553,000, so we multiply the number of pairs by the cost per pair:\n\nTotal cost = 6 pairs × $8,553,000/pair.\n\nNow we need to perform the multiplication to find the total cost. \n\n[Verification] \n\n6 × 8,553,000 = 51,318,000.\n\nSo, the total cost that John paid for the shoes is $51,318,000.\n\n[Final Answer] The answer is 51318000 \\n#### 51318000": [
+            -40.0
+        ],
+        "I don't know the answer to this question.": [
+            -100.0
+        ]
+    },
+    "hints_bank": {},
+    "history_bank": {
+        "[reasoning process] First, we need to determine how many pairs of shoes John buys in total. He buys 2 pairs for each of his 3 children, so the total number of pairs is calculated as follows: \n\n2 pairs/child × 3 children = 6 pairs.\n\nNext, we find the total cost of these pairs of shoes. Each pair costs $8,553,000, so we multiply the number of pairs by the cost per pair:\n\nTotal cost = 6 pairs × $8,553,000/pair.\n\nNow we need to perform the multiplication to find the total cost. \n\n[Verification] \n\n6 × 8,553,000 = 51,318,000.\n\nSo, the total cost that John paid for the shoes is $51,318,000.\n\n[Final Answer] The answer is 51318000 \\n#### 51318000": [
+            "Question: John buys 2 pairs of shoes for each of his 3 children.  They cost $8553000 each.  How much did he pay?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "[reasoning process] First, we need to determine how many pairs of shoes John buys in total. He buys 2 pairs for each of his 3 children, so the total number of pairs is calculated as follows: \n\n2 pairs/child × 3 children = 6 pairs.\n\nNext, we find the total cost of these pairs of shoes. Each pair costs $8,553,000, so we multiply the number of pairs by the cost per pair:\n\nTotal cost = 6 pairs × $8,553,000/pair.\n\nNow we need to perform the multiplication to find the total cost. \n\n[Verification] \n\n6 × 8,553,000 = 51,318,000.\n\nSo, the total cost that John paid for the shoes is $51,318,000.\n\n[Final Answer] The answer is 51318000 \\n#### 51318000"
+        ],
+        "I don't know the answer to this question.": [
+            "Question: John buys 2 pairs of shoes for each of his 3 children.  They cost $8553000 each.  How much did he pay?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "I don't know the answer to this question."
+        ]
+    },
+    "hints_reward_imp_bank": {},
+    "fathers": {
+        "[reasoning process] First, we need to determine how many pairs of shoes John buys in total. He buys 2 pairs for each of his 3 children, so the total number of pairs is calculated as follows: \n\n2 pairs/child × 3 children = 6 pairs.\n\nNext, we find the total cost of these pairs of shoes. Each pair costs $8,553,000, so we multiply the number of pairs by the cost per pair:\n\nTotal cost = 6 pairs × $8,553,000/pair.\n\nNow we need to perform the multiplication to find the total cost. \n\n[Verification] \n\n6 × 8,553,000 = 51,318,000.\n\nSo, the total cost that John paid for the shoes is $51,318,000.\n\n[Final Answer] The answer is 51318000 \\n#### 51318000": null,
+        "I don't know the answer to this question.": null
+    },
+    "childs": {
+        "[reasoning process] First, we need to determine how many pairs of shoes John buys in total. He buys 2 pairs for each of his 3 children, so the total number of pairs is calculated as follows: \n\n2 pairs/child × 3 children = 6 pairs.\n\nNext, we find the total cost of these pairs of shoes. Each pair costs $8,553,000, so we multiply the number of pairs by the cost per pair:\n\nTotal cost = 6 pairs × $8,553,000/pair.\n\nNow we need to perform the multiplication to find the total cost. \n\n[Verification] \n\n6 × 8,553,000 = 51,318,000.\n\nSo, the total cost that John paid for the shoes is $51,318,000.\n\n[Final Answer] The answer is 51318000 \\n#### 51318000": [],
+        "I don't know the answer to this question.": []
+    },
+    "ucb_bank": {}
+}

@@ -1,0 +1,44 @@
+{
+    "query": "The temperature was 2 degrees Celsius. It dropped 8 degrees Celsius overnight and then increased 3 degrees Celsius in the morning. What was the temperature, in degrees Celsius, in the morning?",
+    "ground_truth": "-3.0",
+    "hints_list": [],
+    "answers_list": [
+        "[reasoning process] We start with the initial temperature of 2 degrees Celsius. The temperature then drops by 8 degrees Celsius overnight. To find the new temperature after the drop, we perform the calculation:\n\n2 degrees Celsius - 8 degrees Celsius = -6 degrees Celsius.\n\nNext, the temperature increases by 3 degrees Celsius in the morning. We add the increase to the temperature we calculated from the drop:\n\n-6 degrees Celsius + 3 degrees Celsius = -3 degrees Celsius.\n\nNow we have determined the temperature in the morning.\n\n[Verification] Let's double-check the calculations: \n1. Start at 2 degrees Celsius.\n2. After an 8-degree drop: 2 - 8 = -6.\n3. After a 3-degree increase: -6 + 3 = -3 degrees Celsius.\n\nThe calculations are correct.\n\n[Final Answer] The answer is -3 degrees Celsius \\n#### -3",
+        "I don't know the answer to this question."
+    ],
+    "ground_truth_hints": "",
+    "hints_prompt": "Question: The temperature was 2 degrees Celsius. It dropped 8 degrees Celsius overnight and then increased 3 degrees Celsius in the morning. What was the temperature, in degrees Celsius, in the morning?\nCould you provide me with the thought process to solve this problem, but please don’t give me the answer or calculation, just the thought process?",
+    "to_explore": [
+        "[reasoning process] We start with the initial temperature of 2 degrees Celsius. The temperature then drops by 8 degrees Celsius overnight. To find the new temperature after the drop, we perform the calculation:\n\n2 degrees Celsius - 8 degrees Celsius = -6 degrees Celsius.\n\nNext, the temperature increases by 3 degrees Celsius in the morning. We add the increase to the temperature we calculated from the drop:\n\n-6 degrees Celsius + 3 degrees Celsius = -3 degrees Celsius.\n\nNow we have determined the temperature in the morning.\n\n[Verification] Let's double-check the calculations: \n1. Start at 2 degrees Celsius.\n2. After an 8-degree drop: 2 - 8 = -6.\n3. After a 3-degree increase: -6 + 3 = -3 degrees Celsius.\n\nThe calculations are correct.\n\n[Final Answer] The answer is -3 degrees Celsius \\n#### -3",
+        "I don't know the answer to this question."
+    ],
+    "to_explore_reward": {
+        "[reasoning process] We start with the initial temperature of 2 degrees Celsius. The temperature then drops by 8 degrees Celsius overnight. To find the new temperature after the drop, we perform the calculation:\n\n2 degrees Celsius - 8 degrees Celsius = -6 degrees Celsius.\n\nNext, the temperature increases by 3 degrees Celsius in the morning. We add the increase to the temperature we calculated from the drop:\n\n-6 degrees Celsius + 3 degrees Celsius = -3 degrees Celsius.\n\nNow we have determined the temperature in the morning.\n\n[Verification] Let's double-check the calculations: \n1. Start at 2 degrees Celsius.\n2. After an 8-degree drop: 2 - 8 = -6.\n3. After a 3-degree increase: -6 + 3 = -3 degrees Celsius.\n\nThe calculations are correct.\n\n[Final Answer] The answer is -3 degrees Celsius \\n#### -3": [
+            70.0
+        ],
+        "I don't know the answer to this question.": [
+            -95.0
+        ]
+    },
+    "hints_bank": {},
+    "history_bank": {
+        "[reasoning process] We start with the initial temperature of 2 degrees Celsius. The temperature then drops by 8 degrees Celsius overnight. To find the new temperature after the drop, we perform the calculation:\n\n2 degrees Celsius - 8 degrees Celsius = -6 degrees Celsius.\n\nNext, the temperature increases by 3 degrees Celsius in the morning. We add the increase to the temperature we calculated from the drop:\n\n-6 degrees Celsius + 3 degrees Celsius = -3 degrees Celsius.\n\nNow we have determined the temperature in the morning.\n\n[Verification] Let's double-check the calculations: \n1. Start at 2 degrees Celsius.\n2. After an 8-degree drop: 2 - 8 = -6.\n3. After a 3-degree increase: -6 + 3 = -3 degrees Celsius.\n\nThe calculations are correct.\n\n[Final Answer] The answer is -3 degrees Celsius \\n#### -3": [
+            "Question: The temperature was 2 degrees Celsius. It dropped 8 degrees Celsius overnight and then increased 3 degrees Celsius in the morning. What was the temperature, in degrees Celsius, in the morning?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "[reasoning process] We start with the initial temperature of 2 degrees Celsius. The temperature then drops by 8 degrees Celsius overnight. To find the new temperature after the drop, we perform the calculation:\n\n2 degrees Celsius - 8 degrees Celsius = -6 degrees Celsius.\n\nNext, the temperature increases by 3 degrees Celsius in the morning. We add the increase to the temperature we calculated from the drop:\n\n-6 degrees Celsius + 3 degrees Celsius = -3 degrees Celsius.\n\nNow we have determined the temperature in the morning.\n\n[Verification] Let's double-check the calculations: \n1. Start at 2 degrees Celsius.\n2. After an 8-degree drop: 2 - 8 = -6.\n3. After a 3-degree increase: -6 + 3 = -3 degrees Celsius.\n\nThe calculations are correct.\n\n[Final Answer] The answer is -3 degrees Celsius \\n#### -3"
+        ],
+        "I don't know the answer to this question.": [
+            "Question: The temperature was 2 degrees Celsius. It dropped 8 degrees Celsius overnight and then increased 3 degrees Celsius in the morning. What was the temperature, in degrees Celsius, in the morning?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "I don't know the answer to this question."
+        ]
+    },
+    "hints_reward_imp_bank": {},
+    "fathers": {
+        "[reasoning process] We start with the initial temperature of 2 degrees Celsius. The temperature then drops by 8 degrees Celsius overnight. To find the new temperature after the drop, we perform the calculation:\n\n2 degrees Celsius - 8 degrees Celsius = -6 degrees Celsius.\n\nNext, the temperature increases by 3 degrees Celsius in the morning. We add the increase to the temperature we calculated from the drop:\n\n-6 degrees Celsius + 3 degrees Celsius = -3 degrees Celsius.\n\nNow we have determined the temperature in the morning.\n\n[Verification] Let's double-check the calculations: \n1. Start at 2 degrees Celsius.\n2. After an 8-degree drop: 2 - 8 = -6.\n3. After a 3-degree increase: -6 + 3 = -3 degrees Celsius.\n\nThe calculations are correct.\n\n[Final Answer] The answer is -3 degrees Celsius \\n#### -3": null,
+        "I don't know the answer to this question.": null
+    },
+    "childs": {
+        "[reasoning process] We start with the initial temperature of 2 degrees Celsius. The temperature then drops by 8 degrees Celsius overnight. To find the new temperature after the drop, we perform the calculation:\n\n2 degrees Celsius - 8 degrees Celsius = -6 degrees Celsius.\n\nNext, the temperature increases by 3 degrees Celsius in the morning. We add the increase to the temperature we calculated from the drop:\n\n-6 degrees Celsius + 3 degrees Celsius = -3 degrees Celsius.\n\nNow we have determined the temperature in the morning.\n\n[Verification] Let's double-check the calculations: \n1. Start at 2 degrees Celsius.\n2. After an 8-degree drop: 2 - 8 = -6.\n3. After a 3-degree increase: -6 + 3 = -3 degrees Celsius.\n\nThe calculations are correct.\n\n[Final Answer] The answer is -3 degrees Celsius \\n#### -3": [],
+        "I don't know the answer to this question.": []
+    },
+    "ucb_bank": {}
+}

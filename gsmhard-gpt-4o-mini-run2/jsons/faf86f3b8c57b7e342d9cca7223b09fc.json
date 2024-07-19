@@ -1,0 +1,44 @@
+{
+    "query": "Mia and Emma are currently 16 years apart in age. If Mia, who is younger than Emma, is 40 years old, what's the average of their ages?",
+    "ground_truth": "48.0",
+    "hints_list": [],
+    "answers_list": [
+        "[reasoning process] First, we know that Mia is younger than Emma by 16 years. Since Mia is currently 40 years old, we can determine Emma's age by adding 16 to Mia's age. Therefore, Emma is 40 + 16 = 56 years old.\n\nNext, we need to find the average of their ages. The formula for the average age of two people is to sum their ages and divide by 2. So, we sum Mia's age (40) and Emma's age (56):\n\n40 + 56 = 96\n\nNow, we divide the total by 2 to find the average:\n\n96 / 2 = 48\n\nTo verify, we can check the ages: Mia is 40 and Emma is 56, and their difference is indeed 16 years. Additionally, summing their ages gives us 96, which confirms our average calculation.\n\n[Verification] Mia's age: 40. Emma's age: 56. The differences and sums have been checked, and thus the ages are correct. The average calculated as 48 is confirmed valid.\n\n[Final Answer] The answer is 48 \\n#### 48",
+        "I don't know the answer to this question, sorry."
+    ],
+    "ground_truth_hints": "",
+    "hints_prompt": "Question: Mia and Emma are currently 16 years apart in age. If Mia, who is younger than Emma, is 40 years old, what's the average of their ages?\nCould you provide me with the thought process to solve this problem, but please don’t give me the answer or calculation, just the thought process?",
+    "to_explore": [
+        "[reasoning process] First, we know that Mia is younger than Emma by 16 years. Since Mia is currently 40 years old, we can determine Emma's age by adding 16 to Mia's age. Therefore, Emma is 40 + 16 = 56 years old.\n\nNext, we need to find the average of their ages. The formula for the average age of two people is to sum their ages and divide by 2. So, we sum Mia's age (40) and Emma's age (56):\n\n40 + 56 = 96\n\nNow, we divide the total by 2 to find the average:\n\n96 / 2 = 48\n\nTo verify, we can check the ages: Mia is 40 and Emma is 56, and their difference is indeed 16 years. Additionally, summing their ages gives us 96, which confirms our average calculation.\n\n[Verification] Mia's age: 40. Emma's age: 56. The differences and sums have been checked, and thus the ages are correct. The average calculated as 48 is confirmed valid.\n\n[Final Answer] The answer is 48 \\n#### 48",
+        "I don't know the answer to this question, sorry."
+    ],
+    "to_explore_reward": {
+        "[reasoning process] First, we know that Mia is younger than Emma by 16 years. Since Mia is currently 40 years old, we can determine Emma's age by adding 16 to Mia's age. Therefore, Emma is 40 + 16 = 56 years old.\n\nNext, we need to find the average of their ages. The formula for the average age of two people is to sum their ages and divide by 2. So, we sum Mia's age (40) and Emma's age (56):\n\n40 + 56 = 96\n\nNow, we divide the total by 2 to find the average:\n\n96 / 2 = 48\n\nTo verify, we can check the ages: Mia is 40 and Emma is 56, and their difference is indeed 16 years. Additionally, summing their ages gives us 96, which confirms our average calculation.\n\n[Verification] Mia's age: 40. Emma's age: 56. The differences and sums have been checked, and thus the ages are correct. The average calculated as 48 is confirmed valid.\n\n[Final Answer] The answer is 48 \\n#### 48": [
+            85.0
+        ],
+        "I don't know the answer to this question, sorry.": [
+            -85.0
+        ]
+    },
+    "hints_bank": {},
+    "history_bank": {
+        "[reasoning process] First, we know that Mia is younger than Emma by 16 years. Since Mia is currently 40 years old, we can determine Emma's age by adding 16 to Mia's age. Therefore, Emma is 40 + 16 = 56 years old.\n\nNext, we need to find the average of their ages. The formula for the average age of two people is to sum their ages and divide by 2. So, we sum Mia's age (40) and Emma's age (56):\n\n40 + 56 = 96\n\nNow, we divide the total by 2 to find the average:\n\n96 / 2 = 48\n\nTo verify, we can check the ages: Mia is 40 and Emma is 56, and their difference is indeed 16 years. Additionally, summing their ages gives us 96, which confirms our average calculation.\n\n[Verification] Mia's age: 40. Emma's age: 56. The differences and sums have been checked, and thus the ages are correct. The average calculated as 48 is confirmed valid.\n\n[Final Answer] The answer is 48 \\n#### 48": [
+            "Question: Mia and Emma are currently 16 years apart in age. If Mia, who is younger than Emma, is 40 years old, what's the average of their ages?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "[reasoning process] First, we know that Mia is younger than Emma by 16 years. Since Mia is currently 40 years old, we can determine Emma's age by adding 16 to Mia's age. Therefore, Emma is 40 + 16 = 56 years old.\n\nNext, we need to find the average of their ages. The formula for the average age of two people is to sum their ages and divide by 2. So, we sum Mia's age (40) and Emma's age (56):\n\n40 + 56 = 96\n\nNow, we divide the total by 2 to find the average:\n\n96 / 2 = 48\n\nTo verify, we can check the ages: Mia is 40 and Emma is 56, and their difference is indeed 16 years. Additionally, summing their ages gives us 96, which confirms our average calculation.\n\n[Verification] Mia's age: 40. Emma's age: 56. The differences and sums have been checked, and thus the ages are correct. The average calculated as 48 is confirmed valid.\n\n[Final Answer] The answer is 48 \\n#### 48"
+        ],
+        "I don't know the answer to this question, sorry.": [
+            "Question: Mia and Emma are currently 16 years apart in age. If Mia, who is younger than Emma, is 40 years old, what's the average of their ages?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "I don't know the answer to this question, sorry."
+        ]
+    },
+    "hints_reward_imp_bank": {},
+    "fathers": {
+        "[reasoning process] First, we know that Mia is younger than Emma by 16 years. Since Mia is currently 40 years old, we can determine Emma's age by adding 16 to Mia's age. Therefore, Emma is 40 + 16 = 56 years old.\n\nNext, we need to find the average of their ages. The formula for the average age of two people is to sum their ages and divide by 2. So, we sum Mia's age (40) and Emma's age (56):\n\n40 + 56 = 96\n\nNow, we divide the total by 2 to find the average:\n\n96 / 2 = 48\n\nTo verify, we can check the ages: Mia is 40 and Emma is 56, and their difference is indeed 16 years. Additionally, summing their ages gives us 96, which confirms our average calculation.\n\n[Verification] Mia's age: 40. Emma's age: 56. The differences and sums have been checked, and thus the ages are correct. The average calculated as 48 is confirmed valid.\n\n[Final Answer] The answer is 48 \\n#### 48": null,
+        "I don't know the answer to this question, sorry.": null
+    },
+    "childs": {
+        "[reasoning process] First, we know that Mia is younger than Emma by 16 years. Since Mia is currently 40 years old, we can determine Emma's age by adding 16 to Mia's age. Therefore, Emma is 40 + 16 = 56 years old.\n\nNext, we need to find the average of their ages. The formula for the average age of two people is to sum their ages and divide by 2. So, we sum Mia's age (40) and Emma's age (56):\n\n40 + 56 = 96\n\nNow, we divide the total by 2 to find the average:\n\n96 / 2 = 48\n\nTo verify, we can check the ages: Mia is 40 and Emma is 56, and their difference is indeed 16 years. Additionally, summing their ages gives us 96, which confirms our average calculation.\n\n[Verification] Mia's age: 40. Emma's age: 56. The differences and sums have been checked, and thus the ages are correct. The average calculated as 48 is confirmed valid.\n\n[Final Answer] The answer is 48 \\n#### 48": [],
+        "I don't know the answer to this question, sorry.": []
+    },
+    "ucb_bank": {}
+}
