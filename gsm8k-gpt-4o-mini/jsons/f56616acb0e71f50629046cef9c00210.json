@@ -1,0 +1,44 @@
+{
+    "query": "Mark has $50 in his bank account. He earns $10 per day at his work. If he wants to buy a bike that costs $300, how many days does Mark have to save his money?",
+    "ground_truth": "Mike has $50 in his bank account, so the amount he needs to save to reach the bike goal is $300 - $50 = $250\nHe earns $10 per day, so $250 / $10/day = <<250/10=25>>25 days\n#### 25",
+    "hints_list": [],
+    "answers_list": [
+        "[reasoning process] First, we need to determine how much money Mark has to save in order to buy the bike. He starts with $50 and the bike costs $300, so we can calculate the amount he still needs. This is done by subtracting his current amount from the cost of the bike: \n\n\\[300 - 50 = 250\\]\n\nMark needs to save $250. Next, we know that he earns $10 each day. To find out how many days it will take him to save the $250, we need to divide the total amount he needs to save by how much he earns per day:\n\n\\[\\frac{250}{10} = 25\\]\n\nSo, Mark needs to save money for 25 days.\n\n[Verification] Let's check this calculation. If Mark saves $10 per day for 25 days, he would have:\n\n\\[10 \\times 25 = 250\\]\n\nAdding this to his initial $50:\n\n\\[50 + 250 = 300\\]\n\nThis confirms that after saving for 25 days, Mark will indeed have the $300 needed to buy the bike.\n\n[Final Answer] The answer is 25 days \\n#### 25",
+        "I can't understand this question."
+    ],
+    "ground_truth_hints": "",
+    "hints_prompt": "Question: Mark has $50 in his bank account. He earns $10 per day at his work. If he wants to buy a bike that costs $300, how many days does Mark have to save his money?\nCould you provide me with the thought process to solve this problem, but please don’t give me the answer or calculation, just the thought process?",
+    "to_explore": [
+        "[reasoning process] First, we need to determine how much money Mark has to save in order to buy the bike. He starts with $50 and the bike costs $300, so we can calculate the amount he still needs. This is done by subtracting his current amount from the cost of the bike: \n\n\\[300 - 50 = 250\\]\n\nMark needs to save $250. Next, we know that he earns $10 each day. To find out how many days it will take him to save the $250, we need to divide the total amount he needs to save by how much he earns per day:\n\n\\[\\frac{250}{10} = 25\\]\n\nSo, Mark needs to save money for 25 days.\n\n[Verification] Let's check this calculation. If Mark saves $10 per day for 25 days, he would have:\n\n\\[10 \\times 25 = 250\\]\n\nAdding this to his initial $50:\n\n\\[50 + 250 = 300\\]\n\nThis confirms that after saving for 25 days, Mark will indeed have the $300 needed to buy the bike.\n\n[Final Answer] The answer is 25 days \\n#### 25",
+        "I can't understand this question."
+    ],
+    "to_explore_reward": {
+        "[reasoning process] First, we need to determine how much money Mark has to save in order to buy the bike. He starts with $50 and the bike costs $300, so we can calculate the amount he still needs. This is done by subtracting his current amount from the cost of the bike: \n\n\\[300 - 50 = 250\\]\n\nMark needs to save $250. Next, we know that he earns $10 each day. To find out how many days it will take him to save the $250, we need to divide the total amount he needs to save by how much he earns per day:\n\n\\[\\frac{250}{10} = 25\\]\n\nSo, Mark needs to save money for 25 days.\n\n[Verification] Let's check this calculation. If Mark saves $10 per day for 25 days, he would have:\n\n\\[10 \\times 25 = 250\\]\n\nAdding this to his initial $50:\n\n\\[50 + 250 = 300\\]\n\nThis confirms that after saving for 25 days, Mark will indeed have the $300 needed to buy the bike.\n\n[Final Answer] The answer is 25 days \\n#### 25": [
+            70.0
+        ],
+        "I can't understand this question.": [
+            -85.0
+        ]
+    },
+    "hints_bank": {},
+    "history_bank": {
+        "[reasoning process] First, we need to determine how much money Mark has to save in order to buy the bike. He starts with $50 and the bike costs $300, so we can calculate the amount he still needs. This is done by subtracting his current amount from the cost of the bike: \n\n\\[300 - 50 = 250\\]\n\nMark needs to save $250. Next, we know that he earns $10 each day. To find out how many days it will take him to save the $250, we need to divide the total amount he needs to save by how much he earns per day:\n\n\\[\\frac{250}{10} = 25\\]\n\nSo, Mark needs to save money for 25 days.\n\n[Verification] Let's check this calculation. If Mark saves $10 per day for 25 days, he would have:\n\n\\[10 \\times 25 = 250\\]\n\nAdding this to his initial $50:\n\n\\[50 + 250 = 300\\]\n\nThis confirms that after saving for 25 days, Mark will indeed have the $300 needed to buy the bike.\n\n[Final Answer] The answer is 25 days \\n#### 25": [
+            "Question: Mark has $50 in his bank account. He earns $10 per day at his work. If he wants to buy a bike that costs $300, how many days does Mark have to save his money?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "[reasoning process] First, we need to determine how much money Mark has to save in order to buy the bike. He starts with $50 and the bike costs $300, so we can calculate the amount he still needs. This is done by subtracting his current amount from the cost of the bike: \n\n\\[300 - 50 = 250\\]\n\nMark needs to save $250. Next, we know that he earns $10 each day. To find out how many days it will take him to save the $250, we need to divide the total amount he needs to save by how much he earns per day:\n\n\\[\\frac{250}{10} = 25\\]\n\nSo, Mark needs to save money for 25 days.\n\n[Verification] Let's check this calculation. If Mark saves $10 per day for 25 days, he would have:\n\n\\[10 \\times 25 = 250\\]\n\nAdding this to his initial $50:\n\n\\[50 + 250 = 300\\]\n\nThis confirms that after saving for 25 days, Mark will indeed have the $300 needed to buy the bike.\n\n[Final Answer] The answer is 25 days \\n#### 25"
+        ],
+        "I can't understand this question.": [
+            "Question: Mark has $50 in his bank account. He earns $10 per day at his work. If he wants to buy a bike that costs $300, how many days does Mark have to save his money?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "I can't understand this question."
+        ]
+    },
+    "hints_reward_imp_bank": {},
+    "fathers": {
+        "[reasoning process] First, we need to determine how much money Mark has to save in order to buy the bike. He starts with $50 and the bike costs $300, so we can calculate the amount he still needs. This is done by subtracting his current amount from the cost of the bike: \n\n\\[300 - 50 = 250\\]\n\nMark needs to save $250. Next, we know that he earns $10 each day. To find out how many days it will take him to save the $250, we need to divide the total amount he needs to save by how much he earns per day:\n\n\\[\\frac{250}{10} = 25\\]\n\nSo, Mark needs to save money for 25 days.\n\n[Verification] Let's check this calculation. If Mark saves $10 per day for 25 days, he would have:\n\n\\[10 \\times 25 = 250\\]\n\nAdding this to his initial $50:\n\n\\[50 + 250 = 300\\]\n\nThis confirms that after saving for 25 days, Mark will indeed have the $300 needed to buy the bike.\n\n[Final Answer] The answer is 25 days \\n#### 25": null,
+        "I can't understand this question.": null
+    },
+    "childs": {
+        "[reasoning process] First, we need to determine how much money Mark has to save in order to buy the bike. He starts with $50 and the bike costs $300, so we can calculate the amount he still needs. This is done by subtracting his current amount from the cost of the bike: \n\n\\[300 - 50 = 250\\]\n\nMark needs to save $250. Next, we know that he earns $10 each day. To find out how many days it will take him to save the $250, we need to divide the total amount he needs to save by how much he earns per day:\n\n\\[\\frac{250}{10} = 25\\]\n\nSo, Mark needs to save money for 25 days.\n\n[Verification] Let's check this calculation. If Mark saves $10 per day for 25 days, he would have:\n\n\\[10 \\times 25 = 250\\]\n\nAdding this to his initial $50:\n\n\\[50 + 250 = 300\\]\n\nThis confirms that after saving for 25 days, Mark will indeed have the $300 needed to buy the bike.\n\n[Final Answer] The answer is 25 days \\n#### 25": [],
+        "I can't understand this question.": []
+    },
+    "ucb_bank": {}
+}

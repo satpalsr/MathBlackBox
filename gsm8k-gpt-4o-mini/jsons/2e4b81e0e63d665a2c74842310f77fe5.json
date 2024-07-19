@@ -1,0 +1,44 @@
+{
+    "query": "Steve is 60 years old. His wife is 4 years older than him. Their son is currently half as old as his mom and their son's wife is 3 years younger than her husband. How old is Steve's son's wife?",
+    "ground_truth": "Steve's wife is 60+4=<<60+4=64>>64 years old.\nSteve's son is 64/2=<<64/2=32>>32 years old.\nHis wife is 32-3=<<32-3=29>>29 years old.\n#### 29",
+    "hints_list": [],
+    "answers_list": [
+        "[reasoning process]  \nSteve is 60 years old. Therefore, his wife is 60 + 4 = 64 years old. Their son is currently half as old as his mom, so his son is 64 / 2 = 32 years old. The son’s wife is 3 years younger than her husband, which means she is 32 - 3 = 29 years old.\n\n[Verification]  \nLet's summarize the ages:  \n- Steve: 60  \n- Steve's wife: 64  \n- Son: 32 (which is half of the wife’s age of 64)  \n- Son's wife: 29 (which is 3 years younger than the son’s age of 32)  \nAll calculations are verified and consistent with the given information.\n\n[Final Answer] The answer is 29  \n#### 29",
+        "I don't know how to solve this question."
+    ],
+    "ground_truth_hints": "",
+    "hints_prompt": "Question: Steve is 60 years old. His wife is 4 years older than him. Their son is currently half as old as his mom and their son's wife is 3 years younger than her husband. How old is Steve's son's wife?\nCould you provide me with the thought process to solve this problem, but please don’t give me the answer or calculation, just the thought process?",
+    "to_explore": [
+        "[reasoning process]  \nSteve is 60 years old. Therefore, his wife is 60 + 4 = 64 years old. Their son is currently half as old as his mom, so his son is 64 / 2 = 32 years old. The son’s wife is 3 years younger than her husband, which means she is 32 - 3 = 29 years old.\n\n[Verification]  \nLet's summarize the ages:  \n- Steve: 60  \n- Steve's wife: 64  \n- Son: 32 (which is half of the wife’s age of 64)  \n- Son's wife: 29 (which is 3 years younger than the son’s age of 32)  \nAll calculations are verified and consistent with the given information.\n\n[Final Answer] The answer is 29  \n#### 29",
+        "I don't know how to solve this question."
+    ],
+    "to_explore_reward": {
+        "[reasoning process]  \nSteve is 60 years old. Therefore, his wife is 60 + 4 = 64 years old. Their son is currently half as old as his mom, so his son is 64 / 2 = 32 years old. The son’s wife is 3 years younger than her husband, which means she is 32 - 3 = 29 years old.\n\n[Verification]  \nLet's summarize the ages:  \n- Steve: 60  \n- Steve's wife: 64  \n- Son: 32 (which is half of the wife’s age of 64)  \n- Son's wife: 29 (which is 3 years younger than the son’s age of 32)  \nAll calculations are verified and consistent with the given information.\n\n[Final Answer] The answer is 29  \n#### 29": [
+            80.0
+        ],
+        "I don't know how to solve this question.": [
+            -85.0
+        ]
+    },
+    "hints_bank": {},
+    "history_bank": {
+        "[reasoning process]  \nSteve is 60 years old. Therefore, his wife is 60 + 4 = 64 years old. Their son is currently half as old as his mom, so his son is 64 / 2 = 32 years old. The son’s wife is 3 years younger than her husband, which means she is 32 - 3 = 29 years old.\n\n[Verification]  \nLet's summarize the ages:  \n- Steve: 60  \n- Steve's wife: 64  \n- Son: 32 (which is half of the wife’s age of 64)  \n- Son's wife: 29 (which is 3 years younger than the son’s age of 32)  \nAll calculations are verified and consistent with the given information.\n\n[Final Answer] The answer is 29  \n#### 29": [
+            "Question: Steve is 60 years old. His wife is 4 years older than him. Their son is currently half as old as his mom and their son's wife is 3 years younger than her husband. How old is Steve's son's wife?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "[reasoning process]  \nSteve is 60 years old. Therefore, his wife is 60 + 4 = 64 years old. Their son is currently half as old as his mom, so his son is 64 / 2 = 32 years old. The son’s wife is 3 years younger than her husband, which means she is 32 - 3 = 29 years old.\n\n[Verification]  \nLet's summarize the ages:  \n- Steve: 60  \n- Steve's wife: 64  \n- Son: 32 (which is half of the wife’s age of 64)  \n- Son's wife: 29 (which is 3 years younger than the son’s age of 32)  \nAll calculations are verified and consistent with the given information.\n\n[Final Answer] The answer is 29  \n#### 29"
+        ],
+        "I don't know how to solve this question.": [
+            "Question: Steve is 60 years old. His wife is 4 years older than him. Their son is currently half as old as his mom and their son's wife is 3 years younger than her husband. How old is Steve's son's wife?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "I don't know how to solve this question."
+        ]
+    },
+    "hints_reward_imp_bank": {},
+    "fathers": {
+        "[reasoning process]  \nSteve is 60 years old. Therefore, his wife is 60 + 4 = 64 years old. Their son is currently half as old as his mom, so his son is 64 / 2 = 32 years old. The son’s wife is 3 years younger than her husband, which means she is 32 - 3 = 29 years old.\n\n[Verification]  \nLet's summarize the ages:  \n- Steve: 60  \n- Steve's wife: 64  \n- Son: 32 (which is half of the wife’s age of 64)  \n- Son's wife: 29 (which is 3 years younger than the son’s age of 32)  \nAll calculations are verified and consistent with the given information.\n\n[Final Answer] The answer is 29  \n#### 29": null,
+        "I don't know how to solve this question.": null
+    },
+    "childs": {
+        "[reasoning process]  \nSteve is 60 years old. Therefore, his wife is 60 + 4 = 64 years old. Their son is currently half as old as his mom, so his son is 64 / 2 = 32 years old. The son’s wife is 3 years younger than her husband, which means she is 32 - 3 = 29 years old.\n\n[Verification]  \nLet's summarize the ages:  \n- Steve: 60  \n- Steve's wife: 64  \n- Son: 32 (which is half of the wife’s age of 64)  \n- Son's wife: 29 (which is 3 years younger than the son’s age of 32)  \nAll calculations are verified and consistent with the given information.\n\n[Final Answer] The answer is 29  \n#### 29": [],
+        "I don't know how to solve this question.": []
+    },
+    "ucb_bank": {}
+}

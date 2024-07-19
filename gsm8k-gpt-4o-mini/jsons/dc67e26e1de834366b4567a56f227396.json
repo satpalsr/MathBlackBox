@@ -1,0 +1,44 @@
+{
+    "query": "Tommy caught 3 more fish than Darren and Darren caught 6 less than Naomi. If Naomi caught 17 fish, how many fish did Tommy catch?",
+    "ground_truth": "Darren caught 17 - 6 = <<17-6=11>>11 fish\nTommy caught 11 + 3 = <<11+3=14>>14 fish\n#### 14",
+    "hints_list": [],
+    "answers_list": [
+        "[reasoning process] Let's begin by identifying how many fish each person caught based on the information provided. We know that:\n\n1. Naomi caught 17 fish.\n2. Since Darren caught 6 less than Naomi, we calculate Darren's catch:\n   \\[\n   \\text{Darren's fish} = \\text{Naomi's fish} - 6 = 17 - 6 = 11 \\text{ fish}\n   \\]\n3. Tommy caught 3 more fish than Darren, so we calculate Tommy's catch:\n   \\[\n   \\text{Tommy's fish} = \\text{Darren's fish} + 3 = 11 + 3 = 14 \\text{ fish}\n   \\]\n\nNow we have the number of fish each person caught:\n- Naomi: 17 fish\n- Darren: 11 fish\n- Tommy: 14 fish\n\n[Verification] To verify, we check each calculation step:\n- From Naomi's 17 fish, Darren's calculation of \\( 17 - 6 = 11 \\) is correct.\n- From Darren's 11 fish, Tommy's calculation of \\( 11 + 3 = 14 \\) is also correct. \n\nAll calculations are correct, confirming that Tommy caught 14 fish.\n\n[Final Answer] The answer is 14 \\n#### 14",
+        "I don't know the answer to this question."
+    ],
+    "ground_truth_hints": "",
+    "hints_prompt": "Question: Tommy caught 3 more fish than Darren and Darren caught 6 less than Naomi. If Naomi caught 17 fish, how many fish did Tommy catch?\nCould you provide me with the thought process to solve this problem, but please don’t give me the answer or calculation, just the thought process?",
+    "to_explore": [
+        "[reasoning process] Let's begin by identifying how many fish each person caught based on the information provided. We know that:\n\n1. Naomi caught 17 fish.\n2. Since Darren caught 6 less than Naomi, we calculate Darren's catch:\n   \\[\n   \\text{Darren's fish} = \\text{Naomi's fish} - 6 = 17 - 6 = 11 \\text{ fish}\n   \\]\n3. Tommy caught 3 more fish than Darren, so we calculate Tommy's catch:\n   \\[\n   \\text{Tommy's fish} = \\text{Darren's fish} + 3 = 11 + 3 = 14 \\text{ fish}\n   \\]\n\nNow we have the number of fish each person caught:\n- Naomi: 17 fish\n- Darren: 11 fish\n- Tommy: 14 fish\n\n[Verification] To verify, we check each calculation step:\n- From Naomi's 17 fish, Darren's calculation of \\( 17 - 6 = 11 \\) is correct.\n- From Darren's 11 fish, Tommy's calculation of \\( 11 + 3 = 14 \\) is also correct. \n\nAll calculations are correct, confirming that Tommy caught 14 fish.\n\n[Final Answer] The answer is 14 \\n#### 14",
+        "I don't know the answer to this question."
+    ],
+    "to_explore_reward": {
+        "[reasoning process] Let's begin by identifying how many fish each person caught based on the information provided. We know that:\n\n1. Naomi caught 17 fish.\n2. Since Darren caught 6 less than Naomi, we calculate Darren's catch:\n   \\[\n   \\text{Darren's fish} = \\text{Naomi's fish} - 6 = 17 - 6 = 11 \\text{ fish}\n   \\]\n3. Tommy caught 3 more fish than Darren, so we calculate Tommy's catch:\n   \\[\n   \\text{Tommy's fish} = \\text{Darren's fish} + 3 = 11 + 3 = 14 \\text{ fish}\n   \\]\n\nNow we have the number of fish each person caught:\n- Naomi: 17 fish\n- Darren: 11 fish\n- Tommy: 14 fish\n\n[Verification] To verify, we check each calculation step:\n- From Naomi's 17 fish, Darren's calculation of \\( 17 - 6 = 11 \\) is correct.\n- From Darren's 11 fish, Tommy's calculation of \\( 11 + 3 = 14 \\) is also correct. \n\nAll calculations are correct, confirming that Tommy caught 14 fish.\n\n[Final Answer] The answer is 14 \\n#### 14": [
+            70.0
+        ],
+        "I don't know the answer to this question.": [
+            -95.0
+        ]
+    },
+    "hints_bank": {},
+    "history_bank": {
+        "[reasoning process] Let's begin by identifying how many fish each person caught based on the information provided. We know that:\n\n1. Naomi caught 17 fish.\n2. Since Darren caught 6 less than Naomi, we calculate Darren's catch:\n   \\[\n   \\text{Darren's fish} = \\text{Naomi's fish} - 6 = 17 - 6 = 11 \\text{ fish}\n   \\]\n3. Tommy caught 3 more fish than Darren, so we calculate Tommy's catch:\n   \\[\n   \\text{Tommy's fish} = \\text{Darren's fish} + 3 = 11 + 3 = 14 \\text{ fish}\n   \\]\n\nNow we have the number of fish each person caught:\n- Naomi: 17 fish\n- Darren: 11 fish\n- Tommy: 14 fish\n\n[Verification] To verify, we check each calculation step:\n- From Naomi's 17 fish, Darren's calculation of \\( 17 - 6 = 11 \\) is correct.\n- From Darren's 11 fish, Tommy's calculation of \\( 11 + 3 = 14 \\) is also correct. \n\nAll calculations are correct, confirming that Tommy caught 14 fish.\n\n[Final Answer] The answer is 14 \\n#### 14": [
+            "Question: Tommy caught 3 more fish than Darren and Darren caught 6 less than Naomi. If Naomi caught 17 fish, how many fish did Tommy catch?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "[reasoning process] Let's begin by identifying how many fish each person caught based on the information provided. We know that:\n\n1. Naomi caught 17 fish.\n2. Since Darren caught 6 less than Naomi, we calculate Darren's catch:\n   \\[\n   \\text{Darren's fish} = \\text{Naomi's fish} - 6 = 17 - 6 = 11 \\text{ fish}\n   \\]\n3. Tommy caught 3 more fish than Darren, so we calculate Tommy's catch:\n   \\[\n   \\text{Tommy's fish} = \\text{Darren's fish} + 3 = 11 + 3 = 14 \\text{ fish}\n   \\]\n\nNow we have the number of fish each person caught:\n- Naomi: 17 fish\n- Darren: 11 fish\n- Tommy: 14 fish\n\n[Verification] To verify, we check each calculation step:\n- From Naomi's 17 fish, Darren's calculation of \\( 17 - 6 = 11 \\) is correct.\n- From Darren's 11 fish, Tommy's calculation of \\( 11 + 3 = 14 \\) is also correct. \n\nAll calculations are correct, confirming that Tommy caught 14 fish.\n\n[Final Answer] The answer is 14 \\n#### 14"
+        ],
+        "I don't know the answer to this question.": [
+            "Question: Tommy caught 3 more fish than Darren and Darren caught 6 less than Naomi. If Naomi caught 17 fish, how many fish did Tommy catch?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "I don't know the answer to this question."
+        ]
+    },
+    "hints_reward_imp_bank": {},
+    "fathers": {
+        "[reasoning process] Let's begin by identifying how many fish each person caught based on the information provided. We know that:\n\n1. Naomi caught 17 fish.\n2. Since Darren caught 6 less than Naomi, we calculate Darren's catch:\n   \\[\n   \\text{Darren's fish} = \\text{Naomi's fish} - 6 = 17 - 6 = 11 \\text{ fish}\n   \\]\n3. Tommy caught 3 more fish than Darren, so we calculate Tommy's catch:\n   \\[\n   \\text{Tommy's fish} = \\text{Darren's fish} + 3 = 11 + 3 = 14 \\text{ fish}\n   \\]\n\nNow we have the number of fish each person caught:\n- Naomi: 17 fish\n- Darren: 11 fish\n- Tommy: 14 fish\n\n[Verification] To verify, we check each calculation step:\n- From Naomi's 17 fish, Darren's calculation of \\( 17 - 6 = 11 \\) is correct.\n- From Darren's 11 fish, Tommy's calculation of \\( 11 + 3 = 14 \\) is also correct. \n\nAll calculations are correct, confirming that Tommy caught 14 fish.\n\n[Final Answer] The answer is 14 \\n#### 14": null,
+        "I don't know the answer to this question.": null
+    },
+    "childs": {
+        "[reasoning process] Let's begin by identifying how many fish each person caught based on the information provided. We know that:\n\n1. Naomi caught 17 fish.\n2. Since Darren caught 6 less than Naomi, we calculate Darren's catch:\n   \\[\n   \\text{Darren's fish} = \\text{Naomi's fish} - 6 = 17 - 6 = 11 \\text{ fish}\n   \\]\n3. Tommy caught 3 more fish than Darren, so we calculate Tommy's catch:\n   \\[\n   \\text{Tommy's fish} = \\text{Darren's fish} + 3 = 11 + 3 = 14 \\text{ fish}\n   \\]\n\nNow we have the number of fish each person caught:\n- Naomi: 17 fish\n- Darren: 11 fish\n- Tommy: 14 fish\n\n[Verification] To verify, we check each calculation step:\n- From Naomi's 17 fish, Darren's calculation of \\( 17 - 6 = 11 \\) is correct.\n- From Darren's 11 fish, Tommy's calculation of \\( 11 + 3 = 14 \\) is also correct. \n\nAll calculations are correct, confirming that Tommy caught 14 fish.\n\n[Final Answer] The answer is 14 \\n#### 14": [],
+        "I don't know the answer to this question.": []
+    },
+    "ucb_bank": {}
+}

@@ -1,0 +1,44 @@
+{
+    "query": "Jillian's handbag cost $20 less than 3 times as much as her shoes cost. If her shoes cost $80, how much did her bag cost?",
+    "ground_truth": "First triple the cost of the shoes: $80 * 3 = $<<80*3=240>>240\nThen subtract $20 to find the cost of the handbag: $240 - $20 = $<<240-20=220>>220\n#### 220",
+    "hints_list": [],
+    "answers_list": [
+        "[reasoning process] Let's start by determining the cost of the shoes, which is given as $80. According to the problem, the handbag costs $20 less than 3 times the cost of the shoes. We can express this relationship mathematically. \n\nFirst, we calculate 3 times the cost of the shoes: \n3 times $80 = 3 * 80 = $240.\n\nNext, we find the cost of the handbag by subtracting $20 from this amount:\nCost of the handbag = $240 - $20 = $220.\n\n[Verification] Now let's verify to ensure our calculations are correct. \n1. The cost of the shoes is $80.\n2. 3 times the cost of the shoes is $240, which we calculated as correct.\n3. Finally, subtracting $20 from $240 gives us $220, confirming that the handbag costs $220.\n\n[Final Answer] The answer is 220 \\n#### 220",
+        "I Don't Know"
+    ],
+    "ground_truth_hints": "",
+    "hints_prompt": "Question: Jillian's handbag cost $20 less than 3 times as much as her shoes cost. If her shoes cost $80, how much did her bag cost?\nCould you provide me with the thought process to solve this problem, but please don’t give me the answer or calculation, just the thought process?",
+    "to_explore": [
+        "[reasoning process] Let's start by determining the cost of the shoes, which is given as $80. According to the problem, the handbag costs $20 less than 3 times the cost of the shoes. We can express this relationship mathematically. \n\nFirst, we calculate 3 times the cost of the shoes: \n3 times $80 = 3 * 80 = $240.\n\nNext, we find the cost of the handbag by subtracting $20 from this amount:\nCost of the handbag = $240 - $20 = $220.\n\n[Verification] Now let's verify to ensure our calculations are correct. \n1. The cost of the shoes is $80.\n2. 3 times the cost of the shoes is $240, which we calculated as correct.\n3. Finally, subtracting $20 from $240 gives us $220, confirming that the handbag costs $220.\n\n[Final Answer] The answer is 220 \\n#### 220",
+        "I Don't Know"
+    ],
+    "to_explore_reward": {
+        "[reasoning process] Let's start by determining the cost of the shoes, which is given as $80. According to the problem, the handbag costs $20 less than 3 times the cost of the shoes. We can express this relationship mathematically. \n\nFirst, we calculate 3 times the cost of the shoes: \n3 times $80 = 3 * 80 = $240.\n\nNext, we find the cost of the handbag by subtracting $20 from this amount:\nCost of the handbag = $240 - $20 = $220.\n\n[Verification] Now let's verify to ensure our calculations are correct. \n1. The cost of the shoes is $80.\n2. 3 times the cost of the shoes is $240, which we calculated as correct.\n3. Finally, subtracting $20 from $240 gives us $220, confirming that the handbag costs $220.\n\n[Final Answer] The answer is 220 \\n#### 220": [
+            60.0
+        ],
+        "I Don't Know": [
+            -95.0
+        ]
+    },
+    "hints_bank": {},
+    "history_bank": {
+        "[reasoning process] Let's start by determining the cost of the shoes, which is given as $80. According to the problem, the handbag costs $20 less than 3 times the cost of the shoes. We can express this relationship mathematically. \n\nFirst, we calculate 3 times the cost of the shoes: \n3 times $80 = 3 * 80 = $240.\n\nNext, we find the cost of the handbag by subtracting $20 from this amount:\nCost of the handbag = $240 - $20 = $220.\n\n[Verification] Now let's verify to ensure our calculations are correct. \n1. The cost of the shoes is $80.\n2. 3 times the cost of the shoes is $240, which we calculated as correct.\n3. Finally, subtracting $20 from $240 gives us $220, confirming that the handbag costs $220.\n\n[Final Answer] The answer is 220 \\n#### 220": [
+            "Question: Jillian's handbag cost $20 less than 3 times as much as her shoes cost. If her shoes cost $80, how much did her bag cost?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "[reasoning process] Let's start by determining the cost of the shoes, which is given as $80. According to the problem, the handbag costs $20 less than 3 times the cost of the shoes. We can express this relationship mathematically. \n\nFirst, we calculate 3 times the cost of the shoes: \n3 times $80 = 3 * 80 = $240.\n\nNext, we find the cost of the handbag by subtracting $20 from this amount:\nCost of the handbag = $240 - $20 = $220.\n\n[Verification] Now let's verify to ensure our calculations are correct. \n1. The cost of the shoes is $80.\n2. 3 times the cost of the shoes is $240, which we calculated as correct.\n3. Finally, subtracting $20 from $240 gives us $220, confirming that the handbag costs $220.\n\n[Final Answer] The answer is 220 \\n#### 220"
+        ],
+        "I Don't Know": [
+            "Question: Jillian's handbag cost $20 less than 3 times as much as her shoes cost. If her shoes cost $80, how much did her bag cost?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "I Don't Know"
+        ]
+    },
+    "hints_reward_imp_bank": {},
+    "fathers": {
+        "[reasoning process] Let's start by determining the cost of the shoes, which is given as $80. According to the problem, the handbag costs $20 less than 3 times the cost of the shoes. We can express this relationship mathematically. \n\nFirst, we calculate 3 times the cost of the shoes: \n3 times $80 = 3 * 80 = $240.\n\nNext, we find the cost of the handbag by subtracting $20 from this amount:\nCost of the handbag = $240 - $20 = $220.\n\n[Verification] Now let's verify to ensure our calculations are correct. \n1. The cost of the shoes is $80.\n2. 3 times the cost of the shoes is $240, which we calculated as correct.\n3. Finally, subtracting $20 from $240 gives us $220, confirming that the handbag costs $220.\n\n[Final Answer] The answer is 220 \\n#### 220": null,
+        "I Don't Know": null
+    },
+    "childs": {
+        "[reasoning process] Let's start by determining the cost of the shoes, which is given as $80. According to the problem, the handbag costs $20 less than 3 times the cost of the shoes. We can express this relationship mathematically. \n\nFirst, we calculate 3 times the cost of the shoes: \n3 times $80 = 3 * 80 = $240.\n\nNext, we find the cost of the handbag by subtracting $20 from this amount:\nCost of the handbag = $240 - $20 = $220.\n\n[Verification] Now let's verify to ensure our calculations are correct. \n1. The cost of the shoes is $80.\n2. 3 times the cost of the shoes is $240, which we calculated as correct.\n3. Finally, subtracting $20 from $240 gives us $220, confirming that the handbag costs $220.\n\n[Final Answer] The answer is 220 \\n#### 220": [],
+        "I Don't Know": []
+    },
+    "ucb_bank": {}
+}

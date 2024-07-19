@@ -1,0 +1,44 @@
+{
+    "query": "Laurel's friend gave her 24 baby outfits that her child no longer needed.  At her baby shower, Laurel received twice the amount of new baby outfits.  Then, Laurel's mom gifted her with another 15 baby outfits.  How many outfits does she have for her baby?",
+    "ground_truth": "Her friend gave her 24 outfits and she received twice as many at the baby shower so she received 2*24 = 48 baby outfits\nHer friend gave her 24 outfits, she received 48 at the baby shower and her mom gave her another 15 for a total of 24+48+15 = <<24+48+15=87>>87 baby outfits\n#### 87",
+    "hints_list": [],
+    "answers_list": [
+        "[reasoning process]  \nLaurel received 24 baby outfits from her friend.  \nThen, at her baby shower, she received twice that amount, which is 2 * 24 = 48 baby outfits.  \nAfter that, her mom gifted her an additional 15 baby outfits.  \nNow, we will add all of these outfits together:  \n24 (from her friend) + 48 (from the baby shower) + 15 (from her mom) = 87 outfits.  \n\n[Verification]  \nLet's check the calculations:  \n- Baby outfits from friend: 24  \n- Baby outfits from baby shower: 24 * 2 = 48  \n- Baby outfits from mom: 15  \nNow adding these together: 24 + 48 + 15 = 87, which confirms our total.  \n\n[Final Answer] The answer is 87  \n#### 87",
+        "I can't understand this question."
+    ],
+    "ground_truth_hints": "",
+    "hints_prompt": "Question: Laurel's friend gave her 24 baby outfits that her child no longer needed.  At her baby shower, Laurel received twice the amount of new baby outfits.  Then, Laurel's mom gifted her with another 15 baby outfits.  How many outfits does she have for her baby?\nCould you provide me with the thought process to solve this problem, but please don’t give me the answer or calculation, just the thought process?",
+    "to_explore": [
+        "[reasoning process]  \nLaurel received 24 baby outfits from her friend.  \nThen, at her baby shower, she received twice that amount, which is 2 * 24 = 48 baby outfits.  \nAfter that, her mom gifted her an additional 15 baby outfits.  \nNow, we will add all of these outfits together:  \n24 (from her friend) + 48 (from the baby shower) + 15 (from her mom) = 87 outfits.  \n\n[Verification]  \nLet's check the calculations:  \n- Baby outfits from friend: 24  \n- Baby outfits from baby shower: 24 * 2 = 48  \n- Baby outfits from mom: 15  \nNow adding these together: 24 + 48 + 15 = 87, which confirms our total.  \n\n[Final Answer] The answer is 87  \n#### 87",
+        "I can't understand this question."
+    ],
+    "to_explore_reward": {
+        "[reasoning process]  \nLaurel received 24 baby outfits from her friend.  \nThen, at her baby shower, she received twice that amount, which is 2 * 24 = 48 baby outfits.  \nAfter that, her mom gifted her an additional 15 baby outfits.  \nNow, we will add all of these outfits together:  \n24 (from her friend) + 48 (from the baby shower) + 15 (from her mom) = 87 outfits.  \n\n[Verification]  \nLet's check the calculations:  \n- Baby outfits from friend: 24  \n- Baby outfits from baby shower: 24 * 2 = 48  \n- Baby outfits from mom: 15  \nNow adding these together: 24 + 48 + 15 = 87, which confirms our total.  \n\n[Final Answer] The answer is 87  \n#### 87": [
+            75.0
+        ],
+        "I can't understand this question.": [
+            -85.0
+        ]
+    },
+    "hints_bank": {},
+    "history_bank": {
+        "[reasoning process]  \nLaurel received 24 baby outfits from her friend.  \nThen, at her baby shower, she received twice that amount, which is 2 * 24 = 48 baby outfits.  \nAfter that, her mom gifted her an additional 15 baby outfits.  \nNow, we will add all of these outfits together:  \n24 (from her friend) + 48 (from the baby shower) + 15 (from her mom) = 87 outfits.  \n\n[Verification]  \nLet's check the calculations:  \n- Baby outfits from friend: 24  \n- Baby outfits from baby shower: 24 * 2 = 48  \n- Baby outfits from mom: 15  \nNow adding these together: 24 + 48 + 15 = 87, which confirms our total.  \n\n[Final Answer] The answer is 87  \n#### 87": [
+            "Question: Laurel's friend gave her 24 baby outfits that her child no longer needed.  At her baby shower, Laurel received twice the amount of new baby outfits.  Then, Laurel's mom gifted her with another 15 baby outfits.  How many outfits does she have for her baby?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "[reasoning process]  \nLaurel received 24 baby outfits from her friend.  \nThen, at her baby shower, she received twice that amount, which is 2 * 24 = 48 baby outfits.  \nAfter that, her mom gifted her an additional 15 baby outfits.  \nNow, we will add all of these outfits together:  \n24 (from her friend) + 48 (from the baby shower) + 15 (from her mom) = 87 outfits.  \n\n[Verification]  \nLet's check the calculations:  \n- Baby outfits from friend: 24  \n- Baby outfits from baby shower: 24 * 2 = 48  \n- Baby outfits from mom: 15  \nNow adding these together: 24 + 48 + 15 = 87, which confirms our total.  \n\n[Final Answer] The answer is 87  \n#### 87"
+        ],
+        "I can't understand this question.": [
+            "Question: Laurel's friend gave her 24 baby outfits that her child no longer needed.  At her baby shower, Laurel received twice the amount of new baby outfits.  Then, Laurel's mom gifted her with another 15 baby outfits.  How many outfits does she have for her baby?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "I can't understand this question."
+        ]
+    },
+    "hints_reward_imp_bank": {},
+    "fathers": {
+        "[reasoning process]  \nLaurel received 24 baby outfits from her friend.  \nThen, at her baby shower, she received twice that amount, which is 2 * 24 = 48 baby outfits.  \nAfter that, her mom gifted her an additional 15 baby outfits.  \nNow, we will add all of these outfits together:  \n24 (from her friend) + 48 (from the baby shower) + 15 (from her mom) = 87 outfits.  \n\n[Verification]  \nLet's check the calculations:  \n- Baby outfits from friend: 24  \n- Baby outfits from baby shower: 24 * 2 = 48  \n- Baby outfits from mom: 15  \nNow adding these together: 24 + 48 + 15 = 87, which confirms our total.  \n\n[Final Answer] The answer is 87  \n#### 87": null,
+        "I can't understand this question.": null
+    },
+    "childs": {
+        "[reasoning process]  \nLaurel received 24 baby outfits from her friend.  \nThen, at her baby shower, she received twice that amount, which is 2 * 24 = 48 baby outfits.  \nAfter that, her mom gifted her an additional 15 baby outfits.  \nNow, we will add all of these outfits together:  \n24 (from her friend) + 48 (from the baby shower) + 15 (from her mom) = 87 outfits.  \n\n[Verification]  \nLet's check the calculations:  \n- Baby outfits from friend: 24  \n- Baby outfits from baby shower: 24 * 2 = 48  \n- Baby outfits from mom: 15  \nNow adding these together: 24 + 48 + 15 = 87, which confirms our total.  \n\n[Final Answer] The answer is 87  \n#### 87": [],
+        "I can't understand this question.": []
+    },
+    "ucb_bank": {}
+}

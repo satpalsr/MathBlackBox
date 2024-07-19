@@ -1,0 +1,44 @@
+{
+    "query": "There are 40 pupils in a class. Half of the class likes blue. One-fourth of the remaining likes green and the rest likes yellow. How many pupils like the color yellow?",
+    "ground_truth": "There are 40/2 = <<40/2=20>>20 pupils who like blue.\nSo, there are now 40 - 20 = <<40-20=20>>20 pupils who like either green or yellow.\nHence, 20/4 = <<20/4=5>>5 pupils like green.\nThus, 20 - 5 = <<20-5=15>>15 pupils like yellow.\n#### 15",
+    "hints_list": [],
+    "answers_list": [
+        "[reasoning process]\n\n1. Let's start with the total number of pupils in the class: 40.\n2. Half of the class likes blue. Therefore, \\( \\frac{40}{2} = 20 \\) pupils like blue.\n3. Subtract the number of pupils who like blue from the total number of pupils to find out how many pupils are left:\n\\[ 40 - 20 = 20 \\]\n4. One-fourth of the remaining pupils like green. Therefore, \\( \\frac{20}{4} = 5 \\) pupils like green.\n5. Subtract the number of pupils who like green from the remaining pupils to find out how many pupils like yellow:\n\\[ 20 - 5 = 15 \\]\n\n[Verification]\n\n- Total pupils = 40\n- Pupils who like blue: 20\n- Remaining pupils after accounting for those who like blue: 20\n- Pupils who like green: 5\n- Remaining pupils after accounting for those who like green: 15\n\nEverything adds up correctly based on the described allocation of preferences.\n\n[Final Answer] The answer is 15\n#### 15",
+        "I don't know the answer to this question."
+    ],
+    "ground_truth_hints": "",
+    "hints_prompt": "Question: There are 40 pupils in a class. Half of the class likes blue. One-fourth of the remaining likes green and the rest likes yellow. How many pupils like the color yellow?\nCould you provide me with the thought process to solve this problem, but please don’t give me the answer or calculation, just the thought process?",
+    "to_explore": [
+        "[reasoning process]\n\n1. Let's start with the total number of pupils in the class: 40.\n2. Half of the class likes blue. Therefore, \\( \\frac{40}{2} = 20 \\) pupils like blue.\n3. Subtract the number of pupils who like blue from the total number of pupils to find out how many pupils are left:\n\\[ 40 - 20 = 20 \\]\n4. One-fourth of the remaining pupils like green. Therefore, \\( \\frac{20}{4} = 5 \\) pupils like green.\n5. Subtract the number of pupils who like green from the remaining pupils to find out how many pupils like yellow:\n\\[ 20 - 5 = 15 \\]\n\n[Verification]\n\n- Total pupils = 40\n- Pupils who like blue: 20\n- Remaining pupils after accounting for those who like blue: 20\n- Pupils who like green: 5\n- Remaining pupils after accounting for those who like green: 15\n\nEverything adds up correctly based on the described allocation of preferences.\n\n[Final Answer] The answer is 15\n#### 15",
+        "I don't know the answer to this question."
+    ],
+    "to_explore_reward": {
+        "[reasoning process]\n\n1. Let's start with the total number of pupils in the class: 40.\n2. Half of the class likes blue. Therefore, \\( \\frac{40}{2} = 20 \\) pupils like blue.\n3. Subtract the number of pupils who like blue from the total number of pupils to find out how many pupils are left:\n\\[ 40 - 20 = 20 \\]\n4. One-fourth of the remaining pupils like green. Therefore, \\( \\frac{20}{4} = 5 \\) pupils like green.\n5. Subtract the number of pupils who like green from the remaining pupils to find out how many pupils like yellow:\n\\[ 20 - 5 = 15 \\]\n\n[Verification]\n\n- Total pupils = 40\n- Pupils who like blue: 20\n- Remaining pupils after accounting for those who like blue: 20\n- Pupils who like green: 5\n- Remaining pupils after accounting for those who like green: 15\n\nEverything adds up correctly based on the described allocation of preferences.\n\n[Final Answer] The answer is 15\n#### 15": [
+            50
+        ],
+        "I don't know the answer to this question.": [
+            -100.0
+        ]
+    },
+    "hints_bank": {},
+    "history_bank": {
+        "[reasoning process]\n\n1. Let's start with the total number of pupils in the class: 40.\n2. Half of the class likes blue. Therefore, \\( \\frac{40}{2} = 20 \\) pupils like blue.\n3. Subtract the number of pupils who like blue from the total number of pupils to find out how many pupils are left:\n\\[ 40 - 20 = 20 \\]\n4. One-fourth of the remaining pupils like green. Therefore, \\( \\frac{20}{4} = 5 \\) pupils like green.\n5. Subtract the number of pupils who like green from the remaining pupils to find out how many pupils like yellow:\n\\[ 20 - 5 = 15 \\]\n\n[Verification]\n\n- Total pupils = 40\n- Pupils who like blue: 20\n- Remaining pupils after accounting for those who like blue: 20\n- Pupils who like green: 5\n- Remaining pupils after accounting for those who like green: 15\n\nEverything adds up correctly based on the described allocation of preferences.\n\n[Final Answer] The answer is 15\n#### 15": [
+            "Question: There are 40 pupils in a class. Half of the class likes blue. One-fourth of the remaining likes green and the rest likes yellow. How many pupils like the color yellow?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "[reasoning process]\n\n1. Let's start with the total number of pupils in the class: 40.\n2. Half of the class likes blue. Therefore, \\( \\frac{40}{2} = 20 \\) pupils like blue.\n3. Subtract the number of pupils who like blue from the total number of pupils to find out how many pupils are left:\n\\[ 40 - 20 = 20 \\]\n4. One-fourth of the remaining pupils like green. Therefore, \\( \\frac{20}{4} = 5 \\) pupils like green.\n5. Subtract the number of pupils who like green from the remaining pupils to find out how many pupils like yellow:\n\\[ 20 - 5 = 15 \\]\n\n[Verification]\n\n- Total pupils = 40\n- Pupils who like blue: 20\n- Remaining pupils after accounting for those who like blue: 20\n- Pupils who like green: 5\n- Remaining pupils after accounting for those who like green: 15\n\nEverything adds up correctly based on the described allocation of preferences.\n\n[Final Answer] The answer is 15\n#### 15"
+        ],
+        "I don't know the answer to this question.": [
+            "Question: There are 40 pupils in a class. Half of the class likes blue. One-fourth of the remaining likes green and the rest likes yellow. How many pupils like the color yellow?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "I don't know the answer to this question."
+        ]
+    },
+    "hints_reward_imp_bank": {},
+    "fathers": {
+        "[reasoning process]\n\n1. Let's start with the total number of pupils in the class: 40.\n2. Half of the class likes blue. Therefore, \\( \\frac{40}{2} = 20 \\) pupils like blue.\n3. Subtract the number of pupils who like blue from the total number of pupils to find out how many pupils are left:\n\\[ 40 - 20 = 20 \\]\n4. One-fourth of the remaining pupils like green. Therefore, \\( \\frac{20}{4} = 5 \\) pupils like green.\n5. Subtract the number of pupils who like green from the remaining pupils to find out how many pupils like yellow:\n\\[ 20 - 5 = 15 \\]\n\n[Verification]\n\n- Total pupils = 40\n- Pupils who like blue: 20\n- Remaining pupils after accounting for those who like blue: 20\n- Pupils who like green: 5\n- Remaining pupils after accounting for those who like green: 15\n\nEverything adds up correctly based on the described allocation of preferences.\n\n[Final Answer] The answer is 15\n#### 15": null,
+        "I don't know the answer to this question.": null
+    },
+    "childs": {
+        "[reasoning process]\n\n1. Let's start with the total number of pupils in the class: 40.\n2. Half of the class likes blue. Therefore, \\( \\frac{40}{2} = 20 \\) pupils like blue.\n3. Subtract the number of pupils who like blue from the total number of pupils to find out how many pupils are left:\n\\[ 40 - 20 = 20 \\]\n4. One-fourth of the remaining pupils like green. Therefore, \\( \\frac{20}{4} = 5 \\) pupils like green.\n5. Subtract the number of pupils who like green from the remaining pupils to find out how many pupils like yellow:\n\\[ 20 - 5 = 15 \\]\n\n[Verification]\n\n- Total pupils = 40\n- Pupils who like blue: 20\n- Remaining pupils after accounting for those who like blue: 20\n- Pupils who like green: 5\n- Remaining pupils after accounting for those who like green: 15\n\nEverything adds up correctly based on the described allocation of preferences.\n\n[Final Answer] The answer is 15\n#### 15": [],
+        "I don't know the answer to this question.": []
+    },
+    "ucb_bank": {}
+}

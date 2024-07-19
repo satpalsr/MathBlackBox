@@ -1,0 +1,44 @@
+{
+    "query": "Johnny took his allowance of $20 and added an extra $10 to it.  He then invested this sum of money, which tripled in a year.  How much money did he have after a year?",
+    "ground_truth": "Johnny invested twenty and ten dollars for a total of 20+10=<<20+10=30>>30 dollars invested\nJohnny tripled this amount of money over the year, for a total of 30*=90 dollars\n#### 90",
+    "hints_list": [],
+    "answers_list": [
+        "[reasoning process]  \nFirst, we need to determine Johnny's initial total amount of money. He took his allowance of $20 and added an extra $10, which gives us:  \n\\[ 20 + 10 = 30 \\]  \nThis means Johnny started with $30.\n\nNext, Johnny invested this sum of money ($30), and we are told that it tripled in a year. To find out how much money he had after a year, we multiply the initial amount by 3:  \n\\[ 30 \\times 3 = 90 \\]  \n\nThus, Johnny had $90 after a year.  \n\n[Verification]  \nLet's double-check the calculations:  \n1. Johnny's total after adding his allowance and extra money:  \n   $20 + $10 = $30  \n2. The amount after tripling:  \n   $30 \\times 3 = $90  \nBoth steps confirm the calculations were done correctly.\n\n[Final Answer] The answer is 90  \n#### 90",
+        "I can't understand this question."
+    ],
+    "ground_truth_hints": "",
+    "hints_prompt": "Question: Johnny took his allowance of $20 and added an extra $10 to it.  He then invested this sum of money, which tripled in a year.  How much money did he have after a year?\nCould you provide me with the thought process to solve this problem, but please don’t give me the answer or calculation, just the thought process?",
+    "to_explore": [
+        "[reasoning process]  \nFirst, we need to determine Johnny's initial total amount of money. He took his allowance of $20 and added an extra $10, which gives us:  \n\\[ 20 + 10 = 30 \\]  \nThis means Johnny started with $30.\n\nNext, Johnny invested this sum of money ($30), and we are told that it tripled in a year. To find out how much money he had after a year, we multiply the initial amount by 3:  \n\\[ 30 \\times 3 = 90 \\]  \n\nThus, Johnny had $90 after a year.  \n\n[Verification]  \nLet's double-check the calculations:  \n1. Johnny's total after adding his allowance and extra money:  \n   $20 + $10 = $30  \n2. The amount after tripling:  \n   $30 \\times 3 = $90  \nBoth steps confirm the calculations were done correctly.\n\n[Final Answer] The answer is 90  \n#### 90",
+        "I can't understand this question."
+    ],
+    "to_explore_reward": {
+        "[reasoning process]  \nFirst, we need to determine Johnny's initial total amount of money. He took his allowance of $20 and added an extra $10, which gives us:  \n\\[ 20 + 10 = 30 \\]  \nThis means Johnny started with $30.\n\nNext, Johnny invested this sum of money ($30), and we are told that it tripled in a year. To find out how much money he had after a year, we multiply the initial amount by 3:  \n\\[ 30 \\times 3 = 90 \\]  \n\nThus, Johnny had $90 after a year.  \n\n[Verification]  \nLet's double-check the calculations:  \n1. Johnny's total after adding his allowance and extra money:  \n   $20 + $10 = $30  \n2. The amount after tripling:  \n   $30 \\times 3 = $90  \nBoth steps confirm the calculations were done correctly.\n\n[Final Answer] The answer is 90  \n#### 90": [
+            80.0
+        ],
+        "I can't understand this question.": [
+            -95.0
+        ]
+    },
+    "hints_bank": {},
+    "history_bank": {
+        "[reasoning process]  \nFirst, we need to determine Johnny's initial total amount of money. He took his allowance of $20 and added an extra $10, which gives us:  \n\\[ 20 + 10 = 30 \\]  \nThis means Johnny started with $30.\n\nNext, Johnny invested this sum of money ($30), and we are told that it tripled in a year. To find out how much money he had after a year, we multiply the initial amount by 3:  \n\\[ 30 \\times 3 = 90 \\]  \n\nThus, Johnny had $90 after a year.  \n\n[Verification]  \nLet's double-check the calculations:  \n1. Johnny's total after adding his allowance and extra money:  \n   $20 + $10 = $30  \n2. The amount after tripling:  \n   $30 \\times 3 = $90  \nBoth steps confirm the calculations were done correctly.\n\n[Final Answer] The answer is 90  \n#### 90": [
+            "Question: Johnny took his allowance of $20 and added an extra $10 to it.  He then invested this sum of money, which tripled in a year.  How much money did he have after a year?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "[reasoning process]  \nFirst, we need to determine Johnny's initial total amount of money. He took his allowance of $20 and added an extra $10, which gives us:  \n\\[ 20 + 10 = 30 \\]  \nThis means Johnny started with $30.\n\nNext, Johnny invested this sum of money ($30), and we are told that it tripled in a year. To find out how much money he had after a year, we multiply the initial amount by 3:  \n\\[ 30 \\times 3 = 90 \\]  \n\nThus, Johnny had $90 after a year.  \n\n[Verification]  \nLet's double-check the calculations:  \n1. Johnny's total after adding his allowance and extra money:  \n   $20 + $10 = $30  \n2. The amount after tripling:  \n   $30 \\times 3 = $90  \nBoth steps confirm the calculations were done correctly.\n\n[Final Answer] The answer is 90  \n#### 90"
+        ],
+        "I can't understand this question.": [
+            "Question: Johnny took his allowance of $20 and added an extra $10 to it.  He then invested this sum of money, which tripled in a year.  How much money did he have after a year?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "I can't understand this question."
+        ]
+    },
+    "hints_reward_imp_bank": {},
+    "fathers": {
+        "[reasoning process]  \nFirst, we need to determine Johnny's initial total amount of money. He took his allowance of $20 and added an extra $10, which gives us:  \n\\[ 20 + 10 = 30 \\]  \nThis means Johnny started with $30.\n\nNext, Johnny invested this sum of money ($30), and we are told that it tripled in a year. To find out how much money he had after a year, we multiply the initial amount by 3:  \n\\[ 30 \\times 3 = 90 \\]  \n\nThus, Johnny had $90 after a year.  \n\n[Verification]  \nLet's double-check the calculations:  \n1. Johnny's total after adding his allowance and extra money:  \n   $20 + $10 = $30  \n2. The amount after tripling:  \n   $30 \\times 3 = $90  \nBoth steps confirm the calculations were done correctly.\n\n[Final Answer] The answer is 90  \n#### 90": null,
+        "I can't understand this question.": null
+    },
+    "childs": {
+        "[reasoning process]  \nFirst, we need to determine Johnny's initial total amount of money. He took his allowance of $20 and added an extra $10, which gives us:  \n\\[ 20 + 10 = 30 \\]  \nThis means Johnny started with $30.\n\nNext, Johnny invested this sum of money ($30), and we are told that it tripled in a year. To find out how much money he had after a year, we multiply the initial amount by 3:  \n\\[ 30 \\times 3 = 90 \\]  \n\nThus, Johnny had $90 after a year.  \n\n[Verification]  \nLet's double-check the calculations:  \n1. Johnny's total after adding his allowance and extra money:  \n   $20 + $10 = $30  \n2. The amount after tripling:  \n   $30 \\times 3 = $90  \nBoth steps confirm the calculations were done correctly.\n\n[Final Answer] The answer is 90  \n#### 90": [],
+        "I can't understand this question.": []
+    },
+    "ucb_bank": {}
+}

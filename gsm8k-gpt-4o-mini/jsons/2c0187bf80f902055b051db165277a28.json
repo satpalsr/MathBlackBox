@@ -1,0 +1,44 @@
+{
+    "query": "Mara added 3 slices of cake to a plate that already had 2 slices on it. She was getting hungrier so she tripled the number of slices she currently has. She ate 2 slices and while she was distracted, her friend stole 5 slices off her plate. What number of cake slices remained on the plate?",
+    "ground_truth": "Mara had 3+2=<<3+2=5>>5 slices of cake.\nShe was hungry and tripled the amount to 5*3=<<5*3=15>>15 slices.\nShe ate a couple, leaving 15-2=<<15-2=13>>13 slices.\nHer friend came and stole some which left Mara to 13-5=<<13-5=8>>8 slices.\n#### 8",
+    "hints_list": [],
+    "answers_list": [
+        "[reasoning process] \n1. Mara starts with 2 slices of cake on her plate.\n2. She adds 3 more slices, so now she has: \n   2 + 3 = 5 slices.\n3. Mara then triples the number of slices she has. Thus:\n   5 * 3 = 15 slices.\n4. After that, Mara eats 2 slices, so she has:\n   15 - 2 = 13 slices.\n5. While she is distracted, her friend steals 5 slices, leaving her with:\n   13 - 5 = 8 slices.\n\n[Verification] \nWe can confirm each step:\n- Starting from 2 slices, adding 3 gives 5 slices.\n- Tripling 5 results in 15 slices, which checks out.\n- Eating 2 slices from 15 indeed results in 13.\n- Finally, subtracting the 5 stolen slices from 13 gives us 8.\n\n[Final Answer] The answer is 8 \\n#### 8",
+        "I can't understand this question."
+    ],
+    "ground_truth_hints": "",
+    "hints_prompt": "Question: Mara added 3 slices of cake to a plate that already had 2 slices on it. She was getting hungrier so she tripled the number of slices she currently has. She ate 2 slices and while she was distracted, her friend stole 5 slices off her plate. What number of cake slices remained on the plate?\nCould you provide me with the thought process to solve this problem, but please don’t give me the answer or calculation, just the thought process?",
+    "to_explore": [
+        "[reasoning process] \n1. Mara starts with 2 slices of cake on her plate.\n2. She adds 3 more slices, so now she has: \n   2 + 3 = 5 slices.\n3. Mara then triples the number of slices she has. Thus:\n   5 * 3 = 15 slices.\n4. After that, Mara eats 2 slices, so she has:\n   15 - 2 = 13 slices.\n5. While she is distracted, her friend steals 5 slices, leaving her with:\n   13 - 5 = 8 slices.\n\n[Verification] \nWe can confirm each step:\n- Starting from 2 slices, adding 3 gives 5 slices.\n- Tripling 5 results in 15 slices, which checks out.\n- Eating 2 slices from 15 indeed results in 13.\n- Finally, subtracting the 5 stolen slices from 13 gives us 8.\n\n[Final Answer] The answer is 8 \\n#### 8",
+        "I can't understand this question."
+    ],
+    "to_explore_reward": {
+        "[reasoning process] \n1. Mara starts with 2 slices of cake on her plate.\n2. She adds 3 more slices, so now she has: \n   2 + 3 = 5 slices.\n3. Mara then triples the number of slices she has. Thus:\n   5 * 3 = 15 slices.\n4. After that, Mara eats 2 slices, so she has:\n   15 - 2 = 13 slices.\n5. While she is distracted, her friend steals 5 slices, leaving her with:\n   13 - 5 = 8 slices.\n\n[Verification] \nWe can confirm each step:\n- Starting from 2 slices, adding 3 gives 5 slices.\n- Tripling 5 results in 15 slices, which checks out.\n- Eating 2 slices from 15 indeed results in 13.\n- Finally, subtracting the 5 stolen slices from 13 gives us 8.\n\n[Final Answer] The answer is 8 \\n#### 8": [
+            85.0
+        ],
+        "I can't understand this question.": [
+            -90.0
+        ]
+    },
+    "hints_bank": {},
+    "history_bank": {
+        "[reasoning process] \n1. Mara starts with 2 slices of cake on her plate.\n2. She adds 3 more slices, so now she has: \n   2 + 3 = 5 slices.\n3. Mara then triples the number of slices she has. Thus:\n   5 * 3 = 15 slices.\n4. After that, Mara eats 2 slices, so she has:\n   15 - 2 = 13 slices.\n5. While she is distracted, her friend steals 5 slices, leaving her with:\n   13 - 5 = 8 slices.\n\n[Verification] \nWe can confirm each step:\n- Starting from 2 slices, adding 3 gives 5 slices.\n- Tripling 5 results in 15 slices, which checks out.\n- Eating 2 slices from 15 indeed results in 13.\n- Finally, subtracting the 5 stolen slices from 13 gives us 8.\n\n[Final Answer] The answer is 8 \\n#### 8": [
+            "Question: Mara added 3 slices of cake to a plate that already had 2 slices on it. She was getting hungrier so she tripled the number of slices she currently has. She ate 2 slices and while she was distracted, her friend stole 5 slices off her plate. What number of cake slices remained on the plate?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "[reasoning process] \n1. Mara starts with 2 slices of cake on her plate.\n2. She adds 3 more slices, so now she has: \n   2 + 3 = 5 slices.\n3. Mara then triples the number of slices she has. Thus:\n   5 * 3 = 15 slices.\n4. After that, Mara eats 2 slices, so she has:\n   15 - 2 = 13 slices.\n5. While she is distracted, her friend steals 5 slices, leaving her with:\n   13 - 5 = 8 slices.\n\n[Verification] \nWe can confirm each step:\n- Starting from 2 slices, adding 3 gives 5 slices.\n- Tripling 5 results in 15 slices, which checks out.\n- Eating 2 slices from 15 indeed results in 13.\n- Finally, subtracting the 5 stolen slices from 13 gives us 8.\n\n[Final Answer] The answer is 8 \\n#### 8"
+        ],
+        "I can't understand this question.": [
+            "Question: Mara added 3 slices of cake to a plate that already had 2 slices on it. She was getting hungrier so she tripled the number of slices she currently has. She ate 2 slices and while she was distracted, her friend stole 5 slices off her plate. What number of cake slices remained on the plate?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "I can't understand this question."
+        ]
+    },
+    "hints_reward_imp_bank": {},
+    "fathers": {
+        "[reasoning process] \n1. Mara starts with 2 slices of cake on her plate.\n2. She adds 3 more slices, so now she has: \n   2 + 3 = 5 slices.\n3. Mara then triples the number of slices she has. Thus:\n   5 * 3 = 15 slices.\n4. After that, Mara eats 2 slices, so she has:\n   15 - 2 = 13 slices.\n5. While she is distracted, her friend steals 5 slices, leaving her with:\n   13 - 5 = 8 slices.\n\n[Verification] \nWe can confirm each step:\n- Starting from 2 slices, adding 3 gives 5 slices.\n- Tripling 5 results in 15 slices, which checks out.\n- Eating 2 slices from 15 indeed results in 13.\n- Finally, subtracting the 5 stolen slices from 13 gives us 8.\n\n[Final Answer] The answer is 8 \\n#### 8": null,
+        "I can't understand this question.": null
+    },
+    "childs": {
+        "[reasoning process] \n1. Mara starts with 2 slices of cake on her plate.\n2. She adds 3 more slices, so now she has: \n   2 + 3 = 5 slices.\n3. Mara then triples the number of slices she has. Thus:\n   5 * 3 = 15 slices.\n4. After that, Mara eats 2 slices, so she has:\n   15 - 2 = 13 slices.\n5. While she is distracted, her friend steals 5 slices, leaving her with:\n   13 - 5 = 8 slices.\n\n[Verification] \nWe can confirm each step:\n- Starting from 2 slices, adding 3 gives 5 slices.\n- Tripling 5 results in 15 slices, which checks out.\n- Eating 2 slices from 15 indeed results in 13.\n- Finally, subtracting the 5 stolen slices from 13 gives us 8.\n\n[Final Answer] The answer is 8 \\n#### 8": [],
+        "I can't understand this question.": []
+    },
+    "ucb_bank": {}
+}

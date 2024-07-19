@@ -1,0 +1,44 @@
+{
+    "query": "Joey plays football every week. Last week he played 2 matches on Monday, 1 match on Friday, and on Saturday he played double the number of matches he played on Monday. How many matches did Joey play in one week?",
+    "ground_truth": "On Saturday, Joey played 2 * 2 = <<2*2=4>>4 matches.\nFor the whole week, Joey played 2 + 1 + 4 = <<2+1+4=7>>7 matches in total.\n#### 7",
+    "hints_list": [],
+    "answers_list": [
+        "[reasoning process] \nLet's break down Joey's matches day by day:  \n- On Monday, Joey played 2 matches.  \n- On Friday, he played 1 match.  \n- On Saturday, he played double the number of matches he played on Monday, which means he played 2 * 2 = 4 matches on Saturday.  \n\nNow, we can add the number of matches played throughout the week:  \n- Matches on Monday: 2  \n- Matches on Friday: 1  \n- Matches on Saturday: 4  \n\nNow, we sum these up:  \nTotal matches = 2 (Monday) + 1 (Friday) + 4 (Saturday) = 7 matches.\n\n[Verification] \nLet's verify the calculations:  \n- Matches on Monday = 2  \n- Matches on Friday = 1  \n- Matches on Saturday = 4 (double the 2 matches on Monday)  \n\nAdding these gives: 2 + 1 + 4 = 7. All parts of the calculations check out correctly.\n\n[Final Answer] The answer is 7  \n#### 7",
+        "I don't know the answer to this question, sorry."
+    ],
+    "ground_truth_hints": "",
+    "hints_prompt": "Question: Joey plays football every week. Last week he played 2 matches on Monday, 1 match on Friday, and on Saturday he played double the number of matches he played on Monday. How many matches did Joey play in one week?\nCould you provide me with the thought process to solve this problem, but please don’t give me the answer or calculation, just the thought process?",
+    "to_explore": [
+        "[reasoning process] \nLet's break down Joey's matches day by day:  \n- On Monday, Joey played 2 matches.  \n- On Friday, he played 1 match.  \n- On Saturday, he played double the number of matches he played on Monday, which means he played 2 * 2 = 4 matches on Saturday.  \n\nNow, we can add the number of matches played throughout the week:  \n- Matches on Monday: 2  \n- Matches on Friday: 1  \n- Matches on Saturday: 4  \n\nNow, we sum these up:  \nTotal matches = 2 (Monday) + 1 (Friday) + 4 (Saturday) = 7 matches.\n\n[Verification] \nLet's verify the calculations:  \n- Matches on Monday = 2  \n- Matches on Friday = 1  \n- Matches on Saturday = 4 (double the 2 matches on Monday)  \n\nAdding these gives: 2 + 1 + 4 = 7. All parts of the calculations check out correctly.\n\n[Final Answer] The answer is 7  \n#### 7",
+        "I don't know the answer to this question, sorry."
+    ],
+    "to_explore_reward": {
+        "[reasoning process] \nLet's break down Joey's matches day by day:  \n- On Monday, Joey played 2 matches.  \n- On Friday, he played 1 match.  \n- On Saturday, he played double the number of matches he played on Monday, which means he played 2 * 2 = 4 matches on Saturday.  \n\nNow, we can add the number of matches played throughout the week:  \n- Matches on Monday: 2  \n- Matches on Friday: 1  \n- Matches on Saturday: 4  \n\nNow, we sum these up:  \nTotal matches = 2 (Monday) + 1 (Friday) + 4 (Saturday) = 7 matches.\n\n[Verification] \nLet's verify the calculations:  \n- Matches on Monday = 2  \n- Matches on Friday = 1  \n- Matches on Saturday = 4 (double the 2 matches on Monday)  \n\nAdding these gives: 2 + 1 + 4 = 7. All parts of the calculations check out correctly.\n\n[Final Answer] The answer is 7  \n#### 7": [
+            70.0
+        ],
+        "I don't know the answer to this question, sorry.": [
+            -90.0
+        ]
+    },
+    "hints_bank": {},
+    "history_bank": {
+        "[reasoning process] \nLet's break down Joey's matches day by day:  \n- On Monday, Joey played 2 matches.  \n- On Friday, he played 1 match.  \n- On Saturday, he played double the number of matches he played on Monday, which means he played 2 * 2 = 4 matches on Saturday.  \n\nNow, we can add the number of matches played throughout the week:  \n- Matches on Monday: 2  \n- Matches on Friday: 1  \n- Matches on Saturday: 4  \n\nNow, we sum these up:  \nTotal matches = 2 (Monday) + 1 (Friday) + 4 (Saturday) = 7 matches.\n\n[Verification] \nLet's verify the calculations:  \n- Matches on Monday = 2  \n- Matches on Friday = 1  \n- Matches on Saturday = 4 (double the 2 matches on Monday)  \n\nAdding these gives: 2 + 1 + 4 = 7. All parts of the calculations check out correctly.\n\n[Final Answer] The answer is 7  \n#### 7": [
+            "Question: Joey plays football every week. Last week he played 2 matches on Monday, 1 match on Friday, and on Saturday he played double the number of matches he played on Monday. How many matches did Joey play in one week?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "[reasoning process] \nLet's break down Joey's matches day by day:  \n- On Monday, Joey played 2 matches.  \n- On Friday, he played 1 match.  \n- On Saturday, he played double the number of matches he played on Monday, which means he played 2 * 2 = 4 matches on Saturday.  \n\nNow, we can add the number of matches played throughout the week:  \n- Matches on Monday: 2  \n- Matches on Friday: 1  \n- Matches on Saturday: 4  \n\nNow, we sum these up:  \nTotal matches = 2 (Monday) + 1 (Friday) + 4 (Saturday) = 7 matches.\n\n[Verification] \nLet's verify the calculations:  \n- Matches on Monday = 2  \n- Matches on Friday = 1  \n- Matches on Saturday = 4 (double the 2 matches on Monday)  \n\nAdding these gives: 2 + 1 + 4 = 7. All parts of the calculations check out correctly.\n\n[Final Answer] The answer is 7  \n#### 7"
+        ],
+        "I don't know the answer to this question, sorry.": [
+            "Question: Joey plays football every week. Last week he played 2 matches on Monday, 1 match on Friday, and on Saturday he played double the number of matches he played on Monday. How many matches did Joey play in one week?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "I don't know the answer to this question, sorry."
+        ]
+    },
+    "hints_reward_imp_bank": {},
+    "fathers": {
+        "[reasoning process] \nLet's break down Joey's matches day by day:  \n- On Monday, Joey played 2 matches.  \n- On Friday, he played 1 match.  \n- On Saturday, he played double the number of matches he played on Monday, which means he played 2 * 2 = 4 matches on Saturday.  \n\nNow, we can add the number of matches played throughout the week:  \n- Matches on Monday: 2  \n- Matches on Friday: 1  \n- Matches on Saturday: 4  \n\nNow, we sum these up:  \nTotal matches = 2 (Monday) + 1 (Friday) + 4 (Saturday) = 7 matches.\n\n[Verification] \nLet's verify the calculations:  \n- Matches on Monday = 2  \n- Matches on Friday = 1  \n- Matches on Saturday = 4 (double the 2 matches on Monday)  \n\nAdding these gives: 2 + 1 + 4 = 7. All parts of the calculations check out correctly.\n\n[Final Answer] The answer is 7  \n#### 7": null,
+        "I don't know the answer to this question, sorry.": null
+    },
+    "childs": {
+        "[reasoning process] \nLet's break down Joey's matches day by day:  \n- On Monday, Joey played 2 matches.  \n- On Friday, he played 1 match.  \n- On Saturday, he played double the number of matches he played on Monday, which means he played 2 * 2 = 4 matches on Saturday.  \n\nNow, we can add the number of matches played throughout the week:  \n- Matches on Monday: 2  \n- Matches on Friday: 1  \n- Matches on Saturday: 4  \n\nNow, we sum these up:  \nTotal matches = 2 (Monday) + 1 (Friday) + 4 (Saturday) = 7 matches.\n\n[Verification] \nLet's verify the calculations:  \n- Matches on Monday = 2  \n- Matches on Friday = 1  \n- Matches on Saturday = 4 (double the 2 matches on Monday)  \n\nAdding these gives: 2 + 1 + 4 = 7. All parts of the calculations check out correctly.\n\n[Final Answer] The answer is 7  \n#### 7": [],
+        "I don't know the answer to this question, sorry.": []
+    },
+    "ucb_bank": {}
+}

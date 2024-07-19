@@ -1,0 +1,44 @@
+{
+    "query": "Jasmine's teacher gives stickers for reward. She was given 15 stickers for participating in class, but she lost 7 stickers during playtime. However, her teacher gave her another 5 stickers for helping her classmates. How many stickers does she have at the end?",
+    "ground_truth": "Jasmine had 15 stickers - 7 stickers = <<15-7=8>>8 stickers after losing 7.\nThen, she now has 8 stickers + 5 stickers = <<8+5=13>>13 stickers at the end.\n#### 13",
+    "hints_list": [],
+    "answers_list": [
+        "[reasoning process]  \nJasmine starts with 15 stickers. She loses 7 stickers during playtime, so we need to subtract 7 from 15.  \n- Calculation: 15 - 7 = 8 stickers remaining.  \nThen, her teacher gives her another 5 stickers for helping her classmates. We need to add these 5 stickers to the 8 she currently has.  \n- Calculation: 8 + 5 = 13 stickers in total.  \n\n[Verification]  \nTo verify, we can go through each step again:  \n1. Starting with 15 stickers.  \n2. After losing 7 stickers: 15 - 7 = 8.  \n3. After gaining 5 stickers: 8 + 5 = 13.  \nBoth calculations confirm the total.\n\n[Final Answer] The answer is 13  \n#### 13",
+        "I don't know how to solve this question."
+    ],
+    "ground_truth_hints": "",
+    "hints_prompt": "Question: Jasmine's teacher gives stickers for reward. She was given 15 stickers for participating in class, but she lost 7 stickers during playtime. However, her teacher gave her another 5 stickers for helping her classmates. How many stickers does she have at the end?\nCould you provide me with the thought process to solve this problem, but please don’t give me the answer or calculation, just the thought process?",
+    "to_explore": [
+        "[reasoning process]  \nJasmine starts with 15 stickers. She loses 7 stickers during playtime, so we need to subtract 7 from 15.  \n- Calculation: 15 - 7 = 8 stickers remaining.  \nThen, her teacher gives her another 5 stickers for helping her classmates. We need to add these 5 stickers to the 8 she currently has.  \n- Calculation: 8 + 5 = 13 stickers in total.  \n\n[Verification]  \nTo verify, we can go through each step again:  \n1. Starting with 15 stickers.  \n2. After losing 7 stickers: 15 - 7 = 8.  \n3. After gaining 5 stickers: 8 + 5 = 13.  \nBoth calculations confirm the total.\n\n[Final Answer] The answer is 13  \n#### 13",
+        "I don't know how to solve this question."
+    ],
+    "to_explore_reward": {
+        "[reasoning process]  \nJasmine starts with 15 stickers. She loses 7 stickers during playtime, so we need to subtract 7 from 15.  \n- Calculation: 15 - 7 = 8 stickers remaining.  \nThen, her teacher gives her another 5 stickers for helping her classmates. We need to add these 5 stickers to the 8 she currently has.  \n- Calculation: 8 + 5 = 13 stickers in total.  \n\n[Verification]  \nTo verify, we can go through each step again:  \n1. Starting with 15 stickers.  \n2. After losing 7 stickers: 15 - 7 = 8.  \n3. After gaining 5 stickers: 8 + 5 = 13.  \nBoth calculations confirm the total.\n\n[Final Answer] The answer is 13  \n#### 13": [
+            80.0
+        ],
+        "I don't know how to solve this question.": [
+            -80.0
+        ]
+    },
+    "hints_bank": {},
+    "history_bank": {
+        "[reasoning process]  \nJasmine starts with 15 stickers. She loses 7 stickers during playtime, so we need to subtract 7 from 15.  \n- Calculation: 15 - 7 = 8 stickers remaining.  \nThen, her teacher gives her another 5 stickers for helping her classmates. We need to add these 5 stickers to the 8 she currently has.  \n- Calculation: 8 + 5 = 13 stickers in total.  \n\n[Verification]  \nTo verify, we can go through each step again:  \n1. Starting with 15 stickers.  \n2. After losing 7 stickers: 15 - 7 = 8.  \n3. After gaining 5 stickers: 8 + 5 = 13.  \nBoth calculations confirm the total.\n\n[Final Answer] The answer is 13  \n#### 13": [
+            "Question: Jasmine's teacher gives stickers for reward. She was given 15 stickers for participating in class, but she lost 7 stickers during playtime. However, her teacher gave her another 5 stickers for helping her classmates. How many stickers does she have at the end?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "[reasoning process]  \nJasmine starts with 15 stickers. She loses 7 stickers during playtime, so we need to subtract 7 from 15.  \n- Calculation: 15 - 7 = 8 stickers remaining.  \nThen, her teacher gives her another 5 stickers for helping her classmates. We need to add these 5 stickers to the 8 she currently has.  \n- Calculation: 8 + 5 = 13 stickers in total.  \n\n[Verification]  \nTo verify, we can go through each step again:  \n1. Starting with 15 stickers.  \n2. After losing 7 stickers: 15 - 7 = 8.  \n3. After gaining 5 stickers: 8 + 5 = 13.  \nBoth calculations confirm the total.\n\n[Final Answer] The answer is 13  \n#### 13"
+        ],
+        "I don't know how to solve this question.": [
+            "Question: Jasmine's teacher gives stickers for reward. She was given 15 stickers for participating in class, but she lost 7 stickers during playtime. However, her teacher gave her another 5 stickers for helping her classmates. How many stickers does she have at the end?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "I don't know how to solve this question."
+        ]
+    },
+    "hints_reward_imp_bank": {},
+    "fathers": {
+        "[reasoning process]  \nJasmine starts with 15 stickers. She loses 7 stickers during playtime, so we need to subtract 7 from 15.  \n- Calculation: 15 - 7 = 8 stickers remaining.  \nThen, her teacher gives her another 5 stickers for helping her classmates. We need to add these 5 stickers to the 8 she currently has.  \n- Calculation: 8 + 5 = 13 stickers in total.  \n\n[Verification]  \nTo verify, we can go through each step again:  \n1. Starting with 15 stickers.  \n2. After losing 7 stickers: 15 - 7 = 8.  \n3. After gaining 5 stickers: 8 + 5 = 13.  \nBoth calculations confirm the total.\n\n[Final Answer] The answer is 13  \n#### 13": null,
+        "I don't know how to solve this question.": null
+    },
+    "childs": {
+        "[reasoning process]  \nJasmine starts with 15 stickers. She loses 7 stickers during playtime, so we need to subtract 7 from 15.  \n- Calculation: 15 - 7 = 8 stickers remaining.  \nThen, her teacher gives her another 5 stickers for helping her classmates. We need to add these 5 stickers to the 8 she currently has.  \n- Calculation: 8 + 5 = 13 stickers in total.  \n\n[Verification]  \nTo verify, we can go through each step again:  \n1. Starting with 15 stickers.  \n2. After losing 7 stickers: 15 - 7 = 8.  \n3. After gaining 5 stickers: 8 + 5 = 13.  \nBoth calculations confirm the total.\n\n[Final Answer] The answer is 13  \n#### 13": [],
+        "I don't know how to solve this question.": []
+    },
+    "ucb_bank": {}
+}

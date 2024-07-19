@@ -1,0 +1,44 @@
+{
+    "query": "Annika brought $50 to the town fair. She spent half of it on food and snacks, and an additional $10 for rides. How much, in dollars, is left?",
+    "ground_truth": "She spent 50/2=$<<50/2=25>>25 on the food.\nThen 50-25-10=$<<50-25-10=15>>15 are left.\n#### 15",
+    "hints_list": [],
+    "answers_list": [
+        "[reasoning process] Annika started with $50. She spent half of it on food and snacks, which is calculated as follows: \n\n\\[\n\\text{Amount spent on food and snacks} = \\frac{50}{2} = 25\n\\]\n\nAfter spending $25 on food and snacks, we can calculate how much she has left:\n\n\\[\n\\text{Amount left after food and snacks} = 50 - 25 = 25\n\\]\n\nNext, she spent an additional $10 for rides. Now, we subtract this amount from the remaining $25:\n\n\\[\n\\text{Amount left after rides} = 25 - 10 = 15\n\\]\n\nNow we know she has $15 left after all her expenses. \n\n[Verification] Let's double-check the calculations: \n- Starting with $50, spending $25 on food leaves $25.\n- Spending another $10 for rides leaves $15. \n\nEvery step seems consistent and correct. \n\n[Final Answer] The answer is 15 \\n#### 15",
+        "I Don't Know"
+    ],
+    "ground_truth_hints": "",
+    "hints_prompt": "Question: Annika brought $50 to the town fair. She spent half of it on food and snacks, and an additional $10 for rides. How much, in dollars, is left?\nCould you provide me with the thought process to solve this problem, but please don’t give me the answer or calculation, just the thought process?",
+    "to_explore": [
+        "[reasoning process] Annika started with $50. She spent half of it on food and snacks, which is calculated as follows: \n\n\\[\n\\text{Amount spent on food and snacks} = \\frac{50}{2} = 25\n\\]\n\nAfter spending $25 on food and snacks, we can calculate how much she has left:\n\n\\[\n\\text{Amount left after food and snacks} = 50 - 25 = 25\n\\]\n\nNext, she spent an additional $10 for rides. Now, we subtract this amount from the remaining $25:\n\n\\[\n\\text{Amount left after rides} = 25 - 10 = 15\n\\]\n\nNow we know she has $15 left after all her expenses. \n\n[Verification] Let's double-check the calculations: \n- Starting with $50, spending $25 on food leaves $25.\n- Spending another $10 for rides leaves $15. \n\nEvery step seems consistent and correct. \n\n[Final Answer] The answer is 15 \\n#### 15",
+        "I Don't Know"
+    ],
+    "to_explore_reward": {
+        "[reasoning process] Annika started with $50. She spent half of it on food and snacks, which is calculated as follows: \n\n\\[\n\\text{Amount spent on food and snacks} = \\frac{50}{2} = 25\n\\]\n\nAfter spending $25 on food and snacks, we can calculate how much she has left:\n\n\\[\n\\text{Amount left after food and snacks} = 50 - 25 = 25\n\\]\n\nNext, she spent an additional $10 for rides. Now, we subtract this amount from the remaining $25:\n\n\\[\n\\text{Amount left after rides} = 25 - 10 = 15\n\\]\n\nNow we know she has $15 left after all her expenses. \n\n[Verification] Let's double-check the calculations: \n- Starting with $50, spending $25 on food leaves $25.\n- Spending another $10 for rides leaves $15. \n\nEvery step seems consistent and correct. \n\n[Final Answer] The answer is 15 \\n#### 15": [
+            70.0
+        ],
+        "I Don't Know": [
+            -90.0
+        ]
+    },
+    "hints_bank": {},
+    "history_bank": {
+        "[reasoning process] Annika started with $50. She spent half of it on food and snacks, which is calculated as follows: \n\n\\[\n\\text{Amount spent on food and snacks} = \\frac{50}{2} = 25\n\\]\n\nAfter spending $25 on food and snacks, we can calculate how much she has left:\n\n\\[\n\\text{Amount left after food and snacks} = 50 - 25 = 25\n\\]\n\nNext, she spent an additional $10 for rides. Now, we subtract this amount from the remaining $25:\n\n\\[\n\\text{Amount left after rides} = 25 - 10 = 15\n\\]\n\nNow we know she has $15 left after all her expenses. \n\n[Verification] Let's double-check the calculations: \n- Starting with $50, spending $25 on food leaves $25.\n- Spending another $10 for rides leaves $15. \n\nEvery step seems consistent and correct. \n\n[Final Answer] The answer is 15 \\n#### 15": [
+            "Question: Annika brought $50 to the town fair. She spent half of it on food and snacks, and an additional $10 for rides. How much, in dollars, is left?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "[reasoning process] Annika started with $50. She spent half of it on food and snacks, which is calculated as follows: \n\n\\[\n\\text{Amount spent on food and snacks} = \\frac{50}{2} = 25\n\\]\n\nAfter spending $25 on food and snacks, we can calculate how much she has left:\n\n\\[\n\\text{Amount left after food and snacks} = 50 - 25 = 25\n\\]\n\nNext, she spent an additional $10 for rides. Now, we subtract this amount from the remaining $25:\n\n\\[\n\\text{Amount left after rides} = 25 - 10 = 15\n\\]\n\nNow we know she has $15 left after all her expenses. \n\n[Verification] Let's double-check the calculations: \n- Starting with $50, spending $25 on food leaves $25.\n- Spending another $10 for rides leaves $15. \n\nEvery step seems consistent and correct. \n\n[Final Answer] The answer is 15 \\n#### 15"
+        ],
+        "I Don't Know": [
+            "Question: Annika brought $50 to the town fair. She spent half of it on food and snacks, and an additional $10 for rides. How much, in dollars, is left?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "I Don't Know"
+        ]
+    },
+    "hints_reward_imp_bank": {},
+    "fathers": {
+        "[reasoning process] Annika started with $50. She spent half of it on food and snacks, which is calculated as follows: \n\n\\[\n\\text{Amount spent on food and snacks} = \\frac{50}{2} = 25\n\\]\n\nAfter spending $25 on food and snacks, we can calculate how much she has left:\n\n\\[\n\\text{Amount left after food and snacks} = 50 - 25 = 25\n\\]\n\nNext, she spent an additional $10 for rides. Now, we subtract this amount from the remaining $25:\n\n\\[\n\\text{Amount left after rides} = 25 - 10 = 15\n\\]\n\nNow we know she has $15 left after all her expenses. \n\n[Verification] Let's double-check the calculations: \n- Starting with $50, spending $25 on food leaves $25.\n- Spending another $10 for rides leaves $15. \n\nEvery step seems consistent and correct. \n\n[Final Answer] The answer is 15 \\n#### 15": null,
+        "I Don't Know": null
+    },
+    "childs": {
+        "[reasoning process] Annika started with $50. She spent half of it on food and snacks, which is calculated as follows: \n\n\\[\n\\text{Amount spent on food and snacks} = \\frac{50}{2} = 25\n\\]\n\nAfter spending $25 on food and snacks, we can calculate how much she has left:\n\n\\[\n\\text{Amount left after food and snacks} = 50 - 25 = 25\n\\]\n\nNext, she spent an additional $10 for rides. Now, we subtract this amount from the remaining $25:\n\n\\[\n\\text{Amount left after rides} = 25 - 10 = 15\n\\]\n\nNow we know she has $15 left after all her expenses. \n\n[Verification] Let's double-check the calculations: \n- Starting with $50, spending $25 on food leaves $25.\n- Spending another $10 for rides leaves $15. \n\nEvery step seems consistent and correct. \n\n[Final Answer] The answer is 15 \\n#### 15": [],
+        "I Don't Know": []
+    },
+    "ucb_bank": {}
+}

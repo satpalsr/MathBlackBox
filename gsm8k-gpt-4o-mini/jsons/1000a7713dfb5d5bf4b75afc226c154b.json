@@ -1,0 +1,44 @@
+{
+    "query": "It is approximately 1955 kilometers from San Diego, California to New York City, New York. If Bernice drove 325 kilometers for 4 days, how many kilometers will she still need to drive?",
+    "ground_truth": "325 * 4 = <<325*4=1300>>1300 km\n1955 - 1300 = <<1955-1300=655>>655 km\nBernice will still have 655 kilometers to travel.\n#### 655",
+    "hints_list": [],
+    "answers_list": [
+        "[reasoning process] To determine how many kilometers Bernice still needs to drive, we first need to find out how far she has already driven in four days. Since she drives 325 kilometers each day for 4 days, we can calculate the total distance driven as follows:\n\nTotal distance driven = daily distance × number of days = 325 kilometers/day × 4 days = 1300 kilometers.\n\nNext, we need to subtract the distance Bernice has already driven from the total distance from San Diego to New York City:\n\nRemaining distance = total distance - distance driven = 1955 kilometers - 1300 kilometers = 655 kilometers.\n\n[Verification] Let's verify the calculations:\n1. Total distance driven: 325 kilometers/day × 4 days = 1300 kilometers. Correct.\n2. Remaining distance: 1955 kilometers - 1300 kilometers = 655 kilometers. Correct.\n\nTherefore, Bernice still needs to drive 655 kilometers to reach New York City.\n\n[Final Answer] The answer is 655 \\n#### 655",
+        "I Don't Know"
+    ],
+    "ground_truth_hints": "",
+    "hints_prompt": "Question: It is approximately 1955 kilometers from San Diego, California to New York City, New York. If Bernice drove 325 kilometers for 4 days, how many kilometers will she still need to drive?\nCould you provide me with the thought process to solve this problem, but please don’t give me the answer or calculation, just the thought process?",
+    "to_explore": [
+        "[reasoning process] To determine how many kilometers Bernice still needs to drive, we first need to find out how far she has already driven in four days. Since she drives 325 kilometers each day for 4 days, we can calculate the total distance driven as follows:\n\nTotal distance driven = daily distance × number of days = 325 kilometers/day × 4 days = 1300 kilometers.\n\nNext, we need to subtract the distance Bernice has already driven from the total distance from San Diego to New York City:\n\nRemaining distance = total distance - distance driven = 1955 kilometers - 1300 kilometers = 655 kilometers.\n\n[Verification] Let's verify the calculations:\n1. Total distance driven: 325 kilometers/day × 4 days = 1300 kilometers. Correct.\n2. Remaining distance: 1955 kilometers - 1300 kilometers = 655 kilometers. Correct.\n\nTherefore, Bernice still needs to drive 655 kilometers to reach New York City.\n\n[Final Answer] The answer is 655 \\n#### 655",
+        "I Don't Know"
+    ],
+    "to_explore_reward": {
+        "[reasoning process] To determine how many kilometers Bernice still needs to drive, we first need to find out how far she has already driven in four days. Since she drives 325 kilometers each day for 4 days, we can calculate the total distance driven as follows:\n\nTotal distance driven = daily distance × number of days = 325 kilometers/day × 4 days = 1300 kilometers.\n\nNext, we need to subtract the distance Bernice has already driven from the total distance from San Diego to New York City:\n\nRemaining distance = total distance - distance driven = 1955 kilometers - 1300 kilometers = 655 kilometers.\n\n[Verification] Let's verify the calculations:\n1. Total distance driven: 325 kilometers/day × 4 days = 1300 kilometers. Correct.\n2. Remaining distance: 1955 kilometers - 1300 kilometers = 655 kilometers. Correct.\n\nTherefore, Bernice still needs to drive 655 kilometers to reach New York City.\n\n[Final Answer] The answer is 655 \\n#### 655": [
+            75.0
+        ],
+        "I Don't Know": [
+            -100.0
+        ]
+    },
+    "hints_bank": {},
+    "history_bank": {
+        "[reasoning process] To determine how many kilometers Bernice still needs to drive, we first need to find out how far she has already driven in four days. Since she drives 325 kilometers each day for 4 days, we can calculate the total distance driven as follows:\n\nTotal distance driven = daily distance × number of days = 325 kilometers/day × 4 days = 1300 kilometers.\n\nNext, we need to subtract the distance Bernice has already driven from the total distance from San Diego to New York City:\n\nRemaining distance = total distance - distance driven = 1955 kilometers - 1300 kilometers = 655 kilometers.\n\n[Verification] Let's verify the calculations:\n1. Total distance driven: 325 kilometers/day × 4 days = 1300 kilometers. Correct.\n2. Remaining distance: 1955 kilometers - 1300 kilometers = 655 kilometers. Correct.\n\nTherefore, Bernice still needs to drive 655 kilometers to reach New York City.\n\n[Final Answer] The answer is 655 \\n#### 655": [
+            "Question: It is approximately 1955 kilometers from San Diego, California to New York City, New York. If Bernice drove 325 kilometers for 4 days, how many kilometers will she still need to drive?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "[reasoning process] To determine how many kilometers Bernice still needs to drive, we first need to find out how far she has already driven in four days. Since she drives 325 kilometers each day for 4 days, we can calculate the total distance driven as follows:\n\nTotal distance driven = daily distance × number of days = 325 kilometers/day × 4 days = 1300 kilometers.\n\nNext, we need to subtract the distance Bernice has already driven from the total distance from San Diego to New York City:\n\nRemaining distance = total distance - distance driven = 1955 kilometers - 1300 kilometers = 655 kilometers.\n\n[Verification] Let's verify the calculations:\n1. Total distance driven: 325 kilometers/day × 4 days = 1300 kilometers. Correct.\n2. Remaining distance: 1955 kilometers - 1300 kilometers = 655 kilometers. Correct.\n\nTherefore, Bernice still needs to drive 655 kilometers to reach New York City.\n\n[Final Answer] The answer is 655 \\n#### 655"
+        ],
+        "I Don't Know": [
+            "Question: It is approximately 1955 kilometers from San Diego, California to New York City, New York. If Bernice drove 325 kilometers for 4 days, how many kilometers will she still need to drive?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "I Don't Know"
+        ]
+    },
+    "hints_reward_imp_bank": {},
+    "fathers": {
+        "[reasoning process] To determine how many kilometers Bernice still needs to drive, we first need to find out how far she has already driven in four days. Since she drives 325 kilometers each day for 4 days, we can calculate the total distance driven as follows:\n\nTotal distance driven = daily distance × number of days = 325 kilometers/day × 4 days = 1300 kilometers.\n\nNext, we need to subtract the distance Bernice has already driven from the total distance from San Diego to New York City:\n\nRemaining distance = total distance - distance driven = 1955 kilometers - 1300 kilometers = 655 kilometers.\n\n[Verification] Let's verify the calculations:\n1. Total distance driven: 325 kilometers/day × 4 days = 1300 kilometers. Correct.\n2. Remaining distance: 1955 kilometers - 1300 kilometers = 655 kilometers. Correct.\n\nTherefore, Bernice still needs to drive 655 kilometers to reach New York City.\n\n[Final Answer] The answer is 655 \\n#### 655": null,
+        "I Don't Know": null
+    },
+    "childs": {
+        "[reasoning process] To determine how many kilometers Bernice still needs to drive, we first need to find out how far she has already driven in four days. Since she drives 325 kilometers each day for 4 days, we can calculate the total distance driven as follows:\n\nTotal distance driven = daily distance × number of days = 325 kilometers/day × 4 days = 1300 kilometers.\n\nNext, we need to subtract the distance Bernice has already driven from the total distance from San Diego to New York City:\n\nRemaining distance = total distance - distance driven = 1955 kilometers - 1300 kilometers = 655 kilometers.\n\n[Verification] Let's verify the calculations:\n1. Total distance driven: 325 kilometers/day × 4 days = 1300 kilometers. Correct.\n2. Remaining distance: 1955 kilometers - 1300 kilometers = 655 kilometers. Correct.\n\nTherefore, Bernice still needs to drive 655 kilometers to reach New York City.\n\n[Final Answer] The answer is 655 \\n#### 655": [],
+        "I Don't Know": []
+    },
+    "ucb_bank": {}
+}

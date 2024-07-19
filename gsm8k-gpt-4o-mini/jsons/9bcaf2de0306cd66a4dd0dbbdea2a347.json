@@ -1,0 +1,44 @@
+{
+    "query": "Frankie and Binkie went bowling together.  Frankie's score was 15 better more than twice as high as Binkie's. If Binkie bowled a score of 90, what was Frankie's score?",
+    "ground_truth": "Twice Binkie's score is 2*90=<<2*90=180>>180.\nFifteen more than twice Binkie's score is 180+15=<<180+15=195>>195.\n#### 195",
+    "hints_list": [],
+    "answers_list": [
+        "[reasoning process]  \nLet's denote Binkie's score as \\( B \\) and Frankie's score as \\( F \\). We know from the problem that Binkie's score is 90, so \\( B = 90 \\). The problem states that Frankie's score was 15 more than twice Binkie's score.\n\nWe can express Frankie's score using the formula:  \n\\[\nF = 2B + 15\n\\]\n\nNow substituting Binkie's score into the equation:  \n\\[\nF = 2(90) + 15\n\\]\n\nNext, we calculate \\( 2(90) \\):  \n\\[\n2(90) = 180\n\\]\n\nAdding 15 to that gives us:  \n\\[\nF = 180 + 15 = 195\n\\]\n\nSo, Frankie's score is 195.\n\n[Verification]  \nLet's verify the calculations:  \n1. Binkie's score: \\( B = 90 \\)\n2. Twice Binkie's score: \\( 2B = 180 \\)\n3. Adding 15: \\( 180 + 15 = 195 \\)\n\nSince all steps are verified, the calculation is correct.\n\n[Final Answer] The answer is 195  \n#### 195",
+        "I don't know the answer to this question, sorry."
+    ],
+    "ground_truth_hints": "",
+    "hints_prompt": "Question: Frankie and Binkie went bowling together.  Frankie's score was 15 better more than twice as high as Binkie's. If Binkie bowled a score of 90, what was Frankie's score?\nCould you provide me with the thought process to solve this problem, but please don’t give me the answer or calculation, just the thought process?",
+    "to_explore": [
+        "[reasoning process]  \nLet's denote Binkie's score as \\( B \\) and Frankie's score as \\( F \\). We know from the problem that Binkie's score is 90, so \\( B = 90 \\). The problem states that Frankie's score was 15 more than twice Binkie's score.\n\nWe can express Frankie's score using the formula:  \n\\[\nF = 2B + 15\n\\]\n\nNow substituting Binkie's score into the equation:  \n\\[\nF = 2(90) + 15\n\\]\n\nNext, we calculate \\( 2(90) \\):  \n\\[\n2(90) = 180\n\\]\n\nAdding 15 to that gives us:  \n\\[\nF = 180 + 15 = 195\n\\]\n\nSo, Frankie's score is 195.\n\n[Verification]  \nLet's verify the calculations:  \n1. Binkie's score: \\( B = 90 \\)\n2. Twice Binkie's score: \\( 2B = 180 \\)\n3. Adding 15: \\( 180 + 15 = 195 \\)\n\nSince all steps are verified, the calculation is correct.\n\n[Final Answer] The answer is 195  \n#### 195",
+        "I don't know the answer to this question, sorry."
+    ],
+    "to_explore_reward": {
+        "[reasoning process]  \nLet's denote Binkie's score as \\( B \\) and Frankie's score as \\( F \\). We know from the problem that Binkie's score is 90, so \\( B = 90 \\). The problem states that Frankie's score was 15 more than twice Binkie's score.\n\nWe can express Frankie's score using the formula:  \n\\[\nF = 2B + 15\n\\]\n\nNow substituting Binkie's score into the equation:  \n\\[\nF = 2(90) + 15\n\\]\n\nNext, we calculate \\( 2(90) \\):  \n\\[\n2(90) = 180\n\\]\n\nAdding 15 to that gives us:  \n\\[\nF = 180 + 15 = 195\n\\]\n\nSo, Frankie's score is 195.\n\n[Verification]  \nLet's verify the calculations:  \n1. Binkie's score: \\( B = 90 \\)\n2. Twice Binkie's score: \\( 2B = 180 \\)\n3. Adding 15: \\( 180 + 15 = 195 \\)\n\nSince all steps are verified, the calculation is correct.\n\n[Final Answer] The answer is 195  \n#### 195": [
+            75.0
+        ],
+        "I don't know the answer to this question, sorry.": [
+            -95.0
+        ]
+    },
+    "hints_bank": {},
+    "history_bank": {
+        "[reasoning process]  \nLet's denote Binkie's score as \\( B \\) and Frankie's score as \\( F \\). We know from the problem that Binkie's score is 90, so \\( B = 90 \\). The problem states that Frankie's score was 15 more than twice Binkie's score.\n\nWe can express Frankie's score using the formula:  \n\\[\nF = 2B + 15\n\\]\n\nNow substituting Binkie's score into the equation:  \n\\[\nF = 2(90) + 15\n\\]\n\nNext, we calculate \\( 2(90) \\):  \n\\[\n2(90) = 180\n\\]\n\nAdding 15 to that gives us:  \n\\[\nF = 180 + 15 = 195\n\\]\n\nSo, Frankie's score is 195.\n\n[Verification]  \nLet's verify the calculations:  \n1. Binkie's score: \\( B = 90 \\)\n2. Twice Binkie's score: \\( 2B = 180 \\)\n3. Adding 15: \\( 180 + 15 = 195 \\)\n\nSince all steps are verified, the calculation is correct.\n\n[Final Answer] The answer is 195  \n#### 195": [
+            "Question: Frankie and Binkie went bowling together.  Frankie's score was 15 better more than twice as high as Binkie's. If Binkie bowled a score of 90, what was Frankie's score?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "[reasoning process]  \nLet's denote Binkie's score as \\( B \\) and Frankie's score as \\( F \\). We know from the problem that Binkie's score is 90, so \\( B = 90 \\). The problem states that Frankie's score was 15 more than twice Binkie's score.\n\nWe can express Frankie's score using the formula:  \n\\[\nF = 2B + 15\n\\]\n\nNow substituting Binkie's score into the equation:  \n\\[\nF = 2(90) + 15\n\\]\n\nNext, we calculate \\( 2(90) \\):  \n\\[\n2(90) = 180\n\\]\n\nAdding 15 to that gives us:  \n\\[\nF = 180 + 15 = 195\n\\]\n\nSo, Frankie's score is 195.\n\n[Verification]  \nLet's verify the calculations:  \n1. Binkie's score: \\( B = 90 \\)\n2. Twice Binkie's score: \\( 2B = 180 \\)\n3. Adding 15: \\( 180 + 15 = 195 \\)\n\nSince all steps are verified, the calculation is correct.\n\n[Final Answer] The answer is 195  \n#### 195"
+        ],
+        "I don't know the answer to this question, sorry.": [
+            "Question: Frankie and Binkie went bowling together.  Frankie's score was 15 better more than twice as high as Binkie's. If Binkie bowled a score of 90, what was Frankie's score?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "I don't know the answer to this question, sorry."
+        ]
+    },
+    "hints_reward_imp_bank": {},
+    "fathers": {
+        "[reasoning process]  \nLet's denote Binkie's score as \\( B \\) and Frankie's score as \\( F \\). We know from the problem that Binkie's score is 90, so \\( B = 90 \\). The problem states that Frankie's score was 15 more than twice Binkie's score.\n\nWe can express Frankie's score using the formula:  \n\\[\nF = 2B + 15\n\\]\n\nNow substituting Binkie's score into the equation:  \n\\[\nF = 2(90) + 15\n\\]\n\nNext, we calculate \\( 2(90) \\):  \n\\[\n2(90) = 180\n\\]\n\nAdding 15 to that gives us:  \n\\[\nF = 180 + 15 = 195\n\\]\n\nSo, Frankie's score is 195.\n\n[Verification]  \nLet's verify the calculations:  \n1. Binkie's score: \\( B = 90 \\)\n2. Twice Binkie's score: \\( 2B = 180 \\)\n3. Adding 15: \\( 180 + 15 = 195 \\)\n\nSince all steps are verified, the calculation is correct.\n\n[Final Answer] The answer is 195  \n#### 195": null,
+        "I don't know the answer to this question, sorry.": null
+    },
+    "childs": {
+        "[reasoning process]  \nLet's denote Binkie's score as \\( B \\) and Frankie's score as \\( F \\). We know from the problem that Binkie's score is 90, so \\( B = 90 \\). The problem states that Frankie's score was 15 more than twice Binkie's score.\n\nWe can express Frankie's score using the formula:  \n\\[\nF = 2B + 15\n\\]\n\nNow substituting Binkie's score into the equation:  \n\\[\nF = 2(90) + 15\n\\]\n\nNext, we calculate \\( 2(90) \\):  \n\\[\n2(90) = 180\n\\]\n\nAdding 15 to that gives us:  \n\\[\nF = 180 + 15 = 195\n\\]\n\nSo, Frankie's score is 195.\n\n[Verification]  \nLet's verify the calculations:  \n1. Binkie's score: \\( B = 90 \\)\n2. Twice Binkie's score: \\( 2B = 180 \\)\n3. Adding 15: \\( 180 + 15 = 195 \\)\n\nSince all steps are verified, the calculation is correct.\n\n[Final Answer] The answer is 195  \n#### 195": [],
+        "I don't know the answer to this question, sorry.": []
+    },
+    "ucb_bank": {}
+}

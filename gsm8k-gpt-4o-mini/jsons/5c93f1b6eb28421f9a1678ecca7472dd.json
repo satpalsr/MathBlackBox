@@ -1,0 +1,44 @@
+{
+    "query": "Cho hiked 14 kilometers per hour for 8 hours. Chloe hiked 9 kilometers per hour and stopped after 5 hours. How many kilometers farther did Cho hike?",
+    "ground_truth": "Cho = 14 * 8 = <<14*8=112>>112 km\nChloe = 9 * 5 = <<9*5=45>>45 km\n112 - 45 = <<112-45=67>>67 km\nCho hiked 67 kilometers farther than Chloe.\n#### 67",
+    "hints_list": [],
+    "answers_list": [
+        "[reasoning process] To find out how many kilometers farther Cho hiked compared to Chloe, we first need to calculate the total distance each hiker covered during their respective hikes.\n\n1. **Calculate Cho’s distance**:\n   - Cho's speed = 14 kilometers per hour\n   - Time hiked = 8 hours\n   - Distance = speed × time = 14 km/h × 8 h = 112 kilometers\n\n2. **Calculate Chloe’s distance**:\n   - Chloe's speed = 9 kilometers per hour\n   - Time hiked = 5 hours\n   - Distance = speed × time = 9 km/h × 5 h = 45 kilometers\n\n3. **Calculate the difference in distance**:\n   - Difference = Cho's distance - Chloe's distance = 112 km - 45 km = 67 kilometers\n\n[Verification] We have calculated that Cho hiked 112 kilometers and Chloe hiked 45 kilometers. The difference in their distances is 67 kilometers, which aligns with our calculations of each individual's hike. Therefore, the calculations are verified as correct.\n\n[Final Answer] The answer is 67 \\n#### 67",
+        "I Don't Know"
+    ],
+    "ground_truth_hints": "",
+    "hints_prompt": "Question: Cho hiked 14 kilometers per hour for 8 hours. Chloe hiked 9 kilometers per hour and stopped after 5 hours. How many kilometers farther did Cho hike?\nCould you provide me with the thought process to solve this problem, but please don’t give me the answer or calculation, just the thought process?",
+    "to_explore": [
+        "[reasoning process] To find out how many kilometers farther Cho hiked compared to Chloe, we first need to calculate the total distance each hiker covered during their respective hikes.\n\n1. **Calculate Cho’s distance**:\n   - Cho's speed = 14 kilometers per hour\n   - Time hiked = 8 hours\n   - Distance = speed × time = 14 km/h × 8 h = 112 kilometers\n\n2. **Calculate Chloe’s distance**:\n   - Chloe's speed = 9 kilometers per hour\n   - Time hiked = 5 hours\n   - Distance = speed × time = 9 km/h × 5 h = 45 kilometers\n\n3. **Calculate the difference in distance**:\n   - Difference = Cho's distance - Chloe's distance = 112 km - 45 km = 67 kilometers\n\n[Verification] We have calculated that Cho hiked 112 kilometers and Chloe hiked 45 kilometers. The difference in their distances is 67 kilometers, which aligns with our calculations of each individual's hike. Therefore, the calculations are verified as correct.\n\n[Final Answer] The answer is 67 \\n#### 67",
+        "I Don't Know"
+    ],
+    "to_explore_reward": {
+        "[reasoning process] To find out how many kilometers farther Cho hiked compared to Chloe, we first need to calculate the total distance each hiker covered during their respective hikes.\n\n1. **Calculate Cho’s distance**:\n   - Cho's speed = 14 kilometers per hour\n   - Time hiked = 8 hours\n   - Distance = speed × time = 14 km/h × 8 h = 112 kilometers\n\n2. **Calculate Chloe’s distance**:\n   - Chloe's speed = 9 kilometers per hour\n   - Time hiked = 5 hours\n   - Distance = speed × time = 9 km/h × 5 h = 45 kilometers\n\n3. **Calculate the difference in distance**:\n   - Difference = Cho's distance - Chloe's distance = 112 km - 45 km = 67 kilometers\n\n[Verification] We have calculated that Cho hiked 112 kilometers and Chloe hiked 45 kilometers. The difference in their distances is 67 kilometers, which aligns with our calculations of each individual's hike. Therefore, the calculations are verified as correct.\n\n[Final Answer] The answer is 67 \\n#### 67": [
+            75.0
+        ],
+        "I Don't Know": [
+            -85.0
+        ]
+    },
+    "hints_bank": {},
+    "history_bank": {
+        "[reasoning process] To find out how many kilometers farther Cho hiked compared to Chloe, we first need to calculate the total distance each hiker covered during their respective hikes.\n\n1. **Calculate Cho’s distance**:\n   - Cho's speed = 14 kilometers per hour\n   - Time hiked = 8 hours\n   - Distance = speed × time = 14 km/h × 8 h = 112 kilometers\n\n2. **Calculate Chloe’s distance**:\n   - Chloe's speed = 9 kilometers per hour\n   - Time hiked = 5 hours\n   - Distance = speed × time = 9 km/h × 5 h = 45 kilometers\n\n3. **Calculate the difference in distance**:\n   - Difference = Cho's distance - Chloe's distance = 112 km - 45 km = 67 kilometers\n\n[Verification] We have calculated that Cho hiked 112 kilometers and Chloe hiked 45 kilometers. The difference in their distances is 67 kilometers, which aligns with our calculations of each individual's hike. Therefore, the calculations are verified as correct.\n\n[Final Answer] The answer is 67 \\n#### 67": [
+            "Question: Cho hiked 14 kilometers per hour for 8 hours. Chloe hiked 9 kilometers per hour and stopped after 5 hours. How many kilometers farther did Cho hike?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "[reasoning process] To find out how many kilometers farther Cho hiked compared to Chloe, we first need to calculate the total distance each hiker covered during their respective hikes.\n\n1. **Calculate Cho’s distance**:\n   - Cho's speed = 14 kilometers per hour\n   - Time hiked = 8 hours\n   - Distance = speed × time = 14 km/h × 8 h = 112 kilometers\n\n2. **Calculate Chloe’s distance**:\n   - Chloe's speed = 9 kilometers per hour\n   - Time hiked = 5 hours\n   - Distance = speed × time = 9 km/h × 5 h = 45 kilometers\n\n3. **Calculate the difference in distance**:\n   - Difference = Cho's distance - Chloe's distance = 112 km - 45 km = 67 kilometers\n\n[Verification] We have calculated that Cho hiked 112 kilometers and Chloe hiked 45 kilometers. The difference in their distances is 67 kilometers, which aligns with our calculations of each individual's hike. Therefore, the calculations are verified as correct.\n\n[Final Answer] The answer is 67 \\n#### 67"
+        ],
+        "I Don't Know": [
+            "Question: Cho hiked 14 kilometers per hour for 8 hours. Chloe hiked 9 kilometers per hour and stopped after 5 hours. How many kilometers farther did Cho hike?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "I Don't Know"
+        ]
+    },
+    "hints_reward_imp_bank": {},
+    "fathers": {
+        "[reasoning process] To find out how many kilometers farther Cho hiked compared to Chloe, we first need to calculate the total distance each hiker covered during their respective hikes.\n\n1. **Calculate Cho’s distance**:\n   - Cho's speed = 14 kilometers per hour\n   - Time hiked = 8 hours\n   - Distance = speed × time = 14 km/h × 8 h = 112 kilometers\n\n2. **Calculate Chloe’s distance**:\n   - Chloe's speed = 9 kilometers per hour\n   - Time hiked = 5 hours\n   - Distance = speed × time = 9 km/h × 5 h = 45 kilometers\n\n3. **Calculate the difference in distance**:\n   - Difference = Cho's distance - Chloe's distance = 112 km - 45 km = 67 kilometers\n\n[Verification] We have calculated that Cho hiked 112 kilometers and Chloe hiked 45 kilometers. The difference in their distances is 67 kilometers, which aligns with our calculations of each individual's hike. Therefore, the calculations are verified as correct.\n\n[Final Answer] The answer is 67 \\n#### 67": null,
+        "I Don't Know": null
+    },
+    "childs": {
+        "[reasoning process] To find out how many kilometers farther Cho hiked compared to Chloe, we first need to calculate the total distance each hiker covered during their respective hikes.\n\n1. **Calculate Cho’s distance**:\n   - Cho's speed = 14 kilometers per hour\n   - Time hiked = 8 hours\n   - Distance = speed × time = 14 km/h × 8 h = 112 kilometers\n\n2. **Calculate Chloe’s distance**:\n   - Chloe's speed = 9 kilometers per hour\n   - Time hiked = 5 hours\n   - Distance = speed × time = 9 km/h × 5 h = 45 kilometers\n\n3. **Calculate the difference in distance**:\n   - Difference = Cho's distance - Chloe's distance = 112 km - 45 km = 67 kilometers\n\n[Verification] We have calculated that Cho hiked 112 kilometers and Chloe hiked 45 kilometers. The difference in their distances is 67 kilometers, which aligns with our calculations of each individual's hike. Therefore, the calculations are verified as correct.\n\n[Final Answer] The answer is 67 \\n#### 67": [],
+        "I Don't Know": []
+    },
+    "ucb_bank": {}
+}

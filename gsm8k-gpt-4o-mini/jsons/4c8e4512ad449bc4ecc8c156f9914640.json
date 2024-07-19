@@ -1,0 +1,44 @@
+{
+    "query": "Jimmy has $2 more than twice the money Ethel has. If Ethal has $8, how much money is Jimmy having?",
+    "ground_truth": "The total amount of money jimmy has 2*$8 = $<<2*8=16>>16 more than Ethel.\nIf Jimmy has $2 more than twice the money Ethel has, he has 2+16 = $<<2+16=18>>18\n#### 18",
+    "hints_list": [],
+    "answers_list": [
+        "[Reasoning process]\n\n1. Determine how much money Ethel has: Ethel has $8.\n2. Express Jimmy's money in terms of Ethel's money according to the problem: Jimmy has $2 more than twice the money Ethel has.\n\n[Calculation]\n- Twice the money Ethel has: 2 * $8 = $16\n- Adding $2 to the twice amount: $16 + $2 = $18\n\n[Verification]\n- Ethel has $8.\n- Twice Ethel's money is $16.\n- Adding $2 to that amount, Jimmy should have: $16 + $2 = $18\n\n[Final Answer] The answer is $18\n#### $18",
+        "I don't know how to solve this question."
+    ],
+    "ground_truth_hints": "",
+    "hints_prompt": "Question: Jimmy has $2 more than twice the money Ethel has. If Ethal has $8, how much money is Jimmy having?\nCould you provide me with the thought process to solve this problem, but please don’t give me the answer or calculation, just the thought process?",
+    "to_explore": [
+        "[Reasoning process]\n\n1. Determine how much money Ethel has: Ethel has $8.\n2. Express Jimmy's money in terms of Ethel's money according to the problem: Jimmy has $2 more than twice the money Ethel has.\n\n[Calculation]\n- Twice the money Ethel has: 2 * $8 = $16\n- Adding $2 to the twice amount: $16 + $2 = $18\n\n[Verification]\n- Ethel has $8.\n- Twice Ethel's money is $16.\n- Adding $2 to that amount, Jimmy should have: $16 + $2 = $18\n\n[Final Answer] The answer is $18\n#### $18",
+        "I don't know how to solve this question."
+    ],
+    "to_explore_reward": {
+        "[Reasoning process]\n\n1. Determine how much money Ethel has: Ethel has $8.\n2. Express Jimmy's money in terms of Ethel's money according to the problem: Jimmy has $2 more than twice the money Ethel has.\n\n[Calculation]\n- Twice the money Ethel has: 2 * $8 = $16\n- Adding $2 to the twice amount: $16 + $2 = $18\n\n[Verification]\n- Ethel has $8.\n- Twice Ethel's money is $16.\n- Adding $2 to that amount, Jimmy should have: $16 + $2 = $18\n\n[Final Answer] The answer is $18\n#### $18": [
+            62.0
+        ],
+        "I don't know how to solve this question.": [
+            -100.0
+        ]
+    },
+    "hints_bank": {},
+    "history_bank": {
+        "[Reasoning process]\n\n1. Determine how much money Ethel has: Ethel has $8.\n2. Express Jimmy's money in terms of Ethel's money according to the problem: Jimmy has $2 more than twice the money Ethel has.\n\n[Calculation]\n- Twice the money Ethel has: 2 * $8 = $16\n- Adding $2 to the twice amount: $16 + $2 = $18\n\n[Verification]\n- Ethel has $8.\n- Twice Ethel's money is $16.\n- Adding $2 to that amount, Jimmy should have: $16 + $2 = $18\n\n[Final Answer] The answer is $18\n#### $18": [
+            "Question: Jimmy has $2 more than twice the money Ethel has. If Ethal has $8, how much money is Jimmy having?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "[Reasoning process]\n\n1. Determine how much money Ethel has: Ethel has $8.\n2. Express Jimmy's money in terms of Ethel's money according to the problem: Jimmy has $2 more than twice the money Ethel has.\n\n[Calculation]\n- Twice the money Ethel has: 2 * $8 = $16\n- Adding $2 to the twice amount: $16 + $2 = $18\n\n[Verification]\n- Ethel has $8.\n- Twice Ethel's money is $16.\n- Adding $2 to that amount, Jimmy should have: $16 + $2 = $18\n\n[Final Answer] The answer is $18\n#### $18"
+        ],
+        "I don't know how to solve this question.": [
+            "Question: Jimmy has $2 more than twice the money Ethel has. If Ethal has $8, how much money is Jimmy having?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "I don't know how to solve this question."
+        ]
+    },
+    "hints_reward_imp_bank": {},
+    "fathers": {
+        "[Reasoning process]\n\n1. Determine how much money Ethel has: Ethel has $8.\n2. Express Jimmy's money in terms of Ethel's money according to the problem: Jimmy has $2 more than twice the money Ethel has.\n\n[Calculation]\n- Twice the money Ethel has: 2 * $8 = $16\n- Adding $2 to the twice amount: $16 + $2 = $18\n\n[Verification]\n- Ethel has $8.\n- Twice Ethel's money is $16.\n- Adding $2 to that amount, Jimmy should have: $16 + $2 = $18\n\n[Final Answer] The answer is $18\n#### $18": null,
+        "I don't know how to solve this question.": null
+    },
+    "childs": {
+        "[Reasoning process]\n\n1. Determine how much money Ethel has: Ethel has $8.\n2. Express Jimmy's money in terms of Ethel's money according to the problem: Jimmy has $2 more than twice the money Ethel has.\n\n[Calculation]\n- Twice the money Ethel has: 2 * $8 = $16\n- Adding $2 to the twice amount: $16 + $2 = $18\n\n[Verification]\n- Ethel has $8.\n- Twice Ethel's money is $16.\n- Adding $2 to that amount, Jimmy should have: $16 + $2 = $18\n\n[Final Answer] The answer is $18\n#### $18": [],
+        "I don't know how to solve this question.": []
+    },
+    "ucb_bank": {}
+}

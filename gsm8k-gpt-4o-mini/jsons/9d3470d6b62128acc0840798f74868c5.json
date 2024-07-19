@@ -1,0 +1,44 @@
+{
+    "query": "Keegan was running a car wash with his friend Tashay to raise money for a baseball camp. They needed to raise $200 for the two of them. By 3 pm, Keegan had earned $83 and Tasha had earned $91. How much more did they need to earn to reach their goal?",
+    "ground_truth": "They have raised $174 because 83 plus 91 equals <<83+91=174>>174.\nThey need to raise $26 more because 200 minus 174 equals 26.\n#### 26",
+    "hints_list": [],
+    "answers_list": [
+        "[Reasoning Process] First, we need to determine the total amount of money Keegan and Tashay have earned so far. Keegan earned $83, and Tashay earned $91. We add these two amounts together:\n\n\\[ \n83 + 91 = 174 \n\\]\n\nNext, we compare the total amount earned so far with their goal of $200. We find out how much more they need to earn by subtracting the total amount earned from their goal:\n\n\\[ \n200 - 174 = 26 \n\\]\n\nSo, they need to earn an additional $26 to reach their goal of $200.\n\n[Verification] We calculated the total amount earned correctly: \n\n- Keegan: $83 \n- Tashay: $91 \n- Combined: $83 + $91 = $174 \n\nThen, we checked the remaining amount needed to reach $200:\n\n- Goal: $200 \n- Amount earned: $174 \n- Remaining: $200 - $174 = $26 \n\nThis confirms that our calculations are correct.\n\n[Final Answer] The answer is 26 \\n#### 26",
+        "I don't know the answer to this question, sorry."
+    ],
+    "ground_truth_hints": "",
+    "hints_prompt": "Question: Keegan was running a car wash with his friend Tashay to raise money for a baseball camp. They needed to raise $200 for the two of them. By 3 pm, Keegan had earned $83 and Tasha had earned $91. How much more did they need to earn to reach their goal?\nCould you provide me with the thought process to solve this problem, but please don’t give me the answer or calculation, just the thought process?",
+    "to_explore": [
+        "[Reasoning Process] First, we need to determine the total amount of money Keegan and Tashay have earned so far. Keegan earned $83, and Tashay earned $91. We add these two amounts together:\n\n\\[ \n83 + 91 = 174 \n\\]\n\nNext, we compare the total amount earned so far with their goal of $200. We find out how much more they need to earn by subtracting the total amount earned from their goal:\n\n\\[ \n200 - 174 = 26 \n\\]\n\nSo, they need to earn an additional $26 to reach their goal of $200.\n\n[Verification] We calculated the total amount earned correctly: \n\n- Keegan: $83 \n- Tashay: $91 \n- Combined: $83 + $91 = $174 \n\nThen, we checked the remaining amount needed to reach $200:\n\n- Goal: $200 \n- Amount earned: $174 \n- Remaining: $200 - $174 = $26 \n\nThis confirms that our calculations are correct.\n\n[Final Answer] The answer is 26 \\n#### 26",
+        "I don't know the answer to this question, sorry."
+    ],
+    "to_explore_reward": {
+        "[Reasoning Process] First, we need to determine the total amount of money Keegan and Tashay have earned so far. Keegan earned $83, and Tashay earned $91. We add these two amounts together:\n\n\\[ \n83 + 91 = 174 \n\\]\n\nNext, we compare the total amount earned so far with their goal of $200. We find out how much more they need to earn by subtracting the total amount earned from their goal:\n\n\\[ \n200 - 174 = 26 \n\\]\n\nSo, they need to earn an additional $26 to reach their goal of $200.\n\n[Verification] We calculated the total amount earned correctly: \n\n- Keegan: $83 \n- Tashay: $91 \n- Combined: $83 + $91 = $174 \n\nThen, we checked the remaining amount needed to reach $200:\n\n- Goal: $200 \n- Amount earned: $174 \n- Remaining: $200 - $174 = $26 \n\nThis confirms that our calculations are correct.\n\n[Final Answer] The answer is 26 \\n#### 26": [
+            -30.0
+        ],
+        "I don't know the answer to this question, sorry.": [
+            -90.0
+        ]
+    },
+    "hints_bank": {},
+    "history_bank": {
+        "[Reasoning Process] First, we need to determine the total amount of money Keegan and Tashay have earned so far. Keegan earned $83, and Tashay earned $91. We add these two amounts together:\n\n\\[ \n83 + 91 = 174 \n\\]\n\nNext, we compare the total amount earned so far with their goal of $200. We find out how much more they need to earn by subtracting the total amount earned from their goal:\n\n\\[ \n200 - 174 = 26 \n\\]\n\nSo, they need to earn an additional $26 to reach their goal of $200.\n\n[Verification] We calculated the total amount earned correctly: \n\n- Keegan: $83 \n- Tashay: $91 \n- Combined: $83 + $91 = $174 \n\nThen, we checked the remaining amount needed to reach $200:\n\n- Goal: $200 \n- Amount earned: $174 \n- Remaining: $200 - $174 = $26 \n\nThis confirms that our calculations are correct.\n\n[Final Answer] The answer is 26 \\n#### 26": [
+            "Question: Keegan was running a car wash with his friend Tashay to raise money for a baseball camp. They needed to raise $200 for the two of them. By 3 pm, Keegan had earned $83 and Tasha had earned $91. How much more did they need to earn to reach their goal?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "[Reasoning Process] First, we need to determine the total amount of money Keegan and Tashay have earned so far. Keegan earned $83, and Tashay earned $91. We add these two amounts together:\n\n\\[ \n83 + 91 = 174 \n\\]\n\nNext, we compare the total amount earned so far with their goal of $200. We find out how much more they need to earn by subtracting the total amount earned from their goal:\n\n\\[ \n200 - 174 = 26 \n\\]\n\nSo, they need to earn an additional $26 to reach their goal of $200.\n\n[Verification] We calculated the total amount earned correctly: \n\n- Keegan: $83 \n- Tashay: $91 \n- Combined: $83 + $91 = $174 \n\nThen, we checked the remaining amount needed to reach $200:\n\n- Goal: $200 \n- Amount earned: $174 \n- Remaining: $200 - $174 = $26 \n\nThis confirms that our calculations are correct.\n\n[Final Answer] The answer is 26 \\n#### 26"
+        ],
+        "I don't know the answer to this question, sorry.": [
+            "Question: Keegan was running a car wash with his friend Tashay to raise money for a baseball camp. They needed to raise $200 for the two of them. By 3 pm, Keegan had earned $83 and Tasha had earned $91. How much more did they need to earn to reach their goal?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "I don't know the answer to this question, sorry."
+        ]
+    },
+    "hints_reward_imp_bank": {},
+    "fathers": {
+        "[Reasoning Process] First, we need to determine the total amount of money Keegan and Tashay have earned so far. Keegan earned $83, and Tashay earned $91. We add these two amounts together:\n\n\\[ \n83 + 91 = 174 \n\\]\n\nNext, we compare the total amount earned so far with their goal of $200. We find out how much more they need to earn by subtracting the total amount earned from their goal:\n\n\\[ \n200 - 174 = 26 \n\\]\n\nSo, they need to earn an additional $26 to reach their goal of $200.\n\n[Verification] We calculated the total amount earned correctly: \n\n- Keegan: $83 \n- Tashay: $91 \n- Combined: $83 + $91 = $174 \n\nThen, we checked the remaining amount needed to reach $200:\n\n- Goal: $200 \n- Amount earned: $174 \n- Remaining: $200 - $174 = $26 \n\nThis confirms that our calculations are correct.\n\n[Final Answer] The answer is 26 \\n#### 26": null,
+        "I don't know the answer to this question, sorry.": null
+    },
+    "childs": {
+        "[Reasoning Process] First, we need to determine the total amount of money Keegan and Tashay have earned so far. Keegan earned $83, and Tashay earned $91. We add these two amounts together:\n\n\\[ \n83 + 91 = 174 \n\\]\n\nNext, we compare the total amount earned so far with their goal of $200. We find out how much more they need to earn by subtracting the total amount earned from their goal:\n\n\\[ \n200 - 174 = 26 \n\\]\n\nSo, they need to earn an additional $26 to reach their goal of $200.\n\n[Verification] We calculated the total amount earned correctly: \n\n- Keegan: $83 \n- Tashay: $91 \n- Combined: $83 + $91 = $174 \n\nThen, we checked the remaining amount needed to reach $200:\n\n- Goal: $200 \n- Amount earned: $174 \n- Remaining: $200 - $174 = $26 \n\nThis confirms that our calculations are correct.\n\n[Final Answer] The answer is 26 \\n#### 26": [],
+        "I don't know the answer to this question, sorry.": []
+    },
+    "ucb_bank": {}
+}

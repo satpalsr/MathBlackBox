@@ -1,0 +1,44 @@
+{
+    "query": "A train has 172 people traveling on it. At the first stop 47 people get off and 13 more people get on, and at the next stop another 38 people get off. How many people are on the train?",
+    "ground_truth": "At the first stop 172 people - 47 people = <<172-47=125>>125 people are on the train.\nThen 13 more people get on increasing it to 125 people + 13 people = <<13+125=138>>138 people.\nAt the next stop 138 people - 38 people = <<138-38=100>>100 people remain on the train.\n#### 100",
+    "hints_list": [],
+    "answers_list": [
+        "[reasoning process]  \nWe start with 172 people on the train. At the first stop, 47 people get off the train, which means we need to subtract 47 from the current number.  \n172 - 47 = 125 people left on the train after the first stop.  \nNext, 13 people get on the train, so we add 13 to the current number of passengers.  \n125 + 13 = 138 people on the train after the first stop.  \nAt the next stop, another 38 people get off the train, so we subtract 38 from the current number.  \n138 - 38 = 100 people left on the train after the second stop.  \n\n[Verification]  \nTo verify, let's break it down again:  \n1. Start with 172 people.  \n2. After 47 people get off: 172 - 47 = 125.  \n3. After 13 people get on: 125 + 13 = 138.  \n4. After 38 people get off: 138 - 38 = 100.  \nThis confirms that our calculations are correct.\n\n[Final Answer] The answer is 100  \n#### 100",
+        "I can't understand this question."
+    ],
+    "ground_truth_hints": "",
+    "hints_prompt": "Question: A train has 172 people traveling on it. At the first stop 47 people get off and 13 more people get on, and at the next stop another 38 people get off. How many people are on the train?\nCould you provide me with the thought process to solve this problem, but please don’t give me the answer or calculation, just the thought process?",
+    "to_explore": [
+        "[reasoning process]  \nWe start with 172 people on the train. At the first stop, 47 people get off the train, which means we need to subtract 47 from the current number.  \n172 - 47 = 125 people left on the train after the first stop.  \nNext, 13 people get on the train, so we add 13 to the current number of passengers.  \n125 + 13 = 138 people on the train after the first stop.  \nAt the next stop, another 38 people get off the train, so we subtract 38 from the current number.  \n138 - 38 = 100 people left on the train after the second stop.  \n\n[Verification]  \nTo verify, let's break it down again:  \n1. Start with 172 people.  \n2. After 47 people get off: 172 - 47 = 125.  \n3. After 13 people get on: 125 + 13 = 138.  \n4. After 38 people get off: 138 - 38 = 100.  \nThis confirms that our calculations are correct.\n\n[Final Answer] The answer is 100  \n#### 100",
+        "I can't understand this question."
+    ],
+    "to_explore_reward": {
+        "[reasoning process]  \nWe start with 172 people on the train. At the first stop, 47 people get off the train, which means we need to subtract 47 from the current number.  \n172 - 47 = 125 people left on the train after the first stop.  \nNext, 13 people get on the train, so we add 13 to the current number of passengers.  \n125 + 13 = 138 people on the train after the first stop.  \nAt the next stop, another 38 people get off the train, so we subtract 38 from the current number.  \n138 - 38 = 100 people left on the train after the second stop.  \n\n[Verification]  \nTo verify, let's break it down again:  \n1. Start with 172 people.  \n2. After 47 people get off: 172 - 47 = 125.  \n3. After 13 people get on: 125 + 13 = 138.  \n4. After 38 people get off: 138 - 38 = 100.  \nThis confirms that our calculations are correct.\n\n[Final Answer] The answer is 100  \n#### 100": [
+            70.0
+        ],
+        "I can't understand this question.": [
+            -100.0
+        ]
+    },
+    "hints_bank": {},
+    "history_bank": {
+        "[reasoning process]  \nWe start with 172 people on the train. At the first stop, 47 people get off the train, which means we need to subtract 47 from the current number.  \n172 - 47 = 125 people left on the train after the first stop.  \nNext, 13 people get on the train, so we add 13 to the current number of passengers.  \n125 + 13 = 138 people on the train after the first stop.  \nAt the next stop, another 38 people get off the train, so we subtract 38 from the current number.  \n138 - 38 = 100 people left on the train after the second stop.  \n\n[Verification]  \nTo verify, let's break it down again:  \n1. Start with 172 people.  \n2. After 47 people get off: 172 - 47 = 125.  \n3. After 13 people get on: 125 + 13 = 138.  \n4. After 38 people get off: 138 - 38 = 100.  \nThis confirms that our calculations are correct.\n\n[Final Answer] The answer is 100  \n#### 100": [
+            "Question: A train has 172 people traveling on it. At the first stop 47 people get off and 13 more people get on, and at the next stop another 38 people get off. How many people are on the train?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "[reasoning process]  \nWe start with 172 people on the train. At the first stop, 47 people get off the train, which means we need to subtract 47 from the current number.  \n172 - 47 = 125 people left on the train after the first stop.  \nNext, 13 people get on the train, so we add 13 to the current number of passengers.  \n125 + 13 = 138 people on the train after the first stop.  \nAt the next stop, another 38 people get off the train, so we subtract 38 from the current number.  \n138 - 38 = 100 people left on the train after the second stop.  \n\n[Verification]  \nTo verify, let's break it down again:  \n1. Start with 172 people.  \n2. After 47 people get off: 172 - 47 = 125.  \n3. After 13 people get on: 125 + 13 = 138.  \n4. After 38 people get off: 138 - 38 = 100.  \nThis confirms that our calculations are correct.\n\n[Final Answer] The answer is 100  \n#### 100"
+        ],
+        "I can't understand this question.": [
+            "Question: A train has 172 people traveling on it. At the first stop 47 people get off and 13 more people get on, and at the next stop another 38 people get off. How many people are on the train?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "I can't understand this question."
+        ]
+    },
+    "hints_reward_imp_bank": {},
+    "fathers": {
+        "[reasoning process]  \nWe start with 172 people on the train. At the first stop, 47 people get off the train, which means we need to subtract 47 from the current number.  \n172 - 47 = 125 people left on the train after the first stop.  \nNext, 13 people get on the train, so we add 13 to the current number of passengers.  \n125 + 13 = 138 people on the train after the first stop.  \nAt the next stop, another 38 people get off the train, so we subtract 38 from the current number.  \n138 - 38 = 100 people left on the train after the second stop.  \n\n[Verification]  \nTo verify, let's break it down again:  \n1. Start with 172 people.  \n2. After 47 people get off: 172 - 47 = 125.  \n3. After 13 people get on: 125 + 13 = 138.  \n4. After 38 people get off: 138 - 38 = 100.  \nThis confirms that our calculations are correct.\n\n[Final Answer] The answer is 100  \n#### 100": null,
+        "I can't understand this question.": null
+    },
+    "childs": {
+        "[reasoning process]  \nWe start with 172 people on the train. At the first stop, 47 people get off the train, which means we need to subtract 47 from the current number.  \n172 - 47 = 125 people left on the train after the first stop.  \nNext, 13 people get on the train, so we add 13 to the current number of passengers.  \n125 + 13 = 138 people on the train after the first stop.  \nAt the next stop, another 38 people get off the train, so we subtract 38 from the current number.  \n138 - 38 = 100 people left on the train after the second stop.  \n\n[Verification]  \nTo verify, let's break it down again:  \n1. Start with 172 people.  \n2. After 47 people get off: 172 - 47 = 125.  \n3. After 13 people get on: 125 + 13 = 138.  \n4. After 38 people get off: 138 - 38 = 100.  \nThis confirms that our calculations are correct.\n\n[Final Answer] The answer is 100  \n#### 100": [],
+        "I can't understand this question.": []
+    },
+    "ucb_bank": {}
+}

@@ -1,0 +1,44 @@
+{
+    "query": "Luke ate 2 hot dogs. Thomas ate three times more hot dogs than Luke. John ate half the amount Thomas ate. How many more hot dogs did John eat than Luke?",
+    "ground_truth": "Thomas ate 3 * 2 = <<3*2=6>>6 hot dogs.\nJohn ate 6/2 = <<6/2=3>>3 hot dogs.\nJohn ate 3 - 2 = <<3-2=1>>1 more hot dog than Luke.\n#### 1",
+    "hints_list": [],
+    "answers_list": [
+        "[reasoning process] \n1. Determine how many hot dogs Thomas ate:\n   - Luke ate 2 hot dogs.\n   - Thomas ate three times more hot dogs than Luke.\n   - Therefore, Thomas ate 3 * 2 = 6 hot dogs.\n\n2. Determine how many hot dogs John ate:\n   - John ate half the amount Thomas ate.\n   - Therefore, John ate 6 / 2 = 3 hot dogs.\n\n3. Calculate how many more hot dogs John ate than Luke:\n   - John ate 3 hot dogs and Luke ate 2 hot dogs.\n   - Therefore, John ate 3 - 2 = 1 more hot dog than Luke.\n\n[Verification]\n- Luke: 2 hot dogs\n- Thomas: 3 times Luke’s, so 3 * 2 = 6 hot dogs\n- John: half of Thomas’s, so 6 / 2 = 3 hot dogs\n- Difference between John and Luke: 3 - 2 = 1 hot dog\n\n[Final Answer] The answer is 1 \n#### 1",
+        "I Don't Know"
+    ],
+    "ground_truth_hints": "",
+    "hints_prompt": "Question: Luke ate 2 hot dogs. Thomas ate three times more hot dogs than Luke. John ate half the amount Thomas ate. How many more hot dogs did John eat than Luke?\nCould you provide me with the thought process to solve this problem, but please don’t give me the answer or calculation, just the thought process?",
+    "to_explore": [
+        "[reasoning process] \n1. Determine how many hot dogs Thomas ate:\n   - Luke ate 2 hot dogs.\n   - Thomas ate three times more hot dogs than Luke.\n   - Therefore, Thomas ate 3 * 2 = 6 hot dogs.\n\n2. Determine how many hot dogs John ate:\n   - John ate half the amount Thomas ate.\n   - Therefore, John ate 6 / 2 = 3 hot dogs.\n\n3. Calculate how many more hot dogs John ate than Luke:\n   - John ate 3 hot dogs and Luke ate 2 hot dogs.\n   - Therefore, John ate 3 - 2 = 1 more hot dog than Luke.\n\n[Verification]\n- Luke: 2 hot dogs\n- Thomas: 3 times Luke’s, so 3 * 2 = 6 hot dogs\n- John: half of Thomas’s, so 6 / 2 = 3 hot dogs\n- Difference between John and Luke: 3 - 2 = 1 hot dog\n\n[Final Answer] The answer is 1 \n#### 1",
+        "I Don't Know"
+    ],
+    "to_explore_reward": {
+        "[reasoning process] \n1. Determine how many hot dogs Thomas ate:\n   - Luke ate 2 hot dogs.\n   - Thomas ate three times more hot dogs than Luke.\n   - Therefore, Thomas ate 3 * 2 = 6 hot dogs.\n\n2. Determine how many hot dogs John ate:\n   - John ate half the amount Thomas ate.\n   - Therefore, John ate 6 / 2 = 3 hot dogs.\n\n3. Calculate how many more hot dogs John ate than Luke:\n   - John ate 3 hot dogs and Luke ate 2 hot dogs.\n   - Therefore, John ate 3 - 2 = 1 more hot dog than Luke.\n\n[Verification]\n- Luke: 2 hot dogs\n- Thomas: 3 times Luke’s, so 3 * 2 = 6 hot dogs\n- John: half of Thomas’s, so 6 / 2 = 3 hot dogs\n- Difference between John and Luke: 3 - 2 = 1 hot dog\n\n[Final Answer] The answer is 1 \n#### 1": [
+            50
+        ],
+        "I Don't Know": [
+            -100.0
+        ]
+    },
+    "hints_bank": {},
+    "history_bank": {
+        "[reasoning process] \n1. Determine how many hot dogs Thomas ate:\n   - Luke ate 2 hot dogs.\n   - Thomas ate three times more hot dogs than Luke.\n   - Therefore, Thomas ate 3 * 2 = 6 hot dogs.\n\n2. Determine how many hot dogs John ate:\n   - John ate half the amount Thomas ate.\n   - Therefore, John ate 6 / 2 = 3 hot dogs.\n\n3. Calculate how many more hot dogs John ate than Luke:\n   - John ate 3 hot dogs and Luke ate 2 hot dogs.\n   - Therefore, John ate 3 - 2 = 1 more hot dog than Luke.\n\n[Verification]\n- Luke: 2 hot dogs\n- Thomas: 3 times Luke’s, so 3 * 2 = 6 hot dogs\n- John: half of Thomas’s, so 6 / 2 = 3 hot dogs\n- Difference between John and Luke: 3 - 2 = 1 hot dog\n\n[Final Answer] The answer is 1 \n#### 1": [
+            "Question: Luke ate 2 hot dogs. Thomas ate three times more hot dogs than Luke. John ate half the amount Thomas ate. How many more hot dogs did John eat than Luke?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "[reasoning process] \n1. Determine how many hot dogs Thomas ate:\n   - Luke ate 2 hot dogs.\n   - Thomas ate three times more hot dogs than Luke.\n   - Therefore, Thomas ate 3 * 2 = 6 hot dogs.\n\n2. Determine how many hot dogs John ate:\n   - John ate half the amount Thomas ate.\n   - Therefore, John ate 6 / 2 = 3 hot dogs.\n\n3. Calculate how many more hot dogs John ate than Luke:\n   - John ate 3 hot dogs and Luke ate 2 hot dogs.\n   - Therefore, John ate 3 - 2 = 1 more hot dog than Luke.\n\n[Verification]\n- Luke: 2 hot dogs\n- Thomas: 3 times Luke’s, so 3 * 2 = 6 hot dogs\n- John: half of Thomas’s, so 6 / 2 = 3 hot dogs\n- Difference between John and Luke: 3 - 2 = 1 hot dog\n\n[Final Answer] The answer is 1 \n#### 1"
+        ],
+        "I Don't Know": [
+            "Question: Luke ate 2 hot dogs. Thomas ate three times more hot dogs than Luke. John ate half the amount Thomas ate. How many more hot dogs did John eat than Luke?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "I Don't Know"
+        ]
+    },
+    "hints_reward_imp_bank": {},
+    "fathers": {
+        "[reasoning process] \n1. Determine how many hot dogs Thomas ate:\n   - Luke ate 2 hot dogs.\n   - Thomas ate three times more hot dogs than Luke.\n   - Therefore, Thomas ate 3 * 2 = 6 hot dogs.\n\n2. Determine how many hot dogs John ate:\n   - John ate half the amount Thomas ate.\n   - Therefore, John ate 6 / 2 = 3 hot dogs.\n\n3. Calculate how many more hot dogs John ate than Luke:\n   - John ate 3 hot dogs and Luke ate 2 hot dogs.\n   - Therefore, John ate 3 - 2 = 1 more hot dog than Luke.\n\n[Verification]\n- Luke: 2 hot dogs\n- Thomas: 3 times Luke’s, so 3 * 2 = 6 hot dogs\n- John: half of Thomas’s, so 6 / 2 = 3 hot dogs\n- Difference between John and Luke: 3 - 2 = 1 hot dog\n\n[Final Answer] The answer is 1 \n#### 1": null,
+        "I Don't Know": null
+    },
+    "childs": {
+        "[reasoning process] \n1. Determine how many hot dogs Thomas ate:\n   - Luke ate 2 hot dogs.\n   - Thomas ate three times more hot dogs than Luke.\n   - Therefore, Thomas ate 3 * 2 = 6 hot dogs.\n\n2. Determine how many hot dogs John ate:\n   - John ate half the amount Thomas ate.\n   - Therefore, John ate 6 / 2 = 3 hot dogs.\n\n3. Calculate how many more hot dogs John ate than Luke:\n   - John ate 3 hot dogs and Luke ate 2 hot dogs.\n   - Therefore, John ate 3 - 2 = 1 more hot dog than Luke.\n\n[Verification]\n- Luke: 2 hot dogs\n- Thomas: 3 times Luke’s, so 3 * 2 = 6 hot dogs\n- John: half of Thomas’s, so 6 / 2 = 3 hot dogs\n- Difference between John and Luke: 3 - 2 = 1 hot dog\n\n[Final Answer] The answer is 1 \n#### 1": [],
+        "I Don't Know": []
+    },
+    "ucb_bank": {}
+}

@@ -1,0 +1,44 @@
+{
+    "query": "John arm wrestles 20 people.  He beats 80%.  How many people did he lose to?",
+    "ground_truth": "He beats 20*.8=<<20*.8=16>>16 people\nSo he loses to 20-16=<<20-16=4>>4 people\n#### 4",
+    "hints_list": [],
+    "answers_list": [
+        "[reasoning process] John arm wrestles a total of 20 people and beats 80% of them. To find out how many people he won against, we can calculate 80% of 20. This can be done by multiplying 20 by 0.8 (which is the decimal form of 80%). \n\nThe calculation is:\n20 * 0.8 = 16\n\nThis means John beats 16 people. To find out how many people he lost to, we subtract the number of people he beat from the total number of people he arm wrestled. \n\nThe calculation for the number of people he lost to is:\n20 - 16 = 4\n\nSo, John lost to 4 people.\n\n[Verification] We started with 20 people and found out that John beat 16 of them. When subtracting the number of people he beat from the total number of people, we calculated 20 - 16 = 4. This confirms that the calculation was performed correctly.\n\n[Final Answer] The answer is 4 \\n#### 4",
+        "I Don't Know"
+    ],
+    "ground_truth_hints": "",
+    "hints_prompt": "Question: John arm wrestles 20 people.  He beats 80%.  How many people did he lose to?\nCould you provide me with the thought process to solve this problem, but please don’t give me the answer or calculation, just the thought process?",
+    "to_explore": [
+        "[reasoning process] John arm wrestles a total of 20 people and beats 80% of them. To find out how many people he won against, we can calculate 80% of 20. This can be done by multiplying 20 by 0.8 (which is the decimal form of 80%). \n\nThe calculation is:\n20 * 0.8 = 16\n\nThis means John beats 16 people. To find out how many people he lost to, we subtract the number of people he beat from the total number of people he arm wrestled. \n\nThe calculation for the number of people he lost to is:\n20 - 16 = 4\n\nSo, John lost to 4 people.\n\n[Verification] We started with 20 people and found out that John beat 16 of them. When subtracting the number of people he beat from the total number of people, we calculated 20 - 16 = 4. This confirms that the calculation was performed correctly.\n\n[Final Answer] The answer is 4 \\n#### 4",
+        "I Don't Know"
+    ],
+    "to_explore_reward": {
+        "[reasoning process] John arm wrestles a total of 20 people and beats 80% of them. To find out how many people he won against, we can calculate 80% of 20. This can be done by multiplying 20 by 0.8 (which is the decimal form of 80%). \n\nThe calculation is:\n20 * 0.8 = 16\n\nThis means John beats 16 people. To find out how many people he lost to, we subtract the number of people he beat from the total number of people he arm wrestled. \n\nThe calculation for the number of people he lost to is:\n20 - 16 = 4\n\nSo, John lost to 4 people.\n\n[Verification] We started with 20 people and found out that John beat 16 of them. When subtracting the number of people he beat from the total number of people, we calculated 20 - 16 = 4. This confirms that the calculation was performed correctly.\n\n[Final Answer] The answer is 4 \\n#### 4": [
+            -15.0
+        ],
+        "I Don't Know": [
+            -80.0
+        ]
+    },
+    "hints_bank": {},
+    "history_bank": {
+        "[reasoning process] John arm wrestles a total of 20 people and beats 80% of them. To find out how many people he won against, we can calculate 80% of 20. This can be done by multiplying 20 by 0.8 (which is the decimal form of 80%). \n\nThe calculation is:\n20 * 0.8 = 16\n\nThis means John beats 16 people. To find out how many people he lost to, we subtract the number of people he beat from the total number of people he arm wrestled. \n\nThe calculation for the number of people he lost to is:\n20 - 16 = 4\n\nSo, John lost to 4 people.\n\n[Verification] We started with 20 people and found out that John beat 16 of them. When subtracting the number of people he beat from the total number of people, we calculated 20 - 16 = 4. This confirms that the calculation was performed correctly.\n\n[Final Answer] The answer is 4 \\n#### 4": [
+            "Question: John arm wrestles 20 people.  He beats 80%.  How many people did he lose to?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "[reasoning process] John arm wrestles a total of 20 people and beats 80% of them. To find out how many people he won against, we can calculate 80% of 20. This can be done by multiplying 20 by 0.8 (which is the decimal form of 80%). \n\nThe calculation is:\n20 * 0.8 = 16\n\nThis means John beats 16 people. To find out how many people he lost to, we subtract the number of people he beat from the total number of people he arm wrestled. \n\nThe calculation for the number of people he lost to is:\n20 - 16 = 4\n\nSo, John lost to 4 people.\n\n[Verification] We started with 20 people and found out that John beat 16 of them. When subtracting the number of people he beat from the total number of people, we calculated 20 - 16 = 4. This confirms that the calculation was performed correctly.\n\n[Final Answer] The answer is 4 \\n#### 4"
+        ],
+        "I Don't Know": [
+            "Question: John arm wrestles 20 people.  He beats 80%.  How many people did he lose to?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "I Don't Know"
+        ]
+    },
+    "hints_reward_imp_bank": {},
+    "fathers": {
+        "[reasoning process] John arm wrestles a total of 20 people and beats 80% of them. To find out how many people he won against, we can calculate 80% of 20. This can be done by multiplying 20 by 0.8 (which is the decimal form of 80%). \n\nThe calculation is:\n20 * 0.8 = 16\n\nThis means John beats 16 people. To find out how many people he lost to, we subtract the number of people he beat from the total number of people he arm wrestled. \n\nThe calculation for the number of people he lost to is:\n20 - 16 = 4\n\nSo, John lost to 4 people.\n\n[Verification] We started with 20 people and found out that John beat 16 of them. When subtracting the number of people he beat from the total number of people, we calculated 20 - 16 = 4. This confirms that the calculation was performed correctly.\n\n[Final Answer] The answer is 4 \\n#### 4": null,
+        "I Don't Know": null
+    },
+    "childs": {
+        "[reasoning process] John arm wrestles a total of 20 people and beats 80% of them. To find out how many people he won against, we can calculate 80% of 20. This can be done by multiplying 20 by 0.8 (which is the decimal form of 80%). \n\nThe calculation is:\n20 * 0.8 = 16\n\nThis means John beats 16 people. To find out how many people he lost to, we subtract the number of people he beat from the total number of people he arm wrestled. \n\nThe calculation for the number of people he lost to is:\n20 - 16 = 4\n\nSo, John lost to 4 people.\n\n[Verification] We started with 20 people and found out that John beat 16 of them. When subtracting the number of people he beat from the total number of people, we calculated 20 - 16 = 4. This confirms that the calculation was performed correctly.\n\n[Final Answer] The answer is 4 \\n#### 4": [],
+        "I Don't Know": []
+    },
+    "ucb_bank": {}
+}

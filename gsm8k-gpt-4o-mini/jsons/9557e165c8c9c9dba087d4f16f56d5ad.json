@@ -1,0 +1,44 @@
+{
+    "query": "Mulan has $40. Her father gave her $100. She buys two pairs of jeans at $30 each and a bag for $20. How much money does Mulan have left?",
+    "ground_truth": "Mulan has a total of $40 + $100 = $<<40+100=140>>140.\nTwo pairs of jeans cost 2 x $30 = $<<2*30=60>>60.\nThus, Mulan spends a total of $60 + $20 = $<<60+20=80>>80.\nTherefore, Mulan has $140 - $80 = $<<140-80=60>>60 left.\n#### 60",
+    "hints_list": [],
+    "answers_list": [
+        "[Reasoning process] First, we need to determine the total amount of money Mulan initially has. Mulan starts with $40 and her father gives her an additional $100.\n\n\\[ 40 + 100 = 140 \\]\n\nSo, Mulan has $140 initially.\n\nNext, we calculate the total cost of the items she buys. She buys two pairs of jeans at $30 each, so the cost for the jeans is:\n\n\\[ 30 \\times 2 = 60 \\]\n\nShe also buys a bag for $20. The total cost of her purchases is:\n\n\\[ 60 + 20 = 80 \\]\n\nTo find out how much money Mulan has left, we subtract the total cost of her purchases from her initial amount of money:\n\n\\[ 140 - 80 = 60 \\]\n\n[Verification] To verify, let's recap: Mulan had $40 and received $100 from her father, making her total $140. She spent $60 on jeans and $20 on a bag, totaling $80 in expenses. Subtracting her expenses from her initial total gives:\n\n\\[ 140 - 80 = 60 \\]\n\n[Final Answer] The answer is 60 \n\n#### 60",
+        "I can't help with this question."
+    ],
+    "ground_truth_hints": "",
+    "hints_prompt": "Question: Mulan has $40. Her father gave her $100. She buys two pairs of jeans at $30 each and a bag for $20. How much money does Mulan have left?\nCould you provide me with the thought process to solve this problem, but please don’t give me the answer or calculation, just the thought process?",
+    "to_explore": [
+        "[Reasoning process] First, we need to determine the total amount of money Mulan initially has. Mulan starts with $40 and her father gives her an additional $100.\n\n\\[ 40 + 100 = 140 \\]\n\nSo, Mulan has $140 initially.\n\nNext, we calculate the total cost of the items she buys. She buys two pairs of jeans at $30 each, so the cost for the jeans is:\n\n\\[ 30 \\times 2 = 60 \\]\n\nShe also buys a bag for $20. The total cost of her purchases is:\n\n\\[ 60 + 20 = 80 \\]\n\nTo find out how much money Mulan has left, we subtract the total cost of her purchases from her initial amount of money:\n\n\\[ 140 - 80 = 60 \\]\n\n[Verification] To verify, let's recap: Mulan had $40 and received $100 from her father, making her total $140. She spent $60 on jeans and $20 on a bag, totaling $80 in expenses. Subtracting her expenses from her initial total gives:\n\n\\[ 140 - 80 = 60 \\]\n\n[Final Answer] The answer is 60 \n\n#### 60",
+        "I can't help with this question."
+    ],
+    "to_explore_reward": {
+        "[Reasoning process] First, we need to determine the total amount of money Mulan initially has. Mulan starts with $40 and her father gives her an additional $100.\n\n\\[ 40 + 100 = 140 \\]\n\nSo, Mulan has $140 initially.\n\nNext, we calculate the total cost of the items she buys. She buys two pairs of jeans at $30 each, so the cost for the jeans is:\n\n\\[ 30 \\times 2 = 60 \\]\n\nShe also buys a bag for $20. The total cost of her purchases is:\n\n\\[ 60 + 20 = 80 \\]\n\nTo find out how much money Mulan has left, we subtract the total cost of her purchases from her initial amount of money:\n\n\\[ 140 - 80 = 60 \\]\n\n[Verification] To verify, let's recap: Mulan had $40 and received $100 from her father, making her total $140. She spent $60 on jeans and $20 on a bag, totaling $80 in expenses. Subtracting her expenses from her initial total gives:\n\n\\[ 140 - 80 = 60 \\]\n\n[Final Answer] The answer is 60 \n\n#### 60": [
+            90.0
+        ],
+        "I can't help with this question.": [
+            -100.0
+        ]
+    },
+    "hints_bank": {},
+    "history_bank": {
+        "[Reasoning process] First, we need to determine the total amount of money Mulan initially has. Mulan starts with $40 and her father gives her an additional $100.\n\n\\[ 40 + 100 = 140 \\]\n\nSo, Mulan has $140 initially.\n\nNext, we calculate the total cost of the items she buys. She buys two pairs of jeans at $30 each, so the cost for the jeans is:\n\n\\[ 30 \\times 2 = 60 \\]\n\nShe also buys a bag for $20. The total cost of her purchases is:\n\n\\[ 60 + 20 = 80 \\]\n\nTo find out how much money Mulan has left, we subtract the total cost of her purchases from her initial amount of money:\n\n\\[ 140 - 80 = 60 \\]\n\n[Verification] To verify, let's recap: Mulan had $40 and received $100 from her father, making her total $140. She spent $60 on jeans and $20 on a bag, totaling $80 in expenses. Subtracting her expenses from her initial total gives:\n\n\\[ 140 - 80 = 60 \\]\n\n[Final Answer] The answer is 60 \n\n#### 60": [
+            "Question: Mulan has $40. Her father gave her $100. She buys two pairs of jeans at $30 each and a bag for $20. How much money does Mulan have left?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "[Reasoning process] First, we need to determine the total amount of money Mulan initially has. Mulan starts with $40 and her father gives her an additional $100.\n\n\\[ 40 + 100 = 140 \\]\n\nSo, Mulan has $140 initially.\n\nNext, we calculate the total cost of the items she buys. She buys two pairs of jeans at $30 each, so the cost for the jeans is:\n\n\\[ 30 \\times 2 = 60 \\]\n\nShe also buys a bag for $20. The total cost of her purchases is:\n\n\\[ 60 + 20 = 80 \\]\n\nTo find out how much money Mulan has left, we subtract the total cost of her purchases from her initial amount of money:\n\n\\[ 140 - 80 = 60 \\]\n\n[Verification] To verify, let's recap: Mulan had $40 and received $100 from her father, making her total $140. She spent $60 on jeans and $20 on a bag, totaling $80 in expenses. Subtracting her expenses from her initial total gives:\n\n\\[ 140 - 80 = 60 \\]\n\n[Final Answer] The answer is 60 \n\n#### 60"
+        ],
+        "I can't help with this question.": [
+            "Question: Mulan has $40. Her father gave her $100. She buys two pairs of jeans at $30 each and a bag for $20. How much money does Mulan have left?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "I can't help with this question."
+        ]
+    },
+    "hints_reward_imp_bank": {},
+    "fathers": {
+        "[Reasoning process] First, we need to determine the total amount of money Mulan initially has. Mulan starts with $40 and her father gives her an additional $100.\n\n\\[ 40 + 100 = 140 \\]\n\nSo, Mulan has $140 initially.\n\nNext, we calculate the total cost of the items she buys. She buys two pairs of jeans at $30 each, so the cost for the jeans is:\n\n\\[ 30 \\times 2 = 60 \\]\n\nShe also buys a bag for $20. The total cost of her purchases is:\n\n\\[ 60 + 20 = 80 \\]\n\nTo find out how much money Mulan has left, we subtract the total cost of her purchases from her initial amount of money:\n\n\\[ 140 - 80 = 60 \\]\n\n[Verification] To verify, let's recap: Mulan had $40 and received $100 from her father, making her total $140. She spent $60 on jeans and $20 on a bag, totaling $80 in expenses. Subtracting her expenses from her initial total gives:\n\n\\[ 140 - 80 = 60 \\]\n\n[Final Answer] The answer is 60 \n\n#### 60": null,
+        "I can't help with this question.": null
+    },
+    "childs": {
+        "[Reasoning process] First, we need to determine the total amount of money Mulan initially has. Mulan starts with $40 and her father gives her an additional $100.\n\n\\[ 40 + 100 = 140 \\]\n\nSo, Mulan has $140 initially.\n\nNext, we calculate the total cost of the items she buys. She buys two pairs of jeans at $30 each, so the cost for the jeans is:\n\n\\[ 30 \\times 2 = 60 \\]\n\nShe also buys a bag for $20. The total cost of her purchases is:\n\n\\[ 60 + 20 = 80 \\]\n\nTo find out how much money Mulan has left, we subtract the total cost of her purchases from her initial amount of money:\n\n\\[ 140 - 80 = 60 \\]\n\n[Verification] To verify, let's recap: Mulan had $40 and received $100 from her father, making her total $140. She spent $60 on jeans and $20 on a bag, totaling $80 in expenses. Subtracting her expenses from her initial total gives:\n\n\\[ 140 - 80 = 60 \\]\n\n[Final Answer] The answer is 60 \n\n#### 60": [],
+        "I can't help with this question.": []
+    },
+    "ucb_bank": {}
+}

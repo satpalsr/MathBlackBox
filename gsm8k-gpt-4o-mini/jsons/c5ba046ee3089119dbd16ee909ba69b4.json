@@ -1,0 +1,44 @@
+{
+    "query": "A tomato vendor decides to switch who he buys his tomatoes for.  He sells 500 tomatoes a day.  He used to buy them for $.5 each but he gets a new vendor who sells them for $.4 each.  How much money does he save a week?",
+    "ground_truth": "He buys 500*7=<<500*7=3500>>3500\nHe used to pay 3500*.5=$<<3500*.5=1750>>1750\nHe now pays 3500*.4=$<<3500*.4=1400>>1400\nSo he saves 1750-1400=$<<1750-1400=350>>350\n#### 350",
+    "hints_list": [],
+    "answers_list": [
+        "[reasoning process] First, let's determine the daily savings the tomato vendor achieves by switching to the new vendor. \n\n1. He used to buy each tomato for $0.50.\n2. Now, he buys each tomato for $0.40.\n3. The difference in cost per tomato is $0.50 - $0.40 = $0.10.\n\nNext, we calculate the total savings per day:\n\n4. The vendor sells 500 tomatoes daily.\n5. The daily savings are 500 tomatoes * $0.10 savings per tomato = $50 per day.\n\nTo find the weekly savings, we multiply the daily savings by the number of days in a week (7):\n\n6. Weekly savings are $50 per day * 7 days = $350.\n\n[Verification] Let's verify these steps to ensure accuracy:\n- Cost difference per tomato: $0.10.\n- Daily savings: 500 tomatoes * $0.10 = $50.\n- Weekly savings: $50 * 7 = $350.\n\n[Final Answer] The answer is $350.\n#### $350",
+        "I Don't Know"
+    ],
+    "ground_truth_hints": "",
+    "hints_prompt": "Question: A tomato vendor decides to switch who he buys his tomatoes for.  He sells 500 tomatoes a day.  He used to buy them for $.5 each but he gets a new vendor who sells them for $.4 each.  How much money does he save a week?\nCould you provide me with the thought process to solve this problem, but please don’t give me the answer or calculation, just the thought process?",
+    "to_explore": [
+        "[reasoning process] First, let's determine the daily savings the tomato vendor achieves by switching to the new vendor. \n\n1. He used to buy each tomato for $0.50.\n2. Now, he buys each tomato for $0.40.\n3. The difference in cost per tomato is $0.50 - $0.40 = $0.10.\n\nNext, we calculate the total savings per day:\n\n4. The vendor sells 500 tomatoes daily.\n5. The daily savings are 500 tomatoes * $0.10 savings per tomato = $50 per day.\n\nTo find the weekly savings, we multiply the daily savings by the number of days in a week (7):\n\n6. Weekly savings are $50 per day * 7 days = $350.\n\n[Verification] Let's verify these steps to ensure accuracy:\n- Cost difference per tomato: $0.10.\n- Daily savings: 500 tomatoes * $0.10 = $50.\n- Weekly savings: $50 * 7 = $350.\n\n[Final Answer] The answer is $350.\n#### $350",
+        "I Don't Know"
+    ],
+    "to_explore_reward": {
+        "[reasoning process] First, let's determine the daily savings the tomato vendor achieves by switching to the new vendor. \n\n1. He used to buy each tomato for $0.50.\n2. Now, he buys each tomato for $0.40.\n3. The difference in cost per tomato is $0.50 - $0.40 = $0.10.\n\nNext, we calculate the total savings per day:\n\n4. The vendor sells 500 tomatoes daily.\n5. The daily savings are 500 tomatoes * $0.10 savings per tomato = $50 per day.\n\nTo find the weekly savings, we multiply the daily savings by the number of days in a week (7):\n\n6. Weekly savings are $50 per day * 7 days = $350.\n\n[Verification] Let's verify these steps to ensure accuracy:\n- Cost difference per tomato: $0.10.\n- Daily savings: 500 tomatoes * $0.10 = $50.\n- Weekly savings: $50 * 7 = $350.\n\n[Final Answer] The answer is $350.\n#### $350": [
+            50
+        ],
+        "I Don't Know": [
+            -100.0
+        ]
+    },
+    "hints_bank": {},
+    "history_bank": {
+        "[reasoning process] First, let's determine the daily savings the tomato vendor achieves by switching to the new vendor. \n\n1. He used to buy each tomato for $0.50.\n2. Now, he buys each tomato for $0.40.\n3. The difference in cost per tomato is $0.50 - $0.40 = $0.10.\n\nNext, we calculate the total savings per day:\n\n4. The vendor sells 500 tomatoes daily.\n5. The daily savings are 500 tomatoes * $0.10 savings per tomato = $50 per day.\n\nTo find the weekly savings, we multiply the daily savings by the number of days in a week (7):\n\n6. Weekly savings are $50 per day * 7 days = $350.\n\n[Verification] Let's verify these steps to ensure accuracy:\n- Cost difference per tomato: $0.10.\n- Daily savings: 500 tomatoes * $0.10 = $50.\n- Weekly savings: $50 * 7 = $350.\n\n[Final Answer] The answer is $350.\n#### $350": [
+            "Question: A tomato vendor decides to switch who he buys his tomatoes for.  He sells 500 tomatoes a day.  He used to buy them for $.5 each but he gets a new vendor who sells them for $.4 each.  How much money does he save a week?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "[reasoning process] First, let's determine the daily savings the tomato vendor achieves by switching to the new vendor. \n\n1. He used to buy each tomato for $0.50.\n2. Now, he buys each tomato for $0.40.\n3. The difference in cost per tomato is $0.50 - $0.40 = $0.10.\n\nNext, we calculate the total savings per day:\n\n4. The vendor sells 500 tomatoes daily.\n5. The daily savings are 500 tomatoes * $0.10 savings per tomato = $50 per day.\n\nTo find the weekly savings, we multiply the daily savings by the number of days in a week (7):\n\n6. Weekly savings are $50 per day * 7 days = $350.\n\n[Verification] Let's verify these steps to ensure accuracy:\n- Cost difference per tomato: $0.10.\n- Daily savings: 500 tomatoes * $0.10 = $50.\n- Weekly savings: $50 * 7 = $350.\n\n[Final Answer] The answer is $350.\n#### $350"
+        ],
+        "I Don't Know": [
+            "Question: A tomato vendor decides to switch who he buys his tomatoes for.  He sells 500 tomatoes a day.  He used to buy them for $.5 each but he gets a new vendor who sells them for $.4 each.  How much money does he save a week?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "I Don't Know"
+        ]
+    },
+    "hints_reward_imp_bank": {},
+    "fathers": {
+        "[reasoning process] First, let's determine the daily savings the tomato vendor achieves by switching to the new vendor. \n\n1. He used to buy each tomato for $0.50.\n2. Now, he buys each tomato for $0.40.\n3. The difference in cost per tomato is $0.50 - $0.40 = $0.10.\n\nNext, we calculate the total savings per day:\n\n4. The vendor sells 500 tomatoes daily.\n5. The daily savings are 500 tomatoes * $0.10 savings per tomato = $50 per day.\n\nTo find the weekly savings, we multiply the daily savings by the number of days in a week (7):\n\n6. Weekly savings are $50 per day * 7 days = $350.\n\n[Verification] Let's verify these steps to ensure accuracy:\n- Cost difference per tomato: $0.10.\n- Daily savings: 500 tomatoes * $0.10 = $50.\n- Weekly savings: $50 * 7 = $350.\n\n[Final Answer] The answer is $350.\n#### $350": null,
+        "I Don't Know": null
+    },
+    "childs": {
+        "[reasoning process] First, let's determine the daily savings the tomato vendor achieves by switching to the new vendor. \n\n1. He used to buy each tomato for $0.50.\n2. Now, he buys each tomato for $0.40.\n3. The difference in cost per tomato is $0.50 - $0.40 = $0.10.\n\nNext, we calculate the total savings per day:\n\n4. The vendor sells 500 tomatoes daily.\n5. The daily savings are 500 tomatoes * $0.10 savings per tomato = $50 per day.\n\nTo find the weekly savings, we multiply the daily savings by the number of days in a week (7):\n\n6. Weekly savings are $50 per day * 7 days = $350.\n\n[Verification] Let's verify these steps to ensure accuracy:\n- Cost difference per tomato: $0.10.\n- Daily savings: 500 tomatoes * $0.10 = $50.\n- Weekly savings: $50 * 7 = $350.\n\n[Final Answer] The answer is $350.\n#### $350": [],
+        "I Don't Know": []
+    },
+    "ucb_bank": {}
+}

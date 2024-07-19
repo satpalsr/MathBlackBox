@@ -1,0 +1,44 @@
+{
+    "query": "Charmaine will be 16 years old in 12 years. How old will she be 4 years from now?",
+    "ground_truth": "Charmaine's present age is 16 - 12 = <<16-12=4>>4 years old.\nSo she will be 4 + 4 = <<4+4=8>>8 years old 4 years from now.\n#### 8",
+    "hints_list": [],
+    "answers_list": [
+        "[Reasoning process]\n1. First, understand how Charmaine's age is changing over time.\n2. Determine Charmaine's current age by subtracting the given time span (12 years) from her future age (16 years).\n3. Calculate Charmaine's age 4 years from now by adding 4 years to her current age.\n\n[Calculations]\n1. Charmaine will be 16 years old in 12 years.\n2. To find her current age:\n   - Subtract 12 years from 16 years.\n   - 16 years - 12 years = 4 years old (current age).\n3. To find her age 4 years from now:\n   - Add 4 years to her current age.\n   - 4 years (current age) + 4 years = 8 years old.\n\n[Verification]\n- Charmaine is currently 4 years old.\n- In 12 years, she will be 4 + 12 = 16 years old (matches the given condition).\n- In 4 years from her current age, she will be 4 + 4 = 8 years old.\n\n[Final Answer] The answer is 8 years old.\n#### 8 years old",
+        "I can't understand this question."
+    ],
+    "ground_truth_hints": "",
+    "hints_prompt": "Question: Charmaine will be 16 years old in 12 years. How old will she be 4 years from now?\nCould you provide me with the thought process to solve this problem, but please don’t give me the answer or calculation, just the thought process?",
+    "to_explore": [
+        "[Reasoning process]\n1. First, understand how Charmaine's age is changing over time.\n2. Determine Charmaine's current age by subtracting the given time span (12 years) from her future age (16 years).\n3. Calculate Charmaine's age 4 years from now by adding 4 years to her current age.\n\n[Calculations]\n1. Charmaine will be 16 years old in 12 years.\n2. To find her current age:\n   - Subtract 12 years from 16 years.\n   - 16 years - 12 years = 4 years old (current age).\n3. To find her age 4 years from now:\n   - Add 4 years to her current age.\n   - 4 years (current age) + 4 years = 8 years old.\n\n[Verification]\n- Charmaine is currently 4 years old.\n- In 12 years, she will be 4 + 12 = 16 years old (matches the given condition).\n- In 4 years from her current age, she will be 4 + 4 = 8 years old.\n\n[Final Answer] The answer is 8 years old.\n#### 8 years old",
+        "I can't understand this question."
+    ],
+    "to_explore_reward": {
+        "[Reasoning process]\n1. First, understand how Charmaine's age is changing over time.\n2. Determine Charmaine's current age by subtracting the given time span (12 years) from her future age (16 years).\n3. Calculate Charmaine's age 4 years from now by adding 4 years to her current age.\n\n[Calculations]\n1. Charmaine will be 16 years old in 12 years.\n2. To find her current age:\n   - Subtract 12 years from 16 years.\n   - 16 years - 12 years = 4 years old (current age).\n3. To find her age 4 years from now:\n   - Add 4 years to her current age.\n   - 4 years (current age) + 4 years = 8 years old.\n\n[Verification]\n- Charmaine is currently 4 years old.\n- In 12 years, she will be 4 + 12 = 16 years old (matches the given condition).\n- In 4 years from her current age, she will be 4 + 4 = 8 years old.\n\n[Final Answer] The answer is 8 years old.\n#### 8 years old": [
+            90.0
+        ],
+        "I can't understand this question.": [
+            -100.0
+        ]
+    },
+    "hints_bank": {},
+    "history_bank": {
+        "[Reasoning process]\n1. First, understand how Charmaine's age is changing over time.\n2. Determine Charmaine's current age by subtracting the given time span (12 years) from her future age (16 years).\n3. Calculate Charmaine's age 4 years from now by adding 4 years to her current age.\n\n[Calculations]\n1. Charmaine will be 16 years old in 12 years.\n2. To find her current age:\n   - Subtract 12 years from 16 years.\n   - 16 years - 12 years = 4 years old (current age).\n3. To find her age 4 years from now:\n   - Add 4 years to her current age.\n   - 4 years (current age) + 4 years = 8 years old.\n\n[Verification]\n- Charmaine is currently 4 years old.\n- In 12 years, she will be 4 + 12 = 16 years old (matches the given condition).\n- In 4 years from her current age, she will be 4 + 4 = 8 years old.\n\n[Final Answer] The answer is 8 years old.\n#### 8 years old": [
+            "Question: Charmaine will be 16 years old in 12 years. How old will she be 4 years from now?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "[Reasoning process]\n1. First, understand how Charmaine's age is changing over time.\n2. Determine Charmaine's current age by subtracting the given time span (12 years) from her future age (16 years).\n3. Calculate Charmaine's age 4 years from now by adding 4 years to her current age.\n\n[Calculations]\n1. Charmaine will be 16 years old in 12 years.\n2. To find her current age:\n   - Subtract 12 years from 16 years.\n   - 16 years - 12 years = 4 years old (current age).\n3. To find her age 4 years from now:\n   - Add 4 years to her current age.\n   - 4 years (current age) + 4 years = 8 years old.\n\n[Verification]\n- Charmaine is currently 4 years old.\n- In 12 years, she will be 4 + 12 = 16 years old (matches the given condition).\n- In 4 years from her current age, she will be 4 + 4 = 8 years old.\n\n[Final Answer] The answer is 8 years old.\n#### 8 years old"
+        ],
+        "I can't understand this question.": [
+            "Question: Charmaine will be 16 years old in 12 years. How old will she be 4 years from now?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "I can't understand this question."
+        ]
+    },
+    "hints_reward_imp_bank": {},
+    "fathers": {
+        "[Reasoning process]\n1. First, understand how Charmaine's age is changing over time.\n2. Determine Charmaine's current age by subtracting the given time span (12 years) from her future age (16 years).\n3. Calculate Charmaine's age 4 years from now by adding 4 years to her current age.\n\n[Calculations]\n1. Charmaine will be 16 years old in 12 years.\n2. To find her current age:\n   - Subtract 12 years from 16 years.\n   - 16 years - 12 years = 4 years old (current age).\n3. To find her age 4 years from now:\n   - Add 4 years to her current age.\n   - 4 years (current age) + 4 years = 8 years old.\n\n[Verification]\n- Charmaine is currently 4 years old.\n- In 12 years, she will be 4 + 12 = 16 years old (matches the given condition).\n- In 4 years from her current age, she will be 4 + 4 = 8 years old.\n\n[Final Answer] The answer is 8 years old.\n#### 8 years old": null,
+        "I can't understand this question.": null
+    },
+    "childs": {
+        "[Reasoning process]\n1. First, understand how Charmaine's age is changing over time.\n2. Determine Charmaine's current age by subtracting the given time span (12 years) from her future age (16 years).\n3. Calculate Charmaine's age 4 years from now by adding 4 years to her current age.\n\n[Calculations]\n1. Charmaine will be 16 years old in 12 years.\n2. To find her current age:\n   - Subtract 12 years from 16 years.\n   - 16 years - 12 years = 4 years old (current age).\n3. To find her age 4 years from now:\n   - Add 4 years to her current age.\n   - 4 years (current age) + 4 years = 8 years old.\n\n[Verification]\n- Charmaine is currently 4 years old.\n- In 12 years, she will be 4 + 12 = 16 years old (matches the given condition).\n- In 4 years from her current age, she will be 4 + 4 = 8 years old.\n\n[Final Answer] The answer is 8 years old.\n#### 8 years old": [],
+        "I can't understand this question.": []
+    },
+    "ucb_bank": {}
+}

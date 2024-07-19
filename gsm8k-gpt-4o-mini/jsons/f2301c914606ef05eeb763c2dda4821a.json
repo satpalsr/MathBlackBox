@@ -1,0 +1,44 @@
+{
+    "query": "$18 is shared among 3 boys. The eldest added $5 to his share and added another $10 the following day. He later needed some money and spent $8 from his total so far. After saving some more, he was able to triple the amount he had left after spending the $8. How much does he have now?",
+    "ground_truth": "Each boy gets $18/3 = $<<18/3=6>>6.\nThe eldest had $5+$6=$<<5+6=11>>11 after adding $5 to his share.\nHe added another $10 so he had $11+$10=$<<11+10=21>>21.\nThen he had $21-$8=$<<21-8=13>>13 after spending $8.\nSo, he now has $13*3=$<<13*3=39>>39.\n#### 39",
+    "hints_list": [],
+    "answers_list": [
+        "[reasoning process] First, let's determine the amount of money each boy got from the initial $18 shared among the 3 boys. Each boy gets \\(\\frac{18}{3} = 6\\) dollars.\n\nLet's examine the financial transactions of the eldest boy step by step:\n\n1. The eldest boy originally has $6.\n2. He adds $5 to his share: \\(6 + 5 = 11\\).\n3. The next day, he adds another $10: \\(11 + 10 = 21\\).\n4. He spends $8 from his total: \\(21 - 8 = 13\\).\n5. He triples the amount he has left: \\(13 \\times 3 = 39\\).\n\nTherefore, the eldest boy currently has $39.\n\n[Verification] Going through the steps:\n1. Initial share: $6\n2. Add $5: \\(6 + 5 = 11\\)\n3. Add $10: \\(11 + 10 = 21\\)\n4. Spend $8: \\(21 - 8 = 13\\)\n5. Triple the remaining amount: \\(13 \\times 3 = 39\\)\n\nEverything checks out.\n\n[Final Answer] The answer is 39 \n#### 39",
+        "I can't understand this question."
+    ],
+    "ground_truth_hints": "",
+    "hints_prompt": "Question: $18 is shared among 3 boys. The eldest added $5 to his share and added another $10 the following day. He later needed some money and spent $8 from his total so far. After saving some more, he was able to triple the amount he had left after spending the $8. How much does he have now?\nCould you provide me with the thought process to solve this problem, but please don’t give me the answer or calculation, just the thought process?",
+    "to_explore": [
+        "[reasoning process] First, let's determine the amount of money each boy got from the initial $18 shared among the 3 boys. Each boy gets \\(\\frac{18}{3} = 6\\) dollars.\n\nLet's examine the financial transactions of the eldest boy step by step:\n\n1. The eldest boy originally has $6.\n2. He adds $5 to his share: \\(6 + 5 = 11\\).\n3. The next day, he adds another $10: \\(11 + 10 = 21\\).\n4. He spends $8 from his total: \\(21 - 8 = 13\\).\n5. He triples the amount he has left: \\(13 \\times 3 = 39\\).\n\nTherefore, the eldest boy currently has $39.\n\n[Verification] Going through the steps:\n1. Initial share: $6\n2. Add $5: \\(6 + 5 = 11\\)\n3. Add $10: \\(11 + 10 = 21\\)\n4. Spend $8: \\(21 - 8 = 13\\)\n5. Triple the remaining amount: \\(13 \\times 3 = 39\\)\n\nEverything checks out.\n\n[Final Answer] The answer is 39 \n#### 39",
+        "I can't understand this question."
+    ],
+    "to_explore_reward": {
+        "[reasoning process] First, let's determine the amount of money each boy got from the initial $18 shared among the 3 boys. Each boy gets \\(\\frac{18}{3} = 6\\) dollars.\n\nLet's examine the financial transactions of the eldest boy step by step:\n\n1. The eldest boy originally has $6.\n2. He adds $5 to his share: \\(6 + 5 = 11\\).\n3. The next day, he adds another $10: \\(11 + 10 = 21\\).\n4. He spends $8 from his total: \\(21 - 8 = 13\\).\n5. He triples the amount he has left: \\(13 \\times 3 = 39\\).\n\nTherefore, the eldest boy currently has $39.\n\n[Verification] Going through the steps:\n1. Initial share: $6\n2. Add $5: \\(6 + 5 = 11\\)\n3. Add $10: \\(11 + 10 = 21\\)\n4. Spend $8: \\(21 - 8 = 13\\)\n5. Triple the remaining amount: \\(13 \\times 3 = 39\\)\n\nEverything checks out.\n\n[Final Answer] The answer is 39 \n#### 39": [
+            50
+        ],
+        "I can't understand this question.": [
+            -80.0
+        ]
+    },
+    "hints_bank": {},
+    "history_bank": {
+        "[reasoning process] First, let's determine the amount of money each boy got from the initial $18 shared among the 3 boys. Each boy gets \\(\\frac{18}{3} = 6\\) dollars.\n\nLet's examine the financial transactions of the eldest boy step by step:\n\n1. The eldest boy originally has $6.\n2. He adds $5 to his share: \\(6 + 5 = 11\\).\n3. The next day, he adds another $10: \\(11 + 10 = 21\\).\n4. He spends $8 from his total: \\(21 - 8 = 13\\).\n5. He triples the amount he has left: \\(13 \\times 3 = 39\\).\n\nTherefore, the eldest boy currently has $39.\n\n[Verification] Going through the steps:\n1. Initial share: $6\n2. Add $5: \\(6 + 5 = 11\\)\n3. Add $10: \\(11 + 10 = 21\\)\n4. Spend $8: \\(21 - 8 = 13\\)\n5. Triple the remaining amount: \\(13 \\times 3 = 39\\)\n\nEverything checks out.\n\n[Final Answer] The answer is 39 \n#### 39": [
+            "Question: $18 is shared among 3 boys. The eldest added $5 to his share and added another $10 the following day. He later needed some money and spent $8 from his total so far. After saving some more, he was able to triple the amount he had left after spending the $8. How much does he have now?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "[reasoning process] First, let's determine the amount of money each boy got from the initial $18 shared among the 3 boys. Each boy gets \\(\\frac{18}{3} = 6\\) dollars.\n\nLet's examine the financial transactions of the eldest boy step by step:\n\n1. The eldest boy originally has $6.\n2. He adds $5 to his share: \\(6 + 5 = 11\\).\n3. The next day, he adds another $10: \\(11 + 10 = 21\\).\n4. He spends $8 from his total: \\(21 - 8 = 13\\).\n5. He triples the amount he has left: \\(13 \\times 3 = 39\\).\n\nTherefore, the eldest boy currently has $39.\n\n[Verification] Going through the steps:\n1. Initial share: $6\n2. Add $5: \\(6 + 5 = 11\\)\n3. Add $10: \\(11 + 10 = 21\\)\n4. Spend $8: \\(21 - 8 = 13\\)\n5. Triple the remaining amount: \\(13 \\times 3 = 39\\)\n\nEverything checks out.\n\n[Final Answer] The answer is 39 \n#### 39"
+        ],
+        "I can't understand this question.": [
+            "Question: $18 is shared among 3 boys. The eldest added $5 to his share and added another $10 the following day. He later needed some money and spent $8 from his total so far. After saving some more, he was able to triple the amount he had left after spending the $8. How much does he have now?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "I can't understand this question."
+        ]
+    },
+    "hints_reward_imp_bank": {},
+    "fathers": {
+        "[reasoning process] First, let's determine the amount of money each boy got from the initial $18 shared among the 3 boys. Each boy gets \\(\\frac{18}{3} = 6\\) dollars.\n\nLet's examine the financial transactions of the eldest boy step by step:\n\n1. The eldest boy originally has $6.\n2. He adds $5 to his share: \\(6 + 5 = 11\\).\n3. The next day, he adds another $10: \\(11 + 10 = 21\\).\n4. He spends $8 from his total: \\(21 - 8 = 13\\).\n5. He triples the amount he has left: \\(13 \\times 3 = 39\\).\n\nTherefore, the eldest boy currently has $39.\n\n[Verification] Going through the steps:\n1. Initial share: $6\n2. Add $5: \\(6 + 5 = 11\\)\n3. Add $10: \\(11 + 10 = 21\\)\n4. Spend $8: \\(21 - 8 = 13\\)\n5. Triple the remaining amount: \\(13 \\times 3 = 39\\)\n\nEverything checks out.\n\n[Final Answer] The answer is 39 \n#### 39": null,
+        "I can't understand this question.": null
+    },
+    "childs": {
+        "[reasoning process] First, let's determine the amount of money each boy got from the initial $18 shared among the 3 boys. Each boy gets \\(\\frac{18}{3} = 6\\) dollars.\n\nLet's examine the financial transactions of the eldest boy step by step:\n\n1. The eldest boy originally has $6.\n2. He adds $5 to his share: \\(6 + 5 = 11\\).\n3. The next day, he adds another $10: \\(11 + 10 = 21\\).\n4. He spends $8 from his total: \\(21 - 8 = 13\\).\n5. He triples the amount he has left: \\(13 \\times 3 = 39\\).\n\nTherefore, the eldest boy currently has $39.\n\n[Verification] Going through the steps:\n1. Initial share: $6\n2. Add $5: \\(6 + 5 = 11\\)\n3. Add $10: \\(11 + 10 = 21\\)\n4. Spend $8: \\(21 - 8 = 13\\)\n5. Triple the remaining amount: \\(13 \\times 3 = 39\\)\n\nEverything checks out.\n\n[Final Answer] The answer is 39 \n#### 39": [],
+        "I can't understand this question.": []
+    },
+    "ucb_bank": {}
+}

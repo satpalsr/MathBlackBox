@@ -1,0 +1,44 @@
+{
+    "query": "Rayna has 60 more dollars than Kassidy, and Kassidy has 3/4 times as much money as Aurelia. If Arelia has $120, how much would each have if they decided to add together their money and share equally among them?",
+    "ground_truth": "Since Arelia has $120, and Kassidy has 3/4 times as much money Arelia, Kassidy has 3/4*$120 = $<<3/4*120=90>>90\nThe total amount of, money Kassidy and Arelia have together is $90+$120 = $<<90+120=210>>210\nRayna has $60 more than Kassidy, and since Kassidy has $90, Rayna has $60+$90 = $<<60+90=150>>150\nThe three of them together has $210+$150 = $<<210+150=360>>360\nIf they decide to add up their money and share equally, each person would receive $360/3= $<<360/3=120>>120\n#### 120",
+    "hints_list": [],
+    "answers_list": [
+        "[Reasoning Process]\n\n1. **Determine Kassidy's Money:**\n   - Aurelia has $120.\n   - Kassidy has 3/4 times as much money as Aurelia.\n   - Therefore, Kassidy's money is \\( \\frac{3}{4} \\times 120 = 90 \\) dollars.\n\n2. **Determine Rayna's Money:**\n   - Rayna has 60 more dollars than Kassidy.\n   - Therefore, Rayna's money is \\( 90 + 60 = 150 \\) dollars.\n\n3. **Total Money Combined:**\n   - The total amount of money they have combined is \\( 120 + 90 + 150 \\).\n\n4. **Divide Equally:**\n   - Sum the total money and divide by 3 to find out how much each would get if shared equally.\n\n[Verification]\n\nSum of money:\n\\[ 120 + 90 + 150 = 360 \\]\n\nEqual share for each:\n\\[ \\frac{360}{3} = 120 \\]\n\nFinal Answer:\nEach person would have $120 if they decided to add together their money and share equally.\n\n#### $120",
+        "I can't understand this question."
+    ],
+    "ground_truth_hints": "",
+    "hints_prompt": "Question: Rayna has 60 more dollars than Kassidy, and Kassidy has 3/4 times as much money as Aurelia. If Arelia has $120, how much would each have if they decided to add together their money and share equally among them?\nCould you provide me with the thought process to solve this problem, but please don’t give me the answer or calculation, just the thought process?",
+    "to_explore": [
+        "[Reasoning Process]\n\n1. **Determine Kassidy's Money:**\n   - Aurelia has $120.\n   - Kassidy has 3/4 times as much money as Aurelia.\n   - Therefore, Kassidy's money is \\( \\frac{3}{4} \\times 120 = 90 \\) dollars.\n\n2. **Determine Rayna's Money:**\n   - Rayna has 60 more dollars than Kassidy.\n   - Therefore, Rayna's money is \\( 90 + 60 = 150 \\) dollars.\n\n3. **Total Money Combined:**\n   - The total amount of money they have combined is \\( 120 + 90 + 150 \\).\n\n4. **Divide Equally:**\n   - Sum the total money and divide by 3 to find out how much each would get if shared equally.\n\n[Verification]\n\nSum of money:\n\\[ 120 + 90 + 150 = 360 \\]\n\nEqual share for each:\n\\[ \\frac{360}{3} = 120 \\]\n\nFinal Answer:\nEach person would have $120 if they decided to add together their money and share equally.\n\n#### $120",
+        "I can't understand this question."
+    ],
+    "to_explore_reward": {
+        "[Reasoning Process]\n\n1. **Determine Kassidy's Money:**\n   - Aurelia has $120.\n   - Kassidy has 3/4 times as much money as Aurelia.\n   - Therefore, Kassidy's money is \\( \\frac{3}{4} \\times 120 = 90 \\) dollars.\n\n2. **Determine Rayna's Money:**\n   - Rayna has 60 more dollars than Kassidy.\n   - Therefore, Rayna's money is \\( 90 + 60 = 150 \\) dollars.\n\n3. **Total Money Combined:**\n   - The total amount of money they have combined is \\( 120 + 90 + 150 \\).\n\n4. **Divide Equally:**\n   - Sum the total money and divide by 3 to find out how much each would get if shared equally.\n\n[Verification]\n\nSum of money:\n\\[ 120 + 90 + 150 = 360 \\]\n\nEqual share for each:\n\\[ \\frac{360}{3} = 120 \\]\n\nFinal Answer:\nEach person would have $120 if they decided to add together their money and share equally.\n\n#### $120": [
+            50
+        ],
+        "I can't understand this question.": [
+            -80.0
+        ]
+    },
+    "hints_bank": {},
+    "history_bank": {
+        "[Reasoning Process]\n\n1. **Determine Kassidy's Money:**\n   - Aurelia has $120.\n   - Kassidy has 3/4 times as much money as Aurelia.\n   - Therefore, Kassidy's money is \\( \\frac{3}{4} \\times 120 = 90 \\) dollars.\n\n2. **Determine Rayna's Money:**\n   - Rayna has 60 more dollars than Kassidy.\n   - Therefore, Rayna's money is \\( 90 + 60 = 150 \\) dollars.\n\n3. **Total Money Combined:**\n   - The total amount of money they have combined is \\( 120 + 90 + 150 \\).\n\n4. **Divide Equally:**\n   - Sum the total money and divide by 3 to find out how much each would get if shared equally.\n\n[Verification]\n\nSum of money:\n\\[ 120 + 90 + 150 = 360 \\]\n\nEqual share for each:\n\\[ \\frac{360}{3} = 120 \\]\n\nFinal Answer:\nEach person would have $120 if they decided to add together their money and share equally.\n\n#### $120": [
+            "Question: Rayna has 60 more dollars than Kassidy, and Kassidy has 3/4 times as much money as Aurelia. If Arelia has $120, how much would each have if they decided to add together their money and share equally among them?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "[Reasoning Process]\n\n1. **Determine Kassidy's Money:**\n   - Aurelia has $120.\n   - Kassidy has 3/4 times as much money as Aurelia.\n   - Therefore, Kassidy's money is \\( \\frac{3}{4} \\times 120 = 90 \\) dollars.\n\n2. **Determine Rayna's Money:**\n   - Rayna has 60 more dollars than Kassidy.\n   - Therefore, Rayna's money is \\( 90 + 60 = 150 \\) dollars.\n\n3. **Total Money Combined:**\n   - The total amount of money they have combined is \\( 120 + 90 + 150 \\).\n\n4. **Divide Equally:**\n   - Sum the total money and divide by 3 to find out how much each would get if shared equally.\n\n[Verification]\n\nSum of money:\n\\[ 120 + 90 + 150 = 360 \\]\n\nEqual share for each:\n\\[ \\frac{360}{3} = 120 \\]\n\nFinal Answer:\nEach person would have $120 if they decided to add together their money and share equally.\n\n#### $120"
+        ],
+        "I can't understand this question.": [
+            "Question: Rayna has 60 more dollars than Kassidy, and Kassidy has 3/4 times as much money as Aurelia. If Arelia has $120, how much would each have if they decided to add together their money and share equally among them?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "I can't understand this question."
+        ]
+    },
+    "hints_reward_imp_bank": {},
+    "fathers": {
+        "[Reasoning Process]\n\n1. **Determine Kassidy's Money:**\n   - Aurelia has $120.\n   - Kassidy has 3/4 times as much money as Aurelia.\n   - Therefore, Kassidy's money is \\( \\frac{3}{4} \\times 120 = 90 \\) dollars.\n\n2. **Determine Rayna's Money:**\n   - Rayna has 60 more dollars than Kassidy.\n   - Therefore, Rayna's money is \\( 90 + 60 = 150 \\) dollars.\n\n3. **Total Money Combined:**\n   - The total amount of money they have combined is \\( 120 + 90 + 150 \\).\n\n4. **Divide Equally:**\n   - Sum the total money and divide by 3 to find out how much each would get if shared equally.\n\n[Verification]\n\nSum of money:\n\\[ 120 + 90 + 150 = 360 \\]\n\nEqual share for each:\n\\[ \\frac{360}{3} = 120 \\]\n\nFinal Answer:\nEach person would have $120 if they decided to add together their money and share equally.\n\n#### $120": null,
+        "I can't understand this question.": null
+    },
+    "childs": {
+        "[Reasoning Process]\n\n1. **Determine Kassidy's Money:**\n   - Aurelia has $120.\n   - Kassidy has 3/4 times as much money as Aurelia.\n   - Therefore, Kassidy's money is \\( \\frac{3}{4} \\times 120 = 90 \\) dollars.\n\n2. **Determine Rayna's Money:**\n   - Rayna has 60 more dollars than Kassidy.\n   - Therefore, Rayna's money is \\( 90 + 60 = 150 \\) dollars.\n\n3. **Total Money Combined:**\n   - The total amount of money they have combined is \\( 120 + 90 + 150 \\).\n\n4. **Divide Equally:**\n   - Sum the total money and divide by 3 to find out how much each would get if shared equally.\n\n[Verification]\n\nSum of money:\n\\[ 120 + 90 + 150 = 360 \\]\n\nEqual share for each:\n\\[ \\frac{360}{3} = 120 \\]\n\nFinal Answer:\nEach person would have $120 if they decided to add together their money and share equally.\n\n#### $120": [],
+        "I can't understand this question.": []
+    },
+    "ucb_bank": {}
+}

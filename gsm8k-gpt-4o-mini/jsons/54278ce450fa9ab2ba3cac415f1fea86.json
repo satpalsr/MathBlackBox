@@ -1,0 +1,44 @@
+{
+    "query": "Lani baked 55 cookies. She ate 5 five cookies and placed the rest equally into five jars. How many cookies were in each jar?",
+    "ground_truth": "There were 55 - 5 = <<55-5=50>>50 cookies left after she ate five cookies.\nTherefore, there were 50/5 = <<50/5=10>>10 cookies in each jar.\n#### 10",
+    "hints_list": [],
+    "answers_list": [
+        "[reasoning process] Lani baked a total of 55 cookies. She consumed 5 of those cookies, so we first need to find out how many cookies remain after she ate. We subtract the 5 cookies she ate from 55. This gives us:\n\n55 - 5 = 50 cookies left.\n\nNext, we need to distribute these remaining cookies equally into five jars. To do this, we divide the number of remaining cookies (50) by the number of jars (5):\n\n50 ÷ 5 = 10 cookies per jar.\n\n[Verification] To ensure that our calculations are correct, we can check both steps. First, the number of cookies after eating is confirmed: 55 - 5 = 50 cookies is correct. Then, dividing those 50 cookies by 5 jars indeed results in:\n\n50 ÷ 5 = 10, which is also correct. \n\nTherefore, each jar contains 10 cookies.\n\n[Final Answer] The answer is 10 cookies per jar. \\n#### 10",
+        "I Don't Know"
+    ],
+    "ground_truth_hints": "",
+    "hints_prompt": "Question: Lani baked 55 cookies. She ate 5 five cookies and placed the rest equally into five jars. How many cookies were in each jar?\nCould you provide me with the thought process to solve this problem, but please don’t give me the answer or calculation, just the thought process?",
+    "to_explore": [
+        "[reasoning process] Lani baked a total of 55 cookies. She consumed 5 of those cookies, so we first need to find out how many cookies remain after she ate. We subtract the 5 cookies she ate from 55. This gives us:\n\n55 - 5 = 50 cookies left.\n\nNext, we need to distribute these remaining cookies equally into five jars. To do this, we divide the number of remaining cookies (50) by the number of jars (5):\n\n50 ÷ 5 = 10 cookies per jar.\n\n[Verification] To ensure that our calculations are correct, we can check both steps. First, the number of cookies after eating is confirmed: 55 - 5 = 50 cookies is correct. Then, dividing those 50 cookies by 5 jars indeed results in:\n\n50 ÷ 5 = 10, which is also correct. \n\nTherefore, each jar contains 10 cookies.\n\n[Final Answer] The answer is 10 cookies per jar. \\n#### 10",
+        "I Don't Know"
+    ],
+    "to_explore_reward": {
+        "[reasoning process] Lani baked a total of 55 cookies. She consumed 5 of those cookies, so we first need to find out how many cookies remain after she ate. We subtract the 5 cookies she ate from 55. This gives us:\n\n55 - 5 = 50 cookies left.\n\nNext, we need to distribute these remaining cookies equally into five jars. To do this, we divide the number of remaining cookies (50) by the number of jars (5):\n\n50 ÷ 5 = 10 cookies per jar.\n\n[Verification] To ensure that our calculations are correct, we can check both steps. First, the number of cookies after eating is confirmed: 55 - 5 = 50 cookies is correct. Then, dividing those 50 cookies by 5 jars indeed results in:\n\n50 ÷ 5 = 10, which is also correct. \n\nTherefore, each jar contains 10 cookies.\n\n[Final Answer] The answer is 10 cookies per jar. \\n#### 10": [
+            75.0
+        ],
+        "I Don't Know": [
+            -75.0
+        ]
+    },
+    "hints_bank": {},
+    "history_bank": {
+        "[reasoning process] Lani baked a total of 55 cookies. She consumed 5 of those cookies, so we first need to find out how many cookies remain after she ate. We subtract the 5 cookies she ate from 55. This gives us:\n\n55 - 5 = 50 cookies left.\n\nNext, we need to distribute these remaining cookies equally into five jars. To do this, we divide the number of remaining cookies (50) by the number of jars (5):\n\n50 ÷ 5 = 10 cookies per jar.\n\n[Verification] To ensure that our calculations are correct, we can check both steps. First, the number of cookies after eating is confirmed: 55 - 5 = 50 cookies is correct. Then, dividing those 50 cookies by 5 jars indeed results in:\n\n50 ÷ 5 = 10, which is also correct. \n\nTherefore, each jar contains 10 cookies.\n\n[Final Answer] The answer is 10 cookies per jar. \\n#### 10": [
+            "Question: Lani baked 55 cookies. She ate 5 five cookies and placed the rest equally into five jars. How many cookies were in each jar?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "[reasoning process] Lani baked a total of 55 cookies. She consumed 5 of those cookies, so we first need to find out how many cookies remain after she ate. We subtract the 5 cookies she ate from 55. This gives us:\n\n55 - 5 = 50 cookies left.\n\nNext, we need to distribute these remaining cookies equally into five jars. To do this, we divide the number of remaining cookies (50) by the number of jars (5):\n\n50 ÷ 5 = 10 cookies per jar.\n\n[Verification] To ensure that our calculations are correct, we can check both steps. First, the number of cookies after eating is confirmed: 55 - 5 = 50 cookies is correct. Then, dividing those 50 cookies by 5 jars indeed results in:\n\n50 ÷ 5 = 10, which is also correct. \n\nTherefore, each jar contains 10 cookies.\n\n[Final Answer] The answer is 10 cookies per jar. \\n#### 10"
+        ],
+        "I Don't Know": [
+            "Question: Lani baked 55 cookies. She ate 5 five cookies and placed the rest equally into five jars. How many cookies were in each jar?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "I Don't Know"
+        ]
+    },
+    "hints_reward_imp_bank": {},
+    "fathers": {
+        "[reasoning process] Lani baked a total of 55 cookies. She consumed 5 of those cookies, so we first need to find out how many cookies remain after she ate. We subtract the 5 cookies she ate from 55. This gives us:\n\n55 - 5 = 50 cookies left.\n\nNext, we need to distribute these remaining cookies equally into five jars. To do this, we divide the number of remaining cookies (50) by the number of jars (5):\n\n50 ÷ 5 = 10 cookies per jar.\n\n[Verification] To ensure that our calculations are correct, we can check both steps. First, the number of cookies after eating is confirmed: 55 - 5 = 50 cookies is correct. Then, dividing those 50 cookies by 5 jars indeed results in:\n\n50 ÷ 5 = 10, which is also correct. \n\nTherefore, each jar contains 10 cookies.\n\n[Final Answer] The answer is 10 cookies per jar. \\n#### 10": null,
+        "I Don't Know": null
+    },
+    "childs": {
+        "[reasoning process] Lani baked a total of 55 cookies. She consumed 5 of those cookies, so we first need to find out how many cookies remain after she ate. We subtract the 5 cookies she ate from 55. This gives us:\n\n55 - 5 = 50 cookies left.\n\nNext, we need to distribute these remaining cookies equally into five jars. To do this, we divide the number of remaining cookies (50) by the number of jars (5):\n\n50 ÷ 5 = 10 cookies per jar.\n\n[Verification] To ensure that our calculations are correct, we can check both steps. First, the number of cookies after eating is confirmed: 55 - 5 = 50 cookies is correct. Then, dividing those 50 cookies by 5 jars indeed results in:\n\n50 ÷ 5 = 10, which is also correct. \n\nTherefore, each jar contains 10 cookies.\n\n[Final Answer] The answer is 10 cookies per jar. \\n#### 10": [],
+        "I Don't Know": []
+    },
+    "ucb_bank": {}
+}

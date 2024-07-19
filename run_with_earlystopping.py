@@ -99,7 +99,7 @@ def extract_boxed_answer(pred_str, strip_double_curly_brace=False):
     if answer is None:
         return None
     if strip_double_curly_brace:
-        match = re.match('^\{(.*)\}$', answer)  # noqa: W605
+        match = re.match(r'^\{(.*)\}$', answer)  # noqa: W605
         if match:
             answer = match.group(1)
     return answer
@@ -278,7 +278,7 @@ def strip_string(string):
 
     # remove percentage
     string = string.replace('\\%', '')
-    string = string.replace('\%', '')  # noqa: W605
+    string = string.replace(r'\%', '')  # noqa: W605
 
     string = string.replace(' .', ' 0.')
     string = string.replace('{.', '{0.')
@@ -437,8 +437,8 @@ def create_client(line):
     ip = socket.gethostbyname(node)
     print(ip)
     client = OpenAI(
-    base_url=f"http://{ip}:{port}/v1",
-    api_key="token-abc123",
+    # base_url=f"http://{ip}:{port}/v1",
+    # api_key="token-abc123",
     )
     try:
         client.chat.completions.create(

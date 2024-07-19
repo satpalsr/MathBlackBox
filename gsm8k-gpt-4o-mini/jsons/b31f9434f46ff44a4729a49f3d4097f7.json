@@ -1,0 +1,44 @@
+{
+    "query": "Amber, Micah, and Ahito ran 52 miles in total. Amber ran 8 miles. Micah ran 3.5 times what Amber ran. How many miles did Ahito run?",
+    "ground_truth": "Amber ran <<8=8>>8 miles.\nMicah ran 3.5 * 8 miles = <<3.5*8=28>>28 miles\nAhito ran the rest = 52 - 8 - 28 = <<52-8-28=16>>16 miles\nAhito ran <<16=16>>16 miles.\n#### 16",
+    "hints_list": [],
+    "answers_list": [
+        "[reasoning process]  \nFirst, we can determine how many miles Micah ran by calculating 3.5 times what Amber ran. Since Amber ran 8 miles, we calculate Micah's miles as follows:\n\nMicah's miles = 3.5 * Amber's miles  \nMicah's miles = 3.5 * 8 = 28 miles.\n\nNow, we know the total miles run by all three runners is 52 miles. Therefore, we can find out how many miles Ahito ran by subtracting the miles run by Amber and Micah from the total miles:\n\nAhito's miles = Total miles - (Amber's miles + Micah's miles)  \nAhito's miles = 52 - (8 + 28)  \nAhito's miles = 52 - 36 = 16 miles.\n\nNow, we have determined that Ahito ran 16 miles.\n\n[Verification]  \nLet's verify our calculations:\n- Amber ran 8 miles.\n- Micah ran 28 miles (3.5 * 8).\n- Together, Amber and Micah ran 8 + 28 = 36 miles.\n- The total miles is 52, so Ahito's miles = 52 - 36 = 16 miles.\n\nThe calculations are consistent and correct. \n\n[Final Answer] The answer is 16 \n#### 16",
+        "I Don't Know"
+    ],
+    "ground_truth_hints": "",
+    "hints_prompt": "Question: Amber, Micah, and Ahito ran 52 miles in total. Amber ran 8 miles. Micah ran 3.5 times what Amber ran. How many miles did Ahito run?\nCould you provide me with the thought process to solve this problem, but please don’t give me the answer or calculation, just the thought process?",
+    "to_explore": [
+        "[reasoning process]  \nFirst, we can determine how many miles Micah ran by calculating 3.5 times what Amber ran. Since Amber ran 8 miles, we calculate Micah's miles as follows:\n\nMicah's miles = 3.5 * Amber's miles  \nMicah's miles = 3.5 * 8 = 28 miles.\n\nNow, we know the total miles run by all three runners is 52 miles. Therefore, we can find out how many miles Ahito ran by subtracting the miles run by Amber and Micah from the total miles:\n\nAhito's miles = Total miles - (Amber's miles + Micah's miles)  \nAhito's miles = 52 - (8 + 28)  \nAhito's miles = 52 - 36 = 16 miles.\n\nNow, we have determined that Ahito ran 16 miles.\n\n[Verification]  \nLet's verify our calculations:\n- Amber ran 8 miles.\n- Micah ran 28 miles (3.5 * 8).\n- Together, Amber and Micah ran 8 + 28 = 36 miles.\n- The total miles is 52, so Ahito's miles = 52 - 36 = 16 miles.\n\nThe calculations are consistent and correct. \n\n[Final Answer] The answer is 16 \n#### 16",
+        "I Don't Know"
+    ],
+    "to_explore_reward": {
+        "[reasoning process]  \nFirst, we can determine how many miles Micah ran by calculating 3.5 times what Amber ran. Since Amber ran 8 miles, we calculate Micah's miles as follows:\n\nMicah's miles = 3.5 * Amber's miles  \nMicah's miles = 3.5 * 8 = 28 miles.\n\nNow, we know the total miles run by all three runners is 52 miles. Therefore, we can find out how many miles Ahito ran by subtracting the miles run by Amber and Micah from the total miles:\n\nAhito's miles = Total miles - (Amber's miles + Micah's miles)  \nAhito's miles = 52 - (8 + 28)  \nAhito's miles = 52 - 36 = 16 miles.\n\nNow, we have determined that Ahito ran 16 miles.\n\n[Verification]  \nLet's verify our calculations:\n- Amber ran 8 miles.\n- Micah ran 28 miles (3.5 * 8).\n- Together, Amber and Micah ran 8 + 28 = 36 miles.\n- The total miles is 52, so Ahito's miles = 52 - 36 = 16 miles.\n\nThe calculations are consistent and correct. \n\n[Final Answer] The answer is 16 \n#### 16": [
+            75.0
+        ],
+        "I Don't Know": [
+            -100.0
+        ]
+    },
+    "hints_bank": {},
+    "history_bank": {
+        "[reasoning process]  \nFirst, we can determine how many miles Micah ran by calculating 3.5 times what Amber ran. Since Amber ran 8 miles, we calculate Micah's miles as follows:\n\nMicah's miles = 3.5 * Amber's miles  \nMicah's miles = 3.5 * 8 = 28 miles.\n\nNow, we know the total miles run by all three runners is 52 miles. Therefore, we can find out how many miles Ahito ran by subtracting the miles run by Amber and Micah from the total miles:\n\nAhito's miles = Total miles - (Amber's miles + Micah's miles)  \nAhito's miles = 52 - (8 + 28)  \nAhito's miles = 52 - 36 = 16 miles.\n\nNow, we have determined that Ahito ran 16 miles.\n\n[Verification]  \nLet's verify our calculations:\n- Amber ran 8 miles.\n- Micah ran 28 miles (3.5 * 8).\n- Together, Amber and Micah ran 8 + 28 = 36 miles.\n- The total miles is 52, so Ahito's miles = 52 - 36 = 16 miles.\n\nThe calculations are consistent and correct. \n\n[Final Answer] The answer is 16 \n#### 16": [
+            "Question: Amber, Micah, and Ahito ran 52 miles in total. Amber ran 8 miles. Micah ran 3.5 times what Amber ran. How many miles did Ahito run?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "[reasoning process]  \nFirst, we can determine how many miles Micah ran by calculating 3.5 times what Amber ran. Since Amber ran 8 miles, we calculate Micah's miles as follows:\n\nMicah's miles = 3.5 * Amber's miles  \nMicah's miles = 3.5 * 8 = 28 miles.\n\nNow, we know the total miles run by all three runners is 52 miles. Therefore, we can find out how many miles Ahito ran by subtracting the miles run by Amber and Micah from the total miles:\n\nAhito's miles = Total miles - (Amber's miles + Micah's miles)  \nAhito's miles = 52 - (8 + 28)  \nAhito's miles = 52 - 36 = 16 miles.\n\nNow, we have determined that Ahito ran 16 miles.\n\n[Verification]  \nLet's verify our calculations:\n- Amber ran 8 miles.\n- Micah ran 28 miles (3.5 * 8).\n- Together, Amber and Micah ran 8 + 28 = 36 miles.\n- The total miles is 52, so Ahito's miles = 52 - 36 = 16 miles.\n\nThe calculations are consistent and correct. \n\n[Final Answer] The answer is 16 \n#### 16"
+        ],
+        "I Don't Know": [
+            "Question: Amber, Micah, and Ahito ran 52 miles in total. Amber ran 8 miles. Micah ran 3.5 times what Amber ran. How many miles did Ahito run?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "I Don't Know"
+        ]
+    },
+    "hints_reward_imp_bank": {},
+    "fathers": {
+        "[reasoning process]  \nFirst, we can determine how many miles Micah ran by calculating 3.5 times what Amber ran. Since Amber ran 8 miles, we calculate Micah's miles as follows:\n\nMicah's miles = 3.5 * Amber's miles  \nMicah's miles = 3.5 * 8 = 28 miles.\n\nNow, we know the total miles run by all three runners is 52 miles. Therefore, we can find out how many miles Ahito ran by subtracting the miles run by Amber and Micah from the total miles:\n\nAhito's miles = Total miles - (Amber's miles + Micah's miles)  \nAhito's miles = 52 - (8 + 28)  \nAhito's miles = 52 - 36 = 16 miles.\n\nNow, we have determined that Ahito ran 16 miles.\n\n[Verification]  \nLet's verify our calculations:\n- Amber ran 8 miles.\n- Micah ran 28 miles (3.5 * 8).\n- Together, Amber and Micah ran 8 + 28 = 36 miles.\n- The total miles is 52, so Ahito's miles = 52 - 36 = 16 miles.\n\nThe calculations are consistent and correct. \n\n[Final Answer] The answer is 16 \n#### 16": null,
+        "I Don't Know": null
+    },
+    "childs": {
+        "[reasoning process]  \nFirst, we can determine how many miles Micah ran by calculating 3.5 times what Amber ran. Since Amber ran 8 miles, we calculate Micah's miles as follows:\n\nMicah's miles = 3.5 * Amber's miles  \nMicah's miles = 3.5 * 8 = 28 miles.\n\nNow, we know the total miles run by all three runners is 52 miles. Therefore, we can find out how many miles Ahito ran by subtracting the miles run by Amber and Micah from the total miles:\n\nAhito's miles = Total miles - (Amber's miles + Micah's miles)  \nAhito's miles = 52 - (8 + 28)  \nAhito's miles = 52 - 36 = 16 miles.\n\nNow, we have determined that Ahito ran 16 miles.\n\n[Verification]  \nLet's verify our calculations:\n- Amber ran 8 miles.\n- Micah ran 28 miles (3.5 * 8).\n- Together, Amber and Micah ran 8 + 28 = 36 miles.\n- The total miles is 52, so Ahito's miles = 52 - 36 = 16 miles.\n\nThe calculations are consistent and correct. \n\n[Final Answer] The answer is 16 \n#### 16": [],
+        "I Don't Know": []
+    },
+    "ucb_bank": {}
+}

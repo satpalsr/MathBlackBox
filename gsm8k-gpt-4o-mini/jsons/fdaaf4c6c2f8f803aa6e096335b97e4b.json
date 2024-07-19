@@ -1,0 +1,44 @@
+{
+    "query": "If 6 potatoes makes 36 hash browns, how many hash browns can you make out of 96 potatoes?",
+    "ground_truth": "First find the number of hash browns per potato: 36 hash browns / 6 potatoes = <<36/6=6>>6 hash browns/potato\nThen multiply that number by the number of potatoes to find the total number of hash browns: 6 hash browns/potato * 96 potatoes = <<6*96=576>>576 hash browns\n#### 576",
+    "hints_list": [],
+    "answers_list": [
+        "[reasoning process] First, we need to determine how many hash browns can be made per potato. Given that 6 potatoes yield 36 hash browns, we can divide the number of hash browns by the number of potatoes:\n\n\\[\n\\text{Hash browns per potato} = \\frac{36 \\text{ hash browns}}{6 \\text{ potatoes}} = 6 \\text{ hash browns per potato}\n\\]\n\nNext, we will calculate how many hash browns can be made with 96 potatoes by multiplying the number of potatoes by the number of hash browns each potato can produce:\n\n\\[\n\\text{Total hash browns} = 96 \\text{ potatoes} \\times 6 \\text{ hash browns per potato} = 576 \\text{ hash browns}\n\\]\n\n[Verification] To ensure our calculations are correct, we can double-check the multiplication:\n\n\\[\n96 \\times 6 = 576\n\\]\n\nThis confirms that with 96 potatoes, one can indeed produce 576 hash browns.\n\n[Final Answer] The answer is 576 \\n#### 576",
+        "I Don't Know"
+    ],
+    "ground_truth_hints": "",
+    "hints_prompt": "Question: If 6 potatoes makes 36 hash browns, how many hash browns can you make out of 96 potatoes?\nCould you provide me with the thought process to solve this problem, but please don’t give me the answer or calculation, just the thought process?",
+    "to_explore": [
+        "[reasoning process] First, we need to determine how many hash browns can be made per potato. Given that 6 potatoes yield 36 hash browns, we can divide the number of hash browns by the number of potatoes:\n\n\\[\n\\text{Hash browns per potato} = \\frac{36 \\text{ hash browns}}{6 \\text{ potatoes}} = 6 \\text{ hash browns per potato}\n\\]\n\nNext, we will calculate how many hash browns can be made with 96 potatoes by multiplying the number of potatoes by the number of hash browns each potato can produce:\n\n\\[\n\\text{Total hash browns} = 96 \\text{ potatoes} \\times 6 \\text{ hash browns per potato} = 576 \\text{ hash browns}\n\\]\n\n[Verification] To ensure our calculations are correct, we can double-check the multiplication:\n\n\\[\n96 \\times 6 = 576\n\\]\n\nThis confirms that with 96 potatoes, one can indeed produce 576 hash browns.\n\n[Final Answer] The answer is 576 \\n#### 576",
+        "I Don't Know"
+    ],
+    "to_explore_reward": {
+        "[reasoning process] First, we need to determine how many hash browns can be made per potato. Given that 6 potatoes yield 36 hash browns, we can divide the number of hash browns by the number of potatoes:\n\n\\[\n\\text{Hash browns per potato} = \\frac{36 \\text{ hash browns}}{6 \\text{ potatoes}} = 6 \\text{ hash browns per potato}\n\\]\n\nNext, we will calculate how many hash browns can be made with 96 potatoes by multiplying the number of potatoes by the number of hash browns each potato can produce:\n\n\\[\n\\text{Total hash browns} = 96 \\text{ potatoes} \\times 6 \\text{ hash browns per potato} = 576 \\text{ hash browns}\n\\]\n\n[Verification] To ensure our calculations are correct, we can double-check the multiplication:\n\n\\[\n96 \\times 6 = 576\n\\]\n\nThis confirms that with 96 potatoes, one can indeed produce 576 hash browns.\n\n[Final Answer] The answer is 576 \\n#### 576": [
+            75.0
+        ],
+        "I Don't Know": [
+            -85.0
+        ]
+    },
+    "hints_bank": {},
+    "history_bank": {
+        "[reasoning process] First, we need to determine how many hash browns can be made per potato. Given that 6 potatoes yield 36 hash browns, we can divide the number of hash browns by the number of potatoes:\n\n\\[\n\\text{Hash browns per potato} = \\frac{36 \\text{ hash browns}}{6 \\text{ potatoes}} = 6 \\text{ hash browns per potato}\n\\]\n\nNext, we will calculate how many hash browns can be made with 96 potatoes by multiplying the number of potatoes by the number of hash browns each potato can produce:\n\n\\[\n\\text{Total hash browns} = 96 \\text{ potatoes} \\times 6 \\text{ hash browns per potato} = 576 \\text{ hash browns}\n\\]\n\n[Verification] To ensure our calculations are correct, we can double-check the multiplication:\n\n\\[\n96 \\times 6 = 576\n\\]\n\nThis confirms that with 96 potatoes, one can indeed produce 576 hash browns.\n\n[Final Answer] The answer is 576 \\n#### 576": [
+            "Question: If 6 potatoes makes 36 hash browns, how many hash browns can you make out of 96 potatoes?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "[reasoning process] First, we need to determine how many hash browns can be made per potato. Given that 6 potatoes yield 36 hash browns, we can divide the number of hash browns by the number of potatoes:\n\n\\[\n\\text{Hash browns per potato} = \\frac{36 \\text{ hash browns}}{6 \\text{ potatoes}} = 6 \\text{ hash browns per potato}\n\\]\n\nNext, we will calculate how many hash browns can be made with 96 potatoes by multiplying the number of potatoes by the number of hash browns each potato can produce:\n\n\\[\n\\text{Total hash browns} = 96 \\text{ potatoes} \\times 6 \\text{ hash browns per potato} = 576 \\text{ hash browns}\n\\]\n\n[Verification] To ensure our calculations are correct, we can double-check the multiplication:\n\n\\[\n96 \\times 6 = 576\n\\]\n\nThis confirms that with 96 potatoes, one can indeed produce 576 hash browns.\n\n[Final Answer] The answer is 576 \\n#### 576"
+        ],
+        "I Don't Know": [
+            "Question: If 6 potatoes makes 36 hash browns, how many hash browns can you make out of 96 potatoes?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "I Don't Know"
+        ]
+    },
+    "hints_reward_imp_bank": {},
+    "fathers": {
+        "[reasoning process] First, we need to determine how many hash browns can be made per potato. Given that 6 potatoes yield 36 hash browns, we can divide the number of hash browns by the number of potatoes:\n\n\\[\n\\text{Hash browns per potato} = \\frac{36 \\text{ hash browns}}{6 \\text{ potatoes}} = 6 \\text{ hash browns per potato}\n\\]\n\nNext, we will calculate how many hash browns can be made with 96 potatoes by multiplying the number of potatoes by the number of hash browns each potato can produce:\n\n\\[\n\\text{Total hash browns} = 96 \\text{ potatoes} \\times 6 \\text{ hash browns per potato} = 576 \\text{ hash browns}\n\\]\n\n[Verification] To ensure our calculations are correct, we can double-check the multiplication:\n\n\\[\n96 \\times 6 = 576\n\\]\n\nThis confirms that with 96 potatoes, one can indeed produce 576 hash browns.\n\n[Final Answer] The answer is 576 \\n#### 576": null,
+        "I Don't Know": null
+    },
+    "childs": {
+        "[reasoning process] First, we need to determine how many hash browns can be made per potato. Given that 6 potatoes yield 36 hash browns, we can divide the number of hash browns by the number of potatoes:\n\n\\[\n\\text{Hash browns per potato} = \\frac{36 \\text{ hash browns}}{6 \\text{ potatoes}} = 6 \\text{ hash browns per potato}\n\\]\n\nNext, we will calculate how many hash browns can be made with 96 potatoes by multiplying the number of potatoes by the number of hash browns each potato can produce:\n\n\\[\n\\text{Total hash browns} = 96 \\text{ potatoes} \\times 6 \\text{ hash browns per potato} = 576 \\text{ hash browns}\n\\]\n\n[Verification] To ensure our calculations are correct, we can double-check the multiplication:\n\n\\[\n96 \\times 6 = 576\n\\]\n\nThis confirms that with 96 potatoes, one can indeed produce 576 hash browns.\n\n[Final Answer] The answer is 576 \\n#### 576": [],
+        "I Don't Know": []
+    },
+    "ucb_bank": {}
+}

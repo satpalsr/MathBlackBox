@@ -1,0 +1,44 @@
+{
+    "query": "Rachel bought 23 cookies and Janet gave her 42 cookies. The other day her brother ate 44 of those cookies. How many cookies are left for Rachel?",
+    "ground_truth": "The number of Rachel's cookies is 23 + 42 = <<23+42=65>>65 cookies.\nAfter her brother’s feast, she was left with 65 – 44 = <<65-44=21>>21 cookies.\n#### 21",
+    "hints_list": [],
+    "answers_list": [
+        "[reasoning process] First, we need to calculate the total number of cookies Rachel had after Janet gave her more cookies. Rachel initially bought 23 cookies and then received 42 cookies from Janet.\n\n\\[ 23 \\text{ cookies} + 42 \\text{ cookies} = 65 \\text{ cookies} \\]\n\nNext, we account for the cookies that Rachel's brother ate. He ate 44 cookies out of the 65 cookies Rachel had.\n\n\\[ 65 \\text{ cookies} - 44 \\text{ cookies} = 21 \\text{ cookies} \\]\n\n[Verification] We start with 65 cookies and subtract 44 cookies. Calculations show that Rachel is left with 21 cookies.\n\n[Final Answer] The answer is 21 \n#### 21",
+        "I can't help with this question."
+    ],
+    "ground_truth_hints": "",
+    "hints_prompt": "Question: Rachel bought 23 cookies and Janet gave her 42 cookies. The other day her brother ate 44 of those cookies. How many cookies are left for Rachel?\nCould you provide me with the thought process to solve this problem, but please don’t give me the answer or calculation, just the thought process?",
+    "to_explore": [
+        "[reasoning process] First, we need to calculate the total number of cookies Rachel had after Janet gave her more cookies. Rachel initially bought 23 cookies and then received 42 cookies from Janet.\n\n\\[ 23 \\text{ cookies} + 42 \\text{ cookies} = 65 \\text{ cookies} \\]\n\nNext, we account for the cookies that Rachel's brother ate. He ate 44 cookies out of the 65 cookies Rachel had.\n\n\\[ 65 \\text{ cookies} - 44 \\text{ cookies} = 21 \\text{ cookies} \\]\n\n[Verification] We start with 65 cookies and subtract 44 cookies. Calculations show that Rachel is left with 21 cookies.\n\n[Final Answer] The answer is 21 \n#### 21",
+        "I can't help with this question."
+    ],
+    "to_explore_reward": {
+        "[reasoning process] First, we need to calculate the total number of cookies Rachel had after Janet gave her more cookies. Rachel initially bought 23 cookies and then received 42 cookies from Janet.\n\n\\[ 23 \\text{ cookies} + 42 \\text{ cookies} = 65 \\text{ cookies} \\]\n\nNext, we account for the cookies that Rachel's brother ate. He ate 44 cookies out of the 65 cookies Rachel had.\n\n\\[ 65 \\text{ cookies} - 44 \\text{ cookies} = 21 \\text{ cookies} \\]\n\n[Verification] We start with 65 cookies and subtract 44 cookies. Calculations show that Rachel is left with 21 cookies.\n\n[Final Answer] The answer is 21 \n#### 21": [
+            50
+        ],
+        "I can't help with this question.": [
+            -100.0
+        ]
+    },
+    "hints_bank": {},
+    "history_bank": {
+        "[reasoning process] First, we need to calculate the total number of cookies Rachel had after Janet gave her more cookies. Rachel initially bought 23 cookies and then received 42 cookies from Janet.\n\n\\[ 23 \\text{ cookies} + 42 \\text{ cookies} = 65 \\text{ cookies} \\]\n\nNext, we account for the cookies that Rachel's brother ate. He ate 44 cookies out of the 65 cookies Rachel had.\n\n\\[ 65 \\text{ cookies} - 44 \\text{ cookies} = 21 \\text{ cookies} \\]\n\n[Verification] We start with 65 cookies and subtract 44 cookies. Calculations show that Rachel is left with 21 cookies.\n\n[Final Answer] The answer is 21 \n#### 21": [
+            "Question: Rachel bought 23 cookies and Janet gave her 42 cookies. The other day her brother ate 44 of those cookies. How many cookies are left for Rachel?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "[reasoning process] First, we need to calculate the total number of cookies Rachel had after Janet gave her more cookies. Rachel initially bought 23 cookies and then received 42 cookies from Janet.\n\n\\[ 23 \\text{ cookies} + 42 \\text{ cookies} = 65 \\text{ cookies} \\]\n\nNext, we account for the cookies that Rachel's brother ate. He ate 44 cookies out of the 65 cookies Rachel had.\n\n\\[ 65 \\text{ cookies} - 44 \\text{ cookies} = 21 \\text{ cookies} \\]\n\n[Verification] We start with 65 cookies and subtract 44 cookies. Calculations show that Rachel is left with 21 cookies.\n\n[Final Answer] The answer is 21 \n#### 21"
+        ],
+        "I can't help with this question.": [
+            "Question: Rachel bought 23 cookies and Janet gave her 42 cookies. The other day her brother ate 44 of those cookies. How many cookies are left for Rachel?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "I can't help with this question."
+        ]
+    },
+    "hints_reward_imp_bank": {},
+    "fathers": {
+        "[reasoning process] First, we need to calculate the total number of cookies Rachel had after Janet gave her more cookies. Rachel initially bought 23 cookies and then received 42 cookies from Janet.\n\n\\[ 23 \\text{ cookies} + 42 \\text{ cookies} = 65 \\text{ cookies} \\]\n\nNext, we account for the cookies that Rachel's brother ate. He ate 44 cookies out of the 65 cookies Rachel had.\n\n\\[ 65 \\text{ cookies} - 44 \\text{ cookies} = 21 \\text{ cookies} \\]\n\n[Verification] We start with 65 cookies and subtract 44 cookies. Calculations show that Rachel is left with 21 cookies.\n\n[Final Answer] The answer is 21 \n#### 21": null,
+        "I can't help with this question.": null
+    },
+    "childs": {
+        "[reasoning process] First, we need to calculate the total number of cookies Rachel had after Janet gave her more cookies. Rachel initially bought 23 cookies and then received 42 cookies from Janet.\n\n\\[ 23 \\text{ cookies} + 42 \\text{ cookies} = 65 \\text{ cookies} \\]\n\nNext, we account for the cookies that Rachel's brother ate. He ate 44 cookies out of the 65 cookies Rachel had.\n\n\\[ 65 \\text{ cookies} - 44 \\text{ cookies} = 21 \\text{ cookies} \\]\n\n[Verification] We start with 65 cookies and subtract 44 cookies. Calculations show that Rachel is left with 21 cookies.\n\n[Final Answer] The answer is 21 \n#### 21": [],
+        "I can't help with this question.": []
+    },
+    "ucb_bank": {}
+}

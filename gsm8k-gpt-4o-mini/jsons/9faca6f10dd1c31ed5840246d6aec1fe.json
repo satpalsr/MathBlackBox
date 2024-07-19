@@ -1,0 +1,44 @@
+{
+    "query": "Jane has saved $4 of her allowance every week for the past 8 weeks. If she continues to save the same amount each week, how many more weeks will it take for her to have saved a total of $60?",
+    "ground_truth": "She has already saved 8 * $4 = $<<8*4=32>>32.\nShe needs to save an additional $60 - $32 = $<<60-32=28>>28.\nIt will take her 28 / 4 = <<28/4=7>>7 more weeks to save the rest of the money.\n#### 7",
+    "hints_list": [],
+    "answers_list": [
+        "[reasoning process] Jane has saved $4 every week for the past 8 weeks. We first need to calculate how much money she has saved so far. \n\nCalculation:\nAmount saved so far = $4/week × 8 weeks = $32.\n\nNow we need to find out how much more she needs to save to reach a total of $60. \n\nCalculation:\nAmount needed to reach $60 = $60 - $32 = $28.\n\nNext, we need to determine how many more weeks it will take for her to save the remaining amount of $28 if she continues to save $4 each week.\n\nCalculation:\nNumber of weeks needed = Amount remaining / Amount saved per week = $28 / $4 = 7 weeks.\n\n[Verification] In checking the calculations:\n1. Jane saved $32 in 8 weeks.\n2. She needs $28 more to reach $60.\n3. Saving $4 per week, it takes her 7 weeks to save the additional $28.\n\nAll calculations confirm that she will need an additional 7 weeks.\n\n[Final Answer] The answer is 7 \\n#### 7",
+        "I don't know the answer to this question."
+    ],
+    "ground_truth_hints": "",
+    "hints_prompt": "Question: Jane has saved $4 of her allowance every week for the past 8 weeks. If she continues to save the same amount each week, how many more weeks will it take for her to have saved a total of $60?\nCould you provide me with the thought process to solve this problem, but please don’t give me the answer or calculation, just the thought process?",
+    "to_explore": [
+        "[reasoning process] Jane has saved $4 every week for the past 8 weeks. We first need to calculate how much money she has saved so far. \n\nCalculation:\nAmount saved so far = $4/week × 8 weeks = $32.\n\nNow we need to find out how much more she needs to save to reach a total of $60. \n\nCalculation:\nAmount needed to reach $60 = $60 - $32 = $28.\n\nNext, we need to determine how many more weeks it will take for her to save the remaining amount of $28 if she continues to save $4 each week.\n\nCalculation:\nNumber of weeks needed = Amount remaining / Amount saved per week = $28 / $4 = 7 weeks.\n\n[Verification] In checking the calculations:\n1. Jane saved $32 in 8 weeks.\n2. She needs $28 more to reach $60.\n3. Saving $4 per week, it takes her 7 weeks to save the additional $28.\n\nAll calculations confirm that she will need an additional 7 weeks.\n\n[Final Answer] The answer is 7 \\n#### 7",
+        "I don't know the answer to this question."
+    ],
+    "to_explore_reward": {
+        "[reasoning process] Jane has saved $4 every week for the past 8 weeks. We first need to calculate how much money she has saved so far. \n\nCalculation:\nAmount saved so far = $4/week × 8 weeks = $32.\n\nNow we need to find out how much more she needs to save to reach a total of $60. \n\nCalculation:\nAmount needed to reach $60 = $60 - $32 = $28.\n\nNext, we need to determine how many more weeks it will take for her to save the remaining amount of $28 if she continues to save $4 each week.\n\nCalculation:\nNumber of weeks needed = Amount remaining / Amount saved per week = $28 / $4 = 7 weeks.\n\n[Verification] In checking the calculations:\n1. Jane saved $32 in 8 weeks.\n2. She needs $28 more to reach $60.\n3. Saving $4 per week, it takes her 7 weeks to save the additional $28.\n\nAll calculations confirm that she will need an additional 7 weeks.\n\n[Final Answer] The answer is 7 \\n#### 7": [
+            75.0
+        ],
+        "I don't know the answer to this question.": [
+            -75.0
+        ]
+    },
+    "hints_bank": {},
+    "history_bank": {
+        "[reasoning process] Jane has saved $4 every week for the past 8 weeks. We first need to calculate how much money she has saved so far. \n\nCalculation:\nAmount saved so far = $4/week × 8 weeks = $32.\n\nNow we need to find out how much more she needs to save to reach a total of $60. \n\nCalculation:\nAmount needed to reach $60 = $60 - $32 = $28.\n\nNext, we need to determine how many more weeks it will take for her to save the remaining amount of $28 if she continues to save $4 each week.\n\nCalculation:\nNumber of weeks needed = Amount remaining / Amount saved per week = $28 / $4 = 7 weeks.\n\n[Verification] In checking the calculations:\n1. Jane saved $32 in 8 weeks.\n2. She needs $28 more to reach $60.\n3. Saving $4 per week, it takes her 7 weeks to save the additional $28.\n\nAll calculations confirm that she will need an additional 7 weeks.\n\n[Final Answer] The answer is 7 \\n#### 7": [
+            "Question: Jane has saved $4 of her allowance every week for the past 8 weeks. If she continues to save the same amount each week, how many more weeks will it take for her to have saved a total of $60?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "[reasoning process] Jane has saved $4 every week for the past 8 weeks. We first need to calculate how much money she has saved so far. \n\nCalculation:\nAmount saved so far = $4/week × 8 weeks = $32.\n\nNow we need to find out how much more she needs to save to reach a total of $60. \n\nCalculation:\nAmount needed to reach $60 = $60 - $32 = $28.\n\nNext, we need to determine how many more weeks it will take for her to save the remaining amount of $28 if she continues to save $4 each week.\n\nCalculation:\nNumber of weeks needed = Amount remaining / Amount saved per week = $28 / $4 = 7 weeks.\n\n[Verification] In checking the calculations:\n1. Jane saved $32 in 8 weeks.\n2. She needs $28 more to reach $60.\n3. Saving $4 per week, it takes her 7 weeks to save the additional $28.\n\nAll calculations confirm that she will need an additional 7 weeks.\n\n[Final Answer] The answer is 7 \\n#### 7"
+        ],
+        "I don't know the answer to this question.": [
+            "Question: Jane has saved $4 of her allowance every week for the past 8 weeks. If she continues to save the same amount each week, how many more weeks will it take for her to have saved a total of $60?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "I don't know the answer to this question."
+        ]
+    },
+    "hints_reward_imp_bank": {},
+    "fathers": {
+        "[reasoning process] Jane has saved $4 every week for the past 8 weeks. We first need to calculate how much money she has saved so far. \n\nCalculation:\nAmount saved so far = $4/week × 8 weeks = $32.\n\nNow we need to find out how much more she needs to save to reach a total of $60. \n\nCalculation:\nAmount needed to reach $60 = $60 - $32 = $28.\n\nNext, we need to determine how many more weeks it will take for her to save the remaining amount of $28 if she continues to save $4 each week.\n\nCalculation:\nNumber of weeks needed = Amount remaining / Amount saved per week = $28 / $4 = 7 weeks.\n\n[Verification] In checking the calculations:\n1. Jane saved $32 in 8 weeks.\n2. She needs $28 more to reach $60.\n3. Saving $4 per week, it takes her 7 weeks to save the additional $28.\n\nAll calculations confirm that she will need an additional 7 weeks.\n\n[Final Answer] The answer is 7 \\n#### 7": null,
+        "I don't know the answer to this question.": null
+    },
+    "childs": {
+        "[reasoning process] Jane has saved $4 every week for the past 8 weeks. We first need to calculate how much money she has saved so far. \n\nCalculation:\nAmount saved so far = $4/week × 8 weeks = $32.\n\nNow we need to find out how much more she needs to save to reach a total of $60. \n\nCalculation:\nAmount needed to reach $60 = $60 - $32 = $28.\n\nNext, we need to determine how many more weeks it will take for her to save the remaining amount of $28 if she continues to save $4 each week.\n\nCalculation:\nNumber of weeks needed = Amount remaining / Amount saved per week = $28 / $4 = 7 weeks.\n\n[Verification] In checking the calculations:\n1. Jane saved $32 in 8 weeks.\n2. She needs $28 more to reach $60.\n3. Saving $4 per week, it takes her 7 weeks to save the additional $28.\n\nAll calculations confirm that she will need an additional 7 weeks.\n\n[Final Answer] The answer is 7 \\n#### 7": [],
+        "I don't know the answer to this question.": []
+    },
+    "ucb_bank": {}
+}

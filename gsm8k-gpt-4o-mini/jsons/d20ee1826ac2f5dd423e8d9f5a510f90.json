@@ -1,0 +1,44 @@
+{
+    "query": "While on vacation in Bali, Thea bought a hat from a craftsman worth $70. If she gave the craftsman four $20 bills, how much change did she get?",
+    "ground_truth": "If she gave the craftsman four $20 bills, the total amount of money she gave to the craftsman is 4*$20 = $<<4*20=80>>80.\nSince the hat was worth $70, the craftsman gave her change equal to $80-$70=$10\n#### 10",
+    "hints_list": [],
+    "answers_list": [
+        "[reasoning process] Thea bought a hat that cost $70. She paid the craftsman with four $20 bills. To find out how much money she gave the craftsman, we multiply the number of bills by the value of each bill:\n\n4 bills × $20/bill = $80.\n\nNow, to determine how much change she received, we subtract the cost of the hat from the amount she paid:\n\n$80 (amount paid) - $70 (cost of the hat) = $10 (change).\n\n[Verification] To check our calculations: The total amount she paid is indeed $80 since she used four $20 bills. Subtracting the cost of the hat, $70, from $80 gives us $10. Therefore, the calculations are correct.\n\n[Final Answer] The answer is 10 \\n#### 10",
+        "I don't know the answer to this question."
+    ],
+    "ground_truth_hints": "",
+    "hints_prompt": "Question: While on vacation in Bali, Thea bought a hat from a craftsman worth $70. If she gave the craftsman four $20 bills, how much change did she get?\nCould you provide me with the thought process to solve this problem, but please don’t give me the answer or calculation, just the thought process?",
+    "to_explore": [
+        "[reasoning process] Thea bought a hat that cost $70. She paid the craftsman with four $20 bills. To find out how much money she gave the craftsman, we multiply the number of bills by the value of each bill:\n\n4 bills × $20/bill = $80.\n\nNow, to determine how much change she received, we subtract the cost of the hat from the amount she paid:\n\n$80 (amount paid) - $70 (cost of the hat) = $10 (change).\n\n[Verification] To check our calculations: The total amount she paid is indeed $80 since she used four $20 bills. Subtracting the cost of the hat, $70, from $80 gives us $10. Therefore, the calculations are correct.\n\n[Final Answer] The answer is 10 \\n#### 10",
+        "I don't know the answer to this question."
+    ],
+    "to_explore_reward": {
+        "[reasoning process] Thea bought a hat that cost $70. She paid the craftsman with four $20 bills. To find out how much money she gave the craftsman, we multiply the number of bills by the value of each bill:\n\n4 bills × $20/bill = $80.\n\nNow, to determine how much change she received, we subtract the cost of the hat from the amount she paid:\n\n$80 (amount paid) - $70 (cost of the hat) = $10 (change).\n\n[Verification] To check our calculations: The total amount she paid is indeed $80 since she used four $20 bills. Subtracting the cost of the hat, $70, from $80 gives us $10. Therefore, the calculations are correct.\n\n[Final Answer] The answer is 10 \\n#### 10": [
+            70.0
+        ],
+        "I don't know the answer to this question.": [
+            -90.0
+        ]
+    },
+    "hints_bank": {},
+    "history_bank": {
+        "[reasoning process] Thea bought a hat that cost $70. She paid the craftsman with four $20 bills. To find out how much money she gave the craftsman, we multiply the number of bills by the value of each bill:\n\n4 bills × $20/bill = $80.\n\nNow, to determine how much change she received, we subtract the cost of the hat from the amount she paid:\n\n$80 (amount paid) - $70 (cost of the hat) = $10 (change).\n\n[Verification] To check our calculations: The total amount she paid is indeed $80 since she used four $20 bills. Subtracting the cost of the hat, $70, from $80 gives us $10. Therefore, the calculations are correct.\n\n[Final Answer] The answer is 10 \\n#### 10": [
+            "Question: While on vacation in Bali, Thea bought a hat from a craftsman worth $70. If she gave the craftsman four $20 bills, how much change did she get?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "[reasoning process] Thea bought a hat that cost $70. She paid the craftsman with four $20 bills. To find out how much money she gave the craftsman, we multiply the number of bills by the value of each bill:\n\n4 bills × $20/bill = $80.\n\nNow, to determine how much change she received, we subtract the cost of the hat from the amount she paid:\n\n$80 (amount paid) - $70 (cost of the hat) = $10 (change).\n\n[Verification] To check our calculations: The total amount she paid is indeed $80 since she used four $20 bills. Subtracting the cost of the hat, $70, from $80 gives us $10. Therefore, the calculations are correct.\n\n[Final Answer] The answer is 10 \\n#### 10"
+        ],
+        "I don't know the answer to this question.": [
+            "Question: While on vacation in Bali, Thea bought a hat from a craftsman worth $70. If she gave the craftsman four $20 bills, how much change did she get?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "I don't know the answer to this question."
+        ]
+    },
+    "hints_reward_imp_bank": {},
+    "fathers": {
+        "[reasoning process] Thea bought a hat that cost $70. She paid the craftsman with four $20 bills. To find out how much money she gave the craftsman, we multiply the number of bills by the value of each bill:\n\n4 bills × $20/bill = $80.\n\nNow, to determine how much change she received, we subtract the cost of the hat from the amount she paid:\n\n$80 (amount paid) - $70 (cost of the hat) = $10 (change).\n\n[Verification] To check our calculations: The total amount she paid is indeed $80 since she used four $20 bills. Subtracting the cost of the hat, $70, from $80 gives us $10. Therefore, the calculations are correct.\n\n[Final Answer] The answer is 10 \\n#### 10": null,
+        "I don't know the answer to this question.": null
+    },
+    "childs": {
+        "[reasoning process] Thea bought a hat that cost $70. She paid the craftsman with four $20 bills. To find out how much money she gave the craftsman, we multiply the number of bills by the value of each bill:\n\n4 bills × $20/bill = $80.\n\nNow, to determine how much change she received, we subtract the cost of the hat from the amount she paid:\n\n$80 (amount paid) - $70 (cost of the hat) = $10 (change).\n\n[Verification] To check our calculations: The total amount she paid is indeed $80 since she used four $20 bills. Subtracting the cost of the hat, $70, from $80 gives us $10. Therefore, the calculations are correct.\n\n[Final Answer] The answer is 10 \\n#### 10": [],
+        "I don't know the answer to this question.": []
+    },
+    "ucb_bank": {}
+}

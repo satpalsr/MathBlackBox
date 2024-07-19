@@ -1,0 +1,44 @@
+{
+    "query": "Martin's weight is 55 kg. Carl’s weight is 16 kg more than Martin’s weight. Christian’s weight is 8 kg more than Carl’s weight. Harry is 5 kg less than Christian’s weight. What is the weight of Harry, in kg?",
+    "ground_truth": "Carl’s weight is 55 + 16 = <<55+16=71>>71 kg.\nChristian’s weight is 71 + 8 = <<71+8=79>>79 kg.\nSo, Harry’s weight is 79 - 5 = <<79-5=74>>74 kg.\n#### 74",
+    "hints_list": [],
+    "answers_list": [
+        "[reasoning process] \nFirst, we know that Martin's weight is 55 kg. \nNext, we can calculate Carl's weight, which is 16 kg more than Martin's: \nCarl's weight = Martin's weight + 16 kg = 55 kg + 16 kg = 71 kg.\n\nNow, we move on to Christian's weight, which is 8 kg more than Carl's weight: \nChristian's weight = Carl's weight + 8 kg = 71 kg + 8 kg = 79 kg.\n\nFinally, we need to find Harry's weight, which is 5 kg less than Christian's weight: \nHarry's weight = Christian's weight - 5 kg = 79 kg - 5 kg = 74 kg.\n\n[Verification] \nLet’s verify the calculations step by step:\n1. Martin's weight: 55 kg (given).\n2. Carl's weight: 55 kg + 16 kg = 71 kg (correct).\n3. Christian's weight: 71 kg + 8 kg = 79 kg (correct).\n4. Harry's weight: 79 kg - 5 kg = 74 kg (correct).\n\nEverything checks out correctly.\n\n[Final Answer] The answer is 74 kg \n#### 74",
+        "I don't know how to solve this question."
+    ],
+    "ground_truth_hints": "",
+    "hints_prompt": "Question: Martin's weight is 55 kg. Carl’s weight is 16 kg more than Martin’s weight. Christian’s weight is 8 kg more than Carl’s weight. Harry is 5 kg less than Christian’s weight. What is the weight of Harry, in kg?\nCould you provide me with the thought process to solve this problem, but please don’t give me the answer or calculation, just the thought process?",
+    "to_explore": [
+        "[reasoning process] \nFirst, we know that Martin's weight is 55 kg. \nNext, we can calculate Carl's weight, which is 16 kg more than Martin's: \nCarl's weight = Martin's weight + 16 kg = 55 kg + 16 kg = 71 kg.\n\nNow, we move on to Christian's weight, which is 8 kg more than Carl's weight: \nChristian's weight = Carl's weight + 8 kg = 71 kg + 8 kg = 79 kg.\n\nFinally, we need to find Harry's weight, which is 5 kg less than Christian's weight: \nHarry's weight = Christian's weight - 5 kg = 79 kg - 5 kg = 74 kg.\n\n[Verification] \nLet’s verify the calculations step by step:\n1. Martin's weight: 55 kg (given).\n2. Carl's weight: 55 kg + 16 kg = 71 kg (correct).\n3. Christian's weight: 71 kg + 8 kg = 79 kg (correct).\n4. Harry's weight: 79 kg - 5 kg = 74 kg (correct).\n\nEverything checks out correctly.\n\n[Final Answer] The answer is 74 kg \n#### 74",
+        "I don't know how to solve this question."
+    ],
+    "to_explore_reward": {
+        "[reasoning process] \nFirst, we know that Martin's weight is 55 kg. \nNext, we can calculate Carl's weight, which is 16 kg more than Martin's: \nCarl's weight = Martin's weight + 16 kg = 55 kg + 16 kg = 71 kg.\n\nNow, we move on to Christian's weight, which is 8 kg more than Carl's weight: \nChristian's weight = Carl's weight + 8 kg = 71 kg + 8 kg = 79 kg.\n\nFinally, we need to find Harry's weight, which is 5 kg less than Christian's weight: \nHarry's weight = Christian's weight - 5 kg = 79 kg - 5 kg = 74 kg.\n\n[Verification] \nLet’s verify the calculations step by step:\n1. Martin's weight: 55 kg (given).\n2. Carl's weight: 55 kg + 16 kg = 71 kg (correct).\n3. Christian's weight: 71 kg + 8 kg = 79 kg (correct).\n4. Harry's weight: 79 kg - 5 kg = 74 kg (correct).\n\nEverything checks out correctly.\n\n[Final Answer] The answer is 74 kg \n#### 74": [
+            85.0
+        ],
+        "I don't know how to solve this question.": [
+            -90.0
+        ]
+    },
+    "hints_bank": {},
+    "history_bank": {
+        "[reasoning process] \nFirst, we know that Martin's weight is 55 kg. \nNext, we can calculate Carl's weight, which is 16 kg more than Martin's: \nCarl's weight = Martin's weight + 16 kg = 55 kg + 16 kg = 71 kg.\n\nNow, we move on to Christian's weight, which is 8 kg more than Carl's weight: \nChristian's weight = Carl's weight + 8 kg = 71 kg + 8 kg = 79 kg.\n\nFinally, we need to find Harry's weight, which is 5 kg less than Christian's weight: \nHarry's weight = Christian's weight - 5 kg = 79 kg - 5 kg = 74 kg.\n\n[Verification] \nLet’s verify the calculations step by step:\n1. Martin's weight: 55 kg (given).\n2. Carl's weight: 55 kg + 16 kg = 71 kg (correct).\n3. Christian's weight: 71 kg + 8 kg = 79 kg (correct).\n4. Harry's weight: 79 kg - 5 kg = 74 kg (correct).\n\nEverything checks out correctly.\n\n[Final Answer] The answer is 74 kg \n#### 74": [
+            "Question: Martin's weight is 55 kg. Carl’s weight is 16 kg more than Martin’s weight. Christian’s weight is 8 kg more than Carl’s weight. Harry is 5 kg less than Christian’s weight. What is the weight of Harry, in kg?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "[reasoning process] \nFirst, we know that Martin's weight is 55 kg. \nNext, we can calculate Carl's weight, which is 16 kg more than Martin's: \nCarl's weight = Martin's weight + 16 kg = 55 kg + 16 kg = 71 kg.\n\nNow, we move on to Christian's weight, which is 8 kg more than Carl's weight: \nChristian's weight = Carl's weight + 8 kg = 71 kg + 8 kg = 79 kg.\n\nFinally, we need to find Harry's weight, which is 5 kg less than Christian's weight: \nHarry's weight = Christian's weight - 5 kg = 79 kg - 5 kg = 74 kg.\n\n[Verification] \nLet’s verify the calculations step by step:\n1. Martin's weight: 55 kg (given).\n2. Carl's weight: 55 kg + 16 kg = 71 kg (correct).\n3. Christian's weight: 71 kg + 8 kg = 79 kg (correct).\n4. Harry's weight: 79 kg - 5 kg = 74 kg (correct).\n\nEverything checks out correctly.\n\n[Final Answer] The answer is 74 kg \n#### 74"
+        ],
+        "I don't know how to solve this question.": [
+            "Question: Martin's weight is 55 kg. Carl’s weight is 16 kg more than Martin’s weight. Christian’s weight is 8 kg more than Carl’s weight. Harry is 5 kg less than Christian’s weight. What is the weight of Harry, in kg?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "I don't know how to solve this question."
+        ]
+    },
+    "hints_reward_imp_bank": {},
+    "fathers": {
+        "[reasoning process] \nFirst, we know that Martin's weight is 55 kg. \nNext, we can calculate Carl's weight, which is 16 kg more than Martin's: \nCarl's weight = Martin's weight + 16 kg = 55 kg + 16 kg = 71 kg.\n\nNow, we move on to Christian's weight, which is 8 kg more than Carl's weight: \nChristian's weight = Carl's weight + 8 kg = 71 kg + 8 kg = 79 kg.\n\nFinally, we need to find Harry's weight, which is 5 kg less than Christian's weight: \nHarry's weight = Christian's weight - 5 kg = 79 kg - 5 kg = 74 kg.\n\n[Verification] \nLet’s verify the calculations step by step:\n1. Martin's weight: 55 kg (given).\n2. Carl's weight: 55 kg + 16 kg = 71 kg (correct).\n3. Christian's weight: 71 kg + 8 kg = 79 kg (correct).\n4. Harry's weight: 79 kg - 5 kg = 74 kg (correct).\n\nEverything checks out correctly.\n\n[Final Answer] The answer is 74 kg \n#### 74": null,
+        "I don't know how to solve this question.": null
+    },
+    "childs": {
+        "[reasoning process] \nFirst, we know that Martin's weight is 55 kg. \nNext, we can calculate Carl's weight, which is 16 kg more than Martin's: \nCarl's weight = Martin's weight + 16 kg = 55 kg + 16 kg = 71 kg.\n\nNow, we move on to Christian's weight, which is 8 kg more than Carl's weight: \nChristian's weight = Carl's weight + 8 kg = 71 kg + 8 kg = 79 kg.\n\nFinally, we need to find Harry's weight, which is 5 kg less than Christian's weight: \nHarry's weight = Christian's weight - 5 kg = 79 kg - 5 kg = 74 kg.\n\n[Verification] \nLet’s verify the calculations step by step:\n1. Martin's weight: 55 kg (given).\n2. Carl's weight: 55 kg + 16 kg = 71 kg (correct).\n3. Christian's weight: 71 kg + 8 kg = 79 kg (correct).\n4. Harry's weight: 79 kg - 5 kg = 74 kg (correct).\n\nEverything checks out correctly.\n\n[Final Answer] The answer is 74 kg \n#### 74": [],
+        "I don't know how to solve this question.": []
+    },
+    "ucb_bank": {}
+}

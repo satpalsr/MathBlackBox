@@ -1,0 +1,44 @@
+{
+    "query": "Kylie and Robert enjoy going to the beach to collect shells. On Monday, Kylie collects 5 more shells than Robert, who collects 20 shells. On Tuesday, Kylie collects 2 times more shells than she did on Monday. How many shells does Kylie collect on Tuesday?",
+    "ground_truth": "On Monday, Kylie collects 20 + 5 = <<20+5=25>>25 shells\nOn Tuesday, Kylie collects 25 * 2 = <<25*2=50>>50 shells\n#### 50",
+    "hints_list": [],
+    "answers_list": [
+        "[reasoning process] On Monday, Robert collects 20 shells. Since Kylie collects 5 more shells than Robert, we can calculate Kylie's collection for Monday as follows:\n\nKylie's shells on Monday = Robert's shells + 5  \nKylie's shells on Monday = 20 + 5 = 25 shells\n\nOn Tuesday, Kylie collects 2 times more shells than she did on Monday. Therefore, we can calculate the number of shells she collects on Tuesday:\n\nKylie's shells on Tuesday = 2 * Kylie's shells on Monday  \nKylie's shells on Tuesday = 2 * 25 = 50 shells\n\n[Verification] To verify this:\n- Kylie's total on Monday is calculated as 25, which is indeed 5 more than Robert's 20.\n- On Tuesday, she collects 2 times her Monday collection: 2 * 25 = 50 shells, which confirms both her Monday collection and Tuesday's doubling are calculated correctly.\n\n[Final Answer] The answer is 50  \n#### 50",
+        "I don't know how to solve this question."
+    ],
+    "ground_truth_hints": "",
+    "hints_prompt": "Question: Kylie and Robert enjoy going to the beach to collect shells. On Monday, Kylie collects 5 more shells than Robert, who collects 20 shells. On Tuesday, Kylie collects 2 times more shells than she did on Monday. How many shells does Kylie collect on Tuesday?\nCould you provide me with the thought process to solve this problem, but please don’t give me the answer or calculation, just the thought process?",
+    "to_explore": [
+        "[reasoning process] On Monday, Robert collects 20 shells. Since Kylie collects 5 more shells than Robert, we can calculate Kylie's collection for Monday as follows:\n\nKylie's shells on Monday = Robert's shells + 5  \nKylie's shells on Monday = 20 + 5 = 25 shells\n\nOn Tuesday, Kylie collects 2 times more shells than she did on Monday. Therefore, we can calculate the number of shells she collects on Tuesday:\n\nKylie's shells on Tuesday = 2 * Kylie's shells on Monday  \nKylie's shells on Tuesday = 2 * 25 = 50 shells\n\n[Verification] To verify this:\n- Kylie's total on Monday is calculated as 25, which is indeed 5 more than Robert's 20.\n- On Tuesday, she collects 2 times her Monday collection: 2 * 25 = 50 shells, which confirms both her Monday collection and Tuesday's doubling are calculated correctly.\n\n[Final Answer] The answer is 50  \n#### 50",
+        "I don't know how to solve this question."
+    ],
+    "to_explore_reward": {
+        "[reasoning process] On Monday, Robert collects 20 shells. Since Kylie collects 5 more shells than Robert, we can calculate Kylie's collection for Monday as follows:\n\nKylie's shells on Monday = Robert's shells + 5  \nKylie's shells on Monday = 20 + 5 = 25 shells\n\nOn Tuesday, Kylie collects 2 times more shells than she did on Monday. Therefore, we can calculate the number of shells she collects on Tuesday:\n\nKylie's shells on Tuesday = 2 * Kylie's shells on Monday  \nKylie's shells on Tuesday = 2 * 25 = 50 shells\n\n[Verification] To verify this:\n- Kylie's total on Monday is calculated as 25, which is indeed 5 more than Robert's 20.\n- On Tuesday, she collects 2 times her Monday collection: 2 * 25 = 50 shells, which confirms both her Monday collection and Tuesday's doubling are calculated correctly.\n\n[Final Answer] The answer is 50  \n#### 50": [
+            75.0
+        ],
+        "I don't know how to solve this question.": [
+            -100.0
+        ]
+    },
+    "hints_bank": {},
+    "history_bank": {
+        "[reasoning process] On Monday, Robert collects 20 shells. Since Kylie collects 5 more shells than Robert, we can calculate Kylie's collection for Monday as follows:\n\nKylie's shells on Monday = Robert's shells + 5  \nKylie's shells on Monday = 20 + 5 = 25 shells\n\nOn Tuesday, Kylie collects 2 times more shells than she did on Monday. Therefore, we can calculate the number of shells she collects on Tuesday:\n\nKylie's shells on Tuesday = 2 * Kylie's shells on Monday  \nKylie's shells on Tuesday = 2 * 25 = 50 shells\n\n[Verification] To verify this:\n- Kylie's total on Monday is calculated as 25, which is indeed 5 more than Robert's 20.\n- On Tuesday, she collects 2 times her Monday collection: 2 * 25 = 50 shells, which confirms both her Monday collection and Tuesday's doubling are calculated correctly.\n\n[Final Answer] The answer is 50  \n#### 50": [
+            "Question: Kylie and Robert enjoy going to the beach to collect shells. On Monday, Kylie collects 5 more shells than Robert, who collects 20 shells. On Tuesday, Kylie collects 2 times more shells than she did on Monday. How many shells does Kylie collect on Tuesday?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "[reasoning process] On Monday, Robert collects 20 shells. Since Kylie collects 5 more shells than Robert, we can calculate Kylie's collection for Monday as follows:\n\nKylie's shells on Monday = Robert's shells + 5  \nKylie's shells on Monday = 20 + 5 = 25 shells\n\nOn Tuesday, Kylie collects 2 times more shells than she did on Monday. Therefore, we can calculate the number of shells she collects on Tuesday:\n\nKylie's shells on Tuesday = 2 * Kylie's shells on Monday  \nKylie's shells on Tuesday = 2 * 25 = 50 shells\n\n[Verification] To verify this:\n- Kylie's total on Monday is calculated as 25, which is indeed 5 more than Robert's 20.\n- On Tuesday, she collects 2 times her Monday collection: 2 * 25 = 50 shells, which confirms both her Monday collection and Tuesday's doubling are calculated correctly.\n\n[Final Answer] The answer is 50  \n#### 50"
+        ],
+        "I don't know how to solve this question.": [
+            "Question: Kylie and Robert enjoy going to the beach to collect shells. On Monday, Kylie collects 5 more shells than Robert, who collects 20 shells. On Tuesday, Kylie collects 2 times more shells than she did on Monday. How many shells does Kylie collect on Tuesday?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "I don't know how to solve this question."
+        ]
+    },
+    "hints_reward_imp_bank": {},
+    "fathers": {
+        "[reasoning process] On Monday, Robert collects 20 shells. Since Kylie collects 5 more shells than Robert, we can calculate Kylie's collection for Monday as follows:\n\nKylie's shells on Monday = Robert's shells + 5  \nKylie's shells on Monday = 20 + 5 = 25 shells\n\nOn Tuesday, Kylie collects 2 times more shells than she did on Monday. Therefore, we can calculate the number of shells she collects on Tuesday:\n\nKylie's shells on Tuesday = 2 * Kylie's shells on Monday  \nKylie's shells on Tuesday = 2 * 25 = 50 shells\n\n[Verification] To verify this:\n- Kylie's total on Monday is calculated as 25, which is indeed 5 more than Robert's 20.\n- On Tuesday, she collects 2 times her Monday collection: 2 * 25 = 50 shells, which confirms both her Monday collection and Tuesday's doubling are calculated correctly.\n\n[Final Answer] The answer is 50  \n#### 50": null,
+        "I don't know how to solve this question.": null
+    },
+    "childs": {
+        "[reasoning process] On Monday, Robert collects 20 shells. Since Kylie collects 5 more shells than Robert, we can calculate Kylie's collection for Monday as follows:\n\nKylie's shells on Monday = Robert's shells + 5  \nKylie's shells on Monday = 20 + 5 = 25 shells\n\nOn Tuesday, Kylie collects 2 times more shells than she did on Monday. Therefore, we can calculate the number of shells she collects on Tuesday:\n\nKylie's shells on Tuesday = 2 * Kylie's shells on Monday  \nKylie's shells on Tuesday = 2 * 25 = 50 shells\n\n[Verification] To verify this:\n- Kylie's total on Monday is calculated as 25, which is indeed 5 more than Robert's 20.\n- On Tuesday, she collects 2 times her Monday collection: 2 * 25 = 50 shells, which confirms both her Monday collection and Tuesday's doubling are calculated correctly.\n\n[Final Answer] The answer is 50  \n#### 50": [],
+        "I don't know how to solve this question.": []
+    },
+    "ucb_bank": {}
+}

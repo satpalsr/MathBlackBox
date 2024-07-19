@@ -1,0 +1,44 @@
+{
+    "query": "Steve put together a puzzle that took 10 hours of hard work to complete. Anna put together the same puzzle in 2 hours more than half Steve's time. How long did it take Anna to finish the difficult puzzle?",
+    "ground_truth": "Half the time it took Steve to put together the puzzle is 10/2=<<10/2=5>>5\nIf Anna put together the same puzzle in 2 hours more than half the time it took Steve, she took 5+2=7 hours to finish the puzzle.\n#### 7",
+    "hints_list": [],
+    "answers_list": [
+        "[reasoning process] To find out how long it took Anna to complete the puzzle, we need to follow these steps:\n\n1. Determine half of Steve's time.\n2. Add 2 hours to the result from step 1 to find Anna's time.\n\nStep 1: Steve took 10 hours to complete the puzzle. Half of Steve's time is:\n\\[ \\frac{10}{2} = 5 \\text{ hours} \\]\n\nStep 2: Add 2 hours to this result:\n\\[ 5 \\text{ hours} + 2 \\text{ hours} = 7 \\text{ hours} \\]\n\n[Verification] Let's verify the calculations to ensure accuracy:\n- Half of Steve's time: \\( 10 \\div 2 = 5 \\)\n- Anna's total time: \\( 5 + 2 = 7 \\)\n\nEverything checks out correctly.\n\n[Final Answer] The answer is 7 hours \n#### 7",
+        "I Don't Know"
+    ],
+    "ground_truth_hints": "",
+    "hints_prompt": "Question: Steve put together a puzzle that took 10 hours of hard work to complete. Anna put together the same puzzle in 2 hours more than half Steve's time. How long did it take Anna to finish the difficult puzzle?\nCould you provide me with the thought process to solve this problem, but please don’t give me the answer or calculation, just the thought process?",
+    "to_explore": [
+        "[reasoning process] To find out how long it took Anna to complete the puzzle, we need to follow these steps:\n\n1. Determine half of Steve's time.\n2. Add 2 hours to the result from step 1 to find Anna's time.\n\nStep 1: Steve took 10 hours to complete the puzzle. Half of Steve's time is:\n\\[ \\frac{10}{2} = 5 \\text{ hours} \\]\n\nStep 2: Add 2 hours to this result:\n\\[ 5 \\text{ hours} + 2 \\text{ hours} = 7 \\text{ hours} \\]\n\n[Verification] Let's verify the calculations to ensure accuracy:\n- Half of Steve's time: \\( 10 \\div 2 = 5 \\)\n- Anna's total time: \\( 5 + 2 = 7 \\)\n\nEverything checks out correctly.\n\n[Final Answer] The answer is 7 hours \n#### 7",
+        "I Don't Know"
+    ],
+    "to_explore_reward": {
+        "[reasoning process] To find out how long it took Anna to complete the puzzle, we need to follow these steps:\n\n1. Determine half of Steve's time.\n2. Add 2 hours to the result from step 1 to find Anna's time.\n\nStep 1: Steve took 10 hours to complete the puzzle. Half of Steve's time is:\n\\[ \\frac{10}{2} = 5 \\text{ hours} \\]\n\nStep 2: Add 2 hours to this result:\n\\[ 5 \\text{ hours} + 2 \\text{ hours} = 7 \\text{ hours} \\]\n\n[Verification] Let's verify the calculations to ensure accuracy:\n- Half of Steve's time: \\( 10 \\div 2 = 5 \\)\n- Anna's total time: \\( 5 + 2 = 7 \\)\n\nEverything checks out correctly.\n\n[Final Answer] The answer is 7 hours \n#### 7": [
+            50
+        ],
+        "I Don't Know": [
+            -100.0
+        ]
+    },
+    "hints_bank": {},
+    "history_bank": {
+        "[reasoning process] To find out how long it took Anna to complete the puzzle, we need to follow these steps:\n\n1. Determine half of Steve's time.\n2. Add 2 hours to the result from step 1 to find Anna's time.\n\nStep 1: Steve took 10 hours to complete the puzzle. Half of Steve's time is:\n\\[ \\frac{10}{2} = 5 \\text{ hours} \\]\n\nStep 2: Add 2 hours to this result:\n\\[ 5 \\text{ hours} + 2 \\text{ hours} = 7 \\text{ hours} \\]\n\n[Verification] Let's verify the calculations to ensure accuracy:\n- Half of Steve's time: \\( 10 \\div 2 = 5 \\)\n- Anna's total time: \\( 5 + 2 = 7 \\)\n\nEverything checks out correctly.\n\n[Final Answer] The answer is 7 hours \n#### 7": [
+            "Question: Steve put together a puzzle that took 10 hours of hard work to complete. Anna put together the same puzzle in 2 hours more than half Steve's time. How long did it take Anna to finish the difficult puzzle?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "[reasoning process] To find out how long it took Anna to complete the puzzle, we need to follow these steps:\n\n1. Determine half of Steve's time.\n2. Add 2 hours to the result from step 1 to find Anna's time.\n\nStep 1: Steve took 10 hours to complete the puzzle. Half of Steve's time is:\n\\[ \\frac{10}{2} = 5 \\text{ hours} \\]\n\nStep 2: Add 2 hours to this result:\n\\[ 5 \\text{ hours} + 2 \\text{ hours} = 7 \\text{ hours} \\]\n\n[Verification] Let's verify the calculations to ensure accuracy:\n- Half of Steve's time: \\( 10 \\div 2 = 5 \\)\n- Anna's total time: \\( 5 + 2 = 7 \\)\n\nEverything checks out correctly.\n\n[Final Answer] The answer is 7 hours \n#### 7"
+        ],
+        "I Don't Know": [
+            "Question: Steve put together a puzzle that took 10 hours of hard work to complete. Anna put together the same puzzle in 2 hours more than half Steve's time. How long did it take Anna to finish the difficult puzzle?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "I Don't Know"
+        ]
+    },
+    "hints_reward_imp_bank": {},
+    "fathers": {
+        "[reasoning process] To find out how long it took Anna to complete the puzzle, we need to follow these steps:\n\n1. Determine half of Steve's time.\n2. Add 2 hours to the result from step 1 to find Anna's time.\n\nStep 1: Steve took 10 hours to complete the puzzle. Half of Steve's time is:\n\\[ \\frac{10}{2} = 5 \\text{ hours} \\]\n\nStep 2: Add 2 hours to this result:\n\\[ 5 \\text{ hours} + 2 \\text{ hours} = 7 \\text{ hours} \\]\n\n[Verification] Let's verify the calculations to ensure accuracy:\n- Half of Steve's time: \\( 10 \\div 2 = 5 \\)\n- Anna's total time: \\( 5 + 2 = 7 \\)\n\nEverything checks out correctly.\n\n[Final Answer] The answer is 7 hours \n#### 7": null,
+        "I Don't Know": null
+    },
+    "childs": {
+        "[reasoning process] To find out how long it took Anna to complete the puzzle, we need to follow these steps:\n\n1. Determine half of Steve's time.\n2. Add 2 hours to the result from step 1 to find Anna's time.\n\nStep 1: Steve took 10 hours to complete the puzzle. Half of Steve's time is:\n\\[ \\frac{10}{2} = 5 \\text{ hours} \\]\n\nStep 2: Add 2 hours to this result:\n\\[ 5 \\text{ hours} + 2 \\text{ hours} = 7 \\text{ hours} \\]\n\n[Verification] Let's verify the calculations to ensure accuracy:\n- Half of Steve's time: \\( 10 \\div 2 = 5 \\)\n- Anna's total time: \\( 5 + 2 = 7 \\)\n\nEverything checks out correctly.\n\n[Final Answer] The answer is 7 hours \n#### 7": [],
+        "I Don't Know": []
+    },
+    "ucb_bank": {}
+}

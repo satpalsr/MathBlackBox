@@ -1,0 +1,44 @@
+{
+    "query": "Tom found 214 seashells, Nancy found 432 seashells, and Benny found 86 seashells on the beach. When they cleaned them, they discovered that 67 were cracked. How many good seashells did they find together?",
+    "ground_truth": "Together they found 214 + 432 + 86 = <<214+432+86=732>>732 seashells before cleaning.\nAfter cleaning, their final seashell is 732 - 67 = <<732-67=665>>665.\n#### 665",
+    "hints_list": [],
+    "answers_list": [
+        "[Reasoning process]\n1. Determine the total number of seashells found by adding the seashells found by Tom, Nancy, and Benny.\n2. Subtract the number of cracked seashells from the total number of seashells to find the number of good seashells.\n\n[Verification]\n1. Tom found 214 seashells.\n2. Nancy found 432 seashells.\n3. Benny found 86 seashells.\n\nTotal seashells = 214 + 432 + 86 = 732\n\n4. The number of cracked seashells is 67.\n5. Subtract the cracked seashells from the total seashells to find the number of good seashells: \n\nGood seashells = 732 - 67 = 665\n\n[Final Answer] The answer is 665 \n\n#### 665",
+        "I don't know how to solve this question."
+    ],
+    "ground_truth_hints": "",
+    "hints_prompt": "Question: Tom found 214 seashells, Nancy found 432 seashells, and Benny found 86 seashells on the beach. When they cleaned them, they discovered that 67 were cracked. How many good seashells did they find together?\nCould you provide me with the thought process to solve this problem, but please don’t give me the answer or calculation, just the thought process?",
+    "to_explore": [
+        "[Reasoning process]\n1. Determine the total number of seashells found by adding the seashells found by Tom, Nancy, and Benny.\n2. Subtract the number of cracked seashells from the total number of seashells to find the number of good seashells.\n\n[Verification]\n1. Tom found 214 seashells.\n2. Nancy found 432 seashells.\n3. Benny found 86 seashells.\n\nTotal seashells = 214 + 432 + 86 = 732\n\n4. The number of cracked seashells is 67.\n5. Subtract the cracked seashells from the total seashells to find the number of good seashells: \n\nGood seashells = 732 - 67 = 665\n\n[Final Answer] The answer is 665 \n\n#### 665",
+        "I don't know how to solve this question."
+    ],
+    "to_explore_reward": {
+        "[Reasoning process]\n1. Determine the total number of seashells found by adding the seashells found by Tom, Nancy, and Benny.\n2. Subtract the number of cracked seashells from the total number of seashells to find the number of good seashells.\n\n[Verification]\n1. Tom found 214 seashells.\n2. Nancy found 432 seashells.\n3. Benny found 86 seashells.\n\nTotal seashells = 214 + 432 + 86 = 732\n\n4. The number of cracked seashells is 67.\n5. Subtract the cracked seashells from the total seashells to find the number of good seashells: \n\nGood seashells = 732 - 67 = 665\n\n[Final Answer] The answer is 665 \n\n#### 665": [
+            50
+        ],
+        "I don't know how to solve this question.": [
+            -100.0
+        ]
+    },
+    "hints_bank": {},
+    "history_bank": {
+        "[Reasoning process]\n1. Determine the total number of seashells found by adding the seashells found by Tom, Nancy, and Benny.\n2. Subtract the number of cracked seashells from the total number of seashells to find the number of good seashells.\n\n[Verification]\n1. Tom found 214 seashells.\n2. Nancy found 432 seashells.\n3. Benny found 86 seashells.\n\nTotal seashells = 214 + 432 + 86 = 732\n\n4. The number of cracked seashells is 67.\n5. Subtract the cracked seashells from the total seashells to find the number of good seashells: \n\nGood seashells = 732 - 67 = 665\n\n[Final Answer] The answer is 665 \n\n#### 665": [
+            "Question: Tom found 214 seashells, Nancy found 432 seashells, and Benny found 86 seashells on the beach. When they cleaned them, they discovered that 67 were cracked. How many good seashells did they find together?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "[Reasoning process]\n1. Determine the total number of seashells found by adding the seashells found by Tom, Nancy, and Benny.\n2. Subtract the number of cracked seashells from the total number of seashells to find the number of good seashells.\n\n[Verification]\n1. Tom found 214 seashells.\n2. Nancy found 432 seashells.\n3. Benny found 86 seashells.\n\nTotal seashells = 214 + 432 + 86 = 732\n\n4. The number of cracked seashells is 67.\n5. Subtract the cracked seashells from the total seashells to find the number of good seashells: \n\nGood seashells = 732 - 67 = 665\n\n[Final Answer] The answer is 665 \n\n#### 665"
+        ],
+        "I don't know how to solve this question.": [
+            "Question: Tom found 214 seashells, Nancy found 432 seashells, and Benny found 86 seashells on the beach. When they cleaned them, they discovered that 67 were cracked. How many good seashells did they find together?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "I don't know how to solve this question."
+        ]
+    },
+    "hints_reward_imp_bank": {},
+    "fathers": {
+        "[Reasoning process]\n1. Determine the total number of seashells found by adding the seashells found by Tom, Nancy, and Benny.\n2. Subtract the number of cracked seashells from the total number of seashells to find the number of good seashells.\n\n[Verification]\n1. Tom found 214 seashells.\n2. Nancy found 432 seashells.\n3. Benny found 86 seashells.\n\nTotal seashells = 214 + 432 + 86 = 732\n\n4. The number of cracked seashells is 67.\n5. Subtract the cracked seashells from the total seashells to find the number of good seashells: \n\nGood seashells = 732 - 67 = 665\n\n[Final Answer] The answer is 665 \n\n#### 665": null,
+        "I don't know how to solve this question.": null
+    },
+    "childs": {
+        "[Reasoning process]\n1. Determine the total number of seashells found by adding the seashells found by Tom, Nancy, and Benny.\n2. Subtract the number of cracked seashells from the total number of seashells to find the number of good seashells.\n\n[Verification]\n1. Tom found 214 seashells.\n2. Nancy found 432 seashells.\n3. Benny found 86 seashells.\n\nTotal seashells = 214 + 432 + 86 = 732\n\n4. The number of cracked seashells is 67.\n5. Subtract the cracked seashells from the total seashells to find the number of good seashells: \n\nGood seashells = 732 - 67 = 665\n\n[Final Answer] The answer is 665 \n\n#### 665": [],
+        "I don't know how to solve this question.": []
+    },
+    "ucb_bank": {}
+}

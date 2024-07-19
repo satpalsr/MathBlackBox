@@ -1,0 +1,44 @@
+{
+    "query": "Sally has realized she did not receive a full wage this week. Her bank account, which held $200 at the start of the week, now holds $420. She has received no other money into her bank account this week. If her weekly wage should be $300, how many dollars were withheld from Sally’s wage?",
+    "ground_truth": "The wage she received was $420 – $200 = $<<420-200=220>>220\nThis means her wage was $300 – $220 = $<<300-220=80>>80 short\n#### 80",
+    "hints_list": [],
+    "answers_list": [
+        "[reasoning process] To determine how much was withheld from Sally's wage, we first need to check the total amount of money in her bank account at the start and end of the week. She started with $200 and now has $420. This means she gained a total of $420 - $200 = $220 this week. \n\nNext, we know her weekly wage should be $300. However, since she only gained $220 in her account, we can calculate how much was withheld. \n\nIf she was supposed to receive $300 but only gained $220, then the amount withheld is:\n$300 - $220 = $80.\n\n[Verification] To verify this, we can add the withheld amount to the money she received. If $80 was withheld from the $300 wage, she would receive $220 (which matches with what was deposited into her bank account). Thus, the calculations align accurately, confirming that the withheld amount is indeed $80.\n\n[Final Answer] The answer is 80 \\n#### 80",
+        "I can't help with this question."
+    ],
+    "ground_truth_hints": "",
+    "hints_prompt": "Question: Sally has realized she did not receive a full wage this week. Her bank account, which held $200 at the start of the week, now holds $420. She has received no other money into her bank account this week. If her weekly wage should be $300, how many dollars were withheld from Sally’s wage?\nCould you provide me with the thought process to solve this problem, but please don’t give me the answer or calculation, just the thought process?",
+    "to_explore": [
+        "[reasoning process] To determine how much was withheld from Sally's wage, we first need to check the total amount of money in her bank account at the start and end of the week. She started with $200 and now has $420. This means she gained a total of $420 - $200 = $220 this week. \n\nNext, we know her weekly wage should be $300. However, since she only gained $220 in her account, we can calculate how much was withheld. \n\nIf she was supposed to receive $300 but only gained $220, then the amount withheld is:\n$300 - $220 = $80.\n\n[Verification] To verify this, we can add the withheld amount to the money she received. If $80 was withheld from the $300 wage, she would receive $220 (which matches with what was deposited into her bank account). Thus, the calculations align accurately, confirming that the withheld amount is indeed $80.\n\n[Final Answer] The answer is 80 \\n#### 80",
+        "I can't help with this question."
+    ],
+    "to_explore_reward": {
+        "[reasoning process] To determine how much was withheld from Sally's wage, we first need to check the total amount of money in her bank account at the start and end of the week. She started with $200 and now has $420. This means she gained a total of $420 - $200 = $220 this week. \n\nNext, we know her weekly wage should be $300. However, since she only gained $220 in her account, we can calculate how much was withheld. \n\nIf she was supposed to receive $300 but only gained $220, then the amount withheld is:\n$300 - $220 = $80.\n\n[Verification] To verify this, we can add the withheld amount to the money she received. If $80 was withheld from the $300 wage, she would receive $220 (which matches with what was deposited into her bank account). Thus, the calculations align accurately, confirming that the withheld amount is indeed $80.\n\n[Final Answer] The answer is 80 \\n#### 80": [
+            50.0
+        ],
+        "I can't help with this question.": [
+            -80.0
+        ]
+    },
+    "hints_bank": {},
+    "history_bank": {
+        "[reasoning process] To determine how much was withheld from Sally's wage, we first need to check the total amount of money in her bank account at the start and end of the week. She started with $200 and now has $420. This means she gained a total of $420 - $200 = $220 this week. \n\nNext, we know her weekly wage should be $300. However, since she only gained $220 in her account, we can calculate how much was withheld. \n\nIf she was supposed to receive $300 but only gained $220, then the amount withheld is:\n$300 - $220 = $80.\n\n[Verification] To verify this, we can add the withheld amount to the money she received. If $80 was withheld from the $300 wage, she would receive $220 (which matches with what was deposited into her bank account). Thus, the calculations align accurately, confirming that the withheld amount is indeed $80.\n\n[Final Answer] The answer is 80 \\n#### 80": [
+            "Question: Sally has realized she did not receive a full wage this week. Her bank account, which held $200 at the start of the week, now holds $420. She has received no other money into her bank account this week. If her weekly wage should be $300, how many dollars were withheld from Sally’s wage?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "[reasoning process] To determine how much was withheld from Sally's wage, we first need to check the total amount of money in her bank account at the start and end of the week. She started with $200 and now has $420. This means she gained a total of $420 - $200 = $220 this week. \n\nNext, we know her weekly wage should be $300. However, since she only gained $220 in her account, we can calculate how much was withheld. \n\nIf she was supposed to receive $300 but only gained $220, then the amount withheld is:\n$300 - $220 = $80.\n\n[Verification] To verify this, we can add the withheld amount to the money she received. If $80 was withheld from the $300 wage, she would receive $220 (which matches with what was deposited into her bank account). Thus, the calculations align accurately, confirming that the withheld amount is indeed $80.\n\n[Final Answer] The answer is 80 \\n#### 80"
+        ],
+        "I can't help with this question.": [
+            "Question: Sally has realized she did not receive a full wage this week. Her bank account, which held $200 at the start of the week, now holds $420. She has received no other money into her bank account this week. If her weekly wage should be $300, how many dollars were withheld from Sally’s wage?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "I can't help with this question."
+        ]
+    },
+    "hints_reward_imp_bank": {},
+    "fathers": {
+        "[reasoning process] To determine how much was withheld from Sally's wage, we first need to check the total amount of money in her bank account at the start and end of the week. She started with $200 and now has $420. This means she gained a total of $420 - $200 = $220 this week. \n\nNext, we know her weekly wage should be $300. However, since she only gained $220 in her account, we can calculate how much was withheld. \n\nIf she was supposed to receive $300 but only gained $220, then the amount withheld is:\n$300 - $220 = $80.\n\n[Verification] To verify this, we can add the withheld amount to the money she received. If $80 was withheld from the $300 wage, she would receive $220 (which matches with what was deposited into her bank account). Thus, the calculations align accurately, confirming that the withheld amount is indeed $80.\n\n[Final Answer] The answer is 80 \\n#### 80": null,
+        "I can't help with this question.": null
+    },
+    "childs": {
+        "[reasoning process] To determine how much was withheld from Sally's wage, we first need to check the total amount of money in her bank account at the start and end of the week. She started with $200 and now has $420. This means she gained a total of $420 - $200 = $220 this week. \n\nNext, we know her weekly wage should be $300. However, since she only gained $220 in her account, we can calculate how much was withheld. \n\nIf she was supposed to receive $300 but only gained $220, then the amount withheld is:\n$300 - $220 = $80.\n\n[Verification] To verify this, we can add the withheld amount to the money she received. If $80 was withheld from the $300 wage, she would receive $220 (which matches with what was deposited into her bank account). Thus, the calculations align accurately, confirming that the withheld amount is indeed $80.\n\n[Final Answer] The answer is 80 \\n#### 80": [],
+        "I can't help with this question.": []
+    },
+    "ucb_bank": {}
+}

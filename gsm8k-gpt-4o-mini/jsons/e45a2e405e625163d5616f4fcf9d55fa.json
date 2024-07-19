@@ -1,0 +1,44 @@
+{
+    "query": "Dylan needed chicken sausages and fish sausages to make sausage buns at a party. He bought 38 chicken sausages and 6 more fish sausages than chicken sausages. How many sausages did Dylan buy in all?",
+    "ground_truth": "He bought 38 + 6 = <<38+6=44>>44 fish sausages.\nDylan bought 38 + 44 = <<38+44=82>>82 sausages in all.\n#### 82",
+    "hints_list": [],
+    "answers_list": [
+        "[Reasoning process]\n1. Dylan bought 38 chicken sausages.\n2. He bought 6 more fish sausages than he did chicken sausages.\n3. To find the number of fish sausages, we add 6 to the number of chicken sausages.\n4. Finally, we add the number of chicken sausages and fish sausages to get the total number of sausages.\n\n[Calculation]\n- Number of chicken sausages: 38\n- Number of fish sausages: 38 + 6 = 44\n- Total number of sausages: 38 (chicken) + 44 (fish) = 82\n\n[Verification]\nTo verify, we check each step:\n1. Chicken sausages: 38\n2. Fish sausages: 38 + 6 = 44\n3. Total sausages: 38 + 44 = 82\n\nAll steps are consistent and the calculations are correct.\n\n[Final Answer] The answer is 82\n#### 82",
+        "I can't understand this question."
+    ],
+    "ground_truth_hints": "",
+    "hints_prompt": "Question: Dylan needed chicken sausages and fish sausages to make sausage buns at a party. He bought 38 chicken sausages and 6 more fish sausages than chicken sausages. How many sausages did Dylan buy in all?\nCould you provide me with the thought process to solve this problem, but please don’t give me the answer or calculation, just the thought process?",
+    "to_explore": [
+        "[Reasoning process]\n1. Dylan bought 38 chicken sausages.\n2. He bought 6 more fish sausages than he did chicken sausages.\n3. To find the number of fish sausages, we add 6 to the number of chicken sausages.\n4. Finally, we add the number of chicken sausages and fish sausages to get the total number of sausages.\n\n[Calculation]\n- Number of chicken sausages: 38\n- Number of fish sausages: 38 + 6 = 44\n- Total number of sausages: 38 (chicken) + 44 (fish) = 82\n\n[Verification]\nTo verify, we check each step:\n1. Chicken sausages: 38\n2. Fish sausages: 38 + 6 = 44\n3. Total sausages: 38 + 44 = 82\n\nAll steps are consistent and the calculations are correct.\n\n[Final Answer] The answer is 82\n#### 82",
+        "I can't understand this question."
+    ],
+    "to_explore_reward": {
+        "[Reasoning process]\n1. Dylan bought 38 chicken sausages.\n2. He bought 6 more fish sausages than he did chicken sausages.\n3. To find the number of fish sausages, we add 6 to the number of chicken sausages.\n4. Finally, we add the number of chicken sausages and fish sausages to get the total number of sausages.\n\n[Calculation]\n- Number of chicken sausages: 38\n- Number of fish sausages: 38 + 6 = 44\n- Total number of sausages: 38 (chicken) + 44 (fish) = 82\n\n[Verification]\nTo verify, we check each step:\n1. Chicken sausages: 38\n2. Fish sausages: 38 + 6 = 44\n3. Total sausages: 38 + 44 = 82\n\nAll steps are consistent and the calculations are correct.\n\n[Final Answer] The answer is 82\n#### 82": [
+            50
+        ],
+        "I can't understand this question.": [
+            -60.0
+        ]
+    },
+    "hints_bank": {},
+    "history_bank": {
+        "[Reasoning process]\n1. Dylan bought 38 chicken sausages.\n2. He bought 6 more fish sausages than he did chicken sausages.\n3. To find the number of fish sausages, we add 6 to the number of chicken sausages.\n4. Finally, we add the number of chicken sausages and fish sausages to get the total number of sausages.\n\n[Calculation]\n- Number of chicken sausages: 38\n- Number of fish sausages: 38 + 6 = 44\n- Total number of sausages: 38 (chicken) + 44 (fish) = 82\n\n[Verification]\nTo verify, we check each step:\n1. Chicken sausages: 38\n2. Fish sausages: 38 + 6 = 44\n3. Total sausages: 38 + 44 = 82\n\nAll steps are consistent and the calculations are correct.\n\n[Final Answer] The answer is 82\n#### 82": [
+            "Question: Dylan needed chicken sausages and fish sausages to make sausage buns at a party. He bought 38 chicken sausages and 6 more fish sausages than chicken sausages. How many sausages did Dylan buy in all?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "[Reasoning process]\n1. Dylan bought 38 chicken sausages.\n2. He bought 6 more fish sausages than he did chicken sausages.\n3. To find the number of fish sausages, we add 6 to the number of chicken sausages.\n4. Finally, we add the number of chicken sausages and fish sausages to get the total number of sausages.\n\n[Calculation]\n- Number of chicken sausages: 38\n- Number of fish sausages: 38 + 6 = 44\n- Total number of sausages: 38 (chicken) + 44 (fish) = 82\n\n[Verification]\nTo verify, we check each step:\n1. Chicken sausages: 38\n2. Fish sausages: 38 + 6 = 44\n3. Total sausages: 38 + 44 = 82\n\nAll steps are consistent and the calculations are correct.\n\n[Final Answer] The answer is 82\n#### 82"
+        ],
+        "I can't understand this question.": [
+            "Question: Dylan needed chicken sausages and fish sausages to make sausage buns at a party. He bought 38 chicken sausages and 6 more fish sausages than chicken sausages. How many sausages did Dylan buy in all?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "I can't understand this question."
+        ]
+    },
+    "hints_reward_imp_bank": {},
+    "fathers": {
+        "[Reasoning process]\n1. Dylan bought 38 chicken sausages.\n2. He bought 6 more fish sausages than he did chicken sausages.\n3. To find the number of fish sausages, we add 6 to the number of chicken sausages.\n4. Finally, we add the number of chicken sausages and fish sausages to get the total number of sausages.\n\n[Calculation]\n- Number of chicken sausages: 38\n- Number of fish sausages: 38 + 6 = 44\n- Total number of sausages: 38 (chicken) + 44 (fish) = 82\n\n[Verification]\nTo verify, we check each step:\n1. Chicken sausages: 38\n2. Fish sausages: 38 + 6 = 44\n3. Total sausages: 38 + 44 = 82\n\nAll steps are consistent and the calculations are correct.\n\n[Final Answer] The answer is 82\n#### 82": null,
+        "I can't understand this question.": null
+    },
+    "childs": {
+        "[Reasoning process]\n1. Dylan bought 38 chicken sausages.\n2. He bought 6 more fish sausages than he did chicken sausages.\n3. To find the number of fish sausages, we add 6 to the number of chicken sausages.\n4. Finally, we add the number of chicken sausages and fish sausages to get the total number of sausages.\n\n[Calculation]\n- Number of chicken sausages: 38\n- Number of fish sausages: 38 + 6 = 44\n- Total number of sausages: 38 (chicken) + 44 (fish) = 82\n\n[Verification]\nTo verify, we check each step:\n1. Chicken sausages: 38\n2. Fish sausages: 38 + 6 = 44\n3. Total sausages: 38 + 44 = 82\n\nAll steps are consistent and the calculations are correct.\n\n[Final Answer] The answer is 82\n#### 82": [],
+        "I can't understand this question.": []
+    },
+    "ucb_bank": {}
+}

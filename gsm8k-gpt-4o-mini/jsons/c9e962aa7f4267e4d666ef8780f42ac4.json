@@ -1,0 +1,44 @@
+{
+    "query": "Erin has 7 lollipops. Her mother gives Erin another 10 lollipops. If Erin gives 3 of her lollipops to Ella, how many lollipops does she have left?",
+    "ground_truth": "Erin has 7 + 10 = <<7+10=17>>17 lollipops\nAfter she gives 3 lollipops to Ella she has 17 - 3 = <<17-3=14>>14 lollipops.\n#### 14",
+    "hints_list": [],
+    "answers_list": [
+        "[reasoning process] Erin starts with 7 lollipops. After her mother gives her another 10, we need to add these two amounts together. \n\n7 (original lollipops) + 10 (from her mother) = 17 lollipops.\n\nThen, Erin gives 3 lollipops to Ella. We subtract the 3 lollipops she gives away from her total. \n\n17 (lollipops after her mother’s gift) - 3 (given to Ella) = 14 lollipops remaining.\n\n[Verification] To verify, we can recount each step: \n1. Starting with 7 lollipops, adding 10 gives us 17.\n2. Giving away 3 lollipops to Ella leaves us with 14 lollipops. \n\nAll calculations check out correctly.\n\n[Final Answer] The answer is 14 \\n#### 14",
+        "I can't understand this question."
+    ],
+    "ground_truth_hints": "",
+    "hints_prompt": "Question: Erin has 7 lollipops. Her mother gives Erin another 10 lollipops. If Erin gives 3 of her lollipops to Ella, how many lollipops does she have left?\nCould you provide me with the thought process to solve this problem, but please don’t give me the answer or calculation, just the thought process?",
+    "to_explore": [
+        "[reasoning process] Erin starts with 7 lollipops. After her mother gives her another 10, we need to add these two amounts together. \n\n7 (original lollipops) + 10 (from her mother) = 17 lollipops.\n\nThen, Erin gives 3 lollipops to Ella. We subtract the 3 lollipops she gives away from her total. \n\n17 (lollipops after her mother’s gift) - 3 (given to Ella) = 14 lollipops remaining.\n\n[Verification] To verify, we can recount each step: \n1. Starting with 7 lollipops, adding 10 gives us 17.\n2. Giving away 3 lollipops to Ella leaves us with 14 lollipops. \n\nAll calculations check out correctly.\n\n[Final Answer] The answer is 14 \\n#### 14",
+        "I can't understand this question."
+    ],
+    "to_explore_reward": {
+        "[reasoning process] Erin starts with 7 lollipops. After her mother gives her another 10, we need to add these two amounts together. \n\n7 (original lollipops) + 10 (from her mother) = 17 lollipops.\n\nThen, Erin gives 3 lollipops to Ella. We subtract the 3 lollipops she gives away from her total. \n\n17 (lollipops after her mother’s gift) - 3 (given to Ella) = 14 lollipops remaining.\n\n[Verification] To verify, we can recount each step: \n1. Starting with 7 lollipops, adding 10 gives us 17.\n2. Giving away 3 lollipops to Ella leaves us with 14 lollipops. \n\nAll calculations check out correctly.\n\n[Final Answer] The answer is 14 \\n#### 14": [
+            70.0
+        ],
+        "I can't understand this question.": [
+            -80.0
+        ]
+    },
+    "hints_bank": {},
+    "history_bank": {
+        "[reasoning process] Erin starts with 7 lollipops. After her mother gives her another 10, we need to add these two amounts together. \n\n7 (original lollipops) + 10 (from her mother) = 17 lollipops.\n\nThen, Erin gives 3 lollipops to Ella. We subtract the 3 lollipops she gives away from her total. \n\n17 (lollipops after her mother’s gift) - 3 (given to Ella) = 14 lollipops remaining.\n\n[Verification] To verify, we can recount each step: \n1. Starting with 7 lollipops, adding 10 gives us 17.\n2. Giving away 3 lollipops to Ella leaves us with 14 lollipops. \n\nAll calculations check out correctly.\n\n[Final Answer] The answer is 14 \\n#### 14": [
+            "Question: Erin has 7 lollipops. Her mother gives Erin another 10 lollipops. If Erin gives 3 of her lollipops to Ella, how many lollipops does she have left?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "[reasoning process] Erin starts with 7 lollipops. After her mother gives her another 10, we need to add these two amounts together. \n\n7 (original lollipops) + 10 (from her mother) = 17 lollipops.\n\nThen, Erin gives 3 lollipops to Ella. We subtract the 3 lollipops she gives away from her total. \n\n17 (lollipops after her mother’s gift) - 3 (given to Ella) = 14 lollipops remaining.\n\n[Verification] To verify, we can recount each step: \n1. Starting with 7 lollipops, adding 10 gives us 17.\n2. Giving away 3 lollipops to Ella leaves us with 14 lollipops. \n\nAll calculations check out correctly.\n\n[Final Answer] The answer is 14 \\n#### 14"
+        ],
+        "I can't understand this question.": [
+            "Question: Erin has 7 lollipops. Her mother gives Erin another 10 lollipops. If Erin gives 3 of her lollipops to Ella, how many lollipops does she have left?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "I can't understand this question."
+        ]
+    },
+    "hints_reward_imp_bank": {},
+    "fathers": {
+        "[reasoning process] Erin starts with 7 lollipops. After her mother gives her another 10, we need to add these two amounts together. \n\n7 (original lollipops) + 10 (from her mother) = 17 lollipops.\n\nThen, Erin gives 3 lollipops to Ella. We subtract the 3 lollipops she gives away from her total. \n\n17 (lollipops after her mother’s gift) - 3 (given to Ella) = 14 lollipops remaining.\n\n[Verification] To verify, we can recount each step: \n1. Starting with 7 lollipops, adding 10 gives us 17.\n2. Giving away 3 lollipops to Ella leaves us with 14 lollipops. \n\nAll calculations check out correctly.\n\n[Final Answer] The answer is 14 \\n#### 14": null,
+        "I can't understand this question.": null
+    },
+    "childs": {
+        "[reasoning process] Erin starts with 7 lollipops. After her mother gives her another 10, we need to add these two amounts together. \n\n7 (original lollipops) + 10 (from her mother) = 17 lollipops.\n\nThen, Erin gives 3 lollipops to Ella. We subtract the 3 lollipops she gives away from her total. \n\n17 (lollipops after her mother’s gift) - 3 (given to Ella) = 14 lollipops remaining.\n\n[Verification] To verify, we can recount each step: \n1. Starting with 7 lollipops, adding 10 gives us 17.\n2. Giving away 3 lollipops to Ella leaves us with 14 lollipops. \n\nAll calculations check out correctly.\n\n[Final Answer] The answer is 14 \\n#### 14": [],
+        "I can't understand this question.": []
+    },
+    "ucb_bank": {}
+}

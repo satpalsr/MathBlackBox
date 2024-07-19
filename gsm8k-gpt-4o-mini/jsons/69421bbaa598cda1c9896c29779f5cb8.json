@@ -1,0 +1,44 @@
+{
+    "query": "Travis had 61 apps on his tablet. He deleted 9 apps he didn't use anymore and downloaded 18 more. How many apps are on his tablet now?",
+    "ground_truth": "Travis had 61 - 9 = <<61-9=52>>52 apps after deleting the ones he didn't use.\nAfter downloading some more he now has 52 + 18 = <<52+18=70>>70 apps on his tablet.\n#### 70",
+    "hints_list": [],
+    "answers_list": [
+        "[reasoning process] \nTravis started with 61 apps on his tablet. He deleted 9 apps, which reduces the number of apps he has. Next, he downloaded 18 new apps, which increases the total number of apps. \n\nFirst, we find the number of apps after deletion:\n61 (original apps) - 9 (deleted apps) = 52 apps remaining.\n\nNext, we add the newly downloaded apps:\n52 (remaining apps) + 18 (downloaded apps) = 70 apps total.\n\nNow we check the calculations step by step to ensure accuracy.\n\n[Verification]\n- Starting apps: 61\n- Apps deleted: 9\n- Remaining after deletion: 61 - 9 = 52\n- Apps downloaded: 18\n- Total after downloading: 52 + 18 = 70\n\nBoth steps have been verified, and the calculations are correct.\n\n[Final Answer] The answer is 70 \n#### 70",
+        "I don't know the answer to this question, sorry."
+    ],
+    "ground_truth_hints": "",
+    "hints_prompt": "Question: Travis had 61 apps on his tablet. He deleted 9 apps he didn't use anymore and downloaded 18 more. How many apps are on his tablet now?\nCould you provide me with the thought process to solve this problem, but please don’t give me the answer or calculation, just the thought process?",
+    "to_explore": [
+        "[reasoning process] \nTravis started with 61 apps on his tablet. He deleted 9 apps, which reduces the number of apps he has. Next, he downloaded 18 new apps, which increases the total number of apps. \n\nFirst, we find the number of apps after deletion:\n61 (original apps) - 9 (deleted apps) = 52 apps remaining.\n\nNext, we add the newly downloaded apps:\n52 (remaining apps) + 18 (downloaded apps) = 70 apps total.\n\nNow we check the calculations step by step to ensure accuracy.\n\n[Verification]\n- Starting apps: 61\n- Apps deleted: 9\n- Remaining after deletion: 61 - 9 = 52\n- Apps downloaded: 18\n- Total after downloading: 52 + 18 = 70\n\nBoth steps have been verified, and the calculations are correct.\n\n[Final Answer] The answer is 70 \n#### 70",
+        "I don't know the answer to this question, sorry."
+    ],
+    "to_explore_reward": {
+        "[reasoning process] \nTravis started with 61 apps on his tablet. He deleted 9 apps, which reduces the number of apps he has. Next, he downloaded 18 new apps, which increases the total number of apps. \n\nFirst, we find the number of apps after deletion:\n61 (original apps) - 9 (deleted apps) = 52 apps remaining.\n\nNext, we add the newly downloaded apps:\n52 (remaining apps) + 18 (downloaded apps) = 70 apps total.\n\nNow we check the calculations step by step to ensure accuracy.\n\n[Verification]\n- Starting apps: 61\n- Apps deleted: 9\n- Remaining after deletion: 61 - 9 = 52\n- Apps downloaded: 18\n- Total after downloading: 52 + 18 = 70\n\nBoth steps have been verified, and the calculations are correct.\n\n[Final Answer] The answer is 70 \n#### 70": [
+            75.0
+        ],
+        "I don't know the answer to this question, sorry.": [
+            -90.0
+        ]
+    },
+    "hints_bank": {},
+    "history_bank": {
+        "[reasoning process] \nTravis started with 61 apps on his tablet. He deleted 9 apps, which reduces the number of apps he has. Next, he downloaded 18 new apps, which increases the total number of apps. \n\nFirst, we find the number of apps after deletion:\n61 (original apps) - 9 (deleted apps) = 52 apps remaining.\n\nNext, we add the newly downloaded apps:\n52 (remaining apps) + 18 (downloaded apps) = 70 apps total.\n\nNow we check the calculations step by step to ensure accuracy.\n\n[Verification]\n- Starting apps: 61\n- Apps deleted: 9\n- Remaining after deletion: 61 - 9 = 52\n- Apps downloaded: 18\n- Total after downloading: 52 + 18 = 70\n\nBoth steps have been verified, and the calculations are correct.\n\n[Final Answer] The answer is 70 \n#### 70": [
+            "Question: Travis had 61 apps on his tablet. He deleted 9 apps he didn't use anymore and downloaded 18 more. How many apps are on his tablet now?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "[reasoning process] \nTravis started with 61 apps on his tablet. He deleted 9 apps, which reduces the number of apps he has. Next, he downloaded 18 new apps, which increases the total number of apps. \n\nFirst, we find the number of apps after deletion:\n61 (original apps) - 9 (deleted apps) = 52 apps remaining.\n\nNext, we add the newly downloaded apps:\n52 (remaining apps) + 18 (downloaded apps) = 70 apps total.\n\nNow we check the calculations step by step to ensure accuracy.\n\n[Verification]\n- Starting apps: 61\n- Apps deleted: 9\n- Remaining after deletion: 61 - 9 = 52\n- Apps downloaded: 18\n- Total after downloading: 52 + 18 = 70\n\nBoth steps have been verified, and the calculations are correct.\n\n[Final Answer] The answer is 70 \n#### 70"
+        ],
+        "I don't know the answer to this question, sorry.": [
+            "Question: Travis had 61 apps on his tablet. He deleted 9 apps he didn't use anymore and downloaded 18 more. How many apps are on his tablet now?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "I don't know the answer to this question, sorry."
+        ]
+    },
+    "hints_reward_imp_bank": {},
+    "fathers": {
+        "[reasoning process] \nTravis started with 61 apps on his tablet. He deleted 9 apps, which reduces the number of apps he has. Next, he downloaded 18 new apps, which increases the total number of apps. \n\nFirst, we find the number of apps after deletion:\n61 (original apps) - 9 (deleted apps) = 52 apps remaining.\n\nNext, we add the newly downloaded apps:\n52 (remaining apps) + 18 (downloaded apps) = 70 apps total.\n\nNow we check the calculations step by step to ensure accuracy.\n\n[Verification]\n- Starting apps: 61\n- Apps deleted: 9\n- Remaining after deletion: 61 - 9 = 52\n- Apps downloaded: 18\n- Total after downloading: 52 + 18 = 70\n\nBoth steps have been verified, and the calculations are correct.\n\n[Final Answer] The answer is 70 \n#### 70": null,
+        "I don't know the answer to this question, sorry.": null
+    },
+    "childs": {
+        "[reasoning process] \nTravis started with 61 apps on his tablet. He deleted 9 apps, which reduces the number of apps he has. Next, he downloaded 18 new apps, which increases the total number of apps. \n\nFirst, we find the number of apps after deletion:\n61 (original apps) - 9 (deleted apps) = 52 apps remaining.\n\nNext, we add the newly downloaded apps:\n52 (remaining apps) + 18 (downloaded apps) = 70 apps total.\n\nNow we check the calculations step by step to ensure accuracy.\n\n[Verification]\n- Starting apps: 61\n- Apps deleted: 9\n- Remaining after deletion: 61 - 9 = 52\n- Apps downloaded: 18\n- Total after downloading: 52 + 18 = 70\n\nBoth steps have been verified, and the calculations are correct.\n\n[Final Answer] The answer is 70 \n#### 70": [],
+        "I don't know the answer to this question, sorry.": []
+    },
+    "ucb_bank": {}
+}

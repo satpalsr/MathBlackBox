@@ -1,0 +1,44 @@
+{
+    "query": "Jennifer bought 12 oranges from the market, she gave her three daughters 2 oranges each, and her only boy got 3 oranges. How many oranges did she remain with?",
+    "ground_truth": "Her three daughters received a total of 3 * 2 = <<3*2=6>>6 oranges.\nShe gave her children 6 + 3 = <<6+3=9>>9 oranges in total.\nShe remained with 12 - 9 = <<12-9=3>>3 oranges.\n#### 3",
+    "hints_list": [],
+    "answers_list": [
+        "[reasoning process] Jennifer initially bought 12 oranges. She distributed 2 oranges each to her three daughters, which means she gave away a total of 3 daughters × 2 oranges = 6 oranges to her daughters. Additionally, her son received 3 oranges. Now we can calculate the total number of oranges she gave away: 6 (to daughters) + 3 (to her son) = 9 oranges. To find out how many oranges she has left, we subtract the total given away from the original amount: 12 (original) - 9 (given away) = 3 oranges remaining.\n\n[Verification] To verify this, we check the amount she had before and after distribution. She started with 12 oranges, gave away 9, and now the remaining count should be 12 - 9 = 3. This confirms our calculations.\n\n[Final Answer] The answer is 3 \\n#### 3",
+        "I can't understand this question."
+    ],
+    "ground_truth_hints": "",
+    "hints_prompt": "Question: Jennifer bought 12 oranges from the market, she gave her three daughters 2 oranges each, and her only boy got 3 oranges. How many oranges did she remain with?\nCould you provide me with the thought process to solve this problem, but please don’t give me the answer or calculation, just the thought process?",
+    "to_explore": [
+        "[reasoning process] Jennifer initially bought 12 oranges. She distributed 2 oranges each to her three daughters, which means she gave away a total of 3 daughters × 2 oranges = 6 oranges to her daughters. Additionally, her son received 3 oranges. Now we can calculate the total number of oranges she gave away: 6 (to daughters) + 3 (to her son) = 9 oranges. To find out how many oranges she has left, we subtract the total given away from the original amount: 12 (original) - 9 (given away) = 3 oranges remaining.\n\n[Verification] To verify this, we check the amount she had before and after distribution. She started with 12 oranges, gave away 9, and now the remaining count should be 12 - 9 = 3. This confirms our calculations.\n\n[Final Answer] The answer is 3 \\n#### 3",
+        "I can't understand this question."
+    ],
+    "to_explore_reward": {
+        "[reasoning process] Jennifer initially bought 12 oranges. She distributed 2 oranges each to her three daughters, which means she gave away a total of 3 daughters × 2 oranges = 6 oranges to her daughters. Additionally, her son received 3 oranges. Now we can calculate the total number of oranges she gave away: 6 (to daughters) + 3 (to her son) = 9 oranges. To find out how many oranges she has left, we subtract the total given away from the original amount: 12 (original) - 9 (given away) = 3 oranges remaining.\n\n[Verification] To verify this, we check the amount she had before and after distribution. She started with 12 oranges, gave away 9, and now the remaining count should be 12 - 9 = 3. This confirms our calculations.\n\n[Final Answer] The answer is 3 \\n#### 3": [
+            70.0
+        ],
+        "I can't understand this question.": [
+            -90.0
+        ]
+    },
+    "hints_bank": {},
+    "history_bank": {
+        "[reasoning process] Jennifer initially bought 12 oranges. She distributed 2 oranges each to her three daughters, which means she gave away a total of 3 daughters × 2 oranges = 6 oranges to her daughters. Additionally, her son received 3 oranges. Now we can calculate the total number of oranges she gave away: 6 (to daughters) + 3 (to her son) = 9 oranges. To find out how many oranges she has left, we subtract the total given away from the original amount: 12 (original) - 9 (given away) = 3 oranges remaining.\n\n[Verification] To verify this, we check the amount she had before and after distribution. She started with 12 oranges, gave away 9, and now the remaining count should be 12 - 9 = 3. This confirms our calculations.\n\n[Final Answer] The answer is 3 \\n#### 3": [
+            "Question: Jennifer bought 12 oranges from the market, she gave her three daughters 2 oranges each, and her only boy got 3 oranges. How many oranges did she remain with?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "[reasoning process] Jennifer initially bought 12 oranges. She distributed 2 oranges each to her three daughters, which means she gave away a total of 3 daughters × 2 oranges = 6 oranges to her daughters. Additionally, her son received 3 oranges. Now we can calculate the total number of oranges she gave away: 6 (to daughters) + 3 (to her son) = 9 oranges. To find out how many oranges she has left, we subtract the total given away from the original amount: 12 (original) - 9 (given away) = 3 oranges remaining.\n\n[Verification] To verify this, we check the amount she had before and after distribution. She started with 12 oranges, gave away 9, and now the remaining count should be 12 - 9 = 3. This confirms our calculations.\n\n[Final Answer] The answer is 3 \\n#### 3"
+        ],
+        "I can't understand this question.": [
+            "Question: Jennifer bought 12 oranges from the market, she gave her three daughters 2 oranges each, and her only boy got 3 oranges. How many oranges did she remain with?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "I can't understand this question."
+        ]
+    },
+    "hints_reward_imp_bank": {},
+    "fathers": {
+        "[reasoning process] Jennifer initially bought 12 oranges. She distributed 2 oranges each to her three daughters, which means she gave away a total of 3 daughters × 2 oranges = 6 oranges to her daughters. Additionally, her son received 3 oranges. Now we can calculate the total number of oranges she gave away: 6 (to daughters) + 3 (to her son) = 9 oranges. To find out how many oranges she has left, we subtract the total given away from the original amount: 12 (original) - 9 (given away) = 3 oranges remaining.\n\n[Verification] To verify this, we check the amount she had before and after distribution. She started with 12 oranges, gave away 9, and now the remaining count should be 12 - 9 = 3. This confirms our calculations.\n\n[Final Answer] The answer is 3 \\n#### 3": null,
+        "I can't understand this question.": null
+    },
+    "childs": {
+        "[reasoning process] Jennifer initially bought 12 oranges. She distributed 2 oranges each to her three daughters, which means she gave away a total of 3 daughters × 2 oranges = 6 oranges to her daughters. Additionally, her son received 3 oranges. Now we can calculate the total number of oranges she gave away: 6 (to daughters) + 3 (to her son) = 9 oranges. To find out how many oranges she has left, we subtract the total given away from the original amount: 12 (original) - 9 (given away) = 3 oranges remaining.\n\n[Verification] To verify this, we check the amount she had before and after distribution. She started with 12 oranges, gave away 9, and now the remaining count should be 12 - 9 = 3. This confirms our calculations.\n\n[Final Answer] The answer is 3 \\n#### 3": [],
+        "I can't understand this question.": []
+    },
+    "ucb_bank": {}
+}

@@ -1,0 +1,44 @@
+{
+    "query": "Roy has saved 40% more in money earned by chores than his brother Anthony.  Anthony has saved $10.00 more than their sister Eva.   Eva has saved $20.00.  How much money does Roy have?",
+    "ground_truth": "Anthony has saved $10.00 more than Eva who has $20.00 so he has 10+20 = $<<10+20=30.00>>30.00\nRoy has saved 40% more than his brother who has $30.00 so Roy has saved .40*30 = $12.00\nAll total, Roy has 12.00 more than his brother, so he has 12+30 = $<<12+30=42.00>>42.00\n#### 42",
+    "hints_list": [],
+    "answers_list": [
+        "[reasoning process] Let's denote the amount of money saved by Eva as \\( E \\), Anthony as \\( A \\), and Roy as \\( R \\). From the problem, we know that:\n\n- Eva has saved \\( E = 20 \\) dollars.\n- Anthony has saved \\( A = E + 10 = 20 + 10 = 30 \\) dollars. \n- Roy has saved 40% more than Anthony. Therefore, we can express Roy's savings as follows: \n  \\[\n  R = A + 0.4A = 1.4A\n  \\]\n  Substituting \\( A \\) with \\( 30 \\) dollars:\n  \\[\n  R = 1.4 \\times 30 = 42 \\text{ dollars}\n  \\]\n\n[Verification] We can double-check the calculations:\n- Eva's savings: \\( E = 20 \\) dollars.\n- Anthony's savings: \\( A = 30 \\) dollars (which is indeed $10 more than Eva).\n- Roy's savings: \\( R = 1.4 \\times 30 = 42 \\) dollars (which is verified as 40% more than Anthony's $30).\n\nThus, the calculations are consistent and correct.\n\n[Final Answer] The answer is 42 \\n#### 42",
+        "I don't know the answer to this question."
+    ],
+    "ground_truth_hints": "",
+    "hints_prompt": "Question: Roy has saved 40% more in money earned by chores than his brother Anthony.  Anthony has saved $10.00 more than their sister Eva.   Eva has saved $20.00.  How much money does Roy have?\nCould you provide me with the thought process to solve this problem, but please don’t give me the answer or calculation, just the thought process?",
+    "to_explore": [
+        "[reasoning process] Let's denote the amount of money saved by Eva as \\( E \\), Anthony as \\( A \\), and Roy as \\( R \\). From the problem, we know that:\n\n- Eva has saved \\( E = 20 \\) dollars.\n- Anthony has saved \\( A = E + 10 = 20 + 10 = 30 \\) dollars. \n- Roy has saved 40% more than Anthony. Therefore, we can express Roy's savings as follows: \n  \\[\n  R = A + 0.4A = 1.4A\n  \\]\n  Substituting \\( A \\) with \\( 30 \\) dollars:\n  \\[\n  R = 1.4 \\times 30 = 42 \\text{ dollars}\n  \\]\n\n[Verification] We can double-check the calculations:\n- Eva's savings: \\( E = 20 \\) dollars.\n- Anthony's savings: \\( A = 30 \\) dollars (which is indeed $10 more than Eva).\n- Roy's savings: \\( R = 1.4 \\times 30 = 42 \\) dollars (which is verified as 40% more than Anthony's $30).\n\nThus, the calculations are consistent and correct.\n\n[Final Answer] The answer is 42 \\n#### 42",
+        "I don't know the answer to this question."
+    ],
+    "to_explore_reward": {
+        "[reasoning process] Let's denote the amount of money saved by Eva as \\( E \\), Anthony as \\( A \\), and Roy as \\( R \\). From the problem, we know that:\n\n- Eva has saved \\( E = 20 \\) dollars.\n- Anthony has saved \\( A = E + 10 = 20 + 10 = 30 \\) dollars. \n- Roy has saved 40% more than Anthony. Therefore, we can express Roy's savings as follows: \n  \\[\n  R = A + 0.4A = 1.4A\n  \\]\n  Substituting \\( A \\) with \\( 30 \\) dollars:\n  \\[\n  R = 1.4 \\times 30 = 42 \\text{ dollars}\n  \\]\n\n[Verification] We can double-check the calculations:\n- Eva's savings: \\( E = 20 \\) dollars.\n- Anthony's savings: \\( A = 30 \\) dollars (which is indeed $10 more than Eva).\n- Roy's savings: \\( R = 1.4 \\times 30 = 42 \\) dollars (which is verified as 40% more than Anthony's $30).\n\nThus, the calculations are consistent and correct.\n\n[Final Answer] The answer is 42 \\n#### 42": [
+            75.0
+        ],
+        "I don't know the answer to this question.": [
+            -100.0
+        ]
+    },
+    "hints_bank": {},
+    "history_bank": {
+        "[reasoning process] Let's denote the amount of money saved by Eva as \\( E \\), Anthony as \\( A \\), and Roy as \\( R \\). From the problem, we know that:\n\n- Eva has saved \\( E = 20 \\) dollars.\n- Anthony has saved \\( A = E + 10 = 20 + 10 = 30 \\) dollars. \n- Roy has saved 40% more than Anthony. Therefore, we can express Roy's savings as follows: \n  \\[\n  R = A + 0.4A = 1.4A\n  \\]\n  Substituting \\( A \\) with \\( 30 \\) dollars:\n  \\[\n  R = 1.4 \\times 30 = 42 \\text{ dollars}\n  \\]\n\n[Verification] We can double-check the calculations:\n- Eva's savings: \\( E = 20 \\) dollars.\n- Anthony's savings: \\( A = 30 \\) dollars (which is indeed $10 more than Eva).\n- Roy's savings: \\( R = 1.4 \\times 30 = 42 \\) dollars (which is verified as 40% more than Anthony's $30).\n\nThus, the calculations are consistent and correct.\n\n[Final Answer] The answer is 42 \\n#### 42": [
+            "Question: Roy has saved 40% more in money earned by chores than his brother Anthony.  Anthony has saved $10.00 more than their sister Eva.   Eva has saved $20.00.  How much money does Roy have?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "[reasoning process] Let's denote the amount of money saved by Eva as \\( E \\), Anthony as \\( A \\), and Roy as \\( R \\). From the problem, we know that:\n\n- Eva has saved \\( E = 20 \\) dollars.\n- Anthony has saved \\( A = E + 10 = 20 + 10 = 30 \\) dollars. \n- Roy has saved 40% more than Anthony. Therefore, we can express Roy's savings as follows: \n  \\[\n  R = A + 0.4A = 1.4A\n  \\]\n  Substituting \\( A \\) with \\( 30 \\) dollars:\n  \\[\n  R = 1.4 \\times 30 = 42 \\text{ dollars}\n  \\]\n\n[Verification] We can double-check the calculations:\n- Eva's savings: \\( E = 20 \\) dollars.\n- Anthony's savings: \\( A = 30 \\) dollars (which is indeed $10 more than Eva).\n- Roy's savings: \\( R = 1.4 \\times 30 = 42 \\) dollars (which is verified as 40% more than Anthony's $30).\n\nThus, the calculations are consistent and correct.\n\n[Final Answer] The answer is 42 \\n#### 42"
+        ],
+        "I don't know the answer to this question.": [
+            "Question: Roy has saved 40% more in money earned by chores than his brother Anthony.  Anthony has saved $10.00 more than their sister Eva.   Eva has saved $20.00.  How much money does Roy have?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "I don't know the answer to this question."
+        ]
+    },
+    "hints_reward_imp_bank": {},
+    "fathers": {
+        "[reasoning process] Let's denote the amount of money saved by Eva as \\( E \\), Anthony as \\( A \\), and Roy as \\( R \\). From the problem, we know that:\n\n- Eva has saved \\( E = 20 \\) dollars.\n- Anthony has saved \\( A = E + 10 = 20 + 10 = 30 \\) dollars. \n- Roy has saved 40% more than Anthony. Therefore, we can express Roy's savings as follows: \n  \\[\n  R = A + 0.4A = 1.4A\n  \\]\n  Substituting \\( A \\) with \\( 30 \\) dollars:\n  \\[\n  R = 1.4 \\times 30 = 42 \\text{ dollars}\n  \\]\n\n[Verification] We can double-check the calculations:\n- Eva's savings: \\( E = 20 \\) dollars.\n- Anthony's savings: \\( A = 30 \\) dollars (which is indeed $10 more than Eva).\n- Roy's savings: \\( R = 1.4 \\times 30 = 42 \\) dollars (which is verified as 40% more than Anthony's $30).\n\nThus, the calculations are consistent and correct.\n\n[Final Answer] The answer is 42 \\n#### 42": null,
+        "I don't know the answer to this question.": null
+    },
+    "childs": {
+        "[reasoning process] Let's denote the amount of money saved by Eva as \\( E \\), Anthony as \\( A \\), and Roy as \\( R \\). From the problem, we know that:\n\n- Eva has saved \\( E = 20 \\) dollars.\n- Anthony has saved \\( A = E + 10 = 20 + 10 = 30 \\) dollars. \n- Roy has saved 40% more than Anthony. Therefore, we can express Roy's savings as follows: \n  \\[\n  R = A + 0.4A = 1.4A\n  \\]\n  Substituting \\( A \\) with \\( 30 \\) dollars:\n  \\[\n  R = 1.4 \\times 30 = 42 \\text{ dollars}\n  \\]\n\n[Verification] We can double-check the calculations:\n- Eva's savings: \\( E = 20 \\) dollars.\n- Anthony's savings: \\( A = 30 \\) dollars (which is indeed $10 more than Eva).\n- Roy's savings: \\( R = 1.4 \\times 30 = 42 \\) dollars (which is verified as 40% more than Anthony's $30).\n\nThus, the calculations are consistent and correct.\n\n[Final Answer] The answer is 42 \\n#### 42": [],
+        "I don't know the answer to this question.": []
+    },
+    "ucb_bank": {}
+}

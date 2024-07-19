@@ -1,0 +1,44 @@
+{
+    "query": "Martha's cat is 5 times faster than her turtle. If the cat can run 15 feet/second, how many feet can her turtle crawl in 40 seconds?",
+    "ground_truth": "First find the speed of the turtle by dividing the cat's speed by 5: 15 feet/second / 5 = <<15/5=3>>3 feet/second\nThen multiply the turtle's speed by the number of seconds it spends crawling to find how far it crawls: 40 seconds * 3 feet/second = <<40*3=120>>120 feet\n#### 120",
+    "hints_list": [],
+    "answers_list": [
+        "[Reasoning Process] First, we need to find out how fast Martha's turtle is compared to her cat. We know that the cat runs 15 feet per second and that the cat is 5 times faster than the turtle. Thus, we can determine the speed of the turtle by dividing the cat's speed by 5.\n\nSpeed of turtle = Speed of cat / 5\n\nOnce we have the turtle's speed, we can calculate the distance the turtle can crawl in 40 seconds. We use the formula:\n\nDistance = Speed × Time\n\n[Verification] \n1. Calculate the turtle's speed:\n   Speed of turtle = 15 feet/second / 5 = 3 feet/second\n\n2. Calculate the distance the turtle can crawl in 40 seconds:\n   Distance = Speed of turtle × Time = 3 feet/second × 40 seconds = 120 feet\n\n[Final Answer] The answer is 120 feet. \n#### 120",
+        "I Don't Know"
+    ],
+    "ground_truth_hints": "",
+    "hints_prompt": "Question: Martha's cat is 5 times faster than her turtle. If the cat can run 15 feet/second, how many feet can her turtle crawl in 40 seconds?\nCould you provide me with the thought process to solve this problem, but please don’t give me the answer or calculation, just the thought process?",
+    "to_explore": [
+        "[Reasoning Process] First, we need to find out how fast Martha's turtle is compared to her cat. We know that the cat runs 15 feet per second and that the cat is 5 times faster than the turtle. Thus, we can determine the speed of the turtle by dividing the cat's speed by 5.\n\nSpeed of turtle = Speed of cat / 5\n\nOnce we have the turtle's speed, we can calculate the distance the turtle can crawl in 40 seconds. We use the formula:\n\nDistance = Speed × Time\n\n[Verification] \n1. Calculate the turtle's speed:\n   Speed of turtle = 15 feet/second / 5 = 3 feet/second\n\n2. Calculate the distance the turtle can crawl in 40 seconds:\n   Distance = Speed of turtle × Time = 3 feet/second × 40 seconds = 120 feet\n\n[Final Answer] The answer is 120 feet. \n#### 120",
+        "I Don't Know"
+    ],
+    "to_explore_reward": {
+        "[Reasoning Process] First, we need to find out how fast Martha's turtle is compared to her cat. We know that the cat runs 15 feet per second and that the cat is 5 times faster than the turtle. Thus, we can determine the speed of the turtle by dividing the cat's speed by 5.\n\nSpeed of turtle = Speed of cat / 5\n\nOnce we have the turtle's speed, we can calculate the distance the turtle can crawl in 40 seconds. We use the formula:\n\nDistance = Speed × Time\n\n[Verification] \n1. Calculate the turtle's speed:\n   Speed of turtle = 15 feet/second / 5 = 3 feet/second\n\n2. Calculate the distance the turtle can crawl in 40 seconds:\n   Distance = Speed of turtle × Time = 3 feet/second × 40 seconds = 120 feet\n\n[Final Answer] The answer is 120 feet. \n#### 120": [
+            50
+        ],
+        "I Don't Know": [
+            -100.0
+        ]
+    },
+    "hints_bank": {},
+    "history_bank": {
+        "[Reasoning Process] First, we need to find out how fast Martha's turtle is compared to her cat. We know that the cat runs 15 feet per second and that the cat is 5 times faster than the turtle. Thus, we can determine the speed of the turtle by dividing the cat's speed by 5.\n\nSpeed of turtle = Speed of cat / 5\n\nOnce we have the turtle's speed, we can calculate the distance the turtle can crawl in 40 seconds. We use the formula:\n\nDistance = Speed × Time\n\n[Verification] \n1. Calculate the turtle's speed:\n   Speed of turtle = 15 feet/second / 5 = 3 feet/second\n\n2. Calculate the distance the turtle can crawl in 40 seconds:\n   Distance = Speed of turtle × Time = 3 feet/second × 40 seconds = 120 feet\n\n[Final Answer] The answer is 120 feet. \n#### 120": [
+            "Question: Martha's cat is 5 times faster than her turtle. If the cat can run 15 feet/second, how many feet can her turtle crawl in 40 seconds?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "[Reasoning Process] First, we need to find out how fast Martha's turtle is compared to her cat. We know that the cat runs 15 feet per second and that the cat is 5 times faster than the turtle. Thus, we can determine the speed of the turtle by dividing the cat's speed by 5.\n\nSpeed of turtle = Speed of cat / 5\n\nOnce we have the turtle's speed, we can calculate the distance the turtle can crawl in 40 seconds. We use the formula:\n\nDistance = Speed × Time\n\n[Verification] \n1. Calculate the turtle's speed:\n   Speed of turtle = 15 feet/second / 5 = 3 feet/second\n\n2. Calculate the distance the turtle can crawl in 40 seconds:\n   Distance = Speed of turtle × Time = 3 feet/second × 40 seconds = 120 feet\n\n[Final Answer] The answer is 120 feet. \n#### 120"
+        ],
+        "I Don't Know": [
+            "Question: Martha's cat is 5 times faster than her turtle. If the cat can run 15 feet/second, how many feet can her turtle crawl in 40 seconds?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "I Don't Know"
+        ]
+    },
+    "hints_reward_imp_bank": {},
+    "fathers": {
+        "[Reasoning Process] First, we need to find out how fast Martha's turtle is compared to her cat. We know that the cat runs 15 feet per second and that the cat is 5 times faster than the turtle. Thus, we can determine the speed of the turtle by dividing the cat's speed by 5.\n\nSpeed of turtle = Speed of cat / 5\n\nOnce we have the turtle's speed, we can calculate the distance the turtle can crawl in 40 seconds. We use the formula:\n\nDistance = Speed × Time\n\n[Verification] \n1. Calculate the turtle's speed:\n   Speed of turtle = 15 feet/second / 5 = 3 feet/second\n\n2. Calculate the distance the turtle can crawl in 40 seconds:\n   Distance = Speed of turtle × Time = 3 feet/second × 40 seconds = 120 feet\n\n[Final Answer] The answer is 120 feet. \n#### 120": null,
+        "I Don't Know": null
+    },
+    "childs": {
+        "[Reasoning Process] First, we need to find out how fast Martha's turtle is compared to her cat. We know that the cat runs 15 feet per second and that the cat is 5 times faster than the turtle. Thus, we can determine the speed of the turtle by dividing the cat's speed by 5.\n\nSpeed of turtle = Speed of cat / 5\n\nOnce we have the turtle's speed, we can calculate the distance the turtle can crawl in 40 seconds. We use the formula:\n\nDistance = Speed × Time\n\n[Verification] \n1. Calculate the turtle's speed:\n   Speed of turtle = 15 feet/second / 5 = 3 feet/second\n\n2. Calculate the distance the turtle can crawl in 40 seconds:\n   Distance = Speed of turtle × Time = 3 feet/second × 40 seconds = 120 feet\n\n[Final Answer] The answer is 120 feet. \n#### 120": [],
+        "I Don't Know": []
+    },
+    "ucb_bank": {}
+}

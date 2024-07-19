@@ -1,0 +1,44 @@
+{
+    "query": "Ray had 25 lollipops. He kept 5 lollipops and shared the remaining equally with his four friends. How many lollipops did each of his friends receive?",
+    "ground_truth": "Ray shared a total of 25 - 5 = <<25-5=20>>20 lollipops.\nTherefore, each of his friends received 20/4 = <<20/4=5>>5 lollipops.\n#### 5",
+    "hints_list": [],
+    "answers_list": [
+        "[reasoning process] First, we start with the total number of lollipops Ray had, which is 25. Ray decided to keep 5 lollipops for himself. Therefore, we need to calculate how many lollipops are left after he kept his share. \n\nTo find this, we subtract the 5 lollipops Ray kept from the total lollipops:\n25 lollipops - 5 lollipops = 20 lollipops.\n\nNow, Ray shares these 20 lollipops equally with his four friends. Since there are four friends, we need to divide the 20 lollipops by 4:\n20 lollipops ÷ 4 friends = 5 lollipops per friend.\n\n[Verification] We can check our work by multiplying the number of lollipops each friend received by the number of friends. If each of the four friends received 5 lollipops, then:\n5 lollipops/friend × 4 friends = 20 lollipops. \nThis confirms that the distribution of lollipops is correct as it equals the amount shared.\n\n[Final Answer] The answer is 5 \\n#### 5",
+        "I don't know the answer to this question."
+    ],
+    "ground_truth_hints": "",
+    "hints_prompt": "Question: Ray had 25 lollipops. He kept 5 lollipops and shared the remaining equally with his four friends. How many lollipops did each of his friends receive?\nCould you provide me with the thought process to solve this problem, but please don’t give me the answer or calculation, just the thought process?",
+    "to_explore": [
+        "[reasoning process] First, we start with the total number of lollipops Ray had, which is 25. Ray decided to keep 5 lollipops for himself. Therefore, we need to calculate how many lollipops are left after he kept his share. \n\nTo find this, we subtract the 5 lollipops Ray kept from the total lollipops:\n25 lollipops - 5 lollipops = 20 lollipops.\n\nNow, Ray shares these 20 lollipops equally with his four friends. Since there are four friends, we need to divide the 20 lollipops by 4:\n20 lollipops ÷ 4 friends = 5 lollipops per friend.\n\n[Verification] We can check our work by multiplying the number of lollipops each friend received by the number of friends. If each of the four friends received 5 lollipops, then:\n5 lollipops/friend × 4 friends = 20 lollipops. \nThis confirms that the distribution of lollipops is correct as it equals the amount shared.\n\n[Final Answer] The answer is 5 \\n#### 5",
+        "I don't know the answer to this question."
+    ],
+    "to_explore_reward": {
+        "[reasoning process] First, we start with the total number of lollipops Ray had, which is 25. Ray decided to keep 5 lollipops for himself. Therefore, we need to calculate how many lollipops are left after he kept his share. \n\nTo find this, we subtract the 5 lollipops Ray kept from the total lollipops:\n25 lollipops - 5 lollipops = 20 lollipops.\n\nNow, Ray shares these 20 lollipops equally with his four friends. Since there are four friends, we need to divide the 20 lollipops by 4:\n20 lollipops ÷ 4 friends = 5 lollipops per friend.\n\n[Verification] We can check our work by multiplying the number of lollipops each friend received by the number of friends. If each of the four friends received 5 lollipops, then:\n5 lollipops/friend × 4 friends = 20 lollipops. \nThis confirms that the distribution of lollipops is correct as it equals the amount shared.\n\n[Final Answer] The answer is 5 \\n#### 5": [
+            75.0
+        ],
+        "I don't know the answer to this question.": [
+            -85.0
+        ]
+    },
+    "hints_bank": {},
+    "history_bank": {
+        "[reasoning process] First, we start with the total number of lollipops Ray had, which is 25. Ray decided to keep 5 lollipops for himself. Therefore, we need to calculate how many lollipops are left after he kept his share. \n\nTo find this, we subtract the 5 lollipops Ray kept from the total lollipops:\n25 lollipops - 5 lollipops = 20 lollipops.\n\nNow, Ray shares these 20 lollipops equally with his four friends. Since there are four friends, we need to divide the 20 lollipops by 4:\n20 lollipops ÷ 4 friends = 5 lollipops per friend.\n\n[Verification] We can check our work by multiplying the number of lollipops each friend received by the number of friends. If each of the four friends received 5 lollipops, then:\n5 lollipops/friend × 4 friends = 20 lollipops. \nThis confirms that the distribution of lollipops is correct as it equals the amount shared.\n\n[Final Answer] The answer is 5 \\n#### 5": [
+            "Question: Ray had 25 lollipops. He kept 5 lollipops and shared the remaining equally with his four friends. How many lollipops did each of his friends receive?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "[reasoning process] First, we start with the total number of lollipops Ray had, which is 25. Ray decided to keep 5 lollipops for himself. Therefore, we need to calculate how many lollipops are left after he kept his share. \n\nTo find this, we subtract the 5 lollipops Ray kept from the total lollipops:\n25 lollipops - 5 lollipops = 20 lollipops.\n\nNow, Ray shares these 20 lollipops equally with his four friends. Since there are four friends, we need to divide the 20 lollipops by 4:\n20 lollipops ÷ 4 friends = 5 lollipops per friend.\n\n[Verification] We can check our work by multiplying the number of lollipops each friend received by the number of friends. If each of the four friends received 5 lollipops, then:\n5 lollipops/friend × 4 friends = 20 lollipops. \nThis confirms that the distribution of lollipops is correct as it equals the amount shared.\n\n[Final Answer] The answer is 5 \\n#### 5"
+        ],
+        "I don't know the answer to this question.": [
+            "Question: Ray had 25 lollipops. He kept 5 lollipops and shared the remaining equally with his four friends. How many lollipops did each of his friends receive?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "I don't know the answer to this question."
+        ]
+    },
+    "hints_reward_imp_bank": {},
+    "fathers": {
+        "[reasoning process] First, we start with the total number of lollipops Ray had, which is 25. Ray decided to keep 5 lollipops for himself. Therefore, we need to calculate how many lollipops are left after he kept his share. \n\nTo find this, we subtract the 5 lollipops Ray kept from the total lollipops:\n25 lollipops - 5 lollipops = 20 lollipops.\n\nNow, Ray shares these 20 lollipops equally with his four friends. Since there are four friends, we need to divide the 20 lollipops by 4:\n20 lollipops ÷ 4 friends = 5 lollipops per friend.\n\n[Verification] We can check our work by multiplying the number of lollipops each friend received by the number of friends. If each of the four friends received 5 lollipops, then:\n5 lollipops/friend × 4 friends = 20 lollipops. \nThis confirms that the distribution of lollipops is correct as it equals the amount shared.\n\n[Final Answer] The answer is 5 \\n#### 5": null,
+        "I don't know the answer to this question.": null
+    },
+    "childs": {
+        "[reasoning process] First, we start with the total number of lollipops Ray had, which is 25. Ray decided to keep 5 lollipops for himself. Therefore, we need to calculate how many lollipops are left after he kept his share. \n\nTo find this, we subtract the 5 lollipops Ray kept from the total lollipops:\n25 lollipops - 5 lollipops = 20 lollipops.\n\nNow, Ray shares these 20 lollipops equally with his four friends. Since there are four friends, we need to divide the 20 lollipops by 4:\n20 lollipops ÷ 4 friends = 5 lollipops per friend.\n\n[Verification] We can check our work by multiplying the number of lollipops each friend received by the number of friends. If each of the four friends received 5 lollipops, then:\n5 lollipops/friend × 4 friends = 20 lollipops. \nThis confirms that the distribution of lollipops is correct as it equals the amount shared.\n\n[Final Answer] The answer is 5 \\n#### 5": [],
+        "I don't know the answer to this question.": []
+    },
+    "ucb_bank": {}
+}

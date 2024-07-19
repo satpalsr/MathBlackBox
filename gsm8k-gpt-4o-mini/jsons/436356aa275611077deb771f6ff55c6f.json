@@ -1,0 +1,44 @@
+{
+    "query": "Jill and her friends watch 4 movies every Saturday and half the number of movies on Sunday than on Saturday. If they watch movies every weekend, how many movies can they watch in 4 weeks?",
+    "ground_truth": "They watch 4 / 2 = <<4/2=2>>2 movies every Sunday.\nThey watch a total of 4 + 2 = <<4+2=6>>6 movies every weekend.\nTherefore, they can watch 6 x 4 = <<6*4=24>>24 movies in four weeks.\n#### 24",
+    "hints_list": [],
+    "answers_list": [
+        "[reasoning process] \nJill and her friends watch 4 movies every Saturday. On Sunday, they watch half the number of movies that they watch on Saturday. Therefore, on Sunday, they watch:\n\n\\[\n\\text{Movies on Sunday} = \\frac{4}{2} = 2\n\\]\n\nNow, let's calculate the total number of movies they watch in one weekend (Saturday + Sunday):\n\n\\[\n\\text{Total movies per weekend} = \\text{Movies on Saturday} + \\text{Movies on Sunday} = 4 + 2 = 6\n\\]\n\nSince they watch movies every weekend, in 4 weeks, they will have:\n\n\\[\n\\text{Total movies in 4 weeks} = 6 \\times 4 = 24\n\\]\n\n[Verification]\nTo ensure the calculation is correct, let's check:\n- Movies watched in one weekend: 6\n- For 4 weekends, that would be \\( 6 \\times 4 = 24 \\).\n\nThus, the calculations are verified.\n\n[Final Answer] The answer is 24 \\n#### 24",
+        "I can't understand this question."
+    ],
+    "ground_truth_hints": "",
+    "hints_prompt": "Question: Jill and her friends watch 4 movies every Saturday and half the number of movies on Sunday than on Saturday. If they watch movies every weekend, how many movies can they watch in 4 weeks?\nCould you provide me with the thought process to solve this problem, but please don’t give me the answer or calculation, just the thought process?",
+    "to_explore": [
+        "[reasoning process] \nJill and her friends watch 4 movies every Saturday. On Sunday, they watch half the number of movies that they watch on Saturday. Therefore, on Sunday, they watch:\n\n\\[\n\\text{Movies on Sunday} = \\frac{4}{2} = 2\n\\]\n\nNow, let's calculate the total number of movies they watch in one weekend (Saturday + Sunday):\n\n\\[\n\\text{Total movies per weekend} = \\text{Movies on Saturday} + \\text{Movies on Sunday} = 4 + 2 = 6\n\\]\n\nSince they watch movies every weekend, in 4 weeks, they will have:\n\n\\[\n\\text{Total movies in 4 weeks} = 6 \\times 4 = 24\n\\]\n\n[Verification]\nTo ensure the calculation is correct, let's check:\n- Movies watched in one weekend: 6\n- For 4 weekends, that would be \\( 6 \\times 4 = 24 \\).\n\nThus, the calculations are verified.\n\n[Final Answer] The answer is 24 \\n#### 24",
+        "I can't understand this question."
+    ],
+    "to_explore_reward": {
+        "[reasoning process] \nJill and her friends watch 4 movies every Saturday. On Sunday, they watch half the number of movies that they watch on Saturday. Therefore, on Sunday, they watch:\n\n\\[\n\\text{Movies on Sunday} = \\frac{4}{2} = 2\n\\]\n\nNow, let's calculate the total number of movies they watch in one weekend (Saturday + Sunday):\n\n\\[\n\\text{Total movies per weekend} = \\text{Movies on Saturday} + \\text{Movies on Sunday} = 4 + 2 = 6\n\\]\n\nSince they watch movies every weekend, in 4 weeks, they will have:\n\n\\[\n\\text{Total movies in 4 weeks} = 6 \\times 4 = 24\n\\]\n\n[Verification]\nTo ensure the calculation is correct, let's check:\n- Movies watched in one weekend: 6\n- For 4 weekends, that would be \\( 6 \\times 4 = 24 \\).\n\nThus, the calculations are verified.\n\n[Final Answer] The answer is 24 \\n#### 24": [
+            88.0
+        ],
+        "I can't understand this question.": [
+            -80.0
+        ]
+    },
+    "hints_bank": {},
+    "history_bank": {
+        "[reasoning process] \nJill and her friends watch 4 movies every Saturday. On Sunday, they watch half the number of movies that they watch on Saturday. Therefore, on Sunday, they watch:\n\n\\[\n\\text{Movies on Sunday} = \\frac{4}{2} = 2\n\\]\n\nNow, let's calculate the total number of movies they watch in one weekend (Saturday + Sunday):\n\n\\[\n\\text{Total movies per weekend} = \\text{Movies on Saturday} + \\text{Movies on Sunday} = 4 + 2 = 6\n\\]\n\nSince they watch movies every weekend, in 4 weeks, they will have:\n\n\\[\n\\text{Total movies in 4 weeks} = 6 \\times 4 = 24\n\\]\n\n[Verification]\nTo ensure the calculation is correct, let's check:\n- Movies watched in one weekend: 6\n- For 4 weekends, that would be \\( 6 \\times 4 = 24 \\).\n\nThus, the calculations are verified.\n\n[Final Answer] The answer is 24 \\n#### 24": [
+            "Question: Jill and her friends watch 4 movies every Saturday and half the number of movies on Sunday than on Saturday. If they watch movies every weekend, how many movies can they watch in 4 weeks?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "[reasoning process] \nJill and her friends watch 4 movies every Saturday. On Sunday, they watch half the number of movies that they watch on Saturday. Therefore, on Sunday, they watch:\n\n\\[\n\\text{Movies on Sunday} = \\frac{4}{2} = 2\n\\]\n\nNow, let's calculate the total number of movies they watch in one weekend (Saturday + Sunday):\n\n\\[\n\\text{Total movies per weekend} = \\text{Movies on Saturday} + \\text{Movies on Sunday} = 4 + 2 = 6\n\\]\n\nSince they watch movies every weekend, in 4 weeks, they will have:\n\n\\[\n\\text{Total movies in 4 weeks} = 6 \\times 4 = 24\n\\]\n\n[Verification]\nTo ensure the calculation is correct, let's check:\n- Movies watched in one weekend: 6\n- For 4 weekends, that would be \\( 6 \\times 4 = 24 \\).\n\nThus, the calculations are verified.\n\n[Final Answer] The answer is 24 \\n#### 24"
+        ],
+        "I can't understand this question.": [
+            "Question: Jill and her friends watch 4 movies every Saturday and half the number of movies on Sunday than on Saturday. If they watch movies every weekend, how many movies can they watch in 4 weeks?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "I can't understand this question."
+        ]
+    },
+    "hints_reward_imp_bank": {},
+    "fathers": {
+        "[reasoning process] \nJill and her friends watch 4 movies every Saturday. On Sunday, they watch half the number of movies that they watch on Saturday. Therefore, on Sunday, they watch:\n\n\\[\n\\text{Movies on Sunday} = \\frac{4}{2} = 2\n\\]\n\nNow, let's calculate the total number of movies they watch in one weekend (Saturday + Sunday):\n\n\\[\n\\text{Total movies per weekend} = \\text{Movies on Saturday} + \\text{Movies on Sunday} = 4 + 2 = 6\n\\]\n\nSince they watch movies every weekend, in 4 weeks, they will have:\n\n\\[\n\\text{Total movies in 4 weeks} = 6 \\times 4 = 24\n\\]\n\n[Verification]\nTo ensure the calculation is correct, let's check:\n- Movies watched in one weekend: 6\n- For 4 weekends, that would be \\( 6 \\times 4 = 24 \\).\n\nThus, the calculations are verified.\n\n[Final Answer] The answer is 24 \\n#### 24": null,
+        "I can't understand this question.": null
+    },
+    "childs": {
+        "[reasoning process] \nJill and her friends watch 4 movies every Saturday. On Sunday, they watch half the number of movies that they watch on Saturday. Therefore, on Sunday, they watch:\n\n\\[\n\\text{Movies on Sunday} = \\frac{4}{2} = 2\n\\]\n\nNow, let's calculate the total number of movies they watch in one weekend (Saturday + Sunday):\n\n\\[\n\\text{Total movies per weekend} = \\text{Movies on Saturday} + \\text{Movies on Sunday} = 4 + 2 = 6\n\\]\n\nSince they watch movies every weekend, in 4 weeks, they will have:\n\n\\[\n\\text{Total movies in 4 weeks} = 6 \\times 4 = 24\n\\]\n\n[Verification]\nTo ensure the calculation is correct, let's check:\n- Movies watched in one weekend: 6\n- For 4 weekends, that would be \\( 6 \\times 4 = 24 \\).\n\nThus, the calculations are verified.\n\n[Final Answer] The answer is 24 \\n#### 24": [],
+        "I can't understand this question.": []
+    },
+    "ucb_bank": {}
+}

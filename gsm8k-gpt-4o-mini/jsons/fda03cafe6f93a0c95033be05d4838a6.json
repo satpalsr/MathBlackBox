@@ -1,0 +1,44 @@
+{
+    "query": "John takes care of 10 dogs.  Each dog takes .5 hours a day to walk and take care of their business.  How many hours a week does he spend taking care of dogs?",
+    "ground_truth": "He spends 10*.5=<<10*.5=5>>5 hours per day\nThat means he spends 5*7=<<5*7=35>>35 hours per week\n#### 35",
+    "hints_list": [],
+    "answers_list": [
+        "[reasoning process] To determine how many hours John spends taking care of dogs each week, we start by calculating the daily time he spends walking and taking care of each dog. Since each dog takes 0.5 hours, we need to multiply this by the number of dogs, which is 10. \n\nSo, the daily time spent is:\n0.5 hours/dog × 10 dogs = 5 hours/day.\n\nNext, we need to find out how much time he spends on this task over a week. There are 7 days in a week, so we multiply the daily total by 7:\n\n5 hours/day × 7 days/week = 35 hours/week.\n\n[Verification] To verify, we can break down the calculation into parts:\n- Each dog takes 0.5 hours to care for, and John has 10 dogs.\n- 0.5 hours × 10 = 5 hours total per day.\n- Then, for the week: 5 hours/day × 7 days = 35 hours/week.\n\nSo, each part checks out correctly.\n\n[Final Answer] The answer is 35 \\n#### 35",
+        "I Don't Know"
+    ],
+    "ground_truth_hints": "",
+    "hints_prompt": "Question: John takes care of 10 dogs.  Each dog takes .5 hours a day to walk and take care of their business.  How many hours a week does he spend taking care of dogs?\nCould you provide me with the thought process to solve this problem, but please don’t give me the answer or calculation, just the thought process?",
+    "to_explore": [
+        "[reasoning process] To determine how many hours John spends taking care of dogs each week, we start by calculating the daily time he spends walking and taking care of each dog. Since each dog takes 0.5 hours, we need to multiply this by the number of dogs, which is 10. \n\nSo, the daily time spent is:\n0.5 hours/dog × 10 dogs = 5 hours/day.\n\nNext, we need to find out how much time he spends on this task over a week. There are 7 days in a week, so we multiply the daily total by 7:\n\n5 hours/day × 7 days/week = 35 hours/week.\n\n[Verification] To verify, we can break down the calculation into parts:\n- Each dog takes 0.5 hours to care for, and John has 10 dogs.\n- 0.5 hours × 10 = 5 hours total per day.\n- Then, for the week: 5 hours/day × 7 days = 35 hours/week.\n\nSo, each part checks out correctly.\n\n[Final Answer] The answer is 35 \\n#### 35",
+        "I Don't Know"
+    ],
+    "to_explore_reward": {
+        "[reasoning process] To determine how many hours John spends taking care of dogs each week, we start by calculating the daily time he spends walking and taking care of each dog. Since each dog takes 0.5 hours, we need to multiply this by the number of dogs, which is 10. \n\nSo, the daily time spent is:\n0.5 hours/dog × 10 dogs = 5 hours/day.\n\nNext, we need to find out how much time he spends on this task over a week. There are 7 days in a week, so we multiply the daily total by 7:\n\n5 hours/day × 7 days/week = 35 hours/week.\n\n[Verification] To verify, we can break down the calculation into parts:\n- Each dog takes 0.5 hours to care for, and John has 10 dogs.\n- 0.5 hours × 10 = 5 hours total per day.\n- Then, for the week: 5 hours/day × 7 days = 35 hours/week.\n\nSo, each part checks out correctly.\n\n[Final Answer] The answer is 35 \\n#### 35": [
+            70.0
+        ],
+        "I Don't Know": [
+            -90.0
+        ]
+    },
+    "hints_bank": {},
+    "history_bank": {
+        "[reasoning process] To determine how many hours John spends taking care of dogs each week, we start by calculating the daily time he spends walking and taking care of each dog. Since each dog takes 0.5 hours, we need to multiply this by the number of dogs, which is 10. \n\nSo, the daily time spent is:\n0.5 hours/dog × 10 dogs = 5 hours/day.\n\nNext, we need to find out how much time he spends on this task over a week. There are 7 days in a week, so we multiply the daily total by 7:\n\n5 hours/day × 7 days/week = 35 hours/week.\n\n[Verification] To verify, we can break down the calculation into parts:\n- Each dog takes 0.5 hours to care for, and John has 10 dogs.\n- 0.5 hours × 10 = 5 hours total per day.\n- Then, for the week: 5 hours/day × 7 days = 35 hours/week.\n\nSo, each part checks out correctly.\n\n[Final Answer] The answer is 35 \\n#### 35": [
+            "Question: John takes care of 10 dogs.  Each dog takes .5 hours a day to walk and take care of their business.  How many hours a week does he spend taking care of dogs?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "[reasoning process] To determine how many hours John spends taking care of dogs each week, we start by calculating the daily time he spends walking and taking care of each dog. Since each dog takes 0.5 hours, we need to multiply this by the number of dogs, which is 10. \n\nSo, the daily time spent is:\n0.5 hours/dog × 10 dogs = 5 hours/day.\n\nNext, we need to find out how much time he spends on this task over a week. There are 7 days in a week, so we multiply the daily total by 7:\n\n5 hours/day × 7 days/week = 35 hours/week.\n\n[Verification] To verify, we can break down the calculation into parts:\n- Each dog takes 0.5 hours to care for, and John has 10 dogs.\n- 0.5 hours × 10 = 5 hours total per day.\n- Then, for the week: 5 hours/day × 7 days = 35 hours/week.\n\nSo, each part checks out correctly.\n\n[Final Answer] The answer is 35 \\n#### 35"
+        ],
+        "I Don't Know": [
+            "Question: John takes care of 10 dogs.  Each dog takes .5 hours a day to walk and take care of their business.  How many hours a week does he spend taking care of dogs?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "I Don't Know"
+        ]
+    },
+    "hints_reward_imp_bank": {},
+    "fathers": {
+        "[reasoning process] To determine how many hours John spends taking care of dogs each week, we start by calculating the daily time he spends walking and taking care of each dog. Since each dog takes 0.5 hours, we need to multiply this by the number of dogs, which is 10. \n\nSo, the daily time spent is:\n0.5 hours/dog × 10 dogs = 5 hours/day.\n\nNext, we need to find out how much time he spends on this task over a week. There are 7 days in a week, so we multiply the daily total by 7:\n\n5 hours/day × 7 days/week = 35 hours/week.\n\n[Verification] To verify, we can break down the calculation into parts:\n- Each dog takes 0.5 hours to care for, and John has 10 dogs.\n- 0.5 hours × 10 = 5 hours total per day.\n- Then, for the week: 5 hours/day × 7 days = 35 hours/week.\n\nSo, each part checks out correctly.\n\n[Final Answer] The answer is 35 \\n#### 35": null,
+        "I Don't Know": null
+    },
+    "childs": {
+        "[reasoning process] To determine how many hours John spends taking care of dogs each week, we start by calculating the daily time he spends walking and taking care of each dog. Since each dog takes 0.5 hours, we need to multiply this by the number of dogs, which is 10. \n\nSo, the daily time spent is:\n0.5 hours/dog × 10 dogs = 5 hours/day.\n\nNext, we need to find out how much time he spends on this task over a week. There are 7 days in a week, so we multiply the daily total by 7:\n\n5 hours/day × 7 days/week = 35 hours/week.\n\n[Verification] To verify, we can break down the calculation into parts:\n- Each dog takes 0.5 hours to care for, and John has 10 dogs.\n- 0.5 hours × 10 = 5 hours total per day.\n- Then, for the week: 5 hours/day × 7 days = 35 hours/week.\n\nSo, each part checks out correctly.\n\n[Final Answer] The answer is 35 \\n#### 35": [],
+        "I Don't Know": []
+    },
+    "ucb_bank": {}
+}

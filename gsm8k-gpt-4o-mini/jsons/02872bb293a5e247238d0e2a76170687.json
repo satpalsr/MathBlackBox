@@ -1,0 +1,44 @@
+{
+    "query": "James buys 2 pairs of shoes a month.  He spends $2640 on shoes each year.  How much does he pay on average for each pair of shoes?",
+    "ground_truth": "He buys 2*12=<<2*12=24>>24 pairs of shoes a year\nSo he spends 2640/24=$<<2640/24=110>>110 per pair\n#### 110",
+    "hints_list": [],
+    "answers_list": [
+        "[reasoning process]  \nTo determine how much James pays on average for each pair of shoes, we first need to calculate the total number of pairs of shoes he buys in a year. Since he buys 2 pairs of shoes each month, we can find the total for the year by multiplying the monthly purchase by the number of months in a year:  \nTotal pairs = 2 pairs/month * 12 months/year = 24 pairs/year.\n\nNext, we know that he spends $2640 on shoes each year. To find the average cost per pair, we divide the total amount spent by the total number of pairs purchased:  \nAverage cost per pair = Total spent / Total pairs  \nAverage cost per pair = $2640 / 24 pairs = $110.\n\n[Verification]  \nTo verify, we can check the division:  \n2640 divided by 24 equals 110, confirming our calculations are correct. Thus, James pays an average of $110 for each pair of shoes.\n\n[Final Answer] The answer is 110  \n#### 110",
+        "I Don't Know"
+    ],
+    "ground_truth_hints": "",
+    "hints_prompt": "Question: James buys 2 pairs of shoes a month.  He spends $2640 on shoes each year.  How much does he pay on average for each pair of shoes?\nCould you provide me with the thought process to solve this problem, but please don’t give me the answer or calculation, just the thought process?",
+    "to_explore": [
+        "[reasoning process]  \nTo determine how much James pays on average for each pair of shoes, we first need to calculate the total number of pairs of shoes he buys in a year. Since he buys 2 pairs of shoes each month, we can find the total for the year by multiplying the monthly purchase by the number of months in a year:  \nTotal pairs = 2 pairs/month * 12 months/year = 24 pairs/year.\n\nNext, we know that he spends $2640 on shoes each year. To find the average cost per pair, we divide the total amount spent by the total number of pairs purchased:  \nAverage cost per pair = Total spent / Total pairs  \nAverage cost per pair = $2640 / 24 pairs = $110.\n\n[Verification]  \nTo verify, we can check the division:  \n2640 divided by 24 equals 110, confirming our calculations are correct. Thus, James pays an average of $110 for each pair of shoes.\n\n[Final Answer] The answer is 110  \n#### 110",
+        "I Don't Know"
+    ],
+    "to_explore_reward": {
+        "[reasoning process]  \nTo determine how much James pays on average for each pair of shoes, we first need to calculate the total number of pairs of shoes he buys in a year. Since he buys 2 pairs of shoes each month, we can find the total for the year by multiplying the monthly purchase by the number of months in a year:  \nTotal pairs = 2 pairs/month * 12 months/year = 24 pairs/year.\n\nNext, we know that he spends $2640 on shoes each year. To find the average cost per pair, we divide the total amount spent by the total number of pairs purchased:  \nAverage cost per pair = Total spent / Total pairs  \nAverage cost per pair = $2640 / 24 pairs = $110.\n\n[Verification]  \nTo verify, we can check the division:  \n2640 divided by 24 equals 110, confirming our calculations are correct. Thus, James pays an average of $110 for each pair of shoes.\n\n[Final Answer] The answer is 110  \n#### 110": [
+            75.0
+        ],
+        "I Don't Know": [
+            -85.0
+        ]
+    },
+    "hints_bank": {},
+    "history_bank": {
+        "[reasoning process]  \nTo determine how much James pays on average for each pair of shoes, we first need to calculate the total number of pairs of shoes he buys in a year. Since he buys 2 pairs of shoes each month, we can find the total for the year by multiplying the monthly purchase by the number of months in a year:  \nTotal pairs = 2 pairs/month * 12 months/year = 24 pairs/year.\n\nNext, we know that he spends $2640 on shoes each year. To find the average cost per pair, we divide the total amount spent by the total number of pairs purchased:  \nAverage cost per pair = Total spent / Total pairs  \nAverage cost per pair = $2640 / 24 pairs = $110.\n\n[Verification]  \nTo verify, we can check the division:  \n2640 divided by 24 equals 110, confirming our calculations are correct. Thus, James pays an average of $110 for each pair of shoes.\n\n[Final Answer] The answer is 110  \n#### 110": [
+            "Question: James buys 2 pairs of shoes a month.  He spends $2640 on shoes each year.  How much does he pay on average for each pair of shoes?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "[reasoning process]  \nTo determine how much James pays on average for each pair of shoes, we first need to calculate the total number of pairs of shoes he buys in a year. Since he buys 2 pairs of shoes each month, we can find the total for the year by multiplying the monthly purchase by the number of months in a year:  \nTotal pairs = 2 pairs/month * 12 months/year = 24 pairs/year.\n\nNext, we know that he spends $2640 on shoes each year. To find the average cost per pair, we divide the total amount spent by the total number of pairs purchased:  \nAverage cost per pair = Total spent / Total pairs  \nAverage cost per pair = $2640 / 24 pairs = $110.\n\n[Verification]  \nTo verify, we can check the division:  \n2640 divided by 24 equals 110, confirming our calculations are correct. Thus, James pays an average of $110 for each pair of shoes.\n\n[Final Answer] The answer is 110  \n#### 110"
+        ],
+        "I Don't Know": [
+            "Question: James buys 2 pairs of shoes a month.  He spends $2640 on shoes each year.  How much does he pay on average for each pair of shoes?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "I Don't Know"
+        ]
+    },
+    "hints_reward_imp_bank": {},
+    "fathers": {
+        "[reasoning process]  \nTo determine how much James pays on average for each pair of shoes, we first need to calculate the total number of pairs of shoes he buys in a year. Since he buys 2 pairs of shoes each month, we can find the total for the year by multiplying the monthly purchase by the number of months in a year:  \nTotal pairs = 2 pairs/month * 12 months/year = 24 pairs/year.\n\nNext, we know that he spends $2640 on shoes each year. To find the average cost per pair, we divide the total amount spent by the total number of pairs purchased:  \nAverage cost per pair = Total spent / Total pairs  \nAverage cost per pair = $2640 / 24 pairs = $110.\n\n[Verification]  \nTo verify, we can check the division:  \n2640 divided by 24 equals 110, confirming our calculations are correct. Thus, James pays an average of $110 for each pair of shoes.\n\n[Final Answer] The answer is 110  \n#### 110": null,
+        "I Don't Know": null
+    },
+    "childs": {
+        "[reasoning process]  \nTo determine how much James pays on average for each pair of shoes, we first need to calculate the total number of pairs of shoes he buys in a year. Since he buys 2 pairs of shoes each month, we can find the total for the year by multiplying the monthly purchase by the number of months in a year:  \nTotal pairs = 2 pairs/month * 12 months/year = 24 pairs/year.\n\nNext, we know that he spends $2640 on shoes each year. To find the average cost per pair, we divide the total amount spent by the total number of pairs purchased:  \nAverage cost per pair = Total spent / Total pairs  \nAverage cost per pair = $2640 / 24 pairs = $110.\n\n[Verification]  \nTo verify, we can check the division:  \n2640 divided by 24 equals 110, confirming our calculations are correct. Thus, James pays an average of $110 for each pair of shoes.\n\n[Final Answer] The answer is 110  \n#### 110": [],
+        "I Don't Know": []
+    },
+    "ucb_bank": {}
+}

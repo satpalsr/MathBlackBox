@@ -1,0 +1,44 @@
+{
+    "query": "Mariah’s grandma was teaching her to knit. Mariah used 1/4 of a skein of yarn. Her grandma used 1/2 of a skein of yarn. There are 364 yards in a skein of yarn. How many yards of yarn did they use altogether?",
+    "ground_truth": "Mariah’s grandma used 1/2 a skein of yarn. We should multiply this by (2/2) to have a common denominator, so 1/2 * 2/2 = 2/4.\nNow that there are common denominators, we can add the 1/4 skein of yarn Mariah used + 2/4 skein of yarn her grandma used = 3/4 of a skein of yarn.\n3/4 of a skein of yarn * 364 yards = 364 / 4 = <<3/4*364=273>>273 yards.\n#### 273",
+    "hints_list": [],
+    "answers_list": [
+        "[Reasoning process] To determine how many yards of yarn Mariah and her grandma used altogether, we need to calculate the amount of yarn each used individually and then add those amounts together.\n\nFirst, let's calculate the yards of yarn Mariah used:\n- Mariah used \\( \\frac{1}{4} \\) of a skein.\n- A skein has 364 yards.\n- \\( \\frac{1}{4} \\times 364 = 91 \\) yards.\n\nNext, let's calculate the yards of yarn her grandma used:\n- Her grandma used \\( \\frac{1}{2} \\) of a skein.\n- \\( \\frac{1}{2} \\times 364 = 182 \\) yards.\n\nNow, let's add the amounts they used:\n- Total yards of yarn used = Mariah's yarn + Grandma's yarn\n- Total yards = 91 + 182 = 273.\n\n[Verification] We can verify the calculations:\n- \\( \\frac{1}{4} \\times 364 = 91 \\) yards.\n- \\( \\frac{1}{2} \\times 364 = 182 \\) yards.\n- 91 + 182 = 273 yards.\n\n[Final Answer] The answer is 273.\n#### 273",
+        "I can't understand this question."
+    ],
+    "ground_truth_hints": "",
+    "hints_prompt": "Question: Mariah’s grandma was teaching her to knit. Mariah used 1/4 of a skein of yarn. Her grandma used 1/2 of a skein of yarn. There are 364 yards in a skein of yarn. How many yards of yarn did they use altogether?\nCould you provide me with the thought process to solve this problem, but please don’t give me the answer or calculation, just the thought process?",
+    "to_explore": [
+        "[Reasoning process] To determine how many yards of yarn Mariah and her grandma used altogether, we need to calculate the amount of yarn each used individually and then add those amounts together.\n\nFirst, let's calculate the yards of yarn Mariah used:\n- Mariah used \\( \\frac{1}{4} \\) of a skein.\n- A skein has 364 yards.\n- \\( \\frac{1}{4} \\times 364 = 91 \\) yards.\n\nNext, let's calculate the yards of yarn her grandma used:\n- Her grandma used \\( \\frac{1}{2} \\) of a skein.\n- \\( \\frac{1}{2} \\times 364 = 182 \\) yards.\n\nNow, let's add the amounts they used:\n- Total yards of yarn used = Mariah's yarn + Grandma's yarn\n- Total yards = 91 + 182 = 273.\n\n[Verification] We can verify the calculations:\n- \\( \\frac{1}{4} \\times 364 = 91 \\) yards.\n- \\( \\frac{1}{2} \\times 364 = 182 \\) yards.\n- 91 + 182 = 273 yards.\n\n[Final Answer] The answer is 273.\n#### 273",
+        "I can't understand this question."
+    ],
+    "to_explore_reward": {
+        "[Reasoning process] To determine how many yards of yarn Mariah and her grandma used altogether, we need to calculate the amount of yarn each used individually and then add those amounts together.\n\nFirst, let's calculate the yards of yarn Mariah used:\n- Mariah used \\( \\frac{1}{4} \\) of a skein.\n- A skein has 364 yards.\n- \\( \\frac{1}{4} \\times 364 = 91 \\) yards.\n\nNext, let's calculate the yards of yarn her grandma used:\n- Her grandma used \\( \\frac{1}{2} \\) of a skein.\n- \\( \\frac{1}{2} \\times 364 = 182 \\) yards.\n\nNow, let's add the amounts they used:\n- Total yards of yarn used = Mariah's yarn + Grandma's yarn\n- Total yards = 91 + 182 = 273.\n\n[Verification] We can verify the calculations:\n- \\( \\frac{1}{4} \\times 364 = 91 \\) yards.\n- \\( \\frac{1}{2} \\times 364 = 182 \\) yards.\n- 91 + 182 = 273 yards.\n\n[Final Answer] The answer is 273.\n#### 273": [
+            90.0
+        ],
+        "I can't understand this question.": [
+            -85.0
+        ]
+    },
+    "hints_bank": {},
+    "history_bank": {
+        "[Reasoning process] To determine how many yards of yarn Mariah and her grandma used altogether, we need to calculate the amount of yarn each used individually and then add those amounts together.\n\nFirst, let's calculate the yards of yarn Mariah used:\n- Mariah used \\( \\frac{1}{4} \\) of a skein.\n- A skein has 364 yards.\n- \\( \\frac{1}{4} \\times 364 = 91 \\) yards.\n\nNext, let's calculate the yards of yarn her grandma used:\n- Her grandma used \\( \\frac{1}{2} \\) of a skein.\n- \\( \\frac{1}{2} \\times 364 = 182 \\) yards.\n\nNow, let's add the amounts they used:\n- Total yards of yarn used = Mariah's yarn + Grandma's yarn\n- Total yards = 91 + 182 = 273.\n\n[Verification] We can verify the calculations:\n- \\( \\frac{1}{4} \\times 364 = 91 \\) yards.\n- \\( \\frac{1}{2} \\times 364 = 182 \\) yards.\n- 91 + 182 = 273 yards.\n\n[Final Answer] The answer is 273.\n#### 273": [
+            "Question: Mariah’s grandma was teaching her to knit. Mariah used 1/4 of a skein of yarn. Her grandma used 1/2 of a skein of yarn. There are 364 yards in a skein of yarn. How many yards of yarn did they use altogether?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "[Reasoning process] To determine how many yards of yarn Mariah and her grandma used altogether, we need to calculate the amount of yarn each used individually and then add those amounts together.\n\nFirst, let's calculate the yards of yarn Mariah used:\n- Mariah used \\( \\frac{1}{4} \\) of a skein.\n- A skein has 364 yards.\n- \\( \\frac{1}{4} \\times 364 = 91 \\) yards.\n\nNext, let's calculate the yards of yarn her grandma used:\n- Her grandma used \\( \\frac{1}{2} \\) of a skein.\n- \\( \\frac{1}{2} \\times 364 = 182 \\) yards.\n\nNow, let's add the amounts they used:\n- Total yards of yarn used = Mariah's yarn + Grandma's yarn\n- Total yards = 91 + 182 = 273.\n\n[Verification] We can verify the calculations:\n- \\( \\frac{1}{4} \\times 364 = 91 \\) yards.\n- \\( \\frac{1}{2} \\times 364 = 182 \\) yards.\n- 91 + 182 = 273 yards.\n\n[Final Answer] The answer is 273.\n#### 273"
+        ],
+        "I can't understand this question.": [
+            "Question: Mariah’s grandma was teaching her to knit. Mariah used 1/4 of a skein of yarn. Her grandma used 1/2 of a skein of yarn. There are 364 yards in a skein of yarn. How many yards of yarn did they use altogether?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "I can't understand this question."
+        ]
+    },
+    "hints_reward_imp_bank": {},
+    "fathers": {
+        "[Reasoning process] To determine how many yards of yarn Mariah and her grandma used altogether, we need to calculate the amount of yarn each used individually and then add those amounts together.\n\nFirst, let's calculate the yards of yarn Mariah used:\n- Mariah used \\( \\frac{1}{4} \\) of a skein.\n- A skein has 364 yards.\n- \\( \\frac{1}{4} \\times 364 = 91 \\) yards.\n\nNext, let's calculate the yards of yarn her grandma used:\n- Her grandma used \\( \\frac{1}{2} \\) of a skein.\n- \\( \\frac{1}{2} \\times 364 = 182 \\) yards.\n\nNow, let's add the amounts they used:\n- Total yards of yarn used = Mariah's yarn + Grandma's yarn\n- Total yards = 91 + 182 = 273.\n\n[Verification] We can verify the calculations:\n- \\( \\frac{1}{4} \\times 364 = 91 \\) yards.\n- \\( \\frac{1}{2} \\times 364 = 182 \\) yards.\n- 91 + 182 = 273 yards.\n\n[Final Answer] The answer is 273.\n#### 273": null,
+        "I can't understand this question.": null
+    },
+    "childs": {
+        "[Reasoning process] To determine how many yards of yarn Mariah and her grandma used altogether, we need to calculate the amount of yarn each used individually and then add those amounts together.\n\nFirst, let's calculate the yards of yarn Mariah used:\n- Mariah used \\( \\frac{1}{4} \\) of a skein.\n- A skein has 364 yards.\n- \\( \\frac{1}{4} \\times 364 = 91 \\) yards.\n\nNext, let's calculate the yards of yarn her grandma used:\n- Her grandma used \\( \\frac{1}{2} \\) of a skein.\n- \\( \\frac{1}{2} \\times 364 = 182 \\) yards.\n\nNow, let's add the amounts they used:\n- Total yards of yarn used = Mariah's yarn + Grandma's yarn\n- Total yards = 91 + 182 = 273.\n\n[Verification] We can verify the calculations:\n- \\( \\frac{1}{4} \\times 364 = 91 \\) yards.\n- \\( \\frac{1}{2} \\times 364 = 182 \\) yards.\n- 91 + 182 = 273 yards.\n\n[Final Answer] The answer is 273.\n#### 273": [],
+        "I can't understand this question.": []
+    },
+    "ucb_bank": {}
+}

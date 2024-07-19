@@ -1,0 +1,44 @@
+{
+    "query": "Anthony had 50 pencils. He gave 1/2 of his pencils to Brandon, and he gave 3/5 of the remaining pencils to Charlie. He kept the remaining pencils. How many pencils did Anthony keep?",
+    "ground_truth": "Brandon received 50 x 1/2 = <<50*1/2=25>>25 pencils\nSo, there were 50 -25 = <<50-25=25>>25 pencils left.\nCharlie got 25 x 3/5 = <<25*3/5=15>>15 pencils.\nThus, Anthony gave away 25 + 15 = <<25+15=40>>40 pencils.\nTherefore, Anthony kept 50 - 40 = <<50-40=10>>10 pencils.\n#### 10",
+    "hints_list": [],
+    "answers_list": [
+        "[reasoning process] \n1. Anthony starts with 50 pencils. \n2. He gives 1/2 of his pencils to Brandon: \n   \\[\n   \\text{Pencils given to Brandon} = \\frac{1}{2} \\times 50 = 25 \n   \\]\n3. After giving 25 pencils to Brandon, the remaining pencils are:\n   \\[\n   \\text{Remaining pencils} = 50 - 25 = 25 \n   \\]\n4. Next, Anthony gives 3/5 of the remaining pencils to Charlie:\n   \\[\n   \\text{Pencils given to Charlie} = \\frac{3}{5} \\times 25 = 15 \n   \\]\n5. After giving 15 pencils to Charlie, the remaining pencils that Anthony keeps are:\n   \\[\n   \\text{Pencils kept} = 25 - 15 = 10 \n   \\]\n\n[Verification] \n- Initial pencils: 50 \n- Pencils given to Brandon: 25 \n- Remaining after Brandon: 25 \n- Pencils given to Charlie: 15 \n- Remaining after Charlie: 10 \nThe calculations match the steps taken and verify the correctness.\n\n[Final Answer] The answer is 10 \n#### 10",
+        "I don't know how to solve this question."
+    ],
+    "ground_truth_hints": "",
+    "hints_prompt": "Question: Anthony had 50 pencils. He gave 1/2 of his pencils to Brandon, and he gave 3/5 of the remaining pencils to Charlie. He kept the remaining pencils. How many pencils did Anthony keep?\nCould you provide me with the thought process to solve this problem, but please don’t give me the answer or calculation, just the thought process?",
+    "to_explore": [
+        "[reasoning process] \n1. Anthony starts with 50 pencils. \n2. He gives 1/2 of his pencils to Brandon: \n   \\[\n   \\text{Pencils given to Brandon} = \\frac{1}{2} \\times 50 = 25 \n   \\]\n3. After giving 25 pencils to Brandon, the remaining pencils are:\n   \\[\n   \\text{Remaining pencils} = 50 - 25 = 25 \n   \\]\n4. Next, Anthony gives 3/5 of the remaining pencils to Charlie:\n   \\[\n   \\text{Pencils given to Charlie} = \\frac{3}{5} \\times 25 = 15 \n   \\]\n5. After giving 15 pencils to Charlie, the remaining pencils that Anthony keeps are:\n   \\[\n   \\text{Pencils kept} = 25 - 15 = 10 \n   \\]\n\n[Verification] \n- Initial pencils: 50 \n- Pencils given to Brandon: 25 \n- Remaining after Brandon: 25 \n- Pencils given to Charlie: 15 \n- Remaining after Charlie: 10 \nThe calculations match the steps taken and verify the correctness.\n\n[Final Answer] The answer is 10 \n#### 10",
+        "I don't know how to solve this question."
+    ],
+    "to_explore_reward": {
+        "[reasoning process] \n1. Anthony starts with 50 pencils. \n2. He gives 1/2 of his pencils to Brandon: \n   \\[\n   \\text{Pencils given to Brandon} = \\frac{1}{2} \\times 50 = 25 \n   \\]\n3. After giving 25 pencils to Brandon, the remaining pencils are:\n   \\[\n   \\text{Remaining pencils} = 50 - 25 = 25 \n   \\]\n4. Next, Anthony gives 3/5 of the remaining pencils to Charlie:\n   \\[\n   \\text{Pencils given to Charlie} = \\frac{3}{5} \\times 25 = 15 \n   \\]\n5. After giving 15 pencils to Charlie, the remaining pencils that Anthony keeps are:\n   \\[\n   \\text{Pencils kept} = 25 - 15 = 10 \n   \\]\n\n[Verification] \n- Initial pencils: 50 \n- Pencils given to Brandon: 25 \n- Remaining after Brandon: 25 \n- Pencils given to Charlie: 15 \n- Remaining after Charlie: 10 \nThe calculations match the steps taken and verify the correctness.\n\n[Final Answer] The answer is 10 \n#### 10": [
+            85.0
+        ],
+        "I don't know how to solve this question.": [
+            -80.0
+        ]
+    },
+    "hints_bank": {},
+    "history_bank": {
+        "[reasoning process] \n1. Anthony starts with 50 pencils. \n2. He gives 1/2 of his pencils to Brandon: \n   \\[\n   \\text{Pencils given to Brandon} = \\frac{1}{2} \\times 50 = 25 \n   \\]\n3. After giving 25 pencils to Brandon, the remaining pencils are:\n   \\[\n   \\text{Remaining pencils} = 50 - 25 = 25 \n   \\]\n4. Next, Anthony gives 3/5 of the remaining pencils to Charlie:\n   \\[\n   \\text{Pencils given to Charlie} = \\frac{3}{5} \\times 25 = 15 \n   \\]\n5. After giving 15 pencils to Charlie, the remaining pencils that Anthony keeps are:\n   \\[\n   \\text{Pencils kept} = 25 - 15 = 10 \n   \\]\n\n[Verification] \n- Initial pencils: 50 \n- Pencils given to Brandon: 25 \n- Remaining after Brandon: 25 \n- Pencils given to Charlie: 15 \n- Remaining after Charlie: 10 \nThe calculations match the steps taken and verify the correctness.\n\n[Final Answer] The answer is 10 \n#### 10": [
+            "Question: Anthony had 50 pencils. He gave 1/2 of his pencils to Brandon, and he gave 3/5 of the remaining pencils to Charlie. He kept the remaining pencils. How many pencils did Anthony keep?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "[reasoning process] \n1. Anthony starts with 50 pencils. \n2. He gives 1/2 of his pencils to Brandon: \n   \\[\n   \\text{Pencils given to Brandon} = \\frac{1}{2} \\times 50 = 25 \n   \\]\n3. After giving 25 pencils to Brandon, the remaining pencils are:\n   \\[\n   \\text{Remaining pencils} = 50 - 25 = 25 \n   \\]\n4. Next, Anthony gives 3/5 of the remaining pencils to Charlie:\n   \\[\n   \\text{Pencils given to Charlie} = \\frac{3}{5} \\times 25 = 15 \n   \\]\n5. After giving 15 pencils to Charlie, the remaining pencils that Anthony keeps are:\n   \\[\n   \\text{Pencils kept} = 25 - 15 = 10 \n   \\]\n\n[Verification] \n- Initial pencils: 50 \n- Pencils given to Brandon: 25 \n- Remaining after Brandon: 25 \n- Pencils given to Charlie: 15 \n- Remaining after Charlie: 10 \nThe calculations match the steps taken and verify the correctness.\n\n[Final Answer] The answer is 10 \n#### 10"
+        ],
+        "I don't know how to solve this question.": [
+            "Question: Anthony had 50 pencils. He gave 1/2 of his pencils to Brandon, and he gave 3/5 of the remaining pencils to Charlie. He kept the remaining pencils. How many pencils did Anthony keep?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "I don't know how to solve this question."
+        ]
+    },
+    "hints_reward_imp_bank": {},
+    "fathers": {
+        "[reasoning process] \n1. Anthony starts with 50 pencils. \n2. He gives 1/2 of his pencils to Brandon: \n   \\[\n   \\text{Pencils given to Brandon} = \\frac{1}{2} \\times 50 = 25 \n   \\]\n3. After giving 25 pencils to Brandon, the remaining pencils are:\n   \\[\n   \\text{Remaining pencils} = 50 - 25 = 25 \n   \\]\n4. Next, Anthony gives 3/5 of the remaining pencils to Charlie:\n   \\[\n   \\text{Pencils given to Charlie} = \\frac{3}{5} \\times 25 = 15 \n   \\]\n5. After giving 15 pencils to Charlie, the remaining pencils that Anthony keeps are:\n   \\[\n   \\text{Pencils kept} = 25 - 15 = 10 \n   \\]\n\n[Verification] \n- Initial pencils: 50 \n- Pencils given to Brandon: 25 \n- Remaining after Brandon: 25 \n- Pencils given to Charlie: 15 \n- Remaining after Charlie: 10 \nThe calculations match the steps taken and verify the correctness.\n\n[Final Answer] The answer is 10 \n#### 10": null,
+        "I don't know how to solve this question.": null
+    },
+    "childs": {
+        "[reasoning process] \n1. Anthony starts with 50 pencils. \n2. He gives 1/2 of his pencils to Brandon: \n   \\[\n   \\text{Pencils given to Brandon} = \\frac{1}{2} \\times 50 = 25 \n   \\]\n3. After giving 25 pencils to Brandon, the remaining pencils are:\n   \\[\n   \\text{Remaining pencils} = 50 - 25 = 25 \n   \\]\n4. Next, Anthony gives 3/5 of the remaining pencils to Charlie:\n   \\[\n   \\text{Pencils given to Charlie} = \\frac{3}{5} \\times 25 = 15 \n   \\]\n5. After giving 15 pencils to Charlie, the remaining pencils that Anthony keeps are:\n   \\[\n   \\text{Pencils kept} = 25 - 15 = 10 \n   \\]\n\n[Verification] \n- Initial pencils: 50 \n- Pencils given to Brandon: 25 \n- Remaining after Brandon: 25 \n- Pencils given to Charlie: 15 \n- Remaining after Charlie: 10 \nThe calculations match the steps taken and verify the correctness.\n\n[Final Answer] The answer is 10 \n#### 10": [],
+        "I don't know how to solve this question.": []
+    },
+    "ucb_bank": {}
+}

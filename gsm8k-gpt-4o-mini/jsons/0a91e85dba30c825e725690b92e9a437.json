@@ -1,0 +1,44 @@
+{
+    "query": "John picks 4 bananas on Wednesday. Then he picks 6 bananas on Thursday. On Friday, he picks triple the number of bananas he did on Wednesday. How many bananas does John have?",
+    "ground_truth": "Combining Wednesday and Thursday, John has 4 bananas + 6 bananas = <<4+6=10>>10 bananas.\nOn Friday, he picks 3 * 4 bananas = <<3*4=12>>12 bananas.\nAltogether, John has 10 bananas + 12 bananas = <<10+12=22>>22 bananas.\n#### 22",
+    "hints_list": [],
+    "answers_list": [
+        "[reasoning process]  \nFirst, we need to calculate the number of bananas John picked each day:\n\n1. On Wednesday, John picks 4 bananas.\n2. On Thursday, he picks 6 bananas.\n3. On Friday, he picks triple the number of bananas he picked on Wednesday. Since he picked 4 bananas on Wednesday, on Friday he picks 3 times that amount:  \n   3 * 4 = 12 bananas.\n\nNow let's add up the total number of bananas John picked over these three days:  \n- Wednesdays bananas: 4  \n- Thursdays bananas: 6  \n- Fridays bananas: 12  \n\nTotal = 4 + 6 + 12 = 22 bananas.\n\n[Verification]  \nLet's double-check the additions:  \n4 (Wednesday) + 6 (Thursday) + 12 (Friday) = 22.  \n\nEach day's pickup has been calculated correctly, and the total has been confirmed to be accurate.\n\n[Final Answer] The answer is 22  \n#### 22",
+        "I Don't Know"
+    ],
+    "ground_truth_hints": "",
+    "hints_prompt": "Question: John picks 4 bananas on Wednesday. Then he picks 6 bananas on Thursday. On Friday, he picks triple the number of bananas he did on Wednesday. How many bananas does John have?\nCould you provide me with the thought process to solve this problem, but please don’t give me the answer or calculation, just the thought process?",
+    "to_explore": [
+        "[reasoning process]  \nFirst, we need to calculate the number of bananas John picked each day:\n\n1. On Wednesday, John picks 4 bananas.\n2. On Thursday, he picks 6 bananas.\n3. On Friday, he picks triple the number of bananas he picked on Wednesday. Since he picked 4 bananas on Wednesday, on Friday he picks 3 times that amount:  \n   3 * 4 = 12 bananas.\n\nNow let's add up the total number of bananas John picked over these three days:  \n- Wednesdays bananas: 4  \n- Thursdays bananas: 6  \n- Fridays bananas: 12  \n\nTotal = 4 + 6 + 12 = 22 bananas.\n\n[Verification]  \nLet's double-check the additions:  \n4 (Wednesday) + 6 (Thursday) + 12 (Friday) = 22.  \n\nEach day's pickup has been calculated correctly, and the total has been confirmed to be accurate.\n\n[Final Answer] The answer is 22  \n#### 22",
+        "I Don't Know"
+    ],
+    "to_explore_reward": {
+        "[reasoning process]  \nFirst, we need to calculate the number of bananas John picked each day:\n\n1. On Wednesday, John picks 4 bananas.\n2. On Thursday, he picks 6 bananas.\n3. On Friday, he picks triple the number of bananas he picked on Wednesday. Since he picked 4 bananas on Wednesday, on Friday he picks 3 times that amount:  \n   3 * 4 = 12 bananas.\n\nNow let's add up the total number of bananas John picked over these three days:  \n- Wednesdays bananas: 4  \n- Thursdays bananas: 6  \n- Fridays bananas: 12  \n\nTotal = 4 + 6 + 12 = 22 bananas.\n\n[Verification]  \nLet's double-check the additions:  \n4 (Wednesday) + 6 (Thursday) + 12 (Friday) = 22.  \n\nEach day's pickup has been calculated correctly, and the total has been confirmed to be accurate.\n\n[Final Answer] The answer is 22  \n#### 22": [
+            75.0
+        ],
+        "I Don't Know": [
+            -95.0
+        ]
+    },
+    "hints_bank": {},
+    "history_bank": {
+        "[reasoning process]  \nFirst, we need to calculate the number of bananas John picked each day:\n\n1. On Wednesday, John picks 4 bananas.\n2. On Thursday, he picks 6 bananas.\n3. On Friday, he picks triple the number of bananas he picked on Wednesday. Since he picked 4 bananas on Wednesday, on Friday he picks 3 times that amount:  \n   3 * 4 = 12 bananas.\n\nNow let's add up the total number of bananas John picked over these three days:  \n- Wednesdays bananas: 4  \n- Thursdays bananas: 6  \n- Fridays bananas: 12  \n\nTotal = 4 + 6 + 12 = 22 bananas.\n\n[Verification]  \nLet's double-check the additions:  \n4 (Wednesday) + 6 (Thursday) + 12 (Friday) = 22.  \n\nEach day's pickup has been calculated correctly, and the total has been confirmed to be accurate.\n\n[Final Answer] The answer is 22  \n#### 22": [
+            "Question: John picks 4 bananas on Wednesday. Then he picks 6 bananas on Thursday. On Friday, he picks triple the number of bananas he did on Wednesday. How many bananas does John have?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "[reasoning process]  \nFirst, we need to calculate the number of bananas John picked each day:\n\n1. On Wednesday, John picks 4 bananas.\n2. On Thursday, he picks 6 bananas.\n3. On Friday, he picks triple the number of bananas he picked on Wednesday. Since he picked 4 bananas on Wednesday, on Friday he picks 3 times that amount:  \n   3 * 4 = 12 bananas.\n\nNow let's add up the total number of bananas John picked over these three days:  \n- Wednesdays bananas: 4  \n- Thursdays bananas: 6  \n- Fridays bananas: 12  \n\nTotal = 4 + 6 + 12 = 22 bananas.\n\n[Verification]  \nLet's double-check the additions:  \n4 (Wednesday) + 6 (Thursday) + 12 (Friday) = 22.  \n\nEach day's pickup has been calculated correctly, and the total has been confirmed to be accurate.\n\n[Final Answer] The answer is 22  \n#### 22"
+        ],
+        "I Don't Know": [
+            "Question: John picks 4 bananas on Wednesday. Then he picks 6 bananas on Thursday. On Friday, he picks triple the number of bananas he did on Wednesday. How many bananas does John have?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "I Don't Know"
+        ]
+    },
+    "hints_reward_imp_bank": {},
+    "fathers": {
+        "[reasoning process]  \nFirst, we need to calculate the number of bananas John picked each day:\n\n1. On Wednesday, John picks 4 bananas.\n2. On Thursday, he picks 6 bananas.\n3. On Friday, he picks triple the number of bananas he picked on Wednesday. Since he picked 4 bananas on Wednesday, on Friday he picks 3 times that amount:  \n   3 * 4 = 12 bananas.\n\nNow let's add up the total number of bananas John picked over these three days:  \n- Wednesdays bananas: 4  \n- Thursdays bananas: 6  \n- Fridays bananas: 12  \n\nTotal = 4 + 6 + 12 = 22 bananas.\n\n[Verification]  \nLet's double-check the additions:  \n4 (Wednesday) + 6 (Thursday) + 12 (Friday) = 22.  \n\nEach day's pickup has been calculated correctly, and the total has been confirmed to be accurate.\n\n[Final Answer] The answer is 22  \n#### 22": null,
+        "I Don't Know": null
+    },
+    "childs": {
+        "[reasoning process]  \nFirst, we need to calculate the number of bananas John picked each day:\n\n1. On Wednesday, John picks 4 bananas.\n2. On Thursday, he picks 6 bananas.\n3. On Friday, he picks triple the number of bananas he picked on Wednesday. Since he picked 4 bananas on Wednesday, on Friday he picks 3 times that amount:  \n   3 * 4 = 12 bananas.\n\nNow let's add up the total number of bananas John picked over these three days:  \n- Wednesdays bananas: 4  \n- Thursdays bananas: 6  \n- Fridays bananas: 12  \n\nTotal = 4 + 6 + 12 = 22 bananas.\n\n[Verification]  \nLet's double-check the additions:  \n4 (Wednesday) + 6 (Thursday) + 12 (Friday) = 22.  \n\nEach day's pickup has been calculated correctly, and the total has been confirmed to be accurate.\n\n[Final Answer] The answer is 22  \n#### 22": [],
+        "I Don't Know": []
+    },
+    "ucb_bank": {}
+}

@@ -1,0 +1,44 @@
+{
+    "query": "A loaf of bread at the bakery costs $2. Bagels cost $1 each. How much more do 3 loaves of bread cost than 2 bagels?",
+    "ground_truth": "3 loaves of bread cost 3 * $2 = $<<3*2=6>>6.\n2 bagels cost 2 * $1 = $<<2*1=2>>2.\nThe loaves of bread cost $6 - $2 = $<<6-2=4>>4 more than the bagels.\n#### 4",
+    "hints_list": [],
+    "answers_list": [
+        "[reasoning process] First, we need to calculate the total cost of 3 loaves of bread. Since each loaf of bread costs $2, we multiply the cost of one loaf by 3:\n\n3 loaves of bread = 3 * $2 = $6.\n\nNext, we calculate the total cost for 2 bagels. Each bagel costs $1, so we multiply the cost of one bagel by 2:\n\n2 bagels = 2 * $1 = $2.\n\nNow we need to find out how much more the cost of 3 loaves of bread is than the cost of 2 bagels. We do this by subtracting the total cost of the bagels from the total cost of the loaves of bread:\n\nCost difference = Cost of 3 loaves of bread - Cost of 2 bagels\nCost difference = $6 - $2 = $4.\n\n[Verification] We can double-check our calculations. The cost of 3 loaves of bread is indeed calculated as 3 * $2 = $6, and the cost of 2 bagels is calculated as 2 * $1 = $2. The difference $6 - $2 = $4 is also confirmed to be correct.\n\n[Final Answer] The answer is 4 \\n#### 4",
+        "I Don't Know"
+    ],
+    "ground_truth_hints": "",
+    "hints_prompt": "Question: A loaf of bread at the bakery costs $2. Bagels cost $1 each. How much more do 3 loaves of bread cost than 2 bagels?\nCould you provide me with the thought process to solve this problem, but please don’t give me the answer or calculation, just the thought process?",
+    "to_explore": [
+        "[reasoning process] First, we need to calculate the total cost of 3 loaves of bread. Since each loaf of bread costs $2, we multiply the cost of one loaf by 3:\n\n3 loaves of bread = 3 * $2 = $6.\n\nNext, we calculate the total cost for 2 bagels. Each bagel costs $1, so we multiply the cost of one bagel by 2:\n\n2 bagels = 2 * $1 = $2.\n\nNow we need to find out how much more the cost of 3 loaves of bread is than the cost of 2 bagels. We do this by subtracting the total cost of the bagels from the total cost of the loaves of bread:\n\nCost difference = Cost of 3 loaves of bread - Cost of 2 bagels\nCost difference = $6 - $2 = $4.\n\n[Verification] We can double-check our calculations. The cost of 3 loaves of bread is indeed calculated as 3 * $2 = $6, and the cost of 2 bagels is calculated as 2 * $1 = $2. The difference $6 - $2 = $4 is also confirmed to be correct.\n\n[Final Answer] The answer is 4 \\n#### 4",
+        "I Don't Know"
+    ],
+    "to_explore_reward": {
+        "[reasoning process] First, we need to calculate the total cost of 3 loaves of bread. Since each loaf of bread costs $2, we multiply the cost of one loaf by 3:\n\n3 loaves of bread = 3 * $2 = $6.\n\nNext, we calculate the total cost for 2 bagels. Each bagel costs $1, so we multiply the cost of one bagel by 2:\n\n2 bagels = 2 * $1 = $2.\n\nNow we need to find out how much more the cost of 3 loaves of bread is than the cost of 2 bagels. We do this by subtracting the total cost of the bagels from the total cost of the loaves of bread:\n\nCost difference = Cost of 3 loaves of bread - Cost of 2 bagels\nCost difference = $6 - $2 = $4.\n\n[Verification] We can double-check our calculations. The cost of 3 loaves of bread is indeed calculated as 3 * $2 = $6, and the cost of 2 bagels is calculated as 2 * $1 = $2. The difference $6 - $2 = $4 is also confirmed to be correct.\n\n[Final Answer] The answer is 4 \\n#### 4": [
+            65.0
+        ],
+        "I Don't Know": [
+            -90.0
+        ]
+    },
+    "hints_bank": {},
+    "history_bank": {
+        "[reasoning process] First, we need to calculate the total cost of 3 loaves of bread. Since each loaf of bread costs $2, we multiply the cost of one loaf by 3:\n\n3 loaves of bread = 3 * $2 = $6.\n\nNext, we calculate the total cost for 2 bagels. Each bagel costs $1, so we multiply the cost of one bagel by 2:\n\n2 bagels = 2 * $1 = $2.\n\nNow we need to find out how much more the cost of 3 loaves of bread is than the cost of 2 bagels. We do this by subtracting the total cost of the bagels from the total cost of the loaves of bread:\n\nCost difference = Cost of 3 loaves of bread - Cost of 2 bagels\nCost difference = $6 - $2 = $4.\n\n[Verification] We can double-check our calculations. The cost of 3 loaves of bread is indeed calculated as 3 * $2 = $6, and the cost of 2 bagels is calculated as 2 * $1 = $2. The difference $6 - $2 = $4 is also confirmed to be correct.\n\n[Final Answer] The answer is 4 \\n#### 4": [
+            "Question: A loaf of bread at the bakery costs $2. Bagels cost $1 each. How much more do 3 loaves of bread cost than 2 bagels?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "[reasoning process] First, we need to calculate the total cost of 3 loaves of bread. Since each loaf of bread costs $2, we multiply the cost of one loaf by 3:\n\n3 loaves of bread = 3 * $2 = $6.\n\nNext, we calculate the total cost for 2 bagels. Each bagel costs $1, so we multiply the cost of one bagel by 2:\n\n2 bagels = 2 * $1 = $2.\n\nNow we need to find out how much more the cost of 3 loaves of bread is than the cost of 2 bagels. We do this by subtracting the total cost of the bagels from the total cost of the loaves of bread:\n\nCost difference = Cost of 3 loaves of bread - Cost of 2 bagels\nCost difference = $6 - $2 = $4.\n\n[Verification] We can double-check our calculations. The cost of 3 loaves of bread is indeed calculated as 3 * $2 = $6, and the cost of 2 bagels is calculated as 2 * $1 = $2. The difference $6 - $2 = $4 is also confirmed to be correct.\n\n[Final Answer] The answer is 4 \\n#### 4"
+        ],
+        "I Don't Know": [
+            "Question: A loaf of bread at the bakery costs $2. Bagels cost $1 each. How much more do 3 loaves of bread cost than 2 bagels?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "I Don't Know"
+        ]
+    },
+    "hints_reward_imp_bank": {},
+    "fathers": {
+        "[reasoning process] First, we need to calculate the total cost of 3 loaves of bread. Since each loaf of bread costs $2, we multiply the cost of one loaf by 3:\n\n3 loaves of bread = 3 * $2 = $6.\n\nNext, we calculate the total cost for 2 bagels. Each bagel costs $1, so we multiply the cost of one bagel by 2:\n\n2 bagels = 2 * $1 = $2.\n\nNow we need to find out how much more the cost of 3 loaves of bread is than the cost of 2 bagels. We do this by subtracting the total cost of the bagels from the total cost of the loaves of bread:\n\nCost difference = Cost of 3 loaves of bread - Cost of 2 bagels\nCost difference = $6 - $2 = $4.\n\n[Verification] We can double-check our calculations. The cost of 3 loaves of bread is indeed calculated as 3 * $2 = $6, and the cost of 2 bagels is calculated as 2 * $1 = $2. The difference $6 - $2 = $4 is also confirmed to be correct.\n\n[Final Answer] The answer is 4 \\n#### 4": null,
+        "I Don't Know": null
+    },
+    "childs": {
+        "[reasoning process] First, we need to calculate the total cost of 3 loaves of bread. Since each loaf of bread costs $2, we multiply the cost of one loaf by 3:\n\n3 loaves of bread = 3 * $2 = $6.\n\nNext, we calculate the total cost for 2 bagels. Each bagel costs $1, so we multiply the cost of one bagel by 2:\n\n2 bagels = 2 * $1 = $2.\n\nNow we need to find out how much more the cost of 3 loaves of bread is than the cost of 2 bagels. We do this by subtracting the total cost of the bagels from the total cost of the loaves of bread:\n\nCost difference = Cost of 3 loaves of bread - Cost of 2 bagels\nCost difference = $6 - $2 = $4.\n\n[Verification] We can double-check our calculations. The cost of 3 loaves of bread is indeed calculated as 3 * $2 = $6, and the cost of 2 bagels is calculated as 2 * $1 = $2. The difference $6 - $2 = $4 is also confirmed to be correct.\n\n[Final Answer] The answer is 4 \\n#### 4": [],
+        "I Don't Know": []
+    },
+    "ucb_bank": {}
+}

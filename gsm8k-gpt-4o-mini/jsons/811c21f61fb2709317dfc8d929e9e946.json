@@ -1,0 +1,44 @@
+{
+    "query": "John drinks a bottle of water every half hour.  A normal sudoku puzzle takes him 45 minutes.  An extreme sudoku takes 4 times that long.  How many bottles of water does he drink in that time?",
+    "ground_truth": "He drinks a bottle of water every 60/2=<<60/2=30>>30 minutes\nIt takes him 45*4=<<45*4=180>>180 minutes to solve an extreme sudoku\nSo he drinks 180/30=<<180/30=6>>6 bottles in that time\n#### 6",
+    "hints_list": [],
+    "answers_list": [
+        "[Reasoning Process] \nFirst, we need to determine how long it takes John to complete different sudoku puzzles:\n- A normal sudoku puzzle takes 45 minutes.\n- An extreme sudoku puzzle takes 4 times as long as a normal sudoku puzzle.\n  Therefore, the time for an extreme sudoku: 45 minutes * 4 = 180 minutes.\n\nNext, we need to figure out how many bottles of water John drinks during the 180 minutes it takes to complete an extreme sudoku:\n- John drinks a bottle of water every 30 minutes (half hour).\n\n[Verification]\nTo find out how many 30-minute intervals are in 180 minutes:\n- 180 minutes / 30 minutes per bottle = 6 intervals\n\nTherefore, during the 180 minutes it takes to complete one extreme sudoku, John drinks 6 bottles of water.\n\n[Final Answer] The answer is 6\n#### 6",
+        "I Don't Know"
+    ],
+    "ground_truth_hints": "",
+    "hints_prompt": "Question: John drinks a bottle of water every half hour.  A normal sudoku puzzle takes him 45 minutes.  An extreme sudoku takes 4 times that long.  How many bottles of water does he drink in that time?\nCould you provide me with the thought process to solve this problem, but please don’t give me the answer or calculation, just the thought process?",
+    "to_explore": [
+        "[Reasoning Process] \nFirst, we need to determine how long it takes John to complete different sudoku puzzles:\n- A normal sudoku puzzle takes 45 minutes.\n- An extreme sudoku puzzle takes 4 times as long as a normal sudoku puzzle.\n  Therefore, the time for an extreme sudoku: 45 minutes * 4 = 180 minutes.\n\nNext, we need to figure out how many bottles of water John drinks during the 180 minutes it takes to complete an extreme sudoku:\n- John drinks a bottle of water every 30 minutes (half hour).\n\n[Verification]\nTo find out how many 30-minute intervals are in 180 minutes:\n- 180 minutes / 30 minutes per bottle = 6 intervals\n\nTherefore, during the 180 minutes it takes to complete one extreme sudoku, John drinks 6 bottles of water.\n\n[Final Answer] The answer is 6\n#### 6",
+        "I Don't Know"
+    ],
+    "to_explore_reward": {
+        "[Reasoning Process] \nFirst, we need to determine how long it takes John to complete different sudoku puzzles:\n- A normal sudoku puzzle takes 45 minutes.\n- An extreme sudoku puzzle takes 4 times as long as a normal sudoku puzzle.\n  Therefore, the time for an extreme sudoku: 45 minutes * 4 = 180 minutes.\n\nNext, we need to figure out how many bottles of water John drinks during the 180 minutes it takes to complete an extreme sudoku:\n- John drinks a bottle of water every 30 minutes (half hour).\n\n[Verification]\nTo find out how many 30-minute intervals are in 180 minutes:\n- 180 minutes / 30 minutes per bottle = 6 intervals\n\nTherefore, during the 180 minutes it takes to complete one extreme sudoku, John drinks 6 bottles of water.\n\n[Final Answer] The answer is 6\n#### 6": [
+            50
+        ],
+        "I Don't Know": [
+            -95.0
+        ]
+    },
+    "hints_bank": {},
+    "history_bank": {
+        "[Reasoning Process] \nFirst, we need to determine how long it takes John to complete different sudoku puzzles:\n- A normal sudoku puzzle takes 45 minutes.\n- An extreme sudoku puzzle takes 4 times as long as a normal sudoku puzzle.\n  Therefore, the time for an extreme sudoku: 45 minutes * 4 = 180 minutes.\n\nNext, we need to figure out how many bottles of water John drinks during the 180 minutes it takes to complete an extreme sudoku:\n- John drinks a bottle of water every 30 minutes (half hour).\n\n[Verification]\nTo find out how many 30-minute intervals are in 180 minutes:\n- 180 minutes / 30 minutes per bottle = 6 intervals\n\nTherefore, during the 180 minutes it takes to complete one extreme sudoku, John drinks 6 bottles of water.\n\n[Final Answer] The answer is 6\n#### 6": [
+            "Question: John drinks a bottle of water every half hour.  A normal sudoku puzzle takes him 45 minutes.  An extreme sudoku takes 4 times that long.  How many bottles of water does he drink in that time?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "[Reasoning Process] \nFirst, we need to determine how long it takes John to complete different sudoku puzzles:\n- A normal sudoku puzzle takes 45 minutes.\n- An extreme sudoku puzzle takes 4 times as long as a normal sudoku puzzle.\n  Therefore, the time for an extreme sudoku: 45 minutes * 4 = 180 minutes.\n\nNext, we need to figure out how many bottles of water John drinks during the 180 minutes it takes to complete an extreme sudoku:\n- John drinks a bottle of water every 30 minutes (half hour).\n\n[Verification]\nTo find out how many 30-minute intervals are in 180 minutes:\n- 180 minutes / 30 minutes per bottle = 6 intervals\n\nTherefore, during the 180 minutes it takes to complete one extreme sudoku, John drinks 6 bottles of water.\n\n[Final Answer] The answer is 6\n#### 6"
+        ],
+        "I Don't Know": [
+            "Question: John drinks a bottle of water every half hour.  A normal sudoku puzzle takes him 45 minutes.  An extreme sudoku takes 4 times that long.  How many bottles of water does he drink in that time?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "I Don't Know"
+        ]
+    },
+    "hints_reward_imp_bank": {},
+    "fathers": {
+        "[Reasoning Process] \nFirst, we need to determine how long it takes John to complete different sudoku puzzles:\n- A normal sudoku puzzle takes 45 minutes.\n- An extreme sudoku puzzle takes 4 times as long as a normal sudoku puzzle.\n  Therefore, the time for an extreme sudoku: 45 minutes * 4 = 180 minutes.\n\nNext, we need to figure out how many bottles of water John drinks during the 180 minutes it takes to complete an extreme sudoku:\n- John drinks a bottle of water every 30 minutes (half hour).\n\n[Verification]\nTo find out how many 30-minute intervals are in 180 minutes:\n- 180 minutes / 30 minutes per bottle = 6 intervals\n\nTherefore, during the 180 minutes it takes to complete one extreme sudoku, John drinks 6 bottles of water.\n\n[Final Answer] The answer is 6\n#### 6": null,
+        "I Don't Know": null
+    },
+    "childs": {
+        "[Reasoning Process] \nFirst, we need to determine how long it takes John to complete different sudoku puzzles:\n- A normal sudoku puzzle takes 45 minutes.\n- An extreme sudoku puzzle takes 4 times as long as a normal sudoku puzzle.\n  Therefore, the time for an extreme sudoku: 45 minutes * 4 = 180 minutes.\n\nNext, we need to figure out how many bottles of water John drinks during the 180 minutes it takes to complete an extreme sudoku:\n- John drinks a bottle of water every 30 minutes (half hour).\n\n[Verification]\nTo find out how many 30-minute intervals are in 180 minutes:\n- 180 minutes / 30 minutes per bottle = 6 intervals\n\nTherefore, during the 180 minutes it takes to complete one extreme sudoku, John drinks 6 bottles of water.\n\n[Final Answer] The answer is 6\n#### 6": [],
+        "I Don't Know": []
+    },
+    "ucb_bank": {}
+}

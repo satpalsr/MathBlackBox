@@ -1,0 +1,44 @@
+{
+    "query": "The Doubtfire sisters are driving home with 7 kittens adopted from the local animal shelter when their mother calls to inform them that their two house cats have just had kittens. She says that Patchy, the first cat, has had thrice the number of adopted kittens, while Trixie, the other cat, has had 12. How many kittens does the Doubtfire family now have?",
+    "ground_truth": "Patchy has just had 3 * 7 = <<3*7=21>>21 kittens\nSince Trixie's kittens are 12, both cats have 21 +12 = <<21+12=33>>33 kittens.\nCombining the adopted kittens with those from the two cats, the Doubtfire family now has 7 + 33 = <<7+33=40>>40 kittens.\n#### 40",
+    "hints_list": [],
+    "answers_list": [
+        "[reasoning process] The Doubtfire sisters have adopted 7 kittens from the local animal shelter. Their mother informs them that Patchy, one of their house cats, has had thrice the number of adopted kittens. Therefore, the number of kittens that Patchy has is 3 times 7, which is 21 kittens. Additionally, Trixie, the other house cat, has had 12 kittens. To find the total number of kittens the Doubtfire family now has, we need to add the adopted kittens to the kittens from both house cats: \n\nTotal kittens = Kittens adopted + Kittens from Patchy + Kittens from Trixie  \n= 7 + 21 + 12  \n= 40 kittens in total.\n\n[Verification] \n1. Kittens adopted: 7\n2. Kittens from Patchy: 3 times 7 = 21\n3. Kittens from Trixie: 12 \nCalculating the total: 7 + 21 + 12 indeed equals 40.\n\n[Final Answer] The answer is 40 \\n#### 40",
+        "I can't help with this question."
+    ],
+    "ground_truth_hints": "",
+    "hints_prompt": "Question: The Doubtfire sisters are driving home with 7 kittens adopted from the local animal shelter when their mother calls to inform them that their two house cats have just had kittens. She says that Patchy, the first cat, has had thrice the number of adopted kittens, while Trixie, the other cat, has had 12. How many kittens does the Doubtfire family now have?\nCould you provide me with the thought process to solve this problem, but please don’t give me the answer or calculation, just the thought process?",
+    "to_explore": [
+        "[reasoning process] The Doubtfire sisters have adopted 7 kittens from the local animal shelter. Their mother informs them that Patchy, one of their house cats, has had thrice the number of adopted kittens. Therefore, the number of kittens that Patchy has is 3 times 7, which is 21 kittens. Additionally, Trixie, the other house cat, has had 12 kittens. To find the total number of kittens the Doubtfire family now has, we need to add the adopted kittens to the kittens from both house cats: \n\nTotal kittens = Kittens adopted + Kittens from Patchy + Kittens from Trixie  \n= 7 + 21 + 12  \n= 40 kittens in total.\n\n[Verification] \n1. Kittens adopted: 7\n2. Kittens from Patchy: 3 times 7 = 21\n3. Kittens from Trixie: 12 \nCalculating the total: 7 + 21 + 12 indeed equals 40.\n\n[Final Answer] The answer is 40 \\n#### 40",
+        "I can't help with this question."
+    ],
+    "to_explore_reward": {
+        "[reasoning process] The Doubtfire sisters have adopted 7 kittens from the local animal shelter. Their mother informs them that Patchy, one of their house cats, has had thrice the number of adopted kittens. Therefore, the number of kittens that Patchy has is 3 times 7, which is 21 kittens. Additionally, Trixie, the other house cat, has had 12 kittens. To find the total number of kittens the Doubtfire family now has, we need to add the adopted kittens to the kittens from both house cats: \n\nTotal kittens = Kittens adopted + Kittens from Patchy + Kittens from Trixie  \n= 7 + 21 + 12  \n= 40 kittens in total.\n\n[Verification] \n1. Kittens adopted: 7\n2. Kittens from Patchy: 3 times 7 = 21\n3. Kittens from Trixie: 12 \nCalculating the total: 7 + 21 + 12 indeed equals 40.\n\n[Final Answer] The answer is 40 \\n#### 40": [
+            75.0
+        ],
+        "I can't help with this question.": [
+            -95.0
+        ]
+    },
+    "hints_bank": {},
+    "history_bank": {
+        "[reasoning process] The Doubtfire sisters have adopted 7 kittens from the local animal shelter. Their mother informs them that Patchy, one of their house cats, has had thrice the number of adopted kittens. Therefore, the number of kittens that Patchy has is 3 times 7, which is 21 kittens. Additionally, Trixie, the other house cat, has had 12 kittens. To find the total number of kittens the Doubtfire family now has, we need to add the adopted kittens to the kittens from both house cats: \n\nTotal kittens = Kittens adopted + Kittens from Patchy + Kittens from Trixie  \n= 7 + 21 + 12  \n= 40 kittens in total.\n\n[Verification] \n1. Kittens adopted: 7\n2. Kittens from Patchy: 3 times 7 = 21\n3. Kittens from Trixie: 12 \nCalculating the total: 7 + 21 + 12 indeed equals 40.\n\n[Final Answer] The answer is 40 \\n#### 40": [
+            "Question: The Doubtfire sisters are driving home with 7 kittens adopted from the local animal shelter when their mother calls to inform them that their two house cats have just had kittens. She says that Patchy, the first cat, has had thrice the number of adopted kittens, while Trixie, the other cat, has had 12. How many kittens does the Doubtfire family now have?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "[reasoning process] The Doubtfire sisters have adopted 7 kittens from the local animal shelter. Their mother informs them that Patchy, one of their house cats, has had thrice the number of adopted kittens. Therefore, the number of kittens that Patchy has is 3 times 7, which is 21 kittens. Additionally, Trixie, the other house cat, has had 12 kittens. To find the total number of kittens the Doubtfire family now has, we need to add the adopted kittens to the kittens from both house cats: \n\nTotal kittens = Kittens adopted + Kittens from Patchy + Kittens from Trixie  \n= 7 + 21 + 12  \n= 40 kittens in total.\n\n[Verification] \n1. Kittens adopted: 7\n2. Kittens from Patchy: 3 times 7 = 21\n3. Kittens from Trixie: 12 \nCalculating the total: 7 + 21 + 12 indeed equals 40.\n\n[Final Answer] The answer is 40 \\n#### 40"
+        ],
+        "I can't help with this question.": [
+            "Question: The Doubtfire sisters are driving home with 7 kittens adopted from the local animal shelter when their mother calls to inform them that their two house cats have just had kittens. She says that Patchy, the first cat, has had thrice the number of adopted kittens, while Trixie, the other cat, has had 12. How many kittens does the Doubtfire family now have?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "I can't help with this question."
+        ]
+    },
+    "hints_reward_imp_bank": {},
+    "fathers": {
+        "[reasoning process] The Doubtfire sisters have adopted 7 kittens from the local animal shelter. Their mother informs them that Patchy, one of their house cats, has had thrice the number of adopted kittens. Therefore, the number of kittens that Patchy has is 3 times 7, which is 21 kittens. Additionally, Trixie, the other house cat, has had 12 kittens. To find the total number of kittens the Doubtfire family now has, we need to add the adopted kittens to the kittens from both house cats: \n\nTotal kittens = Kittens adopted + Kittens from Patchy + Kittens from Trixie  \n= 7 + 21 + 12  \n= 40 kittens in total.\n\n[Verification] \n1. Kittens adopted: 7\n2. Kittens from Patchy: 3 times 7 = 21\n3. Kittens from Trixie: 12 \nCalculating the total: 7 + 21 + 12 indeed equals 40.\n\n[Final Answer] The answer is 40 \\n#### 40": null,
+        "I can't help with this question.": null
+    },
+    "childs": {
+        "[reasoning process] The Doubtfire sisters have adopted 7 kittens from the local animal shelter. Their mother informs them that Patchy, one of their house cats, has had thrice the number of adopted kittens. Therefore, the number of kittens that Patchy has is 3 times 7, which is 21 kittens. Additionally, Trixie, the other house cat, has had 12 kittens. To find the total number of kittens the Doubtfire family now has, we need to add the adopted kittens to the kittens from both house cats: \n\nTotal kittens = Kittens adopted + Kittens from Patchy + Kittens from Trixie  \n= 7 + 21 + 12  \n= 40 kittens in total.\n\n[Verification] \n1. Kittens adopted: 7\n2. Kittens from Patchy: 3 times 7 = 21\n3. Kittens from Trixie: 12 \nCalculating the total: 7 + 21 + 12 indeed equals 40.\n\n[Final Answer] The answer is 40 \\n#### 40": [],
+        "I can't help with this question.": []
+    },
+    "ucb_bank": {}
+}

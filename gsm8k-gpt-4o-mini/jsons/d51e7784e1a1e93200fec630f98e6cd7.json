@@ -1,0 +1,44 @@
+{
+    "query": "My mom went to a gardening shop. She bought a set of pots for $19 and a sack of garden soil for $26. At checkout, she used a coupon for $7 off. How much money did my mom spend at the gardening shop?",
+    "ground_truth": "The total cost of the pots and a sack of garden soil is $19 + $26 = $<<19+26=45>>45.\nSo, my mom spent $45 - $7 = $<<45-7=38>>38 at the gardening store.\n#### 38",
+    "hints_list": [],
+    "answers_list": [
+        "[reasoning process] To determine how much money your mom spent at the gardening shop, we first need to add up the cost of the pots and the garden soil. The pots cost $19 and the garden soil costs $26. \n\nNext, we sum these two amounts:\n\n$19 (pots) + $26 (soil) = $45\n\nNow, your mom used a coupon that provided $7 off the total purchase. We subtract this discount from the total amount:\n\n$45 (total) - $7 (coupon) = $38\n\nSo, the final amount spent after applying the coupon is $38.\n\n[Verification] \nWe can verify this by rechecking the individual costs and the coupon application. The total cost before the coupon is indeed $45. When we subtract $7, we arrive at $38 again, confirming that the calculations are correct.\n\n[Final Answer] The answer is 38  \n#### 38",
+        "I don't know the answer to this question."
+    ],
+    "ground_truth_hints": "",
+    "hints_prompt": "Question: My mom went to a gardening shop. She bought a set of pots for $19 and a sack of garden soil for $26. At checkout, she used a coupon for $7 off. How much money did my mom spend at the gardening shop?\nCould you provide me with the thought process to solve this problem, but please don’t give me the answer or calculation, just the thought process?",
+    "to_explore": [
+        "[reasoning process] To determine how much money your mom spent at the gardening shop, we first need to add up the cost of the pots and the garden soil. The pots cost $19 and the garden soil costs $26. \n\nNext, we sum these two amounts:\n\n$19 (pots) + $26 (soil) = $45\n\nNow, your mom used a coupon that provided $7 off the total purchase. We subtract this discount from the total amount:\n\n$45 (total) - $7 (coupon) = $38\n\nSo, the final amount spent after applying the coupon is $38.\n\n[Verification] \nWe can verify this by rechecking the individual costs and the coupon application. The total cost before the coupon is indeed $45. When we subtract $7, we arrive at $38 again, confirming that the calculations are correct.\n\n[Final Answer] The answer is 38  \n#### 38",
+        "I don't know the answer to this question."
+    ],
+    "to_explore_reward": {
+        "[reasoning process] To determine how much money your mom spent at the gardening shop, we first need to add up the cost of the pots and the garden soil. The pots cost $19 and the garden soil costs $26. \n\nNext, we sum these two amounts:\n\n$19 (pots) + $26 (soil) = $45\n\nNow, your mom used a coupon that provided $7 off the total purchase. We subtract this discount from the total amount:\n\n$45 (total) - $7 (coupon) = $38\n\nSo, the final amount spent after applying the coupon is $38.\n\n[Verification] \nWe can verify this by rechecking the individual costs and the coupon application. The total cost before the coupon is indeed $45. When we subtract $7, we arrive at $38 again, confirming that the calculations are correct.\n\n[Final Answer] The answer is 38  \n#### 38": [
+            65.0
+        ],
+        "I don't know the answer to this question.": [
+            -80.0
+        ]
+    },
+    "hints_bank": {},
+    "history_bank": {
+        "[reasoning process] To determine how much money your mom spent at the gardening shop, we first need to add up the cost of the pots and the garden soil. The pots cost $19 and the garden soil costs $26. \n\nNext, we sum these two amounts:\n\n$19 (pots) + $26 (soil) = $45\n\nNow, your mom used a coupon that provided $7 off the total purchase. We subtract this discount from the total amount:\n\n$45 (total) - $7 (coupon) = $38\n\nSo, the final amount spent after applying the coupon is $38.\n\n[Verification] \nWe can verify this by rechecking the individual costs and the coupon application. The total cost before the coupon is indeed $45. When we subtract $7, we arrive at $38 again, confirming that the calculations are correct.\n\n[Final Answer] The answer is 38  \n#### 38": [
+            "Question: My mom went to a gardening shop. She bought a set of pots for $19 and a sack of garden soil for $26. At checkout, she used a coupon for $7 off. How much money did my mom spend at the gardening shop?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "[reasoning process] To determine how much money your mom spent at the gardening shop, we first need to add up the cost of the pots and the garden soil. The pots cost $19 and the garden soil costs $26. \n\nNext, we sum these two amounts:\n\n$19 (pots) + $26 (soil) = $45\n\nNow, your mom used a coupon that provided $7 off the total purchase. We subtract this discount from the total amount:\n\n$45 (total) - $7 (coupon) = $38\n\nSo, the final amount spent after applying the coupon is $38.\n\n[Verification] \nWe can verify this by rechecking the individual costs and the coupon application. The total cost before the coupon is indeed $45. When we subtract $7, we arrive at $38 again, confirming that the calculations are correct.\n\n[Final Answer] The answer is 38  \n#### 38"
+        ],
+        "I don't know the answer to this question.": [
+            "Question: My mom went to a gardening shop. She bought a set of pots for $19 and a sack of garden soil for $26. At checkout, she used a coupon for $7 off. How much money did my mom spend at the gardening shop?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "I don't know the answer to this question."
+        ]
+    },
+    "hints_reward_imp_bank": {},
+    "fathers": {
+        "[reasoning process] To determine how much money your mom spent at the gardening shop, we first need to add up the cost of the pots and the garden soil. The pots cost $19 and the garden soil costs $26. \n\nNext, we sum these two amounts:\n\n$19 (pots) + $26 (soil) = $45\n\nNow, your mom used a coupon that provided $7 off the total purchase. We subtract this discount from the total amount:\n\n$45 (total) - $7 (coupon) = $38\n\nSo, the final amount spent after applying the coupon is $38.\n\n[Verification] \nWe can verify this by rechecking the individual costs and the coupon application. The total cost before the coupon is indeed $45. When we subtract $7, we arrive at $38 again, confirming that the calculations are correct.\n\n[Final Answer] The answer is 38  \n#### 38": null,
+        "I don't know the answer to this question.": null
+    },
+    "childs": {
+        "[reasoning process] To determine how much money your mom spent at the gardening shop, we first need to add up the cost of the pots and the garden soil. The pots cost $19 and the garden soil costs $26. \n\nNext, we sum these two amounts:\n\n$19 (pots) + $26 (soil) = $45\n\nNow, your mom used a coupon that provided $7 off the total purchase. We subtract this discount from the total amount:\n\n$45 (total) - $7 (coupon) = $38\n\nSo, the final amount spent after applying the coupon is $38.\n\n[Verification] \nWe can verify this by rechecking the individual costs and the coupon application. The total cost before the coupon is indeed $45. When we subtract $7, we arrive at $38 again, confirming that the calculations are correct.\n\n[Final Answer] The answer is 38  \n#### 38": [],
+        "I don't know the answer to this question.": []
+    },
+    "ucb_bank": {}
+}

@@ -1,0 +1,44 @@
+{
+    "query": "Brendan has a bag of marbles with 10 inside. He tripped over a pebble while carrying it and dropped half of them. He scrambled to search for them but only came up with 3. When he went back home, he inspected the marbles further. One of them he picked up wasn't a marble, but actually a bead so he got rid of it. How many marbles did Brendan end up with?",
+    "ground_truth": "Brendan dropped his marbles and was left with 10/2=<<10/2=5>>5 marbles.\nHe searched and found some of his lost marbles, getting him back to 5+3=<<5+3=8>>8 marbles.\nHe went home and removed a bead, leaving him with 8-1=<<8-1=7>>7 marbles.\n#### 7",
+    "hints_list": [],
+    "answers_list": [
+        "[reasoning process] Brendan started with 10 marbles. When he dropped half of them, he lost half of 10, which is 5 marbles. So, he had 5 marbles left after the drop. When he searched for the lost marbles, he found 3 more. Adding these 3 to the 5 he retained gives him a total of 5 + 3 = 8 marbles. Next, he discovered that one of the marbles he found was actually a bead, so he had to get rid of that. After removing the bead, he has 8 - 1 = 7 marbles remaining. \n\n[Verification] Starting with 10 marbles, dropping half left him with 5, finding 3 more brought the total to 8, and subtracting the bead left him with 7 marbles. \n\n[Final Answer] The answer is 7 \\n#### 7",
+        "I can't understand this question."
+    ],
+    "ground_truth_hints": "",
+    "hints_prompt": "Question: Brendan has a bag of marbles with 10 inside. He tripped over a pebble while carrying it and dropped half of them. He scrambled to search for them but only came up with 3. When he went back home, he inspected the marbles further. One of them he picked up wasn't a marble, but actually a bead so he got rid of it. How many marbles did Brendan end up with?\nCould you provide me with the thought process to solve this problem, but please don’t give me the answer or calculation, just the thought process?",
+    "to_explore": [
+        "[reasoning process] Brendan started with 10 marbles. When he dropped half of them, he lost half of 10, which is 5 marbles. So, he had 5 marbles left after the drop. When he searched for the lost marbles, he found 3 more. Adding these 3 to the 5 he retained gives him a total of 5 + 3 = 8 marbles. Next, he discovered that one of the marbles he found was actually a bead, so he had to get rid of that. After removing the bead, he has 8 - 1 = 7 marbles remaining. \n\n[Verification] Starting with 10 marbles, dropping half left him with 5, finding 3 more brought the total to 8, and subtracting the bead left him with 7 marbles. \n\n[Final Answer] The answer is 7 \\n#### 7",
+        "I can't understand this question."
+    ],
+    "to_explore_reward": {
+        "[reasoning process] Brendan started with 10 marbles. When he dropped half of them, he lost half of 10, which is 5 marbles. So, he had 5 marbles left after the drop. When he searched for the lost marbles, he found 3 more. Adding these 3 to the 5 he retained gives him a total of 5 + 3 = 8 marbles. Next, he discovered that one of the marbles he found was actually a bead, so he had to get rid of that. After removing the bead, he has 8 - 1 = 7 marbles remaining. \n\n[Verification] Starting with 10 marbles, dropping half left him with 5, finding 3 more brought the total to 8, and subtracting the bead left him with 7 marbles. \n\n[Final Answer] The answer is 7 \\n#### 7": [
+            75.0
+        ],
+        "I can't understand this question.": [
+            -80.0
+        ]
+    },
+    "hints_bank": {},
+    "history_bank": {
+        "[reasoning process] Brendan started with 10 marbles. When he dropped half of them, he lost half of 10, which is 5 marbles. So, he had 5 marbles left after the drop. When he searched for the lost marbles, he found 3 more. Adding these 3 to the 5 he retained gives him a total of 5 + 3 = 8 marbles. Next, he discovered that one of the marbles he found was actually a bead, so he had to get rid of that. After removing the bead, he has 8 - 1 = 7 marbles remaining. \n\n[Verification] Starting with 10 marbles, dropping half left him with 5, finding 3 more brought the total to 8, and subtracting the bead left him with 7 marbles. \n\n[Final Answer] The answer is 7 \\n#### 7": [
+            "Question: Brendan has a bag of marbles with 10 inside. He tripped over a pebble while carrying it and dropped half of them. He scrambled to search for them but only came up with 3. When he went back home, he inspected the marbles further. One of them he picked up wasn't a marble, but actually a bead so he got rid of it. How many marbles did Brendan end up with?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "[reasoning process] Brendan started with 10 marbles. When he dropped half of them, he lost half of 10, which is 5 marbles. So, he had 5 marbles left after the drop. When he searched for the lost marbles, he found 3 more. Adding these 3 to the 5 he retained gives him a total of 5 + 3 = 8 marbles. Next, he discovered that one of the marbles he found was actually a bead, so he had to get rid of that. After removing the bead, he has 8 - 1 = 7 marbles remaining. \n\n[Verification] Starting with 10 marbles, dropping half left him with 5, finding 3 more brought the total to 8, and subtracting the bead left him with 7 marbles. \n\n[Final Answer] The answer is 7 \\n#### 7"
+        ],
+        "I can't understand this question.": [
+            "Question: Brendan has a bag of marbles with 10 inside. He tripped over a pebble while carrying it and dropped half of them. He scrambled to search for them but only came up with 3. When he went back home, he inspected the marbles further. One of them he picked up wasn't a marble, but actually a bead so he got rid of it. How many marbles did Brendan end up with?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "I can't understand this question."
+        ]
+    },
+    "hints_reward_imp_bank": {},
+    "fathers": {
+        "[reasoning process] Brendan started with 10 marbles. When he dropped half of them, he lost half of 10, which is 5 marbles. So, he had 5 marbles left after the drop. When he searched for the lost marbles, he found 3 more. Adding these 3 to the 5 he retained gives him a total of 5 + 3 = 8 marbles. Next, he discovered that one of the marbles he found was actually a bead, so he had to get rid of that. After removing the bead, he has 8 - 1 = 7 marbles remaining. \n\n[Verification] Starting with 10 marbles, dropping half left him with 5, finding 3 more brought the total to 8, and subtracting the bead left him with 7 marbles. \n\n[Final Answer] The answer is 7 \\n#### 7": null,
+        "I can't understand this question.": null
+    },
+    "childs": {
+        "[reasoning process] Brendan started with 10 marbles. When he dropped half of them, he lost half of 10, which is 5 marbles. So, he had 5 marbles left after the drop. When he searched for the lost marbles, he found 3 more. Adding these 3 to the 5 he retained gives him a total of 5 + 3 = 8 marbles. Next, he discovered that one of the marbles he found was actually a bead, so he had to get rid of that. After removing the bead, he has 8 - 1 = 7 marbles remaining. \n\n[Verification] Starting with 10 marbles, dropping half left him with 5, finding 3 more brought the total to 8, and subtracting the bead left him with 7 marbles. \n\n[Final Answer] The answer is 7 \\n#### 7": [],
+        "I can't understand this question.": []
+    },
+    "ucb_bank": {}
+}

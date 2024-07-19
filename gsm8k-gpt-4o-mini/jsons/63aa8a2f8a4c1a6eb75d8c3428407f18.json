@@ -1,0 +1,44 @@
+{
+    "query": "Jenna and her mother picked some apples from their apple farm. Jenna picked half as many apples as her mom. If her mom got 20 apples, how many apples did they both pick?",
+    "ground_truth": "If Jenna got half as many apples as her mom, then she got 1/2 * 20 apples = <<20*1/2=10>>10 apples\nTogether, they had 10 apples + 20 apples = <<10+20=30>>30 apples\n#### 30",
+    "hints_list": [],
+    "answers_list": [
+        "[reasoning process] Jenna picked half as many apples as her mom. If her mom picked 20 apples, we can determine the number of apples Jenna picked by calculating half of 20. This means:\n\nJenna's apples = 20 / 2 = 10 apples\n\nNow, to find the total number of apples they both picked, we will add the number of apples Jenna picked to the number of apples her mom picked:\n\nTotal apples = Jenna's apples + Mom's apples = 10 + 20 = 30 apples\n\n[Verification] To verify, we check the conditions given in the problem. Jenna picked half as many apples as her mom, which we calculated as:\n\n- Mom's apples = 20\n- Jenna's apples = 10 (which is half of 20)\n\nBoth parts of the condition hold true. Additionally, our total counts add up to 30 apples, consistent with our calculations.\n\n[Final Answer] The answer is 30 \\n#### 30",
+        "I don't know how to solve this question."
+    ],
+    "ground_truth_hints": "",
+    "hints_prompt": "Question: Jenna and her mother picked some apples from their apple farm. Jenna picked half as many apples as her mom. If her mom got 20 apples, how many apples did they both pick?\nCould you provide me with the thought process to solve this problem, but please don’t give me the answer or calculation, just the thought process?",
+    "to_explore": [
+        "[reasoning process] Jenna picked half as many apples as her mom. If her mom picked 20 apples, we can determine the number of apples Jenna picked by calculating half of 20. This means:\n\nJenna's apples = 20 / 2 = 10 apples\n\nNow, to find the total number of apples they both picked, we will add the number of apples Jenna picked to the number of apples her mom picked:\n\nTotal apples = Jenna's apples + Mom's apples = 10 + 20 = 30 apples\n\n[Verification] To verify, we check the conditions given in the problem. Jenna picked half as many apples as her mom, which we calculated as:\n\n- Mom's apples = 20\n- Jenna's apples = 10 (which is half of 20)\n\nBoth parts of the condition hold true. Additionally, our total counts add up to 30 apples, consistent with our calculations.\n\n[Final Answer] The answer is 30 \\n#### 30",
+        "I don't know how to solve this question."
+    ],
+    "to_explore_reward": {
+        "[reasoning process] Jenna picked half as many apples as her mom. If her mom picked 20 apples, we can determine the number of apples Jenna picked by calculating half of 20. This means:\n\nJenna's apples = 20 / 2 = 10 apples\n\nNow, to find the total number of apples they both picked, we will add the number of apples Jenna picked to the number of apples her mom picked:\n\nTotal apples = Jenna's apples + Mom's apples = 10 + 20 = 30 apples\n\n[Verification] To verify, we check the conditions given in the problem. Jenna picked half as many apples as her mom, which we calculated as:\n\n- Mom's apples = 20\n- Jenna's apples = 10 (which is half of 20)\n\nBoth parts of the condition hold true. Additionally, our total counts add up to 30 apples, consistent with our calculations.\n\n[Final Answer] The answer is 30 \\n#### 30": [
+            75.0
+        ],
+        "I don't know how to solve this question.": [
+            -85.0
+        ]
+    },
+    "hints_bank": {},
+    "history_bank": {
+        "[reasoning process] Jenna picked half as many apples as her mom. If her mom picked 20 apples, we can determine the number of apples Jenna picked by calculating half of 20. This means:\n\nJenna's apples = 20 / 2 = 10 apples\n\nNow, to find the total number of apples they both picked, we will add the number of apples Jenna picked to the number of apples her mom picked:\n\nTotal apples = Jenna's apples + Mom's apples = 10 + 20 = 30 apples\n\n[Verification] To verify, we check the conditions given in the problem. Jenna picked half as many apples as her mom, which we calculated as:\n\n- Mom's apples = 20\n- Jenna's apples = 10 (which is half of 20)\n\nBoth parts of the condition hold true. Additionally, our total counts add up to 30 apples, consistent with our calculations.\n\n[Final Answer] The answer is 30 \\n#### 30": [
+            "Question: Jenna and her mother picked some apples from their apple farm. Jenna picked half as many apples as her mom. If her mom got 20 apples, how many apples did they both pick?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "[reasoning process] Jenna picked half as many apples as her mom. If her mom picked 20 apples, we can determine the number of apples Jenna picked by calculating half of 20. This means:\n\nJenna's apples = 20 / 2 = 10 apples\n\nNow, to find the total number of apples they both picked, we will add the number of apples Jenna picked to the number of apples her mom picked:\n\nTotal apples = Jenna's apples + Mom's apples = 10 + 20 = 30 apples\n\n[Verification] To verify, we check the conditions given in the problem. Jenna picked half as many apples as her mom, which we calculated as:\n\n- Mom's apples = 20\n- Jenna's apples = 10 (which is half of 20)\n\nBoth parts of the condition hold true. Additionally, our total counts add up to 30 apples, consistent with our calculations.\n\n[Final Answer] The answer is 30 \\n#### 30"
+        ],
+        "I don't know how to solve this question.": [
+            "Question: Jenna and her mother picked some apples from their apple farm. Jenna picked half as many apples as her mom. If her mom got 20 apples, how many apples did they both pick?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "I don't know how to solve this question."
+        ]
+    },
+    "hints_reward_imp_bank": {},
+    "fathers": {
+        "[reasoning process] Jenna picked half as many apples as her mom. If her mom picked 20 apples, we can determine the number of apples Jenna picked by calculating half of 20. This means:\n\nJenna's apples = 20 / 2 = 10 apples\n\nNow, to find the total number of apples they both picked, we will add the number of apples Jenna picked to the number of apples her mom picked:\n\nTotal apples = Jenna's apples + Mom's apples = 10 + 20 = 30 apples\n\n[Verification] To verify, we check the conditions given in the problem. Jenna picked half as many apples as her mom, which we calculated as:\n\n- Mom's apples = 20\n- Jenna's apples = 10 (which is half of 20)\n\nBoth parts of the condition hold true. Additionally, our total counts add up to 30 apples, consistent with our calculations.\n\n[Final Answer] The answer is 30 \\n#### 30": null,
+        "I don't know how to solve this question.": null
+    },
+    "childs": {
+        "[reasoning process] Jenna picked half as many apples as her mom. If her mom picked 20 apples, we can determine the number of apples Jenna picked by calculating half of 20. This means:\n\nJenna's apples = 20 / 2 = 10 apples\n\nNow, to find the total number of apples they both picked, we will add the number of apples Jenna picked to the number of apples her mom picked:\n\nTotal apples = Jenna's apples + Mom's apples = 10 + 20 = 30 apples\n\n[Verification] To verify, we check the conditions given in the problem. Jenna picked half as many apples as her mom, which we calculated as:\n\n- Mom's apples = 20\n- Jenna's apples = 10 (which is half of 20)\n\nBoth parts of the condition hold true. Additionally, our total counts add up to 30 apples, consistent with our calculations.\n\n[Final Answer] The answer is 30 \\n#### 30": [],
+        "I don't know how to solve this question.": []
+    },
+    "ucb_bank": {}
+}

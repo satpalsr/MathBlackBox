@@ -1,0 +1,44 @@
+{
+    "query": "An apple orchard sells apples in bags of 10. The orchard sold a total of 2000 apples one day. How much did an orchard earn for selling this at $5 per bag?",
+    "ground_truth": "There were 2000/10 = <<2000/10=200>>200 bags of apples sold.\nTherefore, the orchard earned 200 x $5 = $<<200*5=1000>>1000.\n#### 1000",
+    "hints_list": [],
+    "answers_list": [
+        "[reasoning process] To find out how much the orchard earned by selling 2000 apples in bags of 10, we first need to determine how many bags were sold. We do this by dividing the total number of apples by the number of apples per bag: \n\n2000 apples ÷ 10 apples/bag = 200 bags.\n\nNext, we calculate the total earnings by multiplying the number of bags sold by the price per bag. The price for each bag is $5:\n\n200 bags × $5/bag = $1000.\n\nTherefore, the orchard earned a total of $1000 from selling the apples.\n\n[Verification] We double check our calculations to ensure accuracy. We started with 2000 apples and divided it by 10 to find the number of bags, which is correctly calculated as 200. Then, we multiplied the number of bags by the price per bag. \n\n200 bags × $5 = $1000. This confirms that our calculations were performed correctly.\n\n[Final Answer] The answer is $1000 \\n#### 1000",
+        "I don't know the answer to this question, sorry."
+    ],
+    "ground_truth_hints": "",
+    "hints_prompt": "Question: An apple orchard sells apples in bags of 10. The orchard sold a total of 2000 apples one day. How much did an orchard earn for selling this at $5 per bag?\nCould you provide me with the thought process to solve this problem, but please don’t give me the answer or calculation, just the thought process?",
+    "to_explore": [
+        "[reasoning process] To find out how much the orchard earned by selling 2000 apples in bags of 10, we first need to determine how many bags were sold. We do this by dividing the total number of apples by the number of apples per bag: \n\n2000 apples ÷ 10 apples/bag = 200 bags.\n\nNext, we calculate the total earnings by multiplying the number of bags sold by the price per bag. The price for each bag is $5:\n\n200 bags × $5/bag = $1000.\n\nTherefore, the orchard earned a total of $1000 from selling the apples.\n\n[Verification] We double check our calculations to ensure accuracy. We started with 2000 apples and divided it by 10 to find the number of bags, which is correctly calculated as 200. Then, we multiplied the number of bags by the price per bag. \n\n200 bags × $5 = $1000. This confirms that our calculations were performed correctly.\n\n[Final Answer] The answer is $1000 \\n#### 1000",
+        "I don't know the answer to this question, sorry."
+    ],
+    "to_explore_reward": {
+        "[reasoning process] To find out how much the orchard earned by selling 2000 apples in bags of 10, we first need to determine how many bags were sold. We do this by dividing the total number of apples by the number of apples per bag: \n\n2000 apples ÷ 10 apples/bag = 200 bags.\n\nNext, we calculate the total earnings by multiplying the number of bags sold by the price per bag. The price for each bag is $5:\n\n200 bags × $5/bag = $1000.\n\nTherefore, the orchard earned a total of $1000 from selling the apples.\n\n[Verification] We double check our calculations to ensure accuracy. We started with 2000 apples and divided it by 10 to find the number of bags, which is correctly calculated as 200. Then, we multiplied the number of bags by the price per bag. \n\n200 bags × $5 = $1000. This confirms that our calculations were performed correctly.\n\n[Final Answer] The answer is $1000 \\n#### 1000": [
+            75.0
+        ],
+        "I don't know the answer to this question, sorry.": [
+            -80.0
+        ]
+    },
+    "hints_bank": {},
+    "history_bank": {
+        "[reasoning process] To find out how much the orchard earned by selling 2000 apples in bags of 10, we first need to determine how many bags were sold. We do this by dividing the total number of apples by the number of apples per bag: \n\n2000 apples ÷ 10 apples/bag = 200 bags.\n\nNext, we calculate the total earnings by multiplying the number of bags sold by the price per bag. The price for each bag is $5:\n\n200 bags × $5/bag = $1000.\n\nTherefore, the orchard earned a total of $1000 from selling the apples.\n\n[Verification] We double check our calculations to ensure accuracy. We started with 2000 apples and divided it by 10 to find the number of bags, which is correctly calculated as 200. Then, we multiplied the number of bags by the price per bag. \n\n200 bags × $5 = $1000. This confirms that our calculations were performed correctly.\n\n[Final Answer] The answer is $1000 \\n#### 1000": [
+            "Question: An apple orchard sells apples in bags of 10. The orchard sold a total of 2000 apples one day. How much did an orchard earn for selling this at $5 per bag?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "[reasoning process] To find out how much the orchard earned by selling 2000 apples in bags of 10, we first need to determine how many bags were sold. We do this by dividing the total number of apples by the number of apples per bag: \n\n2000 apples ÷ 10 apples/bag = 200 bags.\n\nNext, we calculate the total earnings by multiplying the number of bags sold by the price per bag. The price for each bag is $5:\n\n200 bags × $5/bag = $1000.\n\nTherefore, the orchard earned a total of $1000 from selling the apples.\n\n[Verification] We double check our calculations to ensure accuracy. We started with 2000 apples and divided it by 10 to find the number of bags, which is correctly calculated as 200. Then, we multiplied the number of bags by the price per bag. \n\n200 bags × $5 = $1000. This confirms that our calculations were performed correctly.\n\n[Final Answer] The answer is $1000 \\n#### 1000"
+        ],
+        "I don't know the answer to this question, sorry.": [
+            "Question: An apple orchard sells apples in bags of 10. The orchard sold a total of 2000 apples one day. How much did an orchard earn for selling this at $5 per bag?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "I don't know the answer to this question, sorry."
+        ]
+    },
+    "hints_reward_imp_bank": {},
+    "fathers": {
+        "[reasoning process] To find out how much the orchard earned by selling 2000 apples in bags of 10, we first need to determine how many bags were sold. We do this by dividing the total number of apples by the number of apples per bag: \n\n2000 apples ÷ 10 apples/bag = 200 bags.\n\nNext, we calculate the total earnings by multiplying the number of bags sold by the price per bag. The price for each bag is $5:\n\n200 bags × $5/bag = $1000.\n\nTherefore, the orchard earned a total of $1000 from selling the apples.\n\n[Verification] We double check our calculations to ensure accuracy. We started with 2000 apples and divided it by 10 to find the number of bags, which is correctly calculated as 200. Then, we multiplied the number of bags by the price per bag. \n\n200 bags × $5 = $1000. This confirms that our calculations were performed correctly.\n\n[Final Answer] The answer is $1000 \\n#### 1000": null,
+        "I don't know the answer to this question, sorry.": null
+    },
+    "childs": {
+        "[reasoning process] To find out how much the orchard earned by selling 2000 apples in bags of 10, we first need to determine how many bags were sold. We do this by dividing the total number of apples by the number of apples per bag: \n\n2000 apples ÷ 10 apples/bag = 200 bags.\n\nNext, we calculate the total earnings by multiplying the number of bags sold by the price per bag. The price for each bag is $5:\n\n200 bags × $5/bag = $1000.\n\nTherefore, the orchard earned a total of $1000 from selling the apples.\n\n[Verification] We double check our calculations to ensure accuracy. We started with 2000 apples and divided it by 10 to find the number of bags, which is correctly calculated as 200. Then, we multiplied the number of bags by the price per bag. \n\n200 bags × $5 = $1000. This confirms that our calculations were performed correctly.\n\n[Final Answer] The answer is $1000 \\n#### 1000": [],
+        "I don't know the answer to this question, sorry.": []
+    },
+    "ucb_bank": {}
+}

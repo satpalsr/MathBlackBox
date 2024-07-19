@@ -1,0 +1,44 @@
+{
+    "query": "My wife wants to evenly split the check but wants me to pay an additional 20% tip on our $50 dinner bill. How much did I end up paying?",
+    "ground_truth": "If the total bill is $50, the total tip of 20% would be $50*20% = $<<50*20*.01=10>>10\nSimilarly, if the bill was $50 an even split (1/2) would be $50 * 1/2 = $<<50*1/2=25>>25 to be paid by each person\nThat means I paid $25 for the bill + $10 for the tip = $<<25+10=35>>35\n#### 35",
+    "hints_list": [],
+    "answers_list": [
+        "[reasoning process] To determine how much I end up paying, I'll first calculate the total cost of the dinner, including the tip. The dinner bill is $50, and I need to pay an additional 20% tip on this amount. \n\n1. Calculate the 20% tip:\n   - 20% of $50 = 0.20 * 50 = $10.\n\n2. Since we are splitting the check evenly, my wife will pay her half of the dinner bill:\n   - Half of the dinner bill = $50 / 2 = $25.\n\n3. I will pay $25 for my half of the bill plus the full tip:\n   - My total payment = My half of the bill + Tip = $25 + $10 = $35.\n\n[Verification] To confirm, I can add up the amounts. The total bill is $50, and the tip of $10 brings the total amount to $60. If we split $60 evenly, that would be $30 for each of us. However, since I'm paying the entire tip, my actual payment for the meal plus tip comes to $35, which includes my half of the bill and the tip.\n\n[Final Answer] The answer is $35 \\n#### $35",
+        "I can't understand this question."
+    ],
+    "ground_truth_hints": "",
+    "hints_prompt": "Question: My wife wants to evenly split the check but wants me to pay an additional 20% tip on our $50 dinner bill. How much did I end up paying?\nCould you provide me with the thought process to solve this problem, but please don’t give me the answer or calculation, just the thought process?",
+    "to_explore": [
+        "[reasoning process] To determine how much I end up paying, I'll first calculate the total cost of the dinner, including the tip. The dinner bill is $50, and I need to pay an additional 20% tip on this amount. \n\n1. Calculate the 20% tip:\n   - 20% of $50 = 0.20 * 50 = $10.\n\n2. Since we are splitting the check evenly, my wife will pay her half of the dinner bill:\n   - Half of the dinner bill = $50 / 2 = $25.\n\n3. I will pay $25 for my half of the bill plus the full tip:\n   - My total payment = My half of the bill + Tip = $25 + $10 = $35.\n\n[Verification] To confirm, I can add up the amounts. The total bill is $50, and the tip of $10 brings the total amount to $60. If we split $60 evenly, that would be $30 for each of us. However, since I'm paying the entire tip, my actual payment for the meal plus tip comes to $35, which includes my half of the bill and the tip.\n\n[Final Answer] The answer is $35 \\n#### $35",
+        "I can't understand this question."
+    ],
+    "to_explore_reward": {
+        "[reasoning process] To determine how much I end up paying, I'll first calculate the total cost of the dinner, including the tip. The dinner bill is $50, and I need to pay an additional 20% tip on this amount. \n\n1. Calculate the 20% tip:\n   - 20% of $50 = 0.20 * 50 = $10.\n\n2. Since we are splitting the check evenly, my wife will pay her half of the dinner bill:\n   - Half of the dinner bill = $50 / 2 = $25.\n\n3. I will pay $25 for my half of the bill plus the full tip:\n   - My total payment = My half of the bill + Tip = $25 + $10 = $35.\n\n[Verification] To confirm, I can add up the amounts. The total bill is $50, and the tip of $10 brings the total amount to $60. If we split $60 evenly, that would be $30 for each of us. However, since I'm paying the entire tip, my actual payment for the meal plus tip comes to $35, which includes my half of the bill and the tip.\n\n[Final Answer] The answer is $35 \\n#### $35": [
+            -30.0
+        ],
+        "I can't understand this question.": [
+            -80.0
+        ]
+    },
+    "hints_bank": {},
+    "history_bank": {
+        "[reasoning process] To determine how much I end up paying, I'll first calculate the total cost of the dinner, including the tip. The dinner bill is $50, and I need to pay an additional 20% tip on this amount. \n\n1. Calculate the 20% tip:\n   - 20% of $50 = 0.20 * 50 = $10.\n\n2. Since we are splitting the check evenly, my wife will pay her half of the dinner bill:\n   - Half of the dinner bill = $50 / 2 = $25.\n\n3. I will pay $25 for my half of the bill plus the full tip:\n   - My total payment = My half of the bill + Tip = $25 + $10 = $35.\n\n[Verification] To confirm, I can add up the amounts. The total bill is $50, and the tip of $10 brings the total amount to $60. If we split $60 evenly, that would be $30 for each of us. However, since I'm paying the entire tip, my actual payment for the meal plus tip comes to $35, which includes my half of the bill and the tip.\n\n[Final Answer] The answer is $35 \\n#### $35": [
+            "Question: My wife wants to evenly split the check but wants me to pay an additional 20% tip on our $50 dinner bill. How much did I end up paying?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "[reasoning process] To determine how much I end up paying, I'll first calculate the total cost of the dinner, including the tip. The dinner bill is $50, and I need to pay an additional 20% tip on this amount. \n\n1. Calculate the 20% tip:\n   - 20% of $50 = 0.20 * 50 = $10.\n\n2. Since we are splitting the check evenly, my wife will pay her half of the dinner bill:\n   - Half of the dinner bill = $50 / 2 = $25.\n\n3. I will pay $25 for my half of the bill plus the full tip:\n   - My total payment = My half of the bill + Tip = $25 + $10 = $35.\n\n[Verification] To confirm, I can add up the amounts. The total bill is $50, and the tip of $10 brings the total amount to $60. If we split $60 evenly, that would be $30 for each of us. However, since I'm paying the entire tip, my actual payment for the meal plus tip comes to $35, which includes my half of the bill and the tip.\n\n[Final Answer] The answer is $35 \\n#### $35"
+        ],
+        "I can't understand this question.": [
+            "Question: My wife wants to evenly split the check but wants me to pay an additional 20% tip on our $50 dinner bill. How much did I end up paying?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "I can't understand this question."
+        ]
+    },
+    "hints_reward_imp_bank": {},
+    "fathers": {
+        "[reasoning process] To determine how much I end up paying, I'll first calculate the total cost of the dinner, including the tip. The dinner bill is $50, and I need to pay an additional 20% tip on this amount. \n\n1. Calculate the 20% tip:\n   - 20% of $50 = 0.20 * 50 = $10.\n\n2. Since we are splitting the check evenly, my wife will pay her half of the dinner bill:\n   - Half of the dinner bill = $50 / 2 = $25.\n\n3. I will pay $25 for my half of the bill plus the full tip:\n   - My total payment = My half of the bill + Tip = $25 + $10 = $35.\n\n[Verification] To confirm, I can add up the amounts. The total bill is $50, and the tip of $10 brings the total amount to $60. If we split $60 evenly, that would be $30 for each of us. However, since I'm paying the entire tip, my actual payment for the meal plus tip comes to $35, which includes my half of the bill and the tip.\n\n[Final Answer] The answer is $35 \\n#### $35": null,
+        "I can't understand this question.": null
+    },
+    "childs": {
+        "[reasoning process] To determine how much I end up paying, I'll first calculate the total cost of the dinner, including the tip. The dinner bill is $50, and I need to pay an additional 20% tip on this amount. \n\n1. Calculate the 20% tip:\n   - 20% of $50 = 0.20 * 50 = $10.\n\n2. Since we are splitting the check evenly, my wife will pay her half of the dinner bill:\n   - Half of the dinner bill = $50 / 2 = $25.\n\n3. I will pay $25 for my half of the bill plus the full tip:\n   - My total payment = My half of the bill + Tip = $25 + $10 = $35.\n\n[Verification] To confirm, I can add up the amounts. The total bill is $50, and the tip of $10 brings the total amount to $60. If we split $60 evenly, that would be $30 for each of us. However, since I'm paying the entire tip, my actual payment for the meal plus tip comes to $35, which includes my half of the bill and the tip.\n\n[Final Answer] The answer is $35 \\n#### $35": [],
+        "I can't understand this question.": []
+    },
+    "ucb_bank": {}
+}

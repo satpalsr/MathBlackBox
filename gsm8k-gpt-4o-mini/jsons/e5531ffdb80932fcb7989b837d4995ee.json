@@ -1,0 +1,44 @@
+{
+    "query": "A zookeeper is counting how many lions are in their enclosure. She counts 12 female lions, half as many male lions, and 14 lion cubs. How many lions are in the enclosure?",
+    "ground_truth": "There are 12/2 = <<12/2=6>>6 male lions in the enclosure.\nSo there is a total of 12 + 6 + 14 = <<12+6+14=32>>32 lions in the enclosure.\n#### 32",
+    "hints_list": [],
+    "answers_list": [
+        "[reasoning process] To find the total number of lions in the enclosure, we need to add the counts of female lions, male lions, and lion cubs together. The zookeeper has counted 12 female lions. The problem states that there are half as many male lions as female lions. Therefore, the number of male lions is 12 / 2 = 6 male lions. Additionally, there are 14 lion cubs. Now we will add all these together: \n\n- Female lions = 12\n- Male lions = 6\n- Lion cubs = 14\n\nTotal number of lions = 12 + 6 + 14.\n\n[Verification] Adding the numbers gives us:\n- 12 (female lions) + 6 (male lions) = 18\n- 18 + 14 (lion cubs) = 32\n\nThus, the total number of lions in the enclosure is indeed 32. We have counted all types of lions (female, male, and cubs) and confirmed the calculations.\n\n[Final Answer] The answer is 32 \\n#### 32",
+        "I don't know the answer to this question, sorry."
+    ],
+    "ground_truth_hints": "",
+    "hints_prompt": "Question: A zookeeper is counting how many lions are in their enclosure. She counts 12 female lions, half as many male lions, and 14 lion cubs. How many lions are in the enclosure?\nCould you provide me with the thought process to solve this problem, but please don’t give me the answer or calculation, just the thought process?",
+    "to_explore": [
+        "[reasoning process] To find the total number of lions in the enclosure, we need to add the counts of female lions, male lions, and lion cubs together. The zookeeper has counted 12 female lions. The problem states that there are half as many male lions as female lions. Therefore, the number of male lions is 12 / 2 = 6 male lions. Additionally, there are 14 lion cubs. Now we will add all these together: \n\n- Female lions = 12\n- Male lions = 6\n- Lion cubs = 14\n\nTotal number of lions = 12 + 6 + 14.\n\n[Verification] Adding the numbers gives us:\n- 12 (female lions) + 6 (male lions) = 18\n- 18 + 14 (lion cubs) = 32\n\nThus, the total number of lions in the enclosure is indeed 32. We have counted all types of lions (female, male, and cubs) and confirmed the calculations.\n\n[Final Answer] The answer is 32 \\n#### 32",
+        "I don't know the answer to this question, sorry."
+    ],
+    "to_explore_reward": {
+        "[reasoning process] To find the total number of lions in the enclosure, we need to add the counts of female lions, male lions, and lion cubs together. The zookeeper has counted 12 female lions. The problem states that there are half as many male lions as female lions. Therefore, the number of male lions is 12 / 2 = 6 male lions. Additionally, there are 14 lion cubs. Now we will add all these together: \n\n- Female lions = 12\n- Male lions = 6\n- Lion cubs = 14\n\nTotal number of lions = 12 + 6 + 14.\n\n[Verification] Adding the numbers gives us:\n- 12 (female lions) + 6 (male lions) = 18\n- 18 + 14 (lion cubs) = 32\n\nThus, the total number of lions in the enclosure is indeed 32. We have counted all types of lions (female, male, and cubs) and confirmed the calculations.\n\n[Final Answer] The answer is 32 \\n#### 32": [
+            70.0
+        ],
+        "I don't know the answer to this question, sorry.": [
+            -100.0
+        ]
+    },
+    "hints_bank": {},
+    "history_bank": {
+        "[reasoning process] To find the total number of lions in the enclosure, we need to add the counts of female lions, male lions, and lion cubs together. The zookeeper has counted 12 female lions. The problem states that there are half as many male lions as female lions. Therefore, the number of male lions is 12 / 2 = 6 male lions. Additionally, there are 14 lion cubs. Now we will add all these together: \n\n- Female lions = 12\n- Male lions = 6\n- Lion cubs = 14\n\nTotal number of lions = 12 + 6 + 14.\n\n[Verification] Adding the numbers gives us:\n- 12 (female lions) + 6 (male lions) = 18\n- 18 + 14 (lion cubs) = 32\n\nThus, the total number of lions in the enclosure is indeed 32. We have counted all types of lions (female, male, and cubs) and confirmed the calculations.\n\n[Final Answer] The answer is 32 \\n#### 32": [
+            "Question: A zookeeper is counting how many lions are in their enclosure. She counts 12 female lions, half as many male lions, and 14 lion cubs. How many lions are in the enclosure?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "[reasoning process] To find the total number of lions in the enclosure, we need to add the counts of female lions, male lions, and lion cubs together. The zookeeper has counted 12 female lions. The problem states that there are half as many male lions as female lions. Therefore, the number of male lions is 12 / 2 = 6 male lions. Additionally, there are 14 lion cubs. Now we will add all these together: \n\n- Female lions = 12\n- Male lions = 6\n- Lion cubs = 14\n\nTotal number of lions = 12 + 6 + 14.\n\n[Verification] Adding the numbers gives us:\n- 12 (female lions) + 6 (male lions) = 18\n- 18 + 14 (lion cubs) = 32\n\nThus, the total number of lions in the enclosure is indeed 32. We have counted all types of lions (female, male, and cubs) and confirmed the calculations.\n\n[Final Answer] The answer is 32 \\n#### 32"
+        ],
+        "I don't know the answer to this question, sorry.": [
+            "Question: A zookeeper is counting how many lions are in their enclosure. She counts 12 female lions, half as many male lions, and 14 lion cubs. How many lions are in the enclosure?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "I don't know the answer to this question, sorry."
+        ]
+    },
+    "hints_reward_imp_bank": {},
+    "fathers": {
+        "[reasoning process] To find the total number of lions in the enclosure, we need to add the counts of female lions, male lions, and lion cubs together. The zookeeper has counted 12 female lions. The problem states that there are half as many male lions as female lions. Therefore, the number of male lions is 12 / 2 = 6 male lions. Additionally, there are 14 lion cubs. Now we will add all these together: \n\n- Female lions = 12\n- Male lions = 6\n- Lion cubs = 14\n\nTotal number of lions = 12 + 6 + 14.\n\n[Verification] Adding the numbers gives us:\n- 12 (female lions) + 6 (male lions) = 18\n- 18 + 14 (lion cubs) = 32\n\nThus, the total number of lions in the enclosure is indeed 32. We have counted all types of lions (female, male, and cubs) and confirmed the calculations.\n\n[Final Answer] The answer is 32 \\n#### 32": null,
+        "I don't know the answer to this question, sorry.": null
+    },
+    "childs": {
+        "[reasoning process] To find the total number of lions in the enclosure, we need to add the counts of female lions, male lions, and lion cubs together. The zookeeper has counted 12 female lions. The problem states that there are half as many male lions as female lions. Therefore, the number of male lions is 12 / 2 = 6 male lions. Additionally, there are 14 lion cubs. Now we will add all these together: \n\n- Female lions = 12\n- Male lions = 6\n- Lion cubs = 14\n\nTotal number of lions = 12 + 6 + 14.\n\n[Verification] Adding the numbers gives us:\n- 12 (female lions) + 6 (male lions) = 18\n- 18 + 14 (lion cubs) = 32\n\nThus, the total number of lions in the enclosure is indeed 32. We have counted all types of lions (female, male, and cubs) and confirmed the calculations.\n\n[Final Answer] The answer is 32 \\n#### 32": [],
+        "I don't know the answer to this question, sorry.": []
+    },
+    "ucb_bank": {}
+}

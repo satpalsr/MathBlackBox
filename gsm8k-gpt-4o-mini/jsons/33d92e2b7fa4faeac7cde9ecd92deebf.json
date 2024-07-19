@@ -1,0 +1,44 @@
+{
+    "query": "Chatty prepared three dozen eggs for her four children's Easter activity. Assuming each child gets the same number of eggs, how many eggs does each child receive?",
+    "ground_truth": "Chatty prepared 3 dozen x 12 eggs/dozen = <<3*12=36>>36 eggs.\nSince all four children receive the same number of eggs, each child gets 36 eggs / 4 children = <<36/4=9>>9 eggs/child\n#### 9",
+    "hints_list": [],
+    "answers_list": [
+        "[reasoning process] First, we need to determine the total number of eggs Chatty prepared for the Easter activity. She has three dozen eggs. Since one dozen equals 12, we calculate the total number of eggs as follows:\n\n3 dozen * 12 eggs/dozen = 36 eggs.\n\nNext, we need to divide the total number of eggs by the number of children, which is four. We perform the division:\n\n36 eggs ÷ 4 children = 9 eggs per child.\n\n[Verification] To ensure the calculation is correct, we can multiply the number of eggs each child receives by the number of children:\n\n9 eggs/child * 4 children = 36 eggs.\n\nSince this matches the total number of eggs prepared, our calculations are verified.\n\n[Final Answer] The answer is 9  \n#### 9",
+        "I can't understand this question."
+    ],
+    "ground_truth_hints": "",
+    "hints_prompt": "Question: Chatty prepared three dozen eggs for her four children's Easter activity. Assuming each child gets the same number of eggs, how many eggs does each child receive?\nCould you provide me with the thought process to solve this problem, but please don’t give me the answer or calculation, just the thought process?",
+    "to_explore": [
+        "[reasoning process] First, we need to determine the total number of eggs Chatty prepared for the Easter activity. She has three dozen eggs. Since one dozen equals 12, we calculate the total number of eggs as follows:\n\n3 dozen * 12 eggs/dozen = 36 eggs.\n\nNext, we need to divide the total number of eggs by the number of children, which is four. We perform the division:\n\n36 eggs ÷ 4 children = 9 eggs per child.\n\n[Verification] To ensure the calculation is correct, we can multiply the number of eggs each child receives by the number of children:\n\n9 eggs/child * 4 children = 36 eggs.\n\nSince this matches the total number of eggs prepared, our calculations are verified.\n\n[Final Answer] The answer is 9  \n#### 9",
+        "I can't understand this question."
+    ],
+    "to_explore_reward": {
+        "[reasoning process] First, we need to determine the total number of eggs Chatty prepared for the Easter activity. She has three dozen eggs. Since one dozen equals 12, we calculate the total number of eggs as follows:\n\n3 dozen * 12 eggs/dozen = 36 eggs.\n\nNext, we need to divide the total number of eggs by the number of children, which is four. We perform the division:\n\n36 eggs ÷ 4 children = 9 eggs per child.\n\n[Verification] To ensure the calculation is correct, we can multiply the number of eggs each child receives by the number of children:\n\n9 eggs/child * 4 children = 36 eggs.\n\nSince this matches the total number of eggs prepared, our calculations are verified.\n\n[Final Answer] The answer is 9  \n#### 9": [
+            75.0
+        ],
+        "I can't understand this question.": [
+            -80.0
+        ]
+    },
+    "hints_bank": {},
+    "history_bank": {
+        "[reasoning process] First, we need to determine the total number of eggs Chatty prepared for the Easter activity. She has three dozen eggs. Since one dozen equals 12, we calculate the total number of eggs as follows:\n\n3 dozen * 12 eggs/dozen = 36 eggs.\n\nNext, we need to divide the total number of eggs by the number of children, which is four. We perform the division:\n\n36 eggs ÷ 4 children = 9 eggs per child.\n\n[Verification] To ensure the calculation is correct, we can multiply the number of eggs each child receives by the number of children:\n\n9 eggs/child * 4 children = 36 eggs.\n\nSince this matches the total number of eggs prepared, our calculations are verified.\n\n[Final Answer] The answer is 9  \n#### 9": [
+            "Question: Chatty prepared three dozen eggs for her four children's Easter activity. Assuming each child gets the same number of eggs, how many eggs does each child receive?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "[reasoning process] First, we need to determine the total number of eggs Chatty prepared for the Easter activity. She has three dozen eggs. Since one dozen equals 12, we calculate the total number of eggs as follows:\n\n3 dozen * 12 eggs/dozen = 36 eggs.\n\nNext, we need to divide the total number of eggs by the number of children, which is four. We perform the division:\n\n36 eggs ÷ 4 children = 9 eggs per child.\n\n[Verification] To ensure the calculation is correct, we can multiply the number of eggs each child receives by the number of children:\n\n9 eggs/child * 4 children = 36 eggs.\n\nSince this matches the total number of eggs prepared, our calculations are verified.\n\n[Final Answer] The answer is 9  \n#### 9"
+        ],
+        "I can't understand this question.": [
+            "Question: Chatty prepared three dozen eggs for her four children's Easter activity. Assuming each child gets the same number of eggs, how many eggs does each child receive?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "I can't understand this question."
+        ]
+    },
+    "hints_reward_imp_bank": {},
+    "fathers": {
+        "[reasoning process] First, we need to determine the total number of eggs Chatty prepared for the Easter activity. She has three dozen eggs. Since one dozen equals 12, we calculate the total number of eggs as follows:\n\n3 dozen * 12 eggs/dozen = 36 eggs.\n\nNext, we need to divide the total number of eggs by the number of children, which is four. We perform the division:\n\n36 eggs ÷ 4 children = 9 eggs per child.\n\n[Verification] To ensure the calculation is correct, we can multiply the number of eggs each child receives by the number of children:\n\n9 eggs/child * 4 children = 36 eggs.\n\nSince this matches the total number of eggs prepared, our calculations are verified.\n\n[Final Answer] The answer is 9  \n#### 9": null,
+        "I can't understand this question.": null
+    },
+    "childs": {
+        "[reasoning process] First, we need to determine the total number of eggs Chatty prepared for the Easter activity. She has three dozen eggs. Since one dozen equals 12, we calculate the total number of eggs as follows:\n\n3 dozen * 12 eggs/dozen = 36 eggs.\n\nNext, we need to divide the total number of eggs by the number of children, which is four. We perform the division:\n\n36 eggs ÷ 4 children = 9 eggs per child.\n\n[Verification] To ensure the calculation is correct, we can multiply the number of eggs each child receives by the number of children:\n\n9 eggs/child * 4 children = 36 eggs.\n\nSince this matches the total number of eggs prepared, our calculations are verified.\n\n[Final Answer] The answer is 9  \n#### 9": [],
+        "I can't understand this question.": []
+    },
+    "ucb_bank": {}
+}

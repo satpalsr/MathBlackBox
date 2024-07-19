@@ -1,0 +1,44 @@
+{
+    "query": "Goldy bought 20 sacks of rice and gave 3 sacks to her cousin and 4 sacks to her brother, if there are 25 kilograms of rice per sack, how many kilograms does she gave to her cousin and brother?",
+    "ground_truth": "Goldy gave a total of 4 + 3 = <<4+3=7>>7 sacks of rice to his brother and cousin.\nTherefore she gave 25 x 7= <<25*7=175>>175 kilograms of rice.\n#### 175",
+    "hints_list": [],
+    "answers_list": [
+        "[reasoning process] Goldy initially bought 20 sacks of rice. She gave 3 sacks to her cousin and 4 sacks to her brother. First, we need to calculate the total number of sacks given away. That would be 3 sacks + 4 sacks = 7 sacks. Next, we need to find out how much weight this represents in kilograms. Since each sack contains 25 kilograms of rice, we can calculate the total weight given away by multiplying the number of sacks given away by the weight per sack: 7 sacks × 25 kg/sack. \n\nNow let’s perform the multiplication: \n7 sacks × 25 kg/sack = 175 kg.\n\n[Verification] To verify, we double-check our calculations: \n- Goldy gave away 3 sacks to her cousin and 4 sacks to her brother, totaling 7 sacks.\n- Each sack weighs 25 kilograms, so we calculate: \n7 × 25 = 175 kilograms. The calculations are correct as both operations confirmed the same result.\n\n[Final Answer] The answer is 175 kg \\n#### 175 kg",
+        "I can't help with this question."
+    ],
+    "ground_truth_hints": "",
+    "hints_prompt": "Question: Goldy bought 20 sacks of rice and gave 3 sacks to her cousin and 4 sacks to her brother, if there are 25 kilograms of rice per sack, how many kilograms does she gave to her cousin and brother?\nCould you provide me with the thought process to solve this problem, but please don’t give me the answer or calculation, just the thought process?",
+    "to_explore": [
+        "[reasoning process] Goldy initially bought 20 sacks of rice. She gave 3 sacks to her cousin and 4 sacks to her brother. First, we need to calculate the total number of sacks given away. That would be 3 sacks + 4 sacks = 7 sacks. Next, we need to find out how much weight this represents in kilograms. Since each sack contains 25 kilograms of rice, we can calculate the total weight given away by multiplying the number of sacks given away by the weight per sack: 7 sacks × 25 kg/sack. \n\nNow let’s perform the multiplication: \n7 sacks × 25 kg/sack = 175 kg.\n\n[Verification] To verify, we double-check our calculations: \n- Goldy gave away 3 sacks to her cousin and 4 sacks to her brother, totaling 7 sacks.\n- Each sack weighs 25 kilograms, so we calculate: \n7 × 25 = 175 kilograms. The calculations are correct as both operations confirmed the same result.\n\n[Final Answer] The answer is 175 kg \\n#### 175 kg",
+        "I can't help with this question."
+    ],
+    "to_explore_reward": {
+        "[reasoning process] Goldy initially bought 20 sacks of rice. She gave 3 sacks to her cousin and 4 sacks to her brother. First, we need to calculate the total number of sacks given away. That would be 3 sacks + 4 sacks = 7 sacks. Next, we need to find out how much weight this represents in kilograms. Since each sack contains 25 kilograms of rice, we can calculate the total weight given away by multiplying the number of sacks given away by the weight per sack: 7 sacks × 25 kg/sack. \n\nNow let’s perform the multiplication: \n7 sacks × 25 kg/sack = 175 kg.\n\n[Verification] To verify, we double-check our calculations: \n- Goldy gave away 3 sacks to her cousin and 4 sacks to her brother, totaling 7 sacks.\n- Each sack weighs 25 kilograms, so we calculate: \n7 × 25 = 175 kilograms. The calculations are correct as both operations confirmed the same result.\n\n[Final Answer] The answer is 175 kg \\n#### 175 kg": [
+            80.0
+        ],
+        "I can't help with this question.": [
+            -85.0
+        ]
+    },
+    "hints_bank": {},
+    "history_bank": {
+        "[reasoning process] Goldy initially bought 20 sacks of rice. She gave 3 sacks to her cousin and 4 sacks to her brother. First, we need to calculate the total number of sacks given away. That would be 3 sacks + 4 sacks = 7 sacks. Next, we need to find out how much weight this represents in kilograms. Since each sack contains 25 kilograms of rice, we can calculate the total weight given away by multiplying the number of sacks given away by the weight per sack: 7 sacks × 25 kg/sack. \n\nNow let’s perform the multiplication: \n7 sacks × 25 kg/sack = 175 kg.\n\n[Verification] To verify, we double-check our calculations: \n- Goldy gave away 3 sacks to her cousin and 4 sacks to her brother, totaling 7 sacks.\n- Each sack weighs 25 kilograms, so we calculate: \n7 × 25 = 175 kilograms. The calculations are correct as both operations confirmed the same result.\n\n[Final Answer] The answer is 175 kg \\n#### 175 kg": [
+            "Question: Goldy bought 20 sacks of rice and gave 3 sacks to her cousin and 4 sacks to her brother, if there are 25 kilograms of rice per sack, how many kilograms does she gave to her cousin and brother?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "[reasoning process] Goldy initially bought 20 sacks of rice. She gave 3 sacks to her cousin and 4 sacks to her brother. First, we need to calculate the total number of sacks given away. That would be 3 sacks + 4 sacks = 7 sacks. Next, we need to find out how much weight this represents in kilograms. Since each sack contains 25 kilograms of rice, we can calculate the total weight given away by multiplying the number of sacks given away by the weight per sack: 7 sacks × 25 kg/sack. \n\nNow let’s perform the multiplication: \n7 sacks × 25 kg/sack = 175 kg.\n\n[Verification] To verify, we double-check our calculations: \n- Goldy gave away 3 sacks to her cousin and 4 sacks to her brother, totaling 7 sacks.\n- Each sack weighs 25 kilograms, so we calculate: \n7 × 25 = 175 kilograms. The calculations are correct as both operations confirmed the same result.\n\n[Final Answer] The answer is 175 kg \\n#### 175 kg"
+        ],
+        "I can't help with this question.": [
+            "Question: Goldy bought 20 sacks of rice and gave 3 sacks to her cousin and 4 sacks to her brother, if there are 25 kilograms of rice per sack, how many kilograms does she gave to her cousin and brother?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "I can't help with this question."
+        ]
+    },
+    "hints_reward_imp_bank": {},
+    "fathers": {
+        "[reasoning process] Goldy initially bought 20 sacks of rice. She gave 3 sacks to her cousin and 4 sacks to her brother. First, we need to calculate the total number of sacks given away. That would be 3 sacks + 4 sacks = 7 sacks. Next, we need to find out how much weight this represents in kilograms. Since each sack contains 25 kilograms of rice, we can calculate the total weight given away by multiplying the number of sacks given away by the weight per sack: 7 sacks × 25 kg/sack. \n\nNow let’s perform the multiplication: \n7 sacks × 25 kg/sack = 175 kg.\n\n[Verification] To verify, we double-check our calculations: \n- Goldy gave away 3 sacks to her cousin and 4 sacks to her brother, totaling 7 sacks.\n- Each sack weighs 25 kilograms, so we calculate: \n7 × 25 = 175 kilograms. The calculations are correct as both operations confirmed the same result.\n\n[Final Answer] The answer is 175 kg \\n#### 175 kg": null,
+        "I can't help with this question.": null
+    },
+    "childs": {
+        "[reasoning process] Goldy initially bought 20 sacks of rice. She gave 3 sacks to her cousin and 4 sacks to her brother. First, we need to calculate the total number of sacks given away. That would be 3 sacks + 4 sacks = 7 sacks. Next, we need to find out how much weight this represents in kilograms. Since each sack contains 25 kilograms of rice, we can calculate the total weight given away by multiplying the number of sacks given away by the weight per sack: 7 sacks × 25 kg/sack. \n\nNow let’s perform the multiplication: \n7 sacks × 25 kg/sack = 175 kg.\n\n[Verification] To verify, we double-check our calculations: \n- Goldy gave away 3 sacks to her cousin and 4 sacks to her brother, totaling 7 sacks.\n- Each sack weighs 25 kilograms, so we calculate: \n7 × 25 = 175 kilograms. The calculations are correct as both operations confirmed the same result.\n\n[Final Answer] The answer is 175 kg \\n#### 175 kg": [],
+        "I can't help with this question.": []
+    },
+    "ucb_bank": {}
+}

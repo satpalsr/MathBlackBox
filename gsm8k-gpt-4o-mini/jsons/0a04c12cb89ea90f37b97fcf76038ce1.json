@@ -1,0 +1,44 @@
+{
+    "query": "From her science class study, Brady learned that each whale in the sea has 40 gallons of blood. She also learned that a shark has three times as much blood as a whale. Calculate the number of gallons of blood that ten sharks swimming in the sea have.",
+    "ground_truth": "Since a shark has three times as much blood as a whale, then a shark has 3*40 = <<3*40=120>>120 gallons of blood.\n10 sharks swimming in the sea will have 10*120 = <<10*120=1200>>1200 gallons of blood.\n#### 1200",
+    "hints_list": [],
+    "answers_list": [
+        "[reasoning process] To determine the total number of gallons of blood that ten sharks have, we start by calculating the amount of blood in one shark. Since each whale has 40 gallons of blood and a shark has three times as much as a whale, we multiply the amount of blood in a whale by 3:\n\nBlood in one shark = 3 × 40 gallons = 120 gallons.\n\nNext, to find the total blood for ten sharks, we multiply the blood in one shark by 10:\n\nTotal blood in ten sharks = 10 × 120 gallons = 1200 gallons.\n\n[Verification] We can double-check our calculations. First, we confirmed that one shark has 120 gallons (3 times the blood of a whale). Then, multiplying this amount for ten sharks gives us 1200 gallons, so the calculations are consistent and correct.\n\n[Final Answer] The answer is 1200 gallons \\n#### 1200",
+        "I can't understand this question."
+    ],
+    "ground_truth_hints": "",
+    "hints_prompt": "Question: From her science class study, Brady learned that each whale in the sea has 40 gallons of blood. She also learned that a shark has three times as much blood as a whale. Calculate the number of gallons of blood that ten sharks swimming in the sea have.\nCould you provide me with the thought process to solve this problem, but please don’t give me the answer or calculation, just the thought process?",
+    "to_explore": [
+        "[reasoning process] To determine the total number of gallons of blood that ten sharks have, we start by calculating the amount of blood in one shark. Since each whale has 40 gallons of blood and a shark has three times as much as a whale, we multiply the amount of blood in a whale by 3:\n\nBlood in one shark = 3 × 40 gallons = 120 gallons.\n\nNext, to find the total blood for ten sharks, we multiply the blood in one shark by 10:\n\nTotal blood in ten sharks = 10 × 120 gallons = 1200 gallons.\n\n[Verification] We can double-check our calculations. First, we confirmed that one shark has 120 gallons (3 times the blood of a whale). Then, multiplying this amount for ten sharks gives us 1200 gallons, so the calculations are consistent and correct.\n\n[Final Answer] The answer is 1200 gallons \\n#### 1200",
+        "I can't understand this question."
+    ],
+    "to_explore_reward": {
+        "[reasoning process] To determine the total number of gallons of blood that ten sharks have, we start by calculating the amount of blood in one shark. Since each whale has 40 gallons of blood and a shark has three times as much as a whale, we multiply the amount of blood in a whale by 3:\n\nBlood in one shark = 3 × 40 gallons = 120 gallons.\n\nNext, to find the total blood for ten sharks, we multiply the blood in one shark by 10:\n\nTotal blood in ten sharks = 10 × 120 gallons = 1200 gallons.\n\n[Verification] We can double-check our calculations. First, we confirmed that one shark has 120 gallons (3 times the blood of a whale). Then, multiplying this amount for ten sharks gives us 1200 gallons, so the calculations are consistent and correct.\n\n[Final Answer] The answer is 1200 gallons \\n#### 1200": [
+            70.0
+        ],
+        "I can't understand this question.": [
+            -85.0
+        ]
+    },
+    "hints_bank": {},
+    "history_bank": {
+        "[reasoning process] To determine the total number of gallons of blood that ten sharks have, we start by calculating the amount of blood in one shark. Since each whale has 40 gallons of blood and a shark has three times as much as a whale, we multiply the amount of blood in a whale by 3:\n\nBlood in one shark = 3 × 40 gallons = 120 gallons.\n\nNext, to find the total blood for ten sharks, we multiply the blood in one shark by 10:\n\nTotal blood in ten sharks = 10 × 120 gallons = 1200 gallons.\n\n[Verification] We can double-check our calculations. First, we confirmed that one shark has 120 gallons (3 times the blood of a whale). Then, multiplying this amount for ten sharks gives us 1200 gallons, so the calculations are consistent and correct.\n\n[Final Answer] The answer is 1200 gallons \\n#### 1200": [
+            "Question: From her science class study, Brady learned that each whale in the sea has 40 gallons of blood. She also learned that a shark has three times as much blood as a whale. Calculate the number of gallons of blood that ten sharks swimming in the sea have.\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "[reasoning process] To determine the total number of gallons of blood that ten sharks have, we start by calculating the amount of blood in one shark. Since each whale has 40 gallons of blood and a shark has three times as much as a whale, we multiply the amount of blood in a whale by 3:\n\nBlood in one shark = 3 × 40 gallons = 120 gallons.\n\nNext, to find the total blood for ten sharks, we multiply the blood in one shark by 10:\n\nTotal blood in ten sharks = 10 × 120 gallons = 1200 gallons.\n\n[Verification] We can double-check our calculations. First, we confirmed that one shark has 120 gallons (3 times the blood of a whale). Then, multiplying this amount for ten sharks gives us 1200 gallons, so the calculations are consistent and correct.\n\n[Final Answer] The answer is 1200 gallons \\n#### 1200"
+        ],
+        "I can't understand this question.": [
+            "Question: From her science class study, Brady learned that each whale in the sea has 40 gallons of blood. She also learned that a shark has three times as much blood as a whale. Calculate the number of gallons of blood that ten sharks swimming in the sea have.\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "I can't understand this question."
+        ]
+    },
+    "hints_reward_imp_bank": {},
+    "fathers": {
+        "[reasoning process] To determine the total number of gallons of blood that ten sharks have, we start by calculating the amount of blood in one shark. Since each whale has 40 gallons of blood and a shark has three times as much as a whale, we multiply the amount of blood in a whale by 3:\n\nBlood in one shark = 3 × 40 gallons = 120 gallons.\n\nNext, to find the total blood for ten sharks, we multiply the blood in one shark by 10:\n\nTotal blood in ten sharks = 10 × 120 gallons = 1200 gallons.\n\n[Verification] We can double-check our calculations. First, we confirmed that one shark has 120 gallons (3 times the blood of a whale). Then, multiplying this amount for ten sharks gives us 1200 gallons, so the calculations are consistent and correct.\n\n[Final Answer] The answer is 1200 gallons \\n#### 1200": null,
+        "I can't understand this question.": null
+    },
+    "childs": {
+        "[reasoning process] To determine the total number of gallons of blood that ten sharks have, we start by calculating the amount of blood in one shark. Since each whale has 40 gallons of blood and a shark has three times as much as a whale, we multiply the amount of blood in a whale by 3:\n\nBlood in one shark = 3 × 40 gallons = 120 gallons.\n\nNext, to find the total blood for ten sharks, we multiply the blood in one shark by 10:\n\nTotal blood in ten sharks = 10 × 120 gallons = 1200 gallons.\n\n[Verification] We can double-check our calculations. First, we confirmed that one shark has 120 gallons (3 times the blood of a whale). Then, multiplying this amount for ten sharks gives us 1200 gallons, so the calculations are consistent and correct.\n\n[Final Answer] The answer is 1200 gallons \\n#### 1200": [],
+        "I can't understand this question.": []
+    },
+    "ucb_bank": {}
+}

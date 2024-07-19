@@ -1,0 +1,44 @@
+{
+    "query": "Boris has 100 apples. Beck has 23 fewer apples than Boris. If Boris gives Beck 10 apples, how many fewer apples does Beck have than Boris now?",
+    "ground_truth": "Boris has 100 apples, but gives 10 away, so now he has 100 apples - 10 apples = <<100-10=90>>90 apples.\nBeck has 23 fewer than Boris at the start, so he started with 100 - 23 = <<100-23=77>>77 apples.\nHowever, since he gets 10 from Boris, he now has 77 apples + 10 apples = <<77+10=87>>87 apples.\nThus Beck has 90 - 87 = <<90-87=3>>3 apples fewer than Boris.\n#### 3",
+    "hints_list": [],
+    "answers_list": [
+        "[reasoning process] First, we need to find out how many apples Beck originally has. Since Beck has 23 fewer apples than Boris, we subtract 23 from the 100 apples Boris has:\n\n\\[ \n\\text{Beck's original apples} = 100 - 23 = 77 \n\\]\n\nNext, when Boris gives Beck 10 apples, we need to adjust the number of apples both Boris and Beck have. Boris will have:\n\n\\[ \n\\text{Boris's apples after giving} = 100 - 10 = 90 \n\\]\n\nAnd Beck will have:\n\n\\[ \n\\text{Beck's apples after receiving} = 77 + 10 = 87 \n\\]\n\nNow, we want to find out how many fewer apples Beck has than Boris:\n\n\\[ \n\\text{Difference} = 90 - 87 = 3 \n\\]\n\n[Verification] We started with Boris having 100 apples and Beck having 77 apples (23 fewer). After Boris gives Beck 10 apples, Boris has 90 and Beck has 87. The difference between the two is indeed 3 apples. \n\n[Final Answer] The answer is 3 \n#### 3",
+        "I don't know the answer to this question."
+    ],
+    "ground_truth_hints": "",
+    "hints_prompt": "Question: Boris has 100 apples. Beck has 23 fewer apples than Boris. If Boris gives Beck 10 apples, how many fewer apples does Beck have than Boris now?\nCould you provide me with the thought process to solve this problem, but please don’t give me the answer or calculation, just the thought process?",
+    "to_explore": [
+        "[reasoning process] First, we need to find out how many apples Beck originally has. Since Beck has 23 fewer apples than Boris, we subtract 23 from the 100 apples Boris has:\n\n\\[ \n\\text{Beck's original apples} = 100 - 23 = 77 \n\\]\n\nNext, when Boris gives Beck 10 apples, we need to adjust the number of apples both Boris and Beck have. Boris will have:\n\n\\[ \n\\text{Boris's apples after giving} = 100 - 10 = 90 \n\\]\n\nAnd Beck will have:\n\n\\[ \n\\text{Beck's apples after receiving} = 77 + 10 = 87 \n\\]\n\nNow, we want to find out how many fewer apples Beck has than Boris:\n\n\\[ \n\\text{Difference} = 90 - 87 = 3 \n\\]\n\n[Verification] We started with Boris having 100 apples and Beck having 77 apples (23 fewer). After Boris gives Beck 10 apples, Boris has 90 and Beck has 87. The difference between the two is indeed 3 apples. \n\n[Final Answer] The answer is 3 \n#### 3",
+        "I don't know the answer to this question."
+    ],
+    "to_explore_reward": {
+        "[reasoning process] First, we need to find out how many apples Beck originally has. Since Beck has 23 fewer apples than Boris, we subtract 23 from the 100 apples Boris has:\n\n\\[ \n\\text{Beck's original apples} = 100 - 23 = 77 \n\\]\n\nNext, when Boris gives Beck 10 apples, we need to adjust the number of apples both Boris and Beck have. Boris will have:\n\n\\[ \n\\text{Boris's apples after giving} = 100 - 10 = 90 \n\\]\n\nAnd Beck will have:\n\n\\[ \n\\text{Beck's apples after receiving} = 77 + 10 = 87 \n\\]\n\nNow, we want to find out how many fewer apples Beck has than Boris:\n\n\\[ \n\\text{Difference} = 90 - 87 = 3 \n\\]\n\n[Verification] We started with Boris having 100 apples and Beck having 77 apples (23 fewer). After Boris gives Beck 10 apples, Boris has 90 and Beck has 87. The difference between the two is indeed 3 apples. \n\n[Final Answer] The answer is 3 \n#### 3": [
+            75.0
+        ],
+        "I don't know the answer to this question.": [
+            -90.0
+        ]
+    },
+    "hints_bank": {},
+    "history_bank": {
+        "[reasoning process] First, we need to find out how many apples Beck originally has. Since Beck has 23 fewer apples than Boris, we subtract 23 from the 100 apples Boris has:\n\n\\[ \n\\text{Beck's original apples} = 100 - 23 = 77 \n\\]\n\nNext, when Boris gives Beck 10 apples, we need to adjust the number of apples both Boris and Beck have. Boris will have:\n\n\\[ \n\\text{Boris's apples after giving} = 100 - 10 = 90 \n\\]\n\nAnd Beck will have:\n\n\\[ \n\\text{Beck's apples after receiving} = 77 + 10 = 87 \n\\]\n\nNow, we want to find out how many fewer apples Beck has than Boris:\n\n\\[ \n\\text{Difference} = 90 - 87 = 3 \n\\]\n\n[Verification] We started with Boris having 100 apples and Beck having 77 apples (23 fewer). After Boris gives Beck 10 apples, Boris has 90 and Beck has 87. The difference between the two is indeed 3 apples. \n\n[Final Answer] The answer is 3 \n#### 3": [
+            "Question: Boris has 100 apples. Beck has 23 fewer apples than Boris. If Boris gives Beck 10 apples, how many fewer apples does Beck have than Boris now?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "[reasoning process] First, we need to find out how many apples Beck originally has. Since Beck has 23 fewer apples than Boris, we subtract 23 from the 100 apples Boris has:\n\n\\[ \n\\text{Beck's original apples} = 100 - 23 = 77 \n\\]\n\nNext, when Boris gives Beck 10 apples, we need to adjust the number of apples both Boris and Beck have. Boris will have:\n\n\\[ \n\\text{Boris's apples after giving} = 100 - 10 = 90 \n\\]\n\nAnd Beck will have:\n\n\\[ \n\\text{Beck's apples after receiving} = 77 + 10 = 87 \n\\]\n\nNow, we want to find out how many fewer apples Beck has than Boris:\n\n\\[ \n\\text{Difference} = 90 - 87 = 3 \n\\]\n\n[Verification] We started with Boris having 100 apples and Beck having 77 apples (23 fewer). After Boris gives Beck 10 apples, Boris has 90 and Beck has 87. The difference between the two is indeed 3 apples. \n\n[Final Answer] The answer is 3 \n#### 3"
+        ],
+        "I don't know the answer to this question.": [
+            "Question: Boris has 100 apples. Beck has 23 fewer apples than Boris. If Boris gives Beck 10 apples, how many fewer apples does Beck have than Boris now?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "I don't know the answer to this question."
+        ]
+    },
+    "hints_reward_imp_bank": {},
+    "fathers": {
+        "[reasoning process] First, we need to find out how many apples Beck originally has. Since Beck has 23 fewer apples than Boris, we subtract 23 from the 100 apples Boris has:\n\n\\[ \n\\text{Beck's original apples} = 100 - 23 = 77 \n\\]\n\nNext, when Boris gives Beck 10 apples, we need to adjust the number of apples both Boris and Beck have. Boris will have:\n\n\\[ \n\\text{Boris's apples after giving} = 100 - 10 = 90 \n\\]\n\nAnd Beck will have:\n\n\\[ \n\\text{Beck's apples after receiving} = 77 + 10 = 87 \n\\]\n\nNow, we want to find out how many fewer apples Beck has than Boris:\n\n\\[ \n\\text{Difference} = 90 - 87 = 3 \n\\]\n\n[Verification] We started with Boris having 100 apples and Beck having 77 apples (23 fewer). After Boris gives Beck 10 apples, Boris has 90 and Beck has 87. The difference between the two is indeed 3 apples. \n\n[Final Answer] The answer is 3 \n#### 3": null,
+        "I don't know the answer to this question.": null
+    },
+    "childs": {
+        "[reasoning process] First, we need to find out how many apples Beck originally has. Since Beck has 23 fewer apples than Boris, we subtract 23 from the 100 apples Boris has:\n\n\\[ \n\\text{Beck's original apples} = 100 - 23 = 77 \n\\]\n\nNext, when Boris gives Beck 10 apples, we need to adjust the number of apples both Boris and Beck have. Boris will have:\n\n\\[ \n\\text{Boris's apples after giving} = 100 - 10 = 90 \n\\]\n\nAnd Beck will have:\n\n\\[ \n\\text{Beck's apples after receiving} = 77 + 10 = 87 \n\\]\n\nNow, we want to find out how many fewer apples Beck has than Boris:\n\n\\[ \n\\text{Difference} = 90 - 87 = 3 \n\\]\n\n[Verification] We started with Boris having 100 apples and Beck having 77 apples (23 fewer). After Boris gives Beck 10 apples, Boris has 90 and Beck has 87. The difference between the two is indeed 3 apples. \n\n[Final Answer] The answer is 3 \n#### 3": [],
+        "I don't know the answer to this question.": []
+    },
+    "ucb_bank": {}
+}

@@ -1,0 +1,44 @@
+{
+    "query": "200 pounds of carrots are to be distributed to 40 restaurants in a certain city. Each restaurant is to receive 2 pounds of carrots. How many pounds of carrots will not be used?",
+    "ground_truth": "The restaurants need 40 * 2 = <<40*2=80>>80 lbs. of carrots.\nSo 200 - 80 = <<200-80=120>>120 lbs. of carrots will not be used.\n#### 120",
+    "hints_list": [],
+    "answers_list": [
+        "[reasoning process] First, we need to establish how many pounds of carrots will be distributed to the restaurants. Since there are 40 restaurants and each one receives 2 pounds of carrots, we calculate the total distribution by multiplying the number of restaurants by the amount each one will receive: 40 restaurants * 2 pounds/restaurant = 80 pounds of carrots distributed. Next, we will determine how many pounds of carrots will not be used by subtracting the total distributed from the total available: 200 pounds (total available) - 80 pounds (total distributed) = 120 pounds. \n\n[Verification] I will verify the calculation by checking both the distribution and the remainder: \n1. Total distributed: 40 * 2 = 80 pounds. \n2. Remaining carrots: 200 - 80 = 120 pounds. \n\nBoth calculations are consistent and correct. \n\n[Final Answer] The answer is 120 pounds. \\n#### 120",
+        "I don't know the answer to this question."
+    ],
+    "ground_truth_hints": "",
+    "hints_prompt": "Question: 200 pounds of carrots are to be distributed to 40 restaurants in a certain city. Each restaurant is to receive 2 pounds of carrots. How many pounds of carrots will not be used?\nCould you provide me with the thought process to solve this problem, but please don’t give me the answer or calculation, just the thought process?",
+    "to_explore": [
+        "[reasoning process] First, we need to establish how many pounds of carrots will be distributed to the restaurants. Since there are 40 restaurants and each one receives 2 pounds of carrots, we calculate the total distribution by multiplying the number of restaurants by the amount each one will receive: 40 restaurants * 2 pounds/restaurant = 80 pounds of carrots distributed. Next, we will determine how many pounds of carrots will not be used by subtracting the total distributed from the total available: 200 pounds (total available) - 80 pounds (total distributed) = 120 pounds. \n\n[Verification] I will verify the calculation by checking both the distribution and the remainder: \n1. Total distributed: 40 * 2 = 80 pounds. \n2. Remaining carrots: 200 - 80 = 120 pounds. \n\nBoth calculations are consistent and correct. \n\n[Final Answer] The answer is 120 pounds. \\n#### 120",
+        "I don't know the answer to this question."
+    ],
+    "to_explore_reward": {
+        "[reasoning process] First, we need to establish how many pounds of carrots will be distributed to the restaurants. Since there are 40 restaurants and each one receives 2 pounds of carrots, we calculate the total distribution by multiplying the number of restaurants by the amount each one will receive: 40 restaurants * 2 pounds/restaurant = 80 pounds of carrots distributed. Next, we will determine how many pounds of carrots will not be used by subtracting the total distributed from the total available: 200 pounds (total available) - 80 pounds (total distributed) = 120 pounds. \n\n[Verification] I will verify the calculation by checking both the distribution and the remainder: \n1. Total distributed: 40 * 2 = 80 pounds. \n2. Remaining carrots: 200 - 80 = 120 pounds. \n\nBoth calculations are consistent and correct. \n\n[Final Answer] The answer is 120 pounds. \\n#### 120": [
+            70.0
+        ],
+        "I don't know the answer to this question.": [
+            -85.0
+        ]
+    },
+    "hints_bank": {},
+    "history_bank": {
+        "[reasoning process] First, we need to establish how many pounds of carrots will be distributed to the restaurants. Since there are 40 restaurants and each one receives 2 pounds of carrots, we calculate the total distribution by multiplying the number of restaurants by the amount each one will receive: 40 restaurants * 2 pounds/restaurant = 80 pounds of carrots distributed. Next, we will determine how many pounds of carrots will not be used by subtracting the total distributed from the total available: 200 pounds (total available) - 80 pounds (total distributed) = 120 pounds. \n\n[Verification] I will verify the calculation by checking both the distribution and the remainder: \n1. Total distributed: 40 * 2 = 80 pounds. \n2. Remaining carrots: 200 - 80 = 120 pounds. \n\nBoth calculations are consistent and correct. \n\n[Final Answer] The answer is 120 pounds. \\n#### 120": [
+            "Question: 200 pounds of carrots are to be distributed to 40 restaurants in a certain city. Each restaurant is to receive 2 pounds of carrots. How many pounds of carrots will not be used?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "[reasoning process] First, we need to establish how many pounds of carrots will be distributed to the restaurants. Since there are 40 restaurants and each one receives 2 pounds of carrots, we calculate the total distribution by multiplying the number of restaurants by the amount each one will receive: 40 restaurants * 2 pounds/restaurant = 80 pounds of carrots distributed. Next, we will determine how many pounds of carrots will not be used by subtracting the total distributed from the total available: 200 pounds (total available) - 80 pounds (total distributed) = 120 pounds. \n\n[Verification] I will verify the calculation by checking both the distribution and the remainder: \n1. Total distributed: 40 * 2 = 80 pounds. \n2. Remaining carrots: 200 - 80 = 120 pounds. \n\nBoth calculations are consistent and correct. \n\n[Final Answer] The answer is 120 pounds. \\n#### 120"
+        ],
+        "I don't know the answer to this question.": [
+            "Question: 200 pounds of carrots are to be distributed to 40 restaurants in a certain city. Each restaurant is to receive 2 pounds of carrots. How many pounds of carrots will not be used?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "I don't know the answer to this question."
+        ]
+    },
+    "hints_reward_imp_bank": {},
+    "fathers": {
+        "[reasoning process] First, we need to establish how many pounds of carrots will be distributed to the restaurants. Since there are 40 restaurants and each one receives 2 pounds of carrots, we calculate the total distribution by multiplying the number of restaurants by the amount each one will receive: 40 restaurants * 2 pounds/restaurant = 80 pounds of carrots distributed. Next, we will determine how many pounds of carrots will not be used by subtracting the total distributed from the total available: 200 pounds (total available) - 80 pounds (total distributed) = 120 pounds. \n\n[Verification] I will verify the calculation by checking both the distribution and the remainder: \n1. Total distributed: 40 * 2 = 80 pounds. \n2. Remaining carrots: 200 - 80 = 120 pounds. \n\nBoth calculations are consistent and correct. \n\n[Final Answer] The answer is 120 pounds. \\n#### 120": null,
+        "I don't know the answer to this question.": null
+    },
+    "childs": {
+        "[reasoning process] First, we need to establish how many pounds of carrots will be distributed to the restaurants. Since there are 40 restaurants and each one receives 2 pounds of carrots, we calculate the total distribution by multiplying the number of restaurants by the amount each one will receive: 40 restaurants * 2 pounds/restaurant = 80 pounds of carrots distributed. Next, we will determine how many pounds of carrots will not be used by subtracting the total distributed from the total available: 200 pounds (total available) - 80 pounds (total distributed) = 120 pounds. \n\n[Verification] I will verify the calculation by checking both the distribution and the remainder: \n1. Total distributed: 40 * 2 = 80 pounds. \n2. Remaining carrots: 200 - 80 = 120 pounds. \n\nBoth calculations are consistent and correct. \n\n[Final Answer] The answer is 120 pounds. \\n#### 120": [],
+        "I don't know the answer to this question.": []
+    },
+    "ucb_bank": {}
+}

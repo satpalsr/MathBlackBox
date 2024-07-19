@@ -1,0 +1,44 @@
+{
+    "query": "A tank of water has a depth of 17 feet on Monday. On Tuesday, the tank had 7 feet more water. On Wednesday, the depth of the water is two thirds of what it was on Tuesday. What is the tank’s water depth on Wednesday?",
+    "ground_truth": "On Tuesday there was 17+7 = <<17+7=24>>24 feet of water in the tank.\n24/3 = 8. On Wednesday there was 2*8 = 16 feet of water in the tank.\n#### 16",
+    "hints_list": [],
+    "answers_list": [
+        "[reasoning process]  \nLet's first find the depth of water in the tank on Tuesday.  \nOn Monday, the tank has a depth of 17 feet.  \nOn Tuesday, it has 7 feet more, which we calculate as:  \n17 feet + 7 feet = 24 feet.  \n\nNow we need to determine the depth of the water on Wednesday.  \nOn Wednesday, the depth is two-thirds of what it was on Tuesday.  \nWe calculate two-thirds of 24 feet:  \n(2/3) * 24 feet = 16 feet.  \n\n[Verification]  \nTo verify, we can recap:  \n- Monday: 17 feet  \n- Tuesday: 17 + 7 = 24 feet  \n- Wednesday: (2/3) * 24 feet = 16 feet  \n\nThus, the calculations are consistent and correct. \n\n[Final Answer] The answer is 16 feet  \n#### 16 feet",
+        "I can't understand this question."
+    ],
+    "ground_truth_hints": "",
+    "hints_prompt": "Question: A tank of water has a depth of 17 feet on Monday. On Tuesday, the tank had 7 feet more water. On Wednesday, the depth of the water is two thirds of what it was on Tuesday. What is the tank’s water depth on Wednesday?\nCould you provide me with the thought process to solve this problem, but please don’t give me the answer or calculation, just the thought process?",
+    "to_explore": [
+        "[reasoning process]  \nLet's first find the depth of water in the tank on Tuesday.  \nOn Monday, the tank has a depth of 17 feet.  \nOn Tuesday, it has 7 feet more, which we calculate as:  \n17 feet + 7 feet = 24 feet.  \n\nNow we need to determine the depth of the water on Wednesday.  \nOn Wednesday, the depth is two-thirds of what it was on Tuesday.  \nWe calculate two-thirds of 24 feet:  \n(2/3) * 24 feet = 16 feet.  \n\n[Verification]  \nTo verify, we can recap:  \n- Monday: 17 feet  \n- Tuesday: 17 + 7 = 24 feet  \n- Wednesday: (2/3) * 24 feet = 16 feet  \n\nThus, the calculations are consistent and correct. \n\n[Final Answer] The answer is 16 feet  \n#### 16 feet",
+        "I can't understand this question."
+    ],
+    "to_explore_reward": {
+        "[reasoning process]  \nLet's first find the depth of water in the tank on Tuesday.  \nOn Monday, the tank has a depth of 17 feet.  \nOn Tuesday, it has 7 feet more, which we calculate as:  \n17 feet + 7 feet = 24 feet.  \n\nNow we need to determine the depth of the water on Wednesday.  \nOn Wednesday, the depth is two-thirds of what it was on Tuesday.  \nWe calculate two-thirds of 24 feet:  \n(2/3) * 24 feet = 16 feet.  \n\n[Verification]  \nTo verify, we can recap:  \n- Monday: 17 feet  \n- Tuesday: 17 + 7 = 24 feet  \n- Wednesday: (2/3) * 24 feet = 16 feet  \n\nThus, the calculations are consistent and correct. \n\n[Final Answer] The answer is 16 feet  \n#### 16 feet": [
+            -30.0
+        ],
+        "I can't understand this question.": [
+            -90.0
+        ]
+    },
+    "hints_bank": {},
+    "history_bank": {
+        "[reasoning process]  \nLet's first find the depth of water in the tank on Tuesday.  \nOn Monday, the tank has a depth of 17 feet.  \nOn Tuesday, it has 7 feet more, which we calculate as:  \n17 feet + 7 feet = 24 feet.  \n\nNow we need to determine the depth of the water on Wednesday.  \nOn Wednesday, the depth is two-thirds of what it was on Tuesday.  \nWe calculate two-thirds of 24 feet:  \n(2/3) * 24 feet = 16 feet.  \n\n[Verification]  \nTo verify, we can recap:  \n- Monday: 17 feet  \n- Tuesday: 17 + 7 = 24 feet  \n- Wednesday: (2/3) * 24 feet = 16 feet  \n\nThus, the calculations are consistent and correct. \n\n[Final Answer] The answer is 16 feet  \n#### 16 feet": [
+            "Question: A tank of water has a depth of 17 feet on Monday. On Tuesday, the tank had 7 feet more water. On Wednesday, the depth of the water is two thirds of what it was on Tuesday. What is the tank’s water depth on Wednesday?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "[reasoning process]  \nLet's first find the depth of water in the tank on Tuesday.  \nOn Monday, the tank has a depth of 17 feet.  \nOn Tuesday, it has 7 feet more, which we calculate as:  \n17 feet + 7 feet = 24 feet.  \n\nNow we need to determine the depth of the water on Wednesday.  \nOn Wednesday, the depth is two-thirds of what it was on Tuesday.  \nWe calculate two-thirds of 24 feet:  \n(2/3) * 24 feet = 16 feet.  \n\n[Verification]  \nTo verify, we can recap:  \n- Monday: 17 feet  \n- Tuesday: 17 + 7 = 24 feet  \n- Wednesday: (2/3) * 24 feet = 16 feet  \n\nThus, the calculations are consistent and correct. \n\n[Final Answer] The answer is 16 feet  \n#### 16 feet"
+        ],
+        "I can't understand this question.": [
+            "Question: A tank of water has a depth of 17 feet on Monday. On Tuesday, the tank had 7 feet more water. On Wednesday, the depth of the water is two thirds of what it was on Tuesday. What is the tank’s water depth on Wednesday?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "I can't understand this question."
+        ]
+    },
+    "hints_reward_imp_bank": {},
+    "fathers": {
+        "[reasoning process]  \nLet's first find the depth of water in the tank on Tuesday.  \nOn Monday, the tank has a depth of 17 feet.  \nOn Tuesday, it has 7 feet more, which we calculate as:  \n17 feet + 7 feet = 24 feet.  \n\nNow we need to determine the depth of the water on Wednesday.  \nOn Wednesday, the depth is two-thirds of what it was on Tuesday.  \nWe calculate two-thirds of 24 feet:  \n(2/3) * 24 feet = 16 feet.  \n\n[Verification]  \nTo verify, we can recap:  \n- Monday: 17 feet  \n- Tuesday: 17 + 7 = 24 feet  \n- Wednesday: (2/3) * 24 feet = 16 feet  \n\nThus, the calculations are consistent and correct. \n\n[Final Answer] The answer is 16 feet  \n#### 16 feet": null,
+        "I can't understand this question.": null
+    },
+    "childs": {
+        "[reasoning process]  \nLet's first find the depth of water in the tank on Tuesday.  \nOn Monday, the tank has a depth of 17 feet.  \nOn Tuesday, it has 7 feet more, which we calculate as:  \n17 feet + 7 feet = 24 feet.  \n\nNow we need to determine the depth of the water on Wednesday.  \nOn Wednesday, the depth is two-thirds of what it was on Tuesday.  \nWe calculate two-thirds of 24 feet:  \n(2/3) * 24 feet = 16 feet.  \n\n[Verification]  \nTo verify, we can recap:  \n- Monday: 17 feet  \n- Tuesday: 17 + 7 = 24 feet  \n- Wednesday: (2/3) * 24 feet = 16 feet  \n\nThus, the calculations are consistent and correct. \n\n[Final Answer] The answer is 16 feet  \n#### 16 feet": [],
+        "I can't understand this question.": []
+    },
+    "ucb_bank": {}
+}

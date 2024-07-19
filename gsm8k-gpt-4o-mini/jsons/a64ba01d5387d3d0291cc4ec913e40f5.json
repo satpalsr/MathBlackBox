@@ -1,0 +1,44 @@
+{
+    "query": "Adrianne is collecting different kinds of beads for making bracelets. Her mother gave her 20 metallic beads. Her sister gave her ten more beads than her mother, and her friend gave her twice as many as her mother gave.  How many beads did Adrianne have altogether?",
+    "ground_truth": "Adrianne received 20 +10 = <<20+10=30>>30 beads from her sister.\nAnd, she received 2 x 20 = <<2*20=40>>40 beads from her friend.\nTherefore, Adrianne had 20 + 30 + 40 = <<20+30+40=90>>90 beads altogether.\n#### 90",
+    "hints_list": [],
+    "answers_list": [
+        "[reasoning process] Adrianne received 20 metallic beads from her mother. Her sister gave her ten more than her mother, which means her sister gave her 20 + 10 = 30 beads. Her friend gave her twice as many as her mother did, so her friend gave her 2 × 20 = 40 beads. Now, to find the total number of beads Adrianne has, we add the beads from her mother, sister, and friend: 20 (from mother) + 30 (from sister) + 40 (from friend) = 90 beads. \n\n[Verification] Checking the calculations: \n- Mother's beads: 20\n- Sister's beads: 20 + 10 = 30\n- Friend's beads: 2 × 20 = 40\n\nNow summing those: \n20 + 30 = 50 \n50 + 40 = 90. \n\nThe calculations are confirmed as correct.\n\n[Final Answer] The answer is 90 \\n#### 90",
+        "I can't help with this question."
+    ],
+    "ground_truth_hints": "",
+    "hints_prompt": "Question: Adrianne is collecting different kinds of beads for making bracelets. Her mother gave her 20 metallic beads. Her sister gave her ten more beads than her mother, and her friend gave her twice as many as her mother gave.  How many beads did Adrianne have altogether?\nCould you provide me with the thought process to solve this problem, but please don’t give me the answer or calculation, just the thought process?",
+    "to_explore": [
+        "[reasoning process] Adrianne received 20 metallic beads from her mother. Her sister gave her ten more than her mother, which means her sister gave her 20 + 10 = 30 beads. Her friend gave her twice as many as her mother did, so her friend gave her 2 × 20 = 40 beads. Now, to find the total number of beads Adrianne has, we add the beads from her mother, sister, and friend: 20 (from mother) + 30 (from sister) + 40 (from friend) = 90 beads. \n\n[Verification] Checking the calculations: \n- Mother's beads: 20\n- Sister's beads: 20 + 10 = 30\n- Friend's beads: 2 × 20 = 40\n\nNow summing those: \n20 + 30 = 50 \n50 + 40 = 90. \n\nThe calculations are confirmed as correct.\n\n[Final Answer] The answer is 90 \\n#### 90",
+        "I can't help with this question."
+    ],
+    "to_explore_reward": {
+        "[reasoning process] Adrianne received 20 metallic beads from her mother. Her sister gave her ten more than her mother, which means her sister gave her 20 + 10 = 30 beads. Her friend gave her twice as many as her mother did, so her friend gave her 2 × 20 = 40 beads. Now, to find the total number of beads Adrianne has, we add the beads from her mother, sister, and friend: 20 (from mother) + 30 (from sister) + 40 (from friend) = 90 beads. \n\n[Verification] Checking the calculations: \n- Mother's beads: 20\n- Sister's beads: 20 + 10 = 30\n- Friend's beads: 2 × 20 = 40\n\nNow summing those: \n20 + 30 = 50 \n50 + 40 = 90. \n\nThe calculations are confirmed as correct.\n\n[Final Answer] The answer is 90 \\n#### 90": [
+            -30.0
+        ],
+        "I can't help with this question.": [
+            -85.0
+        ]
+    },
+    "hints_bank": {},
+    "history_bank": {
+        "[reasoning process] Adrianne received 20 metallic beads from her mother. Her sister gave her ten more than her mother, which means her sister gave her 20 + 10 = 30 beads. Her friend gave her twice as many as her mother did, so her friend gave her 2 × 20 = 40 beads. Now, to find the total number of beads Adrianne has, we add the beads from her mother, sister, and friend: 20 (from mother) + 30 (from sister) + 40 (from friend) = 90 beads. \n\n[Verification] Checking the calculations: \n- Mother's beads: 20\n- Sister's beads: 20 + 10 = 30\n- Friend's beads: 2 × 20 = 40\n\nNow summing those: \n20 + 30 = 50 \n50 + 40 = 90. \n\nThe calculations are confirmed as correct.\n\n[Final Answer] The answer is 90 \\n#### 90": [
+            "Question: Adrianne is collecting different kinds of beads for making bracelets. Her mother gave her 20 metallic beads. Her sister gave her ten more beads than her mother, and her friend gave her twice as many as her mother gave.  How many beads did Adrianne have altogether?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "[reasoning process] Adrianne received 20 metallic beads from her mother. Her sister gave her ten more than her mother, which means her sister gave her 20 + 10 = 30 beads. Her friend gave her twice as many as her mother did, so her friend gave her 2 × 20 = 40 beads. Now, to find the total number of beads Adrianne has, we add the beads from her mother, sister, and friend: 20 (from mother) + 30 (from sister) + 40 (from friend) = 90 beads. \n\n[Verification] Checking the calculations: \n- Mother's beads: 20\n- Sister's beads: 20 + 10 = 30\n- Friend's beads: 2 × 20 = 40\n\nNow summing those: \n20 + 30 = 50 \n50 + 40 = 90. \n\nThe calculations are confirmed as correct.\n\n[Final Answer] The answer is 90 \\n#### 90"
+        ],
+        "I can't help with this question.": [
+            "Question: Adrianne is collecting different kinds of beads for making bracelets. Her mother gave her 20 metallic beads. Her sister gave her ten more beads than her mother, and her friend gave her twice as many as her mother gave.  How many beads did Adrianne have altogether?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "I can't help with this question."
+        ]
+    },
+    "hints_reward_imp_bank": {},
+    "fathers": {
+        "[reasoning process] Adrianne received 20 metallic beads from her mother. Her sister gave her ten more than her mother, which means her sister gave her 20 + 10 = 30 beads. Her friend gave her twice as many as her mother did, so her friend gave her 2 × 20 = 40 beads. Now, to find the total number of beads Adrianne has, we add the beads from her mother, sister, and friend: 20 (from mother) + 30 (from sister) + 40 (from friend) = 90 beads. \n\n[Verification] Checking the calculations: \n- Mother's beads: 20\n- Sister's beads: 20 + 10 = 30\n- Friend's beads: 2 × 20 = 40\n\nNow summing those: \n20 + 30 = 50 \n50 + 40 = 90. \n\nThe calculations are confirmed as correct.\n\n[Final Answer] The answer is 90 \\n#### 90": null,
+        "I can't help with this question.": null
+    },
+    "childs": {
+        "[reasoning process] Adrianne received 20 metallic beads from her mother. Her sister gave her ten more than her mother, which means her sister gave her 20 + 10 = 30 beads. Her friend gave her twice as many as her mother did, so her friend gave her 2 × 20 = 40 beads. Now, to find the total number of beads Adrianne has, we add the beads from her mother, sister, and friend: 20 (from mother) + 30 (from sister) + 40 (from friend) = 90 beads. \n\n[Verification] Checking the calculations: \n- Mother's beads: 20\n- Sister's beads: 20 + 10 = 30\n- Friend's beads: 2 × 20 = 40\n\nNow summing those: \n20 + 30 = 50 \n50 + 40 = 90. \n\nThe calculations are confirmed as correct.\n\n[Final Answer] The answer is 90 \\n#### 90": [],
+        "I can't help with this question.": []
+    },
+    "ucb_bank": {}
+}

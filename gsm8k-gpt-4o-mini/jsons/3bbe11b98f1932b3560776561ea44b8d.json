@@ -1,0 +1,44 @@
+{
+    "query": "The temperature was 2 degrees Celsius. It dropped 8 degrees Celsius overnight and then increased 3 degrees Celsius in the morning. What was the temperature, in degrees Celsius, in the morning?",
+    "ground_truth": "Start = +<<2=2>>2 degrees\nDrop 8 degrees = 2 - 8 = -6 degrees\nIncrease 3 degrees = -6 + 3 = -3 degrees\nIt was -3 degrees Celsius in the morning.\n#### -3",
+    "hints_list": [],
+    "answers_list": [
+        "[reasoning process] The initial temperature is 2 degrees Celsius. First, we need to account for the overnight drop of 8 degrees Celsius. To find the new temperature after the drop, we subtract 8 from 2:\n\n\\[ 2 - 8 = -6 \\]\n\nNow, the temperature is at -6 degrees Celsius. In the morning, the temperature increases by 3 degrees Celsius. We add 3 to the current temperature:\n\n\\[ -6 + 3 = -3 \\]\n\nNow we have the final temperature in the morning as -3 degrees Celsius.\n\n[Verification] Starting with the initial temperature of 2 degrees Celsius, we subtracted 8 degrees for the overnight drop, which brought us to -6 degrees Celsius. Then, we added the 3 degrees increase in the morning, resulting in -3 degrees Celsius. All steps confirm the calculations are correct.\n\n[Final Answer] The answer is -3 \\n#### -3",
+        "I can't understand this question."
+    ],
+    "ground_truth_hints": "",
+    "hints_prompt": "Question: The temperature was 2 degrees Celsius. It dropped 8 degrees Celsius overnight and then increased 3 degrees Celsius in the morning. What was the temperature, in degrees Celsius, in the morning?\nCould you provide me with the thought process to solve this problem, but please don’t give me the answer or calculation, just the thought process?",
+    "to_explore": [
+        "[reasoning process] The initial temperature is 2 degrees Celsius. First, we need to account for the overnight drop of 8 degrees Celsius. To find the new temperature after the drop, we subtract 8 from 2:\n\n\\[ 2 - 8 = -6 \\]\n\nNow, the temperature is at -6 degrees Celsius. In the morning, the temperature increases by 3 degrees Celsius. We add 3 to the current temperature:\n\n\\[ -6 + 3 = -3 \\]\n\nNow we have the final temperature in the morning as -3 degrees Celsius.\n\n[Verification] Starting with the initial temperature of 2 degrees Celsius, we subtracted 8 degrees for the overnight drop, which brought us to -6 degrees Celsius. Then, we added the 3 degrees increase in the morning, resulting in -3 degrees Celsius. All steps confirm the calculations are correct.\n\n[Final Answer] The answer is -3 \\n#### -3",
+        "I can't understand this question."
+    ],
+    "to_explore_reward": {
+        "[reasoning process] The initial temperature is 2 degrees Celsius. First, we need to account for the overnight drop of 8 degrees Celsius. To find the new temperature after the drop, we subtract 8 from 2:\n\n\\[ 2 - 8 = -6 \\]\n\nNow, the temperature is at -6 degrees Celsius. In the morning, the temperature increases by 3 degrees Celsius. We add 3 to the current temperature:\n\n\\[ -6 + 3 = -3 \\]\n\nNow we have the final temperature in the morning as -3 degrees Celsius.\n\n[Verification] Starting with the initial temperature of 2 degrees Celsius, we subtracted 8 degrees for the overnight drop, which brought us to -6 degrees Celsius. Then, we added the 3 degrees increase in the morning, resulting in -3 degrees Celsius. All steps confirm the calculations are correct.\n\n[Final Answer] The answer is -3 \\n#### -3": [
+            75.0
+        ],
+        "I can't understand this question.": [
+            -90.0
+        ]
+    },
+    "hints_bank": {},
+    "history_bank": {
+        "[reasoning process] The initial temperature is 2 degrees Celsius. First, we need to account for the overnight drop of 8 degrees Celsius. To find the new temperature after the drop, we subtract 8 from 2:\n\n\\[ 2 - 8 = -6 \\]\n\nNow, the temperature is at -6 degrees Celsius. In the morning, the temperature increases by 3 degrees Celsius. We add 3 to the current temperature:\n\n\\[ -6 + 3 = -3 \\]\n\nNow we have the final temperature in the morning as -3 degrees Celsius.\n\n[Verification] Starting with the initial temperature of 2 degrees Celsius, we subtracted 8 degrees for the overnight drop, which brought us to -6 degrees Celsius. Then, we added the 3 degrees increase in the morning, resulting in -3 degrees Celsius. All steps confirm the calculations are correct.\n\n[Final Answer] The answer is -3 \\n#### -3": [
+            "Question: The temperature was 2 degrees Celsius. It dropped 8 degrees Celsius overnight and then increased 3 degrees Celsius in the morning. What was the temperature, in degrees Celsius, in the morning?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "[reasoning process] The initial temperature is 2 degrees Celsius. First, we need to account for the overnight drop of 8 degrees Celsius. To find the new temperature after the drop, we subtract 8 from 2:\n\n\\[ 2 - 8 = -6 \\]\n\nNow, the temperature is at -6 degrees Celsius. In the morning, the temperature increases by 3 degrees Celsius. We add 3 to the current temperature:\n\n\\[ -6 + 3 = -3 \\]\n\nNow we have the final temperature in the morning as -3 degrees Celsius.\n\n[Verification] Starting with the initial temperature of 2 degrees Celsius, we subtracted 8 degrees for the overnight drop, which brought us to -6 degrees Celsius. Then, we added the 3 degrees increase in the morning, resulting in -3 degrees Celsius. All steps confirm the calculations are correct.\n\n[Final Answer] The answer is -3 \\n#### -3"
+        ],
+        "I can't understand this question.": [
+            "Question: The temperature was 2 degrees Celsius. It dropped 8 degrees Celsius overnight and then increased 3 degrees Celsius in the morning. What was the temperature, in degrees Celsius, in the morning?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "I can't understand this question."
+        ]
+    },
+    "hints_reward_imp_bank": {},
+    "fathers": {
+        "[reasoning process] The initial temperature is 2 degrees Celsius. First, we need to account for the overnight drop of 8 degrees Celsius. To find the new temperature after the drop, we subtract 8 from 2:\n\n\\[ 2 - 8 = -6 \\]\n\nNow, the temperature is at -6 degrees Celsius. In the morning, the temperature increases by 3 degrees Celsius. We add 3 to the current temperature:\n\n\\[ -6 + 3 = -3 \\]\n\nNow we have the final temperature in the morning as -3 degrees Celsius.\n\n[Verification] Starting with the initial temperature of 2 degrees Celsius, we subtracted 8 degrees for the overnight drop, which brought us to -6 degrees Celsius. Then, we added the 3 degrees increase in the morning, resulting in -3 degrees Celsius. All steps confirm the calculations are correct.\n\n[Final Answer] The answer is -3 \\n#### -3": null,
+        "I can't understand this question.": null
+    },
+    "childs": {
+        "[reasoning process] The initial temperature is 2 degrees Celsius. First, we need to account for the overnight drop of 8 degrees Celsius. To find the new temperature after the drop, we subtract 8 from 2:\n\n\\[ 2 - 8 = -6 \\]\n\nNow, the temperature is at -6 degrees Celsius. In the morning, the temperature increases by 3 degrees Celsius. We add 3 to the current temperature:\n\n\\[ -6 + 3 = -3 \\]\n\nNow we have the final temperature in the morning as -3 degrees Celsius.\n\n[Verification] Starting with the initial temperature of 2 degrees Celsius, we subtracted 8 degrees for the overnight drop, which brought us to -6 degrees Celsius. Then, we added the 3 degrees increase in the morning, resulting in -3 degrees Celsius. All steps confirm the calculations are correct.\n\n[Final Answer] The answer is -3 \\n#### -3": [],
+        "I can't understand this question.": []
+    },
+    "ucb_bank": {}
+}

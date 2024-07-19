@@ -1,0 +1,44 @@
+{
+    "query": "Peter plans to go to the movies this week. He always gets a ticket for $7 and popcorn for $7. If he has 42 dollars for the week, how many times can he go to the movies?",
+    "ground_truth": "It costs him $14 to go to the movies because 7 + 7 = <<7+7=14>>14\nHe can go to the movies 3 times because 42 / 14 = <<42/14=3>>3\n#### 3",
+    "hints_list": [],
+    "answers_list": [
+        "[reasoning process] First, let's calculate the total cost for Peter to go to the movies once. He spends $7 on a ticket and $7 on popcorn, which totals to:\n\n\\[ 7 + 7 = 14 \\text{ dollars} \\]\n\nNext, we need to see how many times Peter can go to the movies with his total budget of $42. To find this, we divide his total amount of money by the cost of going to the movies once:\n\n\\[ \\frac{42}{14} = 3 \\]\n\nThis means that Peter can go to the movies 3 times. \n\n[Verification] To verify this, we'll multiply the number of times Peter can go to the movies (3) by the cost per visit (14 dollars):\n\n\\[ 3 \\times 14 = 42 \\text{ dollars} \\]\n\nSince this matches Peter's total budget of $42, the calculation is correct.\n\n[Final Answer] The answer is 3 \\n#### 3",
+        "I don't know how to solve this question."
+    ],
+    "ground_truth_hints": "",
+    "hints_prompt": "Question: Peter plans to go to the movies this week. He always gets a ticket for $7 and popcorn for $7. If he has 42 dollars for the week, how many times can he go to the movies?\nCould you provide me with the thought process to solve this problem, but please don’t give me the answer or calculation, just the thought process?",
+    "to_explore": [
+        "[reasoning process] First, let's calculate the total cost for Peter to go to the movies once. He spends $7 on a ticket and $7 on popcorn, which totals to:\n\n\\[ 7 + 7 = 14 \\text{ dollars} \\]\n\nNext, we need to see how many times Peter can go to the movies with his total budget of $42. To find this, we divide his total amount of money by the cost of going to the movies once:\n\n\\[ \\frac{42}{14} = 3 \\]\n\nThis means that Peter can go to the movies 3 times. \n\n[Verification] To verify this, we'll multiply the number of times Peter can go to the movies (3) by the cost per visit (14 dollars):\n\n\\[ 3 \\times 14 = 42 \\text{ dollars} \\]\n\nSince this matches Peter's total budget of $42, the calculation is correct.\n\n[Final Answer] The answer is 3 \\n#### 3",
+        "I don't know how to solve this question."
+    ],
+    "to_explore_reward": {
+        "[reasoning process] First, let's calculate the total cost for Peter to go to the movies once. He spends $7 on a ticket and $7 on popcorn, which totals to:\n\n\\[ 7 + 7 = 14 \\text{ dollars} \\]\n\nNext, we need to see how many times Peter can go to the movies with his total budget of $42. To find this, we divide his total amount of money by the cost of going to the movies once:\n\n\\[ \\frac{42}{14} = 3 \\]\n\nThis means that Peter can go to the movies 3 times. \n\n[Verification] To verify this, we'll multiply the number of times Peter can go to the movies (3) by the cost per visit (14 dollars):\n\n\\[ 3 \\times 14 = 42 \\text{ dollars} \\]\n\nSince this matches Peter's total budget of $42, the calculation is correct.\n\n[Final Answer] The answer is 3 \\n#### 3": [
+            70.0
+        ],
+        "I don't know how to solve this question.": [
+            -85.0
+        ]
+    },
+    "hints_bank": {},
+    "history_bank": {
+        "[reasoning process] First, let's calculate the total cost for Peter to go to the movies once. He spends $7 on a ticket and $7 on popcorn, which totals to:\n\n\\[ 7 + 7 = 14 \\text{ dollars} \\]\n\nNext, we need to see how many times Peter can go to the movies with his total budget of $42. To find this, we divide his total amount of money by the cost of going to the movies once:\n\n\\[ \\frac{42}{14} = 3 \\]\n\nThis means that Peter can go to the movies 3 times. \n\n[Verification] To verify this, we'll multiply the number of times Peter can go to the movies (3) by the cost per visit (14 dollars):\n\n\\[ 3 \\times 14 = 42 \\text{ dollars} \\]\n\nSince this matches Peter's total budget of $42, the calculation is correct.\n\n[Final Answer] The answer is 3 \\n#### 3": [
+            "Question: Peter plans to go to the movies this week. He always gets a ticket for $7 and popcorn for $7. If he has 42 dollars for the week, how many times can he go to the movies?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "[reasoning process] First, let's calculate the total cost for Peter to go to the movies once. He spends $7 on a ticket and $7 on popcorn, which totals to:\n\n\\[ 7 + 7 = 14 \\text{ dollars} \\]\n\nNext, we need to see how many times Peter can go to the movies with his total budget of $42. To find this, we divide his total amount of money by the cost of going to the movies once:\n\n\\[ \\frac{42}{14} = 3 \\]\n\nThis means that Peter can go to the movies 3 times. \n\n[Verification] To verify this, we'll multiply the number of times Peter can go to the movies (3) by the cost per visit (14 dollars):\n\n\\[ 3 \\times 14 = 42 \\text{ dollars} \\]\n\nSince this matches Peter's total budget of $42, the calculation is correct.\n\n[Final Answer] The answer is 3 \\n#### 3"
+        ],
+        "I don't know how to solve this question.": [
+            "Question: Peter plans to go to the movies this week. He always gets a ticket for $7 and popcorn for $7. If he has 42 dollars for the week, how many times can he go to the movies?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "I don't know how to solve this question."
+        ]
+    },
+    "hints_reward_imp_bank": {},
+    "fathers": {
+        "[reasoning process] First, let's calculate the total cost for Peter to go to the movies once. He spends $7 on a ticket and $7 on popcorn, which totals to:\n\n\\[ 7 + 7 = 14 \\text{ dollars} \\]\n\nNext, we need to see how many times Peter can go to the movies with his total budget of $42. To find this, we divide his total amount of money by the cost of going to the movies once:\n\n\\[ \\frac{42}{14} = 3 \\]\n\nThis means that Peter can go to the movies 3 times. \n\n[Verification] To verify this, we'll multiply the number of times Peter can go to the movies (3) by the cost per visit (14 dollars):\n\n\\[ 3 \\times 14 = 42 \\text{ dollars} \\]\n\nSince this matches Peter's total budget of $42, the calculation is correct.\n\n[Final Answer] The answer is 3 \\n#### 3": null,
+        "I don't know how to solve this question.": null
+    },
+    "childs": {
+        "[reasoning process] First, let's calculate the total cost for Peter to go to the movies once. He spends $7 on a ticket and $7 on popcorn, which totals to:\n\n\\[ 7 + 7 = 14 \\text{ dollars} \\]\n\nNext, we need to see how many times Peter can go to the movies with his total budget of $42. To find this, we divide his total amount of money by the cost of going to the movies once:\n\n\\[ \\frac{42}{14} = 3 \\]\n\nThis means that Peter can go to the movies 3 times. \n\n[Verification] To verify this, we'll multiply the number of times Peter can go to the movies (3) by the cost per visit (14 dollars):\n\n\\[ 3 \\times 14 = 42 \\text{ dollars} \\]\n\nSince this matches Peter's total budget of $42, the calculation is correct.\n\n[Final Answer] The answer is 3 \\n#### 3": [],
+        "I don't know how to solve this question.": []
+    },
+    "ucb_bank": {}
+}

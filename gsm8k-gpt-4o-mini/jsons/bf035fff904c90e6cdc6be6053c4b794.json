@@ -1,0 +1,44 @@
+{
+    "query": "Andy plants 90 geraniums and 40 fewer petunias that geraniums. How many flowers does he plant total?",
+    "ground_truth": "First find the number of petunias Andy plants: 90 flowers - 40 = <<90-40=50>>50 flowers\nThen add the number of each kind of flower he plants to find the total number: 50 flowers + 90 flowers = <<50+90=140>>140 flowers\n#### 140",
+    "hints_list": [],
+    "answers_list": [
+        "[reasoning process] First, we need to determine how many petunias Andy plants. He plants 40 fewer petunias than geraniums. Since he plants 90 geraniums, we can calculate the number of petunias by subtracting 40 from 90. \n\nSo, the number of petunias is:\n90 - 40 = 50 petunias.\n\nNext, we can find the total number of flowers he plants by adding the number of geraniums and petunias together:\n90 geraniums + 50 petunias = 140 flowers total.\n\n[Verification] To verify, we can check each step:\n1. Confirm the number of geraniums: 90 is correct.\n2. Confirm the number of petunias: 90 - 40 = 50 is also correct.\n3. Finally, adding them gives us 90 + 50 = 140, which is accurate.\n\nEverything checks out.\n\n[Final Answer] The answer is 140 \\n#### 140",
+        "I don't know the answer to this question, sorry."
+    ],
+    "ground_truth_hints": "",
+    "hints_prompt": "Question: Andy plants 90 geraniums and 40 fewer petunias that geraniums. How many flowers does he plant total?\nCould you provide me with the thought process to solve this problem, but please don’t give me the answer or calculation, just the thought process?",
+    "to_explore": [
+        "[reasoning process] First, we need to determine how many petunias Andy plants. He plants 40 fewer petunias than geraniums. Since he plants 90 geraniums, we can calculate the number of petunias by subtracting 40 from 90. \n\nSo, the number of petunias is:\n90 - 40 = 50 petunias.\n\nNext, we can find the total number of flowers he plants by adding the number of geraniums and petunias together:\n90 geraniums + 50 petunias = 140 flowers total.\n\n[Verification] To verify, we can check each step:\n1. Confirm the number of geraniums: 90 is correct.\n2. Confirm the number of petunias: 90 - 40 = 50 is also correct.\n3. Finally, adding them gives us 90 + 50 = 140, which is accurate.\n\nEverything checks out.\n\n[Final Answer] The answer is 140 \\n#### 140",
+        "I don't know the answer to this question, sorry."
+    ],
+    "to_explore_reward": {
+        "[reasoning process] First, we need to determine how many petunias Andy plants. He plants 40 fewer petunias than geraniums. Since he plants 90 geraniums, we can calculate the number of petunias by subtracting 40 from 90. \n\nSo, the number of petunias is:\n90 - 40 = 50 petunias.\n\nNext, we can find the total number of flowers he plants by adding the number of geraniums and petunias together:\n90 geraniums + 50 petunias = 140 flowers total.\n\n[Verification] To verify, we can check each step:\n1. Confirm the number of geraniums: 90 is correct.\n2. Confirm the number of petunias: 90 - 40 = 50 is also correct.\n3. Finally, adding them gives us 90 + 50 = 140, which is accurate.\n\nEverything checks out.\n\n[Final Answer] The answer is 140 \\n#### 140": [
+            70.0
+        ],
+        "I don't know the answer to this question, sorry.": [
+            -80.0
+        ]
+    },
+    "hints_bank": {},
+    "history_bank": {
+        "[reasoning process] First, we need to determine how many petunias Andy plants. He plants 40 fewer petunias than geraniums. Since he plants 90 geraniums, we can calculate the number of petunias by subtracting 40 from 90. \n\nSo, the number of petunias is:\n90 - 40 = 50 petunias.\n\nNext, we can find the total number of flowers he plants by adding the number of geraniums and petunias together:\n90 geraniums + 50 petunias = 140 flowers total.\n\n[Verification] To verify, we can check each step:\n1. Confirm the number of geraniums: 90 is correct.\n2. Confirm the number of petunias: 90 - 40 = 50 is also correct.\n3. Finally, adding them gives us 90 + 50 = 140, which is accurate.\n\nEverything checks out.\n\n[Final Answer] The answer is 140 \\n#### 140": [
+            "Question: Andy plants 90 geraniums and 40 fewer petunias that geraniums. How many flowers does he plant total?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "[reasoning process] First, we need to determine how many petunias Andy plants. He plants 40 fewer petunias than geraniums. Since he plants 90 geraniums, we can calculate the number of petunias by subtracting 40 from 90. \n\nSo, the number of petunias is:\n90 - 40 = 50 petunias.\n\nNext, we can find the total number of flowers he plants by adding the number of geraniums and petunias together:\n90 geraniums + 50 petunias = 140 flowers total.\n\n[Verification] To verify, we can check each step:\n1. Confirm the number of geraniums: 90 is correct.\n2. Confirm the number of petunias: 90 - 40 = 50 is also correct.\n3. Finally, adding them gives us 90 + 50 = 140, which is accurate.\n\nEverything checks out.\n\n[Final Answer] The answer is 140 \\n#### 140"
+        ],
+        "I don't know the answer to this question, sorry.": [
+            "Question: Andy plants 90 geraniums and 40 fewer petunias that geraniums. How many flowers does he plant total?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "I don't know the answer to this question, sorry."
+        ]
+    },
+    "hints_reward_imp_bank": {},
+    "fathers": {
+        "[reasoning process] First, we need to determine how many petunias Andy plants. He plants 40 fewer petunias than geraniums. Since he plants 90 geraniums, we can calculate the number of petunias by subtracting 40 from 90. \n\nSo, the number of petunias is:\n90 - 40 = 50 petunias.\n\nNext, we can find the total number of flowers he plants by adding the number of geraniums and petunias together:\n90 geraniums + 50 petunias = 140 flowers total.\n\n[Verification] To verify, we can check each step:\n1. Confirm the number of geraniums: 90 is correct.\n2. Confirm the number of petunias: 90 - 40 = 50 is also correct.\n3. Finally, adding them gives us 90 + 50 = 140, which is accurate.\n\nEverything checks out.\n\n[Final Answer] The answer is 140 \\n#### 140": null,
+        "I don't know the answer to this question, sorry.": null
+    },
+    "childs": {
+        "[reasoning process] First, we need to determine how many petunias Andy plants. He plants 40 fewer petunias than geraniums. Since he plants 90 geraniums, we can calculate the number of petunias by subtracting 40 from 90. \n\nSo, the number of petunias is:\n90 - 40 = 50 petunias.\n\nNext, we can find the total number of flowers he plants by adding the number of geraniums and petunias together:\n90 geraniums + 50 petunias = 140 flowers total.\n\n[Verification] To verify, we can check each step:\n1. Confirm the number of geraniums: 90 is correct.\n2. Confirm the number of petunias: 90 - 40 = 50 is also correct.\n3. Finally, adding them gives us 90 + 50 = 140, which is accurate.\n\nEverything checks out.\n\n[Final Answer] The answer is 140 \\n#### 140": [],
+        "I don't know the answer to this question, sorry.": []
+    },
+    "ucb_bank": {}
+}

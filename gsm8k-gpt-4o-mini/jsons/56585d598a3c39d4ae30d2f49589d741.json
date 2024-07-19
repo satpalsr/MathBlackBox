@@ -1,0 +1,44 @@
+{
+    "query": "Paul has 52 marbles. His friend gave him 28 marbles. Then, he lost 1/4 of his marbles. How many marbles does Paul have left?",
+    "ground_truth": "Paul has a total of 52 + 28 = <<52+28=80>>80 marbles.\nHe lost 1/4 x 80 = <<80/4=20>>20 marbles.\nTherefore, he has 80 - 20 = <<80-20=60>>60 marbles left.\n#### 60",
+    "hints_list": [],
+    "answers_list": [
+        "[reasoning process]  \n1. **Initial Count**: Paul starts with 52 marbles.  \n2. **Marbles Received**: His friend gives him 28 marbles, so we add these to Paul's total:  \n   \\( 52 + 28 = 80 \\) marbles.  \n3. **Marbles Lost**: Paul then loses 1/4 of his marbles. To find out how many that is, we first calculate 1/4 of 80:  \n   \\( 80 \\div 4 = 20 \\) marbles lost.  \n4. **Final Count**: We now subtract the lost marbles from the total he had after receiving the marbles:  \n   \\( 80 - 20 = 60 \\) marbles remaining.\n\n[Verification]  \n1. Paul started with 52 marbles.  \n2. After receiving 28 more marbles, we confirmed he had 80.  \n3. 1/4 of 80 is indeed 20, which we successfully subtracted from 80.  \n4. The final calculation of remaining marbles is verified as 60.  \n\n[Final Answer] The answer is 60  \n#### 60",
+        "I Don't Know"
+    ],
+    "ground_truth_hints": "",
+    "hints_prompt": "Question: Paul has 52 marbles. His friend gave him 28 marbles. Then, he lost 1/4 of his marbles. How many marbles does Paul have left?\nCould you provide me with the thought process to solve this problem, but please don’t give me the answer or calculation, just the thought process?",
+    "to_explore": [
+        "[reasoning process]  \n1. **Initial Count**: Paul starts with 52 marbles.  \n2. **Marbles Received**: His friend gives him 28 marbles, so we add these to Paul's total:  \n   \\( 52 + 28 = 80 \\) marbles.  \n3. **Marbles Lost**: Paul then loses 1/4 of his marbles. To find out how many that is, we first calculate 1/4 of 80:  \n   \\( 80 \\div 4 = 20 \\) marbles lost.  \n4. **Final Count**: We now subtract the lost marbles from the total he had after receiving the marbles:  \n   \\( 80 - 20 = 60 \\) marbles remaining.\n\n[Verification]  \n1. Paul started with 52 marbles.  \n2. After receiving 28 more marbles, we confirmed he had 80.  \n3. 1/4 of 80 is indeed 20, which we successfully subtracted from 80.  \n4. The final calculation of remaining marbles is verified as 60.  \n\n[Final Answer] The answer is 60  \n#### 60",
+        "I Don't Know"
+    ],
+    "to_explore_reward": {
+        "[reasoning process]  \n1. **Initial Count**: Paul starts with 52 marbles.  \n2. **Marbles Received**: His friend gives him 28 marbles, so we add these to Paul's total:  \n   \\( 52 + 28 = 80 \\) marbles.  \n3. **Marbles Lost**: Paul then loses 1/4 of his marbles. To find out how many that is, we first calculate 1/4 of 80:  \n   \\( 80 \\div 4 = 20 \\) marbles lost.  \n4. **Final Count**: We now subtract the lost marbles from the total he had after receiving the marbles:  \n   \\( 80 - 20 = 60 \\) marbles remaining.\n\n[Verification]  \n1. Paul started with 52 marbles.  \n2. After receiving 28 more marbles, we confirmed he had 80.  \n3. 1/4 of 80 is indeed 20, which we successfully subtracted from 80.  \n4. The final calculation of remaining marbles is verified as 60.  \n\n[Final Answer] The answer is 60  \n#### 60": [
+            80.0
+        ],
+        "I Don't Know": [
+            -90.0
+        ]
+    },
+    "hints_bank": {},
+    "history_bank": {
+        "[reasoning process]  \n1. **Initial Count**: Paul starts with 52 marbles.  \n2. **Marbles Received**: His friend gives him 28 marbles, so we add these to Paul's total:  \n   \\( 52 + 28 = 80 \\) marbles.  \n3. **Marbles Lost**: Paul then loses 1/4 of his marbles. To find out how many that is, we first calculate 1/4 of 80:  \n   \\( 80 \\div 4 = 20 \\) marbles lost.  \n4. **Final Count**: We now subtract the lost marbles from the total he had after receiving the marbles:  \n   \\( 80 - 20 = 60 \\) marbles remaining.\n\n[Verification]  \n1. Paul started with 52 marbles.  \n2. After receiving 28 more marbles, we confirmed he had 80.  \n3. 1/4 of 80 is indeed 20, which we successfully subtracted from 80.  \n4. The final calculation of remaining marbles is verified as 60.  \n\n[Final Answer] The answer is 60  \n#### 60": [
+            "Question: Paul has 52 marbles. His friend gave him 28 marbles. Then, he lost 1/4 of his marbles. How many marbles does Paul have left?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "[reasoning process]  \n1. **Initial Count**: Paul starts with 52 marbles.  \n2. **Marbles Received**: His friend gives him 28 marbles, so we add these to Paul's total:  \n   \\( 52 + 28 = 80 \\) marbles.  \n3. **Marbles Lost**: Paul then loses 1/4 of his marbles. To find out how many that is, we first calculate 1/4 of 80:  \n   \\( 80 \\div 4 = 20 \\) marbles lost.  \n4. **Final Count**: We now subtract the lost marbles from the total he had after receiving the marbles:  \n   \\( 80 - 20 = 60 \\) marbles remaining.\n\n[Verification]  \n1. Paul started with 52 marbles.  \n2. After receiving 28 more marbles, we confirmed he had 80.  \n3. 1/4 of 80 is indeed 20, which we successfully subtracted from 80.  \n4. The final calculation of remaining marbles is verified as 60.  \n\n[Final Answer] The answer is 60  \n#### 60"
+        ],
+        "I Don't Know": [
+            "Question: Paul has 52 marbles. His friend gave him 28 marbles. Then, he lost 1/4 of his marbles. How many marbles does Paul have left?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [answer] \\n#### [answer]\"\nLet's think step by step.",
+            "I Don't Know"
+        ]
+    },
+    "hints_reward_imp_bank": {},
+    "fathers": {
+        "[reasoning process]  \n1. **Initial Count**: Paul starts with 52 marbles.  \n2. **Marbles Received**: His friend gives him 28 marbles, so we add these to Paul's total:  \n   \\( 52 + 28 = 80 \\) marbles.  \n3. **Marbles Lost**: Paul then loses 1/4 of his marbles. To find out how many that is, we first calculate 1/4 of 80:  \n   \\( 80 \\div 4 = 20 \\) marbles lost.  \n4. **Final Count**: We now subtract the lost marbles from the total he had after receiving the marbles:  \n   \\( 80 - 20 = 60 \\) marbles remaining.\n\n[Verification]  \n1. Paul started with 52 marbles.  \n2. After receiving 28 more marbles, we confirmed he had 80.  \n3. 1/4 of 80 is indeed 20, which we successfully subtracted from 80.  \n4. The final calculation of remaining marbles is verified as 60.  \n\n[Final Answer] The answer is 60  \n#### 60": null,
+        "I Don't Know": null
+    },
+    "childs": {
+        "[reasoning process]  \n1. **Initial Count**: Paul starts with 52 marbles.  \n2. **Marbles Received**: His friend gives him 28 marbles, so we add these to Paul's total:  \n   \\( 52 + 28 = 80 \\) marbles.  \n3. **Marbles Lost**: Paul then loses 1/4 of his marbles. To find out how many that is, we first calculate 1/4 of 80:  \n   \\( 80 \\div 4 = 20 \\) marbles lost.  \n4. **Final Count**: We now subtract the lost marbles from the total he had after receiving the marbles:  \n   \\( 80 - 20 = 60 \\) marbles remaining.\n\n[Verification]  \n1. Paul started with 52 marbles.  \n2. After receiving 28 more marbles, we confirmed he had 80.  \n3. 1/4 of 80 is indeed 20, which we successfully subtracted from 80.  \n4. The final calculation of remaining marbles is verified as 60.  \n\n[Final Answer] The answer is 60  \n#### 60": [],
+        "I Don't Know": []
+    },
+    "ucb_bank": {}
+}
