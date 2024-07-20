@@ -1,0 +1,44 @@
+{
+    "query": "If $\\sqrt{400}=\\sqrt{81}+\\sqrt{n}$, then what is the value of $n$?",
+    "ground_truth": "Not to be fooled by the square roots, we rewrite the equation as $20=9+\\sqrt{n}.$ Thus, $\\sqrt{n}=11$ and $n=\\boxed{121}.$",
+    "hints_list": [],
+    "answers_list": [
+        "[reasoning process]  \nWe start with the equation given in the problem:\n\n\\[\n\\sqrt{400} = \\sqrt{81} + \\sqrt{n}\n\\]\n\nFirst, we calculate \\(\\sqrt{400}\\) and \\(\\sqrt{81}\\):\n\n\\[\n\\sqrt{400} = 20\n\\]\n\\[\n\\sqrt{81} = 9\n\\]\n\nNow substituting these values back into the equation gives us:\n\n\\[\n20 = 9 + \\sqrt{n}\n\\]\n\nNext, we isolate \\(\\sqrt{n}\\) by subtracting \\(9\\) from both sides:\n\n\\[\n\\sqrt{n} = 20 - 9\n\\]\n\\[\n\\sqrt{n} = 11\n\\]\n\nNow, we square both sides to solve for \\(n\\):\n\n\\[\nn = 11^2\n\\]\n\\[\nn = 121\n\\]\n\n[Verification]  \nTo verify, we will plug the value \\(n = 121\\) back into the original equation to check if it holds true. We calculate \\(\\sqrt{121}\\):\n\n\\[\n\\sqrt{121} = 11\n\\]\n\nNow substituting \\(n\\) back:\n\n\\[\n\\sqrt{400} = \\sqrt{81} + \\sqrt{121}\n\\]\n\\[\n20 = 9 + 11\n\\]\n\\[\n20 = 20\n\\]\n\nThe equation holds true, confirming our solution is correct.\n\n[Final Answer] The answer is 121 \\n#### 121",
+        "I don't know the answer to this question, sorry."
+    ],
+    "ground_truth_hints": "",
+    "hints_prompt": "Question: If $\\sqrt{400}=\\sqrt{81}+\\sqrt{n}$, then what is the value of $n$?\nCould you provide me with the thought process to solve this problem, but please don’t give me the answer or calculation, just the thought process?",
+    "to_explore": [
+        "[reasoning process]  \nWe start with the equation given in the problem:\n\n\\[\n\\sqrt{400} = \\sqrt{81} + \\sqrt{n}\n\\]\n\nFirst, we calculate \\(\\sqrt{400}\\) and \\(\\sqrt{81}\\):\n\n\\[\n\\sqrt{400} = 20\n\\]\n\\[\n\\sqrt{81} = 9\n\\]\n\nNow substituting these values back into the equation gives us:\n\n\\[\n20 = 9 + \\sqrt{n}\n\\]\n\nNext, we isolate \\(\\sqrt{n}\\) by subtracting \\(9\\) from both sides:\n\n\\[\n\\sqrt{n} = 20 - 9\n\\]\n\\[\n\\sqrt{n} = 11\n\\]\n\nNow, we square both sides to solve for \\(n\\):\n\n\\[\nn = 11^2\n\\]\n\\[\nn = 121\n\\]\n\n[Verification]  \nTo verify, we will plug the value \\(n = 121\\) back into the original equation to check if it holds true. We calculate \\(\\sqrt{121}\\):\n\n\\[\n\\sqrt{121} = 11\n\\]\n\nNow substituting \\(n\\) back:\n\n\\[\n\\sqrt{400} = \\sqrt{81} + \\sqrt{121}\n\\]\n\\[\n20 = 9 + 11\n\\]\n\\[\n20 = 20\n\\]\n\nThe equation holds true, confirming our solution is correct.\n\n[Final Answer] The answer is 121 \\n#### 121",
+        "I don't know the answer to this question, sorry."
+    ],
+    "to_explore_reward": {
+        "[reasoning process]  \nWe start with the equation given in the problem:\n\n\\[\n\\sqrt{400} = \\sqrt{81} + \\sqrt{n}\n\\]\n\nFirst, we calculate \\(\\sqrt{400}\\) and \\(\\sqrt{81}\\):\n\n\\[\n\\sqrt{400} = 20\n\\]\n\\[\n\\sqrt{81} = 9\n\\]\n\nNow substituting these values back into the equation gives us:\n\n\\[\n20 = 9 + \\sqrt{n}\n\\]\n\nNext, we isolate \\(\\sqrt{n}\\) by subtracting \\(9\\) from both sides:\n\n\\[\n\\sqrt{n} = 20 - 9\n\\]\n\\[\n\\sqrt{n} = 11\n\\]\n\nNow, we square both sides to solve for \\(n\\):\n\n\\[\nn = 11^2\n\\]\n\\[\nn = 121\n\\]\n\n[Verification]  \nTo verify, we will plug the value \\(n = 121\\) back into the original equation to check if it holds true. We calculate \\(\\sqrt{121}\\):\n\n\\[\n\\sqrt{121} = 11\n\\]\n\nNow substituting \\(n\\) back:\n\n\\[\n\\sqrt{400} = \\sqrt{81} + \\sqrt{121}\n\\]\n\\[\n20 = 9 + 11\n\\]\n\\[\n20 = 20\n\\]\n\nThe equation holds true, confirming our solution is correct.\n\n[Final Answer] The answer is 121 \\n#### 121": [
+            85.0
+        ],
+        "I don't know the answer to this question, sorry.": [
+            -85.0
+        ]
+    },
+    "hints_bank": {},
+    "history_bank": {
+        "[reasoning process]  \nWe start with the equation given in the problem:\n\n\\[\n\\sqrt{400} = \\sqrt{81} + \\sqrt{n}\n\\]\n\nFirst, we calculate \\(\\sqrt{400}\\) and \\(\\sqrt{81}\\):\n\n\\[\n\\sqrt{400} = 20\n\\]\n\\[\n\\sqrt{81} = 9\n\\]\n\nNow substituting these values back into the equation gives us:\n\n\\[\n20 = 9 + \\sqrt{n}\n\\]\n\nNext, we isolate \\(\\sqrt{n}\\) by subtracting \\(9\\) from both sides:\n\n\\[\n\\sqrt{n} = 20 - 9\n\\]\n\\[\n\\sqrt{n} = 11\n\\]\n\nNow, we square both sides to solve for \\(n\\):\n\n\\[\nn = 11^2\n\\]\n\\[\nn = 121\n\\]\n\n[Verification]  \nTo verify, we will plug the value \\(n = 121\\) back into the original equation to check if it holds true. We calculate \\(\\sqrt{121}\\):\n\n\\[\n\\sqrt{121} = 11\n\\]\n\nNow substituting \\(n\\) back:\n\n\\[\n\\sqrt{400} = \\sqrt{81} + \\sqrt{121}\n\\]\n\\[\n20 = 9 + 11\n\\]\n\\[\n20 = 20\n\\]\n\nThe equation holds true, confirming our solution is correct.\n\n[Final Answer] The answer is 121 \\n#### 121": [
+            "Question: If $\\sqrt{400}=\\sqrt{81}+\\sqrt{n}$, then what is the value of $n$?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [number] \\n#### [number]\"\nLet's think step by step.",
+            "[reasoning process]  \nWe start with the equation given in the problem:\n\n\\[\n\\sqrt{400} = \\sqrt{81} + \\sqrt{n}\n\\]\n\nFirst, we calculate \\(\\sqrt{400}\\) and \\(\\sqrt{81}\\):\n\n\\[\n\\sqrt{400} = 20\n\\]\n\\[\n\\sqrt{81} = 9\n\\]\n\nNow substituting these values back into the equation gives us:\n\n\\[\n20 = 9 + \\sqrt{n}\n\\]\n\nNext, we isolate \\(\\sqrt{n}\\) by subtracting \\(9\\) from both sides:\n\n\\[\n\\sqrt{n} = 20 - 9\n\\]\n\\[\n\\sqrt{n} = 11\n\\]\n\nNow, we square both sides to solve for \\(n\\):\n\n\\[\nn = 11^2\n\\]\n\\[\nn = 121\n\\]\n\n[Verification]  \nTo verify, we will plug the value \\(n = 121\\) back into the original equation to check if it holds true. We calculate \\(\\sqrt{121}\\):\n\n\\[\n\\sqrt{121} = 11\n\\]\n\nNow substituting \\(n\\) back:\n\n\\[\n\\sqrt{400} = \\sqrt{81} + \\sqrt{121}\n\\]\n\\[\n20 = 9 + 11\n\\]\n\\[\n20 = 20\n\\]\n\nThe equation holds true, confirming our solution is correct.\n\n[Final Answer] The answer is 121 \\n#### 121"
+        ],
+        "I don't know the answer to this question, sorry.": [
+            "Question: If $\\sqrt{400}=\\sqrt{81}+\\sqrt{n}$, then what is the value of $n$?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [number] \\n#### [number]\"\nLet's think step by step.",
+            "I don't know the answer to this question, sorry."
+        ]
+    },
+    "hints_reward_imp_bank": {},
+    "fathers": {
+        "[reasoning process]  \nWe start with the equation given in the problem:\n\n\\[\n\\sqrt{400} = \\sqrt{81} + \\sqrt{n}\n\\]\n\nFirst, we calculate \\(\\sqrt{400}\\) and \\(\\sqrt{81}\\):\n\n\\[\n\\sqrt{400} = 20\n\\]\n\\[\n\\sqrt{81} = 9\n\\]\n\nNow substituting these values back into the equation gives us:\n\n\\[\n20 = 9 + \\sqrt{n}\n\\]\n\nNext, we isolate \\(\\sqrt{n}\\) by subtracting \\(9\\) from both sides:\n\n\\[\n\\sqrt{n} = 20 - 9\n\\]\n\\[\n\\sqrt{n} = 11\n\\]\n\nNow, we square both sides to solve for \\(n\\):\n\n\\[\nn = 11^2\n\\]\n\\[\nn = 121\n\\]\n\n[Verification]  \nTo verify, we will plug the value \\(n = 121\\) back into the original equation to check if it holds true. We calculate \\(\\sqrt{121}\\):\n\n\\[\n\\sqrt{121} = 11\n\\]\n\nNow substituting \\(n\\) back:\n\n\\[\n\\sqrt{400} = \\sqrt{81} + \\sqrt{121}\n\\]\n\\[\n20 = 9 + 11\n\\]\n\\[\n20 = 20\n\\]\n\nThe equation holds true, confirming our solution is correct.\n\n[Final Answer] The answer is 121 \\n#### 121": null,
+        "I don't know the answer to this question, sorry.": null
+    },
+    "childs": {
+        "[reasoning process]  \nWe start with the equation given in the problem:\n\n\\[\n\\sqrt{400} = \\sqrt{81} + \\sqrt{n}\n\\]\n\nFirst, we calculate \\(\\sqrt{400}\\) and \\(\\sqrt{81}\\):\n\n\\[\n\\sqrt{400} = 20\n\\]\n\\[\n\\sqrt{81} = 9\n\\]\n\nNow substituting these values back into the equation gives us:\n\n\\[\n20 = 9 + \\sqrt{n}\n\\]\n\nNext, we isolate \\(\\sqrt{n}\\) by subtracting \\(9\\) from both sides:\n\n\\[\n\\sqrt{n} = 20 - 9\n\\]\n\\[\n\\sqrt{n} = 11\n\\]\n\nNow, we square both sides to solve for \\(n\\):\n\n\\[\nn = 11^2\n\\]\n\\[\nn = 121\n\\]\n\n[Verification]  \nTo verify, we will plug the value \\(n = 121\\) back into the original equation to check if it holds true. We calculate \\(\\sqrt{121}\\):\n\n\\[\n\\sqrt{121} = 11\n\\]\n\nNow substituting \\(n\\) back:\n\n\\[\n\\sqrt{400} = \\sqrt{81} + \\sqrt{121}\n\\]\n\\[\n20 = 9 + 11\n\\]\n\\[\n20 = 20\n\\]\n\nThe equation holds true, confirming our solution is correct.\n\n[Final Answer] The answer is 121 \\n#### 121": [],
+        "I don't know the answer to this question, sorry.": []
+    },
+    "ucb_bank": {}
+}

@@ -1,0 +1,44 @@
+{
+    "query": "When $A$ is doubled, the new value is 10 more than $A$. What is the value of $A$?",
+    "ground_truth": "We have $2A=A+10\\Rightarrow 2A-A=10\\Rightarrow A=\\boxed{10}$.",
+    "hints_list": [],
+    "answers_list": [
+        "[reasoning process] Let \\( A \\) be the original value. According to the problem, when \\( A \\) is doubled, the new value can be expressed as \\( 2A \\). The statement further indicates that this new value is 10 more than \\( A \\). This gives us the equation:\n\n\\[\n2A = A + 10\n\\]\n\nTo solve for \\( A \\), we subtract \\( A \\) from both sides:\n\n\\[\n2A - A = 10 \\\\\nA = 10\n\\]\n\nNow that we have determined the value of \\( A \\), let’s verify the solution.\n\n[Verification] If \\( A = 10 \\), then when we double \\( A \\), we calculate:\n\n\\[\n2A = 2 \\times 10 = 20\n\\]\n\nNow, we check if this value is indeed 10 more than \\( A \\):\n\n\\[\nA + 10 = 10 + 10 = 20\n\\]\n\nSince both calculations yield the same result, our solution is verified.\n\n[Final Answer] The answer is 10  \n#### 10",
+        "I don't know the answer to this question, sorry."
+    ],
+    "ground_truth_hints": "",
+    "hints_prompt": "Question: When $A$ is doubled, the new value is 10 more than $A$. What is the value of $A$?\nCould you provide me with the thought process to solve this problem, but please don’t give me the answer or calculation, just the thought process?",
+    "to_explore": [
+        "[reasoning process] Let \\( A \\) be the original value. According to the problem, when \\( A \\) is doubled, the new value can be expressed as \\( 2A \\). The statement further indicates that this new value is 10 more than \\( A \\). This gives us the equation:\n\n\\[\n2A = A + 10\n\\]\n\nTo solve for \\( A \\), we subtract \\( A \\) from both sides:\n\n\\[\n2A - A = 10 \\\\\nA = 10\n\\]\n\nNow that we have determined the value of \\( A \\), let’s verify the solution.\n\n[Verification] If \\( A = 10 \\), then when we double \\( A \\), we calculate:\n\n\\[\n2A = 2 \\times 10 = 20\n\\]\n\nNow, we check if this value is indeed 10 more than \\( A \\):\n\n\\[\nA + 10 = 10 + 10 = 20\n\\]\n\nSince both calculations yield the same result, our solution is verified.\n\n[Final Answer] The answer is 10  \n#### 10",
+        "I don't know the answer to this question, sorry."
+    ],
+    "to_explore_reward": {
+        "[reasoning process] Let \\( A \\) be the original value. According to the problem, when \\( A \\) is doubled, the new value can be expressed as \\( 2A \\). The statement further indicates that this new value is 10 more than \\( A \\). This gives us the equation:\n\n\\[\n2A = A + 10\n\\]\n\nTo solve for \\( A \\), we subtract \\( A \\) from both sides:\n\n\\[\n2A - A = 10 \\\\\nA = 10\n\\]\n\nNow that we have determined the value of \\( A \\), let’s verify the solution.\n\n[Verification] If \\( A = 10 \\), then when we double \\( A \\), we calculate:\n\n\\[\n2A = 2 \\times 10 = 20\n\\]\n\nNow, we check if this value is indeed 10 more than \\( A \\):\n\n\\[\nA + 10 = 10 + 10 = 20\n\\]\n\nSince both calculations yield the same result, our solution is verified.\n\n[Final Answer] The answer is 10  \n#### 10": [
+            80.0
+        ],
+        "I don't know the answer to this question, sorry.": [
+            -75.0
+        ]
+    },
+    "hints_bank": {},
+    "history_bank": {
+        "[reasoning process] Let \\( A \\) be the original value. According to the problem, when \\( A \\) is doubled, the new value can be expressed as \\( 2A \\). The statement further indicates that this new value is 10 more than \\( A \\). This gives us the equation:\n\n\\[\n2A = A + 10\n\\]\n\nTo solve for \\( A \\), we subtract \\( A \\) from both sides:\n\n\\[\n2A - A = 10 \\\\\nA = 10\n\\]\n\nNow that we have determined the value of \\( A \\), let’s verify the solution.\n\n[Verification] If \\( A = 10 \\), then when we double \\( A \\), we calculate:\n\n\\[\n2A = 2 \\times 10 = 20\n\\]\n\nNow, we check if this value is indeed 10 more than \\( A \\):\n\n\\[\nA + 10 = 10 + 10 = 20\n\\]\n\nSince both calculations yield the same result, our solution is verified.\n\n[Final Answer] The answer is 10  \n#### 10": [
+            "Question: When $A$ is doubled, the new value is 10 more than $A$. What is the value of $A$?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [number] \\n#### [number]\"\nLet's think step by step.",
+            "[reasoning process] Let \\( A \\) be the original value. According to the problem, when \\( A \\) is doubled, the new value can be expressed as \\( 2A \\). The statement further indicates that this new value is 10 more than \\( A \\). This gives us the equation:\n\n\\[\n2A = A + 10\n\\]\n\nTo solve for \\( A \\), we subtract \\( A \\) from both sides:\n\n\\[\n2A - A = 10 \\\\\nA = 10\n\\]\n\nNow that we have determined the value of \\( A \\), let’s verify the solution.\n\n[Verification] If \\( A = 10 \\), then when we double \\( A \\), we calculate:\n\n\\[\n2A = 2 \\times 10 = 20\n\\]\n\nNow, we check if this value is indeed 10 more than \\( A \\):\n\n\\[\nA + 10 = 10 + 10 = 20\n\\]\n\nSince both calculations yield the same result, our solution is verified.\n\n[Final Answer] The answer is 10  \n#### 10"
+        ],
+        "I don't know the answer to this question, sorry.": [
+            "Question: When $A$ is doubled, the new value is 10 more than $A$. What is the value of $A$?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [number] \\n#### [number]\"\nLet's think step by step.",
+            "I don't know the answer to this question, sorry."
+        ]
+    },
+    "hints_reward_imp_bank": {},
+    "fathers": {
+        "[reasoning process] Let \\( A \\) be the original value. According to the problem, when \\( A \\) is doubled, the new value can be expressed as \\( 2A \\). The statement further indicates that this new value is 10 more than \\( A \\). This gives us the equation:\n\n\\[\n2A = A + 10\n\\]\n\nTo solve for \\( A \\), we subtract \\( A \\) from both sides:\n\n\\[\n2A - A = 10 \\\\\nA = 10\n\\]\n\nNow that we have determined the value of \\( A \\), let’s verify the solution.\n\n[Verification] If \\( A = 10 \\), then when we double \\( A \\), we calculate:\n\n\\[\n2A = 2 \\times 10 = 20\n\\]\n\nNow, we check if this value is indeed 10 more than \\( A \\):\n\n\\[\nA + 10 = 10 + 10 = 20\n\\]\n\nSince both calculations yield the same result, our solution is verified.\n\n[Final Answer] The answer is 10  \n#### 10": null,
+        "I don't know the answer to this question, sorry.": null
+    },
+    "childs": {
+        "[reasoning process] Let \\( A \\) be the original value. According to the problem, when \\( A \\) is doubled, the new value can be expressed as \\( 2A \\). The statement further indicates that this new value is 10 more than \\( A \\). This gives us the equation:\n\n\\[\n2A = A + 10\n\\]\n\nTo solve for \\( A \\), we subtract \\( A \\) from both sides:\n\n\\[\n2A - A = 10 \\\\\nA = 10\n\\]\n\nNow that we have determined the value of \\( A \\), let’s verify the solution.\n\n[Verification] If \\( A = 10 \\), then when we double \\( A \\), we calculate:\n\n\\[\n2A = 2 \\times 10 = 20\n\\]\n\nNow, we check if this value is indeed 10 more than \\( A \\):\n\n\\[\nA + 10 = 10 + 10 = 20\n\\]\n\nSince both calculations yield the same result, our solution is verified.\n\n[Final Answer] The answer is 10  \n#### 10": [],
+        "I don't know the answer to this question, sorry.": []
+    },
+    "ucb_bank": {}
+}

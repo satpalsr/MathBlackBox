@@ -1,0 +1,44 @@
+{
+    "query": "What is the measure, in degrees, of the supplement of an angle measuring $50$ degrees?",
+    "ground_truth": "Two supplementary angles add up to 180 degrees. Thus the supplement of 50 degrees is $180-50=\\boxed{130}$ degrees.",
+    "hints_list": [],
+    "answers_list": [
+        "[reasoning process] To find the supplement of an angle, we use the fact that the sum of an angle and its supplement is always \\(180\\) degrees. Given that the angle measures \\(50\\) degrees, we can set up the equation:\n\n\\[\n\\text{Supplement} = 180^\\circ - \\text{Angle}\n\\]\n\nSubstituting the angle measurement:\n\n\\[\n\\text{Supplement} = 180^\\circ - 50^\\circ\n\\]\n\nNow, we perform the subtraction:\n\n\\[\n\\text{Supplement} = 130^\\circ\n\\]\n\n[Verification] To verify, we can check that the angle and its supplement add up to \\(180\\) degrees:\n\n\\[\n50^\\circ + 130^\\circ = 180^\\circ\n\\]\n\nSince the two angles sum to \\(180\\) degrees, our calculation is confirmed to be correct.\n\n[Final Answer] The answer is 130  \n#### 130",
+        "I don't know the answer to this question."
+    ],
+    "ground_truth_hints": "",
+    "hints_prompt": "Question: What is the measure, in degrees, of the supplement of an angle measuring $50$ degrees?\nCould you provide me with the thought process to solve this problem, but please don’t give me the answer or calculation, just the thought process?",
+    "to_explore": [
+        "[reasoning process] To find the supplement of an angle, we use the fact that the sum of an angle and its supplement is always \\(180\\) degrees. Given that the angle measures \\(50\\) degrees, we can set up the equation:\n\n\\[\n\\text{Supplement} = 180^\\circ - \\text{Angle}\n\\]\n\nSubstituting the angle measurement:\n\n\\[\n\\text{Supplement} = 180^\\circ - 50^\\circ\n\\]\n\nNow, we perform the subtraction:\n\n\\[\n\\text{Supplement} = 130^\\circ\n\\]\n\n[Verification] To verify, we can check that the angle and its supplement add up to \\(180\\) degrees:\n\n\\[\n50^\\circ + 130^\\circ = 180^\\circ\n\\]\n\nSince the two angles sum to \\(180\\) degrees, our calculation is confirmed to be correct.\n\n[Final Answer] The answer is 130  \n#### 130",
+        "I don't know the answer to this question."
+    ],
+    "to_explore_reward": {
+        "[reasoning process] To find the supplement of an angle, we use the fact that the sum of an angle and its supplement is always \\(180\\) degrees. Given that the angle measures \\(50\\) degrees, we can set up the equation:\n\n\\[\n\\text{Supplement} = 180^\\circ - \\text{Angle}\n\\]\n\nSubstituting the angle measurement:\n\n\\[\n\\text{Supplement} = 180^\\circ - 50^\\circ\n\\]\n\nNow, we perform the subtraction:\n\n\\[\n\\text{Supplement} = 130^\\circ\n\\]\n\n[Verification] To verify, we can check that the angle and its supplement add up to \\(180\\) degrees:\n\n\\[\n50^\\circ + 130^\\circ = 180^\\circ\n\\]\n\nSince the two angles sum to \\(180\\) degrees, our calculation is confirmed to be correct.\n\n[Final Answer] The answer is 130  \n#### 130": [
+            80.0
+        ],
+        "I don't know the answer to this question.": [
+            -90.0
+        ]
+    },
+    "hints_bank": {},
+    "history_bank": {
+        "[reasoning process] To find the supplement of an angle, we use the fact that the sum of an angle and its supplement is always \\(180\\) degrees. Given that the angle measures \\(50\\) degrees, we can set up the equation:\n\n\\[\n\\text{Supplement} = 180^\\circ - \\text{Angle}\n\\]\n\nSubstituting the angle measurement:\n\n\\[\n\\text{Supplement} = 180^\\circ - 50^\\circ\n\\]\n\nNow, we perform the subtraction:\n\n\\[\n\\text{Supplement} = 130^\\circ\n\\]\n\n[Verification] To verify, we can check that the angle and its supplement add up to \\(180\\) degrees:\n\n\\[\n50^\\circ + 130^\\circ = 180^\\circ\n\\]\n\nSince the two angles sum to \\(180\\) degrees, our calculation is confirmed to be correct.\n\n[Final Answer] The answer is 130  \n#### 130": [
+            "Question: What is the measure, in degrees, of the supplement of an angle measuring $50$ degrees?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [number] \\n#### [number]\"\nLet's think step by step.",
+            "[reasoning process] To find the supplement of an angle, we use the fact that the sum of an angle and its supplement is always \\(180\\) degrees. Given that the angle measures \\(50\\) degrees, we can set up the equation:\n\n\\[\n\\text{Supplement} = 180^\\circ - \\text{Angle}\n\\]\n\nSubstituting the angle measurement:\n\n\\[\n\\text{Supplement} = 180^\\circ - 50^\\circ\n\\]\n\nNow, we perform the subtraction:\n\n\\[\n\\text{Supplement} = 130^\\circ\n\\]\n\n[Verification] To verify, we can check that the angle and its supplement add up to \\(180\\) degrees:\n\n\\[\n50^\\circ + 130^\\circ = 180^\\circ\n\\]\n\nSince the two angles sum to \\(180\\) degrees, our calculation is confirmed to be correct.\n\n[Final Answer] The answer is 130  \n#### 130"
+        ],
+        "I don't know the answer to this question.": [
+            "Question: What is the measure, in degrees, of the supplement of an angle measuring $50$ degrees?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [number] \\n#### [number]\"\nLet's think step by step.",
+            "I don't know the answer to this question."
+        ]
+    },
+    "hints_reward_imp_bank": {},
+    "fathers": {
+        "[reasoning process] To find the supplement of an angle, we use the fact that the sum of an angle and its supplement is always \\(180\\) degrees. Given that the angle measures \\(50\\) degrees, we can set up the equation:\n\n\\[\n\\text{Supplement} = 180^\\circ - \\text{Angle}\n\\]\n\nSubstituting the angle measurement:\n\n\\[\n\\text{Supplement} = 180^\\circ - 50^\\circ\n\\]\n\nNow, we perform the subtraction:\n\n\\[\n\\text{Supplement} = 130^\\circ\n\\]\n\n[Verification] To verify, we can check that the angle and its supplement add up to \\(180\\) degrees:\n\n\\[\n50^\\circ + 130^\\circ = 180^\\circ\n\\]\n\nSince the two angles sum to \\(180\\) degrees, our calculation is confirmed to be correct.\n\n[Final Answer] The answer is 130  \n#### 130": null,
+        "I don't know the answer to this question.": null
+    },
+    "childs": {
+        "[reasoning process] To find the supplement of an angle, we use the fact that the sum of an angle and its supplement is always \\(180\\) degrees. Given that the angle measures \\(50\\) degrees, we can set up the equation:\n\n\\[\n\\text{Supplement} = 180^\\circ - \\text{Angle}\n\\]\n\nSubstituting the angle measurement:\n\n\\[\n\\text{Supplement} = 180^\\circ - 50^\\circ\n\\]\n\nNow, we perform the subtraction:\n\n\\[\n\\text{Supplement} = 130^\\circ\n\\]\n\n[Verification] To verify, we can check that the angle and its supplement add up to \\(180\\) degrees:\n\n\\[\n50^\\circ + 130^\\circ = 180^\\circ\n\\]\n\nSince the two angles sum to \\(180\\) degrees, our calculation is confirmed to be correct.\n\n[Final Answer] The answer is 130  \n#### 130": [],
+        "I don't know the answer to this question.": []
+    },
+    "ucb_bank": {}
+}

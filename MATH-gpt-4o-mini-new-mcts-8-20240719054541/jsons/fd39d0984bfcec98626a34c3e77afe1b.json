@@ -1,0 +1,44 @@
+{
+    "query": "What is the sum of 26 and 52, rounded to the nearest ten?",
+    "ground_truth": "We want to find the sum of $26$ and $52$, or $26+52$ and round that number to the nearest ten. We get $26+52=78$. Rounding $78$ to the nearest ten we get $\\boxed{80}$.",
+    "hints_list": [],
+    "answers_list": [
+        "[reasoning process] To find the sum of 26 and 52, we first add the two numbers together. \n\n26 + 52 = 78.\n\nNext, we need to round 78 to the nearest ten. The tens surrounding 78 are 70 and 80. Since 78 is closer to 80 than it is to 70 (as it is more than halfway between the two), we round it up to 80.\n\n[Verification] Adding the numbers: \n26 + 52 = 78. \n\nNow for rounding: \nWhen rounding 78 to the nearest ten, we look at the digit in the units place, which is 8. Since 8 is greater than 5, we round up. Thus, 78 rounds up to 80.\n\n[Final Answer] The answer is 80 \\n#### 80",
+        "I Don't Know"
+    ],
+    "ground_truth_hints": "",
+    "hints_prompt": "Question: What is the sum of 26 and 52, rounded to the nearest ten?\nCould you provide me with the thought process to solve this problem, but please don’t give me the answer or calculation, just the thought process?",
+    "to_explore": [
+        "[reasoning process] To find the sum of 26 and 52, we first add the two numbers together. \n\n26 + 52 = 78.\n\nNext, we need to round 78 to the nearest ten. The tens surrounding 78 are 70 and 80. Since 78 is closer to 80 than it is to 70 (as it is more than halfway between the two), we round it up to 80.\n\n[Verification] Adding the numbers: \n26 + 52 = 78. \n\nNow for rounding: \nWhen rounding 78 to the nearest ten, we look at the digit in the units place, which is 8. Since 8 is greater than 5, we round up. Thus, 78 rounds up to 80.\n\n[Final Answer] The answer is 80 \\n#### 80",
+        "I Don't Know"
+    ],
+    "to_explore_reward": {
+        "[reasoning process] To find the sum of 26 and 52, we first add the two numbers together. \n\n26 + 52 = 78.\n\nNext, we need to round 78 to the nearest ten. The tens surrounding 78 are 70 and 80. Since 78 is closer to 80 than it is to 70 (as it is more than halfway between the two), we round it up to 80.\n\n[Verification] Adding the numbers: \n26 + 52 = 78. \n\nNow for rounding: \nWhen rounding 78 to the nearest ten, we look at the digit in the units place, which is 8. Since 8 is greater than 5, we round up. Thus, 78 rounds up to 80.\n\n[Final Answer] The answer is 80 \\n#### 80": [
+            70.0
+        ],
+        "I Don't Know": [
+            -80.0
+        ]
+    },
+    "hints_bank": {},
+    "history_bank": {
+        "[reasoning process] To find the sum of 26 and 52, we first add the two numbers together. \n\n26 + 52 = 78.\n\nNext, we need to round 78 to the nearest ten. The tens surrounding 78 are 70 and 80. Since 78 is closer to 80 than it is to 70 (as it is more than halfway between the two), we round it up to 80.\n\n[Verification] Adding the numbers: \n26 + 52 = 78. \n\nNow for rounding: \nWhen rounding 78 to the nearest ten, we look at the digit in the units place, which is 8. Since 8 is greater than 5, we round up. Thus, 78 rounds up to 80.\n\n[Final Answer] The answer is 80 \\n#### 80": [
+            "Question: What is the sum of 26 and 52, rounded to the nearest ten?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [number] \\n#### [number]\"\nLet's think step by step.",
+            "[reasoning process] To find the sum of 26 and 52, we first add the two numbers together. \n\n26 + 52 = 78.\n\nNext, we need to round 78 to the nearest ten. The tens surrounding 78 are 70 and 80. Since 78 is closer to 80 than it is to 70 (as it is more than halfway between the two), we round it up to 80.\n\n[Verification] Adding the numbers: \n26 + 52 = 78. \n\nNow for rounding: \nWhen rounding 78 to the nearest ten, we look at the digit in the units place, which is 8. Since 8 is greater than 5, we round up. Thus, 78 rounds up to 80.\n\n[Final Answer] The answer is 80 \\n#### 80"
+        ],
+        "I Don't Know": [
+            "Question: What is the sum of 26 and 52, rounded to the nearest ten?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [number] \\n#### [number]\"\nLet's think step by step.",
+            "I Don't Know"
+        ]
+    },
+    "hints_reward_imp_bank": {},
+    "fathers": {
+        "[reasoning process] To find the sum of 26 and 52, we first add the two numbers together. \n\n26 + 52 = 78.\n\nNext, we need to round 78 to the nearest ten. The tens surrounding 78 are 70 and 80. Since 78 is closer to 80 than it is to 70 (as it is more than halfway between the two), we round it up to 80.\n\n[Verification] Adding the numbers: \n26 + 52 = 78. \n\nNow for rounding: \nWhen rounding 78 to the nearest ten, we look at the digit in the units place, which is 8. Since 8 is greater than 5, we round up. Thus, 78 rounds up to 80.\n\n[Final Answer] The answer is 80 \\n#### 80": null,
+        "I Don't Know": null
+    },
+    "childs": {
+        "[reasoning process] To find the sum of 26 and 52, we first add the two numbers together. \n\n26 + 52 = 78.\n\nNext, we need to round 78 to the nearest ten. The tens surrounding 78 are 70 and 80. Since 78 is closer to 80 than it is to 70 (as it is more than halfway between the two), we round it up to 80.\n\n[Verification] Adding the numbers: \n26 + 52 = 78. \n\nNow for rounding: \nWhen rounding 78 to the nearest ten, we look at the digit in the units place, which is 8. Since 8 is greater than 5, we round up. Thus, 78 rounds up to 80.\n\n[Final Answer] The answer is 80 \\n#### 80": [],
+        "I Don't Know": []
+    },
+    "ucb_bank": {}
+}

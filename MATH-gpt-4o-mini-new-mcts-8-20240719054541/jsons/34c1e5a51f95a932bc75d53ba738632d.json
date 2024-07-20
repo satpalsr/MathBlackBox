@@ -1,0 +1,44 @@
+{
+    "query": "Compute: $113+276-13-26$.",
+    "ground_truth": "First notice that $113-13=100$ and $276-26=250$.  By the commutative property, we can rewrite our expression as: $$113+276-13-26=113-13+276-26=100+250=\\boxed{350}$$",
+    "hints_list": [],
+    "answers_list": [
+        "[reasoning process] To compute the expression \\(113 + 276 - 13 - 26\\), we will perform the addition and subtraction in the order presented. \n\nStep 1: Start with the first two numbers:\n\\[\n113 + 276 = 389\n\\]\n\nStep 2: Now, subtract 13 from the result:\n\\[\n389 - 13 = 376\n\\]\n\nStep 3: Finally, subtract 26 from the last result:\n\\[\n376 - 26 = 350\n\\]\n\nNow, since we have computed this step-by-step, we will verify the final result by checking each arithmetic operation one more time.\n\n[Verification] Let’s verify by recalculating each step:\n1. \\(113 + 276 = 389\\) is correct.\n2. \\(389 - 13 = 376\\) is correct.\n3. \\(376 - 26 = 350\\) is correct.\n\nEach calculation has been verified and is correct.\n\n[Final Answer] The answer is 350 \\n#### 350",
+        "I Don't Know"
+    ],
+    "ground_truth_hints": "",
+    "hints_prompt": "Question: Compute: $113+276-13-26$.\nCould you provide me with the thought process to solve this problem, but please don’t give me the answer or calculation, just the thought process?",
+    "to_explore": [
+        "[reasoning process] To compute the expression \\(113 + 276 - 13 - 26\\), we will perform the addition and subtraction in the order presented. \n\nStep 1: Start with the first two numbers:\n\\[\n113 + 276 = 389\n\\]\n\nStep 2: Now, subtract 13 from the result:\n\\[\n389 - 13 = 376\n\\]\n\nStep 3: Finally, subtract 26 from the last result:\n\\[\n376 - 26 = 350\n\\]\n\nNow, since we have computed this step-by-step, we will verify the final result by checking each arithmetic operation one more time.\n\n[Verification] Let’s verify by recalculating each step:\n1. \\(113 + 276 = 389\\) is correct.\n2. \\(389 - 13 = 376\\) is correct.\n3. \\(376 - 26 = 350\\) is correct.\n\nEach calculation has been verified and is correct.\n\n[Final Answer] The answer is 350 \\n#### 350",
+        "I Don't Know"
+    ],
+    "to_explore_reward": {
+        "[reasoning process] To compute the expression \\(113 + 276 - 13 - 26\\), we will perform the addition and subtraction in the order presented. \n\nStep 1: Start with the first two numbers:\n\\[\n113 + 276 = 389\n\\]\n\nStep 2: Now, subtract 13 from the result:\n\\[\n389 - 13 = 376\n\\]\n\nStep 3: Finally, subtract 26 from the last result:\n\\[\n376 - 26 = 350\n\\]\n\nNow, since we have computed this step-by-step, we will verify the final result by checking each arithmetic operation one more time.\n\n[Verification] Let’s verify by recalculating each step:\n1. \\(113 + 276 = 389\\) is correct.\n2. \\(389 - 13 = 376\\) is correct.\n3. \\(376 - 26 = 350\\) is correct.\n\nEach calculation has been verified and is correct.\n\n[Final Answer] The answer is 350 \\n#### 350": [
+            85.0
+        ],
+        "I Don't Know": [
+            -95.0
+        ]
+    },
+    "hints_bank": {},
+    "history_bank": {
+        "[reasoning process] To compute the expression \\(113 + 276 - 13 - 26\\), we will perform the addition and subtraction in the order presented. \n\nStep 1: Start with the first two numbers:\n\\[\n113 + 276 = 389\n\\]\n\nStep 2: Now, subtract 13 from the result:\n\\[\n389 - 13 = 376\n\\]\n\nStep 3: Finally, subtract 26 from the last result:\n\\[\n376 - 26 = 350\n\\]\n\nNow, since we have computed this step-by-step, we will verify the final result by checking each arithmetic operation one more time.\n\n[Verification] Let’s verify by recalculating each step:\n1. \\(113 + 276 = 389\\) is correct.\n2. \\(389 - 13 = 376\\) is correct.\n3. \\(376 - 26 = 350\\) is correct.\n\nEach calculation has been verified and is correct.\n\n[Final Answer] The answer is 350 \\n#### 350": [
+            "Question: Compute: $113+276-13-26$.\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [number] \\n#### [number]\"\nLet's think step by step.",
+            "[reasoning process] To compute the expression \\(113 + 276 - 13 - 26\\), we will perform the addition and subtraction in the order presented. \n\nStep 1: Start with the first two numbers:\n\\[\n113 + 276 = 389\n\\]\n\nStep 2: Now, subtract 13 from the result:\n\\[\n389 - 13 = 376\n\\]\n\nStep 3: Finally, subtract 26 from the last result:\n\\[\n376 - 26 = 350\n\\]\n\nNow, since we have computed this step-by-step, we will verify the final result by checking each arithmetic operation one more time.\n\n[Verification] Let’s verify by recalculating each step:\n1. \\(113 + 276 = 389\\) is correct.\n2. \\(389 - 13 = 376\\) is correct.\n3. \\(376 - 26 = 350\\) is correct.\n\nEach calculation has been verified and is correct.\n\n[Final Answer] The answer is 350 \\n#### 350"
+        ],
+        "I Don't Know": [
+            "Question: Compute: $113+276-13-26$.\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [number] \\n#### [number]\"\nLet's think step by step.",
+            "I Don't Know"
+        ]
+    },
+    "hints_reward_imp_bank": {},
+    "fathers": {
+        "[reasoning process] To compute the expression \\(113 + 276 - 13 - 26\\), we will perform the addition and subtraction in the order presented. \n\nStep 1: Start with the first two numbers:\n\\[\n113 + 276 = 389\n\\]\n\nStep 2: Now, subtract 13 from the result:\n\\[\n389 - 13 = 376\n\\]\n\nStep 3: Finally, subtract 26 from the last result:\n\\[\n376 - 26 = 350\n\\]\n\nNow, since we have computed this step-by-step, we will verify the final result by checking each arithmetic operation one more time.\n\n[Verification] Let’s verify by recalculating each step:\n1. \\(113 + 276 = 389\\) is correct.\n2. \\(389 - 13 = 376\\) is correct.\n3. \\(376 - 26 = 350\\) is correct.\n\nEach calculation has been verified and is correct.\n\n[Final Answer] The answer is 350 \\n#### 350": null,
+        "I Don't Know": null
+    },
+    "childs": {
+        "[reasoning process] To compute the expression \\(113 + 276 - 13 - 26\\), we will perform the addition and subtraction in the order presented. \n\nStep 1: Start with the first two numbers:\n\\[\n113 + 276 = 389\n\\]\n\nStep 2: Now, subtract 13 from the result:\n\\[\n389 - 13 = 376\n\\]\n\nStep 3: Finally, subtract 26 from the last result:\n\\[\n376 - 26 = 350\n\\]\n\nNow, since we have computed this step-by-step, we will verify the final result by checking each arithmetic operation one more time.\n\n[Verification] Let’s verify by recalculating each step:\n1. \\(113 + 276 = 389\\) is correct.\n2. \\(389 - 13 = 376\\) is correct.\n3. \\(376 - 26 = 350\\) is correct.\n\nEach calculation has been verified and is correct.\n\n[Final Answer] The answer is 350 \\n#### 350": [],
+        "I Don't Know": []
+    },
+    "ucb_bank": {}
+}

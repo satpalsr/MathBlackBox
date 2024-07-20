@@ -1,0 +1,44 @@
+{
+    "query": "Ten more than five times a number equals five more than ten times the number. What is the number?",
+    "ground_truth": "If the number is $x$, then we have  $5x+10=10x+5$.  Subtracting 5 and $5x$ from both sides gives $5=5x$, so $x=\\boxed{1}$.",
+    "hints_list": [],
+    "answers_list": [
+        "[reasoning process] Let's denote the unknown number as \\( x \\). According to the problem, we have the equation:\n\n\\[\n5x + 10 = 10x + 5\n\\]\n\nNext, we'll rearrange the equation to isolate \\( x \\). First, we'll subtract \\( 5x \\) from both sides:\n\n\\[\n10 = 5x + 5\n\\]\n\nNow, we will subtract 5 from both sides:\n\n\\[\n5 = 5x\n\\]\n\nFinally, we divide both sides by 5:\n\n\\[\nx = 1\n\\]\n\n[Verification] To verify the solution, we substitute \\( x = 1 \\) back into the original equation:\n\nFor the left side: \n\n\\[\n5(1) + 10 = 5 + 10 = 15\n\\]\n\nFor the right side:\n\n\\[\n10(1) + 5 = 10 + 5 = 15\n\\]\n\nSince both sides equal 15, our solution is verified.\n\n[Final Answer] The answer is 1 \\n#### 1",
+        "I don't know how to solve this question."
+    ],
+    "ground_truth_hints": "",
+    "hints_prompt": "Question: Ten more than five times a number equals five more than ten times the number. What is the number?\nCould you provide me with the thought process to solve this problem, but please don’t give me the answer or calculation, just the thought process?",
+    "to_explore": [
+        "[reasoning process] Let's denote the unknown number as \\( x \\). According to the problem, we have the equation:\n\n\\[\n5x + 10 = 10x + 5\n\\]\n\nNext, we'll rearrange the equation to isolate \\( x \\). First, we'll subtract \\( 5x \\) from both sides:\n\n\\[\n10 = 5x + 5\n\\]\n\nNow, we will subtract 5 from both sides:\n\n\\[\n5 = 5x\n\\]\n\nFinally, we divide both sides by 5:\n\n\\[\nx = 1\n\\]\n\n[Verification] To verify the solution, we substitute \\( x = 1 \\) back into the original equation:\n\nFor the left side: \n\n\\[\n5(1) + 10 = 5 + 10 = 15\n\\]\n\nFor the right side:\n\n\\[\n10(1) + 5 = 10 + 5 = 15\n\\]\n\nSince both sides equal 15, our solution is verified.\n\n[Final Answer] The answer is 1 \\n#### 1",
+        "I don't know how to solve this question."
+    ],
+    "to_explore_reward": {
+        "[reasoning process] Let's denote the unknown number as \\( x \\). According to the problem, we have the equation:\n\n\\[\n5x + 10 = 10x + 5\n\\]\n\nNext, we'll rearrange the equation to isolate \\( x \\). First, we'll subtract \\( 5x \\) from both sides:\n\n\\[\n10 = 5x + 5\n\\]\n\nNow, we will subtract 5 from both sides:\n\n\\[\n5 = 5x\n\\]\n\nFinally, we divide both sides by 5:\n\n\\[\nx = 1\n\\]\n\n[Verification] To verify the solution, we substitute \\( x = 1 \\) back into the original equation:\n\nFor the left side: \n\n\\[\n5(1) + 10 = 5 + 10 = 15\n\\]\n\nFor the right side:\n\n\\[\n10(1) + 5 = 10 + 5 = 15\n\\]\n\nSince both sides equal 15, our solution is verified.\n\n[Final Answer] The answer is 1 \\n#### 1": [
+            70.0
+        ],
+        "I don't know how to solve this question.": [
+            -85.0
+        ]
+    },
+    "hints_bank": {},
+    "history_bank": {
+        "[reasoning process] Let's denote the unknown number as \\( x \\). According to the problem, we have the equation:\n\n\\[\n5x + 10 = 10x + 5\n\\]\n\nNext, we'll rearrange the equation to isolate \\( x \\). First, we'll subtract \\( 5x \\) from both sides:\n\n\\[\n10 = 5x + 5\n\\]\n\nNow, we will subtract 5 from both sides:\n\n\\[\n5 = 5x\n\\]\n\nFinally, we divide both sides by 5:\n\n\\[\nx = 1\n\\]\n\n[Verification] To verify the solution, we substitute \\( x = 1 \\) back into the original equation:\n\nFor the left side: \n\n\\[\n5(1) + 10 = 5 + 10 = 15\n\\]\n\nFor the right side:\n\n\\[\n10(1) + 5 = 10 + 5 = 15\n\\]\n\nSince both sides equal 15, our solution is verified.\n\n[Final Answer] The answer is 1 \\n#### 1": [
+            "Question: Ten more than five times a number equals five more than ten times the number. What is the number?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [number] \\n#### [number]\"\nLet's think step by step.",
+            "[reasoning process] Let's denote the unknown number as \\( x \\). According to the problem, we have the equation:\n\n\\[\n5x + 10 = 10x + 5\n\\]\n\nNext, we'll rearrange the equation to isolate \\( x \\). First, we'll subtract \\( 5x \\) from both sides:\n\n\\[\n10 = 5x + 5\n\\]\n\nNow, we will subtract 5 from both sides:\n\n\\[\n5 = 5x\n\\]\n\nFinally, we divide both sides by 5:\n\n\\[\nx = 1\n\\]\n\n[Verification] To verify the solution, we substitute \\( x = 1 \\) back into the original equation:\n\nFor the left side: \n\n\\[\n5(1) + 10 = 5 + 10 = 15\n\\]\n\nFor the right side:\n\n\\[\n10(1) + 5 = 10 + 5 = 15\n\\]\n\nSince both sides equal 15, our solution is verified.\n\n[Final Answer] The answer is 1 \\n#### 1"
+        ],
+        "I don't know how to solve this question.": [
+            "Question: Ten more than five times a number equals five more than ten times the number. What is the number?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [number] \\n#### [number]\"\nLet's think step by step.",
+            "I don't know how to solve this question."
+        ]
+    },
+    "hints_reward_imp_bank": {},
+    "fathers": {
+        "[reasoning process] Let's denote the unknown number as \\( x \\). According to the problem, we have the equation:\n\n\\[\n5x + 10 = 10x + 5\n\\]\n\nNext, we'll rearrange the equation to isolate \\( x \\). First, we'll subtract \\( 5x \\) from both sides:\n\n\\[\n10 = 5x + 5\n\\]\n\nNow, we will subtract 5 from both sides:\n\n\\[\n5 = 5x\n\\]\n\nFinally, we divide both sides by 5:\n\n\\[\nx = 1\n\\]\n\n[Verification] To verify the solution, we substitute \\( x = 1 \\) back into the original equation:\n\nFor the left side: \n\n\\[\n5(1) + 10 = 5 + 10 = 15\n\\]\n\nFor the right side:\n\n\\[\n10(1) + 5 = 10 + 5 = 15\n\\]\n\nSince both sides equal 15, our solution is verified.\n\n[Final Answer] The answer is 1 \\n#### 1": null,
+        "I don't know how to solve this question.": null
+    },
+    "childs": {
+        "[reasoning process] Let's denote the unknown number as \\( x \\). According to the problem, we have the equation:\n\n\\[\n5x + 10 = 10x + 5\n\\]\n\nNext, we'll rearrange the equation to isolate \\( x \\). First, we'll subtract \\( 5x \\) from both sides:\n\n\\[\n10 = 5x + 5\n\\]\n\nNow, we will subtract 5 from both sides:\n\n\\[\n5 = 5x\n\\]\n\nFinally, we divide both sides by 5:\n\n\\[\nx = 1\n\\]\n\n[Verification] To verify the solution, we substitute \\( x = 1 \\) back into the original equation:\n\nFor the left side: \n\n\\[\n5(1) + 10 = 5 + 10 = 15\n\\]\n\nFor the right side:\n\n\\[\n10(1) + 5 = 10 + 5 = 15\n\\]\n\nSince both sides equal 15, our solution is verified.\n\n[Final Answer] The answer is 1 \\n#### 1": [],
+        "I don't know how to solve this question.": []
+    },
+    "ucb_bank": {}
+}

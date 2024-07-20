@@ -1,0 +1,44 @@
+{
+    "query": "Shooting hoops for 30 minutes burns 150 calories. How many calories would Kendra burn shooting hoops if she shot hoops 30 minutes every day for one week?",
+    "ground_truth": "Since Kendra burns 150 calories every time she shoots hoops for 30 minutes, and she does this activity 7 times during the week, the total calories burned are $150 \\times 7 = \\boxed{1050}$ calories.",
+    "hints_list": [],
+    "answers_list": [
+        "[reasoning process]  \nTo determine how many calories Kendra would burn shooting hoops for one week, we first need to calculate the total number of 30-minute sessions she would have in a week. Since there are 7 days in a week and Kendra is shooting hoops every day, she will have 7 sessions.\n\nNext, we know that each 30-minute session burns 150 calories. Therefore, to find the total calories burned in one week, we can multiply the calories burned per session by the number of sessions:\n\nTotal calories burned in a week = calories burned per session × number of sessions  \nTotal calories burned in a week = 150 calories/session × 7 sessions\n\n[Verification]  \nCalculating that:  \n150 calories × 7 = 1050 calories.\n\nSo, we verify that shooting hoops every day for a week will indeed result in burning 1050 calories.\n\n[Final Answer] The answer is 1050  \n#### 1050",
+        "I don't know how to solve this question."
+    ],
+    "ground_truth_hints": "",
+    "hints_prompt": "Question: Shooting hoops for 30 minutes burns 150 calories. How many calories would Kendra burn shooting hoops if she shot hoops 30 minutes every day for one week?\nCould you provide me with the thought process to solve this problem, but please don’t give me the answer or calculation, just the thought process?",
+    "to_explore": [
+        "[reasoning process]  \nTo determine how many calories Kendra would burn shooting hoops for one week, we first need to calculate the total number of 30-minute sessions she would have in a week. Since there are 7 days in a week and Kendra is shooting hoops every day, she will have 7 sessions.\n\nNext, we know that each 30-minute session burns 150 calories. Therefore, to find the total calories burned in one week, we can multiply the calories burned per session by the number of sessions:\n\nTotal calories burned in a week = calories burned per session × number of sessions  \nTotal calories burned in a week = 150 calories/session × 7 sessions\n\n[Verification]  \nCalculating that:  \n150 calories × 7 = 1050 calories.\n\nSo, we verify that shooting hoops every day for a week will indeed result in burning 1050 calories.\n\n[Final Answer] The answer is 1050  \n#### 1050",
+        "I don't know how to solve this question."
+    ],
+    "to_explore_reward": {
+        "[reasoning process]  \nTo determine how many calories Kendra would burn shooting hoops for one week, we first need to calculate the total number of 30-minute sessions she would have in a week. Since there are 7 days in a week and Kendra is shooting hoops every day, she will have 7 sessions.\n\nNext, we know that each 30-minute session burns 150 calories. Therefore, to find the total calories burned in one week, we can multiply the calories burned per session by the number of sessions:\n\nTotal calories burned in a week = calories burned per session × number of sessions  \nTotal calories burned in a week = 150 calories/session × 7 sessions\n\n[Verification]  \nCalculating that:  \n150 calories × 7 = 1050 calories.\n\nSo, we verify that shooting hoops every day for a week will indeed result in burning 1050 calories.\n\n[Final Answer] The answer is 1050  \n#### 1050": [
+            40.0
+        ],
+        "I don't know how to solve this question.": [
+            -90.0
+        ]
+    },
+    "hints_bank": {},
+    "history_bank": {
+        "[reasoning process]  \nTo determine how many calories Kendra would burn shooting hoops for one week, we first need to calculate the total number of 30-minute sessions she would have in a week. Since there are 7 days in a week and Kendra is shooting hoops every day, she will have 7 sessions.\n\nNext, we know that each 30-minute session burns 150 calories. Therefore, to find the total calories burned in one week, we can multiply the calories burned per session by the number of sessions:\n\nTotal calories burned in a week = calories burned per session × number of sessions  \nTotal calories burned in a week = 150 calories/session × 7 sessions\n\n[Verification]  \nCalculating that:  \n150 calories × 7 = 1050 calories.\n\nSo, we verify that shooting hoops every day for a week will indeed result in burning 1050 calories.\n\n[Final Answer] The answer is 1050  \n#### 1050": [
+            "Question: Shooting hoops for 30 minutes burns 150 calories. How many calories would Kendra burn shooting hoops if she shot hoops 30 minutes every day for one week?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [number] \\n#### [number]\"\nLet's think step by step.",
+            "[reasoning process]  \nTo determine how many calories Kendra would burn shooting hoops for one week, we first need to calculate the total number of 30-minute sessions she would have in a week. Since there are 7 days in a week and Kendra is shooting hoops every day, she will have 7 sessions.\n\nNext, we know that each 30-minute session burns 150 calories. Therefore, to find the total calories burned in one week, we can multiply the calories burned per session by the number of sessions:\n\nTotal calories burned in a week = calories burned per session × number of sessions  \nTotal calories burned in a week = 150 calories/session × 7 sessions\n\n[Verification]  \nCalculating that:  \n150 calories × 7 = 1050 calories.\n\nSo, we verify that shooting hoops every day for a week will indeed result in burning 1050 calories.\n\n[Final Answer] The answer is 1050  \n#### 1050"
+        ],
+        "I don't know how to solve this question.": [
+            "Question: Shooting hoops for 30 minutes burns 150 calories. How many calories would Kendra burn shooting hoops if she shot hoops 30 minutes every day for one week?\nThe response should begin with [reasoning process]...[Verification]... and end with \"[Final Answer] The answer is [number] \\n#### [number]\"\nLet's think step by step.",
+            "I don't know how to solve this question."
+        ]
+    },
+    "hints_reward_imp_bank": {},
+    "fathers": {
+        "[reasoning process]  \nTo determine how many calories Kendra would burn shooting hoops for one week, we first need to calculate the total number of 30-minute sessions she would have in a week. Since there are 7 days in a week and Kendra is shooting hoops every day, she will have 7 sessions.\n\nNext, we know that each 30-minute session burns 150 calories. Therefore, to find the total calories burned in one week, we can multiply the calories burned per session by the number of sessions:\n\nTotal calories burned in a week = calories burned per session × number of sessions  \nTotal calories burned in a week = 150 calories/session × 7 sessions\n\n[Verification]  \nCalculating that:  \n150 calories × 7 = 1050 calories.\n\nSo, we verify that shooting hoops every day for a week will indeed result in burning 1050 calories.\n\n[Final Answer] The answer is 1050  \n#### 1050": null,
+        "I don't know how to solve this question.": null
+    },
+    "childs": {
+        "[reasoning process]  \nTo determine how many calories Kendra would burn shooting hoops for one week, we first need to calculate the total number of 30-minute sessions she would have in a week. Since there are 7 days in a week and Kendra is shooting hoops every day, she will have 7 sessions.\n\nNext, we know that each 30-minute session burns 150 calories. Therefore, to find the total calories burned in one week, we can multiply the calories burned per session by the number of sessions:\n\nTotal calories burned in a week = calories burned per session × number of sessions  \nTotal calories burned in a week = 150 calories/session × 7 sessions\n\n[Verification]  \nCalculating that:  \n150 calories × 7 = 1050 calories.\n\nSo, we verify that shooting hoops every day for a week will indeed result in burning 1050 calories.\n\n[Final Answer] The answer is 1050  \n#### 1050": [],
+        "I don't know how to solve this question.": []
+    },
+    "ucb_bank": {}
+}
